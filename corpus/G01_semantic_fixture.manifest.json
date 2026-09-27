@@ -1,0 +1,27 @@
+{
+  "fixture": "G01_semantic_fixture",
+  "features": {
+    "document_title": "A11yPreserve Golden Fixture",
+    "document_language": "en-US",
+    "headings": [
+      "H1",
+      "H2"
+    ],
+    "image_1.alt": "Bar chart showing enrollment increasing from 2021 to 2025",
+    "image_1.decorative": false,
+    "image_2.decorative": true,
+    "inline_language": {
+      "Informaci\u00f3n p\u00fablica": "es-MX"
+    },
+    "list_depths": [
+      0,
+      1,
+      0
+    ],
+    "table_header_scope": [
+      "col",
+      "col"
+    ]
+  },
+  "verification": "Ground truth authored independently of extractors; OOXML and HTML source inspected by hand."
+}
