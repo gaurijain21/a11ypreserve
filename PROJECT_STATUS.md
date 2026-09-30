@@ -24,4 +24,4 @@ Machine-specific runtimes, profiles, downloads, logs, caches, Python bytecode, a
 
 ## Current migration state
 
-The repository is being verified before its first normal consolidation commit on the existing `main` branch. The migration preserves the root Git metadata and remote; it does not rewrite history or force-push.
+Migration is complete. The consolidation commits `a6cc060` and `65c0ac0` are pushed to `origin/main`; the working tree is clean. The root Git metadata and remote were preserved, with no history rewrite or force-push.
