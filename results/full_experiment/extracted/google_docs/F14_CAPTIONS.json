@@ -1,0 +1,77 @@
+{
+  "format": "pdf",
+  "title": "F14_CAPTIONS",
+  "language": "en",
+  "document": {
+    "title": "F14_CAPTIONS",
+    "language": "en",
+    "metadata": {
+      "Title": "F14_CAPTIONS",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(12, 0, 2294780022224), '/Pg': IndirectObject(2, 0, 2294780022224), '/K': 0}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [
+    {
+      "identifier": "figure-1",
+      "alt": "A meaningful figure showing the benchmark workflow.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/Alt': 'A meaningful figure showing the benchmark workflow.', '/P': IndirectObject(15, 0, 2294780022224), '/Pg': IndirectObject(2, 0, 2294780022224), '/K': 4}"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "identifier": "figure-1",
+      "alt": "A meaningful figure showing the benchmark workflow.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/Alt': 'A meaningful figure showing the benchmark workflow.', '/P': IndirectObject(15, 0, 2294780022224), '/Pg': IndirectObject(2, 0, 2294780022224), '/K': 4}"
+      }
+    }
+  ],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [
+    {
+      "text": "Figure 1. Benchmark",
+      "association": "ordered page-text adjacency",
+      "evidence": {
+        "pdf_text": true,
+        "pdf_caption_role": false
+      }
+    }
+  ],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "A11yPreserve\n \nFigure\n \nCaption\n \nFixture\n \nThe\n \nfigure\n \nand\n \nits\n \ncaption\n \nform\n \none\n \nsource-level\n \nassociation.\n \n \nFigure\n \n1.\n \nBenchmark\n \nworkflow\n \noverview.\n \n",
+  "pdf_text": "A11yPreserve\n \nFigure\n \nCaption\n \nFixture\n \nThe\n \nfigure\n \nand\n \nits\n \ncaption\n \nform\n \none\n \nsource-level\n \nassociation.\n \n \nFigure\n \n1.\n \nBenchmark\n \nworkflow\n \noverview.\n \n",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F14_CAPTIONS__GOOGLE_DOCS.pdf"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "certificate_version": "source-oracle-v1",
+  "fixture_id": "F04_TABLE",
+  "feature": "table",
+  "source_path": "corpus/fixtures/F04_TABLE.docx",
+  "source_sha256": "a9d129f7409afb5a3d9363eba423fa85b5760466406538e331e72a1e12412a52",
+  "source_manifest_sha256": "595ec7e4176bbbe9af793c08c71c3de3563b43a7c04049582ea804765b7d353c",
+  "ooxml_parts": [
+    "word/document.xml",
+    "word/styles.xml",
+    "word/numbering.xml",
+    "docProps/core.xml"
+  ],
+  "xpath_or_element_assertions": {
+    "document": "w:document//w:p, w:tbl, w:hyperlink, w:footnoteReference, wp:docPr, m:oMath",
+    "feature": "table"
+  },
+  "expected": {
+    "tables": [
+      {
+        "dimensions": {
+          "rows": 4,
+          "columns": 3
+        },
+        "cells": [
+          [
+            "Year",
+            "Students",
+            "Completion Rate"
+          ],
+          [
+            "2024",
+            "120",
+            "82%"
+          ],
+          [
+            "2025",
+            "150",
+            "87%"
+          ],
+          [
+            "2026",
+            "180",
+            "91%"
+          ]
+        ],
+        "header_rows": [
+          0
+        ]
+      }
+    ]
+  },
+  "observed": {
+    "tables": [
+      {
+        "dimensions": {
+          "rows": 4,
+          "columns": 3
+        },
+        "cells": [
+          [
+            "Year",
+            "Students",
+            "Completion Rate"
+          ],
+          [
+            "2024",
+            "120",
+            "82%"
+          ],
+          [
+            "2025",
+            "150",
+            "87%"
+          ],
+          [
+            "2026",
+            "180",
+            "91%"
+          ]
+        ],
+        "header_rows": [
+          0
+        ]
+      }
+    ]
+  },
+  "raw_observations": {
+    "core": {
+      "title": "A11yPreserve Table Fixture",
+      "subject": "A11yPreserve controlled accessibility fixture",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "default_language": "en-US",
+    "language_values": [
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US"
+    ],
+    "headings": [],
+    "lists": [],
+    "inline_languages": [
+      {
+        "text": "A11yPreserve Table Fixture",
+        "language": "en-US"
+      },
+      {
+        "text": "The table reports enrollment and completion rate with the first row marked as a native Word header row.",
+        "language": "en-US"
+      },
+      {
+        "text": "Year",
+        "language": "en-US"
+      },
+      {
+        "text": "Students",
+        "language": "en-US"
+      },
+      {
+        "text": "Completion Rate",
+        "language": "en-US"
+      },
+      {
+        "text": "2024",
+        "language": "en-US"
+      },
+      {
+        "text": "120",
+        "language": "en-US"
+      },
+      {
+        "text": "82%",
+        "language": "en-US"
+      },
+      {
+        "text": "2025",
+        "language": "en-US"
+      },
+      {
+        "text": "150",
+        "language": "en-US"
+      },
+      {
+        "text": "87%",
+        "language": "en-US"
+      },
+      {
+        "text": "2026",
+        "language": "en-US"
+      },
+      {
+        "text": "180",
+        "language": "en-US"
+      },
+      {
+        "text": "91%",
+        "language": "en-US"
+      }
+    ],
+    "figures": [],
+    "hyperlinks": [],
+    "tables": [
+      {
+        "dimensions": {
+          "rows": 4,
+          "columns": 3
+        },
+        "cells": [
+          [
+            "Year",
+            "Students",
+            "Completion Rate"
+          ],
+          [
+            "2024",
+            "120",
+            "82%"
+          ],
+          [
+            "2025",
+            "150",
+            "87%"
+          ],
+          [
+            "2026",
+            "180",
+            "91%"
+          ]
+        ],
+        "header_rows": [
+          0
+        ]
+      }
+    ],
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "has_footnotes_part": false
+  },
+  "verifier": "src/independent_source_oracle.py; stdlib zipfile + xml.etree.ElementTree; no ASIR imports",
+  "timestamp_utc": "2026-09-29T02:55:15.091030+00:00",
+  "status": "PASS"
+}

@@ -1,0 +1,57 @@
+{
+  "contract_version": "a11ypreserve-contract-v1",
+  "fixture_id": "F02_ALT_TEXT",
+  "source": {
+    "format": "DOCX",
+    "feature": "alt_text",
+    "fixture_path": "corpus/fixtures/F02_ALT_TEXT.docx",
+    "sha256": "f2219ef52e807ec417931a9d1c8a97320a95f4829d386a8f34b51990e88577da",
+    "manifest_path": "corpus/manifests/F02_ALT_TEXT.json",
+    "manifest_sha256": "e44c4613bfc723521e42d18204db90ddbcecbe0be469c8415add6d6d403b2109",
+    "oracle": "independent raw OOXML ZIP/XML inspection plus source extractor agreement"
+  },
+  "destination": {
+    "format": "PDF",
+    "representation_requirement": "non-decorative figure alternative text preserved",
+    "accepted_equivalents": [
+      "Figure /Alt or an equivalent accessible figure representation"
+    ]
+  },
+  "contract": {
+    "feature_contract": {
+      "figures": [
+        {
+          "identifier": "figure-1",
+          "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+          "decorative": false,
+          "order": 1
+        }
+      ]
+    }
+  },
+  "decision_rules": {
+    "outcomes": [
+      "PRESERVED",
+      "PARTIALLY_PRESERVED",
+      "ALTERED",
+      "LOST",
+      "MEASUREMENT_ERROR"
+    ],
+    "evidence_statuses": [
+      "VERIFIED_EQUIVALENCE",
+      "OBSERVED_DIFFERENCE",
+      "OBSERVED_PARTIAL",
+      "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "UNRESOLVED_EQUIVALENCE",
+      "INSUFFICIENT_EVIDENCE",
+      "MEASUREMENT_FAILURE"
+    ],
+    "equivalence_rule": "Declare PRESERVED only when the destination representation satisfies the feature contract; otherwise record the observed difference or partial evidence without inferring semantic absence from a single extractor encoding.",
+    "uncertainty_rule": "If a feature-specific equivalent cannot be established with the available destination evidence, retain the frozen outcome but label the evidence UNRESOLVED_EQUIVALENCE or INSUFFICIENT_EVIDENCE; use MEASUREMENT_FAILURE only when the measurement path fails."
+  },
+  "provenance": {
+    "frozen_corpus": "corpus/FROZEN_CORPUS_MANIFEST.json",
+    "primary_results": "results/full_experiment/PRIMARY_RESULTS_FREEZE.json",
+    "contract_materializer": "scripts/build_contracts.py"
+  }
+}

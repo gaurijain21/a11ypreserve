@@ -1,0 +1,64 @@
+{
+  "format": "pdf",
+  "title": "Variant B06 inline language",
+  "language": "en-US",
+  "document": {
+    "title": "Variant B06 inline language",
+    "language": "en-US",
+    "metadata": {
+      "Title": "Variant B06 inline language",
+      "Author": "A11yPreserve variant set",
+      "Creator": "Writer",
+      "Producer": "LibreOffice 26.2.6.3 (X86_64)",
+      "CreationDate": "D:20260928174331-07'00'"
+    }
+  },
+  "headings": [],
+  "lists": [],
+  "inline_languages": [
+    {
+      "text": "",
+      "language": "fr-FR",
+      "evidence": {
+        "pdf_role": "Span",
+        "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2136979877264), '/Pg': IndirectObject(1, 0, 2136979877264), '/Lang': 'fr-FR', '/K': [2]}",
+        "source": "StructElem/Lang"
+      }
+    },
+    {
+      "text": "",
+      "language": "es-ES",
+      "evidence": {
+        "pdf_role": "Span",
+        "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2136979877264), '/Pg': IndirectObject(1, 0, 2136979877264), '/Lang': 'es-ES', '/K': [3]}",
+        "source": "StructElem/Lang"
+      }
+    }
+  ],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {
+      "/Title": "/P",
+      "/Standard": "/P"
+    },
+    "pages": 1
+  },
+  "text_preview": "Variant B06 inline language\nEnglish bonjour hola",
+  "pdf_text": "Variant B06 inline language\nEnglish bonjour hola",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\v3\\variant_set_b\\libreoffice\\outputs\\B06__LIBREOFFICE.pdf"
+  }
+}

@@ -1,0 +1,3 @@
+# Final Novelty Statement
+
+Existing work has studied accessible document conversion, PDF accessibility evaluation, and accessibility remediation. A11yPreserve instead evaluates accessibility preservation from known source ground truth: it begins with controlled source documents whose target accessibility properties are explicitly verified, converts identical sources through multiple real pipelines, and compares destination structures against those source properties. The contribution is therefore a scoped measurement design and benchmark for source-grounded preservation, not a claim that adjacent conversion or evaluation work does not exist.

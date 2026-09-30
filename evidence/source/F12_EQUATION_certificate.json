@@ -1,0 +1,95 @@
+{
+  "certificate_version": "source-oracle-v1",
+  "fixture_id": "F12_EQUATION",
+  "feature": "equation",
+  "source_path": "corpus/fixtures/F12_EQUATION.docx",
+  "source_sha256": "c9a89fb6999a90ad0abc8bff4ea81a10905ce4843c28d55d8df83f5ee87ba9f8",
+  "source_manifest_sha256": "bc5772b93d5c5ae6cda2b45136a654ead4031fc3bd9aa06ae6f77091f1bbb5b3",
+  "ooxml_parts": [
+    "word/document.xml",
+    "word/styles.xml",
+    "word/numbering.xml",
+    "docProps/core.xml"
+  ],
+  "xpath_or_element_assertions": {
+    "document": "w:document//w:p, w:tbl, w:hyperlink, w:footnoteReference, wp:docPr, m:oMath",
+    "feature": "equation"
+  },
+  "expected": {
+    "equations": [
+      {
+        "expression": "E = mc^2",
+        "representation": "OMML",
+        "tokens": [
+          "E",
+          "=",
+          "m",
+          "c",
+          "2"
+        ]
+      }
+    ]
+  },
+  "observed": {
+    "equations": [
+      {
+        "expression": "E=mc2",
+        "representation": "OMML",
+        "tokens": [
+          "E",
+          "=",
+          "m",
+          "c",
+          "2"
+        ]
+      }
+    ]
+  },
+  "raw_observations": {
+    "core": {
+      "title": "A11yPreserve Equation Fixture",
+      "subject": "A11yPreserve Phase 4 controlled benchmark fixture",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "default_language": "en-US",
+    "language_values": [
+      "en-US",
+      "en-US"
+    ],
+    "headings": [],
+    "lists": [],
+    "inline_languages": [
+      {
+        "text": "A11yPreserve Equation Fixture",
+        "language": "en-US"
+      },
+      {
+        "text": "The fixture contains a native OMML equation rather than an image substitute.",
+        "language": "en-US"
+      }
+    ],
+    "figures": [],
+    "hyperlinks": [],
+    "tables": [],
+    "footnotes": [],
+    "equations": [
+      {
+        "expression": "E=mc2",
+        "representation": "OMML",
+        "tokens": [
+          "E",
+          "=",
+          "m",
+          "c",
+          "2"
+        ]
+      }
+    ],
+    "captions": [],
+    "has_footnotes_part": false
+  },
+  "verifier": "scripts/independent_source_oracle.py; stdlib zipfile + xml.etree.ElementTree; no ASIR imports",
+  "timestamp_utc": "2026-09-28T21:16:19.901707+00:00",
+  "status": "PASS"
+}

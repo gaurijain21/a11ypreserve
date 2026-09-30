@@ -1,0 +1,69 @@
+{
+  "asir": "ASIR-pilot-1",
+  "format": "pdf",
+  "document": {
+    "title": "A11yPreserve Heading Fixture",
+    "language": "en-US",
+    "evidence": {
+      "pdf": [
+        "/Root",
+        "/Info",
+        "/StructTreeRoot"
+      ]
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "order": 3,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(4, 0, 2839225121344), '/Pg': IndirectObject(1, 0, 2839225121344), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.48}, '/K': [1]}"
+      }
+    },
+    {
+      "text": "",
+      "level": 2,
+      "order": 5,
+      "evidence": {
+        "pdf_role": "H2",
+        "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 2839225121344), '/Pg': IndirectObject(1, 0, 2839225121344), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.237}, '/K': [3]}"
+      }
+    },
+    {
+      "text": "",
+      "level": 3,
+      "order": 7,
+      "evidence": {
+        "pdf_role": "H3",
+        "object": "{'/Type': '/StructElem', '/S': '/H3', '/P': IndirectObject(4, 0, 2839225121344), '/Pg': IndirectObject(1, 0, 2839225121344), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.237}, '/K': [6]}"
+      }
+    },
+    {
+      "text": "",
+      "level": 2,
+      "order": 9,
+      "evidence": {
+        "pdf_role": "H2",
+        "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 2839225121344), '/Pg': IndirectObject(1, 0, 2839225121344), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.237}, '/K': [9]}"
+      }
+    }
+  ],
+  "figures": [],
+  "lists": [],
+  "tables": [],
+  "pdf": {
+    "tagged": true,
+    "role_map": {
+      "/Title": "/P",
+      "/Standard": "/P"
+    },
+    "pages": 1
+  },
+  "pdf_text": "A11yPreserve Heading Fixture\nResearch Overview\nThis fixture introduces the research problem and establishes a deliberate heading hierarchy.\nBackground\nAccessible structure can be preserved only when conversion retains the source document's \nintended semantics.\nPrior Work\nPrior accessibility research shows that document transformation can change structure and \nmetadata.\nMethods\nThe pilot compares source semantics with tagged PDF semantics using deterministic extraction.",
+  "extraction": {
+    "method": "pypdf object-model and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\libreoffice_pdf\\F01_HEADINGS__LIBREOFFICE.pdf"
+  }
+}

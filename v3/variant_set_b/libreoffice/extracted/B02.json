@@ -1,0 +1,83 @@
+{
+  "format": "pdf",
+  "title": "Variant B02 alternative text",
+  "language": "en-US",
+  "document": {
+    "title": "Variant B02 alternative text",
+    "language": "en-US",
+    "metadata": {
+      "Title": "Variant B02 alternative text",
+      "Author": "A11yPreserve variant set",
+      "Creator": "Writer",
+      "Producer": "LibreOffice 26.2.6.3 (X86_64)",
+      "CreationDate": "D:20260928174224-07'00'"
+    }
+  },
+  "headings": [],
+  "lists": [],
+  "inline_languages": [],
+  "images": [
+    {
+      "identifier": "figure-1",
+      "alt": "Workflow image - Workflow: source -> pipeline -> PDF.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 2136979502160), '/Pg': IndirectObject(1, 0, 2136979502160), '/Alt': 'Workflow image - Workflow: source -> pipeline -> PDF.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.304, '/Height': 2.304, '/BBox': [248.4, 546.85, 363.6, 662.05]}, '/K': [2]}"
+      }
+    },
+    {
+      "identifier": "figure-2",
+      "alt": "Results image - Second figure, 2026 results.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 2136979502160), '/Pg': IndirectObject(1, 0, 2136979502160), '/Alt': 'Results image - Second figure, 2026 results.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.304, '/Height': 2.304, '/BBox': [248.4, 419.8, 363.6, 535]}, '/K': [3]}"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "identifier": "figure-1",
+      "alt": "Workflow image - Workflow: source -> pipeline -> PDF.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 2136979502160), '/Pg': IndirectObject(1, 0, 2136979502160), '/Alt': 'Workflow image - Workflow: source -> pipeline -> PDF.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.304, '/Height': 2.304, '/BBox': [248.4, 546.85, 363.6, 662.05]}, '/K': [2]}"
+      }
+    },
+    {
+      "identifier": "figure-2",
+      "alt": "Results image - Second figure, 2026 results.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 2136979502160), '/Pg': IndirectObject(1, 0, 2136979502160), '/Alt': 'Results image - Second figure, 2026 results.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.304, '/Height': 2.304, '/BBox': [248.4, 419.8, 363.6, 535]}, '/K': [3]}"
+      }
+    }
+  ],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {
+      "/Title": "/P",
+      "/Standard": "/P"
+    },
+    "pages": 1
+  },
+  "text_preview": "Variant B02 alternative text\nTwo informative images use distinct author-supplied descriptions.\n",
+  "pdf_text": "Variant B02 alternative text\nTwo informative images use distinct author-supplied descriptions.\n",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\v3\\variant_set_b\\libreoffice\\outputs\\B02__LIBREOFFICE.pdf"
+  }
+}

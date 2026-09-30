@@ -1,0 +1,10 @@
+{
+  "variant_id": "B05",
+  "feature_family": "document_language",
+  "source_format": "DOCX",
+  "contract_version": "v3-variant-set-b",
+  "fixture_path": "corpus/v3_variant_set_b/fixtures/B05.docx",
+  "ground_truth": {
+    "document_language": "fr-FR"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "fixture_id": "F04_TABLE",
+  "document": {
+    "title": "A11yPreserve Table Fixture",
+    "language": "en-US"
+  },
+  "table": {
+    "dimensions": {
+      "rows": 4,
+      "columns": 3
+    },
+    "headers": [
+      "Year",
+      "Students",
+      "Completion Rate"
+    ],
+    "header_row": 0,
+    "cells": [
+      [
+        "Year",
+        "Students",
+        "Completion Rate"
+      ],
+      [
+        "2024",
+        "120",
+        "82%"
+      ],
+      [
+        "2025",
+        "150",
+        "87%"
+      ],
+      [
+        "2026",
+        "180",
+        "91%"
+      ]
+    ]
+  },
+  "manifest_version": "pilot-1"
+}

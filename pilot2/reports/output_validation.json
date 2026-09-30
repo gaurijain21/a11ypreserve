@@ -1,0 +1,114 @@
+{
+  "generated_at_utc": "2026-09-28T02:12:33.759108+00:00",
+  "outputs": {
+    "Microsoft Word:F01_HEADINGS": {
+      "exists": false,
+      "status": "INVALID_CONVERSION",
+      "reason": "expected output file does not exist",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\word_pdf\\F01_HEADINGS__WORD.pdf"
+    },
+    "LibreOffice:F01_HEADINGS": {
+      "exists": true,
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\libreoffice_pdf\\F01_HEADINGS__LIBREOFFICE.pdf",
+      "size_bytes": 67693,
+      "sha256": "e9329b05d628fcea4c6745e8e0b8fb2eea548d9525e82e4a9d1f6b94634c1b74",
+      "status": "PASS",
+      "parseable": true,
+      "page_count": 1,
+      "page_count_minimum": 1,
+      "content_text_nonempty": true,
+      "struct_tree_exists": true,
+      "metadata": {
+        "/Title": "A11yPreserve Heading Fixture",
+        "/Author": "A11yPreserve pilot",
+        "/Subject": "A11yPreserve controlled accessibility fixture",
+        "/Creator": "Writer",
+        "/Producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "/CreationDate": "D:20260927190403-07'00'"
+      }
+    },
+    "Microsoft Word:F02_ALT_TEXT": {
+      "exists": false,
+      "status": "INVALID_CONVERSION",
+      "reason": "expected output file does not exist",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\word_pdf\\F02_ALT_TEXT__WORD.pdf"
+    },
+    "LibreOffice:F02_ALT_TEXT": {
+      "exists": true,
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\libreoffice_pdf\\F02_ALT_TEXT__LIBREOFFICE.pdf",
+      "size_bytes": 69910,
+      "sha256": "ffb98539b1b315c97a495f6039ca85fd27f5f5ff9d9406d8e6c75aec83ed8c7d",
+      "status": "PASS",
+      "parseable": true,
+      "page_count": 1,
+      "page_count_minimum": 1,
+      "content_text_nonempty": true,
+      "struct_tree_exists": true,
+      "metadata": {
+        "/Title": "A11yPreserve Alternative Text Fixture",
+        "/Author": "A11yPreserve pilot",
+        "/Subject": "A11yPreserve controlled accessibility fixture",
+        "/Creator": "Writer",
+        "/Producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "/CreationDate": "D:20260927190456-07'00'"
+      }
+    },
+    "Microsoft Word:F03_LISTS": {
+      "exists": false,
+      "status": "INVALID_CONVERSION",
+      "reason": "expected output file does not exist",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\word_pdf\\F03_LISTS__WORD.pdf"
+    },
+    "LibreOffice:F03_LISTS": {
+      "exists": true,
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\libreoffice_pdf\\F03_LISTS__LIBREOFFICE.pdf",
+      "size_bytes": 63731,
+      "sha256": "6af505d11f532228fa38e9c0441b68ff9d9d54a5f0682b5526b5620ae894b27e",
+      "status": "PASS",
+      "parseable": true,
+      "page_count": 1,
+      "page_count_minimum": 1,
+      "content_text_nonempty": true,
+      "struct_tree_exists": true,
+      "metadata": {
+        "/Title": "A11yPreserve List Fixture",
+        "/Author": "A11yPreserve pilot",
+        "/Subject": "A11yPreserve controlled accessibility fixture",
+        "/Creator": "Writer",
+        "/Producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "/CreationDate": "D:20260927190508-07'00'"
+      }
+    },
+    "Microsoft Word:F04_TABLE": {
+      "exists": false,
+      "status": "INVALID_CONVERSION",
+      "reason": "expected output file does not exist",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\word_pdf\\F04_TABLE__WORD.pdf"
+    },
+    "LibreOffice:F04_TABLE": {
+      "exists": true,
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\libreoffice_pdf\\F04_TABLE__LIBREOFFICE.pdf",
+      "size_bytes": 58095,
+      "sha256": "6d2bcc38193eaa1f44b02212352273dd9484625c275c6070510e37bd021b5221",
+      "status": "PASS",
+      "parseable": true,
+      "page_count": 1,
+      "page_count_minimum": 1,
+      "content_text_nonempty": true,
+      "struct_tree_exists": true,
+      "metadata": {
+        "/Title": "A11yPreserve Table Fixture",
+        "/Author": "A11yPreserve pilot",
+        "/Subject": "A11yPreserve controlled accessibility fixture",
+        "/Creator": "Writer",
+        "/Producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "/CreationDate": "D:20260927190519-07'00'"
+      }
+    }
+  },
+  "summary": {
+    "total_expected_outputs": 8,
+    "existing_outputs": 4,
+    "valid_parseable_outputs": 4
+  }
+}

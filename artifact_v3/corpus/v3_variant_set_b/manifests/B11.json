@@ -1,0 +1,21 @@
+{
+  "variant_id": "B11",
+  "feature_family": "footnotes",
+  "source_format": "DOCX",
+  "contract_version": "v3-variant-set-b",
+  "fixture_path": "corpus/v3_variant_set_b/fixtures/B11.docx",
+  "ground_truth": {
+    "notes": [
+      {
+        "kind": "footnote",
+        "id": 1,
+        "text": "First variant note."
+      },
+      {
+        "kind": "footnote",
+        "id": 2,
+        "text": "Second variant note."
+      }
+    ]
+  }
+}

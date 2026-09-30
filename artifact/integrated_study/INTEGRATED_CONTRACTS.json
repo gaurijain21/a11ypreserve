@@ -1,0 +1,221 @@
+{
+  "documents": [
+    {
+      "document_id": "I01_REALISTIC_REPORT",
+      "source_docx": "integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "contracts": [
+        {
+          "instance": "I01-heading-hierarchy",
+          "feature": "headings",
+          "expected": {
+            "levels": [
+              1,
+              1,
+              2,
+              2,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "instance": "I01-alternative-text",
+          "feature": "image_alt_text",
+          "expected": {
+            "alt": "A simple upward trend showing completed appointments increasing from 2024 to 2025."
+          }
+        },
+        {
+          "instance": "I01-lists",
+          "feature": "lists",
+          "expected": {
+            "depths": [
+              0,
+              0,
+              1,
+              1,
+              0
+            ]
+          }
+        },
+        {
+          "instance": "I01-table-headers",
+          "feature": "table",
+          "expected": {
+            "headers": [
+              "Measure",
+              "2024",
+              "2025"
+            ],
+            "rows": 4
+          }
+        },
+        {
+          "instance": "I01-document-language",
+          "feature": "document_language",
+          "expected": {
+            "language": "en-US"
+          }
+        },
+        {
+          "instance": "I01-hyperlink",
+          "feature": "hyperlinks",
+          "expected": {
+            "target": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+          }
+        },
+        {
+          "instance": "I01-title",
+          "feature": "document_title",
+          "expected": {
+            "title": "Community Access Report: Service Improvements and Next Steps"
+          }
+        }
+      ]
+    },
+    {
+      "document_id": "I02_EDUCATIONAL_HANDOUT",
+      "source_docx": "integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "contracts": [
+        {
+          "instance": "I02-heading-hierarchy",
+          "feature": "headings",
+          "expected": {
+            "levels": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "instance": "I02-inline-language",
+          "feature": "inline_language",
+          "expected": {
+            "text": "Buenos días",
+            "language": "es-MX"
+          }
+        },
+        {
+          "instance": "I02-equation",
+          "feature": "equation",
+          "expected": {
+            "omml": true
+          }
+        },
+        {
+          "instance": "I02-footnote",
+          "feature": "footnotes",
+          "expected": {
+            "text": "This note identifies the source used for the classroom example."
+          }
+        },
+        {
+          "instance": "I02-caption",
+          "feature": "captions",
+          "expected": {
+            "text": "Figure 1. Evidence and conclusion are connected through an explicit reasoning step."
+          }
+        },
+        {
+          "instance": "I02-hyperlink",
+          "feature": "hyperlinks",
+          "expected": {
+            "target": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+          }
+        }
+      ]
+    },
+    {
+      "document_id": "I03_POLICY_NOTE",
+      "source_docx": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "contracts": [
+        {
+          "instance": "I03-heading-hierarchy",
+          "feature": "headings",
+          "expected": {
+            "levels": [
+              1,
+              1,
+              2,
+              2,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "instance": "I03-lists",
+          "feature": "lists",
+          "expected": {
+            "depths": [
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "instance": "I03-table-headers",
+          "feature": "table",
+          "expected": {
+            "headers": [
+              "Phase",
+              "Owner",
+              "Evidence"
+            ],
+            "rows": 4
+          }
+        },
+        {
+          "instance": "I03-image-alt",
+          "feature": "image_alt_text",
+          "expected": {
+            "alt": "A process diagram showing draft, review, and release stages."
+          }
+        },
+        {
+          "instance": "I03-decorative-image",
+          "feature": "decorative_image",
+          "expected": {
+            "decorative": true
+          }
+        },
+        {
+          "instance": "I03-document-language",
+          "feature": "document_language",
+          "expected": {
+            "language": "en-US"
+          }
+        },
+        {
+          "instance": "I03-inline-language",
+          "feature": "inline_language",
+          "expected": {
+            "text": "información pública",
+            "language": "es-MX"
+          }
+        },
+        {
+          "instance": "I03-hyperlink",
+          "feature": "hyperlinks",
+          "expected": {
+            "target": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+          }
+        }
+      ]
+    }
+  ]
+}

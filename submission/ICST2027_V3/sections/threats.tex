@@ -1,0 +1,35 @@
+\section{Threats to Validity}
+\label{sec:threats}
+
+\subsection{Controlled corpus and adequacy}
+
+The 26 V3 fixtures are controlled atomic cases: two project-generated instances for each of 13 selected feature families. They are not a representative sample, and feature families differ in complexity and accessibility relevance. The selection basis is purposive—machine representability, accessibility relevance, conversion relevance, prior structural evidence, and feasible source-to-destination mapping—not a claim of standards completeness. No formal coverage metric, mutation score, or exhaustive fault model is claimed. The integrated documents are also project-generated multi-feature documents and provide applicability evidence rather than external validity.
+
+F13 was reserved for reading order but deferred because reliable automated source-to-PDF equivalence could not be established. This is a concrete example of measurability selection bias: the suite emphasizes properties whose source and destination representations can be inspected under explicit contracts.
+
+\subsection{Converter and format coverage}
+
+The atomic benchmark evaluates DOCX-to-PDF only, using LibreOffice and the Google Docs DOCX-to-PDF conversion pipeline. It does not characterize Microsoft Word, ODT, HTML, EPUB, other converters, or the converter ecosystem. The two named pipelines support condition-specific observations, not a global product ranking. Microsoft Word is excluded from the denominator because it was not a completed primary workflow.
+
+\subsection{Cloud reproducibility and route provenance}
+
+Google Docs is a cloud service whose backend version cannot necessarily be pinned. The study records the date, operating system, browser, observed renderer, workflow, source hashes, output hashes, and validation evidence. The 39-run repeatability result is therefore conditional on the recorded environment and does not guarantee future service behavior. For Variant B, the visible download action did not register after retries and the authenticated in-session Google export backend supplied the saved PDFs; this deviation is documented and prevents a stronger claim that every V3 arm used an identical UI-download path.
+
+\subsection{Cross-format representation and parser dependence}
+
+Source and destination formats express accessibility information differently. The study uses feature-specific contracts and machine-inspectable mappings, such as Word Heading 2 to PDF \texttt{/H2}, a Word run-language override to PDF \texttt{/Lang}, or a native equation to PDF \texttt{/Formula}. Some mappings are incomplete or parser-sensitive. The calibration audit records two false negatives and seven unresolved or indeterminate controls; these limitations motivate the explicit \unresolved{} category. Absence from one extracted encoding is not automatically proof of semantic absence when a valid alternate representation remains possible.
+
+The primary destination extractor is supplemented by raw object inspection, PyMuPDF checks, and Poppler text extraction for difficult cases. These checks reduce but do not eliminate parser error. \texttt{a11ydiff} is not a complete accessibility validator, and conventional validators are not called defective merely because they answer a different destination-only question.
+
+\subsection{Oracle independence}
+
+Source ground truth was established from the source manifest, raw OOXML inspection, and source-extractor agreement. A separately implemented raw-OOXML oracle passed all 13 Core contracts and all 13 Variant B contracts, but it was written by the same research team; this is not external expert validation. The ASIR is implementation-grounded and shares the broader toolchain. The independent path is useful cross-checking evidence, not proof of absolute oracle independence.
+
+\subsection{User impact}
+
+No disabled-user study, screen-reader task study, or perceived-usability study was performed. The results measure preservation of machine-verifiable accessibility information in destination structure. They do not measure task completion, screen-reader usability, perceived accessibility, or severity for disabled users. Altered, partial, or lost contract information is not automatically equated with user harm.
+
+\subsection{Interpretation and generalization}
+
+Counts are descriptive controlled-case summaries. No inferential statistics, prevalence estimate, accessibility rate, failure rate, or weighted converter score is justified. Results do not establish that document conversion generally destroys accessibility, that Google Docs is generally worse or LibreOffice generally better, that findings generalize to all DOCX documents or software versions, that altered information necessarily causes harm, or that PDF export alone caused every observed change.
+

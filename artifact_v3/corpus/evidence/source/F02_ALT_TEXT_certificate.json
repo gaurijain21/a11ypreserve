@@ -1,0 +1,85 @@
+{
+  "certificate_version": "source-oracle-v1",
+  "fixture_id": "F02_ALT_TEXT",
+  "feature": "alt_text",
+  "source_path": "corpus/fixtures/F02_ALT_TEXT.docx",
+  "source_sha256": "f2219ef52e807ec417931a9d1c8a97320a95f4829d386a8f34b51990e88577da",
+  "source_manifest_sha256": "381849520605f0743c132750b5a3a272d51ad3216fe018bbe23412a534fd7633",
+  "ooxml_parts": [
+    "word/document.xml",
+    "word/styles.xml",
+    "word/numbering.xml",
+    "docProps/core.xml"
+  ],
+  "xpath_or_element_assertions": {
+    "document": "w:document//w:p, w:tbl, w:hyperlink, w:footnoteReference, wp:docPr, m:oMath",
+    "feature": "alt_text"
+  },
+  "expected": {
+    "figures": [
+      {
+        "identifier": "figure-1",
+        "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+        "decorative": false,
+        "order": 1
+      }
+    ]
+  },
+  "observed": {
+    "figures": [
+      {
+        "identifier": "figure-1",
+        "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+        "decorative": false,
+        "order": 1
+      }
+    ]
+  },
+  "raw_observations": {
+    "core": {
+      "title": "A11yPreserve Alternative Text Fixture",
+      "subject": "A11yPreserve controlled accessibility fixture",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "default_language": "en-US",
+    "language_values": [
+      "en-US",
+      "en-US",
+      "en-US"
+    ],
+    "headings": [],
+    "lists": [],
+    "inline_languages": [
+      {
+        "text": "A11yPreserve Alternative Text Fixture",
+        "language": "en-US"
+      },
+      {
+        "text": "Enrollment is reported across three academic years in the chart below.",
+        "language": "en-US"
+      },
+      {
+        "text": "The visual summarizes the reported trend without repeating its complete alternative text.",
+        "language": "en-US"
+      }
+    ],
+    "figures": [
+      {
+        "identifier": "figure-1",
+        "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+        "decorative": false,
+        "order": 1
+      }
+    ],
+    "hyperlinks": [],
+    "tables": [],
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "has_footnotes_part": false
+  },
+  "verifier": "src/independent_source_oracle.py; stdlib zipfile + xml.etree.ElementTree; no ASIR imports",
+  "timestamp_utc": "2026-09-29T02:55:15.091030+00:00",
+  "status": "PASS"
+}

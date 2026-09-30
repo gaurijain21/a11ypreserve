@@ -1,0 +1,679 @@
+{
+  "variant_count": 13,
+  "passed": 13,
+  "disagreements": [],
+  "status": "PASS",
+  "records": [
+    {
+      "variant_id": "B01",
+      "feature_family": "headings",
+      "source_sha256": "9f1df6ab640a6103c76a939da2f6ef9caa91259f6755f245763b784092eb0bfc",
+      "manifest_sha256": "ce7225b7ef4f5c21a592e53310735303cf0ec2b45f11f2e938153ab81db87ef5",
+      "status": "PASS",
+      "observed": {
+        "headings": [
+          {
+            "text": "Overview",
+            "level": 1
+          },
+          {
+            "text": "Context",
+            "level": 2
+          },
+          {
+            "text": "Detail",
+            "level": 3
+          },
+          {
+            "text": "Subdetail",
+            "level": 4
+          }
+        ],
+        "lists": [],
+        "inline_languages": [
+          {
+            "text": "Variant B01 headings",
+            "language": "en-US"
+          },
+          {
+            "text": "Overview",
+            "language": "en-US"
+          },
+          {
+            "text": "Context",
+            "language": "en-US"
+          },
+          {
+            "text": "Detail",
+            "language": "en-US"
+          },
+          {
+            "text": "Subdetail",
+            "language": "en-US"
+          },
+          {
+            "text": "The title is separate from the four-level hierarchy.",
+            "language": "en-US"
+          }
+        ],
+        "figures": [],
+        "hyperlinks": [],
+        "captions": [],
+        "equations": [],
+        "footnotes": [],
+        "tables": [],
+        "language_values": [
+          "en-US",
+          "en-US"
+        ],
+        "core": {
+          "{http://purl.org/dc/elements/1.1/}title": "Variant B01 headings",
+          "{http://purl.org/dc/elements/1.1/}subject": null,
+          "{http://purl.org/dc/elements/1.1/}language": "en-US"
+        }
+      }
+    },
+    {
+      "variant_id": "B02",
+      "feature_family": "alt_text",
+      "source_sha256": "1cead1de4f9f0bef290aeeb197dd821f6b2997ae2dd41497006805084ade6573",
+      "manifest_sha256": "8203cf6abc6a83ef92a5bbb23011144cc62d1f8d5f2ac05f66813e6c7da788d7",
+      "status": "PASS",
+      "observed": {
+        "headings": [],
+        "lists": [],
+        "inline_languages": [
+          {
+            "text": "Variant B02 alternative text",
+            "language": "en-US"
+          },
+          {
+            "text": "Two informative images use distinct author-supplied descriptions.",
+            "language": "en-US"
+          }
+        ],
+        "figures": [
+          {
+            "alt": "Workflow: source -> pipeline -> PDF.",
+            "order": 1
+          },
+          {
+            "alt": "Second figure, 2026 results.",
+            "order": 2
+          }
+        ],
+        "hyperlinks": [],
+        "captions": [],
+        "equations": [],
+        "footnotes": [],
+        "tables": [],
+        "language_values": [
+          "en-US",
+          "en-US"
+        ],
+        "core": {
+          "{http://purl.org/dc/elements/1.1/}title": "Variant B02 alternative text",
+          "{http://purl.org/dc/elements/1.1/}subject": null,
+          "{http://purl.org/dc/elements/1.1/}language": "en-US"
+        }
+      }
+    },
+    {
+      "variant_id": "B03",
+      "feature_family": "lists",
+      "source_sha256": "9b43093cd128f30bd4deb0198626c54e369acdcf9c77519ace0384930d4ada39",
+      "manifest_sha256": "068763dbc2be6a1905b2864ebd34ff5cf8e7508b639d6e016c865023d3f541c6",
+      "status": "PASS",
+      "observed": {
+        "headings": [],
+        "lists": [
+          {
+            "type": "ordered",
+            "depth": 0,
+            "text": "First"
+          },
+          {
+            "type": "unordered",
+            "depth": 1,
+            "text": "Nested alpha"
+          },
+          {
+            "type": "unordered",
+            "depth": 1,
+            "text": "Nested beta"
+          },
+          {
+            "type": "ordered",
+            "depth": 0,
+            "text": "Second"
+          },
+          {
+            "type": "unordered",
+            "depth": 1,
+            "text": "Nested gamma"
+          }
+        ],
+        "inline_languages": [
+          {
+            "text": "Variant B03 lists",
+            "language": "en-US"
+          }
+        ],
+        "figures": [],
+        "hyperlinks": [],
+        "captions": [],
+        "equations": [],
+        "footnotes": [],
+        "tables": [],
+        "language_values": [
+          "en-US",
+          "en-US"
+        ],
+        "core": {
+          "{http://purl.org/dc/elements/1.1/}title": "Variant B03 lists",
+          "{http://purl.org/dc/elements/1.1/}subject": null,
+          "{http://purl.org/dc/elements/1.1/}language": "en-US"
+        }
+      }
+    },
+    {
+      "variant_id": "B04",
+      "feature_family": "table",
+      "source_sha256": "6553600a2b9a3020b28f710437b16877e03564bb686acb45d87cf784187e60d2",
+      "manifest_sha256": "aa2c8ac22fabdb42a78ed2a4074f1bf7cb3e4eaf5647f2d01d92a22f3e8814ee",
+      "status": "PASS",
+      "observed": {
+        "headings": [],
+        "lists": [],
+        "inline_languages": [
+          {
+            "text": "Variant B04 table",
+            "language": "en-US"
+          }
+        ],
+        "figures": [],
+        "hyperlinks": [],
+        "captions": [],
+        "equations": [],
+        "footnotes": [],
+        "tables": [
+          {
+            "dimensions": {
+              "rows": 4,
+              "columns": 4
+            },
+            "header_rows": [
+              0
+            ],
+            "cells": [
+              [
+                "Quarter",
+                "Region",
+                "Cases handled",
+                "Completion rate"
+              ],
+              [
+                "Q1",
+                "North",
+                "120",
+                "82%"
+              ],
+              [
+                "Q2",
+                "South",
+                "240",
+                "87%"
+              ],
+              [
+                "Q3",
+                "West",
+                "360",
+                "91%"
+              ]
+            ]
+          }
+        ],
+        "language_values": [
+          "en-US",
+          "en-US"
+        ],
+        "core": {
+          "{http://purl.org/dc/elements/1.1/}title": "Variant B04 table",
+          "{http://purl.org/dc/elements/1.1/}subject": null,
+          "{http://purl.org/dc/elements/1.1/}language": "en-US"
+        }
+      }
+    },
+    {
+      "variant_id": "B05",
+      "feature_family": "document_language",
+      "source_sha256": "8b48703bde441d8e8f80363a990a402b66373c671ed19a1d355fe5dc46a14630",
+      "manifest_sha256": "796ecd28b2228c42f4f39a5ef756108fea811d119bb2d505fc984bb4a9a5e840",
+      "status": "PASS",
+      "observed": {
+        "headings": [],
+        "lists": [],
+        "inline_languages": [
+          {
+            "text": "Variante B05 langue",
+            "language": "en-US"
+          },
+          {
+            "text": "Cette note décrit la langue par défaut du document.",
+            "language": "fr-FR"
+          }
+        ],
+        "figures": [],
+        "hyperlinks": [],
+        "captions": [],
+        "equations": [],
+        "footnotes": [],
+        "tables": [],
+        "language_values": [
+          "en-US",
+          "fr-FR"
+        ],
+        "core": {
+          "{http://purl.org/dc/elements/1.1/}title": "Variante B05 langue",
+          "{http://purl.org/dc/elements/1.1/}subject": null,
+          "{http://purl.org/dc/elements/1.1/}language": "fr-FR"
+        }
+      }
+    },
+    {
+      "variant_id": "B06",
+      "feature_family": "inline_language",
+      "source_sha256": "fd39901d30a5cd595b71919f39950543e27e3b14708823b4b65be3a5de3c6180",
+      "manifest_sha256": "6e3a5ae463d6cdba333b488599ba68f8c5bc6721b22caec03b662d503db8d45b",
+      "status": "PASS",
+      "observed": {
+        "headings": [],
+        "lists": [],
+        "inline_languages": [
+          {
+            "text": "Variant B06 inline language",
+            "language": "en-US"
+          },
+          {
+            "text": "English ",
+            "language": "en-US"
+          },
+          {
+            "text": "bonjour",
+            "language": "fr-FR"
+          },
+          {
+            "text": " hola",
+            "language": "es-ES"
+          }
+        ],
+        "figures": [],
+        "hyperlinks": [],
+        "captions": [],
+        "equations": [],
+        "footnotes": [],
+        "tables": [],
+        "language_values": [
+          "en-US",
+          "en-US"
+        ],
+        "core": {
+          "{http://purl.org/dc/elements/1.1/}title": "Variant B06 inline language",
+          "{http://purl.org/dc/elements/1.1/}subject": null,
+          "{http://purl.org/dc/elements/1.1/}language": "en-US"
+        }
+      }
+    },
+    {
+      "variant_id": "B07",
+      "feature_family": "decorative_image",
+      "source_sha256": "f508aae9ce27d4255f2245b4fa4277775898c9772aabf106bcfda8b8d49933a9",
+      "manifest_sha256": "3c0084554331695f18507dc694c19cb9f1dcba99bfe57ae0f75d7f9e5087dfe3",
+      "status": "PASS",
+      "observed": {
+        "headings": [],
+        "lists": [],
+        "inline_languages": [
+          {
+            "text": "Variant B07 decorative state",
+            "language": "en-US"
+          },
+          {
+            "text": "Informative, decorative, and informative images occur in that order.",
+            "language": "en-US"
+          }
+        ],
+        "figures": [
+          {
+            "alt": "Informative first image.",
+            "order": 1
+          },
+          {
+            "alt": "",
+            "order": 2
+          },
+          {
+            "alt": "Informative last image.",
+            "order": 3
+          }
+        ],
+        "hyperlinks": [],
+        "captions": [],
+        "equations": [],
+        "footnotes": [],
+        "tables": [],
+        "language_values": [
+          "en-US",
+          "en-US"
+        ],
+        "core": {
+          "{http://purl.org/dc/elements/1.1/}title": "Variant B07 decorative state",
+          "{http://purl.org/dc/elements/1.1/}subject": null,
+          "{http://purl.org/dc/elements/1.1/}language": "en-US"
+        }
+      }
+    },
+    {
+      "variant_id": "B08",
+      "feature_family": "links",
+      "source_sha256": "6a5c9de8c6d86f183e69aa8d600d90f9f96303032a6acb50818686f04cb3639e",
+      "manifest_sha256": "8d73cff145216ea8fae566dfc8f43f404736c549ee773dfed60ef6a91c7542de",
+      "status": "PASS",
+      "observed": {
+        "headings": [],
+        "lists": [],
+        "inline_languages": [
+          {
+            "text": "Variant B08 hyperlinks",
+            "language": "en-US"
+          }
+        ],
+        "figures": [],
+        "hyperlinks": [
+          {
+            "text": "the WCAG standard",
+            "target": "https://www.w3.org/TR/WCAG22/",
+            "order": 1
+          },
+          {
+            "text": "the PDF reference",
+            "target": "https://pdfa.org/",
+            "order": 2
+          }
+        ],
+        "captions": [],
+        "equations": [],
+        "footnotes": [],
+        "tables": [],
+        "language_values": [
+          "en-US",
+          "en-US"
+        ],
+        "core": {
+          "{http://purl.org/dc/elements/1.1/}title": "Variant B08 hyperlinks",
+          "{http://purl.org/dc/elements/1.1/}subject": null,
+          "{http://purl.org/dc/elements/1.1/}language": "en-US"
+        }
+      }
+    },
+    {
+      "variant_id": "B09",
+      "feature_family": "document_title",
+      "source_sha256": "85cae9bf566e725e281b5592b18ed3ffdc9155c28e4befed69e117a7b817c36b",
+      "manifest_sha256": "4257a2e92174ab30260978b71b1c62f5e9363e5d82a159679fda70ff4308cf9b",
+      "status": "PASS",
+      "observed": {
+        "headings": [],
+        "lists": [],
+        "inline_languages": [
+          {
+            "text": "Variant B09: title / metadata",
+            "language": "en-US"
+          },
+          {
+            "text": "Visible and core metadata values are declared separately.",
+            "language": "en-US"
+          }
+        ],
+        "figures": [],
+        "hyperlinks": [],
+        "captions": [],
+        "equations": [],
+        "footnotes": [],
+        "tables": [],
+        "language_values": [
+          "en-US",
+          "en-US"
+        ],
+        "core": {
+          "{http://purl.org/dc/elements/1.1/}title": "Variant B09: title / metadata",
+          "{http://purl.org/dc/elements/1.1/}subject": "Variant B09 subject: preservation",
+          "{http://purl.org/dc/elements/1.1/}language": "en-US"
+        }
+      }
+    },
+    {
+      "variant_id": "B10",
+      "feature_family": "complex_table",
+      "source_sha256": "f511362eb8ea6848a1906d1224582e0439d35190a4a2e3b559149a53bc8f8b1b",
+      "manifest_sha256": "a91aa358dda8937a70305300e32d8b9bee6af513e9974a957a2e0ac371359d81",
+      "status": "PASS",
+      "observed": {
+        "headings": [],
+        "lists": [],
+        "inline_languages": [
+          {
+            "text": "Variant B10 complex table",
+            "language": "en-US"
+          }
+        ],
+        "figures": [],
+        "hyperlinks": [],
+        "captions": [],
+        "equations": [],
+        "footnotes": [],
+        "tables": [
+          {
+            "dimensions": {
+              "rows": 5,
+              "columns": 4
+            },
+            "header_rows": [
+              0,
+              1
+            ],
+            "cells": [
+              [
+                "Population",
+                "Outcome"
+              ],
+              [
+                "Year",
+                "Group",
+                "Rate",
+                "Count"
+              ],
+              [
+                "2024",
+                "A",
+                "82%",
+                "12"
+              ],
+              [
+                "2025",
+                "B",
+                "87%",
+                "18"
+              ],
+              [
+                "2026",
+                "C",
+                "91%",
+                "22"
+              ]
+            ]
+          }
+        ],
+        "language_values": [
+          "en-US",
+          "en-US"
+        ],
+        "core": {
+          "{http://purl.org/dc/elements/1.1/}title": "Variant B10 complex table",
+          "{http://purl.org/dc/elements/1.1/}subject": null,
+          "{http://purl.org/dc/elements/1.1/}language": "en-US"
+        }
+      }
+    },
+    {
+      "variant_id": "B11",
+      "feature_family": "footnotes",
+      "source_sha256": "6ea7f908792a052591e5dd5fd55d1be9278fb080b70988c85172f3086e25d5db",
+      "manifest_sha256": "921eabb3fb790f807113f1fcbbb5ec107345e9bc0268f6ce76a018a4eaaaf1c9",
+      "status": "PASS",
+      "observed": {
+        "headings": [],
+        "lists": [],
+        "inline_languages": [
+          {
+            "text": "Variant B11 footnotes",
+            "language": "en-US"
+          },
+          {
+            "text": "The first claim carries note one, and the second carries note two.",
+            "language": "en-US"
+          }
+        ],
+        "figures": [],
+        "hyperlinks": [],
+        "captions": [],
+        "equations": [],
+        "footnotes": [
+          {
+            "kind": "footnote",
+            "id": 2,
+            "text": "Second variant note."
+          },
+          {
+            "kind": "footnote",
+            "id": 1,
+            "text": "First variant note."
+          }
+        ],
+        "tables": [],
+        "language_values": [
+          "en-US",
+          "en-US"
+        ],
+        "core": {
+          "{http://purl.org/dc/elements/1.1/}title": "Variant B11 footnotes",
+          "{http://purl.org/dc/elements/1.1/}subject": null,
+          "{http://purl.org/dc/elements/1.1/}language": "en-US"
+        }
+      }
+    },
+    {
+      "variant_id": "B12",
+      "feature_family": "equation",
+      "source_sha256": "d2338440d2cbfe1ac9310c1a0e033dd5ee8c285f552eeed734cec125118c6b4b",
+      "manifest_sha256": "09c88bb40cab8bc02609c91435e6d61ea25fda992b5644e6d529dfc1ca80796a",
+      "status": "PASS",
+      "observed": {
+        "headings": [],
+        "lists": [],
+        "inline_languages": [
+          {
+            "text": "Variant B12 equations",
+            "language": "en-US"
+          },
+          {
+            "text": "Two native math expressions are present.",
+            "language": "en-US"
+          }
+        ],
+        "figures": [],
+        "hyperlinks": [],
+        "captions": [],
+        "equations": [
+          {
+            "tokens": [
+              "E",
+              "=",
+              "m",
+              "c",
+              "2"
+            ]
+          },
+          {
+            "tokens": [
+              "a",
+              "=",
+              "b",
+              "+",
+              "c"
+            ]
+          }
+        ],
+        "footnotes": [],
+        "tables": [],
+        "language_values": [
+          "en-US",
+          "en-US"
+        ],
+        "core": {
+          "{http://purl.org/dc/elements/1.1/}title": "Variant B12 equations",
+          "{http://purl.org/dc/elements/1.1/}subject": null,
+          "{http://purl.org/dc/elements/1.1/}language": "en-US"
+        }
+      }
+    },
+    {
+      "variant_id": "B13",
+      "feature_family": "captions",
+      "source_sha256": "4010a76ff3715c5c487158f87c89cf7a2b7fa3e429739b15c6a9bac8c7b6e91c",
+      "manifest_sha256": "901267ddf7211c71c5f23d2c4c48a06a6e0598c5fdfbbb21e2f5838d56680ecb",
+      "status": "PASS",
+      "observed": {
+        "headings": [],
+        "lists": [],
+        "inline_languages": [
+          {
+            "text": "Variant B13 captions",
+            "language": "en-US"
+          },
+          {
+            "text": "Two figure-caption associations are declared in source order.",
+            "language": "en-US"
+          }
+        ],
+        "figures": [
+          {
+            "alt": "First figure with workflow.",
+            "order": 1
+          },
+          {
+            "alt": "Second figure with results.",
+            "order": 2
+          }
+        ],
+        "hyperlinks": [],
+        "captions": [
+          "Figure 1. Workflow.",
+          "Figure 2. Results."
+        ],
+        "equations": [],
+        "footnotes": [],
+        "tables": [],
+        "language_values": [
+          "en-US",
+          "en-US"
+        ],
+        "core": {
+          "{http://purl.org/dc/elements/1.1/}title": "Variant B13 captions",
+          "{http://purl.org/dc/elements/1.1/}subject": null,
+          "{http://purl.org/dc/elements/1.1/}language": "en-US"
+        }
+      }
+    }
+  ]
+}

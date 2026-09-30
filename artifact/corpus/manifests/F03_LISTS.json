@@ -1,0 +1,52 @@
+{
+  "fixture_id": "F03_LISTS",
+  "document": {
+    "title": "A11yPreserve List Fixture",
+    "language": "en-US"
+  },
+  "lists": [
+    {
+      "type": "unordered",
+      "depth": 0,
+      "text": "Accessibility",
+      "parent": null
+    },
+    {
+      "type": "unordered",
+      "depth": 1,
+      "text": "Documents",
+      "parent": "Accessibility"
+    },
+    {
+      "type": "unordered",
+      "depth": 1,
+      "text": "Web",
+      "parent": "Accessibility"
+    },
+    {
+      "type": "unordered",
+      "depth": 0,
+      "text": "Usability",
+      "parent": null
+    },
+    {
+      "type": "ordered",
+      "depth": 0,
+      "text": "Extract",
+      "parent": null
+    },
+    {
+      "type": "ordered",
+      "depth": 0,
+      "text": "Convert",
+      "parent": null
+    },
+    {
+      "type": "ordered",
+      "depth": 0,
+      "text": "Compare",
+      "parent": null
+    }
+  ],
+  "manifest_version": "pilot-1"
+}

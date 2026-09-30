@@ -1,0 +1,18 @@
+24 [0x00000c0c] INFO pdftotext null - this process (22728) started by python in directory <ARTIFACT_ROOT> with command line: <LOCAL_USER_ROOT>\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdftotext.EXE -layout <ARTIFACT_ROOT>\results\full_experiment\outputs\libreoffice\F08_LINKS__LIBREOFFICE.pdf -
+
+24 [0x00000c0c] INFO pdftotext null - running on Windows 10.0.26200
+
+63 [0x00000c0c] INFO pdftotext null - this process (22728) finishes with exit code 1
+
+73 [0x00000c0c] ERROR trace.pdftotext.core null - Access is denied.
+
+
+
+73 [0x00000c0c] ERROR trace.pdftotext.core null - Function: CreateDirectoryW
+
+73 [0x00000c0c] ERROR trace.pdftotext.core null - Result: 5
+
+73 [0x00000c0c] ERROR trace.pdftotext.core null - Data: path="<LOCAL_USER_ROOT>\AppData\Roaming\MiKTeX\2.9\miktex"
+
+73 [0x00000c0c] ERROR trace.pdftotext.core null - Source: Libraries\MiKTeX\Core\win\win.cpp:271
+

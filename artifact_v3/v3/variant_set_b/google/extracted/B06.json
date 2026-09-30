@@ -1,0 +1,48 @@
+{
+  "format": "pdf",
+  "title": "B06",
+  "language": "en",
+  "document": {
+    "title": "B06",
+    "language": "en",
+    "metadata": {
+      "Title": "B06",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(9, 0, 2136979869328), '/Pg': IndirectObject(2, 0, 2136979869328), '/K': 0}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "Variant\n \nB06\n \ninline\n \nlanguage\n \nEnglish\n \nbonjour\n \nhola\n ",
+  "pdf_text": "Variant\n \nB06\n \ninline\n \nlanguage\n \nEnglish\n \nbonjour\n \nhola\n ",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "<ARTIFACT_ROOT>\\v3\\variant_set_b\\google\\outputs\\B06__GOOGLE_DOCS.pdf"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "variant_id": "B08",
+  "feature_family": "links",
+  "source_format": "DOCX",
+  "contract_version": "v3-variant-set-b",
+  "fixture_path": "corpus/v3_variant_set_b/fixtures/B08.docx",
+  "ground_truth": {
+    "hyperlinks": [
+      {
+        "text": "the WCAG standard",
+        "target": "https://www.w3.org/TR/WCAG22/",
+        "order": 1
+      },
+      {
+        "text": "the PDF reference",
+        "target": "https://pdfa.org/",
+        "order": 2
+      }
+    ]
+  }
+}

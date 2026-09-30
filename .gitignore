@@ -1,0 +1,37 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Machine-specific conversion runtimes and profiles
+.miktex/
+pilot2/7zip_runtime/
+pilot2/downloads/
+pilot2/libreoffice_extracted/
+pilot2/libreoffice_runtime/
+pilot2/logs/
+pilot2/lo_profiles/
+pilot2/lo_profile_local/
+pilot2/lo_profile_test/
+results/full_experiment/lo_profiles/
+integrated_study/lo_profiles/
+pilot2/lo_profile/
+v3/variant_set_b/libreoffice/profiles/
+
+# Temporary LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.out
+
+# OS/editor metadata
+Thumbs.db
+desktop.ini
+.DS_Store

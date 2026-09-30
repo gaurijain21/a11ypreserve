@@ -1,0 +1,552 @@
+{
+  "generated_at_utc": "2026-09-28T02:56:46.294414+00:00",
+  "scope": "Pilot 3 Google Docs versus reused Pilot 2 LibreOffice baseline",
+  "outputs": {
+    "LibreOffice:F01_HEADINGS": {
+      "fixture": "F01_HEADINGS",
+      "engine": "LibreOffice",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\libreoffice_pdf\\F01_HEADINGS__LIBREOFFICE.pdf",
+      "exists": true,
+      "checked_at_utc": "2026-09-28T02:56:46.306680+00:00",
+      "size_bytes": 67693,
+      "sha256": "e9329b05d628fcea4c6745e8e0b8fb2eea548d9525e82e4a9d1f6b94634c1b74",
+      "status": "PASS",
+      "parseable": true,
+      "page_count": 1,
+      "page_count_minimum": 1,
+      "content_text_nonempty": true,
+      "struct_tree_exists": true,
+      "content_present": true,
+      "structure_summary": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "Title",
+          "H1",
+          "Standard",
+          "H2",
+          "Standard",
+          "H3",
+          "Standard",
+          "H2",
+          "Standard"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "H1": 1,
+          "H2": 2,
+          "H3": 1,
+          "Standard": 4,
+          "Title": 1
+        },
+        "list_numbering": [],
+        "table_rows": 0,
+        "header_cells": 0,
+        "data_cells": 0,
+        "figures": [],
+        "pages": 1
+      },
+      "secondary_validation": {
+        "tool": "pdfplumber",
+        "parseable": true,
+        "page_count": 1,
+        "text_nonempty": true
+      },
+      "metadata": {
+        "/Title": "A11yPreserve Heading Fixture",
+        "/Author": "A11yPreserve pilot",
+        "/Subject": "A11yPreserve controlled accessibility fixture",
+        "/Creator": "Writer",
+        "/Producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "/CreationDate": "D:20260927190403-07'00'"
+      }
+    },
+    "Google Docs:F01_HEADINGS": {
+      "fixture": "F01_HEADINGS",
+      "engine": "Google Docs",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F01_HEADINGS__GOOGLE_DOCS.pdf",
+      "exists": true,
+      "checked_at_utc": "2026-09-28T02:56:46.539859+00:00",
+      "size_bytes": 46379,
+      "sha256": "d6a8a93a8cd0a347448aeb65a86fd1b386dfd6204a23ab449d35da28255ce9bc",
+      "status": "PASS",
+      "parseable": true,
+      "page_count": 1,
+      "page_count_minimum": 1,
+      "content_text_nonempty": true,
+      "struct_tree_exists": true,
+      "content_present": true,
+      "structure_summary": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "H1",
+          "H1",
+          "P",
+          "H2",
+          "P",
+          "H3",
+          "P",
+          "H2",
+          "P"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "H1": 2,
+          "H2": 2,
+          "H3": 1,
+          "P": 4
+        },
+        "list_numbering": [],
+        "table_rows": 0,
+        "header_cells": 0,
+        "data_cells": 0,
+        "figures": [],
+        "pages": 1
+      },
+      "secondary_validation": {
+        "tool": "pdfplumber",
+        "parseable": true,
+        "page_count": 1,
+        "text_nonempty": true
+      },
+      "metadata": {
+        "/Title": "F01_HEADINGS",
+        "/Producer": "Skia/PDF m156 Google Docs Renderer"
+      }
+    },
+    "LibreOffice:F02_ALT_TEXT": {
+      "fixture": "F02_ALT_TEXT",
+      "engine": "LibreOffice",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\libreoffice_pdf\\F02_ALT_TEXT__LIBREOFFICE.pdf",
+      "exists": true,
+      "checked_at_utc": "2026-09-28T02:56:46.706864+00:00",
+      "size_bytes": 69910,
+      "sha256": "ffb98539b1b315c97a495f6039ca85fd27f5f5ff9d9406d8e6c75aec83ed8c7d",
+      "status": "PASS",
+      "parseable": true,
+      "page_count": 1,
+      "page_count_minimum": 1,
+      "content_text_nonempty": true,
+      "struct_tree_exists": true,
+      "content_present": true,
+      "structure_summary": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "Title",
+          "Standard",
+          "Standard",
+          "Figure",
+          "Standard"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "Figure": 1,
+          "Standard": 3,
+          "Title": 1
+        },
+        "list_numbering": [],
+        "table_rows": 0,
+        "header_cells": 0,
+        "data_cells": 0,
+        "figures": [
+          {
+            "alt": "Enrollment chart - Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+            "has_alt": true
+          }
+        ],
+        "pages": 1
+      },
+      "secondary_validation": {
+        "tool": "pdfplumber",
+        "parseable": true,
+        "page_count": 1,
+        "text_nonempty": true
+      },
+      "metadata": {
+        "/Title": "A11yPreserve Alternative Text Fixture",
+        "/Author": "A11yPreserve pilot",
+        "/Subject": "A11yPreserve controlled accessibility fixture",
+        "/Creator": "Writer",
+        "/Producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "/CreationDate": "D:20260927190456-07'00'"
+      }
+    },
+    "Google Docs:F02_ALT_TEXT": {
+      "fixture": "F02_ALT_TEXT",
+      "engine": "Google Docs",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F02_ALT_TEXT__GOOGLE_DOCS.pdf",
+      "exists": true,
+      "checked_at_utc": "2026-09-28T02:56:46.743143+00:00",
+      "size_bytes": 38997,
+      "sha256": "f7d63f222cfe7413080018658f27ab3eadcf9e987e0b1166c66572aafa2dcc94",
+      "status": "PASS",
+      "parseable": true,
+      "page_count": 1,
+      "page_count_minimum": 1,
+      "content_text_nonempty": true,
+      "struct_tree_exists": true,
+      "content_present": true,
+      "structure_summary": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "H1",
+          "P",
+          "P",
+          "Figure",
+          "Span",
+          "P"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "Figure": 1,
+          "H1": 1,
+          "P": 3,
+          "Span": 1
+        },
+        "list_numbering": [],
+        "table_rows": 0,
+        "header_cells": 0,
+        "data_cells": 0,
+        "figures": [
+          {
+            "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+            "has_alt": true
+          }
+        ],
+        "pages": 1
+      },
+      "secondary_validation": {
+        "tool": "pdfplumber",
+        "parseable": true,
+        "page_count": 1,
+        "text_nonempty": true
+      },
+      "metadata": {
+        "/Title": "F02_ALT_TEXT",
+        "/Producer": "Skia/PDF m156 Google Docs Renderer"
+      }
+    },
+    "LibreOffice:F03_LISTS": {
+      "fixture": "F03_LISTS",
+      "engine": "LibreOffice",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\libreoffice_pdf\\F03_LISTS__LIBREOFFICE.pdf",
+      "exists": true,
+      "checked_at_utc": "2026-09-28T02:56:46.826635+00:00",
+      "size_bytes": 63731,
+      "sha256": "6af505d11f532228fa38e9c0441b68ff9d9d54a5f0682b5526b5620ae894b27e",
+      "status": "PASS",
+      "parseable": true,
+      "page_count": 1,
+      "page_count_minimum": 1,
+      "content_text_nonempty": true,
+      "struct_tree_exists": true,
+      "content_present": true,
+      "structure_summary": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "Title",
+          "Standard",
+          "Standard",
+          "L",
+          "LI",
+          "Lbl",
+          "LBody",
+          "List 1",
+          "L",
+          "LI",
+          "Lbl",
+          "LBody",
+          "List 1",
+          "LI",
+          "Lbl",
+          "LBody",
+          "List 1",
+          "LI",
+          "Lbl",
+          "LBody",
+          "List 1",
+          "Standard",
+          "L",
+          "LI",
+          "Lbl",
+          "LBody",
+          "Numbering 1",
+          "LI",
+          "Lbl",
+          "LBody",
+          "Numbering 1",
+          "LI",
+          "Lbl",
+          "LBody",
+          "Numbering 1"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "L": 3,
+          "LBody": 7,
+          "LI": 7,
+          "Lbl": 7,
+          "List 1": 4,
+          "Numbering 1": 3,
+          "Standard": 3,
+          "Title": 1
+        },
+        "list_numbering": [
+          "Disc",
+          "Disc",
+          "Decimal"
+        ],
+        "table_rows": 0,
+        "header_cells": 0,
+        "data_cells": 0,
+        "figures": [],
+        "pages": 1
+      },
+      "secondary_validation": {
+        "tool": "pdfplumber",
+        "parseable": true,
+        "page_count": 1,
+        "text_nonempty": true
+      },
+      "metadata": {
+        "/Title": "A11yPreserve List Fixture",
+        "/Author": "A11yPreserve pilot",
+        "/Subject": "A11yPreserve controlled accessibility fixture",
+        "/Creator": "Writer",
+        "/Producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "/CreationDate": "D:20260927190508-07'00'"
+      }
+    },
+    "Google Docs:F03_LISTS": {
+      "fixture": "F03_LISTS",
+      "engine": "Google Docs",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F03_LISTS__GOOGLE_DOCS.pdf",
+      "exists": true,
+      "checked_at_utc": "2026-09-28T02:56:46.887327+00:00",
+      "size_bytes": 26917,
+      "sha256": "d4342499a757d4cd54f07f5d077502e0c33a9c1294b3d036c62021c0d07b4289",
+      "status": "PASS",
+      "parseable": true,
+      "page_count": 1,
+      "page_count_minimum": 1,
+      "content_text_nonempty": true,
+      "struct_tree_exists": true,
+      "content_present": true,
+      "structure_summary": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "H1",
+          "P",
+          "P",
+          "L",
+          "LI",
+          "LBody",
+          "L",
+          "LI",
+          "LI",
+          "LI",
+          "P",
+          "L",
+          "LI",
+          "LI",
+          "LI"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "H1": 1,
+          "L": 3,
+          "LBody": 1,
+          "LI": 7,
+          "P": 3
+        },
+        "list_numbering": [],
+        "table_rows": 0,
+        "header_cells": 0,
+        "data_cells": 0,
+        "figures": [],
+        "pages": 1
+      },
+      "secondary_validation": {
+        "tool": "pdfplumber",
+        "parseable": true,
+        "page_count": 1,
+        "text_nonempty": true
+      },
+      "metadata": {
+        "/Title": "F03_LISTS",
+        "/Producer": "Skia/PDF m156 Google Docs Renderer"
+      }
+    },
+    "LibreOffice:F04_TABLE": {
+      "fixture": "F04_TABLE",
+      "engine": "LibreOffice",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\libreoffice_pdf\\F04_TABLE__LIBREOFFICE.pdf",
+      "exists": true,
+      "checked_at_utc": "2026-09-28T02:56:47.003734+00:00",
+      "size_bytes": 58095,
+      "sha256": "6d2bcc38193eaa1f44b02212352273dd9484625c275c6070510e37bd021b5221",
+      "status": "PASS",
+      "parseable": true,
+      "page_count": 1,
+      "page_count_minimum": 1,
+      "content_text_nonempty": true,
+      "struct_tree_exists": true,
+      "content_present": true,
+      "structure_summary": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "Title",
+          "Standard",
+          "Table",
+          "TR",
+          "TH",
+          "Standard",
+          "TH",
+          "Standard",
+          "TH",
+          "Standard",
+          "TR",
+          "TD",
+          "Standard",
+          "TD",
+          "Standard",
+          "TD",
+          "Standard",
+          "TR",
+          "TD",
+          "Standard",
+          "TD",
+          "Standard",
+          "TD",
+          "Standard",
+          "TR",
+          "TD",
+          "Standard",
+          "TD",
+          "Standard",
+          "TD",
+          "Standard"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "Standard": 13,
+          "TD": 9,
+          "TH": 3,
+          "TR": 4,
+          "Table": 1,
+          "Title": 1
+        },
+        "list_numbering": [],
+        "table_rows": 4,
+        "header_cells": 3,
+        "data_cells": 9,
+        "figures": [],
+        "pages": 1
+      },
+      "secondary_validation": {
+        "tool": "pdfplumber",
+        "parseable": true,
+        "page_count": 1,
+        "text_nonempty": true
+      },
+      "metadata": {
+        "/Title": "A11yPreserve Table Fixture",
+        "/Author": "A11yPreserve pilot",
+        "/Subject": "A11yPreserve controlled accessibility fixture",
+        "/Creator": "Writer",
+        "/Producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "/CreationDate": "D:20260927190519-07'00'"
+      }
+    },
+    "Google Docs:F04_TABLE": {
+      "fixture": "F04_TABLE",
+      "engine": "Google Docs",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F04_TABLE__GOOGLE_DOCS.pdf",
+      "exists": true,
+      "checked_at_utc": "2026-09-28T02:56:47.055895+00:00",
+      "size_bytes": 31181,
+      "sha256": "32e260086253eb38625d3d740b2ee97ed58ce79c724268224d7d5cfd9487c232",
+      "status": "PASS",
+      "parseable": true,
+      "page_count": 1,
+      "page_count_minimum": 1,
+      "content_text_nonempty": true,
+      "struct_tree_exists": true,
+      "content_present": true,
+      "structure_summary": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "H1",
+          "P",
+          "Table",
+          "TR",
+          "TH",
+          "P",
+          "TH",
+          "P",
+          "TH",
+          "P",
+          "TR",
+          "TD",
+          "P",
+          "TD",
+          "P",
+          "TD",
+          "P",
+          "TR",
+          "TD",
+          "P",
+          "TD",
+          "P",
+          "TD",
+          "P",
+          "TR",
+          "TD",
+          "P",
+          "TD",
+          "P",
+          "TD",
+          "P",
+          "P"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "H1": 1,
+          "P": 14,
+          "TD": 9,
+          "TH": 3,
+          "TR": 4,
+          "Table": 1
+        },
+        "list_numbering": [],
+        "table_rows": 4,
+        "header_cells": 3,
+        "data_cells": 9,
+        "figures": [],
+        "pages": 1
+      },
+      "secondary_validation": {
+        "tool": "pdfplumber",
+        "parseable": true,
+        "page_count": 1,
+        "text_nonempty": true
+      },
+      "metadata": {
+        "/Title": "F04_TABLE",
+        "/Producer": "Skia/PDF m156 Google Docs Renderer"
+      }
+    }
+  },
+  "summary": {
+    "expected_outputs": 8,
+    "valid_parseable_outputs": 8,
+    "all_required_outputs_valid": true
+  }
+}

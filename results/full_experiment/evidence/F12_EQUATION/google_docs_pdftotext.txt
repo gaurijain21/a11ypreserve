@@ -1,0 +1,18 @@
+25 [0x00005c44] INFO pdftotext null - this process (25144) started by python in directory C:\Users\iamga\OneDrive\Documents\ChatGPT\a11ypreserve with command line: C:\Users\iamga\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdftotext.EXE -layout C:\Users\iamga\OneDrive\Documents\ChatGPT\a11ypreserve\results\full_experiment\outputs\google_docs\F12_EQUATION__GOOGLE_DOCS.pdf -
+
+25 [0x00005c44] INFO pdftotext null - running on Windows 10.0.26200
+
+66 [0x00005c44] INFO pdftotext null - this process (25144) finishes with exit code 1
+
+77 [0x00005c44] ERROR trace.pdftotext.core null - Access is denied.
+
+
+
+77 [0x00005c44] ERROR trace.pdftotext.core null - Function: CreateDirectoryW
+
+77 [0x00005c44] ERROR trace.pdftotext.core null - Result: 5
+
+77 [0x00005c44] ERROR trace.pdftotext.core null - Data: path="C:\Users\iamga\AppData\Roaming\MiKTeX\2.9\miktex"
+
+77 [0x00005c44] ERROR trace.pdftotext.core null - Source: Libraries\MiKTeX\Core\win\win.cpp:271
+

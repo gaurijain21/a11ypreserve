@@ -1,0 +1,77 @@
+{
+  "certificate_version": "source-oracle-v1",
+  "fixture_id": "F08_LINKS",
+  "feature": "links",
+  "source_path": "corpus/fixtures/F08_LINKS.docx",
+  "source_sha256": "3220a74dbfccc059b8e77e490faa48d7540a56f22e93e0b78548ee6ae4c05c60",
+  "source_manifest_sha256": "a843c8c0fb91040b007c10d335c198c9e37212c599649c36d00a6d2dcd806598",
+  "ooxml_parts": [
+    "word/document.xml",
+    "word/styles.xml",
+    "word/numbering.xml",
+    "docProps/core.xml"
+  ],
+  "xpath_or_element_assertions": {
+    "document": "w:document//w:p, w:tbl, w:hyperlink, w:footnoteReference, wp:docPr, m:oMath",
+    "feature": "links"
+  },
+  "expected": {
+    "hyperlinks": [
+      {
+        "text": "Accessibility Guidelines",
+        "target": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+        "order": 1
+      }
+    ]
+  },
+  "observed": {
+    "hyperlinks": [
+      {
+        "text": "Accessibility Guidelines",
+        "target": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+        "order": 1
+      }
+    ]
+  },
+  "raw_observations": {
+    "core": {
+      "title": "A11yPreserve Hyperlink Fixture",
+      "subject": "A11yPreserve Phase 4 controlled benchmark fixture",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "default_language": "en-US",
+    "language_values": [
+      "en-US",
+      "en-US"
+    ],
+    "headings": [],
+    "lists": [],
+    "inline_languages": [
+      {
+        "text": "A11yPreserve Hyperlink Fixture",
+        "language": "en-US"
+      },
+      {
+        "text": "Read the ",
+        "language": "en-US"
+      }
+    ],
+    "figures": [],
+    "hyperlinks": [
+      {
+        "text": "Accessibility Guidelines",
+        "target": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+        "order": 1
+      }
+    ],
+    "tables": [],
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "has_footnotes_part": false
+  },
+  "verifier": "src/independent_source_oracle.py; stdlib zipfile + xml.etree.ElementTree; no ASIR imports",
+  "timestamp_utc": "2026-09-29T02:55:15.091030+00:00",
+  "status": "PASS"
+}

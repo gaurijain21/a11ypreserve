@@ -1,0 +1,98 @@
+{
+  "certificate_version": "source-oracle-v1",
+  "fixture_id": "F07_DECORATIVE_IMAGE",
+  "feature": "decorative_image",
+  "source_path": "corpus/fixtures/F07_DECORATIVE_IMAGE.docx",
+  "source_sha256": "02b65084773bfd96272411945bed53b1a0bf46edc6359f4e34206e972cb98d70",
+  "source_manifest_sha256": "4914a5c125ad64edbfa8214275a6470f0e3dbbcabbb76e9db43d2d6712f3d677",
+  "ooxml_parts": [
+    "word/document.xml",
+    "word/styles.xml",
+    "word/numbering.xml",
+    "docProps/core.xml"
+  ],
+  "xpath_or_element_assertions": {
+    "document": "w:document//w:p, w:tbl, w:hyperlink, w:footnoteReference, wp:docPr, m:oMath",
+    "feature": "decorative_image"
+  },
+  "expected": {
+    "figures": [
+      {
+        "identifier": "figure-1",
+        "alt": "A meaningful research figure showing the benchmark workflow.",
+        "decorative": false,
+        "order": 1
+      },
+      {
+        "identifier": "figure-2",
+        "alt": "",
+        "decorative": true,
+        "order": 2
+      }
+    ]
+  },
+  "observed": {
+    "figures": [
+      {
+        "identifier": "figure-1",
+        "alt": "A meaningful research figure showing the benchmark workflow.",
+        "decorative": false,
+        "order": 1
+      },
+      {
+        "identifier": "figure-2",
+        "alt": "",
+        "decorative": true,
+        "order": 2
+      }
+    ]
+  },
+  "raw_observations": {
+    "core": {
+      "title": "A11yPreserve Decorative Image Fixture",
+      "subject": "A11yPreserve Phase 4 controlled benchmark fixture",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "default_language": "en-US",
+    "language_values": [
+      "en-US",
+      "en-US"
+    ],
+    "headings": [],
+    "lists": [],
+    "inline_languages": [
+      {
+        "text": "A11yPreserve Decorative Image Fixture",
+        "language": "en-US"
+      },
+      {
+        "text": "The first image conveys information; the second image is explicitly decorative.",
+        "language": "en-US"
+      }
+    ],
+    "figures": [
+      {
+        "identifier": "figure-1",
+        "alt": "A meaningful research figure showing the benchmark workflow.",
+        "decorative": false,
+        "order": 1
+      },
+      {
+        "identifier": "figure-2",
+        "alt": "",
+        "decorative": true,
+        "order": 2
+      }
+    ],
+    "hyperlinks": [],
+    "tables": [],
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "has_footnotes_part": false
+  },
+  "verifier": "scripts/independent_source_oracle.py; stdlib zipfile + xml.etree.ElementTree; no ASIR imports",
+  "timestamp_utc": "2026-09-28T21:16:19.901707+00:00",
+  "status": "PASS"
+}

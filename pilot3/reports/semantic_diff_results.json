@@ -1,0 +1,923 @@
+{
+  "generated_at_utc": "2026-09-28T02:56:46.294414+00:00",
+  "taxonomy": {
+    "fidelity": [
+      "EXACT_PRESERVATION",
+      "SEMANTICALLY_EQUIVALENT",
+      "PARTIAL_PRESERVATION",
+      "MUTATED",
+      "REGENERATED",
+      "LOST",
+      "NOT_REPRESENTABLE",
+      "NOT_APPLICABLE",
+      "MEASUREMENT_ERROR"
+    ],
+    "destination_accessibility": [
+      "ACCESSIBLE_EQUIVALENT",
+      "ACCESSIBLE_BUT_ALTERED",
+      "DEGRADED_ACCESSIBILITY",
+      "INACCESSIBLE_FEATURE",
+      "UNKNOWN"
+    ]
+  },
+  "results": [
+    {
+      "fixture": "F01_HEADINGS",
+      "source_format": "DOCX",
+      "destination_format": "PDF",
+      "converter": "LibreOffice",
+      "source_feature": "heading hierarchy",
+      "source_value": [
+        {
+          "text": "Research Overview",
+          "level": 1,
+          "order": 2
+        },
+        {
+          "text": "Background",
+          "level": 2,
+          "order": 4
+        },
+        {
+          "text": "Prior Work",
+          "level": 3,
+          "order": 6
+        },
+        {
+          "text": "Methods",
+          "level": 2,
+          "order": 8
+        }
+      ],
+      "destination_value": {
+        "roles": [
+          1,
+          2,
+          3,
+          2
+        ],
+        "source_sequence_start": 0,
+        "source_texts_present": true
+      },
+      "destination_representation": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "Title",
+          "H1",
+          "Standard",
+          "H2",
+          "Standard",
+          "H3",
+          "Standard",
+          "H2",
+          "Standard"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "H1": 1,
+          "H2": 2,
+          "H3": 1,
+          "Standard": 4,
+          "Title": 1
+        },
+        "list_numbering": [],
+        "table_rows": 0,
+        "header_cells": 0,
+        "data_cells": 0,
+        "figures": [],
+        "pages": 1
+      },
+      "equivalence_determination": "SEMANTICALLY_EQUIVALENT",
+      "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "classification": "SEMANTICALLY_EQUIVALENT",
+      "evidence_path": [
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\evidence\\F01_HEADINGS\\libreoffice_semantics.json",
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\libreoffice_pdf\\F01_HEADINGS__LIBREOFFICE.pdf"
+      ],
+      "confidence": 0.99,
+      "notes": "All source heading levels occur in order and their text is independently present in extracted page text."
+    },
+    {
+      "fixture": "F01_HEADINGS",
+      "source_format": "DOCX",
+      "destination_format": "PDF",
+      "converter": "Google Docs",
+      "source_feature": "heading hierarchy",
+      "source_value": [
+        {
+          "text": "Research Overview",
+          "level": 1,
+          "order": 2
+        },
+        {
+          "text": "Background",
+          "level": 2,
+          "order": 4
+        },
+        {
+          "text": "Prior Work",
+          "level": 3,
+          "order": 6
+        },
+        {
+          "text": "Methods",
+          "level": 2,
+          "order": 8
+        }
+      ],
+      "destination_value": {
+        "roles": [
+          1,
+          1,
+          2,
+          3,
+          2
+        ],
+        "source_sequence_start": 1,
+        "source_texts_present": true
+      },
+      "destination_representation": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "H1",
+          "H1",
+          "P",
+          "H2",
+          "P",
+          "H3",
+          "P",
+          "H2",
+          "P"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "H1": 2,
+          "H2": 2,
+          "H3": 1,
+          "P": 4
+        },
+        "list_numbering": [],
+        "table_rows": 0,
+        "header_cells": 0,
+        "data_cells": 0,
+        "figures": [],
+        "pages": 1
+      },
+      "equivalence_determination": "PARTIAL_PRESERVATION",
+      "fidelity_classification": "PARTIAL_PRESERVATION",
+      "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+      "classification": "PARTIAL_PRESERVATION",
+      "evidence_path": [
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\evidence\\F01_HEADINGS\\google_docs_semantics.json",
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F01_HEADINGS__GOOGLE_DOCS.pdf"
+      ],
+      "confidence": 0.97,
+      "notes": "The source H1/H2/H3/H2 sequence is present, but Google Docs added an extra H1 title before it."
+    },
+    {
+      "fixture": "F02_ALT_TEXT",
+      "source_format": "DOCX",
+      "destination_format": "PDF",
+      "converter": "LibreOffice",
+      "source_feature": "image alternative text",
+      "source_value": [
+        {
+          "identifier": "figure-1",
+          "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+          "decorative": false,
+          "order": 1
+        }
+      ],
+      "destination_value": {
+        "figure_count": 1,
+        "alt": "Enrollment chart - Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+        "decorative": false
+      },
+      "destination_representation": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "Title",
+          "Standard",
+          "Standard",
+          "Figure",
+          "Standard"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "Figure": 1,
+          "Standard": 3,
+          "Title": 1
+        },
+        "list_numbering": [],
+        "table_rows": 0,
+        "header_cells": 0,
+        "data_cells": 0,
+        "figures": [
+          {
+            "alt": "Enrollment chart - Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+            "has_alt": true
+          }
+        ],
+        "pages": 1
+      },
+      "equivalence_determination": "MUTATED",
+      "fidelity_classification": "MUTATED",
+      "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+      "classification": "MUTATED",
+      "evidence_path": [
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\evidence\\F02_ALT_TEXT\\libreoffice_semantics.json",
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\libreoffice_pdf\\F02_ALT_TEXT__LIBREOFFICE.pdf"
+      ],
+      "confidence": 0.99,
+      "notes": "A non-empty destination /Alt exists but differs from the source author-written value."
+    },
+    {
+      "fixture": "F02_ALT_TEXT",
+      "source_format": "DOCX",
+      "destination_format": "PDF",
+      "converter": "Google Docs",
+      "source_feature": "image alternative text",
+      "source_value": [
+        {
+          "identifier": "figure-1",
+          "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+          "decorative": false,
+          "order": 1
+        }
+      ],
+      "destination_value": {
+        "figure_count": 1,
+        "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+        "decorative": false
+      },
+      "destination_representation": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "H1",
+          "P",
+          "P",
+          "Figure",
+          "Span",
+          "P"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "Figure": 1,
+          "H1": 1,
+          "P": 3,
+          "Span": 1
+        },
+        "list_numbering": [],
+        "table_rows": 0,
+        "header_cells": 0,
+        "data_cells": 0,
+        "figures": [
+          {
+            "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+            "has_alt": true
+          }
+        ],
+        "pages": 1
+      },
+      "equivalence_determination": "EXACT_PRESERVATION",
+      "fidelity_classification": "EXACT_PRESERVATION",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "classification": "EXACT_PRESERVATION",
+      "evidence_path": [
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\evidence\\F02_ALT_TEXT\\google_docs_semantics.json",
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F02_ALT_TEXT__GOOGLE_DOCS.pdf"
+      ],
+      "confidence": 1.0,
+      "notes": "The PDF Figure /Alt value exactly matches the author-written DOCX alternative text."
+    },
+    {
+      "fixture": "F03_LISTS",
+      "source_format": "DOCX",
+      "destination_format": "PDF",
+      "converter": "LibreOffice",
+      "source_feature": "list structure",
+      "source_value": [
+        {
+          "type": "unordered",
+          "depth": 0,
+          "text": "Accessibility",
+          "parent": null,
+          "order": 4,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "10",
+            "ilvl": 0,
+            "numFmt": "bullet"
+          }
+        },
+        {
+          "type": "unordered",
+          "depth": 1,
+          "text": "Documents",
+          "parent": "Accessibility",
+          "order": 5,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "10",
+            "ilvl": 1,
+            "numFmt": "bullet"
+          }
+        },
+        {
+          "type": "unordered",
+          "depth": 1,
+          "text": "Web",
+          "parent": "Accessibility",
+          "order": 6,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "10",
+            "ilvl": 1,
+            "numFmt": "bullet"
+          }
+        },
+        {
+          "type": "unordered",
+          "depth": 0,
+          "text": "Usability",
+          "parent": null,
+          "order": 7,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "10",
+            "ilvl": 0,
+            "numFmt": "bullet"
+          }
+        },
+        {
+          "type": "ordered",
+          "depth": 0,
+          "text": "Extract",
+          "parent": null,
+          "order": 9,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "11",
+            "ilvl": 0,
+            "numFmt": "decimal"
+          }
+        },
+        {
+          "type": "ordered",
+          "depth": 0,
+          "text": "Convert",
+          "parent": null,
+          "order": 10,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "11",
+            "ilvl": 0,
+            "numFmt": "decimal"
+          }
+        },
+        {
+          "type": "ordered",
+          "depth": 0,
+          "text": "Compare",
+          "parent": null,
+          "order": 11,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "11",
+            "ilvl": 0,
+            "numFmt": "decimal"
+          }
+        }
+      ],
+      "destination_value": {
+        "list_containers": 3,
+        "list_items": 7,
+        "list_numbering": [
+          "Disc",
+          "Disc",
+          "Decimal"
+        ],
+        "source_item_texts_present": true,
+        "roles": [
+          "Document",
+          "Title",
+          "Standard",
+          "Standard",
+          "L",
+          "LI",
+          "Lbl",
+          "LBody",
+          "List 1",
+          "L",
+          "LI",
+          "Lbl",
+          "LBody",
+          "List 1",
+          "LI",
+          "Lbl",
+          "LBody",
+          "List 1",
+          "LI",
+          "Lbl",
+          "LBody",
+          "List 1",
+          "Standard",
+          "L",
+          "LI",
+          "Lbl",
+          "LBody",
+          "Numbering 1",
+          "LI",
+          "Lbl",
+          "LBody",
+          "Numbering 1",
+          "LI",
+          "Lbl",
+          "LBody",
+          "Numbering 1"
+        ]
+      },
+      "destination_representation": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "Title",
+          "Standard",
+          "Standard",
+          "L",
+          "LI",
+          "Lbl",
+          "LBody",
+          "List 1",
+          "L",
+          "LI",
+          "Lbl",
+          "LBody",
+          "List 1",
+          "LI",
+          "Lbl",
+          "LBody",
+          "List 1",
+          "LI",
+          "Lbl",
+          "LBody",
+          "List 1",
+          "Standard",
+          "L",
+          "LI",
+          "Lbl",
+          "LBody",
+          "Numbering 1",
+          "LI",
+          "Lbl",
+          "LBody",
+          "Numbering 1",
+          "LI",
+          "Lbl",
+          "LBody",
+          "Numbering 1"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "L": 3,
+          "LBody": 7,
+          "LI": 7,
+          "Lbl": 7,
+          "List 1": 4,
+          "Numbering 1": 3,
+          "Standard": 3,
+          "Title": 1
+        },
+        "list_numbering": [
+          "Disc",
+          "Disc",
+          "Decimal"
+        ],
+        "table_rows": 0,
+        "header_cells": 0,
+        "data_cells": 0,
+        "figures": [],
+        "pages": 1
+      },
+      "equivalence_determination": "SEMANTICALLY_EQUIVALENT",
+      "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "classification": "SEMANTICALLY_EQUIVALENT",
+      "evidence_path": [
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\evidence\\F03_LISTS\\libreoffice_semantics.json",
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\libreoffice_pdf\\F03_LISTS__LIBREOFFICE.pdf"
+      ],
+      "confidence": 0.98,
+      "notes": "List containers, list items, nested structure, explicit list numbering, and source item text are independently present."
+    },
+    {
+      "fixture": "F03_LISTS",
+      "source_format": "DOCX",
+      "destination_format": "PDF",
+      "converter": "Google Docs",
+      "source_feature": "list structure",
+      "source_value": [
+        {
+          "type": "unordered",
+          "depth": 0,
+          "text": "Accessibility",
+          "parent": null,
+          "order": 4,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "10",
+            "ilvl": 0,
+            "numFmt": "bullet"
+          }
+        },
+        {
+          "type": "unordered",
+          "depth": 1,
+          "text": "Documents",
+          "parent": "Accessibility",
+          "order": 5,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "10",
+            "ilvl": 1,
+            "numFmt": "bullet"
+          }
+        },
+        {
+          "type": "unordered",
+          "depth": 1,
+          "text": "Web",
+          "parent": "Accessibility",
+          "order": 6,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "10",
+            "ilvl": 1,
+            "numFmt": "bullet"
+          }
+        },
+        {
+          "type": "unordered",
+          "depth": 0,
+          "text": "Usability",
+          "parent": null,
+          "order": 7,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "10",
+            "ilvl": 0,
+            "numFmt": "bullet"
+          }
+        },
+        {
+          "type": "ordered",
+          "depth": 0,
+          "text": "Extract",
+          "parent": null,
+          "order": 9,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "11",
+            "ilvl": 0,
+            "numFmt": "decimal"
+          }
+        },
+        {
+          "type": "ordered",
+          "depth": 0,
+          "text": "Convert",
+          "parent": null,
+          "order": 10,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "11",
+            "ilvl": 0,
+            "numFmt": "decimal"
+          }
+        },
+        {
+          "type": "ordered",
+          "depth": 0,
+          "text": "Compare",
+          "parent": null,
+          "order": 11,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "11",
+            "ilvl": 0,
+            "numFmt": "decimal"
+          }
+        }
+      ],
+      "destination_value": {
+        "list_containers": 3,
+        "list_items": 7,
+        "list_numbering": [],
+        "source_item_texts_present": true,
+        "roles": [
+          "Document",
+          "H1",
+          "P",
+          "P",
+          "L",
+          "LI",
+          "LBody",
+          "L",
+          "LI",
+          "LI",
+          "LI",
+          "P",
+          "L",
+          "LI",
+          "LI",
+          "LI"
+        ]
+      },
+      "destination_representation": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "H1",
+          "P",
+          "P",
+          "L",
+          "LI",
+          "LBody",
+          "L",
+          "LI",
+          "LI",
+          "LI",
+          "P",
+          "L",
+          "LI",
+          "LI",
+          "LI"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "H1": 1,
+          "L": 3,
+          "LBody": 1,
+          "LI": 7,
+          "P": 3
+        },
+        "list_numbering": [],
+        "table_rows": 0,
+        "header_cells": 0,
+        "data_cells": 0,
+        "figures": [],
+        "pages": 1
+      },
+      "equivalence_determination": "PARTIAL_PRESERVATION",
+      "fidelity_classification": "PARTIAL_PRESERVATION",
+      "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+      "classification": "PARTIAL_PRESERVATION",
+      "evidence_path": [
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\evidence\\F03_LISTS\\google_docs_semantics.json",
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F03_LISTS__GOOGLE_DOCS.pdf"
+      ],
+      "confidence": 0.95,
+      "notes": "List and nested list roles survive, but the PDF structure omits explicit /ListNumbering attributes; visual bullets/numbers are not treated as semantic proof."
+    },
+    {
+      "fixture": "F04_TABLE",
+      "source_format": "DOCX",
+      "destination_format": "PDF",
+      "converter": "LibreOffice",
+      "source_feature": "table structure",
+      "source_value": [
+        {
+          "identifier": "table-1",
+          "dimensions": {
+            "rows": 4,
+            "columns": 3
+          },
+          "cells": [
+            [
+              "Year",
+              "Students",
+              "Completion Rate"
+            ],
+            [
+              "2024",
+              "120",
+              "82%"
+            ],
+            [
+              "2025",
+              "150",
+              "87%"
+            ],
+            [
+              "2026",
+              "180",
+              "91%"
+            ]
+          ],
+          "headers": [
+            "Year",
+            "Students",
+            "Completion Rate"
+          ],
+          "header_row": 0,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "tblHeader": true
+          }
+        }
+      ],
+      "destination_value": {
+        "tables": 1,
+        "rows": 4,
+        "header_cells": 3,
+        "data_cells": 9,
+        "source_cell_texts_present": true
+      },
+      "destination_representation": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "Title",
+          "Standard",
+          "Table",
+          "TR",
+          "TH",
+          "Standard",
+          "TH",
+          "Standard",
+          "TH",
+          "Standard",
+          "TR",
+          "TD",
+          "Standard",
+          "TD",
+          "Standard",
+          "TD",
+          "Standard",
+          "TR",
+          "TD",
+          "Standard",
+          "TD",
+          "Standard",
+          "TD",
+          "Standard",
+          "TR",
+          "TD",
+          "Standard",
+          "TD",
+          "Standard",
+          "TD",
+          "Standard"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "Standard": 13,
+          "TD": 9,
+          "TH": 3,
+          "TR": 4,
+          "Table": 1,
+          "Title": 1
+        },
+        "list_numbering": [],
+        "table_rows": 4,
+        "header_cells": 3,
+        "data_cells": 9,
+        "figures": [],
+        "pages": 1
+      },
+      "equivalence_determination": "SEMANTICALLY_EQUIVALENT",
+      "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "classification": "SEMANTICALLY_EQUIVALENT",
+      "evidence_path": [
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\evidence\\F04_TABLE\\libreoffice_semantics.json",
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\libreoffice_pdf\\F04_TABLE__LIBREOFFICE.pdf"
+      ],
+      "confidence": 0.98,
+      "notes": "The PDF has Table/TR/TH/TD roles with a three-cell header row and all source cell values independently present in page text."
+    },
+    {
+      "fixture": "F04_TABLE",
+      "source_format": "DOCX",
+      "destination_format": "PDF",
+      "converter": "Google Docs",
+      "source_feature": "table structure",
+      "source_value": [
+        {
+          "identifier": "table-1",
+          "dimensions": {
+            "rows": 4,
+            "columns": 3
+          },
+          "cells": [
+            [
+              "Year",
+              "Students",
+              "Completion Rate"
+            ],
+            [
+              "2024",
+              "120",
+              "82%"
+            ],
+            [
+              "2025",
+              "150",
+              "87%"
+            ],
+            [
+              "2026",
+              "180",
+              "91%"
+            ]
+          ],
+          "headers": [
+            "Year",
+            "Students",
+            "Completion Rate"
+          ],
+          "header_row": 0,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "tblHeader": true
+          }
+        }
+      ],
+      "destination_value": {
+        "tables": 1,
+        "rows": 4,
+        "header_cells": 3,
+        "data_cells": 9,
+        "source_cell_texts_present": true
+      },
+      "destination_representation": {
+        "tagged": true,
+        "roles": [
+          "Document",
+          "H1",
+          "P",
+          "Table",
+          "TR",
+          "TH",
+          "P",
+          "TH",
+          "P",
+          "TH",
+          "P",
+          "TR",
+          "TD",
+          "P",
+          "TD",
+          "P",
+          "TD",
+          "P",
+          "TR",
+          "TD",
+          "P",
+          "TD",
+          "P",
+          "TD",
+          "P",
+          "TR",
+          "TD",
+          "P",
+          "TD",
+          "P",
+          "TD",
+          "P",
+          "P"
+        ],
+        "role_counts": {
+          "Document": 1,
+          "H1": 1,
+          "P": 14,
+          "TD": 9,
+          "TH": 3,
+          "TR": 4,
+          "Table": 1
+        },
+        "list_numbering": [],
+        "table_rows": 4,
+        "header_cells": 3,
+        "data_cells": 9,
+        "figures": [],
+        "pages": 1
+      },
+      "equivalence_determination": "SEMANTICALLY_EQUIVALENT",
+      "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "classification": "SEMANTICALLY_EQUIVALENT",
+      "evidence_path": [
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\evidence\\F04_TABLE\\google_docs_semantics.json",
+        "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F04_TABLE__GOOGLE_DOCS.pdf"
+      ],
+      "confidence": 0.98,
+      "notes": "The PDF has Table/TR/TH/TD roles with a three-cell header row and all source cell values independently present in page text."
+    }
+  ]
+}

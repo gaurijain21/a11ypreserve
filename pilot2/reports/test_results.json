@@ -1,0 +1,60 @@
+{
+  "frozen_input_hashes": true,
+  "source_extraction": {
+    "F01_HEADINGS": {
+      "headings": 4,
+      "figures": 0,
+      "lists": 0,
+      "tables": 0
+    },
+    "F02_ALT_TEXT": {
+      "headings": 0,
+      "figures": 1,
+      "lists": 0,
+      "tables": 0
+    },
+    "F03_LISTS": {
+      "headings": 0,
+      "figures": 0,
+      "lists": 7,
+      "tables": 0
+    },
+    "F04_TABLE": {
+      "headings": 0,
+      "figures": 0,
+      "lists": 0,
+      "tables": 1
+    }
+  },
+  "comparator_synthetic": {
+    "PRESERVED": true,
+    "DEGRADED": true,
+    "LOST": true,
+    "MIS_MAPPED": true
+  },
+  "output_validation_records": 8,
+  "semantic_diff_records": 17,
+  "semantic_diff_pairs": 8,
+  "pdf_extractor_smoke": {
+    "tagged": true,
+    "headings": 2,
+    "figures": 2
+  },
+  "real_pdf_semantic_regression": {
+    "F01_HEADINGS": [
+      "PRESERVED"
+    ],
+    "F02_ALT_TEXT": [
+      "DEGRADED"
+    ],
+    "F03_LISTS": [
+      "PRESERVED"
+    ],
+    "F04_TABLE": [
+      "PRESERVED"
+    ]
+  },
+  "real_pdf_semantic_regression_passed": true,
+  "all_passed": true,
+  "failures": []
+}

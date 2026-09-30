@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-09-28T21:16:19.263623+00:00",
+  "passed": true,
+  "suites": [
+    {
+      "suite": "source_verification",
+      "command": [
+        "C:\\Users\\iamga\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "scripts/verify_corpus_ooxml.py"
+      ],
+      "return_code": 0,
+      "passed": true,
+      "stdout_tail": "22d7adcc94864339faa2bd9ae403ebf05038be38e8d69e25377a383dbb6\",\n      \"manifest_matches_ooxml\": true,\n      \"source_extractor_matches\": true,\n      \"errors\": []\n    },\n    {\n      \"fixture\": \"F09_DOCUMENT_TITLE\",\n      \"path\": \"C:\\\\Users\\\\iamga\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\a11ypreserve\\\\corpus\\\\fixtures\\\\F09_DOCUMENT_TITLE.docx\",\n      \"sha256\": \"314b57e9d2457fc4ae8adf79f55587ecef9232b2dd689ea7cc98cb96772260f2\",\n      \"manifest\": \"C:\\\\Users\\\\iamga\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\a11ypreserve\\\\corpus\\\\manifests\\\\F09_DOCUMENT_TITLE.json\",\n      \"manifest_sha256\": \"0178a23adfd74b099b21509ae87b1a9831eabe393cfc846446c2bfe2fe4b21cb\",\n      \"manifest_matches_ooxml\": true,\n      \"source_extractor_matches\": true,\n      \"errors\": []\n    },\n    {\n      \"fixture\": \"F10_COMPLEX_TABLE\",\n      \"path\": \"C:\\\\Users\\\\iamga\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\a11ypreserve\\\\corpus\\\\fixtures\\\\F10_COMPLEX_TABLE.docx\",\n      \"sha256\": \"eacf8f49328015d6ce66084a92173f73b63bed4878a60943c8dbf0a7beeae992\",\n      \"manifest\": \"C:\\\\Users\\\\iamga\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\a11ypreserve\\\\corpus\\\\manifests\\\\F10_COMPLEX_TABLE.json\",\n      \"manifest_sha256\": \"fc958ceb9c1f811dfde37814a0cbe5a6b206c5c2f3cb2c9d9cbef8fb792b27fe\",\n      \"manifest_matches_ooxml\": true,\n      \"source_extractor_matches\": true,\n      \"errors\": []\n    },\n    {\n      \"fixture\": \"F11_FOOTNOTES\",\n      \"path\": \"C:\\\\Users\\\\iamga\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\a11ypreserve\\\\corpus\\\\fixtures\\\\F11_FOOTNOTES.docx\",\n      \"sha256\": \"72b7182ee9e677f7a302a2f937bac054b321545239bab97be126ea6a01cbce47\",\n      \"manifest\": \"C:\\\\Users\\\\iamga\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\a11ypreserve\\\\corpus\\\\manifests\\\\F11_FOOTNOTES.json\",\n      \"manifest_sha256\": \"2e0ca22b6516a575c74f1232c2fca7738c087912eb08fef6c61be40598913e81\",\n      \"manifest_matches_ooxml\": true,\n      \"source_extractor_matches\": true,\n      \"errors\": []\n    },\n    {\n      \"fixture\": \"F12_EQUATION\",\n      \"path\": \"C:\\\\Users\\\\iamga\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\a11ypreserve\\\\corpus\\\\fixtures\\\\F12_EQUATION.docx\",\n      \"sha256\": \"c9a89fb6999a90ad0abc8bff4ea81a10905ce4843c28d55d8df83f5ee87ba9f8\",\n      \"manifest\": \"C:\\\\Users\\\\iamga\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\a11ypreserve\\\\corpus\\\\manifests\\\\F12_EQUATION.json\",\n      \"manifest_sha256\": \"bc5772b93d5c5ae6cda2b45136a654ead4031fc3bd9aa06ae6f77091f1bbb5b3\",\n      \"manifest_matches_ooxml\": true,\n      \"source_extractor_matches\": true,\n      \"errors\": []\n    },\n    {\n      \"fixture\": \"F14_CAPTIONS\",\n      \"path\": \"C:\\\\Users\\\\iamga\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\a11ypreserve\\\\corpus\\\\fixtures\\\\F14_CAPTIONS.docx\",\n      \"sha256\": \"855438acee27f51c1f9e3a455a176ab73a4b18fc0a07b66ab38c59f8d9d52736\",\n      \"manifest\": \"C:\\\\Users\\\\iamga\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\a11ypreserve\\\\corpus\\\\manifests\\\\F14_CAPTIONS.json\",\n      \"manifest_sha256\": \"4e38bf41cea74b06d0ebc1068a0c3fd4f3f71fec3d9b4968433ebfcbfa4dbaeb\",\n      \"manifest_matches_ooxml\": true,\n      \"source_extractor_matches\": true,\n      \"errors\": []\n    }\n  ],\n  \"passed\": true\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "suite": "phase4",
+      "command": [
+        "C:\\Users\\iamga\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "scripts/phase4_tests.py"
+      ],
+      "return_code": 0,
+      "passed": true,
+      "stdout_tail": "{\n  \"passed\": true,\n  \"fixture_count\": 13,\n  \"taxonomy_cases\": 9,\n  \"inline_language_case\": \"PARTIAL_PRESERVATION\",\n  \"existing_pilot_tests\": \"run separately by scripts/test_pilot.py, scripts/pilot2_tests.py, scripts/pilot3_tests.py\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "suite": "pilot1",
+      "command": [
+        "C:\\Users\\iamga\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "scripts/test_pilot.py"
+      ],
+      "return_code": 0,
+      "passed": true,
+      "stdout_tail": "{\n  \"synthetic_comparator\": {\n    \"PRESERVED\": true,\n    \"DEGRADED\": true,\n    \"LOST\": true,\n    \"MIS_MAPPED\": true\n  },\n  \"source_extractors\": {\n    \"F01_HEADINGS\": {\n      \"headings\": 4,\n      \"figures\": 0,\n      \"lists\": 0,\n      \"tables\": 0\n    },\n    \"F02_ALT_TEXT\": {\n      \"headings\": 0,\n      \"figures\": 1,\n      \"lists\": 0,\n      \"tables\": 0\n    },\n    \"F03_LISTS\": {\n      \"headings\": 0,\n      \"figures\": 0,\n      \"lists\": 7,\n      \"tables\": 0\n    },\n    \"F04_TABLE\": {\n      \"headings\": 0,\n      \"figures\": 0,\n      \"lists\": 0,\n      \"tables\": 1\n    }\n  },\n  \"pdf_extractor_smoke\": {\n    \"input\": \"C:\\\\Users\\\\iamga\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\a11ypreserve\\\\outputs\\\\G01_chrome.pdf\",\n    \"tagged\": true,\n    \"headings\": 2,\n    \"figures\": 2\n  },\n  \"passed\": true,\n  \"failures\": []\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "suite": "pilot2",
+      "command": [
+        "C:\\Users\\iamga\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "scripts/pilot2_tests.py"
+      ],
+      "return_code": 0,
+      "passed": true,
+      "stdout_tail": "{\n  \"frozen_input_hashes\": true,\n  \"source_extraction\": {\n    \"F01_HEADINGS\": {\n      \"headings\": 4,\n      \"figures\": 0,\n      \"lists\": 0,\n      \"tables\": 0\n    },\n    \"F02_ALT_TEXT\": {\n      \"headings\": 0,\n      \"figures\": 1,\n      \"lists\": 0,\n      \"tables\": 0\n    },\n    \"F03_LISTS\": {\n      \"headings\": 0,\n      \"figures\": 0,\n      \"lists\": 7,\n      \"tables\": 0\n    },\n    \"F04_TABLE\": {\n      \"headings\": 0,\n      \"figures\": 0,\n      \"lists\": 0,\n      \"tables\": 1\n    }\n  },\n  \"comparator_synthetic\": {\n    \"PRESERVED\": true,\n    \"DEGRADED\": true,\n    \"LOST\": true,\n    \"MIS_MAPPED\": true\n  },\n  \"output_validation_records\": 8,\n  \"semantic_diff_records\": 17,\n  \"semantic_diff_pairs\": 8,\n  \"pdf_extractor_smoke\": {\n    \"tagged\": true,\n    \"headings\": 2,\n    \"figures\": 2\n  },\n  \"real_pdf_semantic_regression\": {\n    \"F01_HEADINGS\": [\n      \"PRESERVED\"\n    ],\n    \"F02_ALT_TEXT\": [\n      \"DEGRADED\"\n    ],\n    \"F03_LISTS\": [\n      \"PRESERVED\"\n    ],\n    \"F04_TABLE\": [\n      \"PRESERVED\"\n    ]\n  },\n  \"real_pdf_semantic_regression_passed\": true,\n  \"all_passed\": true,\n  \"failures\": []\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "suite": "pilot3",
+      "command": [
+        "C:\\Users\\iamga\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "scripts/pilot3_tests.py"
+      ],
+      "return_code": 0,
+      "passed": true,
+      "stdout_tail": "{\n  \"passed\": true,\n  \"assertions\": 35,\n  \"semantic_rows\": 8\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "suite": "full_experiment_regressions",
+      "command": [
+        "C:\\Users\\iamga\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "scripts/full_experiment_tests.py"
+      ],
+      "return_code": 0,
+      "passed": true,
+      "stdout_tail": "{\"passed\": true, \"validation_records\": 26, \"diff_records\": 26, \"new_regressions\": 4}\n",
+      "stderr_tail": ""
+    }
+  ],
+  "new_tests_added": [
+    "scripts/validate_full_outputs.py",
+    "scripts/run_full_experiment_analysis.py",
+    "scripts/full_experiment_tests.py"
+  ]
+}

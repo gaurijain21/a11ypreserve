@@ -1,0 +1,55 @@
+{
+  "format": "pdf",
+  "title": "Variante B05 langue",
+  "language": "fr-FR",
+  "document": {
+    "title": "Variante B05 langue",
+    "language": "fr-FR",
+    "metadata": {
+      "Title": "Variante B05 langue",
+      "Author": "A11yPreserve variant set",
+      "Creator": "Writer",
+      "Producer": "LibreOffice 26.2.6.3 (X86_64)",
+      "CreationDate": "D:20260928174312-07'00'"
+    }
+  },
+  "headings": [],
+  "lists": [],
+  "inline_languages": [
+    {
+      "text": "",
+      "language": "en-US",
+      "evidence": {
+        "pdf_role": "Span",
+        "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(5, 0, 2136979845840), '/Pg': IndirectObject(1, 0, 2136979845840), '/Lang': 'en-US', '/K': [0]}",
+        "source": "StructElem/Lang"
+      }
+    }
+  ],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {
+      "/Title": "/P",
+      "/Standard": "/P"
+    },
+    "pages": 1
+  },
+  "text_preview": "Variante B05 langue\nCette note décrit la langue par défaut du document.",
+  "pdf_text": "Variante B05 langue\nCette note décrit la langue par défaut du document.",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\v3\\variant_set_b\\libreoffice\\outputs\\B05__LIBREOFFICE.pdf"
+  }
+}

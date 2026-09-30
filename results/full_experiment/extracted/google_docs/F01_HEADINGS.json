@@ -1,0 +1,80 @@
+{
+  "format": "pdf",
+  "title": "F01_HEADINGS",
+  "language": "en",
+  "document": {
+    "title": "F01_HEADINGS",
+    "language": "en",
+    "metadata": {
+      "Title": "F01_HEADINGS",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(11, 0, 2294766694736), '/Pg': IndirectObject(2, 0, 2294766694736), '/K': 0}"
+      }
+    },
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(11, 0, 2294766694736), '/Pg': IndirectObject(2, 0, 2294766694736), '/K': 1}"
+      }
+    },
+    {
+      "text": "",
+      "level": 2,
+      "evidence": {
+        "pdf_role": "H2",
+        "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(11, 0, 2294766694736), '/Pg': IndirectObject(2, 0, 2294766694736), '/K': 3}"
+      }
+    },
+    {
+      "text": "",
+      "level": 3,
+      "evidence": {
+        "pdf_role": "H3",
+        "object": "{'/Type': '/StructElem', '/S': '/H3', '/P': IndirectObject(11, 0, 2294766694736), '/Pg': IndirectObject(2, 0, 2294766694736), '/K': 5}"
+      }
+    },
+    {
+      "text": "",
+      "level": 2,
+      "evidence": {
+        "pdf_role": "H2",
+        "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(11, 0, 2294766694736), '/Pg': IndirectObject(2, 0, 2294766694736), '/K': 7}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "A11yPreserve\n \nHeading\n \nFixture\n \nResearch\n \nOverview\n \nThis\n \nfixture\n \nintroduces\n \nthe\n \nresearch\n \nproblem\n \nand\n \nestablishes\n \na\n \ndeliberate\n \nheading\n \nhierarchy.\n \nBackground\n \nAccessible\n \nstructure\n \ncan\n \nbe\n \npreserved\n \nonly\n \nwhen\n \nconversion\n \nretains\n \nthe\n \nsource\n \ndocument's\n \nintended\n \nsemantics.\n \nPrior\n \nWork\n \nPrior\n \naccessibility\n \nresearch\n \nshows\n \nthat\n \ndocument\n \ntransformation\n \ncan\n \nchange\n \nstructure\n \nand\n \nmetadata.\n \nMethods\n \nThe\n \npilot\n \ncompares\n \nsource\n \nsemantics\n \nwith\n \ntagged\n \nPDF\n \nsemantics\n \nusing\n \ndeterministic\n \nextraction.\n ",
+  "pdf_text": "A11yPreserve\n \nHeading\n \nFixture\n \nResearch\n \nOverview\n \nThis\n \nfixture\n \nintroduces\n \nthe\n \nresearch\n \nproblem\n \nand\n \nestablishes\n \na\n \ndeliberate\n \nheading\n \nhierarchy.\n \nBackground\n \nAccessible\n \nstructure\n \ncan\n \nbe\n \npreserved\n \nonly\n \nwhen\n \nconversion\n \nretains\n \nthe\n \nsource\n \ndocument's\n \nintended\n \nsemantics.\n \nPrior\n \nWork\n \nPrior\n \naccessibility\n \nresearch\n \nshows\n \nthat\n \ndocument\n \ntransformation\n \ncan\n \nchange\n \nstructure\n \nand\n \nmetadata.\n \nMethods\n \nThe\n \npilot\n \ncompares\n \nsource\n \nsemantics\n \nwith\n \ntagged\n \nPDF\n \nsemantics\n \nusing\n \ndeterministic\n \nextraction.\n ",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F01_HEADINGS__GOOGLE_DOCS.pdf"
+  }
+}

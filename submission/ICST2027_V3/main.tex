@@ -1,0 +1,49 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{url}
+
+\newcommand{\preserved}{\textsc{preserved}}
+\newcommand{\partialpreserved}{\textsc{partially preserved}}
+\newcommand{\verifiedpreserved}{\textsc{verified preserved}}
+\newcommand{\observedpartial}{\textsc{observed partial}}
+\newcommand{\altered}{\textsc{altered}}
+\newcommand{\lost}{\textsc{lost}}
+\newcommand{\confirmedlost}{\textsc{confirmed lost}}
+\newcommand{\unresolved}{\textsc{unresolved equivalence}}
+\newcommand{\measured}{\textsc{measurement error}}
+
+\title{A11yPreserve: An Uncertainty-Aware Conformance Suite for DOCX-to-PDF Accessibility Preservation}
+\author{Anonymous for review}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Accessible source documents can contain author-supplied information such as heading structure, alternative text, language metadata, list semantics, table relationships, and footnote associations. When a document is converted, inspecting only the destination does not establish whether those source properties survived. We present A11yPreserve, an uncertainty-aware conformance suite that freezes controlled source contracts, independently checks their DOCX representations, converts identical sources through real pipelines, extracts destination PDF structure through multiple evidence paths, and compares source and destination properties with provenance-traceable evidence. The V3 atomic benchmark contains 26 controlled DOCX fixtures, two per selected feature family, and 52 fixture--pipeline cases from LibreOffice and the Google Docs DOCX-to-PDF conversion pipeline. Its evidence-aware results are 18 verified preserved, 4 observed partial, 7 altered, 4 confirmed lost, 18 unresolved equivalence, and 1 measurement error. The four confirmed-loss rows are the Core and Variant B instances of inline-language and footnote association under the tested Google Docs pipeline. A separate 39-run Core repeatability study found stable classifications for all 13 fixtures, with byte-identical PDFs across the three recorded runs. A separate three-document integrated sanity check shows that the protocol remains usable when existing feature contracts coexist. Results are feature-specific and are not used to rank converters globally. The study measures machine-verifiable source-information preservation, not complete accessibility or disabled-user impact.
+\end{abstract}
+
+\begin{IEEEkeywords}
+document conversion, accessibility preservation, DOCX, PDF, tagged PDF, differential testing, document structure
+\end{IEEEkeywords}
+
+\input{sections/introduction}
+\input{sections/background_related}
+\input{sections/methodology}
+\input{sections/experiment}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/threats}
+\input{sections/conclusion}
+
+\section*{Acknowledgment}
+\textit{AI disclosure.} OpenAI ChatGPT and OpenAI Codex assisted with drafting and restructuring portions of the Introduction, Background and Related Work, Methodology, Discussion, Threats to Validity, and Conclusion, with adversarial manuscript review, and with verification-script, submission-artifact, and package documentation work. The assistance was at the prose, organization, critique, code-support, and packaging level; the systems were not used as experimental ground truth, independent human validation, or autonomous decision-makers for the frozen classifications or final scientific conclusions. The authors reviewed and verified AI-assisted material against the source artifacts, frozen evidence, analysis records, and cited literature.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

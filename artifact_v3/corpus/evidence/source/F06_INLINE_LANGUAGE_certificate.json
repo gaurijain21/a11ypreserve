@@ -1,0 +1,91 @@
+{
+  "certificate_version": "source-oracle-v1",
+  "fixture_id": "F06_INLINE_LANGUAGE",
+  "feature": "inline_language",
+  "source_path": "corpus/fixtures/F06_INLINE_LANGUAGE.docx",
+  "source_sha256": "388e3047d022a08a179858f40762c23b94e08429d3537eaeb1a876438a948d16",
+  "source_manifest_sha256": "a5be0de64d8725b3e53ba0ed4752b70b08c3bfc1ec64f2740289df99092e9af2",
+  "ooxml_parts": [
+    "word/document.xml",
+    "word/styles.xml",
+    "word/numbering.xml",
+    "docProps/core.xml"
+  ],
+  "xpath_or_element_assertions": {
+    "document": "w:document//w:p, w:tbl, w:hyperlink, w:footnoteReference, wp:docPr, m:oMath",
+    "feature": "inline_language"
+  },
+  "expected": {
+    "inline_languages": [
+      {
+        "text": "Buenos días",
+        "language": "es-MX"
+      }
+    ]
+  },
+  "observed": {
+    "inline_languages": [
+      {
+        "text": "A11yPreserve Inline Language Fixture",
+        "language": "en-US"
+      },
+      {
+        "text": "The greeting is ",
+        "language": "en-US"
+      },
+      {
+        "text": "Buenos días",
+        "language": "es-MX"
+      },
+      {
+        "text": " before the meeting.",
+        "language": "en-US"
+      }
+    ]
+  },
+  "raw_observations": {
+    "core": {
+      "title": "A11yPreserve Inline Language Fixture",
+      "subject": "A11yPreserve Phase 4 controlled benchmark fixture",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "default_language": "en-US",
+    "language_values": [
+      "en-US",
+      "en-US",
+      "es-MX",
+      "en-US"
+    ],
+    "headings": [],
+    "lists": [],
+    "inline_languages": [
+      {
+        "text": "A11yPreserve Inline Language Fixture",
+        "language": "en-US"
+      },
+      {
+        "text": "The greeting is ",
+        "language": "en-US"
+      },
+      {
+        "text": "Buenos días",
+        "language": "es-MX"
+      },
+      {
+        "text": " before the meeting.",
+        "language": "en-US"
+      }
+    ],
+    "figures": [],
+    "hyperlinks": [],
+    "tables": [],
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "has_footnotes_part": false
+  },
+  "verifier": "src/independent_source_oracle.py; stdlib zipfile + xml.etree.ElementTree; no ASIR imports",
+  "timestamp_utc": "2026-09-29T02:55:15.091030+00:00",
+  "status": "PASS"
+}

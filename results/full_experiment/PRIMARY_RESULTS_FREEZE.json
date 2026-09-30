@@ -1,0 +1,512 @@
+{
+  "freeze_type": "PRIMARY_RESULTS_FREEZE",
+  "frozen_at": "2026-09-28T05:18:14.393459+00:00",
+  "corpus_manifest": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\FROZEN_CORPUS_MANIFEST.json",
+  "matrix_size": 26,
+  "engines": [
+    "LibreOffice",
+    "Google Docs"
+  ],
+  "word_denominator": false,
+  "records": [
+    {
+      "fixture": "F01_HEADINGS",
+      "feature": "headings",
+      "converter": "LibreOffice",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot\\fixtures\\F01_HEADINGS.docx",
+      "source_sha256": "367d8b6382e2446a387417a789e764968b98101e1fb0fd3381fb24d32c847407",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F01_HEADINGS__LIBREOFFICE.pdf",
+      "destination_sha256": "18e7b54ad373d7eb8187864b9bd8f6d495d147dffb59176a3b22296ab85aa898",
+      "classification": "PRESERVED",
+      "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F01_HEADINGS.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\libreoffice\\F01_HEADINGS.json"
+      },
+      "confidence": "high",
+      "notes": "heading level/order preserved; PDF marked-content text was not available for every heading node",
+      "size_bytes": 67693
+    },
+    {
+      "fixture": "F01_HEADINGS",
+      "feature": "headings",
+      "converter": "Google Docs",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot\\fixtures\\F01_HEADINGS.docx",
+      "source_sha256": "367d8b6382e2446a387417a789e764968b98101e1fb0fd3381fb24d32c847407",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F01_HEADINGS__GOOGLE_DOCS.pdf",
+      "destination_sha256": "d6a8a93a8cd0a347448aeb65a86fd1b386dfd6204a23ab449d35da28255ce9bc",
+      "classification": "PARTIALLY_PRESERVED",
+      "fidelity_classification": "PARTIAL_PRESERVATION",
+      "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F01_HEADINGS.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\google_docs\\F01_HEADINGS.json"
+      },
+      "confidence": "high",
+      "notes": "PDF contains heading structure but the level/order sequence differs from source",
+      "size_bytes": 46379
+    },
+    {
+      "fixture": "F02_ALT_TEXT",
+      "feature": "image_alt_text",
+      "converter": "LibreOffice",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot\\fixtures\\F02_ALT_TEXT.docx",
+      "source_sha256": "f2219ef52e807ec417931a9d1c8a97320a95f4829d386a8f34b51990e88577da",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F02_ALT_TEXT__LIBREOFFICE.pdf",
+      "destination_sha256": "1837537f7f2a4b59c3cab974a9a1f0bb1f527e2271181a685e31986d98fdc272",
+      "classification": "ALTERED",
+      "fidelity_classification": "MUTATED",
+      "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F02_ALT_TEXT.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\libreoffice\\F02_ALT_TEXT.json"
+      },
+      "confidence": "high",
+      "notes": "destination retains non-decorative figures with different alternative text",
+      "size_bytes": 69910
+    },
+    {
+      "fixture": "F02_ALT_TEXT",
+      "feature": "image_alt_text",
+      "converter": "Google Docs",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot\\fixtures\\F02_ALT_TEXT.docx",
+      "source_sha256": "f2219ef52e807ec417931a9d1c8a97320a95f4829d386a8f34b51990e88577da",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F02_ALT_TEXT__GOOGLE_DOCS.pdf",
+      "destination_sha256": "f7d63f222cfe7413080018658f27ab3eadcf9e987e0b1166c66572aafa2dcc94",
+      "classification": "PRESERVED",
+      "fidelity_classification": "EXACT_PRESERVATION",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F02_ALT_TEXT.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\google_docs\\F02_ALT_TEXT.json"
+      },
+      "confidence": "high",
+      "notes": "",
+      "size_bytes": 38997
+    },
+    {
+      "fixture": "F03_LISTS",
+      "feature": "lists",
+      "converter": "LibreOffice",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot\\fixtures\\F03_LISTS.docx",
+      "source_sha256": "96d918ed19a5974e31f30704fe89db4bcaa51628f1d9cc00d3c8eecd2779d97f",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F03_LISTS__LIBREOFFICE.pdf",
+      "destination_sha256": "93d6f5cf39ec84661368c2095aa0850d643734a17a65cc228d3fc11c83fa077b",
+      "classification": "PRESERVED",
+      "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F03_LISTS.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\libreoffice\\F03_LISTS.json"
+      },
+      "confidence": "high",
+      "notes": "PDF /L, /LI, nesting, and /ListNumbering match the source contract",
+      "size_bytes": 63731
+    },
+    {
+      "fixture": "F03_LISTS",
+      "feature": "lists",
+      "converter": "Google Docs",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot\\fixtures\\F03_LISTS.docx",
+      "source_sha256": "96d918ed19a5974e31f30704fe89db4bcaa51628f1d9cc00d3c8eecd2779d97f",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F03_LISTS__GOOGLE_DOCS.pdf",
+      "destination_sha256": "d4342499a757d4cd54f07f5d077502e0c33a9c1294b3d036c62021c0d07b4289",
+      "classification": "PARTIALLY_PRESERVED",
+      "fidelity_classification": "PARTIAL_PRESERVATION",
+      "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F03_LISTS.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\google_docs\\F03_LISTS.json"
+      },
+      "confidence": "high",
+      "notes": "list items and nesting survive, but PDF extraction found no explicit ordered/unordered type representation",
+      "size_bytes": 26917
+    },
+    {
+      "fixture": "F04_TABLE",
+      "feature": "table",
+      "converter": "LibreOffice",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot\\fixtures\\F04_TABLE.docx",
+      "source_sha256": "a9d129f7409afb5a3d9363eba423fa85b5760466406538e331e72a1e12412a52",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F04_TABLE__LIBREOFFICE.pdf",
+      "destination_sha256": "cc7368bdca08aaa9906cc1d277fbfb9d68c29963e10e3247228a1d8c6b50a161",
+      "classification": "PRESERVED",
+      "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F04_TABLE.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\libreoffice\\F04_TABLE.json"
+      },
+      "confidence": "high",
+      "notes": "PDF Table/TR/TH/TD structure and header-cell count match the source table contract",
+      "size_bytes": 58095
+    },
+    {
+      "fixture": "F04_TABLE",
+      "feature": "table",
+      "converter": "Google Docs",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot\\fixtures\\F04_TABLE.docx",
+      "source_sha256": "a9d129f7409afb5a3d9363eba423fa85b5760466406538e331e72a1e12412a52",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F04_TABLE__GOOGLE_DOCS.pdf",
+      "destination_sha256": "32e260086253eb38625d3d740b2ee97ed58ce79c724268224d7d5cfd9487c232",
+      "classification": "PRESERVED",
+      "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F04_TABLE.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\google_docs\\F04_TABLE.json"
+      },
+      "confidence": "high",
+      "notes": "PDF Table/TR/TH/TD structure and header-cell count match the source table contract",
+      "size_bytes": 31181
+    },
+    {
+      "fixture": "F05_DOCUMENT_LANGUAGE",
+      "feature": "document_language",
+      "converter": "LibreOffice",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F05_DOCUMENT_LANGUAGE.docx",
+      "source_sha256": "5a90d6861d7ec96c573733bd8668718cca584bd2d46702468ed0983fccc7ccec",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F05_DOCUMENT_LANGUAGE__LIBREOFFICE.pdf",
+      "destination_sha256": "a8ad3f7e7106328b2190c8f80173a85ad73ac9d0285f46e0ccb8ae257e42b6ea",
+      "classification": "PRESERVED",
+      "fidelity_classification": "EXACT_PRESERVATION",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F05_DOCUMENT_LANGUAGE.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\libreoffice\\F05_DOCUMENT_LANGUAGE.json"
+      },
+      "confidence": "high",
+      "notes": "",
+      "size_bytes": 48142
+    },
+    {
+      "fixture": "F05_DOCUMENT_LANGUAGE",
+      "feature": "document_language",
+      "converter": "Google Docs",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F05_DOCUMENT_LANGUAGE.docx",
+      "source_sha256": "5a90d6861d7ec96c573733bd8668718cca584bd2d46702468ed0983fccc7ccec",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F05_DOCUMENT_LANGUAGE__GOOGLE_DOCS.pdf",
+      "destination_sha256": "07fed6839014d52b1c555e68e969c055d500cd0d7ccce403b561c92ae34b8983",
+      "classification": "ALTERED",
+      "fidelity_classification": "MUTATED",
+      "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F05_DOCUMENT_LANGUAGE.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\google_docs\\F05_DOCUMENT_LANGUAGE.json"
+      },
+      "confidence": "high",
+      "notes": "",
+      "size_bytes": 21370
+    },
+    {
+      "fixture": "F06_INLINE_LANGUAGE",
+      "feature": "inline_language",
+      "converter": "LibreOffice",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F06_INLINE_LANGUAGE.docx",
+      "source_sha256": "388e3047d022a08a179858f40762c23b94e08429d3537eaeb1a876438a948d16",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F06_INLINE_LANGUAGE__LIBREOFFICE.pdf",
+      "destination_sha256": "26ba1995f163388a2372a330173f5890c0c71f33d39d79d5f0eb421af6289434",
+      "classification": "PRESERVED",
+      "fidelity_classification": "EXACT_PRESERVATION",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F06_INLINE_LANGUAGE.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\libreoffice\\F06_INLINE_LANGUAGE.json"
+      },
+      "confidence": "high",
+      "notes": "",
+      "size_bytes": 45993
+    },
+    {
+      "fixture": "F06_INLINE_LANGUAGE",
+      "feature": "inline_language",
+      "converter": "Google Docs",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F06_INLINE_LANGUAGE.docx",
+      "source_sha256": "388e3047d022a08a179858f40762c23b94e08429d3537eaeb1a876438a948d16",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F06_INLINE_LANGUAGE__GOOGLE_DOCS.pdf",
+      "destination_sha256": "81803dfa98d51e57dfa45addf12f92e674986103b440d95d0ed36a123c48ad1e",
+      "classification": "LOST",
+      "fidelity_classification": "LOST",
+      "destination_accessibility": "INACCESSIBLE_FEATURE",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F06_INLINE_LANGUAGE.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\google_docs\\F06_INLINE_LANGUAGE.json"
+      },
+      "confidence": "high",
+      "notes": "document language may survive while inline override is absent",
+      "size_bytes": 21577
+    },
+    {
+      "fixture": "F07_DECORATIVE_IMAGE",
+      "feature": "decorative_image",
+      "converter": "LibreOffice",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F07_DECORATIVE_IMAGE.docx",
+      "source_sha256": "02b65084773bfd96272411945bed53b1a0bf46edc6359f4e34206e972cb98d70",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F07_DECORATIVE_IMAGE__LIBREOFFICE.pdf",
+      "destination_sha256": "ccedf4b1de29147c868c14d1823c9f278e123160483a523174099708933105fd",
+      "classification": "PARTIALLY_PRESERVED",
+      "fidelity_classification": "PARTIAL_PRESERVATION",
+      "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F07_DECORATIVE_IMAGE.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\libreoffice\\F07_DECORATIVE_IMAGE.json"
+      },
+      "confidence": "high",
+      "notes": "destination uses Figure elements with empty alternative text; no explicit PDF Artifact/decorative representation was established",
+      "size_bytes": 49923
+    },
+    {
+      "fixture": "F07_DECORATIVE_IMAGE",
+      "feature": "decorative_image",
+      "converter": "Google Docs",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F07_DECORATIVE_IMAGE.docx",
+      "source_sha256": "02b65084773bfd96272411945bed53b1a0bf46edc6359f4e34206e972cb98d70",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F07_DECORATIVE_IMAGE__GOOGLE_DOCS.pdf",
+      "destination_sha256": "73689a12630c5c667b327dc60f010db3dad2672fb70a4a3d301375a33146a755",
+      "classification": "PARTIALLY_PRESERVED",
+      "fidelity_classification": "PARTIAL_PRESERVATION",
+      "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F07_DECORATIVE_IMAGE.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\google_docs\\F07_DECORATIVE_IMAGE.json"
+      },
+      "confidence": "high",
+      "notes": "destination uses Figure elements with empty alternative text; no explicit PDF Artifact/decorative representation was established",
+      "size_bytes": 22434
+    },
+    {
+      "fixture": "F08_LINKS",
+      "feature": "hyperlinks",
+      "converter": "LibreOffice",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F08_LINKS.docx",
+      "source_sha256": "3220a74dbfccc059b8e77e490faa48d7540a56f22e93e0b78548ee6ae4c05c60",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F08_LINKS__LIBREOFFICE.pdf",
+      "destination_sha256": "537965f4107356e3c5e635996e6c85fe20e1680233777ff9a7f5dfb48a6838ca",
+      "classification": "PARTIALLY_PRESERVED",
+      "fidelity_classification": "PARTIAL_PRESERVATION",
+      "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F08_LINKS.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\libreoffice\\F08_LINKS.json"
+      },
+      "confidence": "high",
+      "notes": "URI and link annotation survive; visible link-name association was not independently recoverable from the PDF structure",
+      "size_bytes": 44223
+    },
+    {
+      "fixture": "F08_LINKS",
+      "feature": "hyperlinks",
+      "converter": "Google Docs",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F08_LINKS.docx",
+      "source_sha256": "3220a74dbfccc059b8e77e490faa48d7540a56f22e93e0b78548ee6ae4c05c60",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F08_LINKS__GOOGLE_DOCS.pdf",
+      "destination_sha256": "51fd966064ae00c340bf700392be61eccfa18f48466bab254b6179e8bc3afa93",
+      "classification": "PARTIALLY_PRESERVED",
+      "fidelity_classification": "PARTIAL_PRESERVATION",
+      "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F08_LINKS.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\google_docs\\F08_LINKS.json"
+      },
+      "confidence": "high",
+      "notes": "URI and link annotation survive; visible link-name association was not independently recoverable from the PDF structure",
+      "size_bytes": 20900
+    },
+    {
+      "fixture": "F09_DOCUMENT_TITLE",
+      "feature": "document_title",
+      "converter": "LibreOffice",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F09_DOCUMENT_TITLE.docx",
+      "source_sha256": "314b57e9d2457fc4ae8adf79f55587ecef9232b2dd689ea7cc98cb96772260f2",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F09_DOCUMENT_TITLE__LIBREOFFICE.pdf",
+      "destination_sha256": "dee063ecbfc8e34ff768823918a27d5f91ec808b17e0987b7c3dea7f2bd43573",
+      "classification": "PRESERVED",
+      "fidelity_classification": "EXACT_PRESERVATION",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F09_DOCUMENT_TITLE.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\libreoffice\\F09_DOCUMENT_TITLE.json"
+      },
+      "confidence": "high",
+      "notes": "",
+      "size_bytes": 45800
+    },
+    {
+      "fixture": "F09_DOCUMENT_TITLE",
+      "feature": "document_title",
+      "converter": "Google Docs",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F09_DOCUMENT_TITLE.docx",
+      "source_sha256": "314b57e9d2457fc4ae8adf79f55587ecef9232b2dd689ea7cc98cb96772260f2",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F09_DOCUMENT_TITLE__GOOGLE_DOCS.pdf",
+      "destination_sha256": "2ddc8917cb666d7286751a2ec840752e5917ad8374d66b69dfc553bddd137eb2",
+      "classification": "ALTERED",
+      "fidelity_classification": "MUTATED",
+      "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F09_DOCUMENT_TITLE.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\google_docs\\F09_DOCUMENT_TITLE.json"
+      },
+      "confidence": "high",
+      "notes": "",
+      "size_bytes": 20020
+    },
+    {
+      "fixture": "F10_COMPLEX_TABLE",
+      "feature": "complex_table",
+      "converter": "LibreOffice",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F10_COMPLEX_TABLE.docx",
+      "source_sha256": "eacf8f49328015d6ce66084a92173f73b63bed4878a60943c8dbf0a7beeae992",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F10_COMPLEX_TABLE__LIBREOFFICE.pdf",
+      "destination_sha256": "bf4152725ea25a1d286437db4f6f361a1946e2bc1571674293ea4a1cc36fa0ce",
+      "classification": "PRESERVED",
+      "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F10_COMPLEX_TABLE.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\libreoffice\\F10_COMPLEX_TABLE.json"
+      },
+      "confidence": "high",
+      "notes": "PDF TH cells, scope attributes, and span evidence establish the multi-level header structure",
+      "size_bytes": 58901
+    },
+    {
+      "fixture": "F10_COMPLEX_TABLE",
+      "feature": "complex_table",
+      "converter": "Google Docs",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F10_COMPLEX_TABLE.docx",
+      "source_sha256": "eacf8f49328015d6ce66084a92173f73b63bed4878a60943c8dbf0a7beeae992",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F10_COMPLEX_TABLE__GOOGLE_DOCS.pdf",
+      "destination_sha256": "864371121f6c47f0921111f941dd0de63c1cb9d87d951ab3bb874d95962a81e9",
+      "classification": "PARTIALLY_PRESERVED",
+      "fidelity_classification": "PARTIAL_PRESERVATION",
+      "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F10_COMPLEX_TABLE.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\google_docs\\F10_COMPLEX_TABLE.json"
+      },
+      "confidence": "high",
+      "notes": "PDF table and header roles survive, but complete multi-level header associations are not established",
+      "size_bytes": 31460
+    },
+    {
+      "fixture": "F11_FOOTNOTES",
+      "feature": "footnotes",
+      "converter": "LibreOffice",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F11_FOOTNOTES.docx",
+      "source_sha256": "72b7182ee9e677f7a302a2f937bac054b321545239bab97be126ea6a01cbce47",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F11_FOOTNOTES__LIBREOFFICE.pdf",
+      "destination_sha256": "cba3852936716ce0eb593a4d4241e607d4309a1968d2b1920e5c63bfcbe135c4",
+      "classification": "MEASUREMENT_ERROR",
+      "fidelity_classification": "MEASUREMENT_ERROR",
+      "destination_accessibility": "UNKNOWN",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F11_FOOTNOTES.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\libreoffice\\F11_FOOTNOTES.json"
+      },
+      "confidence": "high",
+      "notes": "PDF /Note structure exists, but marked-content extraction did not recover note-body text for association verification",
+      "size_bytes": 46929
+    },
+    {
+      "fixture": "F11_FOOTNOTES",
+      "feature": "footnotes",
+      "converter": "Google Docs",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F11_FOOTNOTES.docx",
+      "source_sha256": "72b7182ee9e677f7a302a2f937bac054b321545239bab97be126ea6a01cbce47",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F11_FOOTNOTES__GOOGLE_DOCS.pdf",
+      "destination_sha256": "91b81c06383c1c681023b3cd0a9c05cc9c4178bd696ad83287082d020f7372b9",
+      "classification": "LOST",
+      "fidelity_classification": "LOST",
+      "destination_accessibility": "INACCESSIBLE_FEATURE",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F11_FOOTNOTES.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\google_docs\\F11_FOOTNOTES.json"
+      },
+      "confidence": "high",
+      "notes": "",
+      "size_bytes": 21000
+    },
+    {
+      "fixture": "F12_EQUATION",
+      "feature": "equation",
+      "converter": "LibreOffice",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F12_EQUATION.docx",
+      "source_sha256": "c9a89fb6999a90ad0abc8bff4ea81a10905ce4843c28d55d8df83f5ee87ba9f8",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F12_EQUATION__LIBREOFFICE.pdf",
+      "destination_sha256": "b75f3d27673d0066f5ac05c5f1aa7580fb998f9f2e48717a91a2c9d3454e15c5",
+      "classification": "PRESERVED",
+      "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F12_EQUATION.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\libreoffice\\F12_EQUATION.json"
+      },
+      "confidence": "high",
+      "notes": "PDF /Formula structure is present and the visible expression is retained; token-level math extraction remains limited",
+      "size_bytes": 59815
+    },
+    {
+      "fixture": "F12_EQUATION",
+      "feature": "equation",
+      "converter": "Google Docs",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F12_EQUATION.docx",
+      "source_sha256": "c9a89fb6999a90ad0abc8bff4ea81a10905ce4843c28d55d8df83f5ee87ba9f8",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F12_EQUATION__GOOGLE_DOCS.pdf",
+      "destination_sha256": "aafa553d252fe9db135d4fcb1e283aefe7c080094e8d6e783b883a19472848ca",
+      "classification": "PARTIALLY_PRESERVED",
+      "fidelity_classification": "PARTIAL_PRESERVATION",
+      "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F12_EQUATION.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\google_docs\\F12_EQUATION.json"
+      },
+      "confidence": "high",
+      "notes": "equation rendering is present in page text/content, but no machine-readable PDF math structure was extracted",
+      "size_bytes": 31008
+    },
+    {
+      "fixture": "F14_CAPTIONS",
+      "feature": "captions",
+      "converter": "LibreOffice",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F14_CAPTIONS.docx",
+      "source_sha256": "855438acee27f51c1f9e3a455a176ab73a4b18fc0a07b66ab38c59f8d9d52736",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F14_CAPTIONS__LIBREOFFICE.pdf",
+      "destination_sha256": "fc2ca62c2fb7b06ac249d708f23e36cbd8b5211e854efa223ad2ae4c208a6b2e",
+      "classification": "PRESERVED",
+      "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+      "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F14_CAPTIONS.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\libreoffice\\F14_CAPTIONS.json"
+      },
+      "confidence": "high",
+      "notes": "caption text and PDF /Caption structure are present",
+      "size_bytes": 55390
+    },
+    {
+      "fixture": "F14_CAPTIONS",
+      "feature": "captions",
+      "converter": "Google Docs",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\corpus\\fixtures\\F14_CAPTIONS.docx",
+      "source_sha256": "855438acee27f51c1f9e3a455a176ab73a4b18fc0a07b66ab38c59f8d9d52736",
+      "destination": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F14_CAPTIONS__GOOGLE_DOCS.pdf",
+      "destination_sha256": "25e91306391e2aac667a668d553343c5bf071d5195644fc4c2285cea0f355a02",
+      "classification": "PARTIALLY_PRESERVED",
+      "fidelity_classification": "PARTIAL_PRESERVATION",
+      "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+      "evidence_path": {
+        "source_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\source\\F14_CAPTIONS.json",
+        "destination_extraction": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\extracted\\google_docs\\F14_CAPTIONS.json"
+      },
+      "confidence": "high",
+      "notes": "",
+      "size_bytes": 40397
+    }
+  ],
+  "validation_summary": {
+    "valid_outputs": 26,
+    "invalid_outputs": 0
+  },
+  "notes": "Primary classifications frozen before secondary validator analysis. Historical Pilot 1–3 evidence remains unchanged."
+}

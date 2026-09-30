@@ -1,0 +1,42 @@
+{
+  "variant_id": "B04",
+  "feature_family": "table",
+  "source_format": "DOCX",
+  "contract_version": "v3-variant-set-b",
+  "fixture_path": "corpus/v3_variant_set_b/fixtures/B04.docx",
+  "ground_truth": {
+    "dimensions": {
+      "rows": 4,
+      "columns": 4
+    },
+    "header_rows": [
+      0
+    ],
+    "cells": [
+      [
+        "Quarter",
+        "Region",
+        "Cases handled",
+        "Completion rate"
+      ],
+      [
+        "Q1",
+        "North",
+        "120",
+        "82%"
+      ],
+      [
+        "Q2",
+        "South",
+        "240",
+        "87%"
+      ],
+      [
+        "Q3",
+        "West",
+        "360",
+        "91%"
+      ]
+    ]
+  }
+}

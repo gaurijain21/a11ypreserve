@@ -1,0 +1,84 @@
+{
+  "format": "pdf",
+  "title": "A11yPreserve Decorative Image Fixture",
+  "language": "en-US",
+  "document": {
+    "title": "A11yPreserve Decorative Image Fixture",
+    "language": "en-US",
+    "metadata": {
+      "Title": "A11yPreserve Decorative Image Fixture",
+      "Author": "A11yPreserve benchmark",
+      "Subject": "A11yPreserve Phase 4 controlled benchmark fixture",
+      "Creator": "Writer",
+      "Producer": "LibreOffice 26.2.6.3 (X86_64)",
+      "CreationDate": "D:20260927212104-07'00'"
+    }
+  },
+  "headings": [],
+  "lists": [],
+  "inline_languages": [],
+  "images": [
+    {
+      "identifier": "figure-1",
+      "alt": "Informative figure - A meaningful research figure showing the benchmark workflow.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 2294780041488), '/Pg': IndirectObject(1, 0, 2294780041488), '/Alt': 'Informative figure - A meaningful research figure showing the benchmark workflow.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 3.312, '/Height': 3.312, '/BBox': [223.2, 483.15, 388.8, 648.75]}, '/K': [2]}"
+      }
+    },
+    {
+      "identifier": "figure-2",
+      "alt": "Decorative image",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 2294780041488), '/Pg': IndirectObject(1, 0, 2294780041488), '/Alt': 'Decorative image', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 3.312, '/Height': 3.312, '/BBox': [223.2, 305.7, 388.8, 471.3]}, '/K': [3]}"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "identifier": "figure-1",
+      "alt": "Informative figure - A meaningful research figure showing the benchmark workflow.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 2294780041488), '/Pg': IndirectObject(1, 0, 2294780041488), '/Alt': 'Informative figure - A meaningful research figure showing the benchmark workflow.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 3.312, '/Height': 3.312, '/BBox': [223.2, 483.15, 388.8, 648.75]}, '/K': [2]}"
+      }
+    },
+    {
+      "identifier": "figure-2",
+      "alt": "Decorative image",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 2294780041488), '/Pg': IndirectObject(1, 0, 2294780041488), '/Alt': 'Decorative image', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 3.312, '/Height': 3.312, '/BBox': [223.2, 305.7, 388.8, 471.3]}, '/K': [3]}"
+      }
+    }
+  ],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {
+      "/Title": "/P",
+      "/Standard": "/P"
+    },
+    "pages": 1
+  },
+  "text_preview": "A11yPreserve Decorative Image Fixture\nThe first image conveys information; the second image is explicitly decorative.\n",
+  "pdf_text": "A11yPreserve Decorative Image Fixture\nThe first image conveys information; the second image is explicitly decorative.\n",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F07_DECORATIVE_IMAGE__LIBREOFFICE.pdf"
+  }
+}

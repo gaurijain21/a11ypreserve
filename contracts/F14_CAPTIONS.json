@@ -1,0 +1,56 @@
+{
+  "contract_version": "a11ypreserve-contract-v1",
+  "fixture_id": "F14_CAPTIONS",
+  "source": {
+    "format": "DOCX",
+    "feature": "captions",
+    "fixture_path": "corpus/fixtures/F14_CAPTIONS.docx",
+    "sha256": "855438acee27f51c1f9e3a455a176ab73a4b18fc0a07b66ab38c59f8d9d52736",
+    "manifest_path": "corpus/manifests/F14_CAPTIONS.json",
+    "manifest_sha256": "4e38bf41cea74b06d0ebc1068a0c3fd4f3f71fec3d9b4968433ebfcbfa4dbaeb",
+    "oracle": "independent raw OOXML ZIP/XML inspection plus source extractor agreement"
+  },
+  "destination": {
+    "format": "PDF",
+    "representation_requirement": "caption text and figure association preserved",
+    "accepted_equivalents": [
+      "Caption structure or an equivalent figure-caption association"
+    ]
+  },
+  "contract": {
+    "feature_contract": {
+      "figure_caption_pairs": [
+        {
+          "figure": "figure-1",
+          "caption": "Figure 1. Benchmark workflow overview.",
+          "order": 1
+        }
+      ]
+    }
+  },
+  "decision_rules": {
+    "outcomes": [
+      "PRESERVED",
+      "PARTIALLY_PRESERVED",
+      "ALTERED",
+      "LOST",
+      "MEASUREMENT_ERROR"
+    ],
+    "evidence_statuses": [
+      "VERIFIED_EQUIVALENCE",
+      "OBSERVED_DIFFERENCE",
+      "OBSERVED_PARTIAL",
+      "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "UNRESOLVED_EQUIVALENCE",
+      "INSUFFICIENT_EVIDENCE",
+      "MEASUREMENT_FAILURE"
+    ],
+    "equivalence_rule": "Declare PRESERVED only when the destination representation satisfies the feature contract; otherwise record the observed difference or partial evidence without inferring semantic absence from a single extractor encoding.",
+    "uncertainty_rule": "If a feature-specific equivalent cannot be established with the available destination evidence, retain the frozen outcome but label the evidence UNRESOLVED_EQUIVALENCE or INSUFFICIENT_EVIDENCE; use MEASUREMENT_FAILURE only when the measurement path fails."
+  },
+  "provenance": {
+    "frozen_corpus": "corpus/FROZEN_CORPUS_MANIFEST.json",
+    "primary_results": "results/full_experiment/PRIMARY_RESULTS_FREEZE.json",
+    "contract_materializer": "scripts/build_contracts.py"
+  }
+}

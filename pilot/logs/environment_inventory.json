@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-09-28T00:46:31.118778+00:00",
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\iamga\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "packages": {
+    "docx": "1.2.0",
+    "pypdf": "6.10.0",
+    "PIL": "10.3.0"
+  },
+  "commands_on_path": {
+    "soffice": null,
+    "libreoffice": null,
+    "verapdf": null,
+    "pac": null,
+    "pdftotext": "C:\\Users\\iamga\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdftotext.EXE"
+  }
+}

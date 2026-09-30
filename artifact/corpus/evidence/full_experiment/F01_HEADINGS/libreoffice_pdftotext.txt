@@ -1,0 +1,18 @@
+24 [0x000062b4] INFO pdftotext null - this process (19868) started by python in directory <ARTIFACT_ROOT> with command line: <LOCAL_USER_ROOT>\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdftotext.EXE -layout <ARTIFACT_ROOT>\results\full_experiment\outputs\libreoffice\F01_HEADINGS__LIBREOFFICE.pdf -
+
+24 [0x000062b4] INFO pdftotext null - running on Windows 10.0.26200
+
+66 [0x000062b4] INFO pdftotext null - this process (19868) finishes with exit code 1
+
+76 [0x000062b4] ERROR trace.pdftotext.core null - Access is denied.
+
+
+
+76 [0x000062b4] ERROR trace.pdftotext.core null - Function: CreateDirectoryW
+
+76 [0x000062b4] ERROR trace.pdftotext.core null - Result: 5
+
+76 [0x000062b4] ERROR trace.pdftotext.core null - Data: path="<LOCAL_USER_ROOT>\AppData\Roaming\MiKTeX\2.9\miktex"
+
+77 [0x000062b4] ERROR trace.pdftotext.core null - Source: Libraries\MiKTeX\Core\win\win.cpp:271
+

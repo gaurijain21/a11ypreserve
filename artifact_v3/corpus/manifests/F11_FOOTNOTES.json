@@ -1,0 +1,20 @@
+{
+  "fixture_id": "F11_FOOTNOTES",
+  "feature": "footnotes",
+  "source_format": "DOCX",
+  "contract_version": "phase4-v1",
+  "document": {
+    "title": "A11yPreserve Footnote Fixture",
+    "language": "en-US"
+  },
+  "ground_truth": {
+    "notes": [
+      {
+        "kind": "footnote",
+        "reference_text": "The benchmark uses an explicit footnote association.",
+        "id": 1,
+        "text": "This note records the source-to-note association."
+      }
+    ]
+  }
+}

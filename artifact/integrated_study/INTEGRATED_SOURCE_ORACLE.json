@@ -1,0 +1,288 @@
+{
+  "oracle": "independent_integrated_raw_ooxml_oracle",
+  "contract_count": 21,
+  "passed": 21,
+  "failed": 0,
+  "records": [
+    {
+      "document_id": "I01_REALISTIC_REPORT",
+      "instance": "I01-heading-hierarchy",
+      "feature": "headings",
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "expected": {
+        "levels": [
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1
+        ]
+      },
+      "passed": true,
+      "observation": "heading levels=[1, 1, 2, 2, 1, 1, 1]"
+    },
+    {
+      "document_id": "I01_REALISTIC_REPORT",
+      "instance": "I01-alternative-text",
+      "feature": "image_alt_text",
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "expected": {
+        "alt": "A simple upward trend showing completed appointments increasing from 2024 to 2025."
+      },
+      "passed": true,
+      "observation": "image descriptions=['A simple upward trend showing completed appointments increasing from 2024 to 2025.']"
+    },
+    {
+      "document_id": "I01_REALISTIC_REPORT",
+      "instance": "I01-lists",
+      "feature": "lists",
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "expected": {
+        "depths": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "passed": true,
+      "observation": "list depths=[0, 0, 1, 1, 0]"
+    },
+    {
+      "document_id": "I01_REALISTIC_REPORT",
+      "instance": "I01-table-headers",
+      "feature": "table",
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "expected": {
+        "headers": [
+          "Measure",
+          "2024",
+          "2025"
+        ],
+        "rows": 4
+      },
+      "passed": true,
+      "observation": "rows=4 headers=['Measure', '2024', '2025'] header_marked=True"
+    },
+    {
+      "document_id": "I01_REALISTIC_REPORT",
+      "instance": "I01-document-language",
+      "feature": "document_language",
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "expected": {
+        "language": "en-US"
+      },
+      "passed": true,
+      "observation": "default language=en-US"
+    },
+    {
+      "document_id": "I01_REALISTIC_REPORT",
+      "instance": "I01-hyperlink",
+      "feature": "hyperlinks",
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "expected": {
+        "target": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+      },
+      "passed": true,
+      "observation": "hyperlink targets=['https://www.w3.org/WAI/standards-guidelines/wcag/']"
+    },
+    {
+      "document_id": "I01_REALISTIC_REPORT",
+      "instance": "I01-title",
+      "feature": "document_title",
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "expected": {
+        "title": "Community Access Report: Service Improvements and Next Steps"
+      },
+      "passed": true,
+      "observation": "core title='Community Access Report: Service Improvements and Next Steps'"
+    },
+    {
+      "document_id": "I02_EDUCATIONAL_HANDOUT",
+      "instance": "I02-heading-hierarchy",
+      "feature": "headings",
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "expected": {
+        "levels": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "passed": true,
+      "observation": "heading levels=[1, 1, 1, 1, 1]"
+    },
+    {
+      "document_id": "I02_EDUCATIONAL_HANDOUT",
+      "instance": "I02-inline-language",
+      "feature": "inline_language",
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "expected": {
+        "text": "Buenos días",
+        "language": "es-MX"
+      },
+      "passed": true,
+      "observation": "language runs include target=True"
+    },
+    {
+      "document_id": "I02_EDUCATIONAL_HANDOUT",
+      "instance": "I02-equation",
+      "feature": "equation",
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "expected": {
+        "omml": true
+      },
+      "passed": true,
+      "observation": "OMML equations=1"
+    },
+    {
+      "document_id": "I02_EDUCATIONAL_HANDOUT",
+      "instance": "I02-footnote",
+      "feature": "footnotes",
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "expected": {
+        "text": "This note identifies the source used for the classroom example."
+      },
+      "passed": true,
+      "observation": "footnote body present=True"
+    },
+    {
+      "document_id": "I02_EDUCATIONAL_HANDOUT",
+      "instance": "I02-caption",
+      "feature": "captions",
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "expected": {
+        "text": "Figure 1. Evidence and conclusion are connected through an explicit reasoning step."
+      },
+      "passed": true,
+      "observation": "captions=['Equation 1. A compact expression used in the classroom example.', 'Figure 1. Evidence and conclusion are connected through an explicit reasoning step.']"
+    },
+    {
+      "document_id": "I02_EDUCATIONAL_HANDOUT",
+      "instance": "I02-hyperlink",
+      "feature": "hyperlinks",
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "expected": {
+        "target": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+      },
+      "passed": true,
+      "observation": "hyperlink targets=['https://www.w3.org/WAI/standards-guidelines/wcag/']"
+    },
+    {
+      "document_id": "I03_POLICY_NOTE",
+      "instance": "I03-heading-hierarchy",
+      "feature": "headings",
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "expected": {
+        "levels": [
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "passed": true,
+      "observation": "heading levels=[1, 1, 2, 2, 1, 1, 1, 1]"
+    },
+    {
+      "document_id": "I03_POLICY_NOTE",
+      "instance": "I03-lists",
+      "feature": "lists",
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "expected": {
+        "depths": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "passed": true,
+      "observation": "list depths=[0, 0, 1, 1, 0, 0, 0]"
+    },
+    {
+      "document_id": "I03_POLICY_NOTE",
+      "instance": "I03-table-headers",
+      "feature": "table",
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "expected": {
+        "headers": [
+          "Phase",
+          "Owner",
+          "Evidence"
+        ],
+        "rows": 4
+      },
+      "passed": true,
+      "observation": "rows=4 headers=['Phase', 'Owner', 'Evidence'] header_marked=True"
+    },
+    {
+      "document_id": "I03_POLICY_NOTE",
+      "instance": "I03-image-alt",
+      "feature": "image_alt_text",
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "expected": {
+        "alt": "A process diagram showing draft, review, and release stages."
+      },
+      "passed": true,
+      "observation": "image descriptions=['A process diagram showing draft, review, and release stages.', '']"
+    },
+    {
+      "document_id": "I03_POLICY_NOTE",
+      "instance": "I03-decorative-image",
+      "feature": "decorative_image",
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "expected": {
+        "decorative": true
+      },
+      "passed": true,
+      "observation": "image descriptions=['A process diagram showing draft, review, and release stages.', '']"
+    },
+    {
+      "document_id": "I03_POLICY_NOTE",
+      "instance": "I03-document-language",
+      "feature": "document_language",
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "expected": {
+        "language": "en-US"
+      },
+      "passed": true,
+      "observation": "default language=en-US"
+    },
+    {
+      "document_id": "I03_POLICY_NOTE",
+      "instance": "I03-inline-language",
+      "feature": "inline_language",
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "expected": {
+        "text": "información pública",
+        "language": "es-MX"
+      },
+      "passed": true,
+      "observation": "language runs include target=True"
+    },
+    {
+      "document_id": "I03_POLICY_NOTE",
+      "instance": "I03-hyperlink",
+      "feature": "hyperlinks",
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "expected": {
+        "target": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+      },
+      "passed": true,
+      "observation": "hyperlink targets=['https://www.w3.org/WAI/standards-guidelines/wcag/']"
+    }
+  ]
+}

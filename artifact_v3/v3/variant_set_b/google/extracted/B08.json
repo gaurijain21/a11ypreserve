@@ -1,0 +1,75 @@
+{
+  "format": "pdf",
+  "title": "B08",
+  "language": "en",
+  "document": {
+    "title": "B08",
+    "language": "en",
+    "metadata": {
+      "Title": "B08",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(11, 0, 2136979712016), '/Pg': IndirectObject(2, 0, 2136979712016), '/K': 0}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [
+    {
+      "target": "https://www.w3.org/TR/WCAG22/",
+      "page": 1,
+      "rect": [
+        119.332184,
+        674.09998,
+        217.69293,
+        687.29999
+      ],
+      "evidence": {
+        "pdf": "/Annots/Link"
+      }
+    },
+    {
+      "target": "https://pdfa.org/",
+      "page": 1,
+      "rect": [
+        242.1409,
+        674.09998,
+        331.9516,
+        687.29999
+      ],
+      "evidence": {
+        "pdf": "/Annots/Link"
+      }
+    }
+  ],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "Variant\n \nB08\n \nhyperlinks\n \nRead\n \nthe\n \nWCAG\n \nstandard\n \nand\n \nthe\n \nPDF\n \nreference\n ",
+  "pdf_text": "Variant\n \nB08\n \nhyperlinks\n \nRead\n \nthe\n \nWCAG\n \nstandard\n \nand\n \nthe\n \nPDF\n \nreference\n ",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "<ARTIFACT_ROOT>\\v3\\variant_set_b\\google\\outputs\\B08__GOOGLE_DOCS.pdf"
+  }
+}

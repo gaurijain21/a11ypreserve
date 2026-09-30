@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://a11ypreserve.org/contracts/schema-v1.json",
+  "title": "A11yPreserve source-to-destination preservation contract",
+  "type": "object",
+  "required": ["contract_version", "fixture_id", "source", "destination", "contract", "decision_rules"],
+  "properties": {
+    "contract_version": {"type": "string"},
+    "fixture_id": {"type": "string", "pattern": "^F(0[1-9]|1[0-4])_[A-Z0-9_]+$"},
+    "source": {
+      "type": "object",
+      "required": ["format", "feature", "fixture_path", "sha256", "oracle"],
+      "properties": {
+        "format": {"const": "DOCX"},
+        "feature": {"type": "string"},
+        "fixture_path": {"type": "string"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "manifest_path": {"type": "string"},
+        "manifest_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "oracle": {"type": "string"}
+      }
+    },
+    "destination": {
+      "type": "object",
+      "required": ["format", "representation_requirement"],
+      "properties": {
+        "format": {"const": "PDF"},
+        "representation_requirement": {"type": "string"},
+        "accepted_equivalents": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "contract": {"type": "object", "required": ["feature_contract"], "properties": {"feature_contract": {"type": "object"}}},
+    "decision_rules": {
+      "type": "object",
+      "required": ["outcomes", "evidence_statuses", "equivalence_rule", "uncertainty_rule"],
+      "properties": {
+        "outcomes": {"type": "array", "items": {"enum": ["PRESERVED", "PARTIALLY_PRESERVED", "ALTERED", "LOST", "MEASUREMENT_ERROR"]}},
+        "evidence_statuses": {"type": "array", "items": {"enum": ["VERIFIED_EQUIVALENCE", "OBSERVED_DIFFERENCE", "OBSERVED_PARTIAL", "INDEPENDENTLY_CONFIRMED_ABSENCE", "UNRESOLVED_EQUIVALENCE", "INSUFFICIENT_EVIDENCE", "MEASUREMENT_FAILURE"]}},
+        "equivalence_rule": {"type": "string"},
+        "uncertainty_rule": {"type": "string"}
+      }
+    },
+    "provenance": {"type": "object"}
+  }
+}

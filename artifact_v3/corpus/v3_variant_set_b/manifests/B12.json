@@ -1,0 +1,31 @@
+{
+  "variant_id": "B12",
+  "feature_family": "equation",
+  "source_format": "DOCX",
+  "contract_version": "v3-variant-set-b",
+  "fixture_path": "corpus/v3_variant_set_b/fixtures/B12.docx",
+  "ground_truth": {
+    "equations": [
+      {
+        "expression": "E = mc^2",
+        "tokens": [
+          "E",
+          "=",
+          "m",
+          "c",
+          "2"
+        ]
+      },
+      {
+        "expression": "a = b + c",
+        "tokens": [
+          "a",
+          "=",
+          "b",
+          "+",
+          "c"
+        ]
+      }
+    ]
+  }
+}

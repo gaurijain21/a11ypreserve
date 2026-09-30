@@ -1,0 +1,18 @@
+24 [0x00005130] INFO pdftotext null - this process (7316) started by python in directory <ARTIFACT_ROOT> with command line: <LOCAL_USER_ROOT>\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdftotext.EXE -layout <ARTIFACT_ROOT>\results\full_experiment\outputs\libreoffice\F11_FOOTNOTES__LIBREOFFICE.pdf -
+
+24 [0x00005130] INFO pdftotext null - running on Windows 10.0.26200
+
+68 [0x00005130] INFO pdftotext null - this process (7316) finishes with exit code 1
+
+79 [0x00005130] ERROR trace.pdftotext.core null - Access is denied.
+
+
+
+79 [0x00005130] ERROR trace.pdftotext.core null - Function: CreateDirectoryW
+
+79 [0x00005130] ERROR trace.pdftotext.core null - Result: 5
+
+79 [0x00005130] ERROR trace.pdftotext.core null - Data: path="<LOCAL_USER_ROOT>\AppData\Roaming\MiKTeX\2.9\miktex"
+
+79 [0x00005130] ERROR trace.pdftotext.core null - Source: Libraries\MiKTeX\Core\win\win.cpp:271
+

@@ -1,0 +1,5 @@
+{
+  "PAC": {"status": "unavailable", "version": null, "reports": 0},
+  "Acrobat Accessibility Checker": {"status": "not_run", "version": "26.2.21931.0 installed", "reports": 0, "reason": "native session limitation blocked reliable GUI/export route"},
+  "veraPDF PDF/UA": {"status": "unavailable", "version": null, "reports": 0}
+}

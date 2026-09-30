@@ -1,0 +1,69 @@
+{
+  "certificate_version": "source-oracle-v1",
+  "fixture_id": "F05_DOCUMENT_LANGUAGE",
+  "feature": "document_language",
+  "source_path": "corpus/fixtures/F05_DOCUMENT_LANGUAGE.docx",
+  "source_sha256": "5a90d6861d7ec96c573733bd8668718cca584bd2d46702468ed0983fccc7ccec",
+  "source_manifest_sha256": "061a7f83bc3467757f6f69526e0809f651a4861f73575b10f776f571539d9142",
+  "ooxml_parts": [
+    "word/document.xml",
+    "word/styles.xml",
+    "word/numbering.xml",
+    "docProps/core.xml"
+  ],
+  "xpath_or_element_assertions": {
+    "document": "w:document//w:p, w:tbl, w:hyperlink, w:footnoteReference, wp:docPr, m:oMath",
+    "feature": "document_language"
+  },
+  "expected": {
+    "default_language": "en-US"
+  },
+  "observed": {
+    "core": {
+      "title": "A11yPreserve Document Language Fixture",
+      "subject": "A11yPreserve Phase 4 controlled benchmark fixture",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "default_language": "en-US",
+    "language_values": [
+      "en-US",
+      "en-US"
+    ]
+  },
+  "raw_observations": {
+    "core": {
+      "title": "A11yPreserve Document Language Fixture",
+      "subject": "A11yPreserve Phase 4 controlled benchmark fixture",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "default_language": "en-US",
+    "language_values": [
+      "en-US",
+      "en-US"
+    ],
+    "headings": [],
+    "lists": [],
+    "inline_languages": [
+      {
+        "text": "A11yPreserve Document Language Fixture",
+        "language": "en-US"
+      },
+      {
+        "text": "This document declares English United States as its primary language.",
+        "language": "en-US"
+      }
+    ],
+    "figures": [],
+    "hyperlinks": [],
+    "tables": [],
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "has_footnotes_part": false
+  },
+  "verifier": "src/independent_source_oracle.py; stdlib zipfile + xml.etree.ElementTree; no ASIR imports",
+  "timestamp_utc": "2026-09-29T02:55:15.091030+00:00",
+  "status": "PASS"
+}

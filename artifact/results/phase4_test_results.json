@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "fixture_count": 13,
+  "taxonomy_cases": 9,
+  "inline_language_case": "PARTIAL_PRESERVATION",
+  "existing_pilot_tests": "run separately by scripts/test_pilot.py, scripts/pilot2_tests.py, scripts/pilot3_tests.py"
+}

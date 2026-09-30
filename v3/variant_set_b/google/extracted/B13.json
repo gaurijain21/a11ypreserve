@@ -1,0 +1,103 @@
+{
+  "format": "pdf",
+  "title": "B13",
+  "language": "en",
+  "document": {
+    "title": "B13",
+    "language": "en",
+    "metadata": {
+      "Title": "B13",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(13, 0, 2136979537232), '/Pg': IndirectObject(2, 0, 2136979537232), '/K': 0}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [
+    {
+      "identifier": "figure-1",
+      "alt": "First figure with workflow.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/Alt': 'First figure with workflow.', '/P': IndirectObject(16, 0, 2136979537232), '/Pg': IndirectObject(2, 0, 2136979537232), '/K': 6}"
+      }
+    },
+    {
+      "identifier": "figure-2",
+      "alt": "Second figure with results.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/Alt': 'Second figure with results.', '/P': IndirectObject(20, 0, 2136979537232), '/Pg': IndirectObject(2, 0, 2136979537232), '/K': 7}"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "identifier": "figure-1",
+      "alt": "First figure with workflow.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/Alt': 'First figure with workflow.', '/P': IndirectObject(16, 0, 2136979537232), '/Pg': IndirectObject(2, 0, 2136979537232), '/K': 6}"
+      }
+    },
+    {
+      "identifier": "figure-2",
+      "alt": "Second figure with results.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/Alt': 'Second figure with results.', '/P': IndirectObject(20, 0, 2136979537232), '/Pg': IndirectObject(2, 0, 2136979537232), '/K': 7}"
+      }
+    }
+  ],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [
+    {
+      "text": "Figure 1. Workflow.",
+      "association": "ordered page-text adjacency",
+      "evidence": {
+        "pdf_text": true,
+        "pdf_caption_role": false
+      }
+    },
+    {
+      "text": "Figure 2. Results.",
+      "association": "ordered page-text adjacency",
+      "evidence": {
+        "pdf_text": true,
+        "pdf_caption_role": false
+      }
+    }
+  ],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "Variant\n \nB13\n \ncaptions\n \nTwo\n \nfigure-caption\n \nassociations\n \nare\n \ndeclared\n \nin\n \nsource\n \norder.\n \n \nFigure\n \n1.\n \nWorkflow.\n \n \nFigure\n \n2.\n \nResults.\n \n",
+  "pdf_text": "Variant\n \nB13\n \ncaptions\n \nTwo\n \nfigure-caption\n \nassociations\n \nare\n \ndeclared\n \nin\n \nsource\n \norder.\n \n \nFigure\n \n1.\n \nWorkflow.\n \n \nFigure\n \n2.\n \nResults.\n \n",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\v3\\variant_set_b\\google\\outputs\\B13__GOOGLE_DOCS.pdf"
+  }
+}

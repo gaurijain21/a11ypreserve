@@ -1,0 +1,80 @@
+{
+  "certificate_version": "source-oracle-v1",
+  "fixture_id": "F11_FOOTNOTES",
+  "feature": "footnotes",
+  "source_path": "corpus/fixtures/F11_FOOTNOTES.docx",
+  "source_sha256": "72b7182ee9e677f7a302a2f937bac054b321545239bab97be126ea6a01cbce47",
+  "source_manifest_sha256": "5487e0399416912322377da307e182a5031d52670a1063c264a8a8f862096626",
+  "ooxml_parts": [
+    "word/document.xml",
+    "word/styles.xml",
+    "word/numbering.xml",
+    "docProps/core.xml",
+    "word/footnotes.xml"
+  ],
+  "xpath_or_element_assertions": {
+    "document": "w:document//w:p, w:tbl, w:hyperlink, w:footnoteReference, wp:docPr, m:oMath",
+    "feature": "footnotes"
+  },
+  "expected": {
+    "footnotes": [
+      {
+        "kind": "footnote",
+        "id": 1,
+        "text": "This note records the source-to-note association."
+      }
+    ],
+    "has_footnotes_part": true
+  },
+  "observed": {
+    "footnotes": [
+      {
+        "kind": "footnote",
+        "id": 1,
+        "text": "This note records the source-to-note association."
+      }
+    ],
+    "has_footnotes_part": true
+  },
+  "raw_observations": {
+    "core": {
+      "title": "A11yPreserve Footnote Fixture",
+      "subject": "A11yPreserve Phase 4 controlled benchmark fixture",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "default_language": "en-US",
+    "language_values": [
+      "en-US",
+      "en-US"
+    ],
+    "headings": [],
+    "lists": [],
+    "inline_languages": [
+      {
+        "text": "A11yPreserve Footnote Fixture",
+        "language": "en-US"
+      },
+      {
+        "text": "The benchmark uses an explicit footnote association.",
+        "language": "en-US"
+      }
+    ],
+    "figures": [],
+    "hyperlinks": [],
+    "tables": [],
+    "footnotes": [
+      {
+        "kind": "footnote",
+        "id": 1,
+        "text": "This note records the source-to-note association."
+      }
+    ],
+    "equations": [],
+    "captions": [],
+    "has_footnotes_part": true
+  },
+  "verifier": "src/independent_source_oracle.py; stdlib zipfile + xml.etree.ElementTree; no ASIR imports",
+  "timestamp_utc": "2026-09-29T02:55:15.091030+00:00",
+  "status": "PASS"
+}

@@ -1,0 +1,170 @@
+{
+  "certificate_version": "source-oracle-v1",
+  "fixture_id": "F10_COMPLEX_TABLE",
+  "feature": "complex_table",
+  "source_path": "corpus/fixtures/F10_COMPLEX_TABLE.docx",
+  "source_sha256": "eacf8f49328015d6ce66084a92173f73b63bed4878a60943c8dbf0a7beeae992",
+  "source_manifest_sha256": "48b0b8cf50218f16d5975c4450a2da77fc419afa7f2e585ba47e25b040909be7",
+  "ooxml_parts": [
+    "word/document.xml",
+    "word/styles.xml",
+    "word/numbering.xml",
+    "docProps/core.xml"
+  ],
+  "xpath_or_element_assertions": {
+    "document": "w:document//w:p, w:tbl, w:hyperlink, w:footnoteReference, wp:docPr, m:oMath",
+    "feature": "complex_table"
+  },
+  "expected": {
+    "tables": [
+      {
+        "dimensions": {
+          "rows": 5,
+          "columns": 3
+        },
+        "cells": [
+          [
+            "Enrollment",
+            "Outcome"
+          ],
+          [
+            "Year",
+            "Students",
+            "Completion Rate"
+          ],
+          [
+            "2024",
+            "120",
+            "82%"
+          ],
+          [
+            "2025",
+            "150",
+            "87%"
+          ],
+          [
+            "2026",
+            "180",
+            "91%"
+          ]
+        ],
+        "header_rows": [
+          0,
+          1
+        ]
+      }
+    ]
+  },
+  "observed": {
+    "tables": [
+      {
+        "dimensions": {
+          "rows": 5,
+          "columns": 3
+        },
+        "cells": [
+          [
+            "Enrollment",
+            "Outcome"
+          ],
+          [
+            "Year",
+            "Students",
+            "Completion Rate"
+          ],
+          [
+            "2024",
+            "120",
+            "82%"
+          ],
+          [
+            "2025",
+            "150",
+            "87%"
+          ],
+          [
+            "2026",
+            "180",
+            "91%"
+          ]
+        ],
+        "header_rows": [
+          0,
+          1
+        ]
+      }
+    ]
+  },
+  "raw_observations": {
+    "core": {
+      "title": "A11yPreserve Complex Table Fixture",
+      "subject": "A11yPreserve Phase 4 controlled benchmark fixture",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "default_language": "en-US",
+    "language_values": [
+      "en-US",
+      "en-US"
+    ],
+    "headings": [],
+    "lists": [],
+    "inline_languages": [
+      {
+        "text": "A11yPreserve Complex Table Fixture",
+        "language": "en-US"
+      },
+      {
+        "text": "The first two rows are headers. The first row groups the two enrollment columns.",
+        "language": "en-US"
+      }
+    ],
+    "figures": [],
+    "hyperlinks": [],
+    "tables": [
+      {
+        "dimensions": {
+          "rows": 5,
+          "columns": 3
+        },
+        "cells": [
+          [
+            "Enrollment",
+            "Outcome"
+          ],
+          [
+            "Year",
+            "Students",
+            "Completion Rate"
+          ],
+          [
+            "2024",
+            "120",
+            "82%"
+          ],
+          [
+            "2025",
+            "150",
+            "87%"
+          ],
+          [
+            "2026",
+            "180",
+            "91%"
+          ]
+        ],
+        "header_rows": [
+          0,
+          1
+        ]
+      }
+    ],
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "has_footnotes_part": false
+  },
+  "verifier": "src/independent_source_oracle.py; stdlib zipfile + xml.etree.ElementTree; no ASIR imports",
+  "timestamp_utc": "2026-09-29T02:55:15.091030+00:00",
+  "status": "PASS"
+}

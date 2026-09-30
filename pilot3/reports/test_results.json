@@ -1,0 +1,33 @@
+{
+  "generated_at_utc": "2026-09-28T02:56:00Z",
+  "existing_tests": {
+    "scripts/test_pilot.py": {
+      "passed": true,
+      "failures": []
+    },
+    "scripts/pilot2_tests.py": {
+      "passed": true,
+      "failures": []
+    }
+  },
+  "new_tests": {
+    "scripts/pilot3_tests.py": {
+      "passed": true,
+      "assertions": 35,
+      "semantic_rows": 8,
+      "failures": []
+    }
+  },
+  "regression_scope": [
+    "frozen fixture hashes",
+    "eight valid Pilot 3 PDFs",
+    "two-axis classifications",
+    "whitespace-insensitive independent page-text verification",
+    "Google Docs list-numbering ambiguity is retained rather than normalized away"
+  ],
+  "unresolved_ambiguities": [
+    "Google Docs PDF structure does not expose /ListNumbering attributes, so ordered-versus-unordered list type is not independently proven by structure alone.",
+    "Google Docs adds a document-title H1 before the source heading hierarchy; this is reported as an altered destination hierarchy rather than silently ignored."
+  ],
+  "all_passed": true
+}

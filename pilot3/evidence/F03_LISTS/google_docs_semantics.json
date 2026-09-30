@@ -1,0 +1,354 @@
+{
+  "fixture": "F03_LISTS",
+  "engine": "Google Docs",
+  "source": [
+    {
+      "type": "unordered",
+      "depth": 0,
+      "text": "Accessibility",
+      "parent": null,
+      "order": 4,
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "numId": "10",
+        "ilvl": 0,
+        "numFmt": "bullet"
+      }
+    },
+    {
+      "type": "unordered",
+      "depth": 1,
+      "text": "Documents",
+      "parent": "Accessibility",
+      "order": 5,
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "numId": "10",
+        "ilvl": 1,
+        "numFmt": "bullet"
+      }
+    },
+    {
+      "type": "unordered",
+      "depth": 1,
+      "text": "Web",
+      "parent": "Accessibility",
+      "order": 6,
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "numId": "10",
+        "ilvl": 1,
+        "numFmt": "bullet"
+      }
+    },
+    {
+      "type": "unordered",
+      "depth": 0,
+      "text": "Usability",
+      "parent": null,
+      "order": 7,
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "numId": "10",
+        "ilvl": 0,
+        "numFmt": "bullet"
+      }
+    },
+    {
+      "type": "ordered",
+      "depth": 0,
+      "text": "Extract",
+      "parent": null,
+      "order": 9,
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "numId": "11",
+        "ilvl": 0,
+        "numFmt": "decimal"
+      }
+    },
+    {
+      "type": "ordered",
+      "depth": 0,
+      "text": "Convert",
+      "parent": null,
+      "order": 10,
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "numId": "11",
+        "ilvl": 0,
+        "numFmt": "decimal"
+      }
+    },
+    {
+      "type": "ordered",
+      "depth": 0,
+      "text": "Compare",
+      "parent": null,
+      "order": 11,
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "numId": "11",
+        "ilvl": 0,
+        "numFmt": "decimal"
+      }
+    }
+  ],
+  "destination": {
+    "asir": "ASIR-pilot-1",
+    "format": "pdf",
+    "document": {
+      "title": "F03_LISTS",
+      "language": "en",
+      "evidence": {
+        "pdf": [
+          "/Root",
+          "/Info",
+          "/StructTreeRoot"
+        ]
+      }
+    },
+    "headings": [
+      {
+        "text": "",
+        "level": 1,
+        "order": 2,
+        "evidence": {
+          "pdf_role": "H1",
+          "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(9, 0, 1604514527280), '/Pg': IndirectObject(2, 0, 1604514527280), '/K': 0}"
+        }
+      }
+    ],
+    "figures": [],
+    "lists": [
+      {
+        "type": "list",
+        "depth": 0,
+        "text": "",
+        "parent": "Document",
+        "order": 5,
+        "evidence": {
+          "pdf_role": "L",
+          "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(9, 0, 1604514527280), '/K': [IndirectObject(14, 0, 1604514527280), IndirectObject(19, 0, 1604514527280)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "parent": "L",
+        "order": 6,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(13, 0, 1604514527280), '/K': [IndirectObject(15, 0, 1604514527280), IndirectObject(16, 0, 1604514527280)]}"
+        }
+      },
+      {
+        "type": "LBody",
+        "depth": 2,
+        "text": "",
+        "parent": "LI",
+        "order": 7,
+        "evidence": {
+          "pdf_role": "LBody",
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(14, 0, 1604514527280), '/Pg': IndirectObject(2, 0, 1604514527280), '/K': 3}"
+        }
+      },
+      {
+        "type": "list",
+        "depth": 2,
+        "text": "",
+        "parent": "LI",
+        "order": 8,
+        "evidence": {
+          "pdf_role": "L",
+          "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(14, 0, 1604514527280), '/K': [IndirectObject(17, 0, 1604514527280), IndirectObject(18, 0, 1604514527280)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 3,
+        "text": "",
+        "parent": "L",
+        "order": 9,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(16, 0, 1604514527280), '/Pg': IndirectObject(2, 0, 1604514527280), '/K': 4}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 3,
+        "text": "",
+        "parent": "L",
+        "order": 10,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(16, 0, 1604514527280), '/Pg': IndirectObject(2, 0, 1604514527280), '/K': 5}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "parent": "L",
+        "order": 11,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(13, 0, 1604514527280), '/Pg': IndirectObject(2, 0, 1604514527280), '/K': 6}"
+        }
+      },
+      {
+        "type": "list",
+        "depth": 0,
+        "text": "",
+        "parent": "Document",
+        "order": 13,
+        "evidence": {
+          "pdf_role": "L",
+          "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(9, 0, 1604514527280), '/K': [IndirectObject(22, 0, 1604514527280), IndirectObject(23, 0, 1604514527280), IndirectObject(24, 0, 1604514527280)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "parent": "L",
+        "order": 14,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(21, 0, 1604514527280), '/Pg': IndirectObject(2, 0, 1604514527280), '/K': 8}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "parent": "L",
+        "order": 15,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(21, 0, 1604514527280), '/Pg': IndirectObject(2, 0, 1604514527280), '/K': 9}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "parent": "L",
+        "order": 16,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(21, 0, 1604514527280), '/Pg': IndirectObject(2, 0, 1604514527280), '/K': 10}"
+        }
+      }
+    ],
+    "tables": [],
+    "pdf": {
+      "tagged": true,
+      "role_map": {},
+      "pages": 1
+    },
+    "pdf_text": "A11yPreserve  List  Fixture  \nThe  fixture  contains  separate  unordered,  ordered,  and  nested  lists  with  native  Word  \nnumbering\n \nsemantics.\n \nResearch  areas  \n•  Accessibility  \n•  Documents  \n•  Web  \n•  Usability  \nEvaluation  stages  \n1.  Extract  2.  Convert  3.  Compare  ",
+    "extraction": {
+      "method": "pypdf object-model and marked-content inspection",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F03_LISTS__GOOGLE_DOCS.pdf"
+    }
+  },
+  "raw_structure_summary": {
+    "tagged": true,
+    "roles": [
+      "Document",
+      "H1",
+      "P",
+      "P",
+      "L",
+      "LI",
+      "LBody",
+      "L",
+      "LI",
+      "LI",
+      "LI",
+      "P",
+      "L",
+      "LI",
+      "LI",
+      "LI"
+    ],
+    "role_counts": {
+      "Document": 1,
+      "H1": 1,
+      "L": 3,
+      "LBody": 1,
+      "LI": 7,
+      "P": 3
+    },
+    "list_numbering": [],
+    "table_rows": 0,
+    "header_cells": 0,
+    "data_cells": 0,
+    "figures": [],
+    "pages": 1
+  },
+  "validation": {
+    "fixture": "F03_LISTS",
+    "engine": "Google Docs",
+    "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F03_LISTS__GOOGLE_DOCS.pdf",
+    "exists": true,
+    "checked_at_utc": "2026-09-28T02:56:46.887327+00:00",
+    "size_bytes": 26917,
+    "sha256": "d4342499a757d4cd54f07f5d077502e0c33a9c1294b3d036c62021c0d07b4289",
+    "status": "PASS",
+    "parseable": true,
+    "page_count": 1,
+    "page_count_minimum": 1,
+    "content_text_nonempty": true,
+    "struct_tree_exists": true,
+    "content_present": true,
+    "structure_summary": {
+      "tagged": true,
+      "roles": [
+        "Document",
+        "H1",
+        "P",
+        "P",
+        "L",
+        "LI",
+        "LBody",
+        "L",
+        "LI",
+        "LI",
+        "LI",
+        "P",
+        "L",
+        "LI",
+        "LI",
+        "LI"
+      ],
+      "role_counts": {
+        "Document": 1,
+        "H1": 1,
+        "L": 3,
+        "LBody": 1,
+        "LI": 7,
+        "P": 3
+      },
+      "list_numbering": [],
+      "table_rows": 0,
+      "header_cells": 0,
+      "data_cells": 0,
+      "figures": [],
+      "pages": 1
+    },
+    "secondary_validation": {
+      "tool": "pdfplumber",
+      "parseable": true,
+      "page_count": 1,
+      "text_nonempty": true
+    },
+    "metadata": {
+      "/Title": "F03_LISTS",
+      "/Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  }
+}

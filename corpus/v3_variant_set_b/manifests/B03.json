@@ -1,0 +1,36 @@
+{
+  "variant_id": "B03",
+  "feature_family": "lists",
+  "source_format": "DOCX",
+  "contract_version": "v3-variant-set-b",
+  "fixture_path": "corpus/v3_variant_set_b/fixtures/B03.docx",
+  "ground_truth": {
+    "lists": [
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "First"
+      },
+      {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Nested alpha"
+      },
+      {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Nested beta"
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Second"
+      },
+      {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Nested gamma"
+      }
+    ]
+  }
+}

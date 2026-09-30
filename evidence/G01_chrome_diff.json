@@ -1,0 +1,13 @@
+{
+  "source": "corpus/G01_semantic_fixture.html",
+  "output": "outputs/G01_chrome.pdf",
+  "engine": "Google Chrome headless",
+  "features": [
+    {"feature": "document_language", "source": "en-US", "output": "en-US", "result": "PRESERVED"},
+    {"feature": "heading_hierarchy", "source": ["H1", "H2"], "output": [], "result": "MEASUREMENT_ERROR"},
+    {"feature": "image_alt_text", "source": ["Bar chart showing enrollment increasing from 2021 to 2025", ""], "output": [], "result": "MEASUREMENT_ERROR"},
+    {"feature": "list_nesting", "source": [0, 1, 0], "output": [], "result": "MEASUREMENT_ERROR"},
+    {"feature": "table_headers", "source": [true], "output": [], "result": "MEASUREMENT_ERROR"}
+  ],
+  "interpretation": "The PDF has a structure tree, but the current adapter does not parse it. Missing extracted structure is not classified as loss."
+}

@@ -1,0 +1,183 @@
+{
+  "fixture": "F01_HEADINGS",
+  "engine": "Google Docs",
+  "source": [
+    {
+      "text": "Research Overview",
+      "level": 1,
+      "order": 2
+    },
+    {
+      "text": "Background",
+      "level": 2,
+      "order": 4
+    },
+    {
+      "text": "Prior Work",
+      "level": 3,
+      "order": 6
+    },
+    {
+      "text": "Methods",
+      "level": 2,
+      "order": 8
+    }
+  ],
+  "destination": {
+    "asir": "ASIR-pilot-1",
+    "format": "pdf",
+    "document": {
+      "title": "F01_HEADINGS",
+      "language": "en",
+      "evidence": {
+        "pdf": [
+          "/Root",
+          "/Info",
+          "/StructTreeRoot"
+        ]
+      }
+    },
+    "headings": [
+      {
+        "text": "",
+        "level": 1,
+        "order": 2,
+        "evidence": {
+          "pdf_role": "H1",
+          "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(11, 0, 1604512823344), '/Pg': IndirectObject(2, 0, 1604512823344), '/K': 0}"
+        }
+      },
+      {
+        "text": "",
+        "level": 1,
+        "order": 3,
+        "evidence": {
+          "pdf_role": "H1",
+          "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(11, 0, 1604512823344), '/Pg': IndirectObject(2, 0, 1604512823344), '/K': 1}"
+        }
+      },
+      {
+        "text": "",
+        "level": 2,
+        "order": 5,
+        "evidence": {
+          "pdf_role": "H2",
+          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(11, 0, 1604512823344), '/Pg': IndirectObject(2, 0, 1604512823344), '/K': 3}"
+        }
+      },
+      {
+        "text": "",
+        "level": 3,
+        "order": 7,
+        "evidence": {
+          "pdf_role": "H3",
+          "object": "{'/Type': '/StructElem', '/S': '/H3', '/P': IndirectObject(11, 0, 1604512823344), '/Pg': IndirectObject(2, 0, 1604512823344), '/K': 5}"
+        }
+      },
+      {
+        "text": "",
+        "level": 2,
+        "order": 9,
+        "evidence": {
+          "pdf_role": "H2",
+          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(11, 0, 1604512823344), '/Pg': IndirectObject(2, 0, 1604512823344), '/K': 7}"
+        }
+      }
+    ],
+    "figures": [],
+    "lists": [],
+    "tables": [],
+    "pdf": {
+      "tagged": true,
+      "role_map": {},
+      "pages": 1
+    },
+    "pdf_text": "A11yPreserve  Heading  Fixture  \nResearch  Overview  This  fixture  introduces  the  research  problem  and  establishes  a  deliberate  heading  \nhierarchy.\n \nBackground  Accessible  structure  can  be  preserved  only  when  conversion  retains  the  source  \ndocument's\n \nintended\n \nsemantics.\n \nPrior  W ork  Prior  accessibility  research  shows  that  document  transformation  can  change  structure  \nand\n \nmetadata.\n \nMethods  The  pilot  compares  source  semantics  with  tagged  PDF  semantics  using  deterministic  \nextraction.\n ",
+    "extraction": {
+      "method": "pypdf object-model and marked-content inspection",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F01_HEADINGS__GOOGLE_DOCS.pdf"
+    }
+  },
+  "raw_structure_summary": {
+    "tagged": true,
+    "roles": [
+      "Document",
+      "H1",
+      "H1",
+      "P",
+      "H2",
+      "P",
+      "H3",
+      "P",
+      "H2",
+      "P"
+    ],
+    "role_counts": {
+      "Document": 1,
+      "H1": 2,
+      "H2": 2,
+      "H3": 1,
+      "P": 4
+    },
+    "list_numbering": [],
+    "table_rows": 0,
+    "header_cells": 0,
+    "data_cells": 0,
+    "figures": [],
+    "pages": 1
+  },
+  "validation": {
+    "fixture": "F01_HEADINGS",
+    "engine": "Google Docs",
+    "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F01_HEADINGS__GOOGLE_DOCS.pdf",
+    "exists": true,
+    "checked_at_utc": "2026-09-28T02:56:46.539859+00:00",
+    "size_bytes": 46379,
+    "sha256": "d6a8a93a8cd0a347448aeb65a86fd1b386dfd6204a23ab449d35da28255ce9bc",
+    "status": "PASS",
+    "parseable": true,
+    "page_count": 1,
+    "page_count_minimum": 1,
+    "content_text_nonempty": true,
+    "struct_tree_exists": true,
+    "content_present": true,
+    "structure_summary": {
+      "tagged": true,
+      "roles": [
+        "Document",
+        "H1",
+        "H1",
+        "P",
+        "H2",
+        "P",
+        "H3",
+        "P",
+        "H2",
+        "P"
+      ],
+      "role_counts": {
+        "Document": 1,
+        "H1": 2,
+        "H2": 2,
+        "H3": 1,
+        "P": 4
+      },
+      "list_numbering": [],
+      "table_rows": 0,
+      "header_cells": 0,
+      "data_cells": 0,
+      "figures": [],
+      "pages": 1
+    },
+    "secondary_validation": {
+      "tool": "pdfplumber",
+      "parseable": true,
+      "page_count": 1,
+      "text_nonempty": true
+    },
+    "metadata": {
+      "/Title": "F01_HEADINGS",
+      "/Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "certificate_version": "source-oracle-v1",
+  "fixture_id": "F03_LISTS",
+  "feature": "lists",
+  "source_path": "corpus/fixtures/F03_LISTS.docx",
+  "source_sha256": "96d918ed19a5974e31f30704fe89db4bcaa51628f1d9cc00d3c8eecd2779d97f",
+  "source_manifest_sha256": "5f0492971e400167f8405d2d688d15e157a1c47990e40cb9c3afdf42180b2db9",
+  "ooxml_parts": [
+    "word/document.xml",
+    "word/styles.xml",
+    "word/numbering.xml",
+    "docProps/core.xml"
+  ],
+  "xpath_or_element_assertions": {
+    "document": "w:document//w:p, w:tbl, w:hyperlink, w:footnoteReference, wp:docPr, m:oMath",
+    "feature": "lists"
+  },
+  "expected": {
+    "lists": [
+      {
+        "type": "unordered",
+        "depth": 0,
+        "text": "Accessibility"
+      },
+      {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Documents"
+      },
+      {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Web"
+      },
+      {
+        "type": "unordered",
+        "depth": 0,
+        "text": "Usability"
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Extract"
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Convert"
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Compare"
+      }
+    ]
+  },
+  "observed": {
+    "lists": [
+      {
+        "type": "unordered",
+        "depth": 0,
+        "text": "Accessibility"
+      },
+      {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Documents"
+      },
+      {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Web"
+      },
+      {
+        "type": "unordered",
+        "depth": 0,
+        "text": "Usability"
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Extract"
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Convert"
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Compare"
+      }
+    ]
+  },
+  "raw_observations": {
+    "core": {
+      "title": "A11yPreserve List Fixture",
+      "subject": "A11yPreserve controlled accessibility fixture",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "default_language": "en-US",
+    "language_values": [
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US"
+    ],
+    "headings": [],
+    "lists": [
+      {
+        "type": "unordered",
+        "depth": 0,
+        "text": "Accessibility"
+      },
+      {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Documents"
+      },
+      {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Web"
+      },
+      {
+        "type": "unordered",
+        "depth": 0,
+        "text": "Usability"
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Extract"
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Convert"
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Compare"
+      }
+    ],
+    "inline_languages": [
+      {
+        "text": "A11yPreserve List Fixture",
+        "language": "en-US"
+      },
+      {
+        "text": "The fixture contains separate unordered, ordered, and nested lists with native Word numbering semantics.",
+        "language": "en-US"
+      },
+      {
+        "text": "Research areas",
+        "language": "en-US"
+      },
+      {
+        "text": "Accessibility",
+        "language": "en-US"
+      },
+      {
+        "text": "Documents",
+        "language": "en-US"
+      },
+      {
+        "text": "Web",
+        "language": "en-US"
+      },
+      {
+        "text": "Usability",
+        "language": "en-US"
+      },
+      {
+        "text": "Evaluation stages",
+        "language": "en-US"
+      },
+      {
+        "text": "Extract",
+        "language": "en-US"
+      },
+      {
+        "text": "Convert",
+        "language": "en-US"
+      },
+      {
+        "text": "Compare",
+        "language": "en-US"
+      }
+    ],
+    "figures": [],
+    "hyperlinks": [],
+    "tables": [],
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "has_footnotes_part": false
+  },
+  "verifier": "src/independent_source_oracle.py; stdlib zipfile + xml.etree.ElementTree; no ASIR imports",
+  "timestamp_utc": "2026-09-29T02:55:15.091030+00:00",
+  "status": "PASS"
+}

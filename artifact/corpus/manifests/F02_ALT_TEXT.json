@@ -1,0 +1,16 @@
+{
+  "fixture_id": "F02_ALT_TEXT",
+  "document": {
+    "title": "A11yPreserve Alternative Text Fixture",
+    "language": "en-US"
+  },
+  "figures": [
+    {
+      "identifier": "figure-1",
+      "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+      "decorative": false,
+      "order": 1
+    }
+  ],
+  "manifest_version": "pilot-1"
+}

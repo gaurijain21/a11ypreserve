@@ -1,0 +1,79 @@
+{
+  "format": "pdf",
+  "title": "A11yPreserve Heading Fixture",
+  "language": "en-US",
+  "document": {
+    "title": "A11yPreserve Heading Fixture",
+    "language": "en-US",
+    "metadata": {
+      "Title": "A11yPreserve Heading Fixture",
+      "Author": "A11yPreserve pilot",
+      "Subject": "A11yPreserve controlled accessibility fixture",
+      "Creator": "Writer",
+      "Producer": "LibreOffice 26.2.6.3 (X86_64)",
+      "CreationDate": "D:20260927211855-07'00'"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(4, 0, 2294776116880), '/Pg': IndirectObject(1, 0, 2294776116880), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.48}, '/K': [1]}"
+      }
+    },
+    {
+      "text": "",
+      "level": 2,
+      "evidence": {
+        "pdf_role": "H2",
+        "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 2294776116880), '/Pg': IndirectObject(1, 0, 2294776116880), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.237}, '/K': [3]}"
+      }
+    },
+    {
+      "text": "",
+      "level": 3,
+      "evidence": {
+        "pdf_role": "H3",
+        "object": "{'/Type': '/StructElem', '/S': '/H3', '/P': IndirectObject(4, 0, 2294776116880), '/Pg': IndirectObject(1, 0, 2294776116880), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.237}, '/K': [6]}"
+      }
+    },
+    {
+      "text": "",
+      "level": 2,
+      "evidence": {
+        "pdf_role": "H2",
+        "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 2294776116880), '/Pg': IndirectObject(1, 0, 2294776116880), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.237}, '/K': [9]}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {
+      "/Title": "/P",
+      "/Standard": "/P"
+    },
+    "pages": 1
+  },
+  "text_preview": "A11yPreserve Heading Fixture\nResearch Overview\nThis fixture introduces the research problem and establishes a deliberate heading hierarchy.\nBackground\nAccessible structure can be preserved only when conversion retains the source document's \nintended semantics.\nPrior Work\nPrior accessibility research shows that document transformation can change structure and \nmetadata.\nMethods\nThe pilot compares source semantics with tagged PDF semantics using deterministic extraction.",
+  "pdf_text": "A11yPreserve Heading Fixture\nResearch Overview\nThis fixture introduces the research problem and establishes a deliberate heading hierarchy.\nBackground\nAccessible structure can be preserved only when conversion retains the source document's \nintended semantics.\nPrior Work\nPrior accessibility research shows that document transformation can change structure and \nmetadata.\nMethods\nThe pilot compares source semantics with tagged PDF semantics using deterministic extraction.",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F01_HEADINGS__LIBREOFFICE.pdf"
+  }
+}

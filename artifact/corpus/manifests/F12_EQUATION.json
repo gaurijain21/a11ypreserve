@@ -1,0 +1,25 @@
+{
+  "fixture_id": "F12_EQUATION",
+  "feature": "equation",
+  "source_format": "DOCX",
+  "contract_version": "phase4-v1",
+  "document": {
+    "title": "A11yPreserve Equation Fixture",
+    "language": "en-US"
+  },
+  "ground_truth": {
+    "equations": [
+      {
+        "expression": "E = mc^2",
+        "representation": "OMML",
+        "tokens": [
+          "E",
+          "=",
+          "m",
+          "c",
+          "2"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "fixture_id": "F01_HEADINGS",
+  "document": {
+    "title": "A11yPreserve Heading Fixture",
+    "language": "en-US"
+  },
+  "headings": [
+    {
+      "text": "Research Overview",
+      "level": 1
+    },
+    {
+      "text": "Background",
+      "level": 2
+    },
+    {
+      "text": "Prior Work",
+      "level": 3
+    },
+    {
+      "text": "Methods",
+      "level": 2
+    }
+  ],
+  "manifest_version": "pilot-1"
+}

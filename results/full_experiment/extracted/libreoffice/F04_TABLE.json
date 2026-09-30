@@ -1,0 +1,214 @@
+{
+  "format": "pdf",
+  "title": "A11yPreserve Table Fixture",
+  "language": "en-US",
+  "document": {
+    "title": "A11yPreserve Table Fixture",
+    "language": "en-US",
+    "metadata": {
+      "Title": "A11yPreserve Table Fixture",
+      "Author": "A11yPreserve pilot",
+      "Subject": "A11yPreserve controlled accessibility fixture",
+      "Creator": "Writer",
+      "Producer": "LibreOffice 26.2.6.3 (X86_64)",
+      "CreationDate": "D:20260927211957-07'00'"
+    }
+  },
+  "headings": [],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [
+    {
+      "identifier": "table-1",
+      "dimensions": {},
+      "cells": [],
+      "headers": [],
+      "header_row": null,
+      "evidence": {
+        "pdf_role": "Table",
+        "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(4, 0, 2294779829264), '/Pg': IndirectObject(1, 0, 2294779829264), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.237, '/SpaceAfter': 0.01, '/StartIndent': -0.108, '/EndIndent': 0.108, '/Width': 8.64, '/Height': 1.299, '/BBox': [90, 576.15, 522, 641.1]}, '/K': [IndirectObject(8, 0, 2294779829264), IndirectObject(15, 0, 2294779829264), IndirectObject(22, 0, 2294779829264), IndirectObject(29, 0, 2294779829264)]}"
+      }
+    },
+    {
+      "identifier": "cell-2",
+      "role": "TH",
+      "text": "",
+      "scope": "/Column",
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TH",
+        "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(8, 0, 2294779829264), '/Pg': IndirectObject(1, 0, 2294779829264), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.88, '/Height': 0.263}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(10, 0, 2294779829264)]}"
+      }
+    },
+    {
+      "identifier": "cell-3",
+      "role": "TH",
+      "text": "",
+      "scope": "/Column",
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TH",
+        "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(8, 0, 2294779829264), '/Pg': IndirectObject(1, 0, 2294779829264), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.88, '/Height': 0.263}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(12, 0, 2294779829264)]}"
+      }
+    },
+    {
+      "identifier": "cell-4",
+      "role": "TH",
+      "text": "",
+      "scope": "/Column",
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TH",
+        "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(8, 0, 2294779829264), '/Pg': IndirectObject(1, 0, 2294779829264), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.88, '/Height': 0.263}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(14, 0, 2294779829264)]}"
+      }
+    },
+    {
+      "identifier": "cell-5",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(15, 0, 2294779829264), '/Pg': IndirectObject(1, 0, 2294779829264), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.88, '/Height': 0.263}, '/K': [IndirectObject(17, 0, 2294779829264)]}"
+      }
+    },
+    {
+      "identifier": "cell-6",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(15, 0, 2294779829264), '/Pg': IndirectObject(1, 0, 2294779829264), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.88, '/Height': 0.263}, '/K': [IndirectObject(19, 0, 2294779829264)]}"
+      }
+    },
+    {
+      "identifier": "cell-7",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(15, 0, 2294779829264), '/Pg': IndirectObject(1, 0, 2294779829264), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.88, '/Height': 0.263}, '/K': [IndirectObject(21, 0, 2294779829264)]}"
+      }
+    },
+    {
+      "identifier": "cell-8",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(22, 0, 2294779829264), '/Pg': IndirectObject(1, 0, 2294779829264), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.88, '/Height': 0.263}, '/K': [IndirectObject(24, 0, 2294779829264)]}"
+      }
+    },
+    {
+      "identifier": "cell-9",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(22, 0, 2294779829264), '/Pg': IndirectObject(1, 0, 2294779829264), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.88, '/Height': 0.263}, '/K': [IndirectObject(26, 0, 2294779829264)]}"
+      }
+    },
+    {
+      "identifier": "cell-10",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(22, 0, 2294779829264), '/Pg': IndirectObject(1, 0, 2294779829264), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.88, '/Height': 0.263}, '/K': [IndirectObject(28, 0, 2294779829264)]}"
+      }
+    },
+    {
+      "identifier": "cell-11",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(29, 0, 2294779829264), '/Pg': IndirectObject(1, 0, 2294779829264), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.88, '/Height': 0.263}, '/K': [IndirectObject(31, 0, 2294779829264)]}"
+      }
+    },
+    {
+      "identifier": "cell-12",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(29, 0, 2294779829264), '/Pg': IndirectObject(1, 0, 2294779829264), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.88, '/Height': 0.263}, '/K': [IndirectObject(33, 0, 2294779829264)]}"
+      }
+    },
+    {
+      "identifier": "cell-13",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(29, 0, 2294779829264), '/Pg': IndirectObject(1, 0, 2294779829264), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.88, '/Height': 0.263}, '/K': [IndirectObject(35, 0, 2294779829264)]}"
+      }
+    }
+  ],
+  "table_headers": [
+    true
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {
+      "/Title": "/P",
+      "/Standard": "/P"
+    },
+    "pages": 1
+  },
+  "text_preview": "A11yPreserve Table Fixture\nThe table reports enrollment and completion rate with the first row marked as a native Word \nheader row.\nYear Students Completion Rate\n2024 120 82%\n2025 150 87%\n2026 180 91%",
+  "pdf_text": "A11yPreserve Table Fixture\nThe table reports enrollment and completion rate with the first row marked as a native Word \nheader row.\nYear Students Completion Rate\n2024 120 82%\n2025 150 87%\n2026 180 91%",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F04_TABLE__LIBREOFFICE.pdf"
+  }
+}

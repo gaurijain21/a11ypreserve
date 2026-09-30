@@ -1,0 +1,56 @@
+{
+  "contract_version": "a11ypreserve-contract-v1",
+  "fixture_id": "F08_LINKS",
+  "source": {
+    "format": "DOCX",
+    "feature": "links",
+    "fixture_path": "corpus/fixtures/F08_LINKS.docx",
+    "sha256": "3220a74dbfccc059b8e77e490faa48d7540a56f22e93e0b78548ee6ae4c05c60",
+    "manifest_path": "corpus/manifests/F08_LINKS.json",
+    "manifest_sha256": "783e422d7adcc94864339faa2bd9ae403ebf05038be38e8d69e25377a383dbb6",
+    "oracle": "independent raw OOXML ZIP/XML inspection plus source extractor agreement"
+  },
+  "destination": {
+    "format": "PDF",
+    "representation_requirement": "link target and visible-name association preserved",
+    "accepted_equivalents": [
+      "link annotation plus an equivalent structure/name association"
+    ]
+  },
+  "contract": {
+    "feature_contract": {
+      "hyperlinks": [
+        {
+          "text": "Accessibility Guidelines",
+          "target": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+          "order": 1
+        }
+      ]
+    }
+  },
+  "decision_rules": {
+    "outcomes": [
+      "PRESERVED",
+      "PARTIALLY_PRESERVED",
+      "ALTERED",
+      "LOST",
+      "MEASUREMENT_ERROR"
+    ],
+    "evidence_statuses": [
+      "VERIFIED_EQUIVALENCE",
+      "OBSERVED_DIFFERENCE",
+      "OBSERVED_PARTIAL",
+      "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "UNRESOLVED_EQUIVALENCE",
+      "INSUFFICIENT_EVIDENCE",
+      "MEASUREMENT_FAILURE"
+    ],
+    "equivalence_rule": "Declare PRESERVED only when the destination representation satisfies the feature contract; otherwise record the observed difference or partial evidence without inferring semantic absence from a single extractor encoding.",
+    "uncertainty_rule": "If a feature-specific equivalent cannot be established with the available destination evidence, retain the frozen outcome but label the evidence UNRESOLVED_EQUIVALENCE or INSUFFICIENT_EVIDENCE; use MEASUREMENT_FAILURE only when the measurement path fails."
+  },
+  "provenance": {
+    "frozen_corpus": "corpus/FROZEN_CORPUS_MANIFEST.json",
+    "primary_results": "results/full_experiment/PRIMARY_RESULTS_FREEZE.json",
+    "contract_materializer": "scripts/build_contracts.py"
+  }
+}

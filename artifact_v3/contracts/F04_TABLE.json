@@ -1,0 +1,83 @@
+{
+  "contract_version": "a11ypreserve-contract-v1",
+  "fixture_id": "F04_TABLE",
+  "source": {
+    "format": "DOCX",
+    "feature": "table",
+    "fixture_path": "corpus/fixtures/F04_TABLE.docx",
+    "sha256": "a9d129f7409afb5a3d9363eba423fa85b5760466406538e331e72a1e12412a52",
+    "manifest_path": "corpus/manifests/F04_TABLE.json",
+    "manifest_sha256": "2e152645c54d2f03889161e2f52a2eeed1336b43c7c504a033e14ddd825107b0",
+    "oracle": "independent raw OOXML ZIP/XML inspection plus source extractor agreement"
+  },
+  "destination": {
+    "format": "PDF",
+    "representation_requirement": "table dimensions, cell contents, and header row preserved",
+    "accepted_equivalents": [
+      "Table/TR/TH/TD structure or equivalent machine-verifiable table semantics"
+    ]
+  },
+  "contract": {
+    "feature_contract": {
+      "table": {
+        "dimensions": {
+          "rows": 4,
+          "columns": 3
+        },
+        "headers": [
+          "Year",
+          "Students",
+          "Completion Rate"
+        ],
+        "header_row": 0,
+        "cells": [
+          [
+            "Year",
+            "Students",
+            "Completion Rate"
+          ],
+          [
+            "2024",
+            "120",
+            "82%"
+          ],
+          [
+            "2025",
+            "150",
+            "87%"
+          ],
+          [
+            "2026",
+            "180",
+            "91%"
+          ]
+        ]
+      }
+    }
+  },
+  "decision_rules": {
+    "outcomes": [
+      "PRESERVED",
+      "PARTIALLY_PRESERVED",
+      "ALTERED",
+      "LOST",
+      "MEASUREMENT_ERROR"
+    ],
+    "evidence_statuses": [
+      "VERIFIED_EQUIVALENCE",
+      "OBSERVED_DIFFERENCE",
+      "OBSERVED_PARTIAL",
+      "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "UNRESOLVED_EQUIVALENCE",
+      "INSUFFICIENT_EVIDENCE",
+      "MEASUREMENT_FAILURE"
+    ],
+    "equivalence_rule": "Declare PRESERVED only when the destination representation satisfies the feature contract; otherwise record the observed difference or partial evidence without inferring semantic absence from a single extractor encoding.",
+    "uncertainty_rule": "If a feature-specific equivalent cannot be established with the available destination evidence, retain the frozen outcome but label the evidence UNRESOLVED_EQUIVALENCE or INSUFFICIENT_EVIDENCE; use MEASUREMENT_FAILURE only when the measurement path fails."
+  },
+  "provenance": {
+    "frozen_corpus": "corpus/FROZEN_CORPUS_MANIFEST.json",
+    "primary_results": "results/full_experiment/PRIMARY_RESULTS_FREEZE.json",
+    "contract_materializer": "scripts/build_contracts.py"
+  }
+}

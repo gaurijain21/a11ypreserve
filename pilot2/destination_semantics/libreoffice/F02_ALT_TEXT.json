@@ -1,0 +1,43 @@
+{
+  "asir": "ASIR-pilot-1",
+  "format": "pdf",
+  "document": {
+    "title": "A11yPreserve Alternative Text Fixture",
+    "language": "en-US",
+    "evidence": {
+      "pdf": [
+        "/Root",
+        "/Info",
+        "/StructTreeRoot"
+      ]
+    }
+  },
+  "headings": [],
+  "figures": [
+    {
+      "identifier": "figure-1",
+      "alt": "Enrollment chart - Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+      "decorative": false,
+      "order": 5,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 2839225306576), '/Pg': IndirectObject(1, 0, 2839225306576), '/Alt': 'Enrollment chart - Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 8.352, '/Height': 4.872, '/BBox': [99.05, 400.15, 516.65, 643.75]}, '/K': [2]}"
+      }
+    }
+  ],
+  "lists": [],
+  "tables": [],
+  "pdf": {
+    "tagged": true,
+    "role_map": {
+      "/Title": "/P",
+      "/Standard": "/P"
+    },
+    "pages": 1
+  },
+  "pdf_text": "A11yPreserve Alternative Text Fixture\nEnrollment is reported across three academic years in the chart below.\nThe visual summarizes the reported trend without repeating its complete alternative text.",
+  "extraction": {
+    "method": "pypdf object-model and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\outputs\\libreoffice_pdf\\F02_ALT_TEXT__LIBREOFFICE.pdf"
+  }
+}

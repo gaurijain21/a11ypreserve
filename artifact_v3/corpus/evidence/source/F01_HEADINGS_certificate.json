@@ -1,0 +1,145 @@
+{
+  "certificate_version": "source-oracle-v1",
+  "fixture_id": "F01_HEADINGS",
+  "feature": "headings",
+  "source_path": "corpus/fixtures/F01_HEADINGS.docx",
+  "source_sha256": "367d8b6382e2446a387417a789e764968b98101e1fb0fd3381fb24d32c847407",
+  "source_manifest_sha256": "eb265c66b69ea0941c45700d3d11244df91dadb8e1d4e0e4b593128fb273d2b8",
+  "ooxml_parts": [
+    "word/document.xml",
+    "word/styles.xml",
+    "word/numbering.xml",
+    "docProps/core.xml"
+  ],
+  "xpath_or_element_assertions": {
+    "document": "w:document//w:p, w:tbl, w:hyperlink, w:footnoteReference, wp:docPr, m:oMath",
+    "feature": "headings"
+  },
+  "expected": {
+    "headings": [
+      {
+        "text": "Research Overview",
+        "level": 1
+      },
+      {
+        "text": "Background",
+        "level": 2
+      },
+      {
+        "text": "Prior Work",
+        "level": 3
+      },
+      {
+        "text": "Methods",
+        "level": 2
+      }
+    ]
+  },
+  "observed": {
+    "headings": [
+      {
+        "text": "Research Overview",
+        "level": 1
+      },
+      {
+        "text": "Background",
+        "level": 2
+      },
+      {
+        "text": "Prior Work",
+        "level": 3
+      },
+      {
+        "text": "Methods",
+        "level": 2
+      }
+    ]
+  },
+  "raw_observations": {
+    "core": {
+      "title": "A11yPreserve Heading Fixture",
+      "subject": "A11yPreserve controlled accessibility fixture",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "default_language": "en-US",
+    "language_values": [
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US",
+      "en-US"
+    ],
+    "headings": [
+      {
+        "text": "Research Overview",
+        "level": 1
+      },
+      {
+        "text": "Background",
+        "level": 2
+      },
+      {
+        "text": "Prior Work",
+        "level": 3
+      },
+      {
+        "text": "Methods",
+        "level": 2
+      }
+    ],
+    "lists": [],
+    "inline_languages": [
+      {
+        "text": "A11yPreserve Heading Fixture",
+        "language": "en-US"
+      },
+      {
+        "text": "Research Overview",
+        "language": "en-US"
+      },
+      {
+        "text": "This fixture introduces the research problem and establishes a deliberate heading hierarchy.",
+        "language": "en-US"
+      },
+      {
+        "text": "Background",
+        "language": "en-US"
+      },
+      {
+        "text": "Accessible structure can be preserved only when conversion retains the source document's intended semantics.",
+        "language": "en-US"
+      },
+      {
+        "text": "Prior Work",
+        "language": "en-US"
+      },
+      {
+        "text": "Prior accessibility research shows that document transformation can change structure and metadata.",
+        "language": "en-US"
+      },
+      {
+        "text": "Methods",
+        "language": "en-US"
+      },
+      {
+        "text": "The pilot compares source semantics with tagged PDF semantics using deterministic extraction.",
+        "language": "en-US"
+      }
+    ],
+    "figures": [],
+    "hyperlinks": [],
+    "tables": [],
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "has_footnotes_part": false
+  },
+  "verifier": "src/independent_source_oracle.py; stdlib zipfile + xml.etree.ElementTree; no ASIR imports",
+  "timestamp_utc": "2026-09-29T02:55:15.091030+00:00",
+  "status": "PASS"
+}

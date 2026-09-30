@@ -1,0 +1,18 @@
+25 [0x00004b78] INFO pdftotext null - this process (18068) started by python in directory C:\Users\iamga\OneDrive\Documents\ChatGPT\a11ypreserve with command line: C:\Users\iamga\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdftotext.EXE -layout C:\Users\iamga\OneDrive\Documents\ChatGPT\a11ypreserve\results\full_experiment\outputs\google_docs\F11_FOOTNOTES__GOOGLE_DOCS.pdf -
+
+25 [0x00004b78] INFO pdftotext null - running on Windows 10.0.26200
+
+79 [0x00004b78] INFO pdftotext null - this process (18068) finishes with exit code 1
+
+91 [0x00004b78] ERROR trace.pdftotext.core null - Access is denied.
+
+
+
+91 [0x00004b78] ERROR trace.pdftotext.core null - Function: CreateDirectoryW
+
+91 [0x00004b78] ERROR trace.pdftotext.core null - Result: 5
+
+91 [0x00004b78] ERROR trace.pdftotext.core null - Data: path="C:\Users\iamga\AppData\Roaming\MiKTeX\2.9\miktex"
+
+91 [0x00004b78] ERROR trace.pdftotext.core null - Source: Libraries\MiKTeX\Core\win\win.cpp:271
+

@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "case_count": 17,
+  "cases": [
+    {
+      "name": "exact",
+      "actual": "EXACT_PRESERVATION",
+      "expected": "EXACT_PRESERVATION",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "semantic_equivalence",
+      "actual": "SEMANTICALLY_EQUIVALENT",
+      "expected": "SEMANTICALLY_EQUIVALENT",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "partial",
+      "actual": "PARTIAL_PRESERVATION",
+      "expected": "PARTIAL_PRESERVATION",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "alteration",
+      "actual": "MUTATED",
+      "expected": "MUTATED",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "regeneration",
+      "actual": "REGENERATED",
+      "expected": "REGENERATED",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "loss",
+      "actual": "LOST",
+      "expected": "LOST",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "not_representable",
+      "actual": "NOT_REPRESENTABLE",
+      "expected": "NOT_REPRESENTABLE",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "measurement_error",
+      "actual": "MEASUREMENT_ERROR",
+      "expected": "MEASUREMENT_ERROR",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "invalid_conversion",
+      "actual": "INVALID_CONVERSION",
+      "expected": "INVALID_CONVERSION",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "headings_exact_sequence",
+      "actual": "SEMANTICALLY_EQUIVALENT",
+      "expected": "SEMANTICALLY_EQUIVALENT",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "headings_extra_structure",
+      "actual": "PARTIAL_PRESERVATION",
+      "expected": "PARTIAL_PRESERVATION",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "lists_same_order",
+      "actual": "SEMANTICALLY_EQUIVALENT",
+      "expected": "SEMANTICALLY_EQUIVALENT",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "lists_reordered",
+      "actual": "PARTIAL_PRESERVATION",
+      "expected": "PARTIAL_PRESERVATION",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "lists_duplicated",
+      "actual": "PARTIAL_PRESERVATION",
+      "expected": "PARTIAL_PRESERVATION",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "alt_text_mutation",
+      "actual": "MUTATED",
+      "expected": "MUTATED",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "inline_language_missing",
+      "actual": "PARTIAL_PRESERVATION",
+      "expected": "PARTIAL_PRESERVATION",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "hyperlink_missing",
+      "actual": "LOST",
+      "expected": "LOST",
+      "passed": true,
+      "details": ""
+    }
+  ],
+  "scope": "Phase 6 hostile comparator regression cases; does not rewrite frozen primary results."
+}

@@ -1,0 +1,68 @@
+{
+  "fixture_id": "F10_COMPLEX_TABLE",
+  "feature": "complex_table",
+  "source_format": "DOCX",
+  "contract_version": "phase4-v1",
+  "document": {
+    "title": "A11yPreserve Complex Table Fixture",
+    "language": "en-US"
+  },
+  "ground_truth": {
+    "table": {
+      "dimensions": {
+        "rows": 5,
+        "columns": 3
+      },
+      "header_rows": [
+        0,
+        1
+      ],
+      "header_groups": [
+        {
+          "text": "Enrollment",
+          "columns": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Outcome",
+          "columns": [
+            2
+          ]
+        }
+      ],
+      "headers": [
+        "Year",
+        "Students",
+        "Completion Rate"
+      ],
+      "cells": [
+        [
+          "Enrollment",
+          "Outcome"
+        ],
+        [
+          "Year",
+          "Students",
+          "Completion Rate"
+        ],
+        [
+          "2024",
+          "120",
+          "82%"
+        ],
+        [
+          "2025",
+          "150",
+          "87%"
+        ],
+        [
+          "2026",
+          "180",
+          "91%"
+        ]
+      ]
+    }
+  }
+}

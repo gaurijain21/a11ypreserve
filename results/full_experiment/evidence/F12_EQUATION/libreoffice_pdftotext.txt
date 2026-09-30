@@ -1,0 +1,18 @@
+23 [0x00000570] INFO pdftotext null - this process (18808) started by python in directory C:\Users\iamga\OneDrive\Documents\ChatGPT\a11ypreserve with command line: C:\Users\iamga\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdftotext.EXE -layout C:\Users\iamga\OneDrive\Documents\ChatGPT\a11ypreserve\results\full_experiment\outputs\libreoffice\F12_EQUATION__LIBREOFFICE.pdf -
+
+24 [0x00000570] INFO pdftotext null - running on Windows 10.0.26200
+
+66 [0x00000570] INFO pdftotext null - this process (18808) finishes with exit code 1
+
+78 [0x00000570] ERROR trace.pdftotext.core null - Access is denied.
+
+
+
+78 [0x00000570] ERROR trace.pdftotext.core null - Function: CreateDirectoryW
+
+78 [0x00000570] ERROR trace.pdftotext.core null - Result: 5
+
+79 [0x00000570] ERROR trace.pdftotext.core null - Data: path="C:\Users\iamga\AppData\Roaming\MiKTeX\2.9\miktex"
+
+79 [0x00000570] ERROR trace.pdftotext.core null - Source: Libraries\MiKTeX\Core\win\win.cpp:271
+

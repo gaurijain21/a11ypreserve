@@ -1,0 +1,49 @@
+{
+  "variant_id": "B10",
+  "feature_family": "complex_table",
+  "source_format": "DOCX",
+  "contract_version": "v3-variant-set-b",
+  "fixture_path": "corpus/v3_variant_set_b/fixtures/B10.docx",
+  "ground_truth": {
+    "table": {
+      "dimensions": {
+        "rows": 5,
+        "columns": 4
+      },
+      "header_rows": [
+        0,
+        1
+      ],
+      "cells": [
+        [
+          "Population",
+          "Outcome"
+        ],
+        [
+          "Year",
+          "Group",
+          "Rate",
+          "Count"
+        ],
+        [
+          "2024",
+          "A",
+          "82%",
+          "12"
+        ],
+        [
+          "2025",
+          "B",
+          "87%",
+          "18"
+        ],
+        [
+          "2026",
+          "C",
+          "91%",
+          "22"
+        ]
+      ]
+    }
+  }
+}

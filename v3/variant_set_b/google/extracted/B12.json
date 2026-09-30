@@ -1,0 +1,48 @@
+{
+  "format": "pdf",
+  "title": "B12",
+  "language": "en",
+  "document": {
+    "title": "B12",
+    "language": "en",
+    "metadata": {
+      "Title": "B12",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(10, 0, 2136980321808), '/Pg': IndirectObject(2, 0, 2136980321808), '/K': 0}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "Variant\n \nB12\n \nequations\n \nTwo\n \nnative\n \nmath\n \nexpressions\n \nare\n \npresent.\n \n 𝐸 = 𝑚𝑐 2\n 𝑎 = 𝑏 + 𝑐",
+  "pdf_text": "Variant\n \nB12\n \nequations\n \nTwo\n \nnative\n \nmath\n \nexpressions\n \nare\n \npresent.\n \n 𝐸 = 𝑚𝑐 2\n 𝑎 = 𝑏 + 𝑐",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\v3\\variant_set_b\\google\\outputs\\B12__GOOGLE_DOCS.pdf"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "fixture_id": "F09_DOCUMENT_TITLE",
+  "feature": "document_title",
+  "source_format": "DOCX",
+  "contract_version": "phase4-v1",
+  "document": {
+    "title": "A11yPreserve Accessible Research Brief",
+    "language": "en-US"
+  },
+  "ground_truth": {
+    "document_identity": {
+      "visible_title": "A11yPreserve Accessible Research Brief",
+      "core_title": "A11yPreserve Accessible Research Brief",
+      "subject": "Controlled document identity metadata",
+      "keywords": "accessibility, conversion, preservation"
+    }
+  }
+}

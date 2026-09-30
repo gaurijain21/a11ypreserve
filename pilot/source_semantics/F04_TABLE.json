@@ -1,0 +1,62 @@
+{
+  "asir": "ASIR-pilot-1",
+  "format": "docx",
+  "document": {
+    "title": "A11yPreserve Table Fixture",
+    "language": "en-US",
+    "evidence": {
+      "ooxml": [
+        "docProps/core.xml",
+        "word/document.xml"
+      ]
+    }
+  },
+  "headings": [],
+  "figures": [],
+  "lists": [],
+  "tables": [
+    {
+      "identifier": "table-1",
+      "dimensions": {
+        "rows": 4,
+        "columns": 3
+      },
+      "cells": [
+        [
+          "Year",
+          "Students",
+          "Completion Rate"
+        ],
+        [
+          "2024",
+          "120",
+          "82%"
+        ],
+        [
+          "2025",
+          "150",
+          "87%"
+        ],
+        [
+          "2026",
+          "180",
+          "91%"
+        ]
+      ],
+      "headers": [
+        "Year",
+        "Students",
+        "Completion Rate"
+      ],
+      "header_row": 0,
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "tblHeader": true
+      }
+    }
+  ],
+  "extraction": {
+    "method": "deterministic OOXML inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot\\fixtures\\F04_TABLE.docx"
+  }
+}
