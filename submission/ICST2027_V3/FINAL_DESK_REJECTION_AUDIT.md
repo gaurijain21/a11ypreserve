@@ -2,40 +2,29 @@
 
 ## Status
 
-No known scientific or anonymity defect is established, but the V3 package is **not cleared for submission** because no valid V3 PDF was produced. Page count, final PDF metadata, embedded-font checks, and visual inspection therefore remain unverified.
+The V3 manuscript and anonymized artifact are cleared for human-controlled submission preparation. The scientific scope remains bounded to the frozen V3 evidence.
 
-## Official ICST requirements checked
+## Final PDF checks
 
-The current official [ICST 2027 Research Papers CFP](https://conf.researchr.org/track/icst-2027/icst-2027-research-papers) was checked on 2026-09-29. It states that full research papers must use the two-column IEEE conference format and must not exceed 10 pages including text, figures, tables, and appendices; up to two additional pages containing only references are permitted. It also requires double-blind reviewing and says associated replication material is expected to provide the information needed to replicate results. The CFP lists the submission deadline as 2 November 2026 (AoE) and identifies HotCRP as the submission system.
-
-## Administrative checks
-
-| Check | Current status | Evidence or remaining action |
+| Check | Status | Evidence |
 |---|---|---|
-| Research-paper track | PASS | The source is an IEEEtran conference-format full-paper candidate; no short-paper claim is made. |
-| Page limit | UNVERIFIED | CFP limit is verified, but no V3 PDF exists, so the 10-page content limit and reference-only allowance cannot be measured. |
-| IEEE template | PARTIAL | The source includes IEEEtran class/bibliography files and an anonymous author block; final rendering in a working trusted TeX environment remains required. |
-| Double anonymity in source | PASS | `Anonymous for review`; no author, institution, repository, personal URL, or local path appears in the V3 source. |
-| AI disclosure | PASS IN SOURCE | The anonymous acknowledgment names OpenAI ChatGPT and OpenAI Codex, identifies affected sections and uses, and preserves human responsibility. |
-| Citation/bibliography source checks | PASS | Citation-key audit found no undefined citation keys in the V3 source; final compiler log is unavailable. |
-| Replication package | PASS AS CANDIDATE | The rebuilt V3 ZIP contains 362 entries; its standard-library self-check passes the 52 result rows, hashes, provenance links, repeatability outputs, and path sanitization. No private-runtime directory names were found. Human license and portal checks remain. |
-| PDF validity, fonts, metadata | UNVERIFIED | No V3 PDF exists. Do not substitute the V2 PDF. |
-| Visual layout | UNVERIFIED | No V3 pages can be rendered or inspected without a successful compile. |
-| Concurrent submission/originality/authorship | HUMAN CHECK | These facts cannot be established from the workspace. |
+| Research-paper track | PASS | IEEEtran conference-format full-paper candidate. |
+| Page limit | PASS | 9 total pages; 9 content pages including acknowledgment; 0 reference-only pages; within the 10 + 2 allowance. |
+| IEEE template | PASS | Local IEEEtran conference class and bibliography style; final PDF rendered successfully. |
+| Double anonymity | PASS | Anonymous author block; no identity-linked text, metadata, path, email, or username found. |
+| AI disclosure | PASS | Disclosure appears before References and identifies systems, scope, and human responsibility. |
+| Citations/references | PASS | BibTeX resolved; final log has no undefined citation or reference warnings. |
+| Fonts | PASS | All seven fonts reported by `pdffonts` are embedded. |
+| PDF metadata | PASS | No author/title identity metadata, attachments, forms, annotations, or JavaScript. |
+| Visual layout | PASS | All nine rendered pages inspected; no clipping, overlap, unreadable content, malformed reference, or table overflow. |
+| Replication package | PASS AS REVIEW CANDIDATE | Artifact self-check passes 52 rows, hashes, provenance, repeatability outputs, and sanitization; extracted ZIP check also passes. |
 
-## Compilation blocker
+## Build record
 
-Exhausted local routes were:
+The canonical output is `submission/ICST2027_V3/main.pdf`. Its SHA-256 is `E720EB8EB58898F592491E7BB67DB739E09BA1D670E222350E2465B5C435199D`, and its size is 143,861 bytes. MiKTeX was initialized in per-user mode after the original registry-access failure; compilation was then performed in a clean local directory outside OneDrive and the resulting PDF was copied back to the canonical submission directory.
 
-1. Direct MiKTeX `pdflatex` and `--disable-installer`: fresh-install initialization fails with Windows `Access is denied` while creating/configuring `Software\\MiKTeX.org\\MiKTeX\\2.9\\Setup` and the default per-user MiKTeX directory.
-2. Isolated workspace-local `MIKTEX_USERCONFIG`, `MIKTEX_USERDATA`, `MIKTEX_USERINSTALL`, and `initexmf --user-roots`: the same registry write fails.
-3. Codex built-in LaTeX compiler: reports `Unable to find standard directories for platform`.
-4. TeX Live, latexmk, Tectonic, XeLaTeX, LuaLaTeX, BibTeX outside MiKTeX, Docker, and Podman: no usable alternate installation was found. WSL is present, but distro enumeration is denied and no usable local TeX distribution was available through it.
-5. Native Windows MiKTeX Console was opened and its private-mode setup notice was dismissed. A subsequent direct pdfTeX attempt still failed during per-user initialization with the same access-denied error; no update or package installation was performed.
-6. A native TeXworks launch was attempted as a GUI compilation route, but the Windows-control approval timed out before a TeXworks window became available; no manuscript upload or compile action occurred through that route.
+The final source pass retains ordinary underfull-box warnings but has no overfull boxes, undefined citations, or undefined references. A small table-column/header adjustment removed the only overfull result-table line; no scientific text, evidence, classification, or denominator changed.
 
-This is a package-verification blocker, not an experiment result. No stale V2 PDF was copied into the V3 directory.
+## Remaining human actions
 
-## Desk-rejection conclusion
-
-There is one known blocker before submission: V3 compilation and the resulting page/anonymity/visual checks. The minimum repair is to compile the unchanged V3 source in a trusted local IEEEtran environment, render every page, inspect the generated PDF and metadata, then rebuild or reverify the anonymous artifact archive. No new experiment is required.
+Recheck the venue portal and CFP immediately before upload, insert author metadata only in the submission workflow, select the final artifact license, confirm originality/authorship/concurrent-submission status, and upload the anonymized PDF and artifact manually. These are routine human controls, not unresolved build or scientific defects.

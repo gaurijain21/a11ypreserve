@@ -64,9 +64,10 @@ For double-blind ICST review, do not link an identity-bearing GitHub repository
 from the submission. Use an anonymized replication package and re-run the
 anonymity scan after the final archive and PDF are created.
 
-The V3 manuscript is not cleared for upload until a trusted IEEEtran build has
-produced `submission/ICST2027_V3/main.pdf`, followed by page-limit, font,
-metadata, anonymity, and visual inspection.
+The V3 manuscript PDF is now compiled and verified at
+`submission/ICST2027_V3/main.pdf`. The build record reports the hash, page
+count, embedded-font check, metadata/anonymity scan, and visual inspection.
+Human venue, authorship, license, and portal checks remain before upload.
 
 ## Repository map
 
@@ -78,4 +79,3 @@ metadata, anonymity, and visual inspection.
 | `corpus/`, `results/`, `v3/` | Frozen evidence and derived result records |
 | `paper/` | Earlier V2 manuscript and rendered history |
 | `research/`, `audit/`, `final_*` | Working research and hostile-review records |
-

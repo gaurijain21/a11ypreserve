@@ -1,4 +1,6 @@
-# A11yPreserve project and paper audit — 2026-10-03
+# A11yPreserve project and paper audit — 2026-10-03 (pre-final-PDF snapshot)
+
+> This document records the state before the final V3 PDF build. The superseding readiness record is `docs/FINAL_V3_SUBMISSION_READINESS.md`.
 
 ## Executive verdict
 
@@ -127,4 +129,3 @@ must be checked before a public GitHub release.
 - Do not call the tool a complete PDF accessibility validator.
 - Do not claim Google Docs or LibreOffice is globally better or worse.
 - Do not change frozen classifications merely to improve headline counts.
-

@@ -1,4 +1,4 @@
-# READY FOR SUBMISSION TARGETING; PDF GATE OPEN
+# READY FOR SUBMISSION; PDF VERIFIED
 
 ## 1. Final title
 
@@ -58,7 +58,7 @@ External validity: the atomic corpus is small, feature families are unequal, onl
 
 ## 15. Artifact status
 
-The frozen V1 evidence is unchanged. V2 evidence-aware results, changelog, contracts, source certificates, loss certificates, calibration, integrated secondary study, parser triangulation, and manuscript audits are present. The sanitized artifact passes its self-check. No current V3 PDF is asserted: the V3 source remains uncompiled in this environment, so PDF metadata, page count, and final visual QA remain open. Public packaging still needs licensing/provenance review.
+The frozen V1 evidence is unchanged. V2 evidence-aware results, changelog, contracts, source certificates, loss certificates, calibration, integrated secondary study, parser triangulation, manuscript audits, and the verified V3 PDF are present. The sanitized artifact passes its self-check. Public packaging still needs the author's final licensing/provenance decision.
 
 ## 16. Recommended primary venue family
 
@@ -70,8 +70,8 @@ Accessibility research / ACM ASSETS, with the same structural-preservation and n
 
 ## 18. Exact remaining fixes
 
-Before submission/public release: compile and visually inspect the V3 venue copy in a trusted IEEEtran/LaTeX environment, freeze its PDF hash/page count/metadata, verify artifact licensing/provenance, and apply the target venue template. No new scientific experiment is required.
+Before submission/public release: recheck the venue portal/template, verify artifact licensing/provenance, and complete the author's metadata/originality checks. No new scientific experiment or build repair is required.
 
 ## 19. Submission recommendation
 
-Use V2 as the primary result model and label V1 clearly as historical. Do not upload until the V3 PDF gate is closed. Do not submit as a general accessibility validator, universal conversion claim, product ranking, or disabled-user impact study.
+Use V3 as the submission manuscript, V2 as historical provenance, and V1 as historical. Do not submit as a general accessibility validator, universal conversion claim, product ranking, or disabled-user impact study.

@@ -1,4 +1,4 @@
-# READY FOR HUMAN REVIEW; PDF NOT CURRENTLY FROZEN
+# READY FOR SUBMISSION; PDF VERIFIED
 
 ## 1. Executive decision
 
@@ -10,11 +10,11 @@ The paper uses 13 frozen DOCX fixtures, 26 frozen PDFs, two completed pipelines,
 
 ## 3. Manuscript artifacts
 
-`paper/main.tex`, eight section files, and `paper/references.bib` are present. `paper/main.pdf` is absent in the current checkout; its historical build record is retained but is not reasserted as a current artifact. Citation, claim-evidence, number, terminology, build, and mock-review records are present.
+The canonical V3 manuscript is `submission/ICST2027_V3/main.tex` with verified PDF `submission/ICST2027_V3/main.pdf`. The earlier `paper/` source remains historical provenance. Citation, claim-evidence, number, terminology, build, and mock-review records are present.
 
 ## 4. Build
 
-The built-in compiler failed before parsing because of its environment. The available MiKTeX installation currently fails fresh-install initialization before source parsing because of denied registry/configuration access. The previously recorded PDF build is historical and unavailable for rehashing; a current trusted compile remains required.
+The built-in compiler failed before parsing because of its environment. MiKTeX was initialized in per-user mode and the canonical V3 source was compiled successfully from a clean local build directory outside OneDrive. The final PDF was copied to the V3 submission directory and passed final QA.
 
 ## 5. Counts and claims
 
@@ -30,4 +30,4 @@ RQ1 extent of preservation; RQ2 feature-specific outcomes; RQ3 differences betwe
 
 ## 8. Human review focus
 
-Review citation presentation, venue formatting, the legibility of the dense feature table, and whether the intended venue prefers a named-author rather than anonymous version. No scientific expansion is required before manuscript review, but the V3/venue PDF must be compiled and visually checked before upload.
+Review citation presentation, venue formatting, the final portal fields, the artifact license, and whether the intended venue prefers a named-author rather than anonymous version. No scientific expansion or further build work is required.

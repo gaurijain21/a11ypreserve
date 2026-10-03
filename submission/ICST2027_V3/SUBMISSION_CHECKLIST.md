@@ -6,9 +6,9 @@
 - [x] V3 claims use 52 atomic cases, 39 repeatability runs, and a separate 42-observation sanity check.
 - [x] Related work names current adjacent conversion/evaluation work without first/unique claims.
 - [x] F13 deferral and post-hoc taxonomy chronology are disclosed.
-- [ ] Compile and visually inspect the V3 PDF; currently blocked by MiKTeX registry/configuration access and the built-in compiler's missing standard directories.
+- [x] Compile and visually inspect the V3 PDF; final PDF is `main.pdf` and the build record is frozen below.
 - [x] Confirm the official ICST 2027 allowance: at most 10 content pages plus up to 2 additional reference-only pages.
-- [ ] Confirm V3 page count and references-only allowance from the generated PDF.
+- [x] Confirm V3 page count: 9 total pages, 9 content pages including acknowledgment, and 0 reference-only pages.
 
 ## Research
 
@@ -31,6 +31,6 @@
 
 ## Final gate
 
-- [ ] Do not submit until the V3 PDF is compiled, rendered, visually inspected, metadata-checked, and its anonymity is confirmed.
+- [x] V3 PDF is compiled, rendered, visually inspected, metadata-checked, and scanned for anonymity leaks.
 
-See `FINAL_DESK_REJECTION_AUDIT.md`, `CLAIM_ARTIFACT_TRACE.md`, and `FINAL_PACKAGE_DECISION.md` for the current gate decision.
+See `BUILD_RECORD.md`, `FINAL_DESK_REJECTION_AUDIT.md`, `CLAIM_ARTIFACT_TRACE.md`, and `FINAL_PACKAGE_DECISION.md` for the current gate decision.
