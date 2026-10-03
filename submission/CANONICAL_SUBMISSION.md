@@ -7,10 +7,10 @@ submission alternatives.
 ## Upload files
 
 - Manuscript PDF: `submission/ICST2027_V3/main.pdf`
-  - SHA-256: `CAE94FA084B653F7CECA21435D6F39F4D71B1BC0324F4BC2F8B15F4C1CEE084C`
+  - SHA-256: `4F4CC53B5783ADEECF418B645EDDC16D39A7CD17144B8CD2A76D6A32D8B46285`
   - Pages: 9
 - Reviewer artifact ZIP: `submission/A11yPreserve_artifact_ICST2027_V3.zip`
-  - SHA-256: `B315C204C2E112909498B12D17F69B582ACA8813E8A9E42CC1E0E37D1EF08F49`
+  - SHA-256: `C0F0326DBF40E169BD6A0E101B27F486EB001F5A04518E2AF68B5890528D4908`
   - Contents: 342 files under the sanitized `artifact_v3/` boundary
 
 ## Canonical source and evidence
@@ -33,9 +33,8 @@ of the 52-case baseline; additive analyses are documented separately.
 
 ## Repository state
 
-- Current commit at audit start: `7043a2164dce6ef162aeed7655d90c3e92bbbb68`
 - Branch: `master`
 - Remote: none configured
-- The worktree is intentionally dirty because the final manuscript wording,
-  artifact documentation, strengthening analyses, and audit records are local
-  changes. No remote publication is configured or performed.
+- The final semantic-measurement audit and its aligned manuscript/artifact
+  records are committed locally. No remote publication is configured or
+  performed.

@@ -1,6 +1,6 @@
 # A11yPreserve artifact
 
-A11yPreserve is a controlled, source-grounded, uncertainty-aware conformance method for testing whether machine-verifiable accessibility information present in DOCX survives DOCX-to-PDF conversion. It is not a complete PDF accessibility validator and does not measure disabled-user usability.
+A11yPreserve is a controlled, source-grounded, uncertainty-aware conformance method for testing whether selected accessibility semantics present in DOCX survive DOCX-to-PDF conversion. The method uses machine-observable source and PDF evidence and feature-specific cross-format equivalence rules; it does not equate semantic preservation with identical syntax or tag sequences. It is not a complete PDF accessibility validator and does not measure disabled-user usability.
 
 ## Contents
 
@@ -64,6 +64,6 @@ contract; it does not silently claim a fresh re-extraction of every repeat.
 
 ## Limitations
 
-The corpus is controlled and purposive, not representative. Feature families have unequal complexity, F13 reading order was deferred because reliable automated equivalence was unavailable, and no comprehensive adequacy metric is claimed. Results concern machine-verifiable structural preservation under two named pipelines, not complete accessibility, user impact, product superiority, or all future software versions.
+The corpus is controlled and purposive, not representative. Feature families have unequal complexity, F13 reading order was deferred because reliable automated equivalence was unavailable, and no comprehensive adequacy metric is claimed. Results concern selected machine-verifiable accessibility-semantic preservation under two named pipelines, not complete accessibility, user impact, product superiority, or all future software versions.
 
 This package is the sanitized reviewer artifact. It is self-contained for evidence verification; conversion reruns that require LibreOffice or an authenticated cloud service remain environment-dependent as described above.
