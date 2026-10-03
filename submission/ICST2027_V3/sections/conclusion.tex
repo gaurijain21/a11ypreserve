@@ -1,0 +1,9 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+A11yPreserve demonstrates a controlled, source-grounded way to test whether machine-verifiable accessibility information survives document conversion. The V3 atomic benchmark used 26 controlled DOCX fixtures—two instances for each of 13 selected feature families—through LibreOffice and the Google Docs DOCX-to-PDF conversion pipeline, with explicit contracts, source-oracle checks, destination evidence, provenance, and conservative uncertainty handling.
+
+Across 52 atomic cases, the evidence-aware outcomes were 18 verified preserved, 4 observed partial, 7 altered, 4 confirmed lost, 18 unresolved equivalence, and 1 measurement error. A separate 39-run Google Core repeatability study found stable classifications for all 13 fixtures and byte-identical PDFs across the three recorded runs. The integrated sanity check remains separate at three documents and 42 property--pipeline observations, after 21/21 source assertions passed.
+
+The conclusions are intentionally bounded. The fixtures are controlled and purposive rather than representative, the selected features do not provide exhaustive accessibility coverage, only two named DOCX-to-PDF pipelines were evaluated, the Google backend is cloud-versioned, Variant B used a documented in-session export recovery route, and no disabled-user study was performed. The results support a reusable testing protocol and benchmark for selected preservation contracts. They do not support claims about general accessibility, a global product ranking, all DOCX documents, all software versions, universal user harm, or PDF-export-only causation. Future work can extend the corpus with justified variants, compare additional converters, improve cross-format equivalence mappings, and connect structural changes to user tasks without changing the central question: did known accessibility information survive conversion?
+

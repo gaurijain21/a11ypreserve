@@ -1,0 +1,45 @@
+\documentclass[10pt,twocolumn]{article}
+
+\usepackage[margin=0.72in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+
+\setlength{\columnsep}{0.25in}
+\newcommand{\preserved}{\textsc{preserved}}
+\newcommand{\partialpreserved}{\textsc{partially preserved}}
+\newcommand{\verifiedpreserved}{\textsc{verified preserved}}
+\newcommand{\observedpartial}{\textsc{observed partial}}
+\newcommand{\altered}{\textsc{altered}}
+\newcommand{\lost}{\textsc{lost}}
+\newcommand{\confirmedlost}{\textsc{confirmed lost}}
+\newcommand{\unresolved}{\textsc{unresolved equivalence}}
+\newcommand{\measured}{\textsc{measurement error}}
+
+\title{A11yPreserve: An Uncertainty-Aware Conformance Suite for DOCX-to-PDF Accessibility Preservation}
+\author{Anonymous for review}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Accessible source documents can contain author-supplied information such as heading structure, alternative text, language metadata, list semantics, table relationships, and footnote associations. When a document is converted, inspecting only the destination does not establish whether those source properties survived. We present A11yPreserve, an uncertainty-aware conformance suite that freezes controlled source contracts, independently checks their DOCX representations, converts identical sources through real pipelines, extracts destination PDF structure through multiple evidence paths, and compares source and destination properties with provenance-traceable evidence. The primary benchmark contains 13 atomic DOCX fixtures and 26 genuine DOCX-to-PDF outputs from LibreOffice and the Google Docs DOCX-to-PDF conversion pipeline. Its evidence-aware results are 11 verified preserved, 3 observed partial, 3 altered, 2 confirmed lost, 6 unresolved equivalence, and 1 measurement error. The two confirmed losses concern inline language and footnote association in the tested Google Docs pipeline. A separate three-document integrated sanity check shows that the protocol remains usable when existing feature contracts coexist. Results are feature-specific and are not used to rank converters globally. The study demonstrates that source-grounded preservation is measurable and that tagged destination output alone does not fully characterize whether known source accessibility information survived conversion.
+\end{abstract}
+
+\noindent\textbf{Keywords:} document conversion, accessibility preservation, DOCX, PDF, tagged PDF, differential testing, alternative text, document structure
+
+\input{sections/introduction}
+\input{sections/background_related}
+\input{sections/methodology}
+\input{sections/experiment}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/threats}
+\input{sections/conclusion}
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
+

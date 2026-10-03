@@ -1,0 +1,50 @@
+{
+  "contract_version": "a11ypreserve-contract-v1",
+  "fixture_id": "F05_DOCUMENT_LANGUAGE",
+  "source": {
+    "format": "DOCX",
+    "feature": "document_language",
+    "fixture_path": "corpus/fixtures/F05_DOCUMENT_LANGUAGE.docx",
+    "sha256": "5a90d6861d7ec96c573733bd8668718cca584bd2d46702468ed0983fccc7ccec",
+    "manifest_path": "corpus/manifests/F05_DOCUMENT_LANGUAGE.json",
+    "manifest_sha256": "61c89d209d2a8c98c16b44411f8a81638e499c95c4fe116aac99831d4f2094aa",
+    "oracle": "independent raw OOXML ZIP/XML inspection plus source extractor agreement"
+  },
+  "destination": {
+    "format": "PDF",
+    "representation_requirement": "document language preserved",
+    "accepted_equivalents": [
+      "document/catalog or structure language"
+    ]
+  },
+  "contract": {
+    "feature_contract": {
+      "document_language": "en-US"
+    }
+  },
+  "decision_rules": {
+    "outcomes": [
+      "PRESERVED",
+      "PARTIALLY_PRESERVED",
+      "ALTERED",
+      "LOST",
+      "MEASUREMENT_ERROR"
+    ],
+    "evidence_statuses": [
+      "VERIFIED_EQUIVALENCE",
+      "OBSERVED_DIFFERENCE",
+      "OBSERVED_PARTIAL",
+      "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "UNRESOLVED_EQUIVALENCE",
+      "INSUFFICIENT_EVIDENCE",
+      "MEASUREMENT_FAILURE"
+    ],
+    "equivalence_rule": "Declare PRESERVED only when the destination representation satisfies the feature contract; otherwise record the observed difference or partial evidence without inferring semantic absence from a single extractor encoding.",
+    "uncertainty_rule": "If a feature-specific equivalent cannot be established with the available destination evidence, retain the frozen outcome but label the evidence UNRESOLVED_EQUIVALENCE or INSUFFICIENT_EVIDENCE; use MEASUREMENT_FAILURE only when the measurement path fails."
+  },
+  "provenance": {
+    "frozen_corpus": "corpus/FROZEN_CORPUS_MANIFEST.json",
+    "primary_results": "results/full_experiment/PRIMARY_RESULTS_FREEZE.json",
+    "contract_materializer": "scripts/build_contracts.py"
+  }
+}

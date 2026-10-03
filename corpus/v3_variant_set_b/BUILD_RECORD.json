@@ -1,0 +1,110 @@
+{
+  "variant_set": "B",
+  "frozen": false,
+  "records": [
+    {
+      "variant_id": "B01",
+      "feature_family": "headings",
+      "fixture": "corpus/v3_variant_set_b/fixtures/B01.docx",
+      "source_sha256": "9f1df6ab640a6103c76a939da2f6ef9caa91259f6755f245763b784092eb0bfc",
+      "manifest": "corpus/v3_variant_set_b/manifests/B01.json",
+      "manifest_sha256": "ce7225b7ef4f5c21a592e53310735303cf0ec2b45f11f2e938153ab81db87ef5"
+    },
+    {
+      "variant_id": "B02",
+      "feature_family": "alt_text",
+      "fixture": "corpus/v3_variant_set_b/fixtures/B02.docx",
+      "source_sha256": "1cead1de4f9f0bef290aeeb197dd821f6b2997ae2dd41497006805084ade6573",
+      "manifest": "corpus/v3_variant_set_b/manifests/B02.json",
+      "manifest_sha256": "8203cf6abc6a83ef92a5bbb23011144cc62d1f8d5f2ac05f66813e6c7da788d7"
+    },
+    {
+      "variant_id": "B03",
+      "feature_family": "lists",
+      "fixture": "corpus/v3_variant_set_b/fixtures/B03.docx",
+      "source_sha256": "9b43093cd128f30bd4deb0198626c54e369acdcf9c77519ace0384930d4ada39",
+      "manifest": "corpus/v3_variant_set_b/manifests/B03.json",
+      "manifest_sha256": "068763dbc2be6a1905b2864ebd34ff5cf8e7508b639d6e016c865023d3f541c6"
+    },
+    {
+      "variant_id": "B04",
+      "feature_family": "table",
+      "fixture": "corpus/v3_variant_set_b/fixtures/B04.docx",
+      "source_sha256": "6553600a2b9a3020b28f710437b16877e03564bb686acb45d87cf784187e60d2",
+      "manifest": "corpus/v3_variant_set_b/manifests/B04.json",
+      "manifest_sha256": "aa2c8ac22fabdb42a78ed2a4074f1bf7cb3e4eaf5647f2d01d92a22f3e8814ee"
+    },
+    {
+      "variant_id": "B05",
+      "feature_family": "document_language",
+      "fixture": "corpus/v3_variant_set_b/fixtures/B05.docx",
+      "source_sha256": "8b48703bde441d8e8f80363a990a402b66373c671ed19a1d355fe5dc46a14630",
+      "manifest": "corpus/v3_variant_set_b/manifests/B05.json",
+      "manifest_sha256": "796ecd28b2228c42f4f39a5ef756108fea811d119bb2d505fc984bb4a9a5e840"
+    },
+    {
+      "variant_id": "B06",
+      "feature_family": "inline_language",
+      "fixture": "corpus/v3_variant_set_b/fixtures/B06.docx",
+      "source_sha256": "fd39901d30a5cd595b71919f39950543e27e3b14708823b4b65be3a5de3c6180",
+      "manifest": "corpus/v3_variant_set_b/manifests/B06.json",
+      "manifest_sha256": "6e3a5ae463d6cdba333b488599ba68f8c5bc6721b22caec03b662d503db8d45b"
+    },
+    {
+      "variant_id": "B07",
+      "feature_family": "decorative_image",
+      "fixture": "corpus/v3_variant_set_b/fixtures/B07.docx",
+      "source_sha256": "f508aae9ce27d4255f2245b4fa4277775898c9772aabf106bcfda8b8d49933a9",
+      "manifest": "corpus/v3_variant_set_b/manifests/B07.json",
+      "manifest_sha256": "3c0084554331695f18507dc694c19cb9f1dcba99bfe57ae0f75d7f9e5087dfe3"
+    },
+    {
+      "variant_id": "B08",
+      "feature_family": "links",
+      "fixture": "corpus/v3_variant_set_b/fixtures/B08.docx",
+      "source_sha256": "6a5c9de8c6d86f183e69aa8d600d90f9f96303032a6acb50818686f04cb3639e",
+      "manifest": "corpus/v3_variant_set_b/manifests/B08.json",
+      "manifest_sha256": "8d73cff145216ea8fae566dfc8f43f404736c549ee773dfed60ef6a91c7542de"
+    },
+    {
+      "variant_id": "B09",
+      "feature_family": "document_title",
+      "fixture": "corpus/v3_variant_set_b/fixtures/B09.docx",
+      "source_sha256": "85cae9bf566e725e281b5592b18ed3ffdc9155c28e4befed69e117a7b817c36b",
+      "manifest": "corpus/v3_variant_set_b/manifests/B09.json",
+      "manifest_sha256": "4257a2e92174ab30260978b71b1c62f5e9363e5d82a159679fda70ff4308cf9b"
+    },
+    {
+      "variant_id": "B10",
+      "feature_family": "complex_table",
+      "fixture": "corpus/v3_variant_set_b/fixtures/B10.docx",
+      "source_sha256": "f511362eb8ea6848a1906d1224582e0439d35190a4a2e3b559149a53bc8f8b1b",
+      "manifest": "corpus/v3_variant_set_b/manifests/B10.json",
+      "manifest_sha256": "a91aa358dda8937a70305300e32d8b9bee6af513e9974a957a2e0ac371359d81"
+    },
+    {
+      "variant_id": "B11",
+      "feature_family": "footnotes",
+      "fixture": "corpus/v3_variant_set_b/fixtures/B11.docx",
+      "source_sha256": "6ea7f908792a052591e5dd5fd55d1be9278fb080b70988c85172f3086e25d5db",
+      "manifest": "corpus/v3_variant_set_b/manifests/B11.json",
+      "manifest_sha256": "921eabb3fb790f807113f1fcbbb5ec107345e9bc0268f6ce76a018a4eaaaf1c9"
+    },
+    {
+      "variant_id": "B12",
+      "feature_family": "equation",
+      "fixture": "corpus/v3_variant_set_b/fixtures/B12.docx",
+      "source_sha256": "d2338440d2cbfe1ac9310c1a0e033dd5ee8c285f552eeed734cec125118c6b4b",
+      "manifest": "corpus/v3_variant_set_b/manifests/B12.json",
+      "manifest_sha256": "09c88bb40cab8bc02609c91435e6d61ea25fda992b5644e6d529dfc1ca80796a"
+    },
+    {
+      "variant_id": "B13",
+      "feature_family": "captions",
+      "fixture": "corpus/v3_variant_set_b/fixtures/B13.docx",
+      "source_sha256": "4010a76ff3715c5c487158f87c89cf7a2b7fa3e429739b15c6a9bac8c7b6e91c",
+      "manifest": "corpus/v3_variant_set_b/manifests/B13.json",
+      "manifest_sha256": "901267ddf7211c71c5f23d2c4c48a06a6e0598c5fdfbbb21e2f5838d56680ecb"
+    }
+  ]
+}

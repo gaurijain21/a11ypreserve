@@ -1,0 +1,18 @@
+27 [0x0000621c] INFO pdftotext null - this process (8864) started by python in directory C:\Users\iamga\OneDrive\Documents\ChatGPT\a11ypreserve with command line: C:\Users\iamga\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdftotext.EXE -layout C:\Users\iamga\OneDrive\Documents\ChatGPT\a11ypreserve\results\full_experiment\outputs\google_docs\F04_TABLE__GOOGLE_DOCS.pdf -
+
+27 [0x0000621c] INFO pdftotext null - running on Windows 10.0.26200
+
+84 [0x0000621c] INFO pdftotext null - this process (8864) finishes with exit code 1
+
+95 [0x0000621c] ERROR trace.pdftotext.core null - Access is denied.
+
+
+
+95 [0x0000621c] ERROR trace.pdftotext.core null - Function: CreateDirectoryW
+
+95 [0x0000621c] ERROR trace.pdftotext.core null - Result: 5
+
+95 [0x0000621c] ERROR trace.pdftotext.core null - Data: path="C:\Users\iamga\AppData\Roaming\MiKTeX\2.9\miktex"
+
+95 [0x0000621c] ERROR trace.pdftotext.core null - Source: Libraries\MiKTeX\Core\win\win.cpp:271
+

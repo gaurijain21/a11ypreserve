@@ -1,0 +1,119 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Overall accounting}
+
+All 26 conversion attempts produced genuine, parseable, non-empty, structurally tagged PDFs that passed the predefined structural output checks. The final evidence-aware result counts are 11 \verifiedpreserved{}, 3 \observedpartial{}, 3 \altered{}, 2 \confirmedlost{}, 6 \unresolved{}, and 1 \measured{}. The historical V1 distribution was 11 PRESERVED, 9 PARTIALLY\_PRESERVED, 3 ALTERED, 2 LOST, and 1 MEASUREMENT\_ERROR; it remains archived for provenance in the interpretation changelog. The V2 model makes uncertainty primary rather than folding unresolved equivalence into observed partial preservation.
+
+\begin{figure*}[t]
+\centering
+\fbox{\begin{minipage}{0.91\textwidth}
+\centering
+\textbf{Verified DOCX source}\quad$\longrightarrow$\quad\textbf{Real conversion pipeline}\quad$\longrightarrow$\quad\textbf{Tagged PDF}\quad$\longrightarrow$\quad\textbf{PDF structure extraction}\quad$\longrightarrow$\quad\textbf{\texttt{a11ydiff} comparison}\\[3pt]
+Manifest + OOXML + ASIR\hfill Converter/version/settings\hfill StructTreeRoot and roles\hfill Source contract versus destination representation\\[3pt]
+\centering\textsc{verified preserved}\quad|\quad\textsc{observed partial}\quad|\quad\textsc{altered}\quad|\quad\textsc{confirmed lost}\quad|\quad\textsc{unresolved}\quad|\quad\textsc{measurement error}
+\end{minipage}}
+\caption{A11yPreserve's source-grounded measurement workflow. The destination is inspected, but the outcome is defined by comparison with verified source information.}
+\label{fig:workflow}
+\end{figure*}
+
+\subsection{Feature-level outcomes}
+
+Table~\ref{tab:results} is the complete frozen feature-level result matrix using the final evidence-aware labels. LibreOffice verified preservation for F01, F03, F04, F05, F06, F09, F10, F12, and F14; altered F02; showed observed partial preservation for F07; left F08 unresolved; and produced the F11 measurement error. The Google Docs pipeline verified preservation for F02 and F04, showed observed partial preservation for F01 and F07, left F03, F08, F10, F12, and F14 unresolved, altered F05 and F09, and confirmed loss for F06 and F11. These are feature-specific observations, not a global product ranking.
+
+The V2 model identifies three \emph{observed partial} cases: Google Docs F01 has an extra H1 in the destination heading sequence, and both F07 outputs emit the image pair as Figure elements while directly differing from the source decorative-state contract. Six cases are \emph{unresolved equivalence}: Google Docs F03, F10, F12, and F14, plus both F08 cases. In those cases, relevant structure or visible content exists, but available cross-format evidence does not establish the required type, association, scope, or native semantic representation; absence has not been independently demonstrated. None is a measurement error; the sole measurement error remains F11/LibreOffice.
+
+\begin{table*}[t]
+\centering\scriptsize
+\caption{Complete primary fixture/converter matrix using the final evidence-aware result labels. ``Partial'' means directly observed component-level difference; ``unresolved'' means relevant structure exists but cross-format equivalence is not established; ``lost'' means independently corroborated absence.}
+\label{tab:results}
+\begin{tabular}{p{0.19\textwidth}p{0.18\textwidth}p{0.16\textwidth}p{0.35\textwidth}}
+\hline
+Feature & Pipeline & Final result & Key evidence \\
+\hline
+F01 headings & LibreOffice & Preserved & levels/order verified \\
+F01 headings & Google Docs & Partial & extra H1 changes sequence \\
+F02 alt text & LibreOffice & Altered & wording regenerated \\
+F02 alt text & Google Docs & Preserved & source string retained \\
+F03 lists & LibreOffice & Preserved & L/LI and list type \\
+F03 lists & Google Docs & Unresolved & nesting survives; type not established \\
+F04 table & LibreOffice & Preserved & table/cell/header roles \\
+F04 table & Google Docs & Preserved & table/cell/header roles \\
+F05 document language & LibreOffice & Preserved & language value \\
+F05 document language & Google Docs & Altered & en-US becomes en \\
+F06 inline language & LibreOffice & Preserved & es-MX span \\
+F06 inline language & Google Docs & Lost & inline absence corroborated \\
+F07 decorative image & LibreOffice & Partial & Figure/Alt differs from decorative contract \\
+F07 decorative image & Google Docs & Partial & empty decorative Figure differs \\
+F08 hyperlinks & LibreOffice & Unresolved & URI survives; name association unresolved \\
+F08 hyperlinks & Google Docs & Unresolved & URI survives; name association unresolved \\
+F09 title/metadata & LibreOffice & Preserved & title/metadata \\
+F09 title/metadata & Google Docs & Altered & metadata title changes \\
+F10 complex table & LibreOffice & Preserved & scope/span/header evidence \\
+F10 complex table & Google Docs & Unresolved & associations not established \\
+F11 footnotes & LibreOffice & Measurement error & Note exists; association unmeasured \\
+F11 footnotes & Google Docs & Lost & visible note; no Note association \\
+F12 equation & LibreOffice & Preserved & Formula structure \\
+F12 equation & Google Docs & Unresolved & visible expression; math structure unresolved \\
+F14 captions & LibreOffice & Preserved & Caption structure \\
+F14 captions & Google Docs & Unresolved & caption association unresolved \\
+\hline
+\end{tabular}
+\end{table*}
+
+\begin{figure}[t]
+\centering
+\scriptsize
+\begin{tabular}{lr}
+VERIFIED PRESERVED & 11\\[-1pt]
+\rule{0.85\linewidth}{1.1ex} & \\
+OBSERVED PARTIAL & 3\\[-1pt]
+\rule{0.23\linewidth}{1.1ex} & \\
+ALTERED & 3\\[-1pt]
+\rule{0.23\linewidth}{1.1ex} & \\
+CONFIRMED LOST & 2\\[-1pt]
+\rule{0.15\linewidth}{1.1ex} & \\
+UNRESOLVED & 6\\[-1pt]
+\rule{0.46\linewidth}{1.1ex} & \\
+MEASUREMENT ERROR & 1\\[-1pt]
+\rule{0.08\linewidth}{1.1ex} & \\
+\end{tabular}
+\caption{Final evidence-aware outcome counts across 26 fixture/pipeline cases. Counts describe controlled cases and are not prevalence estimates or weighted accessibility scores.}
+\label{fig:outcomes}
+\end{figure}
+
+\subsection{Cross-pipeline differences}
+
+There are 10 fixture rows where the two pipelines have different frozen primary outcomes. The difference is not a single monotonic pattern. For headings, the LibreOffice sequence matched the source while Google Docs added an H1. For alternative text, Google Docs retained the exact author string while LibreOffice prefixed it. For lists, LibreOffice emitted explicit \texttt{/ListNumbering} evidence while Google Docs retained nesting without independently establishing ordered versus unordered type. For inline language and footnotes, the LibreOffice outputs contained relevant structural evidence while the Google Docs outputs did not. These examples show why a feature-level preservation comparison is more informative than a single destination-accessibility verdict.
+
+\subsection{Confirmed losses}
+
+The strongest negative findings are F06 and F11 under Google Docs. In F06, the source contains the run ``Buenos d\'ias'' with an OOXML \texttt{es-MX} override in an \texttt{en-US} document. PDF can represent this through a marked span with \texttt{/Lang}; the LibreOffice output does so. The Google Docs PDF is valid and tagged, but the destination extractor finds no inline span, raw PDF inspection finds no \texttt{es-MX} marker, and \texttt{pdftotext} confirms only the visible phrase. The outcome is \confirmedlost{} under the source contract.
+
+In F11, the source contains a native footnote with an explicit reference and note body. The Google Docs PDF is valid and tagged and visibly contains the reference marker and note body, but raw inspection finds no \texttt{/Note}, \texttt{/Footnote}, or equivalent association marker, and the structural extractor returns no footnote. Because the PDF structure model can represent the feature and the other pipeline produced a comparable note structure, the result is \confirmedlost{} for the machine-verifiable footnote association under the source contract. This does not claim that the visible note text disappeared.
+
+\begin{table*}[t]
+\centering\scriptsize
+\caption{Independent evidence for the two confirmed losses.}
+\label{tab:losses}
+\begin{tabular}{p{0.10\textwidth}p{0.20\textwidth}p{0.24\textwidth}p{0.28\textwidth}}
+\hline
+Case & Source evidence & Destination alternatives checked & Independent evidence / result \\
+\hline
+F06 / Google & OOXML \texttt{es-MX} run & PDF \texttt{/Lang}, \texttt{/ActualText}, raw marker scan & pypdf + PyMuPDF text; confirmed loss of inline language \\
+F11 / Google & Native reference and footnote body & \texttt{/Note}, \texttt{/Footnote}, link association, raw objects & pypdf + PyMuPDF text; confirmed loss of machine-verifiable association \\
+\hline
+\end{tabular}
+\end{table*}
+
+\subsection{Measurement error and altered information}
+
+F11 under LibreOffice is deliberately not described as preserved or lost. The output contains a \texttt{/Note} structure, but the extractor and independent text check cannot resolve the note-body association. This is a measurement error caused by insufficient destination evidence, not evidence of malformed output.
+
+The three \altered{} cases change author-relevant information while retaining a related destination value: LibreOffice prefixes F02 alt text, Google Docs changes F05 from \texttt{en-US} to \texttt{en}, and Google Docs changes the F09 metadata title. Altered does not automatically mean unusable; it means that exact author-provided information was not retained unchanged.
+
+\subsection{Integrated-document sanity check}
+
+The secondary evaluation used three realistic two-page documents containing existing contract families: a community access report, an educational handout, and a policy note. The independent integrated source oracle passed all 21 property assertions. Across 42 property--pipeline observations, the protocol reported 16 verified preserved, 6 observed partial, 5 altered, 3 confirmed lost, 11 unresolved equivalence, and 1 measurement error. These observations are reported separately to show that the procedure remains usable when multiple properties coexist; they are not merged into the primary 26-case denominator and do not establish prevalence or a product ranking.
+
+

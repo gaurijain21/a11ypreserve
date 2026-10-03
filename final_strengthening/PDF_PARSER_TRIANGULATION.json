@@ -1,0 +1,527 @@
+{
+  "status": "COMPLETE",
+  "paths": {
+    "F06_GOOGLE": {
+      "path": "results\\full_experiment\\outputs\\google_docs\\F06_INLINE_LANGUAGE__GOOGLE_DOCS.pdf",
+      "sha256": "81803dfa98d51e57dfa45addf12f92e674986103b440d95d0ed36a123c48ad1e",
+      "pypdf": {
+        "library": "pypdf 6.18.1",
+        "pages": 1,
+        "catalog_keys": [
+          "Type",
+          "Pages",
+          "MarkInfo",
+          "StructTreeRoot",
+          "Outlines",
+          "ViewerPreferences",
+          "Lang"
+        ],
+        "struct_tree_present": true,
+        "role_map": {},
+        "parent_tree_present": true,
+        "parent_tree_keys": [
+          "Type",
+          "Nums"
+        ],
+        "structure_nodes": [
+          {
+            "depth": 0,
+            "role": "Document",
+            "lang": null,
+            "alt": null,
+            "actual_text": null,
+            "mcids": [],
+            "has_parent": true,
+            "attribute_keys": []
+          },
+          {
+            "depth": 1,
+            "role": "H1",
+            "lang": null,
+            "alt": null,
+            "actual_text": null,
+            "mcids": [],
+            "has_parent": true,
+            "attribute_keys": []
+          },
+          {
+            "depth": 1,
+            "role": "P",
+            "lang": null,
+            "alt": null,
+            "actual_text": null,
+            "mcids": [],
+            "has_parent": true,
+            "attribute_keys": []
+          }
+        ],
+        "mcid_count": 0,
+        "annotation_summary": [],
+        "raw_marker_counts": {
+          "/StructTreeRoot": 2,
+          "/ParentTree": 3,
+          "/RoleMap": 0,
+          "/Lang": 1,
+          "/Alt": 0,
+          "/ActualText": 0,
+          "/Note": 0,
+          "/Footnote": 0,
+          "/Artifact": 0,
+          "/Formula": 0,
+          "es-MX": 0
+        },
+        "raw_sha256": "81803dfa98d51e57dfa45addf12f92e674986103b440d95d0ed36a123c48ad1e"
+      },
+      "pymupdf": {
+        "library": "PyMuPDF 1.28.2",
+        "pages": 1,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "F06_INLINE_LANGUAGE",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "Skia/PDF m156 Google Docs Renderer",
+          "creationDate": "",
+          "modDate": "",
+          "trapped": "",
+          "encryption": null
+        },
+        "page_summary": [
+          {
+            "text_chars": 88,
+            "image_count": 0,
+            "link_count": 0
+          }
+        ],
+        "text": "A11yPreserve Inline Language \nFixture \nThe greeting is Buenos días before the meeting. \n",
+        "links": [],
+        "serialized_object_markers": {
+          "/StructTreeRoot": 2,
+          "/ParentTree": 3,
+          "/RoleMap": 0,
+          "/Lang": 1,
+          "/Alt": 0,
+          "/ActualText": 0,
+          "/Note": 0,
+          "/Footnote": 0,
+          "/Artifact": 0,
+          "/Formula": 0,
+          "es-MX": 0
+        },
+        "serialized_objects_with_markers": [
+          {
+            "xref": 7,
+            "markers": {
+              "/StructTreeRoot": 1,
+              "/ParentTree": 2
+            },
+            "preview": "<<\n  /Type /StructTreeRoot\n  /K 8 0 R\n  /ParentTreeNextKey 1\n  /ParentTree 12 0 R\n>>"
+          },
+          {
+            "xref": 12,
+            "markers": {
+              "/ParentTree": 1
+            },
+            "preview": "<<\n  /Type /ParentTree\n  /Nums [ 0 11 0 R ]\n>>"
+          },
+          {
+            "xref": 15,
+            "markers": {
+              "/StructTreeRoot": 1,
+              "/Lang": 1
+            },
+            "preview": "<<\n  /Type /Catalog\n  /Pages 6 0 R\n  /MarkInfo <<\n    /Type /MarkInfo\n    /Marked true\n  >>\n  /StructTreeRoot 7 0 R\n  /Outlines 13 0 R\n  /ViewerPreferences <<\n    /Type /ViewerPreferences\n    /DisplayDocTitle true\n  >>\n  /Lang (en)\n>>"
+          }
+        ]
+      }
+    },
+    "F11_GOOGLE": {
+      "path": "results\\full_experiment\\outputs\\google_docs\\F11_FOOTNOTES__GOOGLE_DOCS.pdf",
+      "sha256": "91b81c06383c1c681023b3cd0a9c05cc9c4178bd696ad83287082d020f7372b9",
+      "pypdf": {
+        "library": "pypdf 6.18.1",
+        "pages": 1,
+        "catalog_keys": [
+          "Type",
+          "Pages",
+          "MarkInfo",
+          "StructTreeRoot",
+          "Outlines",
+          "ViewerPreferences",
+          "Lang"
+        ],
+        "struct_tree_present": true,
+        "role_map": {},
+        "parent_tree_present": true,
+        "parent_tree_keys": [
+          "Type",
+          "Nums"
+        ],
+        "structure_nodes": [
+          {
+            "depth": 0,
+            "role": "Document",
+            "lang": null,
+            "alt": null,
+            "actual_text": null,
+            "mcids": [],
+            "has_parent": true,
+            "attribute_keys": []
+          },
+          {
+            "depth": 1,
+            "role": "H1",
+            "lang": null,
+            "alt": null,
+            "actual_text": null,
+            "mcids": [],
+            "has_parent": true,
+            "attribute_keys": []
+          },
+          {
+            "depth": 1,
+            "role": "P",
+            "lang": null,
+            "alt": null,
+            "actual_text": null,
+            "mcids": [],
+            "has_parent": true,
+            "attribute_keys": []
+          }
+        ],
+        "mcid_count": 0,
+        "annotation_summary": [],
+        "raw_marker_counts": {
+          "/StructTreeRoot": 2,
+          "/ParentTree": 3,
+          "/RoleMap": 0,
+          "/Lang": 1,
+          "/Alt": 0,
+          "/ActualText": 0,
+          "/Note": 0,
+          "/Footnote": 0,
+          "/Artifact": 0,
+          "/Formula": 0,
+          "es-MX": 0
+        },
+        "raw_sha256": "91b81c06383c1c681023b3cd0a9c05cc9c4178bd696ad83287082d020f7372b9"
+      },
+      "pymupdf": {
+        "library": "PyMuPDF 1.28.2",
+        "pages": 1,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "F11_FOOTNOTES",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "Skia/PDF m156 Google Docs Renderer",
+          "creationDate": "",
+          "modDate": "",
+          "trapped": "",
+          "encryption": null
+        },
+        "page_summary": [
+          {
+            "text_chars": 139,
+            "image_count": 0,
+            "link_count": 0
+          }
+        ],
+        "text": "A11yPreserve Footnote Fixture \nThe benchmark uses an explicit footnote association.1 \n1 This note records the source-to-note association. \n",
+        "links": [],
+        "serialized_object_markers": {
+          "/StructTreeRoot": 2,
+          "/ParentTree": 3,
+          "/RoleMap": 0,
+          "/Lang": 1,
+          "/Alt": 0,
+          "/ActualText": 0,
+          "/Note": 0,
+          "/Footnote": 0,
+          "/Artifact": 0,
+          "/Formula": 0,
+          "es-MX": 0
+        },
+        "serialized_objects_with_markers": [
+          {
+            "xref": 8,
+            "markers": {
+              "/StructTreeRoot": 1,
+              "/ParentTree": 2
+            },
+            "preview": "<<\n  /Type /StructTreeRoot\n  /K 9 0 R\n  /ParentTreeNextKey 1\n  /ParentTree 13 0 R\n>>"
+          },
+          {
+            "xref": 13,
+            "markers": {
+              "/ParentTree": 1
+            },
+            "preview": "<<\n  /Type /ParentTree\n  /Nums [ 0 12 0 R ]\n>>"
+          },
+          {
+            "xref": 16,
+            "markers": {
+              "/StructTreeRoot": 1,
+              "/Lang": 1
+            },
+            "preview": "<<\n  /Type /Catalog\n  /Pages 7 0 R\n  /MarkInfo <<\n    /Type /MarkInfo\n    /Marked true\n  >>\n  /StructTreeRoot 8 0 R\n  /Outlines 14 0 R\n  /ViewerPreferences <<\n    /Type /ViewerPreferences\n    /DisplayDocTitle true\n  >>\n  /Lang (en)\n>>"
+          }
+        ]
+      }
+    },
+    "F11_LIBREOFFICE": {
+      "path": "results\\full_experiment\\outputs\\libreoffice\\F11_FOOTNOTES__LIBREOFFICE.pdf",
+      "sha256": "cba3852936716ce0eb593a4d4241e607d4309a1968d2b1920e5c63bfcbe135c4",
+      "pypdf": {
+        "library": "pypdf 6.18.1",
+        "pages": 1,
+        "catalog_keys": [
+          "Type",
+          "Pages",
+          "PageMode",
+          "ViewerPreferences",
+          "StructTreeRoot",
+          "Lang",
+          "MarkInfo",
+          "Metadata"
+        ],
+        "struct_tree_present": true,
+        "role_map": {
+          "Title": "P",
+          "Standard": "P"
+        },
+        "parent_tree_present": true,
+        "parent_tree_keys": [
+          "Nums"
+        ],
+        "structure_nodes": [
+          {
+            "depth": 0,
+            "role": "Document",
+            "lang": null,
+            "alt": null,
+            "actual_text": null,
+            "mcids": [],
+            "has_parent": true,
+            "attribute_keys": []
+          },
+          {
+            "depth": 1,
+            "role": "Title",
+            "lang": null,
+            "alt": null,
+            "actual_text": null,
+            "mcids": [],
+            "has_parent": true,
+            "attribute_keys": [
+              "O",
+              "Placement"
+            ]
+          },
+          {
+            "depth": 1,
+            "role": "Standard",
+            "lang": null,
+            "alt": null,
+            "actual_text": null,
+            "mcids": [],
+            "has_parent": true,
+            "attribute_keys": [
+              "O",
+              "Placement",
+              "SpaceBefore"
+            ]
+          },
+          {
+            "depth": 2,
+            "role": "Link",
+            "lang": null,
+            "alt": null,
+            "actual_text": null,
+            "mcids": [],
+            "has_parent": true,
+            "attribute_keys": []
+          },
+          {
+            "depth": 1,
+            "role": "Div",
+            "lang": null,
+            "alt": null,
+            "actual_text": null,
+            "mcids": [],
+            "has_parent": true,
+            "attribute_keys": []
+          },
+          {
+            "depth": 2,
+            "role": "Note",
+            "lang": null,
+            "alt": null,
+            "actual_text": null,
+            "mcids": [],
+            "has_parent": true,
+            "attribute_keys": [
+              "O",
+              "Placement"
+            ]
+          },
+          {
+            "depth": 3,
+            "role": "Lbl",
+            "lang": null,
+            "alt": null,
+            "actual_text": null,
+            "mcids": [],
+            "has_parent": true,
+            "attribute_keys": []
+          },
+          {
+            "depth": 4,
+            "role": "Link",
+            "lang": null,
+            "alt": null,
+            "actual_text": null,
+            "mcids": [],
+            "has_parent": true,
+            "attribute_keys": []
+          },
+          {
+            "depth": 3,
+            "role": "Standard",
+            "lang": null,
+            "alt": null,
+            "actual_text": null,
+            "mcids": [],
+            "has_parent": true,
+            "attribute_keys": [
+              "O",
+              "Placement"
+            ]
+          }
+        ],
+        "mcid_count": 0,
+        "annotation_summary": [
+          {
+            "page": 1,
+            "subtype": "Link",
+            "uri": null
+          },
+          {
+            "page": 1,
+            "subtype": "Link",
+            "uri": null
+          }
+        ],
+        "raw_marker_counts": {
+          "/StructTreeRoot": 2,
+          "/ParentTree": 1,
+          "/RoleMap": 1,
+          "/Lang": 1,
+          "/Alt": 0,
+          "/ActualText": 0,
+          "/Note": 1,
+          "/Footnote": 0,
+          "/Artifact": 0,
+          "/Formula": 0,
+          "es-MX": 0
+        },
+        "raw_sha256": "cba3852936716ce0eb593a4d4241e607d4309a1968d2b1920e5c63bfcbe135c4"
+      },
+      "pymupdf": {
+        "library": "PyMuPDF 1.28.2",
+        "pages": 1,
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "A11yPreserve Footnote Fixture",
+          "author": "A11yPreserve benchmark",
+          "subject": "A11yPreserve Phase 4 controlled benchmark fixture",
+          "keywords": "",
+          "creator": "Writer",
+          "producer": "LibreOffice 26.2.6.3 (X86_64)",
+          "creationDate": "D:20260927212227-07'00'",
+          "modDate": "",
+          "trapped": "",
+          "encryption": null
+        },
+        "page_summary": [
+          {
+            "text_chars": 86,
+            "image_count": 0,
+            "link_count": 2
+          }
+        ],
+        "text": "A11yPreserve Footnote Fixture\nThe benchmark uses an explicit footnote association.1\n1\n",
+        "links": [
+          {
+            "kind": 1,
+            "xref": 13,
+            "from": [
+              89.99299621582031,
+              707.3499755859375,
+              95.50700378417969,
+              720.0
+            ],
+            "uri": null,
+            "id": ""
+          },
+          {
+            "kind": 1,
+            "xref": 14,
+            "from": [
+              323.0429992675781,
+              118.75,
+              326.2569885253906,
+              131.4000244140625
+            ],
+            "uri": null,
+            "id": ""
+          }
+        ],
+        "serialized_object_markers": {
+          "/StructTreeRoot": 2,
+          "/ParentTree": 1,
+          "/RoleMap": 1,
+          "/Lang": 1,
+          "/Alt": 0,
+          "/ActualText": 0,
+          "/Note": 1,
+          "/Footnote": 0,
+          "/Artifact": 0,
+          "/Formula": 0,
+          "es-MX": 0
+        },
+        "serialized_objects_with_markers": [
+          {
+            "xref": 9,
+            "markers": {
+              "/Note": 1
+            },
+            "preview": "<<\n  /Type /StructElem\n  /S /Note\n  /ID (id9)\n  /P 8 0 R\n  /Pg 1 0 R\n  /A <<\n    /O /Layout\n    /Placement /Block\n  >>\n  /K [ 10 0 R 12 0 R ]\n>>"
+          },
+          {
+            "xref": 29,
+            "markers": {
+              "/StructTreeRoot": 1,
+              "/ParentTree": 1,
+              "/RoleMap": 1
+            },
+            "preview": "<<\n  /Type /StructTreeRoot\n  /ParentTree 30 0 R\n  /RoleMap <<\n    /Title /P\n    /Standard /P\n  >>\n  /IDTree 31 0 R\n  /K [ 4 0 R ]\n>>"
+          },
+          {
+            "xref": 32,
+            "markers": {
+              "/StructTreeRoot": 1,
+              "/Lang": 1
+            },
+            "preview": "<<\n  /Type /Catalog\n  /Pages 15 0 R\n  /PageMode /UseOutlines\n  /ViewerPreferences <<\n    /DisplayDocTitle true\n  >>\n  /StructTreeRoot 29 0 R\n  /Lang (en-US)\n  /MarkInfo <<\n    /Marked true\n  >>\n  /Metadata 28 0 R\n>>"
+          }
+        ]
+      }
+    }
+  },
+  "interpretation": "Path A and Path B are independent parser/evidence paths; absence from one serialized encoding is not by itself a proof of semantic absence."
+}

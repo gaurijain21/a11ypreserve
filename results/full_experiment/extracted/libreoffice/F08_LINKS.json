@@ -1,0 +1,60 @@
+{
+  "format": "pdf",
+  "title": "A11yPreserve Hyperlink Fixture",
+  "language": "en-US",
+  "document": {
+    "title": "A11yPreserve Hyperlink Fixture",
+    "language": "en-US",
+    "metadata": {
+      "Title": "A11yPreserve Hyperlink Fixture",
+      "Author": "A11yPreserve benchmark",
+      "Subject": "A11yPreserve Phase 4 controlled benchmark fixture",
+      "Creator": "Writer",
+      "Producer": "LibreOffice 26.2.6.3 (X86_64)",
+      "CreationDate": "D:20260927212125-07'00'"
+    }
+  },
+  "headings": [],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [
+    {
+      "target": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "page": 1,
+      "rect": [
+        131.493,
+        660.6,
+        239.357,
+        673.25
+      ],
+      "evidence": {
+        "pdf": "/Annots/Link"
+      }
+    }
+  ],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {
+      "/Title": "/P",
+      "/Standard": "/P"
+    },
+    "pages": 1
+  },
+  "text_preview": "A11yPreserve Hyperlink Fixture\nRead the Accessibility Guidelines",
+  "pdf_text": "A11yPreserve Hyperlink Fixture\nRead the Accessibility Guidelines",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F08_LINKS__LIBREOFFICE.pdf"
+  }
+}

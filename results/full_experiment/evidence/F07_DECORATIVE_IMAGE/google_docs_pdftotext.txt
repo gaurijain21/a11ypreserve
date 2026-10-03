@@ -1,0 +1,18 @@
+24 [0x00004b04] INFO pdftotext null - this process (21720) started by python in directory C:\Users\iamga\OneDrive\Documents\ChatGPT\a11ypreserve with command line: C:\Users\iamga\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdftotext.EXE -layout C:\Users\iamga\OneDrive\Documents\ChatGPT\a11ypreserve\results\full_experiment\outputs\google_docs\F07_DECORATIVE_IMAGE__GOOGLE_DOCS.pdf -
+
+24 [0x00004b04] INFO pdftotext null - running on Windows 10.0.26200
+
+66 [0x00004b04] INFO pdftotext null - this process (21720) finishes with exit code 1
+
+77 [0x00004b04] ERROR trace.pdftotext.core null - Access is denied.
+
+
+
+77 [0x00004b04] ERROR trace.pdftotext.core null - Function: CreateDirectoryW
+
+77 [0x00004b04] ERROR trace.pdftotext.core null - Result: 5
+
+78 [0x00004b04] ERROR trace.pdftotext.core null - Data: path="C:\Users\iamga\AppData\Roaming\MiKTeX\2.9\miktex"
+
+78 [0x00004b04] ERROR trace.pdftotext.core null - Source: Libraries\MiKTeX\Core\win\win.cpp:271
+

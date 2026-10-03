@@ -1,0 +1,78 @@
+{
+  "format": "pdf",
+  "title": "Variant B01 headings",
+  "language": "en-US",
+  "document": {
+    "title": "Variant B01 headings",
+    "language": "en-US",
+    "metadata": {
+      "Title": "Variant B01 headings",
+      "Author": "A11yPreserve variant set",
+      "Creator": "Writer",
+      "Producer": "LibreOffice 26.2.6.3 (X86_64)",
+      "CreationDate": "D:20260928174217-07'00'"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(4, 0, 2136979502800), '/Pg': IndirectObject(1, 0, 2136979502800), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.48}, '/K': [1]}"
+      }
+    },
+    {
+      "text": "",
+      "level": 2,
+      "evidence": {
+        "pdf_role": "H2",
+        "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 2136979502800), '/Pg': IndirectObject(1, 0, 2136979502800), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.24}, '/K': [2]}"
+      }
+    },
+    {
+      "text": "",
+      "level": 3,
+      "evidence": {
+        "pdf_role": "H3",
+        "object": "{'/Type': '/StructElem', '/S': '/H3', '/P': IndirectObject(4, 0, 2136979502800), '/Pg': IndirectObject(1, 0, 2136979502800), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.24}, '/K': [3]}"
+      }
+    },
+    {
+      "text": "",
+      "level": 4,
+      "evidence": {
+        "pdf_role": "H4",
+        "object": "{'/Type': '/StructElem', '/S': '/H4', '/P': IndirectObject(4, 0, 2136979502800), '/Pg': IndirectObject(1, 0, 2136979502800), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.24}, '/K': [4]}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {
+      "/Title": "/P",
+      "/Standard": "/P"
+    },
+    "pages": 1
+  },
+  "text_preview": "Variant B01 headings\nOverview\nContext\nDetail\nSubdetail\nThe title is separate from the four-level hierarchy.",
+  "pdf_text": "Variant B01 headings\nOverview\nContext\nDetail\nSubdetail\nThe title is separate from the four-level hierarchy.",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "<ARTIFACT_ROOT>\\v3\\variant_set_b\\libreoffice\\outputs\\B01__LIBREOFFICE.pdf"
+  }
+}

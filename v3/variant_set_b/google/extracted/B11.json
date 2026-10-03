@@ -1,0 +1,48 @@
+{
+  "format": "pdf",
+  "title": "B11",
+  "language": "en",
+  "document": {
+    "title": "B11",
+    "language": "en",
+    "metadata": {
+      "Title": "B11",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(10, 0, 2136979758928), '/Pg': IndirectObject(2, 0, 2136979758928), '/K': 0}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "Variant\n \nB11\n \nfootnotes\n \nThe\n \nfirst\n \nclaim\n \ncarries\n \nnote\n \none,\n \nand\n \nthe\n \nsecond\n \ncarries\n \nnote\n \ntwo.\n1\n2\n \n2\n \nFirst\n \nvariant\n \nnote.\n \n1\n \nSecond\n \nvariant\n \nnote.\n ",
+  "pdf_text": "Variant\n \nB11\n \nfootnotes\n \nThe\n \nfirst\n \nclaim\n \ncarries\n \nnote\n \none,\n \nand\n \nthe\n \nsecond\n \ncarries\n \nnote\n \ntwo.\n1\n2\n \n2\n \nFirst\n \nvariant\n \nnote.\n \n1\n \nSecond\n \nvariant\n \nnote.\n ",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\v3\\variant_set_b\\google\\outputs\\B11__GOOGLE_DOCS.pdf"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "synthetic_comparator": {
+    "PRESERVED": true,
+    "DEGRADED": true,
+    "LOST": true,
+    "MIS_MAPPED": true
+  },
+  "source_extractors": {
+    "F01_HEADINGS": {
+      "headings": 4,
+      "figures": 0,
+      "lists": 0,
+      "tables": 0
+    },
+    "F02_ALT_TEXT": {
+      "headings": 0,
+      "figures": 1,
+      "lists": 0,
+      "tables": 0
+    },
+    "F03_LISTS": {
+      "headings": 0,
+      "figures": 0,
+      "lists": 7,
+      "tables": 0
+    },
+    "F04_TABLE": {
+      "headings": 0,
+      "figures": 0,
+      "lists": 0,
+      "tables": 1
+    }
+  },
+  "pdf_extractor_smoke": {
+    "input": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\outputs\\G01_chrome.pdf",
+    "tagged": true,
+    "headings": 2,
+    "figures": 2
+  },
+  "passed": true,
+  "failures": []
+}

@@ -1,0 +1,35 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Authors can encode accessibility information directly in source documents: a heading is more than large text, an image may carry an author-written alternative, a run may identify a language change, and a table may identify header relationships. These properties matter because the source document is often exported, uploaded, or converted before it reaches readers. The resulting file may contain some accessibility structure, but that fact alone does not show whether the information intentionally supplied by the author survived the transformation.
+
+This distinction is recognized in accessibility guidance. ATAG 2.0 addresses preservation during content transformations when equivalent output mechanisms exist \cite{atag20}. Revised Section 508 includes a requirement to preserve information provided for accessibility during format conversion to the extent supported by the destination format \cite{section508}. EN 301 549 likewise specifies preservation of accessibility information in transformations \cite{etsi301549}. These requirements motivate a practical question: how can preservation be tested against known source ground truth rather than inferred from the destination alone?
+
+Prior work has studied office-document conversion, PDF-to-HTML accessibility, automated PDF remediation, and destination accessibility evaluation. Roig and Ribera examined office-to-EPUB conversion \cite{roig2015}; SciA11y and related Paper-to-HTML work reconstruct accessible representations from scientific PDFs \cite{wang2021scia11y}; iTagPDF uses source cues to improve PDF tagging \cite{mowar2026}; and recent benchmarks evaluate PDF accessibility or conversion services \cite{kumar2025,daisy2026,docaccessible2026,docaccessible-google}. A11yPreserve complements these efforts by beginning with controlled DOCX documents whose target accessibility properties are explicitly verified, then measuring whether those properties survive two real DOCX-to-PDF pipelines. The contribution is the controlled source-to-destination preservation protocol and empirical benchmark, not a claim that accessible conversion has not been studied.
+
+We present A11yPreserve as a source-contract conformance protocol, benchmark, and empirical study. The workflow is:
+
+\begin{center}
+\fbox{Verified DOCX source}\ $\rightarrow$\ 
+\fbox{Real converter}\ $\rightarrow$\ 
+\fbox{Tagged PDF}\ $\rightarrow$\ 
+\fbox{Structure extraction}\ $\rightarrow$\ 
+\fbox{Source-grounded comparison}
+\end{center}
+
+In testing terms, the source contracts are feature-specific test oracles, the fixtures are controlled test inputs, and each conversion pipeline is a system under test. Destination extraction supplies observations; the comparison rules make the oracle decision and retain evidence paths. When the available evidence cannot establish an accepted cross-format representation, the result is explicitly unresolved rather than forced into pass or fail.
+
+The primary benchmark contains 13 atomic DOCX fixtures and 26 genuine PDF outputs: 13 from LibreOffice and 13 from the Google Docs DOCX-to-PDF conversion pipeline. All outputs were parseable, non-empty, tagged, and passed the predefined structural output checks. The evidence-aware results are 11 \verifiedpreserved{}, 3 \observedpartial{}, 3 \altered{}, 2 \confirmedlost{}, 6 \unresolved{}, and 1 \measured{}. A separate secondary sanity check evaluates three project-generated multi-feature integrated documents using the same contracts and pipelines; it is not merged into the primary denominator. The two confirmed losses concern inline language and footnote association in the Google Docs pipeline. These findings are not a product ranking and do not estimate the prevalence of conversion problems in arbitrary documents. The historical V1 counts remain archived for provenance rather than serving as the primary result summary.
+
+The primary research question is: \emph{Does accessibility information present in a source document survive document conversion?} The paper makes three methodological contributions and one bounded empirical application:
+
+\begin{enumerate}
+\item versioned, feature-specific source contracts for controlled DOCX accessibility properties;
+\item a separately implemented source oracle and destination-evidence protocol that separates verified equivalence, observed difference, unresolved equivalence, confirmed absence, and measurement failure;
+\item a reusable conformance-suite design for supplying new pipeline outputs, with calibrated differential comparison, evidence certificates, and provenance; and
+\item an empirical application to 26 real outputs from two DOCX-to-PDF pipelines, plus a separate three-document integrated sanity check, reporting preservation behavior only for the tested fixtures, documents, and pipeline conditions.
+\end{enumerate}
+
+The paper deliberately makes no universal claim about accessibility loss during conversion, does not rank either converter globally, and does not treat the results as real-world prevalence. It asks a simpler question: when accessibility information is known to exist before conversion, did that information survive?
+
+

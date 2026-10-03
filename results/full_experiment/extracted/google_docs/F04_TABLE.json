@@ -1,0 +1,216 @@
+{
+  "format": "pdf",
+  "title": "F04_TABLE",
+  "language": "en",
+  "document": {
+    "title": "F04_TABLE",
+    "language": "en",
+    "metadata": {
+      "Title": "F04_TABLE",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(9, 0, 2294777061840), '/Pg': IndirectObject(2, 0, 2294777061840), '/K': 0}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [
+    {
+      "identifier": "table-1",
+      "dimensions": {},
+      "cells": [],
+      "headers": [],
+      "header_row": null,
+      "evidence": {
+        "pdf_role": "Table",
+        "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(9, 0, 2294777061840), '/K': [IndirectObject(13, 0, 2294777061840), IndirectObject(20, 0, 2294777061840), IndirectObject(27, 0, 2294777061840), IndirectObject(34, 0, 2294777061840)]}"
+      }
+    },
+    {
+      "identifier": "cell-2",
+      "role": "TH",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TH",
+        "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(13, 0, 2294777061840), '/K': IndirectObject(15, 0, 2294777061840)}"
+      }
+    },
+    {
+      "identifier": "cell-3",
+      "role": "TH",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TH",
+        "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(13, 0, 2294777061840), '/K': IndirectObject(17, 0, 2294777061840)}"
+      }
+    },
+    {
+      "identifier": "cell-4",
+      "role": "TH",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TH",
+        "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(13, 0, 2294777061840), '/K': IndirectObject(19, 0, 2294777061840)}"
+      }
+    },
+    {
+      "identifier": "cell-5",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(20, 0, 2294777061840), '/K': IndirectObject(22, 0, 2294777061840)}"
+      }
+    },
+    {
+      "identifier": "cell-6",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(20, 0, 2294777061840), '/K': IndirectObject(24, 0, 2294777061840)}"
+      }
+    },
+    {
+      "identifier": "cell-7",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(20, 0, 2294777061840), '/K': IndirectObject(26, 0, 2294777061840)}"
+      }
+    },
+    {
+      "identifier": "cell-8",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(27, 0, 2294777061840), '/K': IndirectObject(29, 0, 2294777061840)}"
+      }
+    },
+    {
+      "identifier": "cell-9",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(27, 0, 2294777061840), '/K': IndirectObject(31, 0, 2294777061840)}"
+      }
+    },
+    {
+      "identifier": "cell-10",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(27, 0, 2294777061840), '/K': IndirectObject(33, 0, 2294777061840)}"
+      }
+    },
+    {
+      "identifier": "cell-11",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 2294777061840), '/K': IndirectObject(36, 0, 2294777061840)}"
+      }
+    },
+    {
+      "identifier": "cell-12",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 2294777061840), '/K': IndirectObject(38, 0, 2294777061840)}"
+      }
+    },
+    {
+      "identifier": "cell-13",
+      "role": "TD",
+      "text": "",
+      "scope": null,
+      "headers": null,
+      "col_span": null,
+      "row_span": null,
+      "evidence": {
+        "pdf_role": "TD",
+        "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 2294777061840), '/K': IndirectObject(40, 0, 2294777061840)}"
+      }
+    }
+  ],
+  "table_headers": [
+    true
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "A11yPreserve\n \nTable\n \nFixture\n \nThe\n \ntable\n \nreports\n \nenrollment\n \nand\n \ncompletion\n \nrate\n \nwith\n \nthe\n \nfirst\n \nrow\n \nmarked\n \nas\n \na\n \nnative\n \nWord\n \nheader\n \nrow.\n \nYear\n \nStudents\n \nCompletion\n \nRate\n \n2024\n \n120\n \n82%\n \n2025\n \n150\n \n87%\n \n2026\n \n180\n \n91%\n \n ",
+  "pdf_text": "A11yPreserve\n \nTable\n \nFixture\n \nThe\n \ntable\n \nreports\n \nenrollment\n \nand\n \ncompletion\n \nrate\n \nwith\n \nthe\n \nfirst\n \nrow\n \nmarked\n \nas\n \na\n \nnative\n \nWord\n \nheader\n \nrow.\n \nYear\n \nStudents\n \nCompletion\n \nRate\n \n2024\n \n120\n \n82%\n \n2025\n \n150\n \n87%\n \n2026\n \n180\n \n91%\n \n ",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F04_TABLE__GOOGLE_DOCS.pdf"
+  }
+}

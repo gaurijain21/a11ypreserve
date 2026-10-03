@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "VERIFIED_PRESERVED": 11,
+    "OBSERVED_PARTIAL": 3,
+    "ALTERED": 3,
+    "UNRESOLVED_EQUIVALENCE": 6,
+    "CONFIRMED_LOST": 2,
+    "MEASUREMENT_ERROR": 1
+  },
+  "case_count": 26
+}

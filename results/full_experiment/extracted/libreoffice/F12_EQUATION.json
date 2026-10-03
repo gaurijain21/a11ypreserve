@@ -1,0 +1,55 @@
+{
+  "format": "pdf",
+  "title": "A11yPreserve Equation Fixture",
+  "language": "en-US",
+  "document": {
+    "title": "A11yPreserve Equation Fixture",
+    "language": "en-US",
+    "metadata": {
+      "Title": "A11yPreserve Equation Fixture",
+      "Author": "A11yPreserve benchmark",
+      "Subject": "A11yPreserve Phase 4 controlled benchmark fixture",
+      "Creator": "Writer",
+      "Producer": "LibreOffice 26.2.6.3 (X86_64)",
+      "CreationDate": "D:20260927212247-07'00'"
+    }
+  },
+  "headings": [],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [
+    {
+      "expression": "E = mc^2",
+      "representation": "PDF /Formula",
+      "evidence": {
+        "pdf_role": "Formula",
+        "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(7, 0, 2294779885840), '/Pg': IndirectObject(1, 0, 2294779885840), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.792, '/Height': 0.301, '/BBox': [286.2, 633.7, 325.8, 648.75]}, '/K': [2]}"
+      }
+    }
+  ],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {
+      "/Title": "/P",
+      "/Standard": "/P"
+    },
+    "pages": 1
+  },
+  "text_preview": "A11yPreserve Equation Fixture\nThe fixture contains a native OMML equation rather than an image substitute.\nE = m c2",
+  "pdf_text": "A11yPreserve Equation Fixture\nThe fixture contains a native OMML equation rather than an image substitute.\nE = m c2",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F12_EQUATION__LIBREOFFICE.pdf"
+  }
+}

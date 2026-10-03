@@ -1,0 +1,24 @@
+\section{Background and Related Work}
+\label{sec:background}
+
+\subsection{Preservation as an accessibility requirement}
+
+Accessibility information is often authored in one representation and transformed into another. ATAG 2.0 explicitly addresses restructuring and recoding transformations: when equivalent mechanisms exist in the output technology, accessibility information should be preserved or the author should be warned or prompted to check it \cite{atag20}. Its text-alternative criterion is especially close to the F02 contract. The U.S. Revised Section 508 standards similarly state that authoring tools should preserve information required for accessibility during format conversion to the extent supported by the destination format \cite{section508}. EN 301 549 contains a corresponding preservation-of-accessibility-information requirement for transformations \cite{etsi301549}. These requirements motivate testing preservation, but they do not predict the outcomes of the converters evaluated here.
+
+\subsection{Accessibility-aware document conversion}
+
+Roig and Ribera evaluated office-document conversion to EPUB and reported accessibility-preservation problems in that setting \cite{roig2015}. Their work is an important precedent for studying accessibility effects of conversion. A11yPreserve differs in experimental scope and instrumentation: it uses frozen native DOCX source contracts, real DOCX-to-PDF pipelines, destination structure extraction, and provenance-traceable fixture-level differential records. The distinction is one of scope and method, not a claim that prior work ignored preservation.
+
+\subsection{Accessible representation generation and remediation}
+
+SciA11y converts scientific papers from PDF to accessible HTML and combines extraction with navigation-oriented rendering for blind and low-vision readers \cite{wang2021scia11y}. This work primarily creates a more accessible destination representation. iTagPDF uses source-document cues and visual PDF analysis to automate tagging, reading order, and content-specific metadata such as alt text and formula structure \cite{mowar2026}. Its source-aware remediation objective is closely related to A11yPreserve's use of source information, but the experimental question differs: iTagPDF generates or improves PDF metadata, whereas A11yPreserve measures whether author-provided source information survived an existing conversion pipeline.
+
+\subsection{PDF conversion and accessibility evaluation benchmarks}
+
+Recent work also benchmarks destination conversion or evaluation. Kumar, Padath, and Wang introduce a benchmark for assessing automated and LLM-based PDF accessibility evaluation across criteria including alternative text, reading order, tagging, tables, and hyperlinks \cite{kumar2025}. DAISY's 2026 benchmark compares seven services that convert PDFs into accessible documents against a shared quality framework \cite{daisy2026}. DocAccessible's public research program reports source-grounded PDF-to-HTML conversion and fidelity benchmarking with frozen evidence \cite{docaccessible2026}. Its current Google Docs guidance also emphasizes that tagged export requires post-export checks of language, title, table headers, and reading order, and does not itself assert WCAG or PDF/UA conformance \cite{docaccessible-google}. These are important adjacent efforts. A11yPreserve's narrower contribution is to start from controlled DOCX accessibility ground truth and compare the same source semantics across real DOCX-to-PDF pipelines, while separating preservation fidelity from destination-only accessibility evaluation.
+
+Vendor documentation provides useful format context as well. Microsoft's current Word documentation maps source constructs such as language spans, footnotes, equations, captions, hyperlinks, and decorative content to PDF structure, including \texttt{/Lang}, \texttt{/Note}, \texttt{/Formula}, \texttt{/Caption}, and artifacts \cite{microsoft-word-pdf}. We use such documentation to define representability and scope, not as comparative evidence about the tested pipelines.
+
+The resulting contribution boundary is therefore modest: not the invention of accessibility-conversion benchmarking, but a source-grounded DOCX-to-PDF preservation conformance design with explicit contracts, independently checked source hashes, calibrated feature-level evidence statuses, and a reproducible evidence chain. The contribution is the controlled source-to-destination preservation protocol and empirical benchmark; it is not a claim that prior work lacked accessible-conversion studies.
+
+

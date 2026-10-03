@@ -1,0 +1,21 @@
+{
+  "variant_id": "B13",
+  "feature_family": "captions",
+  "source_format": "DOCX",
+  "contract_version": "v3-variant-set-b",
+  "fixture_path": "corpus/v3_variant_set_b/fixtures/B13.docx",
+  "ground_truth": {
+    "figure_caption_pairs": [
+      {
+        "figure": "figure-1",
+        "caption": "Figure 1. Workflow.",
+        "order": 1
+      },
+      {
+        "figure": "figure-2",
+        "caption": "Figure 2. Results.",
+        "order": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "spec_version": "v3.0",
+  "input_excludes_historical_labels": true,
+  "precedence": [
+    "MEASUREMENT_ERROR",
+    "CONFIRMED_LOST",
+    "OBSERVED_PARTIAL",
+    "ALTERED",
+    "VERIFIED_PRESERVED",
+    "UNRESOLVED_EQUIVALENCE"
+  ],
+  "rules": {
+    "MEASUREMENT_ERROR": {
+      "required": ["measurement_valid == false", "insufficient_evidence == true"]
+    },
+    "CONFIRMED_LOST": {
+      "required": ["source_verified == true", "destination_representable == true", "required_representation_absent == true", "independent_absence_corroborated == true"]
+    },
+    "OBSERVED_PARTIAL": {
+      "required": ["contract_has_multiple_components == true", "required_component_present == true", "required_component_directly_differs_or_absent == true", "missing_component_is_measured == true"]
+    },
+    "ALTERED": {
+      "required": ["concept_present == true", "author_relevant_value_differs == true"]
+    },
+    "VERIFIED_PRESERVED": {
+      "required": ["all_required_components_equivalent == true", "evidence_sufficient == true"]
+    },
+    "UNRESOLVED_EQUIVALENCE": {
+      "required": ["measurement_valid == true", "evidence_sufficient == false"]
+    }
+  },
+  "note": "These rules govern V3 audit classification only; they do not rewrite V2 files."
+}
+

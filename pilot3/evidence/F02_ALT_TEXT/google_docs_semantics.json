@@ -1,0 +1,148 @@
+{
+  "fixture": "F02_ALT_TEXT",
+  "engine": "Google Docs",
+  "source": [
+    {
+      "identifier": "figure-1",
+      "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+      "decorative": false,
+      "order": 1
+    }
+  ],
+  "destination": {
+    "asir": "ASIR-pilot-1",
+    "format": "pdf",
+    "document": {
+      "title": "F02_ALT_TEXT",
+      "language": "en",
+      "evidence": {
+        "pdf": [
+          "/Root",
+          "/Info",
+          "/StructTreeRoot"
+        ]
+      }
+    },
+    "headings": [
+      {
+        "text": "",
+        "level": 1,
+        "order": 2,
+        "evidence": {
+          "pdf_role": "H1",
+          "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(11, 0, 1604514091360), '/Pg': IndirectObject(2, 0, 1604514091360), '/K': 0}"
+        }
+      }
+    ],
+    "figures": [
+      {
+        "identifier": "figure-1",
+        "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+        "decorative": false,
+        "order": 5,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/Alt': 'Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.', '/P': IndirectObject(14, 0, 1604514091360), '/Pg': IndirectObject(2, 0, 1604514091360), '/K': 4}"
+        }
+      }
+    ],
+    "lists": [],
+    "tables": [],
+    "pdf": {
+      "tagged": true,
+      "role_map": {},
+      "pages": 1
+    },
+    "pdf_text": "A11yPreserve  Alternative  Text  \nFixture\n \nEnrollment  is  reported  across  three  academic  years  in  the  chart  below.  \n \nThe  visual  summarizes  the  reported  trend  without  repeating  its  complete  alternative  text.  \n",
+    "extraction": {
+      "method": "pypdf object-model and marked-content inspection",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F02_ALT_TEXT__GOOGLE_DOCS.pdf"
+    }
+  },
+  "raw_structure_summary": {
+    "tagged": true,
+    "roles": [
+      "Document",
+      "H1",
+      "P",
+      "P",
+      "Figure",
+      "Span",
+      "P"
+    ],
+    "role_counts": {
+      "Document": 1,
+      "Figure": 1,
+      "H1": 1,
+      "P": 3,
+      "Span": 1
+    },
+    "list_numbering": [],
+    "table_rows": 0,
+    "header_cells": 0,
+    "data_cells": 0,
+    "figures": [
+      {
+        "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+        "has_alt": true
+      }
+    ],
+    "pages": 1
+  },
+  "validation": {
+    "fixture": "F02_ALT_TEXT",
+    "engine": "Google Docs",
+    "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F02_ALT_TEXT__GOOGLE_DOCS.pdf",
+    "exists": true,
+    "checked_at_utc": "2026-09-28T02:56:46.743143+00:00",
+    "size_bytes": 38997,
+    "sha256": "f7d63f222cfe7413080018658f27ab3eadcf9e987e0b1166c66572aafa2dcc94",
+    "status": "PASS",
+    "parseable": true,
+    "page_count": 1,
+    "page_count_minimum": 1,
+    "content_text_nonempty": true,
+    "struct_tree_exists": true,
+    "content_present": true,
+    "structure_summary": {
+      "tagged": true,
+      "roles": [
+        "Document",
+        "H1",
+        "P",
+        "P",
+        "Figure",
+        "Span",
+        "P"
+      ],
+      "role_counts": {
+        "Document": 1,
+        "Figure": 1,
+        "H1": 1,
+        "P": 3,
+        "Span": 1
+      },
+      "list_numbering": [],
+      "table_rows": 0,
+      "header_cells": 0,
+      "data_cells": 0,
+      "figures": [
+        {
+          "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+          "has_alt": true
+        }
+      ],
+      "pages": 1
+    },
+    "secondary_validation": {
+      "tool": "pdfplumber",
+      "parseable": true,
+      "page_count": 1,
+      "text_nonempty": true
+    },
+    "metadata": {
+      "/Title": "F02_ALT_TEXT",
+      "/Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  }
+}

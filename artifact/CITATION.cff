@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this artifact, cite the A11yPreserve paper and the artifact version submitted with it."
+type: software
+title: "A11yPreserve: An Uncertainty-Aware Conformance Suite for DOCX-to-PDF Accessibility Preservation"
+abstract: "A controlled, contract-based artifact for comparing machine-verifiable accessibility information in DOCX sources with structure observed in converted PDFs."
+version: "review-candidate-2026-09-29"
+date-released: 2026-09-29
+authors:
+  - name: "Anonymous for review"
+keywords:
+  - accessibility preservation
+  - DOCX
+  - PDF
+  - document conversion
+  - conformance testing
+  - reproducibility

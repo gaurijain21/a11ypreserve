@@ -1,0 +1,42 @@
+{
+  "verified_at_utc": "2026-09-28T02:56:46.294414+00:00",
+  "status": "PASS",
+  "fixtures": [
+    {
+      "fixture": "F01_HEADINGS",
+      "filename": "F01_HEADINGS.docx",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot\\fixtures\\F01_HEADINGS.docx",
+      "size_bytes": 37029,
+      "sha256": "367d8b6382e2446a387417a789e764968b98101e1fb0fd3381fb24d32c847407",
+      "expected_sha256": "367d8b6382e2446a387417a789e764968b98101e1fb0fd3381fb24d32c847407",
+      "match": true
+    },
+    {
+      "fixture": "F02_ALT_TEXT",
+      "filename": "F02_ALT_TEXT.docx",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot\\fixtures\\F02_ALT_TEXT.docx",
+      "size_bytes": 41331,
+      "sha256": "f2219ef52e807ec417931a9d1c8a97320a95f4829d386a8f34b51990e88577da",
+      "expected_sha256": "f2219ef52e807ec417931a9d1c8a97320a95f4829d386a8f34b51990e88577da",
+      "match": true
+    },
+    {
+      "fixture": "F03_LISTS",
+      "filename": "F03_LISTS.docx",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot\\fixtures\\F03_LISTS.docx",
+      "size_bytes": 37064,
+      "sha256": "96d918ed19a5974e31f30704fe89db4bcaa51628f1d9cc00d3c8eecd2779d97f",
+      "expected_sha256": "96d918ed19a5974e31f30704fe89db4bcaa51628f1d9cc00d3c8eecd2779d97f",
+      "match": true
+    },
+    {
+      "fixture": "F04_TABLE",
+      "filename": "F04_TABLE.docx",
+      "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot\\fixtures\\F04_TABLE.docx",
+      "size_bytes": 37043,
+      "sha256": "a9d129f7409afb5a3d9363eba423fa85b5760466406538e331e72a1e12412a52",
+      "expected_sha256": "a9d129f7409afb5a3d9363eba423fa85b5760466406538e331e72a1e12412a52",
+      "match": true
+    }
+  ]
+}

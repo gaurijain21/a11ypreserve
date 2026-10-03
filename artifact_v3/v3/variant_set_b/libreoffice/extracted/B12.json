@@ -1,0 +1,62 @@
+{
+  "format": "pdf",
+  "title": "Variant B12 equations",
+  "language": "en-US",
+  "document": {
+    "title": "Variant B12 equations",
+    "language": "en-US",
+    "metadata": {
+      "Title": "Variant B12 equations",
+      "Author": "A11yPreserve variant set",
+      "Creator": "Writer",
+      "Producer": "LibreOffice 26.2.6.3 (X86_64)",
+      "CreationDate": "D:20260928174530-07'00'"
+    }
+  },
+  "headings": [],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [
+    {
+      "expression": "",
+      "representation": "PDF /Formula",
+      "evidence": {
+        "pdf_role": "Formula",
+        "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(7, 0, 2136979846800), '/Pg': IndirectObject(1, 0, 2136979846800), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.868, '/Height': 0.267, '/BBox': [284.3, 648.7, 327.7, 662.05]}, '/K': [2]}"
+      }
+    },
+    {
+      "expression": "",
+      "representation": "PDF /Formula",
+      "evidence": {
+        "pdf_role": "Formula",
+        "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(9, 0, 2136979846800), '/Pg': IndirectObject(1, 0, 2136979846800), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.787, '/Height': 0.267, '/BBox': [286.35, 623.5, 325.7, 636.85]}, '/K': [3]}"
+      }
+    }
+  ],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {
+      "/Title": "/P",
+      "/Standard": "/P"
+    },
+    "pages": 1
+  },
+  "text_preview": "Variant B12 equations\nTwo native math expressions are present.\nE = m c 2\na = b + c",
+  "pdf_text": "Variant B12 equations\nTwo native math expressions are present.\nE = m c 2\na = b + c",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "<ARTIFACT_ROOT>\\v3\\variant_set_b\\libreoffice\\outputs\\B12__LIBREOFFICE.pdf"
+  }
+}

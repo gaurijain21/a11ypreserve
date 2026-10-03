@@ -1,0 +1,19 @@
+{
+  "fixture_id": "F08_LINKS",
+  "feature": "links",
+  "source_format": "DOCX",
+  "contract_version": "phase4-v1",
+  "document": {
+    "title": "A11yPreserve Hyperlink Fixture",
+    "language": "en-US"
+  },
+  "ground_truth": {
+    "hyperlinks": [
+      {
+        "text": "Accessibility Guidelines",
+        "target": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+        "order": 1
+      }
+    ]
+  }
+}

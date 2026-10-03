@@ -1,0 +1,80 @@
+{
+  "format": "pdf",
+  "title": "B01",
+  "language": "en",
+  "document": {
+    "title": "B01",
+    "language": "en",
+    "metadata": {
+      "Title": "B01",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(11, 0, 2136979336784), '/Pg': IndirectObject(2, 0, 2136979336784), '/K': 0}"
+      }
+    },
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(11, 0, 2136979336784), '/Pg': IndirectObject(2, 0, 2136979336784), '/K': 1}"
+      }
+    },
+    {
+      "text": "",
+      "level": 2,
+      "evidence": {
+        "pdf_role": "H2",
+        "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(11, 0, 2136979336784), '/Pg': IndirectObject(2, 0, 2136979336784), '/K': 2}"
+      }
+    },
+    {
+      "text": "",
+      "level": 3,
+      "evidence": {
+        "pdf_role": "H3",
+        "object": "{'/Type': '/StructElem', '/S': '/H3', '/P': IndirectObject(11, 0, 2136979336784), '/Pg': IndirectObject(2, 0, 2136979336784), '/K': 3}"
+      }
+    },
+    {
+      "text": "",
+      "level": 4,
+      "evidence": {
+        "pdf_role": "H4",
+        "object": "{'/Type': '/StructElem', '/S': '/H4', '/P': IndirectObject(11, 0, 2136979336784), '/Pg': IndirectObject(2, 0, 2136979336784), '/K': 4}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "Variant\n \nB01\n \nheadings\n \nOverview\n \nContext\n \nDetail\n \nSubdetail\n \nThe\n \ntitle\n \nis\n \nseparate\n \nfrom\n \nthe\n \nfour-level\n \nhierarchy.\n ",
+  "pdf_text": "Variant\n \nB01\n \nheadings\n \nOverview\n \nContext\n \nDetail\n \nSubdetail\n \nThe\n \ntitle\n \nis\n \nseparate\n \nfrom\n \nthe\n \nfour-level\n \nhierarchy.\n ",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "<ARTIFACT_ROOT>\\v3\\variant_set_b\\google\\outputs\\B01__GOOGLE_DOCS.pdf"
+  }
+}

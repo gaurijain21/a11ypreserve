@@ -1,0 +1,808 @@
+{
+  "generated_at_utc": "2026-09-28T02:12:33.957538+00:00",
+  "results": [
+    {
+      "fixture": "F01_HEADINGS",
+      "converter": "Microsoft Word",
+      "source_feature": "heading_hierarchy",
+      "destination_feature": null,
+      "source_value": [
+        {
+          "text": "Research Overview",
+          "level": 1,
+          "order": 2
+        },
+        {
+          "text": "Background",
+          "level": 2,
+          "order": 4
+        },
+        {
+          "text": "Prior Work",
+          "level": 3,
+          "order": 6
+        },
+        {
+          "text": "Methods",
+          "level": 2,
+          "order": 8
+        }
+      ],
+      "destination_value": null,
+      "destination_representation": null,
+      "equivalence_determination": "No analyzable destination PDF exists; this is a conversion-layer result, not a semantic loss claim.",
+      "classification": "INVALID_CONVERSION",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\reports\\output_validation.json",
+      "confidence": 1.0,
+      "notes": "expected output file does not exist"
+    },
+    {
+      "fixture": "F01_HEADINGS",
+      "converter": "LibreOffice",
+      "source_feature": "heading_hierarchy",
+      "destination_feature": "heading[0]",
+      "source_value": {
+        "text": "Research Overview",
+        "level": 1,
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Heading1"
+        }
+      },
+      "destination_value": {
+        "text": "",
+        "level": 1,
+        "order": 3,
+        "evidence": {
+          "pdf_role": "H1",
+          "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(4, 0, 2839225121344), '/Pg': IndirectObject(1, 0, 2839225121344), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.48}, '/K': [1]}"
+        }
+      },
+      "destination_representation": {
+        "text": "",
+        "level": 1,
+        "order": 3,
+        "evidence": {
+          "pdf_role": "H1",
+          "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(4, 0, 2839225121344), '/Pg': IndirectObject(1, 0, 2839225121344), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.48}, '/K': [1]}"
+        }
+      },
+      "equivalence_determination": "heading role/level is present and visible text is independently verified in page text",
+      "classification": "PRESERVED",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\destination_semantics\\libreoffice\\F01_HEADINGS.json",
+      "confidence": 1.0,
+      "notes": "Deterministic ASIR comparison"
+    },
+    {
+      "fixture": "F01_HEADINGS",
+      "converter": "LibreOffice",
+      "source_feature": "heading_hierarchy",
+      "destination_feature": "heading[1]",
+      "source_value": {
+        "text": "Background",
+        "level": 2,
+        "order": 4,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Heading2"
+        }
+      },
+      "destination_value": {
+        "text": "",
+        "level": 2,
+        "order": 5,
+        "evidence": {
+          "pdf_role": "H2",
+          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 2839225121344), '/Pg': IndirectObject(1, 0, 2839225121344), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.237}, '/K': [3]}"
+        }
+      },
+      "destination_representation": {
+        "text": "",
+        "level": 2,
+        "order": 5,
+        "evidence": {
+          "pdf_role": "H2",
+          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 2839225121344), '/Pg': IndirectObject(1, 0, 2839225121344), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.237}, '/K': [3]}"
+        }
+      },
+      "equivalence_determination": "heading role/level is present and visible text is independently verified in page text",
+      "classification": "PRESERVED",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\destination_semantics\\libreoffice\\F01_HEADINGS.json",
+      "confidence": 1.0,
+      "notes": "Deterministic ASIR comparison"
+    },
+    {
+      "fixture": "F01_HEADINGS",
+      "converter": "LibreOffice",
+      "source_feature": "heading_hierarchy",
+      "destination_feature": "heading[2]",
+      "source_value": {
+        "text": "Prior Work",
+        "level": 3,
+        "order": 6,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Heading3"
+        }
+      },
+      "destination_value": {
+        "text": "",
+        "level": 3,
+        "order": 7,
+        "evidence": {
+          "pdf_role": "H3",
+          "object": "{'/Type': '/StructElem', '/S': '/H3', '/P': IndirectObject(4, 0, 2839225121344), '/Pg': IndirectObject(1, 0, 2839225121344), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.237}, '/K': [6]}"
+        }
+      },
+      "destination_representation": {
+        "text": "",
+        "level": 3,
+        "order": 7,
+        "evidence": {
+          "pdf_role": "H3",
+          "object": "{'/Type': '/StructElem', '/S': '/H3', '/P': IndirectObject(4, 0, 2839225121344), '/Pg': IndirectObject(1, 0, 2839225121344), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.237}, '/K': [6]}"
+        }
+      },
+      "equivalence_determination": "heading role/level is present and visible text is independently verified in page text",
+      "classification": "PRESERVED",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\destination_semantics\\libreoffice\\F01_HEADINGS.json",
+      "confidence": 1.0,
+      "notes": "Deterministic ASIR comparison"
+    },
+    {
+      "fixture": "F01_HEADINGS",
+      "converter": "LibreOffice",
+      "source_feature": "heading_hierarchy",
+      "destination_feature": "heading[3]",
+      "source_value": {
+        "text": "Methods",
+        "level": 2,
+        "order": 8,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Heading2"
+        }
+      },
+      "destination_value": {
+        "text": "",
+        "level": 2,
+        "order": 9,
+        "evidence": {
+          "pdf_role": "H2",
+          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 2839225121344), '/Pg': IndirectObject(1, 0, 2839225121344), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.237}, '/K': [9]}"
+        }
+      },
+      "destination_representation": {
+        "text": "",
+        "level": 2,
+        "order": 9,
+        "evidence": {
+          "pdf_role": "H2",
+          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 2839225121344), '/Pg': IndirectObject(1, 0, 2839225121344), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.237}, '/K': [9]}"
+        }
+      },
+      "equivalence_determination": "heading role/level is present and visible text is independently verified in page text",
+      "classification": "PRESERVED",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\destination_semantics\\libreoffice\\F01_HEADINGS.json",
+      "confidence": 1.0,
+      "notes": "Deterministic ASIR comparison"
+    },
+    {
+      "fixture": "F02_ALT_TEXT",
+      "converter": "Microsoft Word",
+      "source_feature": "image_alt_text",
+      "destination_feature": null,
+      "source_value": [
+        {
+          "identifier": "figure-1",
+          "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+          "decorative": false,
+          "order": 1
+        }
+      ],
+      "destination_value": null,
+      "destination_representation": null,
+      "equivalence_determination": "No analyzable destination PDF exists; this is a conversion-layer result, not a semantic loss claim.",
+      "classification": "INVALID_CONVERSION",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\reports\\output_validation.json",
+      "confidence": 1.0,
+      "notes": "expected output file does not exist"
+    },
+    {
+      "fixture": "F02_ALT_TEXT",
+      "converter": "LibreOffice",
+      "source_feature": "image_alt_text",
+      "destination_feature": "figure_alt[0]",
+      "source_value": {
+        "identifier": "figure-1",
+        "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+        "decorative": false,
+        "order": 1,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "docPr": "1"
+        }
+      },
+      "destination_value": {
+        "identifier": "figure-1",
+        "alt": "Enrollment chart - Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+        "decorative": false,
+        "order": 5,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 2839225306576), '/Pg': IndirectObject(1, 0, 2839225306576), '/Alt': 'Enrollment chart - Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 8.352, '/Height': 4.872, '/BBox': [99.05, 400.15, 516.65, 643.75]}, '/K': [2]}"
+        }
+      },
+      "destination_representation": {
+        "identifier": "figure-1",
+        "alt": "Enrollment chart - Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+        "decorative": false,
+        "order": 5,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 2839225306576), '/Pg': IndirectObject(1, 0, 2839225306576), '/Alt': 'Enrollment chart - Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 8.352, '/Height': 4.872, '/BBox': [99.05, 400.15, 516.65, 643.75]}, '/K': [2]}"
+        }
+      },
+      "equivalence_determination": "destination figure has alternative text but not the source text",
+      "classification": "DEGRADED",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\destination_semantics\\libreoffice\\F02_ALT_TEXT.json",
+      "confidence": 1.0,
+      "notes": "Deterministic ASIR comparison"
+    },
+    {
+      "fixture": "F03_LISTS",
+      "converter": "Microsoft Word",
+      "source_feature": "list_structure",
+      "destination_feature": null,
+      "source_value": [
+        {
+          "type": "unordered",
+          "depth": 0,
+          "text": "Accessibility",
+          "parent": null,
+          "order": 4,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "10",
+            "ilvl": 0,
+            "numFmt": "bullet"
+          }
+        },
+        {
+          "type": "unordered",
+          "depth": 1,
+          "text": "Documents",
+          "parent": "Accessibility",
+          "order": 5,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "10",
+            "ilvl": 1,
+            "numFmt": "bullet"
+          }
+        },
+        {
+          "type": "unordered",
+          "depth": 1,
+          "text": "Web",
+          "parent": "Accessibility",
+          "order": 6,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "10",
+            "ilvl": 1,
+            "numFmt": "bullet"
+          }
+        },
+        {
+          "type": "unordered",
+          "depth": 0,
+          "text": "Usability",
+          "parent": null,
+          "order": 7,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "10",
+            "ilvl": 0,
+            "numFmt": "bullet"
+          }
+        },
+        {
+          "type": "ordered",
+          "depth": 0,
+          "text": "Extract",
+          "parent": null,
+          "order": 9,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "11",
+            "ilvl": 0,
+            "numFmt": "decimal"
+          }
+        },
+        {
+          "type": "ordered",
+          "depth": 0,
+          "text": "Convert",
+          "parent": null,
+          "order": 10,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "11",
+            "ilvl": 0,
+            "numFmt": "decimal"
+          }
+        },
+        {
+          "type": "ordered",
+          "depth": 0,
+          "text": "Compare",
+          "parent": null,
+          "order": 11,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "numId": "11",
+            "ilvl": 0,
+            "numFmt": "decimal"
+          }
+        }
+      ],
+      "destination_value": null,
+      "destination_representation": null,
+      "equivalence_determination": "No analyzable destination PDF exists; this is a conversion-layer result, not a semantic loss claim.",
+      "classification": "INVALID_CONVERSION",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\reports\\output_validation.json",
+      "confidence": 1.0,
+      "notes": "expected output file does not exist"
+    },
+    {
+      "fixture": "F03_LISTS",
+      "converter": "LibreOffice",
+      "source_feature": "list_structure",
+      "destination_feature": "list_item[0]",
+      "source_value": {
+        "type": "unordered",
+        "depth": 0,
+        "text": "Accessibility",
+        "parent": null,
+        "order": 4,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "10",
+          "ilvl": 0,
+          "numFmt": "bullet"
+        }
+      },
+      "destination_value": {
+        "type": "unordered",
+        "depth": 0,
+        "text": "",
+        "parent": "L",
+        "order": 6,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(8, 0, 2839225447392), '/Pg': IndirectObject(1, 0, 2839225447392), '/K': [IndirectObject(10, 0, 2839225447392), IndirectObject(11, 0, 2839225447392)]}"
+        }
+      },
+      "destination_representation": {
+        "type": "unordered",
+        "depth": 0,
+        "text": "",
+        "parent": "L",
+        "order": 6,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(8, 0, 2839225447392), '/Pg': IndirectObject(1, 0, 2839225447392), '/K': [IndirectObject(10, 0, 2839225447392), IndirectObject(11, 0, 2839225447392)]}"
+        }
+      },
+      "equivalence_determination": "list role/type/depth/order are present and each source item is independently verified in page text",
+      "classification": "PRESERVED",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\destination_semantics\\libreoffice\\F03_LISTS.json",
+      "confidence": 1.0,
+      "notes": "Deterministic ASIR comparison"
+    },
+    {
+      "fixture": "F03_LISTS",
+      "converter": "LibreOffice",
+      "source_feature": "list_structure",
+      "destination_feature": "list_item[1]",
+      "source_value": {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Documents",
+        "parent": "Accessibility",
+        "order": 5,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "10",
+          "ilvl": 1,
+          "numFmt": "bullet"
+        }
+      },
+      "destination_value": {
+        "type": "unordered",
+        "depth": 1,
+        "text": "",
+        "parent": "L",
+        "order": 11,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(13, 0, 2839225447392), '/Pg': IndirectObject(1, 0, 2839225447392), '/K': [IndirectObject(15, 0, 2839225447392), IndirectObject(16, 0, 2839225447392)]}"
+        }
+      },
+      "destination_representation": {
+        "type": "unordered",
+        "depth": 1,
+        "text": "",
+        "parent": "L",
+        "order": 11,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(13, 0, 2839225447392), '/Pg': IndirectObject(1, 0, 2839225447392), '/K': [IndirectObject(15, 0, 2839225447392), IndirectObject(16, 0, 2839225447392)]}"
+        }
+      },
+      "equivalence_determination": "list role/type/depth/order are present and each source item is independently verified in page text",
+      "classification": "PRESERVED",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\destination_semantics\\libreoffice\\F03_LISTS.json",
+      "confidence": 1.0,
+      "notes": "Deterministic ASIR comparison"
+    },
+    {
+      "fixture": "F03_LISTS",
+      "converter": "LibreOffice",
+      "source_feature": "list_structure",
+      "destination_feature": "list_item[2]",
+      "source_value": {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Web",
+        "parent": "Accessibility",
+        "order": 6,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "10",
+          "ilvl": 1,
+          "numFmt": "bullet"
+        }
+      },
+      "destination_value": {
+        "type": "unordered",
+        "depth": 1,
+        "text": "",
+        "parent": "L",
+        "order": 15,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(13, 0, 2839225447392), '/Pg': IndirectObject(1, 0, 2839225447392), '/K': [IndirectObject(19, 0, 2839225447392), IndirectObject(20, 0, 2839225447392)]}"
+        }
+      },
+      "destination_representation": {
+        "type": "unordered",
+        "depth": 1,
+        "text": "",
+        "parent": "L",
+        "order": 15,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(13, 0, 2839225447392), '/Pg': IndirectObject(1, 0, 2839225447392), '/K': [IndirectObject(19, 0, 2839225447392), IndirectObject(20, 0, 2839225447392)]}"
+        }
+      },
+      "equivalence_determination": "list role/type/depth/order are present and each source item is independently verified in page text",
+      "classification": "PRESERVED",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\destination_semantics\\libreoffice\\F03_LISTS.json",
+      "confidence": 1.0,
+      "notes": "Deterministic ASIR comparison"
+    },
+    {
+      "fixture": "F03_LISTS",
+      "converter": "LibreOffice",
+      "source_feature": "list_structure",
+      "destination_feature": "list_item[3]",
+      "source_value": {
+        "type": "unordered",
+        "depth": 0,
+        "text": "Usability",
+        "parent": null,
+        "order": 7,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "10",
+          "ilvl": 0,
+          "numFmt": "bullet"
+        }
+      },
+      "destination_value": {
+        "type": "unordered",
+        "depth": 0,
+        "text": "",
+        "parent": "L",
+        "order": 19,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(8, 0, 2839225447392), '/Pg': IndirectObject(1, 0, 2839225447392), '/K': [IndirectObject(23, 0, 2839225447392), IndirectObject(24, 0, 2839225447392)]}"
+        }
+      },
+      "destination_representation": {
+        "type": "unordered",
+        "depth": 0,
+        "text": "",
+        "parent": "L",
+        "order": 19,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(8, 0, 2839225447392), '/Pg': IndirectObject(1, 0, 2839225447392), '/K': [IndirectObject(23, 0, 2839225447392), IndirectObject(24, 0, 2839225447392)]}"
+        }
+      },
+      "equivalence_determination": "list role/type/depth/order are present and each source item is independently verified in page text",
+      "classification": "PRESERVED",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\destination_semantics\\libreoffice\\F03_LISTS.json",
+      "confidence": 1.0,
+      "notes": "Deterministic ASIR comparison"
+    },
+    {
+      "fixture": "F03_LISTS",
+      "converter": "LibreOffice",
+      "source_feature": "list_structure",
+      "destination_feature": "list_item[4]",
+      "source_value": {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Extract",
+        "parent": null,
+        "order": 9,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "11",
+          "ilvl": 0,
+          "numFmt": "decimal"
+        }
+      },
+      "destination_value": {
+        "type": "ordered",
+        "depth": 0,
+        "text": "",
+        "parent": "L",
+        "order": 25,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(27, 0, 2839225447392), '/Pg': IndirectObject(1, 0, 2839225447392), '/K': [IndirectObject(29, 0, 2839225447392), IndirectObject(30, 0, 2839225447392)]}"
+        }
+      },
+      "destination_representation": {
+        "type": "ordered",
+        "depth": 0,
+        "text": "",
+        "parent": "L",
+        "order": 25,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(27, 0, 2839225447392), '/Pg': IndirectObject(1, 0, 2839225447392), '/K': [IndirectObject(29, 0, 2839225447392), IndirectObject(30, 0, 2839225447392)]}"
+        }
+      },
+      "equivalence_determination": "list role/type/depth/order are present and each source item is independently verified in page text",
+      "classification": "PRESERVED",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\destination_semantics\\libreoffice\\F03_LISTS.json",
+      "confidence": 1.0,
+      "notes": "Deterministic ASIR comparison"
+    },
+    {
+      "fixture": "F03_LISTS",
+      "converter": "LibreOffice",
+      "source_feature": "list_structure",
+      "destination_feature": "list_item[5]",
+      "source_value": {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Convert",
+        "parent": null,
+        "order": 10,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "11",
+          "ilvl": 0,
+          "numFmt": "decimal"
+        }
+      },
+      "destination_value": {
+        "type": "ordered",
+        "depth": 0,
+        "text": "",
+        "parent": "L",
+        "order": 29,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(27, 0, 2839225447392), '/Pg': IndirectObject(1, 0, 2839225447392), '/K': [IndirectObject(33, 0, 2839225447392), IndirectObject(34, 0, 2839225447392)]}"
+        }
+      },
+      "destination_representation": {
+        "type": "ordered",
+        "depth": 0,
+        "text": "",
+        "parent": "L",
+        "order": 29,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(27, 0, 2839225447392), '/Pg': IndirectObject(1, 0, 2839225447392), '/K': [IndirectObject(33, 0, 2839225447392), IndirectObject(34, 0, 2839225447392)]}"
+        }
+      },
+      "equivalence_determination": "list role/type/depth/order are present and each source item is independently verified in page text",
+      "classification": "PRESERVED",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\destination_semantics\\libreoffice\\F03_LISTS.json",
+      "confidence": 1.0,
+      "notes": "Deterministic ASIR comparison"
+    },
+    {
+      "fixture": "F03_LISTS",
+      "converter": "LibreOffice",
+      "source_feature": "list_structure",
+      "destination_feature": "list_item[6]",
+      "source_value": {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Compare",
+        "parent": null,
+        "order": 11,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "11",
+          "ilvl": 0,
+          "numFmt": "decimal"
+        }
+      },
+      "destination_value": {
+        "type": "ordered",
+        "depth": 0,
+        "text": "",
+        "parent": "L",
+        "order": 33,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(27, 0, 2839225447392), '/Pg': IndirectObject(1, 0, 2839225447392), '/K': [IndirectObject(37, 0, 2839225447392), IndirectObject(38, 0, 2839225447392)]}"
+        }
+      },
+      "destination_representation": {
+        "type": "ordered",
+        "depth": 0,
+        "text": "",
+        "parent": "L",
+        "order": 33,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(27, 0, 2839225447392), '/Pg': IndirectObject(1, 0, 2839225447392), '/K': [IndirectObject(37, 0, 2839225447392), IndirectObject(38, 0, 2839225447392)]}"
+        }
+      },
+      "equivalence_determination": "list role/type/depth/order are present and each source item is independently verified in page text",
+      "classification": "PRESERVED",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\destination_semantics\\libreoffice\\F03_LISTS.json",
+      "confidence": 1.0,
+      "notes": "Deterministic ASIR comparison"
+    },
+    {
+      "fixture": "F04_TABLE",
+      "converter": "Microsoft Word",
+      "source_feature": "table_structure",
+      "destination_feature": null,
+      "source_value": [
+        {
+          "identifier": "table-1",
+          "dimensions": {
+            "rows": 4,
+            "columns": 3
+          },
+          "cells": [
+            [
+              "Year",
+              "Students",
+              "Completion Rate"
+            ],
+            [
+              "2024",
+              "120",
+              "82%"
+            ],
+            [
+              "2025",
+              "150",
+              "87%"
+            ],
+            [
+              "2026",
+              "180",
+              "91%"
+            ]
+          ],
+          "headers": [
+            "Year",
+            "Students",
+            "Completion Rate"
+          ],
+          "header_row": 0,
+          "evidence": {
+            "ooxml": "word/document.xml",
+            "tblHeader": true
+          }
+        }
+      ],
+      "destination_value": null,
+      "destination_representation": null,
+      "equivalence_determination": "No analyzable destination PDF exists; this is a conversion-layer result, not a semantic loss claim.",
+      "classification": "INVALID_CONVERSION",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\reports\\output_validation.json",
+      "confidence": 1.0,
+      "notes": "expected output file does not exist"
+    },
+    {
+      "fixture": "F04_TABLE",
+      "converter": "LibreOffice",
+      "source_feature": "table_structure",
+      "destination_feature": "table[0]",
+      "source_value": {
+        "identifier": "table-1",
+        "dimensions": {
+          "rows": 4,
+          "columns": 3
+        },
+        "cells": [
+          [
+            "Year",
+            "Students",
+            "Completion Rate"
+          ],
+          [
+            "2024",
+            "120",
+            "82%"
+          ],
+          [
+            "2025",
+            "150",
+            "87%"
+          ],
+          [
+            "2026",
+            "180",
+            "91%"
+          ]
+        ],
+        "headers": [
+          "Year",
+          "Students",
+          "Completion Rate"
+        ],
+        "header_row": 0,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "tblHeader": true
+        }
+      },
+      "destination_value": {
+        "identifier": "table-1",
+        "dimensions": {},
+        "cells": [],
+        "headers": [],
+        "header_row": null,
+        "evidence": {
+          "pdf_role": "Table",
+          "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(4, 0, 2839225679456), '/Pg': IndirectObject(1, 0, 2839225679456), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.237, '/SpaceAfter': 0.01, '/StartIndent': -0.108, '/EndIndent': 0.108, '/Width': 8.64, '/Height': 1.299, '/BBox': [90, 576.15, 522, 641.1]}, '/K': [IndirectObject(8, 0, 2839225679456), IndirectObject(15, 0, 2839225679456), IndirectObject(22, 0, 2839225679456), IndirectObject(29, 0, 2839225679456)]}"
+        }
+      },
+      "destination_representation": {
+        "identifier": "table-1",
+        "dimensions": {},
+        "cells": [],
+        "headers": [],
+        "header_row": null,
+        "evidence": {
+          "pdf_role": "Table",
+          "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(4, 0, 2839225679456), '/Pg': IndirectObject(1, 0, 2839225679456), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.237, '/SpaceAfter': 0.01, '/StartIndent': -0.108, '/EndIndent': 0.108, '/Width': 8.64, '/Height': 1.299, '/BBox': [90, 576.15, 522, 641.1]}, '/K': [IndirectObject(8, 0, 2839225679456), IndirectObject(15, 0, 2839225679456), IndirectObject(22, 0, 2839225679456), IndirectObject(29, 0, 2839225679456)]}"
+        }
+      },
+      "equivalence_determination": "Table/TH/TD structure and header count are present; source cell text is independently verified in page text",
+      "classification": "PRESERVED",
+      "evidence_path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot2\\destination_semantics\\libreoffice\\F04_TABLE.json",
+      "confidence": 1.0,
+      "notes": "Deterministic ASIR comparison"
+    }
+  ]
+}

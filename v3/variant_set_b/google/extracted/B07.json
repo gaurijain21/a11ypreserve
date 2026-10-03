@@ -1,0 +1,104 @@
+{
+  "format": "pdf",
+  "title": "B07",
+  "language": "en",
+  "document": {
+    "title": "B07",
+    "language": "en",
+    "metadata": {
+      "Title": "B07",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(11, 0, 2136979843216), '/Pg': IndirectObject(2, 0, 2136979843216), '/K': 0}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [
+    {
+      "identifier": "figure-1",
+      "alt": "Informative first image.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/Alt': 'Informative first image.', '/P': IndirectObject(14, 0, 2136979843216), '/Pg': IndirectObject(2, 0, 2136979843216), '/K': 5}"
+      }
+    },
+    {
+      "identifier": "figure-2",
+      "alt": "",
+      "decorative": true,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(17, 0, 2136979843216), '/Pg': IndirectObject(2, 0, 2136979843216), '/K': 6}"
+      }
+    },
+    {
+      "identifier": "figure-3",
+      "alt": "Informative last image.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/Alt': 'Informative last image.', '/P': IndirectObject(20, 0, 2136979843216), '/Pg': IndirectObject(2, 0, 2136979843216), '/K': 7}"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "identifier": "figure-1",
+      "alt": "Informative first image.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/Alt': 'Informative first image.', '/P': IndirectObject(14, 0, 2136979843216), '/Pg': IndirectObject(2, 0, 2136979843216), '/K': 5}"
+      }
+    },
+    {
+      "identifier": "figure-2",
+      "alt": "",
+      "decorative": true,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(17, 0, 2136979843216), '/Pg': IndirectObject(2, 0, 2136979843216), '/K': 6}"
+      }
+    },
+    {
+      "identifier": "figure-3",
+      "alt": "Informative last image.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/Alt': 'Informative last image.', '/P': IndirectObject(20, 0, 2136979843216), '/Pg': IndirectObject(2, 0, 2136979843216), '/K': 7}"
+      }
+    }
+  ],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "Variant\n \nB07\n \ndecorative\n \nstate\n \nInformative,\n \ndecorative,\n \nand\n \ninformative\n \nimages\n \noccur\n \nin\n \nthat\n \norder.\n \n \n \n \n",
+  "pdf_text": "Variant\n \nB07\n \ndecorative\n \nstate\n \nInformative,\n \ndecorative,\n \nand\n \ninformative\n \nimages\n \noccur\n \nin\n \nthat\n \norder.\n \n \n \n \n",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\v3\\variant_set_b\\google\\outputs\\B07__GOOGLE_DOCS.pdf"
+  }
+}

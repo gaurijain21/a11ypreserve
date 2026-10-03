@@ -1,0 +1,72 @@
+{
+  "format": "pdf",
+  "title": "Variant B08 hyperlinks",
+  "language": "en-US",
+  "document": {
+    "title": "Variant B08 hyperlinks",
+    "language": "en-US",
+    "metadata": {
+      "Title": "Variant B08 hyperlinks",
+      "Author": "A11yPreserve variant set",
+      "Creator": "Writer",
+      "Producer": "LibreOffice 26.2.6.3 (X86_64)",
+      "CreationDate": "D:20260928174408-07'00'"
+    }
+  },
+  "headings": [],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [
+    {
+      "target": "https://pdfa.org/",
+      "page": 1,
+      "rect": [
+        226.493,
+        673.9,
+        306.557,
+        686.55
+      ],
+      "evidence": {
+        "pdf": "/Annots/Link"
+      }
+    },
+    {
+      "target": "https://www.w3.org/TR/WCAG22/",
+      "page": 1,
+      "rect": [
+        115.343,
+        673.9,
+        205.207,
+        686.55
+      ],
+      "evidence": {
+        "pdf": "/Annots/Link"
+      }
+    }
+  ],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {
+      "/Title": "/P",
+      "/Standard": "/P"
+    },
+    "pages": 1
+  },
+  "text_preview": "Variant B08 hyperlinks\nRead the WCAG standard and the PDF reference",
+  "pdf_text": "Variant B08 hyperlinks\nRead the WCAG standard and the PDF reference",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "<ARTIFACT_ROOT>\\v3\\variant_set_b\\libreoffice\\outputs\\B08__LIBREOFFICE.pdf"
+  }
+}

@@ -1,0 +1,4 @@
+python-docx
+beautifulsoup4
+pypdf
+PyMuPDF

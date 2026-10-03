@@ -1,0 +1,1484 @@
+{
+  "study": "secondary_integrated_external_validity_sanity_check",
+  "documents": 3,
+  "primary_denominator_excluded": true,
+  "property_instances": 21,
+  "records": [
+    {
+      "document": "I01_REALISTIC_REPORT",
+      "property_instance": "I01-heading-hierarchy",
+      "feature": "headings",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "SEMANTICALLY_EQUIVALENT",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "destination_sha256": "5b4473ae717698e2ac462133b53e30483623f6f886451467fdc9cb42ab561810",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I01_REALISTIC_REPORT__LIBREOFFICE.pdf"
+          }
+        },
+        {
+          "source_heading_levels": [
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "destination_heading_levels": [
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "destination_heading_roles": [
+            "H1",
+            "H1",
+            "H2",
+            "H2",
+            "H1",
+            "H1",
+            "H1"
+          ]
+        }
+      ],
+      "observation": "heading level/order preserved; PDF marked-content text was not available for every heading node",
+      "source_path": "integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I01_REALISTIC_REPORT__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I01_REALISTIC_REPORT",
+      "property_instance": "I01-alternative-text",
+      "feature": "image_alt_text",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "MUTATED",
+      "result": "ALTERED",
+      "evidence_status": "OBSERVED_DIFFERENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "destination_sha256": "5b4473ae717698e2ac462133b53e30483623f6f886451467fdc9cb42ab561810",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I01_REALISTIC_REPORT__LIBREOFFICE.pdf"
+          }
+        }
+      ],
+      "observation": "destination retains non-decorative figures with different alternative text",
+      "source_path": "integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I01_REALISTIC_REPORT__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I01_REALISTIC_REPORT",
+      "property_instance": "I01-lists",
+      "feature": "lists",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "SEMANTICALLY_EQUIVALENT",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "destination_sha256": "5b4473ae717698e2ac462133b53e30483623f6f886451467fdc9cb42ab561810",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I01_REALISTIC_REPORT__LIBREOFFICE.pdf"
+          }
+        },
+        {
+          "source_items": 5,
+          "destination_items": 5,
+          "source_blocks": 1,
+          "destination_blocks": 1,
+          "source_nested_items": 2,
+          "destination_nested_blocks": 1
+        }
+      ],
+      "observation": "PDF /L, /LI, nesting, and /ListNumbering match the source contract",
+      "source_path": "integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I01_REALISTIC_REPORT__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I01_REALISTIC_REPORT",
+      "property_instance": "I01-table-headers",
+      "feature": "table",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "SEMANTICALLY_EQUIVALENT",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "destination_sha256": "5b4473ae717698e2ac462133b53e30483623f6f886451467fdc9cb42ab561810",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I01_REALISTIC_REPORT__LIBREOFFICE.pdf"
+          }
+        },
+        {
+          "source_dimensions": {
+            "rows": 4,
+            "columns": 3
+          },
+          "destination_table_count": 1,
+          "source_cell_count": 12,
+          "destination_cell_count": 12,
+          "destination_header_count": 3,
+          "destination_table_headers": [
+            true
+          ]
+        }
+      ],
+      "observation": "PDF Table/TR/TH/TD structure and header-cell count match the source table contract",
+      "source_path": "integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I01_REALISTIC_REPORT__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I01_REALISTIC_REPORT",
+      "property_instance": "I01-document-language",
+      "feature": "document_language",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "EXACT_PRESERVATION",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "destination_sha256": "5b4473ae717698e2ac462133b53e30483623f6f886451467fdc9cb42ab561810",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I01_REALISTIC_REPORT__LIBREOFFICE.pdf"
+          }
+        }
+      ],
+      "observation": "",
+      "source_path": "integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I01_REALISTIC_REPORT__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I01_REALISTIC_REPORT",
+      "property_instance": "I01-hyperlink",
+      "feature": "hyperlinks",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "UNRESOLVED_EQUIVALENCE",
+      "evidence_status": "UNRESOLVED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "destination_sha256": "5b4473ae717698e2ac462133b53e30483623f6f886451467fdc9cb42ab561810",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I01_REALISTIC_REPORT__LIBREOFFICE.pdf"
+          }
+        }
+      ],
+      "observation": "URI and link annotation survive; visible link-name association was not independently recoverable from the PDF structure",
+      "source_path": "integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I01_REALISTIC_REPORT__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I01_REALISTIC_REPORT",
+      "property_instance": "I01-title",
+      "feature": "document_title",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "EXACT_PRESERVATION",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "destination_sha256": "5b4473ae717698e2ac462133b53e30483623f6f886451467fdc9cb42ab561810",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I01_REALISTIC_REPORT__LIBREOFFICE.pdf"
+          }
+        }
+      ],
+      "observation": "",
+      "source_path": "integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I01_REALISTIC_REPORT__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I01_REALISTIC_REPORT",
+      "property_instance": "I01-heading-hierarchy",
+      "feature": "headings",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "OBSERVED_PARTIAL",
+      "evidence_status": "OBSERVED_PARTIAL",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "destination_sha256": "cbca548309ede45d73778ee35f0eff34463bfef39234ac97d90fe153c3c50978",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I01_REALISTIC_REPORT__GOOGLE_DOCS.pdf"
+          }
+        },
+        {
+          "source_heading_levels": [
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "destination_heading_levels": [
+            1,
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "destination_heading_roles": [
+            "H1",
+            "H1",
+            "H1",
+            "H2",
+            "H2",
+            "H1",
+            "H1",
+            "H1"
+          ]
+        }
+      ],
+      "observation": "PDF contains heading structure but the level/order sequence differs from source",
+      "source_path": "integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I01_REALISTIC_REPORT__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I01_REALISTIC_REPORT",
+      "property_instance": "I01-alternative-text",
+      "feature": "image_alt_text",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "EXACT_PRESERVATION",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "destination_sha256": "cbca548309ede45d73778ee35f0eff34463bfef39234ac97d90fe153c3c50978",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I01_REALISTIC_REPORT__GOOGLE_DOCS.pdf"
+          }
+        }
+      ],
+      "observation": "",
+      "source_path": "integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I01_REALISTIC_REPORT__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I01_REALISTIC_REPORT",
+      "property_instance": "I01-lists",
+      "feature": "lists",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "UNRESOLVED_EQUIVALENCE",
+      "evidence_status": "UNRESOLVED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "destination_sha256": "cbca548309ede45d73778ee35f0eff34463bfef39234ac97d90fe153c3c50978",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I01_REALISTIC_REPORT__GOOGLE_DOCS.pdf"
+          }
+        },
+        {
+          "source_items": 5,
+          "destination_items": 5,
+          "source_blocks": 1,
+          "destination_blocks": 1,
+          "source_nested_items": 2,
+          "destination_nested_blocks": 1
+        }
+      ],
+      "observation": "list items and nesting survive, but PDF extraction found no explicit ordered/unordered type representation",
+      "source_path": "integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I01_REALISTIC_REPORT__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I01_REALISTIC_REPORT",
+      "property_instance": "I01-table-headers",
+      "feature": "table",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "SEMANTICALLY_EQUIVALENT",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "destination_sha256": "cbca548309ede45d73778ee35f0eff34463bfef39234ac97d90fe153c3c50978",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I01_REALISTIC_REPORT__GOOGLE_DOCS.pdf"
+          }
+        },
+        {
+          "source_dimensions": {
+            "rows": 4,
+            "columns": 3
+          },
+          "destination_table_count": 1,
+          "source_cell_count": 12,
+          "destination_cell_count": 12,
+          "destination_header_count": 3,
+          "destination_table_headers": [
+            true
+          ]
+        }
+      ],
+      "observation": "PDF Table/TR/TH/TD structure and header-cell count match the source table contract",
+      "source_path": "integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I01_REALISTIC_REPORT__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I01_REALISTIC_REPORT",
+      "property_instance": "I01-document-language",
+      "feature": "document_language",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "MUTATED",
+      "result": "ALTERED",
+      "evidence_status": "OBSERVED_DIFFERENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "destination_sha256": "cbca548309ede45d73778ee35f0eff34463bfef39234ac97d90fe153c3c50978",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I01_REALISTIC_REPORT__GOOGLE_DOCS.pdf"
+          }
+        }
+      ],
+      "observation": "",
+      "source_path": "integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I01_REALISTIC_REPORT__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I01_REALISTIC_REPORT",
+      "property_instance": "I01-hyperlink",
+      "feature": "hyperlinks",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "UNRESOLVED_EQUIVALENCE",
+      "evidence_status": "UNRESOLVED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "destination_sha256": "cbca548309ede45d73778ee35f0eff34463bfef39234ac97d90fe153c3c50978",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I01_REALISTIC_REPORT__GOOGLE_DOCS.pdf"
+          }
+        }
+      ],
+      "observation": "URI and link annotation survive; visible link-name association was not independently recoverable from the PDF structure",
+      "source_path": "integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I01_REALISTIC_REPORT__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I01_REALISTIC_REPORT",
+      "property_instance": "I01-title",
+      "feature": "document_title",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "MUTATED",
+      "result": "ALTERED",
+      "evidence_status": "OBSERVED_DIFFERENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "4051a06d6eba0ba1aacbdd872f4b88237bcc1a52f47050269c075c6b9612b4bf",
+      "destination_sha256": "cbca548309ede45d73778ee35f0eff34463bfef39234ac97d90fe153c3c50978",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I01_REALISTIC_REPORT__GOOGLE_DOCS.pdf"
+          }
+        }
+      ],
+      "observation": "",
+      "source_path": "integrated_study\\sources\\I01_REALISTIC_REPORT.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I01_REALISTIC_REPORT__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I02_EDUCATIONAL_HANDOUT",
+      "property_instance": "I02-heading-hierarchy",
+      "feature": "headings",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "SEMANTICALLY_EQUIVALENT",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "destination_sha256": "7415aceab6f45b6b0671e0b94072cd83662f69efb6a07bbcd193ac7e8a0cf1a1",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I02_EDUCATIONAL_HANDOUT__LIBREOFFICE.pdf"
+          }
+        },
+        {
+          "source_heading_levels": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "destination_heading_levels": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "destination_heading_roles": [
+            "H1",
+            "H1",
+            "H1",
+            "H1",
+            "H1"
+          ]
+        }
+      ],
+      "observation": "heading level/order preserved; PDF marked-content text was not available for every heading node",
+      "source_path": "integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I02_EDUCATIONAL_HANDOUT__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I02_EDUCATIONAL_HANDOUT",
+      "property_instance": "I02-inline-language",
+      "feature": "inline_language",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "EXACT_PRESERVATION",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "destination_sha256": "7415aceab6f45b6b0671e0b94072cd83662f69efb6a07bbcd193ac7e8a0cf1a1",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I02_EDUCATIONAL_HANDOUT__LIBREOFFICE.pdf"
+          }
+        }
+      ],
+      "observation": "",
+      "source_path": "integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I02_EDUCATIONAL_HANDOUT__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I02_EDUCATIONAL_HANDOUT",
+      "property_instance": "I02-equation",
+      "feature": "equation",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "SEMANTICALLY_EQUIVALENT",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "destination_sha256": "7415aceab6f45b6b0671e0b94072cd83662f69efb6a07bbcd193ac7e8a0cf1a1",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I02_EDUCATIONAL_HANDOUT__LIBREOFFICE.pdf"
+          }
+        }
+      ],
+      "observation": "PDF /Formula structure is present and the visible expression is retained; token-level math extraction remains limited",
+      "source_path": "integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I02_EDUCATIONAL_HANDOUT__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I02_EDUCATIONAL_HANDOUT",
+      "property_instance": "I02-footnote",
+      "feature": "footnotes",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "MEASUREMENT_ERROR",
+      "result": "MEASUREMENT_ERROR",
+      "evidence_status": "MEASUREMENT_FAILURE",
+      "source_oracle": "PASS",
+      "triangulation_status": "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "destination_sha256": "7415aceab6f45b6b0671e0b94072cd83662f69efb6a07bbcd193ac7e8a0cf1a1",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I02_EDUCATIONAL_HANDOUT__LIBREOFFICE.pdf"
+          }
+        }
+      ],
+      "observation": "PDF /Note structure exists, but marked-content extraction did not recover note-body text for association verification",
+      "source_path": "integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I02_EDUCATIONAL_HANDOUT__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I02_EDUCATIONAL_HANDOUT",
+      "property_instance": "I02-caption",
+      "feature": "captions",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "UNRESOLVED_EQUIVALENCE",
+      "evidence_status": "UNRESOLVED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "destination_sha256": "7415aceab6f45b6b0671e0b94072cd83662f69efb6a07bbcd193ac7e8a0cf1a1",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I02_EDUCATIONAL_HANDOUT__LIBREOFFICE.pdf"
+          }
+        }
+      ],
+      "observation": "",
+      "source_path": "integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I02_EDUCATIONAL_HANDOUT__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I02_EDUCATIONAL_HANDOUT",
+      "property_instance": "I02-hyperlink",
+      "feature": "hyperlinks",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "MUTATED",
+      "result": "ALTERED",
+      "evidence_status": "OBSERVED_DIFFERENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "destination_sha256": "7415aceab6f45b6b0671e0b94072cd83662f69efb6a07bbcd193ac7e8a0cf1a1",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I02_EDUCATIONAL_HANDOUT__LIBREOFFICE.pdf"
+          }
+        }
+      ],
+      "observation": "destination link target or count differs from source",
+      "source_path": "integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I02_EDUCATIONAL_HANDOUT__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I02_EDUCATIONAL_HANDOUT",
+      "property_instance": "I02-heading-hierarchy",
+      "feature": "headings",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "OBSERVED_PARTIAL",
+      "evidence_status": "OBSERVED_PARTIAL",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "destination_sha256": "36ad5dcafa114f2a881fa83a0d27a0f7a52eccd1d014bc16d214e4a0b6fa6fb4",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I02_EDUCATIONAL_HANDOUT__GOOGLE_DOCS.pdf"
+          }
+        },
+        {
+          "source_heading_levels": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "destination_heading_levels": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "destination_heading_roles": [
+            "H1",
+            "H1",
+            "H1",
+            "H1",
+            "H1",
+            "H1"
+          ]
+        }
+      ],
+      "observation": "PDF contains heading structure but the level/order sequence differs from source",
+      "source_path": "integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I02_EDUCATIONAL_HANDOUT__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I02_EDUCATIONAL_HANDOUT",
+      "property_instance": "I02-inline-language",
+      "feature": "inline_language",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "LOST",
+      "result": "CONFIRMED_LOST",
+      "evidence_status": "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "destination_sha256": "36ad5dcafa114f2a881fa83a0d27a0f7a52eccd1d014bc16d214e4a0b6fa6fb4",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I02_EDUCATIONAL_HANDOUT__GOOGLE_DOCS.pdf"
+          }
+        }
+      ],
+      "observation": "document language may survive while inline override is absent",
+      "source_path": "integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I02_EDUCATIONAL_HANDOUT__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I02_EDUCATIONAL_HANDOUT",
+      "property_instance": "I02-equation",
+      "feature": "equation",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "UNRESOLVED_EQUIVALENCE",
+      "evidence_status": "UNRESOLVED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "destination_sha256": "36ad5dcafa114f2a881fa83a0d27a0f7a52eccd1d014bc16d214e4a0b6fa6fb4",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I02_EDUCATIONAL_HANDOUT__GOOGLE_DOCS.pdf"
+          }
+        }
+      ],
+      "observation": "equation rendering is present in page text/content, but no machine-readable PDF math structure was extracted",
+      "source_path": "integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I02_EDUCATIONAL_HANDOUT__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I02_EDUCATIONAL_HANDOUT",
+      "property_instance": "I02-footnote",
+      "feature": "footnotes",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "LOST",
+      "result": "CONFIRMED_LOST",
+      "evidence_status": "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "destination_sha256": "36ad5dcafa114f2a881fa83a0d27a0f7a52eccd1d014bc16d214e4a0b6fa6fb4",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I02_EDUCATIONAL_HANDOUT__GOOGLE_DOCS.pdf"
+          }
+        }
+      ],
+      "observation": "",
+      "source_path": "integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I02_EDUCATIONAL_HANDOUT__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I02_EDUCATIONAL_HANDOUT",
+      "property_instance": "I02-caption",
+      "feature": "captions",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "UNRESOLVED_EQUIVALENCE",
+      "evidence_status": "UNRESOLVED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "destination_sha256": "36ad5dcafa114f2a881fa83a0d27a0f7a52eccd1d014bc16d214e4a0b6fa6fb4",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I02_EDUCATIONAL_HANDOUT__GOOGLE_DOCS.pdf"
+          }
+        }
+      ],
+      "observation": "",
+      "source_path": "integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I02_EDUCATIONAL_HANDOUT__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I02_EDUCATIONAL_HANDOUT",
+      "property_instance": "I02-hyperlink",
+      "feature": "hyperlinks",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "UNRESOLVED_EQUIVALENCE",
+      "evidence_status": "UNRESOLVED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "643c26eb1e20c3f33501aa417630281265d3460bc5623bf11a0581216babc7ec",
+      "destination_sha256": "36ad5dcafa114f2a881fa83a0d27a0f7a52eccd1d014bc16d214e4a0b6fa6fb4",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I02_EDUCATIONAL_HANDOUT__GOOGLE_DOCS.pdf"
+          }
+        }
+      ],
+      "observation": "URI and link annotation survive; visible link-name association was not independently recoverable from the PDF structure",
+      "source_path": "integrated_study\\sources\\I02_EDUCATIONAL_HANDOUT.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I02_EDUCATIONAL_HANDOUT__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-heading-hierarchy",
+      "feature": "headings",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "SEMANTICALLY_EQUIVALENT",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "a4fab263bbb833b779cb9d47fbd061b5b8413900a16f586de26d20a214512f64",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+          }
+        },
+        {
+          "source_heading_levels": [
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "destination_heading_levels": [
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "destination_heading_roles": [
+            "H1",
+            "H1",
+            "H2",
+            "H2",
+            "H1",
+            "H1",
+            "H1",
+            "H1"
+          ]
+        }
+      ],
+      "observation": "heading level/order preserved; PDF marked-content text was not available for every heading node",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-lists",
+      "feature": "lists",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "OBSERVED_PARTIAL",
+      "evidence_status": "OBSERVED_PARTIAL",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "a4fab263bbb833b779cb9d47fbd061b5b8413900a16f586de26d20a214512f64",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+          }
+        },
+        {
+          "source_items": 7,
+          "destination_items": 7,
+          "source_blocks": 1,
+          "destination_blocks": 2,
+          "source_nested_items": 2,
+          "destination_nested_blocks": 1
+        }
+      ],
+      "observation": "some list structure survives but item count or nesting differs",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-table-headers",
+      "feature": "table",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "SEMANTICALLY_EQUIVALENT",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "a4fab263bbb833b779cb9d47fbd061b5b8413900a16f586de26d20a214512f64",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+          }
+        },
+        {
+          "source_dimensions": {
+            "rows": 4,
+            "columns": 3
+          },
+          "destination_table_count": 1,
+          "source_cell_count": 12,
+          "destination_cell_count": 12,
+          "destination_header_count": 3,
+          "destination_table_headers": [
+            true
+          ]
+        }
+      ],
+      "observation": "PDF Table/TR/TH/TD structure and header-cell count match the source table contract",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-image-alt",
+      "feature": "image_alt_text",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "OBSERVED_PARTIAL",
+      "evidence_status": "OBSERVED_PARTIAL",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "a4fab263bbb833b779cb9d47fbd061b5b8413900a16f586de26d20a214512f64",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+          }
+        }
+      ],
+      "observation": "figure count or decorative/alternative-text state differs",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-decorative-image",
+      "feature": "decorative_image",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "UNRESOLVED_EQUIVALENCE",
+      "evidence_status": "UNRESOLVED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "a4fab263bbb833b779cb9d47fbd061b5b8413900a16f586de26d20a214512f64",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+          }
+        }
+      ],
+      "observation": "destination uses Figure elements with empty alternative text; no explicit PDF Artifact/decorative representation was established",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-document-language",
+      "feature": "document_language",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "EXACT_PRESERVATION",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "a4fab263bbb833b779cb9d47fbd061b5b8413900a16f586de26d20a214512f64",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+          }
+        }
+      ],
+      "observation": "",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-inline-language",
+      "feature": "inline_language",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "EXACT_PRESERVATION",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "a4fab263bbb833b779cb9d47fbd061b5b8413900a16f586de26d20a214512f64",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+          }
+        }
+      ],
+      "observation": "",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-hyperlink",
+      "feature": "hyperlinks",
+      "pipeline": "LibreOffice",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "UNRESOLVED_EQUIVALENCE",
+      "evidence_status": "UNRESOLVED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "a4fab263bbb833b779cb9d47fbd061b5b8413900a16f586de26d20a214512f64",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+          }
+        }
+      ],
+      "observation": "URI and link annotation survive; visible link-name association was not independently recoverable from the PDF structure",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\libreoffice\\I03_POLICY_NOTE__LIBREOFFICE.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-heading-hierarchy",
+      "feature": "headings",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "OBSERVED_PARTIAL",
+      "evidence_status": "OBSERVED_PARTIAL",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "3562c2a141a09a7f62219463728a0e5debe2a957c91a9f059e7d3f55df9415a8",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+          }
+        },
+        {
+          "source_heading_levels": [
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "destination_heading_levels": [
+            1,
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "destination_heading_roles": [
+            "H1",
+            "H1",
+            "H1",
+            "H2",
+            "H2",
+            "H1",
+            "H1",
+            "H1",
+            "H1"
+          ]
+        }
+      ],
+      "observation": "PDF contains heading structure but the level/order sequence differs from source",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-lists",
+      "feature": "lists",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "OBSERVED_PARTIAL",
+      "evidence_status": "OBSERVED_PARTIAL",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "3562c2a141a09a7f62219463728a0e5debe2a957c91a9f059e7d3f55df9415a8",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+          }
+        },
+        {
+          "source_items": 7,
+          "destination_items": 7,
+          "source_blocks": 1,
+          "destination_blocks": 2,
+          "source_nested_items": 2,
+          "destination_nested_blocks": 1
+        }
+      ],
+      "observation": "some list structure survives but item count or nesting differs",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-table-headers",
+      "feature": "table",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "SEMANTICALLY_EQUIVALENT",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "3562c2a141a09a7f62219463728a0e5debe2a957c91a9f059e7d3f55df9415a8",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+          }
+        },
+        {
+          "source_dimensions": {
+            "rows": 4,
+            "columns": 3
+          },
+          "destination_table_count": 1,
+          "source_cell_count": 12,
+          "destination_cell_count": 12,
+          "destination_header_count": 3,
+          "destination_table_headers": [
+            true
+          ]
+        }
+      ],
+      "observation": "PDF Table/TR/TH/TD structure and header-cell count match the source table contract",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-image-alt",
+      "feature": "image_alt_text",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "EXACT_PRESERVATION",
+      "result": "VERIFIED_PRESERVED",
+      "evidence_status": "VERIFIED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "3562c2a141a09a7f62219463728a0e5debe2a957c91a9f059e7d3f55df9415a8",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+          }
+        }
+      ],
+      "observation": "",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-decorative-image",
+      "feature": "decorative_image",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "UNRESOLVED_EQUIVALENCE",
+      "evidence_status": "UNRESOLVED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "3562c2a141a09a7f62219463728a0e5debe2a957c91a9f059e7d3f55df9415a8",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+          }
+        }
+      ],
+      "observation": "destination uses Figure elements with empty alternative text; no explicit PDF Artifact/decorative representation was established",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-document-language",
+      "feature": "document_language",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "MUTATED",
+      "result": "ALTERED",
+      "evidence_status": "OBSERVED_DIFFERENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "3562c2a141a09a7f62219463728a0e5debe2a957c91a9f059e7d3f55df9415a8",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+          }
+        }
+      ],
+      "observation": "",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-inline-language",
+      "feature": "inline_language",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "LOST",
+      "result": "CONFIRMED_LOST",
+      "evidence_status": "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "3562c2a141a09a7f62219463728a0e5debe2a957c91a9f059e7d3f55df9415a8",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+          }
+        }
+      ],
+      "observation": "document language may survive while inline override is absent",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+    },
+    {
+      "document": "I03_POLICY_NOTE",
+      "property_instance": "I03-hyperlink",
+      "feature": "hyperlinks",
+      "pipeline": "Google Docs",
+      "historical_comparator_result": "PARTIAL_PRESERVATION",
+      "result": "UNRESOLVED_EQUIVALENCE",
+      "evidence_status": "UNRESOLVED_EQUIVALENCE",
+      "source_oracle": "PASS",
+      "triangulation_status": null,
+      "source_sha256": "98443f9579a2cc1f6b20f1320dcd76ed5fe0c781c95d0f1c54141a0c44d2d0ff",
+      "destination_sha256": "3562c2a141a09a7f62219463728a0e5debe2a957c91a9f059e7d3f55df9415a8",
+      "destination_evidence": [
+        {
+          "source": {
+            "method": "deterministic OOXML inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\sources\\I03_POLICY_NOTE.docx",
+            "independent_raw_package": true
+          },
+          "destination": {
+            "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+            "source": "<ARTIFACT_ROOT>\\integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+          }
+        }
+      ],
+      "observation": "URI and link annotation survive; visible link-name association was not independently recoverable from the PDF structure",
+      "source_path": "integrated_study\\sources\\I03_POLICY_NOTE.docx",
+      "destination_path": "integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf"
+    }
+  ]
+}

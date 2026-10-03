@@ -1,0 +1,28 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{What the benchmark demonstrates}
+
+The primary result is methodological: accessibility preservation can be measured when source properties are explicitly known and destination representations can be inspected. The evidence-aware 26-case result contains 11 verified preserved cases, 3 observed partial cases, 3 alterations, 2 independently confirmed losses, 6 unresolved equivalence cases, and 1 measurement error. The categories do not collapse uncertainty into converter degradation: directly demonstrated changes are separated from cases where an alternate cross-format representation cannot yet be established.
+
+This distinction matters because destination accessibility and source-information preservation answer different questions. A tagged PDF can contain headings, figures, or tables and still fail to preserve a particular source property. The F02 case is concrete: LibreOffice retained an alternative description but changed the author-provided string. Conversely, a missing destination structure can be a measurement problem rather than a converter loss, as shown by the LibreOffice F11 case. The comparison therefore complements, rather than replaces, destination-only accessibility evaluation.
+
+\subsection{Converter-dependent behavior}
+
+The same frozen DOCX source produced different historical V1 outcomes in 10 of 13 feature rows. The differences are property-specific rather than evidence for a universal winner. Google Docs retained F02 alt text exactly but confirmed loss of F06 inline language and F11 footnote structure in the tested pipeline. LibreOffice preserved explicit list-type evidence in F03 but altered F02 alt text. Such results support reporting the behavior of a named pipeline under a named configuration, not ranking products globally.
+
+The Google findings should also be attributed carefully. The pipeline includes import and internal representation before PDF download. The data establish end-to-end behavior under the recorded workflow, not an isolated defect in Google's PDF renderer.
+
+The integrated sanity check provides a limited external-validity signal: the same contracts and evidence statuses remained usable across three multi-feature documents. It is a secondary applicability demonstration, not a representative corpus or a new population estimate.
+
+\subsection{Implications for authoring and conversion}
+
+Standards and guidance already recognize preservation as a transformation concern. ATAG 2.0 includes a success criterion for preserving accessibility information during restructuring or recoding transformations when equivalent mechanisms exist, including text alternatives for non-text content \cite{atag20}. Revised Section 508 states that authoring tools should preserve information required for accessibility to the extent supported by the destination format \cite{section508}. EN 301 549 includes a corresponding requirement for preservation during transformations \cite{etsi301549}. A11yPreserve operationalizes this concern as a reproducible source/destination comparison for a constrained set of DOCX-to-PDF properties.
+
+For document authors and publishing engineers, the practical implication is not that every export must be rejected or that one tool should always be selected. Rather, checking the destination should be complemented by checking whether critical author-supplied properties survived. The frozen benchmark suggests that this check can be automated for selected structures and that cases requiring human or improved parser review should remain explicitly marked.
+
+\subsection{Contribution boundary}
+
+A11yPreserve is a source-contract conformance protocol, benchmark, comparison tool, and empirical study. \texttt{a11ydiff} is the operational component, not the whole contribution. The reusable artifact is the combination of versioned contracts, independent source certificates, calibrated differential comparison, destination-parser triangulation, and explicit uncertainty statuses. The work does not attempt to build a general PDF checker, determine user preference, estimate population prevalence, or replace disabled-user evaluation. Its contribution is a concrete measurement chain from verified source information to destination structure and a conservative classification.
+
+

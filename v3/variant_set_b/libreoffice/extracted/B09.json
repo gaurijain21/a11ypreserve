@@ -1,0 +1,47 @@
+{
+  "format": "pdf",
+  "title": "Variant B09: title / metadata",
+  "language": "en-US",
+  "document": {
+    "title": "Variant B09: title / metadata",
+    "language": "en-US",
+    "metadata": {
+      "Title": "Variant B09: title / metadata",
+      "Author": "A11yPreserve variant set",
+      "Subject": "Variant B09 subject: preservation",
+      "Keywords": "a11y, PDF, DOCX, 2026",
+      "Creator": "Writer",
+      "Producer": "LibreOffice 26.2.6.3 (X86_64)",
+      "CreationDate": "D:20260928174427-07'00'"
+    }
+  },
+  "headings": [],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {
+      "/Title": "/P",
+      "/Standard": "/P"
+    },
+    "pages": 1
+  },
+  "text_preview": "Variant B09: title / metadata\nVisible and core metadata values are declared separately.",
+  "pdf_text": "Variant B09: title / metadata\nVisible and core metadata values are declared separately.",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\v3\\variant_set_b\\libreoffice\\outputs\\B09__LIBREOFFICE.pdf"
+  }
+}

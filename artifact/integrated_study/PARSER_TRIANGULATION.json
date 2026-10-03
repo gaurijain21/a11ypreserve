@@ -1,0 +1,95 @@
+{
+  "tool_paths": [
+    "pypdf structure traversal",
+    "PyMuPDF page/text/link extraction",
+    "raw serialized-PDF marker scan"
+  ],
+  "records": [
+    {
+      "path": "integrated_study\\outputs\\google_docs\\I02_EDUCATIONAL_HANDOUT__GOOGLE_DOCS.pdf",
+      "pypdf_roles": [
+        "/Document",
+        "/Figure",
+        "/H1",
+        "/L",
+        "/LBody",
+        "/LI",
+        "/Link",
+        "/P",
+        "/Span"
+      ],
+      "pypdf_languages": [],
+      "pypdf_absence": {
+        "note_or_footnote": true,
+        "es-MX": true
+      },
+      "raw_marker_scan_absence": true,
+      "pymupdf_text_contains_expected": true,
+      "pymupdf_link_count": 1,
+      "pymupdf_text_preview": "Accessible Learning Handout: Reading \nEvidence in Public Reports \nAn academic handout for a short course on evidence, interpretation, and inclusive communication. \nLearning goals \nBy the end of the session, learners should be able to distinguish an observation from an interpretation, \nidentify the structure that carries an author’s meaning, and explain why a converted document may require \na second inspection. \nThe handout uses a short bilingual example because language changes are part of docum",
+      "document": "I02_EDUCATIONAL_HANDOUT",
+      "feature": "inline_language",
+      "expected_text": "Buenos días",
+      "status": "INDEPENDENTLY_CONFIRMED_ABSENCE"
+    },
+    {
+      "path": "integrated_study\\outputs\\google_docs\\I02_EDUCATIONAL_HANDOUT__GOOGLE_DOCS.pdf",
+      "pypdf_roles": [
+        "/Document",
+        "/Figure",
+        "/H1",
+        "/L",
+        "/LBody",
+        "/LI",
+        "/Link",
+        "/P",
+        "/Span"
+      ],
+      "pypdf_languages": [],
+      "pypdf_absence": {
+        "note_or_footnote": true,
+        "es-MX": true
+      },
+      "raw_marker_scan_absence": true,
+      "pymupdf_text_contains_expected": true,
+      "pymupdf_link_count": 1,
+      "pymupdf_text_preview": "Accessible Learning Handout: Reading \nEvidence in Public Reports \nAn academic handout for a short course on evidence, interpretation, and inclusive communication. \nLearning goals \nBy the end of the session, learners should be able to distinguish an observation from an interpretation, \nidentify the structure that carries an author’s meaning, and explain why a converted document may require \na second inspection. \nThe handout uses a short bilingual example because language changes are part of docum",
+      "document": "I02_EDUCATIONAL_HANDOUT",
+      "feature": "footnotes",
+      "expected_text": "This note identifies the source used for the classroom example.",
+      "status": "INDEPENDENTLY_CONFIRMED_ABSENCE"
+    },
+    {
+      "path": "integrated_study\\outputs\\google_docs\\I03_POLICY_NOTE__GOOGLE_DOCS.pdf",
+      "pypdf_roles": [
+        "/Document",
+        "/Figure",
+        "/H1",
+        "/H2",
+        "/L",
+        "/LBody",
+        "/LI",
+        "/Link",
+        "/P",
+        "/Span",
+        "/TD",
+        "/TH",
+        "/TR",
+        "/Table"
+      ],
+      "pypdf_languages": [],
+      "pypdf_absence": {
+        "note_or_footnote": true,
+        "es-MX": true
+      },
+      "raw_marker_scan_absence": true,
+      "pymupdf_text_contains_expected": true,
+      "pymupdf_link_count": 1,
+      "pymupdf_text_preview": "Plain-Language Policy Note: Updating \nPublic Information \nPolicy and implementation note | Version 2.0 | 2025 \nPurpose \nThis note explains how an agency should update public information while preserving the structure that \nhelps readers find, understand, and reuse it. The policy applies to web pages, downloadable documents, \nand converted PDF copies. \nThe note is intentionally written in plain language. Short sections, descriptive headings, lists, and tables \nmake the decision path visible witho",
+      "document": "I03_POLICY_NOTE",
+      "feature": "inline_language",
+      "expected_text": "información pública",
+      "status": "INDEPENDENTLY_CONFIRMED_ABSENCE"
+    }
+  ]
+}

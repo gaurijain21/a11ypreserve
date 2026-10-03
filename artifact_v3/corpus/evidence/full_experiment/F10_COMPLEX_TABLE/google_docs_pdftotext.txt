@@ -1,0 +1,18 @@
+24 [0x00000e08] INFO pdftotext null - this process (21492) started by python in directory <ARTIFACT_ROOT> with command line: <LOCAL_USER_ROOT>\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdftotext.EXE -layout <ARTIFACT_ROOT>\results\full_experiment\outputs\google_docs\F10_COMPLEX_TABLE__GOOGLE_DOCS.pdf -
+
+24 [0x00000e08] INFO pdftotext null - running on Windows 10.0.26200
+
+70 [0x00000e08] INFO pdftotext null - this process (21492) finishes with exit code 1
+
+85 [0x00000e08] ERROR trace.pdftotext.core null - Access is denied.
+
+
+
+85 [0x00000e08] ERROR trace.pdftotext.core null - Function: CreateDirectoryW
+
+85 [0x00000e08] ERROR trace.pdftotext.core null - Result: 5
+
+85 [0x00000e08] ERROR trace.pdftotext.core null - Data: path="<LOCAL_USER_ROOT>\AppData\Roaming\MiKTeX\2.9\miktex"
+
+86 [0x00000e08] ERROR trace.pdftotext.core null - Source: Libraries\MiKTeX\Core\win\win.cpp:271
+

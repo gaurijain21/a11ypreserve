@@ -1,0 +1,48 @@
+{
+  "format": "pdf",
+  "title": "F12_EQUATION",
+  "language": "en",
+  "document": {
+    "title": "F12_EQUATION",
+    "language": "en",
+    "metadata": {
+      "Title": "F12_EQUATION",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(9, 0, 2294776882768), '/Pg': IndirectObject(2, 0, 2294776882768), '/K': 0}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "A11yPreserve\n \nEquation\n \nFixture\n \nThe\n \nfixture\n \ncontains\n \na\n \nnative\n \nOMML\n \nequation\n \nrather\n \nthan\n \nan\n \nimage\n \nsubstitute.\n \n \n𝐸\n=\n𝑚\n𝑐\n 2",
+  "pdf_text": "A11yPreserve\n \nEquation\n \nFixture\n \nThe\n \nfixture\n \ncontains\n \na\n \nnative\n \nOMML\n \nequation\n \nrather\n \nthan\n \nan\n \nimage\n \nsubstitute.\n \n \n𝐸\n=\n𝑚\n𝑐\n 2",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F12_EQUATION__GOOGLE_DOCS.pdf"
+  }
+}

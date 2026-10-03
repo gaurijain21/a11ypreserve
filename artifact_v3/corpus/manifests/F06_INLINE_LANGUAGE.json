@@ -1,0 +1,19 @@
+{
+  "fixture_id": "F06_INLINE_LANGUAGE",
+  "feature": "inline_language",
+  "source_format": "DOCX",
+  "contract_version": "phase4-v1",
+  "document": {
+    "title": "A11yPreserve Inline Language Fixture",
+    "language": "en-US"
+  },
+  "ground_truth": {
+    "document_language": "en-US",
+    "runs": [
+      {
+        "text": "Buenos días",
+        "language": "es-MX"
+      }
+    ]
+  }
+}

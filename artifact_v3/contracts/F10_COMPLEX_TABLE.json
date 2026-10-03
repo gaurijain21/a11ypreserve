@@ -1,0 +1,105 @@
+{
+  "contract_version": "a11ypreserve-contract-v1",
+  "fixture_id": "F10_COMPLEX_TABLE",
+  "source": {
+    "format": "DOCX",
+    "feature": "complex_table",
+    "fixture_path": "corpus/fixtures/F10_COMPLEX_TABLE.docx",
+    "sha256": "eacf8f49328015d6ce66084a92173f73b63bed4878a60943c8dbf0a7beeae992",
+    "manifest_path": "corpus/manifests/F10_COMPLEX_TABLE.json",
+    "manifest_sha256": "fc958ceb9c1f811dfde37814a0cbe5a6b206c5c2f3cb2c9d9cbef8fb792b27fe",
+    "oracle": "independent raw OOXML ZIP/XML inspection plus source extractor agreement"
+  },
+  "destination": {
+    "format": "PDF",
+    "representation_requirement": "multi-level header groups and cell associations preserved",
+    "accepted_equivalents": [
+      "table header structure with equivalent span/association attributes"
+    ]
+  },
+  "contract": {
+    "feature_contract": {
+      "table": {
+        "dimensions": {
+          "rows": 5,
+          "columns": 3
+        },
+        "header_rows": [
+          0,
+          1
+        ],
+        "header_groups": [
+          {
+            "text": "Enrollment",
+            "columns": [
+              0,
+              1
+            ]
+          },
+          {
+            "text": "Outcome",
+            "columns": [
+              2
+            ]
+          }
+        ],
+        "headers": [
+          "Year",
+          "Students",
+          "Completion Rate"
+        ],
+        "cells": [
+          [
+            "Enrollment",
+            "Outcome"
+          ],
+          [
+            "Year",
+            "Students",
+            "Completion Rate"
+          ],
+          [
+            "2024",
+            "120",
+            "82%"
+          ],
+          [
+            "2025",
+            "150",
+            "87%"
+          ],
+          [
+            "2026",
+            "180",
+            "91%"
+          ]
+        ]
+      }
+    }
+  },
+  "decision_rules": {
+    "outcomes": [
+      "PRESERVED",
+      "PARTIALLY_PRESERVED",
+      "ALTERED",
+      "LOST",
+      "MEASUREMENT_ERROR"
+    ],
+    "evidence_statuses": [
+      "VERIFIED_EQUIVALENCE",
+      "OBSERVED_DIFFERENCE",
+      "OBSERVED_PARTIAL",
+      "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "UNRESOLVED_EQUIVALENCE",
+      "INSUFFICIENT_EVIDENCE",
+      "MEASUREMENT_FAILURE"
+    ],
+    "equivalence_rule": "Declare PRESERVED only when the destination representation satisfies the feature contract; otherwise record the observed difference or partial evidence without inferring semantic absence from a single extractor encoding.",
+    "uncertainty_rule": "If a feature-specific equivalent cannot be established with the available destination evidence, retain the frozen outcome but label the evidence UNRESOLVED_EQUIVALENCE or INSUFFICIENT_EVIDENCE; use MEASUREMENT_FAILURE only when the measurement path fails."
+  },
+  "provenance": {
+    "frozen_corpus": "corpus/FROZEN_CORPUS_MANIFEST.json",
+    "primary_results": "results/full_experiment/PRIMARY_RESULTS_FREEZE.json",
+    "contract_materializer": "scripts/build_contracts.py"
+  }
+}

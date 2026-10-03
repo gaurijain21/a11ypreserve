@@ -1,0 +1,316 @@
+{
+  "protocol": "V3 blind-at-label-level reclassification",
+  "historical_labels_used_as_input": false,
+  "rows": [
+    {
+      "fixture": "F01_HEADINGS",
+      "pipeline": "LibreOffice",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "all_required_components_equivalent": true,
+        "evidence_sufficient": true
+      },
+      "v3_decision": "VERIFIED_PRESERVED"
+    },
+    {
+      "fixture": "F01_HEADINGS",
+      "pipeline": "Google Docs",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "contract_has_multiple_components": true,
+        "required_component_present": true,
+        "required_component_directly_differs_or_absent": true,
+        "missing_component_is_measured": true
+      },
+      "v3_decision": "OBSERVED_PARTIAL"
+    },
+    {
+      "fixture": "F02_ALT_TEXT",
+      "pipeline": "LibreOffice",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "concept_present": true,
+        "author_relevant_value_differs": true
+      },
+      "v3_decision": "ALTERED"
+    },
+    {
+      "fixture": "F02_ALT_TEXT",
+      "pipeline": "Google Docs",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "all_required_components_equivalent": true,
+        "evidence_sufficient": true
+      },
+      "v3_decision": "VERIFIED_PRESERVED"
+    },
+    {
+      "fixture": "F03_LISTS",
+      "pipeline": "LibreOffice",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "all_required_components_equivalent": true,
+        "evidence_sufficient": true
+      },
+      "v3_decision": "VERIFIED_PRESERVED"
+    },
+    {
+      "fixture": "F03_LISTS",
+      "pipeline": "Google Docs",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "evidence_sufficient": false
+      },
+      "v3_decision": "UNRESOLVED_EQUIVALENCE"
+    },
+    {
+      "fixture": "F04_TABLE",
+      "pipeline": "LibreOffice",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "all_required_components_equivalent": true,
+        "evidence_sufficient": true
+      },
+      "v3_decision": "VERIFIED_PRESERVED"
+    },
+    {
+      "fixture": "F04_TABLE",
+      "pipeline": "Google Docs",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "all_required_components_equivalent": true,
+        "evidence_sufficient": true
+      },
+      "v3_decision": "VERIFIED_PRESERVED"
+    },
+    {
+      "fixture": "F05_DOCUMENT_LANGUAGE",
+      "pipeline": "LibreOffice",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "all_required_components_equivalent": true,
+        "evidence_sufficient": true
+      },
+      "v3_decision": "VERIFIED_PRESERVED"
+    },
+    {
+      "fixture": "F05_DOCUMENT_LANGUAGE",
+      "pipeline": "Google Docs",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "concept_present": true,
+        "author_relevant_value_differs": true
+      },
+      "v3_decision": "ALTERED"
+    },
+    {
+      "fixture": "F06_INLINE_LANGUAGE",
+      "pipeline": "LibreOffice",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "all_required_components_equivalent": true,
+        "evidence_sufficient": true
+      },
+      "v3_decision": "VERIFIED_PRESERVED"
+    },
+    {
+      "fixture": "F06_INLINE_LANGUAGE",
+      "pipeline": "Google Docs",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "required_representation_absent": true,
+        "independent_absence_corroborated": true
+      },
+      "v3_decision": "CONFIRMED_LOST"
+    },
+    {
+      "fixture": "F07_DECORATIVE_IMAGE",
+      "pipeline": "LibreOffice",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "contract_has_multiple_components": true,
+        "required_component_present": true,
+        "required_component_directly_differs_or_absent": true,
+        "missing_component_is_measured": true
+      },
+      "v3_decision": "OBSERVED_PARTIAL"
+    },
+    {
+      "fixture": "F07_DECORATIVE_IMAGE",
+      "pipeline": "Google Docs",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "contract_has_multiple_components": true,
+        "required_component_present": true,
+        "required_component_directly_differs_or_absent": true,
+        "missing_component_is_measured": true
+      },
+      "v3_decision": "OBSERVED_PARTIAL"
+    },
+    {
+      "fixture": "F08_LINKS",
+      "pipeline": "LibreOffice",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "evidence_sufficient": false
+      },
+      "v3_decision": "UNRESOLVED_EQUIVALENCE"
+    },
+    {
+      "fixture": "F08_LINKS",
+      "pipeline": "Google Docs",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "evidence_sufficient": false
+      },
+      "v3_decision": "UNRESOLVED_EQUIVALENCE"
+    },
+    {
+      "fixture": "F09_DOCUMENT_TITLE",
+      "pipeline": "LibreOffice",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "all_required_components_equivalent": true,
+        "evidence_sufficient": true
+      },
+      "v3_decision": "VERIFIED_PRESERVED"
+    },
+    {
+      "fixture": "F09_DOCUMENT_TITLE",
+      "pipeline": "Google Docs",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "concept_present": true,
+        "author_relevant_value_differs": true
+      },
+      "v3_decision": "ALTERED"
+    },
+    {
+      "fixture": "F10_COMPLEX_TABLE",
+      "pipeline": "LibreOffice",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "all_required_components_equivalent": true,
+        "evidence_sufficient": true
+      },
+      "v3_decision": "VERIFIED_PRESERVED"
+    },
+    {
+      "fixture": "F10_COMPLEX_TABLE",
+      "pipeline": "Google Docs",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "evidence_sufficient": false
+      },
+      "v3_decision": "UNRESOLVED_EQUIVALENCE"
+    },
+    {
+      "fixture": "F11_FOOTNOTES",
+      "pipeline": "LibreOffice",
+      "evidence_facts": {
+        "measurement_valid": false,
+        "source_verified": true,
+        "insufficient_evidence": true
+      },
+      "v3_decision": "MEASUREMENT_ERROR"
+    },
+    {
+      "fixture": "F11_FOOTNOTES",
+      "pipeline": "Google Docs",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "required_representation_absent": true,
+        "independent_absence_corroborated": true
+      },
+      "v3_decision": "CONFIRMED_LOST"
+    },
+    {
+      "fixture": "F12_EQUATION",
+      "pipeline": "LibreOffice",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "all_required_components_equivalent": true,
+        "evidence_sufficient": true
+      },
+      "v3_decision": "VERIFIED_PRESERVED"
+    },
+    {
+      "fixture": "F12_EQUATION",
+      "pipeline": "Google Docs",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "evidence_sufficient": false
+      },
+      "v3_decision": "UNRESOLVED_EQUIVALENCE"
+    },
+    {
+      "fixture": "F14_CAPTIONS",
+      "pipeline": "LibreOffice",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "all_required_components_equivalent": true,
+        "evidence_sufficient": true
+      },
+      "v3_decision": "VERIFIED_PRESERVED"
+    },
+    {
+      "fixture": "F14_CAPTIONS",
+      "pipeline": "Google Docs",
+      "evidence_facts": {
+        "measurement_valid": true,
+        "source_verified": true,
+        "destination_representable": true,
+        "evidence_sufficient": false
+      },
+      "v3_decision": "UNRESOLVED_EQUIVALENCE"
+    }
+  ]
+}

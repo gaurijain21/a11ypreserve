@@ -1,0 +1,205 @@
+{
+  "study": "Google Core repeatability",
+  "fixture_count": 13,
+  "run_count": 39,
+  "records": [
+    {
+      "fixture": "F01_HEADINGS",
+      "run_1": "results/full_experiment/outputs/google_docs/F01_HEADINGS__GOOGLE_DOCS.pdf",
+      "run_2": "v3/google_repeatability/run2/F01_HEADINGS__GOOGLE_DOCS__R2.pdf",
+      "run_3": "v3/google_repeatability/run3/F01_HEADINGS__GOOGLE_DOCS__R3.pdf",
+      "hashes": [
+        "d6a8a93a8cd0a347448aeb65a86fd1b386dfd6204a23ab449d35da28255ce9bc",
+        "d6a8a93a8cd0a347448aeb65a86fd1b386dfd6204a23ab449d35da28255ce9bc",
+        "d6a8a93a8cd0a347448aeb65a86fd1b386dfd6204a23ab449d35da28255ce9bc"
+      ],
+      "byte_repeatability": "BYTE_IDENTICAL",
+      "run_1_classification": "OBSERVED_PARTIAL",
+      "classification_stable": true,
+      "repeatability_classification": "BYTE_IDENTICAL"
+    },
+    {
+      "fixture": "F02_ALT_TEXT",
+      "run_1": "results/full_experiment/outputs/google_docs/F02_ALT_TEXT__GOOGLE_DOCS.pdf",
+      "run_2": "v3/google_repeatability/run2/F02_ALT_TEXT__GOOGLE_DOCS__R2.pdf",
+      "run_3": "v3/google_repeatability/run3/F02_ALT_TEXT__GOOGLE_DOCS__R3.pdf",
+      "hashes": [
+        "f7d63f222cfe7413080018658f27ab3eadcf9e987e0b1166c66572aafa2dcc94",
+        "f7d63f222cfe7413080018658f27ab3eadcf9e987e0b1166c66572aafa2dcc94",
+        "f7d63f222cfe7413080018658f27ab3eadcf9e987e0b1166c66572aafa2dcc94"
+      ],
+      "byte_repeatability": "BYTE_IDENTICAL",
+      "run_1_classification": "VERIFIED_PRESERVED",
+      "classification_stable": true,
+      "repeatability_classification": "BYTE_IDENTICAL"
+    },
+    {
+      "fixture": "F03_LISTS",
+      "run_1": "results/full_experiment/outputs/google_docs/F03_LISTS__GOOGLE_DOCS.pdf",
+      "run_2": "v3/google_repeatability/run2/F03_LISTS__GOOGLE_DOCS__R2.pdf",
+      "run_3": "v3/google_repeatability/run3/F03_LISTS__GOOGLE_DOCS__R3.pdf",
+      "hashes": [
+        "d4342499a757d4cd54f07f5d077502e0c33a9c1294b3d036c62021c0d07b4289",
+        "d4342499a757d4cd54f07f5d077502e0c33a9c1294b3d036c62021c0d07b4289",
+        "d4342499a757d4cd54f07f5d077502e0c33a9c1294b3d036c62021c0d07b4289"
+      ],
+      "byte_repeatability": "BYTE_IDENTICAL",
+      "run_1_classification": "UNRESOLVED_EQUIVALENCE",
+      "classification_stable": true,
+      "repeatability_classification": "BYTE_IDENTICAL"
+    },
+    {
+      "fixture": "F04_TABLE",
+      "run_1": "results/full_experiment/outputs/google_docs/F04_TABLE__GOOGLE_DOCS.pdf",
+      "run_2": "v3/google_repeatability/run2/F04_TABLE__GOOGLE_DOCS__R2.pdf",
+      "run_3": "v3/google_repeatability/run3/F04_TABLE__GOOGLE_DOCS__R3.pdf",
+      "hashes": [
+        "32e260086253eb38625d3d740b2ee97ed58ce79c724268224d7d5cfd9487c232",
+        "32e260086253eb38625d3d740b2ee97ed58ce79c724268224d7d5cfd9487c232",
+        "32e260086253eb38625d3d740b2ee97ed58ce79c724268224d7d5cfd9487c232"
+      ],
+      "byte_repeatability": "BYTE_IDENTICAL",
+      "run_1_classification": "VERIFIED_PRESERVED",
+      "classification_stable": true,
+      "repeatability_classification": "BYTE_IDENTICAL"
+    },
+    {
+      "fixture": "F05_DOCUMENT_LANGUAGE",
+      "run_1": "results/full_experiment/outputs/google_docs/F05_DOCUMENT_LANGUAGE__GOOGLE_DOCS.pdf",
+      "run_2": "v3/google_repeatability/run2/F05_DOCUMENT_LANGUAGE__GOOGLE_DOCS__R2.pdf",
+      "run_3": "v3/google_repeatability/run3/F05_DOCUMENT_LANGUAGE__GOOGLE_DOCS__R3.pdf",
+      "hashes": [
+        "07fed6839014d52b1c555e68e969c055d500cd0d7ccce403b561c92ae34b8983",
+        "07fed6839014d52b1c555e68e969c055d500cd0d7ccce403b561c92ae34b8983",
+        "07fed6839014d52b1c555e68e969c055d500cd0d7ccce403b561c92ae34b8983"
+      ],
+      "byte_repeatability": "BYTE_IDENTICAL",
+      "run_1_classification": "ALTERED",
+      "classification_stable": true,
+      "repeatability_classification": "BYTE_IDENTICAL"
+    },
+    {
+      "fixture": "F06_INLINE_LANGUAGE",
+      "run_1": "results/full_experiment/outputs/google_docs/F06_INLINE_LANGUAGE__GOOGLE_DOCS.pdf",
+      "run_2": "v3/google_repeatability/run2/F06_INLINE_LANGUAGE__GOOGLE_DOCS__R2.pdf",
+      "run_3": "v3/google_repeatability/run3/F06_INLINE_LANGUAGE__GOOGLE_DOCS__R3.pdf",
+      "hashes": [
+        "81803dfa98d51e57dfa45addf12f92e674986103b440d95d0ed36a123c48ad1e",
+        "81803dfa98d51e57dfa45addf12f92e674986103b440d95d0ed36a123c48ad1e",
+        "81803dfa98d51e57dfa45addf12f92e674986103b440d95d0ed36a123c48ad1e"
+      ],
+      "byte_repeatability": "BYTE_IDENTICAL",
+      "run_1_classification": "CONFIRMED_LOST",
+      "classification_stable": true,
+      "repeatability_classification": "BYTE_IDENTICAL"
+    },
+    {
+      "fixture": "F07_DECORATIVE_IMAGE",
+      "run_1": "results/full_experiment/outputs/google_docs/F07_DECORATIVE_IMAGE__GOOGLE_DOCS.pdf",
+      "run_2": "v3/google_repeatability/run2/F07_DECORATIVE_IMAGE__GOOGLE_DOCS__R2.pdf",
+      "run_3": "v3/google_repeatability/run3/F07_DECORATIVE_IMAGE__GOOGLE_DOCS__R3.pdf",
+      "hashes": [
+        "73689a12630c5c667b327dc60f010db3dad2672fb70a4a3d301375a33146a755",
+        "73689a12630c5c667b327dc60f010db3dad2672fb70a4a3d301375a33146a755",
+        "73689a12630c5c667b327dc60f010db3dad2672fb70a4a3d301375a33146a755"
+      ],
+      "byte_repeatability": "BYTE_IDENTICAL",
+      "run_1_classification": "OBSERVED_PARTIAL",
+      "classification_stable": true,
+      "repeatability_classification": "BYTE_IDENTICAL"
+    },
+    {
+      "fixture": "F08_LINKS",
+      "run_1": "results/full_experiment/outputs/google_docs/F08_LINKS__GOOGLE_DOCS.pdf",
+      "run_2": "v3/google_repeatability/run2/F08_LINKS__GOOGLE_DOCS__R2.pdf",
+      "run_3": "v3/google_repeatability/run3/F08_LINKS__GOOGLE_DOCS__R3.pdf",
+      "hashes": [
+        "51fd966064ae00c340bf700392be61eccfa18f48466bab254b6179e8bc3afa93",
+        "51fd966064ae00c340bf700392be61eccfa18f48466bab254b6179e8bc3afa93",
+        "51fd966064ae00c340bf700392be61eccfa18f48466bab254b6179e8bc3afa93"
+      ],
+      "byte_repeatability": "BYTE_IDENTICAL",
+      "run_1_classification": "UNRESOLVED_EQUIVALENCE",
+      "classification_stable": true,
+      "repeatability_classification": "BYTE_IDENTICAL"
+    },
+    {
+      "fixture": "F09_DOCUMENT_TITLE",
+      "run_1": "results/full_experiment/outputs/google_docs/F09_DOCUMENT_TITLE__GOOGLE_DOCS.pdf",
+      "run_2": "v3/google_repeatability/run2/F09_DOCUMENT_TITLE__GOOGLE_DOCS__R2.pdf",
+      "run_3": "v3/google_repeatability/run3/F09_DOCUMENT_TITLE__GOOGLE_DOCS__R3.pdf",
+      "hashes": [
+        "2ddc8917cb666d7286751a2ec840752e5917ad8374d66b69dfc553bddd137eb2",
+        "2ddc8917cb666d7286751a2ec840752e5917ad8374d66b69dfc553bddd137eb2",
+        "2ddc8917cb666d7286751a2ec840752e5917ad8374d66b69dfc553bddd137eb2"
+      ],
+      "byte_repeatability": "BYTE_IDENTICAL",
+      "run_1_classification": "ALTERED",
+      "classification_stable": true,
+      "repeatability_classification": "BYTE_IDENTICAL"
+    },
+    {
+      "fixture": "F10_COMPLEX_TABLE",
+      "run_1": "results/full_experiment/outputs/google_docs/F10_COMPLEX_TABLE__GOOGLE_DOCS.pdf",
+      "run_2": "v3/google_repeatability/run2/F10_COMPLEX_TABLE__GOOGLE_DOCS__R2.pdf",
+      "run_3": "v3/google_repeatability/run3/F10_COMPLEX_TABLE__GOOGLE_DOCS__R3.pdf",
+      "hashes": [
+        "864371121f6c47f0921111f941dd0de63c1cb9d87d951ab3bb874d95962a81e9",
+        "864371121f6c47f0921111f941dd0de63c1cb9d87d951ab3bb874d95962a81e9",
+        "864371121f6c47f0921111f941dd0de63c1cb9d87d951ab3bb874d95962a81e9"
+      ],
+      "byte_repeatability": "BYTE_IDENTICAL",
+      "run_1_classification": "UNRESOLVED_EQUIVALENCE",
+      "classification_stable": true,
+      "repeatability_classification": "BYTE_IDENTICAL"
+    },
+    {
+      "fixture": "F11_FOOTNOTES",
+      "run_1": "results/full_experiment/outputs/google_docs/F11_FOOTNOTES__GOOGLE_DOCS.pdf",
+      "run_2": "v3/google_repeatability/run2/F11_FOOTNOTES__GOOGLE_DOCS__R2.pdf",
+      "run_3": "v3/google_repeatability/run3/F11_FOOTNOTES__GOOGLE_DOCS__R3.pdf",
+      "hashes": [
+        "91b81c06383c1c681023b3cd0a9c05cc9c4178bd696ad83287082d020f7372b9",
+        "91b81c06383c1c681023b3cd0a9c05cc9c4178bd696ad83287082d020f7372b9",
+        "91b81c06383c1c681023b3cd0a9c05cc9c4178bd696ad83287082d020f7372b9"
+      ],
+      "byte_repeatability": "BYTE_IDENTICAL",
+      "run_1_classification": "CONFIRMED_LOST",
+      "classification_stable": true,
+      "repeatability_classification": "BYTE_IDENTICAL"
+    },
+    {
+      "fixture": "F12_EQUATION",
+      "run_1": "results/full_experiment/outputs/google_docs/F12_EQUATION__GOOGLE_DOCS.pdf",
+      "run_2": "v3/google_repeatability/run2/F12_EQUATION__GOOGLE_DOCS__R2.pdf",
+      "run_3": "v3/google_repeatability/run3/F12_EQUATION__GOOGLE_DOCS__R3.pdf",
+      "hashes": [
+        "aafa553d252fe9db135d4fcb1e283aefe7c080094e8d6e783b883a19472848ca",
+        "aafa553d252fe9db135d4fcb1e283aefe7c080094e8d6e783b883a19472848ca",
+        "aafa553d252fe9db135d4fcb1e283aefe7c080094e8d6e783b883a19472848ca"
+      ],
+      "byte_repeatability": "BYTE_IDENTICAL",
+      "run_1_classification": "UNRESOLVED_EQUIVALENCE",
+      "classification_stable": true,
+      "repeatability_classification": "BYTE_IDENTICAL"
+    },
+    {
+      "fixture": "F14_CAPTIONS",
+      "run_1": "results/full_experiment/outputs/google_docs/F14_CAPTIONS__GOOGLE_DOCS.pdf",
+      "run_2": "v3/google_repeatability/run2/F14_CAPTIONS__GOOGLE_DOCS__R2.pdf",
+      "run_3": "v3/google_repeatability/run3/F14_CAPTIONS__GOOGLE_DOCS__R3.pdf",
+      "hashes": [
+        "25e91306391e2aac667a668d553343c5bf071d5195644fc4c2285cea0f355a02",
+        "25e91306391e2aac667a668d553343c5bf071d5195644fc4c2285cea0f355a02",
+        "25e91306391e2aac667a668d553343c5bf071d5195644fc4c2285cea0f355a02"
+      ],
+      "byte_repeatability": "BYTE_IDENTICAL",
+      "run_1_classification": "UNRESOLVED_EQUIVALENCE",
+      "classification_stable": true,
+      "repeatability_classification": "BYTE_IDENTICAL"
+    }
+  ],
+  "byte_identical": 13,
+  "classification_stable": 13,
+  "conclusion": "The tested preservation classifications remained stable across three independently executed Google Docs conversions for all 13 Core fixtures under the recorded workflow. All three files were also byte-identical for every fixture."
+}

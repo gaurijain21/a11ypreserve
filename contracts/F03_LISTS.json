@@ -1,0 +1,93 @@
+{
+  "contract_version": "a11ypreserve-contract-v1",
+  "fixture_id": "F03_LISTS",
+  "source": {
+    "format": "DOCX",
+    "feature": "lists",
+    "fixture_path": "corpus/fixtures/F03_LISTS.docx",
+    "sha256": "96d918ed19a5974e31f30704fe89db4bcaa51628f1d9cc00d3c8eecd2779d97f",
+    "manifest_path": "corpus/manifests/F03_LISTS.json",
+    "manifest_sha256": "bbfe04b77b1d2f097272497cc0c2fcadb6c0b66985e86d379b1782d9d9b94404",
+    "oracle": "independent raw OOXML ZIP/XML inspection plus source extractor agreement"
+  },
+  "destination": {
+    "format": "PDF",
+    "representation_requirement": "list membership, nesting, order, and ordered/unordered distinction preserved",
+    "accepted_equivalents": [
+      "L/LI structure with equivalent list numbering"
+    ]
+  },
+  "contract": {
+    "feature_contract": {
+      "lists": [
+        {
+          "type": "unordered",
+          "depth": 0,
+          "text": "Accessibility",
+          "parent": null
+        },
+        {
+          "type": "unordered",
+          "depth": 1,
+          "text": "Documents",
+          "parent": "Accessibility"
+        },
+        {
+          "type": "unordered",
+          "depth": 1,
+          "text": "Web",
+          "parent": "Accessibility"
+        },
+        {
+          "type": "unordered",
+          "depth": 0,
+          "text": "Usability",
+          "parent": null
+        },
+        {
+          "type": "ordered",
+          "depth": 0,
+          "text": "Extract",
+          "parent": null
+        },
+        {
+          "type": "ordered",
+          "depth": 0,
+          "text": "Convert",
+          "parent": null
+        },
+        {
+          "type": "ordered",
+          "depth": 0,
+          "text": "Compare",
+          "parent": null
+        }
+      ]
+    }
+  },
+  "decision_rules": {
+    "outcomes": [
+      "PRESERVED",
+      "PARTIALLY_PRESERVED",
+      "ALTERED",
+      "LOST",
+      "MEASUREMENT_ERROR"
+    ],
+    "evidence_statuses": [
+      "VERIFIED_EQUIVALENCE",
+      "OBSERVED_DIFFERENCE",
+      "OBSERVED_PARTIAL",
+      "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "UNRESOLVED_EQUIVALENCE",
+      "INSUFFICIENT_EVIDENCE",
+      "MEASUREMENT_FAILURE"
+    ],
+    "equivalence_rule": "Declare PRESERVED only when the destination representation satisfies the feature contract; otherwise record the observed difference or partial evidence without inferring semantic absence from a single extractor encoding.",
+    "uncertainty_rule": "If a feature-specific equivalent cannot be established with the available destination evidence, retain the frozen outcome but label the evidence UNRESOLVED_EQUIVALENCE or INSUFFICIENT_EVIDENCE; use MEASUREMENT_FAILURE only when the measurement path fails."
+  },
+  "provenance": {
+    "frozen_corpus": "corpus/FROZEN_CORPUS_MANIFEST.json",
+    "primary_results": "results/full_experiment/PRIMARY_RESULTS_FREEZE.json",
+    "contract_materializer": "scripts/build_contracts.py"
+  }
+}

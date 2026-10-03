@@ -1,0 +1,63 @@
+\section{Experimental Design}
+\label{sec:experiment}
+
+\subsection{Research questions}
+
+The experiment addresses three questions:
+
+\begin{enumerate}
+\item \textbf{RQ1:} To what extent do the tested DOCX-to-PDF conversion pipelines preserve accessibility information present in controlled source documents?
+\item \textbf{RQ2:} Which tested accessibility properties are verified as preserved, observed as changed or lost, or unresolved under the available cross-format evidence?
+\item \textbf{RQ3:} How do preservation outcomes differ between the tested LibreOffice and Google Docs conversion pipelines?
+\end{enumerate}
+
+Validator comparison is not a fourth core question. The project did not obtain a systematic PAC, Acrobat Accessibility Checker, or veraPDF dataset for all 52 atomic outputs, so destination-only validator comparison is future work rather than a central result.
+
+\subsection{Benchmark composition}
+
+Table~\ref{tab:fixtures} summarizes the 13 Core feature contracts. Variant Set B provides one additional pre-specified controlled instance for each contract, so the V3 atomic benchmark contains 26 fixtures and 26 $\times$ 2 = 52 fixture--pipeline cases. The fixtures are intentionally controlled rather than randomly sampled. F13 was reserved for reading order but deferred because reliable automated source-to-PDF equivalence could not be established; the frozen corpus therefore uses F01--F12 and F14 without renumbering. The table's contract descriptions state what is compared; they do not imply that the feature families have equal complexity or equal user impact.
+
+\begin{table*}[t]
+\centering\small
+\caption{Frozen fixture contracts.}
+\label{tab:fixtures}
+\begin{tabular}{p{0.14\textwidth}p{0.17\textwidth}p{0.56\textwidth}}
+\hline
+Fixture & Property & Contract focus \\
+\hline
+F01 & Headings & Heading levels and order \\
+F02 & Alternative text & Author-written image description \\
+F03 & Lists & Ordered/unordered type, nesting, and list structure \\
+F04 & Table & Table, row/cell, and header structure \\
+F05 & Document language & Primary document language value \\
+F06 & Inline language & Run-level language override within an en-US document \\
+F07 & Decorative image & Meaningful versus explicitly decorative image state \\
+F08 & Hyperlinks & Link existence, visible text, and URI destination \\
+F09 & Document title & Visible title and document metadata identity \\
+F10 & Complex table & Multi-level headers, spans, and associations \\
+F11 & Footnotes & Note body and reference-to-note association \\
+F12 & Equation & Native equation representation and visible expression \\
+F14 & Caption & Figure/caption text and association \\
+\hline
+\end{tabular}
+\end{table*}
+
+\subsection{Converter conditions and provenance}
+
+The LibreOffice workflow was deterministic and local. The Google Docs workflow was authenticated and browser-mediated, so its service backend was not independently version-pinned. The experiment date, browser version, observed PDF producer, source hashes, output hashes, file sizes, and validation records were retained in the automation log. All outputs were one-page PDFs in this corpus and passed the output-validation checks.
+
+The experiment's primary unit is one fixture/converter pair. The 26 V3 fixtures are controlled atomic cases, not a representative sample; features have unequal complexity and the two instances per selected family do not form a population sample. Selection was purposive, guided by accessibility requirements, common machine-representable DOCX/PDF structures, conversion relevance, and feature-specific source-to-destination mappings. The suite is not an exhaustive adequacy argument: no formal coverage metric or complete fault model is claimed. Counts and feature-level matrices are therefore primary, while percentages are not used as headline results. No inferential statistics, significance tests, prevalence estimates, or weighted overall converter score are justified. The 39-run Google repeatability arm and the separate secondary sanity check use distinct denominators; the latter contains three project-generated multi-feature integrated documents and its property-level observations are not merged into the atomic benchmark.
+
+\subsection{Outcome accounting}
+
+The V3 atomic evidence-aware set contains 18 \verifiedpreserved{}, 4 \observedpartial{}, 7 \altered{}, 4 \confirmedlost{}, 18 \unresolved{}, and 1 \measured{} case. Thus 52 atomic cases were attempted and successfully converted, with one case remaining a measurement error. The frozen Core V2 set remains separately recorded as 11 verified preserved, 3 observed partial, 3 altered, 2 confirmed lost, 6 unresolved, and 1 measurement error. No percentages are used because the controlled feature units have unequal complexity and do not support prevalence interpretation.
+
+\subsection{Repeatability arm}
+
+The repeatability study reused the 13 frozen Core DOCX sources and produced two new Google conversions per source, for 39 total Google runs including historical Run 1. Run 2 and Run 3 were separate uploads under the recorded workflow. The three PDFs were byte-identical for all 13 fixtures, and the corresponding preservation classification remained stable for all 13. This is evidence about the dated, recorded cloud workflow; it does not pin the backend or guarantee future service behavior.
+
+\subsection{Integrated-document sanity check}
+
+The secondary sanity check evaluated three project-generated two-page multi-feature documents: I01, a community access report; I02, an educational handout; and I03, a policy note. They used only existing contract families, and a separately implemented raw-OOXML oracle passed 21/21 integrated source assertions. The same two pipelines produced six tagged PDFs, and the protocol generated 42 property--pipeline observations without requiring a document-level score. The secondary result distribution was 16 VERIFIED\_PRESERVED, 6 OBSERVED\_PARTIAL, 5 ALTERED, 3 CONFIRMED\_LOST, 11 UNRESOLVED\_EQUIVALENCE, and 1 MEASUREMENT\_ERROR. These observations demonstrate protocol applicability when properties coexist; they are not a prevalence estimate and are excluded from the primary 52-case atomic denominator.
+
+

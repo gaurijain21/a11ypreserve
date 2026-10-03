@@ -1,0 +1,284 @@
+{
+  "status": "COMPLETE",
+  "control_count": 27,
+  "counts": {
+    "CORRECT": 12,
+    "CORRECT_UNRESOLVED": 6,
+    "FALSE_POSITIVE": 0,
+    "FALSE_NEGATIVE": 2,
+    "UNRESOLVED": 7
+  },
+  "scope": "synthetic comparator calibration only; no frozen fixture/output was changed or rerun",
+  "rows": [
+    {
+      "feature": "headings",
+      "name": "positive",
+      "kind": "positive",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+      "verdict": "CORRECT",
+      "notes": "heading level/order preserved; PDF marked-content text was not available for every heading node"
+    },
+    {
+      "feature": "headings",
+      "name": "negative",
+      "kind": "negative",
+      "expected": "DIFFERENT",
+      "observed": "UNRESOLVED",
+      "raw_fidelity": "PARTIAL_PRESERVATION",
+      "verdict": "UNRESOLVED",
+      "notes": "PDF contains heading structure but the level/order sequence differs from source"
+    },
+    {
+      "feature": "headings",
+      "name": "alternate_sequence_uncertain",
+      "kind": "alternate-equivalent",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+      "verdict": "CORRECT",
+      "notes": "heading level/order preserved; PDF marked-content text was not available for every heading node"
+    },
+    {
+      "feature": "lists",
+      "name": "positive",
+      "kind": "positive",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+      "verdict": "CORRECT",
+      "notes": "PDF /L, /LI, nesting, and /ListNumbering match the source contract"
+    },
+    {
+      "feature": "lists",
+      "name": "negative",
+      "kind": "negative",
+      "expected": "DIFFERENT",
+      "observed": "UNRESOLVED",
+      "raw_fidelity": "PARTIAL_PRESERVATION",
+      "verdict": "UNRESOLVED",
+      "notes": "list item text order or identity differs"
+    },
+    {
+      "feature": "lists",
+      "name": "alternate_without_numbering",
+      "kind": "alternate-equivalent",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "raw_fidelity": "PARTIAL_PRESERVATION",
+      "verdict": "CORRECT_UNRESOLVED",
+      "notes": "list items and nesting survive, but PDF extraction found no explicit ordered/unordered type representation"
+    },
+    {
+      "feature": "decorative_image",
+      "name": "positive",
+      "kind": "positive",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "raw_fidelity": "EXACT_PRESERVATION",
+      "verdict": "CORRECT",
+      "notes": ""
+    },
+    {
+      "feature": "decorative_image",
+      "name": "negative",
+      "kind": "negative",
+      "expected": "DIFFERENT",
+      "observed": "UNRESOLVED",
+      "raw_fidelity": "PARTIAL_PRESERVATION",
+      "verdict": "UNRESOLVED",
+      "notes": ""
+    },
+    {
+      "feature": "decorative_image",
+      "name": "alternate_artifact_unavailable",
+      "kind": "alternate-equivalent",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "raw_fidelity": "PARTIAL_PRESERVATION",
+      "verdict": "CORRECT_UNRESOLVED",
+      "notes": "destination uses Figure elements with empty alternative text; no explicit PDF Artifact/decorative representation was established"
+    },
+    {
+      "feature": "hyperlinks",
+      "name": "positive_target",
+      "kind": "positive",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "raw_fidelity": "PARTIAL_PRESERVATION",
+      "verdict": "CORRECT_UNRESOLVED",
+      "notes": "URI and link annotation survive; visible link-name association was not independently recoverable from the PDF structure"
+    },
+    {
+      "feature": "hyperlinks",
+      "name": "negative_target",
+      "kind": "negative",
+      "expected": "DIFFERENT",
+      "observed": "DIFFERENT",
+      "raw_fidelity": "MUTATED",
+      "verdict": "CORRECT",
+      "notes": "destination link target or count differs from source"
+    },
+    {
+      "feature": "hyperlinks",
+      "name": "alternate_named_association",
+      "kind": "alternate-equivalent",
+      "expected": "EQUIVALENT",
+      "observed": "UNRESOLVED",
+      "raw_fidelity": "PARTIAL_PRESERVATION",
+      "verdict": "FALSE_NEGATIVE",
+      "notes": "URI and link annotation survive; visible link-name association was not independently recoverable from the PDF structure"
+    },
+    {
+      "feature": "complex_table",
+      "name": "positive",
+      "kind": "positive",
+      "expected": "EQUIVALENT",
+      "observed": "UNRESOLVED",
+      "raw_fidelity": "PARTIAL_PRESERVATION",
+      "verdict": "FALSE_NEGATIVE",
+      "notes": "PDF table and header roles survive, but complete multi-level header associations are not established"
+    },
+    {
+      "feature": "complex_table",
+      "name": "negative",
+      "kind": "negative",
+      "expected": "DIFFERENT",
+      "observed": "UNRESOLVED",
+      "raw_fidelity": "PARTIAL_PRESERVATION",
+      "verdict": "UNRESOLVED",
+      "notes": "PDF table and header roles survive, but complete multi-level header associations are not established"
+    },
+    {
+      "feature": "complex_table",
+      "name": "alternate_scope_uncertain",
+      "kind": "alternate-equivalent",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "raw_fidelity": "PARTIAL_PRESERVATION",
+      "verdict": "CORRECT_UNRESOLVED",
+      "notes": "PDF table and header roles survive, but complete multi-level header associations are not established"
+    },
+    {
+      "feature": "footnotes",
+      "name": "positive",
+      "kind": "positive",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+      "verdict": "CORRECT",
+      "notes": ""
+    },
+    {
+      "feature": "footnotes",
+      "name": "negative",
+      "kind": "negative",
+      "expected": "DIFFERENT",
+      "observed": "DIFFERENT",
+      "raw_fidelity": "LOST",
+      "verdict": "CORRECT",
+      "notes": ""
+    },
+    {
+      "feature": "footnotes",
+      "name": "alternate_unmeasured_body",
+      "kind": "alternate-equivalent",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "raw_fidelity": "MEASUREMENT_ERROR",
+      "verdict": "CORRECT_UNRESOLVED",
+      "notes": "PDF /Note structure exists, but marked-content extraction did not recover note-body text for association verification"
+    },
+    {
+      "feature": "equation",
+      "name": "positive",
+      "kind": "positive",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+      "verdict": "CORRECT",
+      "notes": "PDF /Formula structure is present and the visible expression is retained; token-level math extraction remains limited"
+    },
+    {
+      "feature": "equation",
+      "name": "negative_visible_only",
+      "kind": "negative",
+      "expected": "DIFFERENT",
+      "observed": "UNRESOLVED",
+      "raw_fidelity": "PARTIAL_PRESERVATION",
+      "verdict": "UNRESOLVED",
+      "notes": "equation survives as visible text but no machine-readable PDF math structure was extracted"
+    },
+    {
+      "feature": "equation",
+      "name": "alternate_tokens",
+      "kind": "alternate-equivalent",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+      "verdict": "CORRECT",
+      "notes": ""
+    },
+    {
+      "feature": "captions",
+      "name": "positive",
+      "kind": "positive",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+      "verdict": "CORRECT",
+      "notes": "caption text and PDF /Caption structure are present"
+    },
+    {
+      "feature": "captions",
+      "name": "negative",
+      "kind": "negative",
+      "expected": "DIFFERENT",
+      "observed": "UNRESOLVED",
+      "raw_fidelity": "PARTIAL_PRESERVATION",
+      "verdict": "UNRESOLVED",
+      "notes": ""
+    },
+    {
+      "feature": "captions",
+      "name": "alternate_adjacency",
+      "kind": "alternate-equivalent",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "raw_fidelity": "PARTIAL_PRESERVATION",
+      "verdict": "CORRECT_UNRESOLVED",
+      "notes": "caption text survives but destination association is established only by ordered page-text adjacency"
+    },
+    {
+      "feature": "inline_language",
+      "name": "positive",
+      "kind": "positive",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "raw_fidelity": "EXACT_PRESERVATION",
+      "verdict": "CORRECT",
+      "notes": ""
+    },
+    {
+      "feature": "inline_language",
+      "name": "negative",
+      "kind": "negative",
+      "expected": "DIFFERENT",
+      "observed": "UNRESOLVED",
+      "raw_fidelity": "PARTIAL_PRESERVATION",
+      "verdict": "UNRESOLVED",
+      "notes": "document language may survive while inline override is absent"
+    },
+    {
+      "feature": "inline_language",
+      "name": "alternate_text_span",
+      "kind": "alternate-equivalent",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "raw_fidelity": "EXACT_PRESERVATION",
+      "verdict": "CORRECT",
+      "notes": ""
+    }
+  ]
+}

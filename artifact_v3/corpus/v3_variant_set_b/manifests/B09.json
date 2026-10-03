@@ -1,0 +1,15 @@
+{
+  "variant_id": "B09",
+  "feature_family": "document_title",
+  "source_format": "DOCX",
+  "contract_version": "v3-variant-set-b",
+  "fixture_path": "corpus/v3_variant_set_b/fixtures/B09.docx",
+  "ground_truth": {
+    "document_identity": {
+      "visible_title": "Variant B09: title / metadata",
+      "core_title": "Variant B09: title / metadata",
+      "subject": "Variant B09 subject: preservation",
+      "keywords": "a11y, PDF, DOCX, 2026"
+    }
+  }
+}

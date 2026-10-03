@@ -1,0 +1,94 @@
+{
+  "format": "pdf",
+  "title": "A11yPreserve Footnote Fixture",
+  "language": "en-US",
+  "document": {
+    "title": "A11yPreserve Footnote Fixture",
+    "language": "en-US",
+    "metadata": {
+      "Title": "A11yPreserve Footnote Fixture",
+      "Author": "A11yPreserve benchmark",
+      "Subject": "A11yPreserve Phase 4 controlled benchmark fixture",
+      "Creator": "Writer",
+      "Producer": "LibreOffice 26.2.6.3 (X86_64)",
+      "CreationDate": "D:20260927212227-07'00'"
+    }
+  },
+  "headings": [],
+  "lists": [
+    {
+      "type": "Lbl",
+      "depth": 0,
+      "text": "",
+      "list_numbering": null,
+      "list_type": null,
+      "evidence": {
+        "pdf_role": "Lbl",
+        "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(9, 0, 2294776679312), '/Pg': IndirectObject(1, 0, 2294776679312), '/K': [IndirectObject(11, 0, 2294776679312)]}"
+      }
+    }
+  ],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [
+    {
+      "target": null,
+      "page": 1,
+      "rect": [
+        89.993,
+        72.0,
+        95.507,
+        84.65
+      ],
+      "evidence": {
+        "pdf": "/Annots/Link"
+      }
+    },
+    {
+      "target": null,
+      "page": 1,
+      "rect": [
+        323.043,
+        660.6,
+        326.257,
+        673.25
+      ],
+      "evidence": {
+        "pdf": "/Annots/Link"
+      }
+    }
+  ],
+  "footnotes": [
+    {
+      "kind": "footnote",
+      "text": "",
+      "evidence": {
+        "pdf_role": "Note",
+        "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id9', '/P': IndirectObject(8, 0, 2294776679312), '/Pg': IndirectObject(1, 0, 2294776679312), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(10, 0, 2294776679312), IndirectObject(12, 0, 2294776679312)]}"
+      }
+    }
+  ],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {
+      "/Title": "/P",
+      "/Standard": "/P"
+    },
+    "pages": 1
+  },
+  "text_preview": "A11yPreserve Footnote Fixture\nThe benchmark uses an explicit footnote association.1\n1",
+  "pdf_text": "A11yPreserve Footnote Fixture\nThe benchmark uses an explicit footnote association.1\n1",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\libreoffice\\F11_FOOTNOTES__LIBREOFFICE.pdf"
+  }
+}

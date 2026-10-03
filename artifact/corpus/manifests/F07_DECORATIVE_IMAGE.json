@@ -1,0 +1,26 @@
+{
+  "fixture_id": "F07_DECORATIVE_IMAGE",
+  "feature": "decorative_image",
+  "source_format": "DOCX",
+  "contract_version": "phase4-v1",
+  "document": {
+    "title": "A11yPreserve Decorative Image Fixture",
+    "language": "en-US"
+  },
+  "ground_truth": {
+    "figures": [
+      {
+        "identifier": "figure-1",
+        "alt": "A meaningful research figure showing the benchmark workflow.",
+        "decorative": false,
+        "order": 1
+      },
+      {
+        "identifier": "figure-2",
+        "alt": "",
+        "decorative": true,
+        "order": 2
+      }
+    ]
+  }
+}

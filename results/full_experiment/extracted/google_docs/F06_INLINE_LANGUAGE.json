@@ -1,0 +1,48 @@
+{
+  "format": "pdf",
+  "title": "F06_INLINE_LANGUAGE",
+  "language": "en",
+  "document": {
+    "title": "F06_INLINE_LANGUAGE",
+    "language": "en",
+    "metadata": {
+      "Title": "F06_INLINE_LANGUAGE",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(8, 0, 2294777819792), '/Pg': IndirectObject(2, 0, 2294777819792), '/K': 0}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "A11yPreserve\n \nInline\n \nLanguage\n \nFixture\n \nThe\n \ngreeting\n \nis\n \nBuenos\n \ndías\n \nbefore\n \nthe\n \nmeeting.\n ",
+  "pdf_text": "A11yPreserve\n \nInline\n \nLanguage\n \nFixture\n \nThe\n \ngreeting\n \nis\n \nBuenos\n \ndías\n \nbefore\n \nthe\n \nmeeting.\n ",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F06_INLINE_LANGUAGE__GOOGLE_DOCS.pdf"
+  }
+}

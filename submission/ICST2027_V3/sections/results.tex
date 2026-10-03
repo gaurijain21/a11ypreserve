@@ -1,0 +1,64 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Overall accounting}
+
+All 52 atomic fixture--pipeline cases produced genuine, parseable, non-empty, structurally tagged PDFs that passed the predefined structural output checks. The V3 atomic evidence-aware counts are 18 \verifiedpreserved{}, 4 \observedpartial{}, 7 \altered{}, 4 \confirmedlost{}, 18 \unresolved{}, and 1 \measured{}. These are controlled-case counts, not prevalence estimates or failure rates. The frozen Core V2 denominator remains 26 cases and is reported separately in the provenance records.
+
+\begin{figure*}[t]
+\centering
+\fbox{\begin{minipage}{0.91\textwidth}
+\centering
+\textbf{Verified DOCX source}\quad$\longrightarrow$\quad\textbf{Real conversion pipeline}\quad$\longrightarrow$\quad\textbf{Tagged PDF}\quad$\longrightarrow$\quad\textbf{PDF structure extraction}\quad$\longrightarrow$\quad\textbf{\texttt{a11ydiff} comparison}\\[3pt]
+Manifest + OOXML + ASIR\hfill Converter/version/settings\\[3pt]
+\centering\textsc{preserved}\quad|\quad\textsc{partial}\quad|\quad\textsc{altered}\quad|\quad\textsc{lost}\quad|\quad\textsc{unresolved}\quad|\quad\textsc{measurement error}
+\end{minipage}}
+\caption{A11yPreserve's source-grounded measurement workflow. The destination is inspected, but the outcome is defined by comparison with verified source information.}
+\label{fig:workflow}
+\end{figure*}
+
+\subsection{Feature-family matrix}
+
+Table~\ref{tab:results} is the central V3 matrix. ``Preserved'' denotes \verifiedpreserved{}; ``Partial'' denotes \observedpartial{}; ``Lost'' denotes \confirmedlost{}; ``Unresolved'' denotes \unresolved{}; and ``Meas.'' denotes \measured{}. The Core and Variant columns are separate controlled instances, not repeated samples from a population.
+
+\begin{table*}[t]
+\centering\scriptsize
+\caption{V3 atomic benchmark: two controlled instances per selected feature family, each run through both named pipelines.}
+\label{tab:results}
+\begin{tabular}{p{0.16\textwidth}p{0.12\textwidth}p{0.12\textwidth}p{0.12\textwidth}p{0.12\textwidth}p{0.26\textwidth}}
+\hline
+Feature & LO Core & LO Variant & Google Core & Google Variant & Interpretation \\
+\hline
+Headings & Preserved & Preserved & Partial & Partial & Google adds a generated H1 in both controlled cases \\
+Alt text & Altered & Altered & Preserved & Preserved & Exporter-added wording occurs only in the tested LO cases \\
+Lists & Preserved & Unresolved & Unresolved & Unresolved & List structure survives, but some type/text mappings remain unresolved \\
+Table & Preserved & Unresolved & Preserved & Unresolved & Variant cell correspondence is not established by extraction \\
+Document language & Preserved & Preserved & Altered & Altered & Google reduces locale specificity in both cases \\
+Inline language & Preserved & Preserved & Lost & Lost & Required inline language representation absent in Google rows \\
+Decorative image & Partial & Altered & Partial & Preserved & Decorative-state evidence is fixture-sensitive \\
+Links & Unresolved & Unresolved & Unresolved & Unresolved & URI survives; visible-name association remains unresolved \\
+Document title & Preserved & Preserved & Altered & Altered & Google metadata identity is reduced in both cases \\
+Complex table & Preserved & Unresolved & Unresolved & Unresolved & Multi-level association equivalence remains unresolved \\
+Footnotes & Meas. & Unresolved & Lost & Lost & Google association loss is corroborated; LO evidence varies by fixture \\
+Equation & Preserved & Unresolved & Unresolved & Unresolved & Native expression equivalence is not always measurable \\
+Captions & Preserved & Preserved & Unresolved & Unresolved & Google retains text but not a verified Caption association \\
+\hline
+\end{tabular}
+\end{table*}
+
+The feature matrix shows why a single converter score would be misleading. The same named pipeline can preserve one feature and alter another, and unresolved equivalence is concentrated in mappings where the destination representation is present but not fully comparable. The counts are therefore secondary to the feature-level evidence and should not be read as a global accessibility rate.
+
+\subsection{Confirmed losses and difficult mappings}
+
+The four confirmed-loss rows are the Core and Variant B instances of F06/B06 inline language and F11/B11 footnote association under the Google Docs DOCX-to-PDF conversion pipeline. In the inline-language cases, the source contracts require non-default run-level language values. The pypdf structure traversal and PyMuPDF serialized-object scan found only document-level language and no required inline-language span or language markers; visible text remained. In the footnote cases, visible reference markers and note text remained, but both paths found no machine-verifiable \texttt{/Note}, \texttt{/Footnote}, \texttt{/Reference}, or equivalent association. These are losses of the contracted machine-verifiable associations, not claims about complete PDF accessibility or user harm.
+
+The two-path audit also explains the unresolved rows. For list, hyperlink, complex-table, equation, and caption mappings, destination structure or visible content often survives, but the available evidence does not establish a feature-specific equivalent representation. The comparator therefore abstains. Absence from one extracted encoding is not treated as semantic absence when a valid alternate representation remains possible.
+
+\subsection{Google repeatability}
+
+The separate Core repeatability arm contains 13 fixtures and 39 total Google runs. All 13 fixtures were classification-stable across Run 1, Run 2, and Run 3; all three PDFs were byte-identical for every fixture under the recorded workflow. This is a dated cloud-workflow observation. The backend version cannot be pinned, and the result does not guarantee future Google Docs behavior.
+
+\subsection{Integrated-document sanity check}
+
+The separate secondary evaluation used three project-generated multi-feature documents and 42 property--pipeline observations, after 21/21 source-oracle assertions passed. Those observations are retained as a protocol-applicability sanity check; they are not merged with the 52 atomic cases, do not create a representative corpus, and do not estimate real-world prevalence.
+

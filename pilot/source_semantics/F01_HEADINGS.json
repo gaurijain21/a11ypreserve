@@ -1,0 +1,59 @@
+{
+  "asir": "ASIR-pilot-1",
+  "format": "docx",
+  "document": {
+    "title": "A11yPreserve Heading Fixture",
+    "language": "en-US",
+    "evidence": {
+      "ooxml": [
+        "docProps/core.xml",
+        "word/document.xml"
+      ]
+    }
+  },
+  "headings": [
+    {
+      "text": "Research Overview",
+      "level": 1,
+      "order": 2,
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "style": "Heading1"
+      }
+    },
+    {
+      "text": "Background",
+      "level": 2,
+      "order": 4,
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "style": "Heading2"
+      }
+    },
+    {
+      "text": "Prior Work",
+      "level": 3,
+      "order": 6,
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "style": "Heading3"
+      }
+    },
+    {
+      "text": "Methods",
+      "level": 2,
+      "order": 8,
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "style": "Heading2"
+      }
+    }
+  ],
+  "figures": [],
+  "lists": [],
+  "tables": [],
+  "extraction": {
+    "method": "deterministic OOXML inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot\\fixtures\\F01_HEADINGS.docx"
+  }
+}

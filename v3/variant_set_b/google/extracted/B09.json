@@ -1,0 +1,48 @@
+{
+  "format": "pdf",
+  "title": "B09",
+  "language": "en",
+  "document": {
+    "title": "B09",
+    "language": "en",
+    "metadata": {
+      "Title": "B09",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(9, 0, 2136922769936), '/Pg': IndirectObject(2, 0, 2136922769936), '/K': 0}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "Variant\n \nB09:\n \ntitle\n \n/\n \nmetadata\n \nVisible\n \nand\n \ncore\n \nmetadata\n \nvalues\n \nare\n \ndeclared\n \nseparately.\n ",
+  "pdf_text": "Variant\n \nB09:\n \ntitle\n \n/\n \nmetadata\n \nVisible\n \nand\n \ncore\n \nmetadata\n \nvalues\n \nare\n \ndeclared\n \nseparately.\n ",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\v3\\variant_set_b\\google\\outputs\\B09__GOOGLE_DOCS.pdf"
+  }
+}

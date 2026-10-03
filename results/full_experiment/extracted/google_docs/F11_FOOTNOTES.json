@@ -1,0 +1,48 @@
+{
+  "format": "pdf",
+  "title": "F11_FOOTNOTES",
+  "language": "en",
+  "document": {
+    "title": "F11_FOOTNOTES",
+    "language": "en",
+    "metadata": {
+      "Title": "F11_FOOTNOTES",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(9, 0, 2294779270224), '/Pg': IndirectObject(2, 0, 2294779270224), '/K': 0}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "A11yPreserve\n \nFootnote\n \nFixture\n \nThe\n \nbenchmark\n \nuses\n \nan\n \nexplicit\n \nfootnote\n \nassociation.\n1\n \n1\n \nThis\n \nnote\n \nrecords\n \nthe\n \nsource-to-note\n \nassociation.\n ",
+  "pdf_text": "A11yPreserve\n \nFootnote\n \nFixture\n \nThe\n \nbenchmark\n \nuses\n \nan\n \nexplicit\n \nfootnote\n \nassociation.\n1\n \n1\n \nThis\n \nnote\n \nrecords\n \nthe\n \nsource-to-note\n \nassociation.\n ",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F11_FOOTNOTES__GOOGLE_DOCS.pdf"
+  }
+}

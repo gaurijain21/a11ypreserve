@@ -1,0 +1,19 @@
+{
+  "fixture_id": "F14_CAPTIONS",
+  "feature": "captions",
+  "source_format": "DOCX",
+  "contract_version": "phase4-v1",
+  "document": {
+    "title": "A11yPreserve Figure Caption Fixture",
+    "language": "en-US"
+  },
+  "ground_truth": {
+    "figure_caption_pairs": [
+      {
+        "figure": "figure-1",
+        "caption": "Figure 1. Benchmark workflow overview.",
+        "order": 1
+      }
+    ]
+  }
+}

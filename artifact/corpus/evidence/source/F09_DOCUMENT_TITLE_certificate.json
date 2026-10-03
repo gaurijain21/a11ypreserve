@@ -1,0 +1,73 @@
+{
+  "certificate_version": "source-oracle-v1",
+  "fixture_id": "F09_DOCUMENT_TITLE",
+  "feature": "document_title",
+  "source_path": "corpus/fixtures/F09_DOCUMENT_TITLE.docx",
+  "source_sha256": "314b57e9d2457fc4ae8adf79f55587ecef9232b2dd689ea7cc98cb96772260f2",
+  "source_manifest_sha256": "0178a23adfd74b099b21509ae87b1a9831eabe393cfc846446c2bfe2fe4b21cb",
+  "ooxml_parts": [
+    "word/document.xml",
+    "word/styles.xml",
+    "word/numbering.xml",
+    "docProps/core.xml"
+  ],
+  "xpath_or_element_assertions": {
+    "document": "w:document//w:p, w:tbl, w:hyperlink, w:footnoteReference, wp:docPr, m:oMath",
+    "feature": "document_title"
+  },
+  "expected": {
+    "core": {
+      "title": "A11yPreserve Accessible Research Brief",
+      "subject": "Controlled document identity metadata",
+      "keywords": "accessibility, conversion, preservation"
+    }
+  },
+  "observed": {
+    "core": {
+      "title": "A11yPreserve Accessible Research Brief",
+      "subject": "Controlled document identity metadata",
+      "keywords": "accessibility, conversion, preservation",
+      "language": "en-US"
+    },
+    "default_language": "en-US",
+    "language_values": [
+      "en-US",
+      "en-US"
+    ]
+  },
+  "raw_observations": {
+    "core": {
+      "title": "A11yPreserve Accessible Research Brief",
+      "subject": "Controlled document identity metadata",
+      "keywords": "accessibility, conversion, preservation",
+      "language": "en-US"
+    },
+    "default_language": "en-US",
+    "language_values": [
+      "en-US",
+      "en-US"
+    ],
+    "headings": [],
+    "lists": [],
+    "inline_languages": [
+      {
+        "text": "A11yPreserve Accessible Research Brief",
+        "language": "en-US"
+      },
+      {
+        "text": "The visible title and core document title identify the same research brief.",
+        "language": "en-US"
+      }
+    ],
+    "figures": [],
+    "hyperlinks": [],
+    "tables": [],
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "has_footnotes_part": false
+  },
+  "verifier": "scripts/independent_source_oracle.py; stdlib zipfile + xml.etree.ElementTree; no ASIR imports",
+  "timestamp_utc": "2026-09-28T21:16:19.901707+00:00",
+  "status": "PASS"
+}

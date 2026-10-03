@@ -1,0 +1,28 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{What the benchmark demonstrates}
+
+The V3 result is methodological: accessibility-information preservation can be tested when source properties are explicitly known, destination representations can be inspected, and the oracle is allowed to abstain. The 52-case atomic benchmark contains 18 verified preserved cases, 4 observed partial cases, 7 alterations, 4 confirmed losses, 18 unresolved equivalence cases, and 1 measurement error. The categories do not collapse uncertainty into converter degradation. Directly demonstrated changes are separated from cases where an alternate cross-format representation cannot yet be established.
+
+This distinction matters because destination accessibility and source-information preservation answer different questions. A tagged PDF can contain headings, figures, or tables and still fail to preserve a particular source property. Conversely, relevant visible content or a destination structure can remain while the available evidence is insufficient to establish feature-specific equivalence. A11yPreserve operationalizes this difference as a source-contract test oracle rather than as a destination-only accessibility score.
+
+\subsection{Testing contribution and transfer}
+
+For a software-testing audience, the pipeline is explicit: contracts are test oracles, controlled DOCX files are test inputs, each conversion pipeline is a system under test, PDF extraction produces observations, and the precedence rules make evidence-aware oracle decisions. Calibration controls expose alternate encodings that the comparator cannot safely resolve; those cases become actionable unresolved results rather than silent false failures or false passes. The transferable lesson is methodological—source-grounded differential testing needs representability-aware contracts, provenance, and explicit oracle uncertainty—not a claim of a general testing theory.
+
+The two controlled instances per feature family show where the protocol is repeatable and where mappings remain difficult. The separate Google repeatability arm strengthens the operational claim for the recorded workflow: all 13 classifications were stable across three runs and all corresponding PDFs were byte-identical. This does not establish backend invariance beyond the dated environment.
+
+\subsection{Pipeline observations}
+
+The same source family can produce different outcomes across the two tested pipelines and across feature families. The evidence supports only observations about LibreOffice 26.2.6.3 and the recorded Google Docs DOCX-to-PDF conversion pipeline. It does not establish that Google Docs is generally worse, that LibreOffice is generally better, or that either pipeline represents an ecosystem-wide pattern.
+
+The Google condition includes DOCX import, Google's internal document representation, and PDF generation. The experiment therefore cannot isolate whether a difference arose during import, internal representation, or PDF generation. The Variant B Google PDFs were obtained through the authenticated in-session export backend after the visible download action did not register; this route is disclosed in the conversion report rather than treated as a separately isolated exporter test.
+
+\subsection{Related-work boundary}
+
+Existing work already addresses accessible conversion, PDF accessibility benchmarking, destination evaluation, PDF-to-HTML reconstruction, remediation, and accessible document generation. DocAccessible and DAISY provide particularly relevant conversion-benchmark context \cite{docaccessible2026,daisy2026}; SciA11y, iTagPDF, and prior office-document conversion studies address adjacent transformation or destination problems \cite{wang2021scia11y,mowar2026,roig2015}. The contribution claimed here is narrower: a controlled, source-grounded, contract-based, uncertainty-aware conformance-testing protocol for machine-verifiable accessibility preservation across the tested DOCX-to-PDF pipelines. It is not a claim to be the first accessible-conversion study, a unique validator, or a replacement for destination-only evaluation.
+
+\subsection{User and engineering implications}
+
+The protocol can help authors and publishing engineers regression-test whether selected author-supplied properties survive a known transformation. It does not determine task completion, screen-reader usability, perceived accessibility, or severity for disabled users. An altered value may remain usable, a partial structure may provide substantial accessibility, and an unresolved case may ultimately prove equivalent under a richer representation. Structural evidence should therefore guide review and regression testing, not be presented as a complete accessibility judgment.

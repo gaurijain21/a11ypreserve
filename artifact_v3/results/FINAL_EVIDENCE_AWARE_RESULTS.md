@@ -1,0 +1,48 @@
+# Final evidence-aware results
+
+This V2 interpretation is derived programmatically from `results/full_experiment/EVIDENCE_STATUS_FREEZE_V2.json`. It does not modify the historical V1 freeze, fixtures, PDFs, manifests, hashes, or denominator.
+
+- Cases: 26
+- Primary unit: one fixture–pipeline pair
+
+| Fixture | Pipeline | Historical V1 outcome | Final evidence-aware result | Evidence status | Supporting artifact |
+|---|---|---|---|---|---|
+| F01_HEADINGS | LibreOffice | PRESERVED | VERIFIED_PRESERVED | VERIFIED_EQUIVALENCE | `final_strengthening/INDEPENDENT_SOURCE_ORACLE.md` |
+| F01_HEADINGS | Google Docs | PARTIALLY_PRESERVED | OBSERVED_PARTIAL | OBSERVED_PARTIAL | `final_strengthening/PARTIAL_CASE_REAUDIT.md` |
+| F02_ALT_TEXT | LibreOffice | ALTERED | ALTERED | OBSERVED_DIFFERENCE | `final_strengthening/EVIDENCE_STATUS_FREEZE_V2.json` |
+| F02_ALT_TEXT | Google Docs | PRESERVED | VERIFIED_PRESERVED | VERIFIED_EQUIVALENCE | `final_strengthening/INDEPENDENT_SOURCE_ORACLE.md` |
+| F03_LISTS | LibreOffice | PRESERVED | VERIFIED_PRESERVED | VERIFIED_EQUIVALENCE | `final_strengthening/INDEPENDENT_SOURCE_ORACLE.md` |
+| F03_LISTS | Google Docs | PARTIALLY_PRESERVED | UNRESOLVED_EQUIVALENCE | UNRESOLVED_EQUIVALENCE | `final_strengthening/PARTIAL_CASE_REAUDIT.md` |
+| F04_TABLE | LibreOffice | PRESERVED | VERIFIED_PRESERVED | VERIFIED_EQUIVALENCE | `final_strengthening/INDEPENDENT_SOURCE_ORACLE.md` |
+| F04_TABLE | Google Docs | PRESERVED | VERIFIED_PRESERVED | VERIFIED_EQUIVALENCE | `final_strengthening/INDEPENDENT_SOURCE_ORACLE.md` |
+| F05_DOCUMENT_LANGUAGE | LibreOffice | PRESERVED | VERIFIED_PRESERVED | VERIFIED_EQUIVALENCE | `final_strengthening/INDEPENDENT_SOURCE_ORACLE.md` |
+| F05_DOCUMENT_LANGUAGE | Google Docs | ALTERED | ALTERED | OBSERVED_DIFFERENCE | `final_strengthening/EVIDENCE_STATUS_FREEZE_V2.json` |
+| F06_INLINE_LANGUAGE | LibreOffice | PRESERVED | VERIFIED_PRESERVED | VERIFIED_EQUIVALENCE | `final_strengthening/INDEPENDENT_SOURCE_ORACLE.md` |
+| F06_INLINE_LANGUAGE | Google Docs | LOST | CONFIRMED_LOST | INDEPENDENTLY_CONFIRMED_ABSENCE | `final_strengthening/loss/F06_GOOGLE_LOSS_CERTIFICATE.md` |
+| F07_DECORATIVE_IMAGE | LibreOffice | PARTIALLY_PRESERVED | OBSERVED_PARTIAL | OBSERVED_PARTIAL | `final_strengthening/PARTIAL_CASE_REAUDIT.md` |
+| F07_DECORATIVE_IMAGE | Google Docs | PARTIALLY_PRESERVED | OBSERVED_PARTIAL | OBSERVED_PARTIAL | `final_strengthening/PARTIAL_CASE_REAUDIT.md` |
+| F08_LINKS | LibreOffice | PARTIALLY_PRESERVED | UNRESOLVED_EQUIVALENCE | UNRESOLVED_EQUIVALENCE | `final_strengthening/PARTIAL_CASE_REAUDIT.md` |
+| F08_LINKS | Google Docs | PARTIALLY_PRESERVED | UNRESOLVED_EQUIVALENCE | UNRESOLVED_EQUIVALENCE | `final_strengthening/PARTIAL_CASE_REAUDIT.md` |
+| F09_DOCUMENT_TITLE | LibreOffice | PRESERVED | VERIFIED_PRESERVED | VERIFIED_EQUIVALENCE | `final_strengthening/INDEPENDENT_SOURCE_ORACLE.md` |
+| F09_DOCUMENT_TITLE | Google Docs | ALTERED | ALTERED | OBSERVED_DIFFERENCE | `final_strengthening/EVIDENCE_STATUS_FREEZE_V2.json` |
+| F10_COMPLEX_TABLE | LibreOffice | PRESERVED | VERIFIED_PRESERVED | VERIFIED_EQUIVALENCE | `final_strengthening/INDEPENDENT_SOURCE_ORACLE.md` |
+| F10_COMPLEX_TABLE | Google Docs | PARTIALLY_PRESERVED | UNRESOLVED_EQUIVALENCE | UNRESOLVED_EQUIVALENCE | `final_strengthening/PARTIAL_CASE_REAUDIT.md` |
+| F11_FOOTNOTES | LibreOffice | MEASUREMENT_ERROR | MEASUREMENT_ERROR | MEASUREMENT_FAILURE | `final_strengthening/PDF_PARSER_TRIANGULATION.md` |
+| F11_FOOTNOTES | Google Docs | LOST | CONFIRMED_LOST | INDEPENDENTLY_CONFIRMED_ABSENCE | `final_strengthening/loss/F11_GOOGLE_LOSS_CERTIFICATE.md` |
+| F12_EQUATION | LibreOffice | PRESERVED | VERIFIED_PRESERVED | VERIFIED_EQUIVALENCE | `final_strengthening/INDEPENDENT_SOURCE_ORACLE.md` |
+| F12_EQUATION | Google Docs | PARTIALLY_PRESERVED | UNRESOLVED_EQUIVALENCE | UNRESOLVED_EQUIVALENCE | `final_strengthening/PARTIAL_CASE_REAUDIT.md` |
+| F14_CAPTIONS | LibreOffice | PRESERVED | VERIFIED_PRESERVED | VERIFIED_EQUIVALENCE | `final_strengthening/INDEPENDENT_SOURCE_ORACLE.md` |
+| F14_CAPTIONS | Google Docs | PARTIALLY_PRESERVED | UNRESOLVED_EQUIVALENCE | UNRESOLVED_EQUIVALENCE | `final_strengthening/PARTIAL_CASE_REAUDIT.md` |
+
+## Final distribution
+
+| Final result | Count |
+|---|---:|
+| ALTERED | 3 |
+| CONFIRMED_LOST | 2 |
+| MEASUREMENT_ERROR | 1 |
+| OBSERVED_PARTIAL | 3 |
+| UNRESOLVED_EQUIVALENCE | 6 |
+| VERIFIED_PRESERVED | 11 |
+
+The V1 primary classifications remain archived for provenance. The V2 labels make uncertainty explicit: only directly supported differences are `OBSERVED_PARTIAL`; unresolved cross-format equivalence is reported separately.

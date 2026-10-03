@@ -1,0 +1,336 @@
+{
+  "fixture": "F04_TABLE",
+  "engine": "Google Docs",
+  "source": [
+    {
+      "identifier": "table-1",
+      "dimensions": {
+        "rows": 4,
+        "columns": 3
+      },
+      "cells": [
+        [
+          "Year",
+          "Students",
+          "Completion Rate"
+        ],
+        [
+          "2024",
+          "120",
+          "82%"
+        ],
+        [
+          "2025",
+          "150",
+          "87%"
+        ],
+        [
+          "2026",
+          "180",
+          "91%"
+        ]
+      ],
+      "headers": [
+        "Year",
+        "Students",
+        "Completion Rate"
+      ],
+      "header_row": 0,
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "tblHeader": true
+      }
+    }
+  ],
+  "destination": {
+    "asir": "ASIR-pilot-1",
+    "format": "pdf",
+    "document": {
+      "title": "F04_TABLE",
+      "language": "en",
+      "evidence": {
+        "pdf": [
+          "/Root",
+          "/Info",
+          "/StructTreeRoot"
+        ]
+      }
+    },
+    "headings": [
+      {
+        "text": "",
+        "level": 1,
+        "order": 2,
+        "evidence": {
+          "pdf_role": "H1",
+          "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(9, 0, 1604512821952), '/Pg': IndirectObject(2, 0, 1604512821952), '/K': 0}"
+        }
+      }
+    ],
+    "figures": [],
+    "lists": [],
+    "tables": [
+      {
+        "identifier": "table-1",
+        "dimensions": {},
+        "cells": [],
+        "headers": [],
+        "header_row": null,
+        "evidence": {
+          "pdf_role": "Table",
+          "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(9, 0, 1604512821952), '/K': [IndirectObject(13, 0, 1604512821952), IndirectObject(20, 0, 1604512821952), IndirectObject(27, 0, 1604512821952), IndirectObject(34, 0, 1604512821952)]}"
+        }
+      },
+      {
+        "identifier": "cell-2",
+        "role": "TH",
+        "text": "",
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(13, 0, 1604512821952), '/K': IndirectObject(15, 0, 1604512821952)}"
+        }
+      },
+      {
+        "identifier": "cell-3",
+        "role": "TH",
+        "text": "",
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(13, 0, 1604512821952), '/K': IndirectObject(17, 0, 1604512821952)}"
+        }
+      },
+      {
+        "identifier": "cell-4",
+        "role": "TH",
+        "text": "",
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(13, 0, 1604512821952), '/K': IndirectObject(19, 0, 1604512821952)}"
+        }
+      },
+      {
+        "identifier": "cell-5",
+        "role": "TD",
+        "text": "",
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(20, 0, 1604512821952), '/K': IndirectObject(22, 0, 1604512821952)}"
+        }
+      },
+      {
+        "identifier": "cell-6",
+        "role": "TD",
+        "text": "",
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(20, 0, 1604512821952), '/K': IndirectObject(24, 0, 1604512821952)}"
+        }
+      },
+      {
+        "identifier": "cell-7",
+        "role": "TD",
+        "text": "",
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(20, 0, 1604512821952), '/K': IndirectObject(26, 0, 1604512821952)}"
+        }
+      },
+      {
+        "identifier": "cell-8",
+        "role": "TD",
+        "text": "",
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(27, 0, 1604512821952), '/K': IndirectObject(29, 0, 1604512821952)}"
+        }
+      },
+      {
+        "identifier": "cell-9",
+        "role": "TD",
+        "text": "",
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(27, 0, 1604512821952), '/K': IndirectObject(31, 0, 1604512821952)}"
+        }
+      },
+      {
+        "identifier": "cell-10",
+        "role": "TD",
+        "text": "",
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(27, 0, 1604512821952), '/K': IndirectObject(33, 0, 1604512821952)}"
+        }
+      },
+      {
+        "identifier": "cell-11",
+        "role": "TD",
+        "text": "",
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1604512821952), '/K': IndirectObject(36, 0, 1604512821952)}"
+        }
+      },
+      {
+        "identifier": "cell-12",
+        "role": "TD",
+        "text": "",
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1604512821952), '/K': IndirectObject(38, 0, 1604512821952)}"
+        }
+      },
+      {
+        "identifier": "cell-13",
+        "role": "TD",
+        "text": "",
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1604512821952), '/K': IndirectObject(40, 0, 1604512821952)}"
+        }
+      }
+    ],
+    "pdf": {
+      "tagged": true,
+      "role_map": {},
+      "pages": 1
+    },
+    "pdf_text": "A11yPreserve  Table  Fixture  \nThe  table  reports  enrollment  and  completion  rate  with  the  first  row  marked  as  a  native  \nWord\n \nheader\n \nrow.\n \nYear  Students  Completion  Rate  2024  120  82%  2025  150  87%  2026  180  91%   ",
+    "extraction": {
+      "method": "pypdf object-model and marked-content inspection",
+      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F04_TABLE__GOOGLE_DOCS.pdf"
+    }
+  },
+  "raw_structure_summary": {
+    "tagged": true,
+    "roles": [
+      "Document",
+      "H1",
+      "P",
+      "Table",
+      "TR",
+      "TH",
+      "P",
+      "TH",
+      "P",
+      "TH",
+      "P",
+      "TR",
+      "TD",
+      "P",
+      "TD",
+      "P",
+      "TD",
+      "P",
+      "TR",
+      "TD",
+      "P",
+      "TD",
+      "P",
+      "TD",
+      "P",
+      "TR",
+      "TD",
+      "P",
+      "TD",
+      "P",
+      "TD",
+      "P",
+      "P"
+    ],
+    "role_counts": {
+      "Document": 1,
+      "H1": 1,
+      "P": 14,
+      "TD": 9,
+      "TH": 3,
+      "TR": 4,
+      "Table": 1
+    },
+    "list_numbering": [],
+    "table_rows": 4,
+    "header_cells": 3,
+    "data_cells": 9,
+    "figures": [],
+    "pages": 1
+  },
+  "validation": {
+    "fixture": "F04_TABLE",
+    "engine": "Google Docs",
+    "path": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot3\\outputs\\google_docs_pdf\\F04_TABLE__GOOGLE_DOCS.pdf",
+    "exists": true,
+    "checked_at_utc": "2026-09-28T02:56:47.055895+00:00",
+    "size_bytes": 31181,
+    "sha256": "32e260086253eb38625d3d740b2ee97ed58ce79c724268224d7d5cfd9487c232",
+    "status": "PASS",
+    "parseable": true,
+    "page_count": 1,
+    "page_count_minimum": 1,
+    "content_text_nonempty": true,
+    "struct_tree_exists": true,
+    "content_present": true,
+    "structure_summary": {
+      "tagged": true,
+      "roles": [
+        "Document",
+        "H1",
+        "P",
+        "Table",
+        "TR",
+        "TH",
+        "P",
+        "TH",
+        "P",
+        "TH",
+        "P",
+        "TR",
+        "TD",
+        "P",
+        "TD",
+        "P",
+        "TD",
+        "P",
+        "TR",
+        "TD",
+        "P",
+        "TD",
+        "P",
+        "TD",
+        "P",
+        "TR",
+        "TD",
+        "P",
+        "TD",
+        "P",
+        "TD",
+        "P",
+        "P"
+      ],
+      "role_counts": {
+        "Document": 1,
+        "H1": 1,
+        "P": 14,
+        "TD": 9,
+        "TH": 3,
+        "TR": 4,
+        "Table": 1
+      },
+      "list_numbering": [],
+      "table_rows": 4,
+      "header_cells": 3,
+      "data_cells": 9,
+      "figures": [],
+      "pages": 1
+    },
+    "secondary_validation": {
+      "tool": "pdfplumber",
+      "parseable": true,
+      "page_count": 1,
+      "text_nonempty": true
+    },
+    "metadata": {
+      "/Title": "F04_TABLE",
+      "/Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  }
+}

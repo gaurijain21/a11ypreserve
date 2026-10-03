@@ -1,0 +1,18 @@
+25 [0x00005dc0] INFO pdftotext null - this process (9908) started by python in directory <ARTIFACT_ROOT> with command line: <LOCAL_USER_ROOT>\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdftotext.EXE -layout <ARTIFACT_ROOT>\results\full_experiment\outputs\google_docs\F02_ALT_TEXT__GOOGLE_DOCS.pdf -
+
+25 [0x00005dc0] INFO pdftotext null - running on Windows 10.0.26200
+
+67 [0x00005dc0] INFO pdftotext null - this process (9908) finishes with exit code 1
+
+77 [0x00005dc0] ERROR trace.pdftotext.core null - Access is denied.
+
+
+
+77 [0x00005dc0] ERROR trace.pdftotext.core null - Function: CreateDirectoryW
+
+77 [0x00005dc0] ERROR trace.pdftotext.core null - Result: 5
+
+78 [0x00005dc0] ERROR trace.pdftotext.core null - Data: path="<LOCAL_USER_ROOT>\AppData\Roaming\MiKTeX\2.9\miktex"
+
+78 [0x00005dc0] ERROR trace.pdftotext.core null - Source: Libraries\MiKTeX\Core\win\win.cpp:271
+

@@ -1,0 +1,62 @@
+{
+  "contract_version": "a11ypreserve-contract-v1",
+  "fixture_id": "F12_EQUATION",
+  "source": {
+    "format": "DOCX",
+    "feature": "equation",
+    "fixture_path": "corpus/fixtures/F12_EQUATION.docx",
+    "sha256": "c9a89fb6999a90ad0abc8bff4ea81a10905ce4843c28d55d8df83f5ee87ba9f8",
+    "manifest_path": "corpus/manifests/F12_EQUATION.json",
+    "manifest_sha256": "bc5772b93d5c5ae6cda2b45136a654ead4031fc3bd9aa06ae6f77091f1bbb5b3",
+    "oracle": "independent raw OOXML ZIP/XML inspection plus source extractor agreement"
+  },
+  "destination": {
+    "format": "PDF",
+    "representation_requirement": "equation representation and readable expression preserved",
+    "accepted_equivalents": [
+      "Formula or equivalent machine-readable mathematical representation"
+    ]
+  },
+  "contract": {
+    "feature_contract": {
+      "equations": [
+        {
+          "expression": "E = mc^2",
+          "representation": "OMML",
+          "tokens": [
+            "E",
+            "=",
+            "m",
+            "c",
+            "2"
+          ]
+        }
+      ]
+    }
+  },
+  "decision_rules": {
+    "outcomes": [
+      "PRESERVED",
+      "PARTIALLY_PRESERVED",
+      "ALTERED",
+      "LOST",
+      "MEASUREMENT_ERROR"
+    ],
+    "evidence_statuses": [
+      "VERIFIED_EQUIVALENCE",
+      "OBSERVED_DIFFERENCE",
+      "OBSERVED_PARTIAL",
+      "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "UNRESOLVED_EQUIVALENCE",
+      "INSUFFICIENT_EVIDENCE",
+      "MEASUREMENT_FAILURE"
+    ],
+    "equivalence_rule": "Declare PRESERVED only when the destination representation satisfies the feature contract; otherwise record the observed difference or partial evidence without inferring semantic absence from a single extractor encoding.",
+    "uncertainty_rule": "If a feature-specific equivalent cannot be established with the available destination evidence, retain the frozen outcome but label the evidence UNRESOLVED_EQUIVALENCE or INSUFFICIENT_EVIDENCE; use MEASUREMENT_FAILURE only when the measurement path fails."
+  },
+  "provenance": {
+    "frozen_corpus": "corpus/FROZEN_CORPUS_MANIFEST.json",
+    "primary_results": "results/full_experiment/PRIMARY_RESULTS_FREEZE.json",
+    "contract_materializer": "scripts/build_contracts.py"
+  }
+}

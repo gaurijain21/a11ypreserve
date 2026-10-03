@@ -1,0 +1,32 @@
+\section{Threats to Validity}
+\label{sec:threats}
+
+\subsection{Controlled corpus and feature units}
+
+Atomic fixtures make source ground truth and causal interpretation clearer, but they are synthetic and small. Each feature family has one primary fixture, and feature families differ in complexity and accessibility relevance. Consequently, 26 cases are not IID samples and the outcome counts do not estimate real-world prevalence. The paper reports feature-level results first and gives the evidence-aware counts only as controlled-case summaries. The feature list has a documented purposive rationale but no formal adequacy metric or exhaustive fault model; omitted properties, variants, and edge cases remain future work. Three project-generated multi-feature integrated documents were evaluated as a separate sanity check, but they do not make the corpus representative; justified variants and broader source corpora remain future work.
+
+\subsection{Converter and format coverage}
+
+The experiment evaluates DOCX-to-PDF only, using two real pipelines. It does not characterize Microsoft Word, ODT, HTML, EPUB, or other conversion routes. Two independent pipelines are sufficient to demonstrate that behavior can vary across pipelines, but not to characterize the converter ecosystem. Microsoft Word was deferred because the environment did not yield a completed primary workflow; it is excluded rather than treated as a semantic result.
+
+\subsection{Cloud reproducibility}
+
+Google Docs is a cloud service whose backend version cannot necessarily be pinned. The study records the date, operating system, browser, observed renderer, workflow, source hashes, output hashes, and validation evidence. A rerun can nevertheless differ after a service update. The correct interpretation is therefore a dated Google Docs DOCX-to-PDF pipeline condition, not a timeless property of Google Docs.
+
+\subsection{Cross-format representation}
+
+Source and destination formats express accessibility information differently. The study uses predefined feature contracts and machine-inspectable mappings, such as Word Heading 2 to PDF \texttt{/H2}, a Word run-language override to PDF \texttt{/Lang}, or a native equation to PDF \texttt{/Formula}. Some mappings are incomplete or parser-sensitive. F07, F08, F10, F12, F14, and especially F11 retain explicit evidence limitations. The measurement-error category prevents such limitations from being silently converted into loss or preservation.
+
+\subsection{Parser and validator limitations}
+
+The primary destination extractor is a structured parser, supplemented by raw object inspection and Poppler text extraction. Independent checks reduce but do not eliminate parser error. In particular, absence from one extracted encoding is not automatically proof of semantic absence when equivalent cross-format representations are possible. Conventional accessibility validators were not available as a systematic dataset and are not treated as ground truth. The study therefore does not claim complete PDF accessibility, that validators are defective because they miss preservation changes, or that \texttt{a11ydiff} measures complete accessibility.
+
+\subsection{User impact}
+
+No disabled-user study, screen-reader task study, or perceived-usability study was performed. The results show whether encoded source information was found in the destination representation under the contracts; they do not measure task completion, screen-reader usability, perceived accessibility, or severity for disabled users. A future user-centered study could connect preservation changes to task impact.
+
+\subsection{Interpretation and generalization}
+
+An \altered{} description may remain usable, an \observedpartial{} structure may still provide substantial accessibility, and an \unresolved{} case may ultimately prove equivalent under a richer representation. Conversely, this study does not determine the practical severity of any individual change. The classifications are evidence-centered preservation labels, not a weighted accessibility score. Claims are limited to the frozen atomic fixtures, the three secondary integrated documents, and recorded pipeline conditions: they do not establish that conversion generally destroys accessibility, that Google Docs is generally worse or LibreOffice generally better, that findings generalize to all DOCX documents or software versions, that altered information necessarily causes user harm, or that PDF export alone caused every observed change.
+
+

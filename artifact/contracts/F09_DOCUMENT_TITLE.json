@@ -1,0 +1,55 @@
+{
+  "contract_version": "a11ypreserve-contract-v1",
+  "fixture_id": "F09_DOCUMENT_TITLE",
+  "source": {
+    "format": "DOCX",
+    "feature": "document_title",
+    "fixture_path": "corpus/fixtures/F09_DOCUMENT_TITLE.docx",
+    "sha256": "314b57e9d2457fc4ae8adf79f55587ecef9232b2dd689ea7cc98cb96772260f2",
+    "manifest_path": "corpus/manifests/F09_DOCUMENT_TITLE.json",
+    "manifest_sha256": "0178a23adfd74b099b21509ae87b1a9831eabe393cfc846446c2bfe2fe4b21cb",
+    "oracle": "independent raw OOXML ZIP/XML inspection plus source extractor agreement"
+  },
+  "destination": {
+    "format": "PDF",
+    "representation_requirement": "visible and core document identity metadata preserved",
+    "accepted_equivalents": [
+      "PDF title metadata and equivalent visible title evidence"
+    ]
+  },
+  "contract": {
+    "feature_contract": {
+      "document_identity": {
+        "visible_title": "A11yPreserve Accessible Research Brief",
+        "core_title": "A11yPreserve Accessible Research Brief",
+        "subject": "Controlled document identity metadata",
+        "keywords": "accessibility, conversion, preservation"
+      }
+    }
+  },
+  "decision_rules": {
+    "outcomes": [
+      "PRESERVED",
+      "PARTIALLY_PRESERVED",
+      "ALTERED",
+      "LOST",
+      "MEASUREMENT_ERROR"
+    ],
+    "evidence_statuses": [
+      "VERIFIED_EQUIVALENCE",
+      "OBSERVED_DIFFERENCE",
+      "OBSERVED_PARTIAL",
+      "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "UNRESOLVED_EQUIVALENCE",
+      "INSUFFICIENT_EVIDENCE",
+      "MEASUREMENT_FAILURE"
+    ],
+    "equivalence_rule": "Declare PRESERVED only when the destination representation satisfies the feature contract; otherwise record the observed difference or partial evidence without inferring semantic absence from a single extractor encoding.",
+    "uncertainty_rule": "If a feature-specific equivalent cannot be established with the available destination evidence, retain the frozen outcome but label the evidence UNRESOLVED_EQUIVALENCE or INSUFFICIENT_EVIDENCE; use MEASUREMENT_FAILURE only when the measurement path fails."
+  },
+  "provenance": {
+    "frozen_corpus": "corpus/FROZEN_CORPUS_MANIFEST.json",
+    "primary_results": "results/full_experiment/PRIMARY_RESULTS_FREEZE.json",
+    "contract_materializer": "scripts/build_contracts.py"
+  }
+}

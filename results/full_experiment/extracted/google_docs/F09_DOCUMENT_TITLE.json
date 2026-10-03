@@ -1,0 +1,48 @@
+{
+  "format": "pdf",
+  "title": "F09_DOCUMENT_TITLE",
+  "language": "en",
+  "document": {
+    "title": "F09_DOCUMENT_TITLE",
+    "language": "en",
+    "metadata": {
+      "Title": "F09_DOCUMENT_TITLE",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(8, 0, 2294778525776), '/Pg': IndirectObject(2, 0, 2294778525776), '/K': 0}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [],
+  "figures": [],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "A11yPreserve\n \nAccessible\n \nResearch\n \nBrief\n \nThe\n \nvisible\n \ntitle\n \nand\n \ncore\n \ndocument\n \ntitle\n \nidentify\n \nthe\n \nsame\n \nresearch\n \nbrief.\n ",
+  "pdf_text": "A11yPreserve\n \nAccessible\n \nResearch\n \nBrief\n \nThe\n \nvisible\n \ntitle\n \nand\n \ncore\n \ndocument\n \ntitle\n \nidentify\n \nthe\n \nsame\n \nresearch\n \nbrief.\n ",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F09_DOCUMENT_TITLE__GOOGLE_DOCS.pdf"
+  }
+}

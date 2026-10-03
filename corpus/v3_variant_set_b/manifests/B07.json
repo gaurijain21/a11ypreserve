@@ -1,0 +1,26 @@
+{
+  "variant_id": "B07",
+  "feature_family": "decorative_image",
+  "source_format": "DOCX",
+  "contract_version": "v3-variant-set-b",
+  "fixture_path": "corpus/v3_variant_set_b/fixtures/B07.docx",
+  "ground_truth": {
+    "figures": [
+      {
+        "alt": "Informative first image.",
+        "decorative": false,
+        "order": 1
+      },
+      {
+        "alt": "",
+        "decorative": true,
+        "order": 2
+      },
+      {
+        "alt": "Informative last image.",
+        "decorative": false,
+        "order": 3
+      }
+    ]
+  }
+}

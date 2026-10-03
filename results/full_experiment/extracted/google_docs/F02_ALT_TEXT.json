@@ -1,0 +1,68 @@
+{
+  "format": "pdf",
+  "title": "F02_ALT_TEXT",
+  "language": "en",
+  "document": {
+    "title": "F02_ALT_TEXT",
+    "language": "en",
+    "metadata": {
+      "Title": "F02_ALT_TEXT",
+      "Producer": "Skia/PDF m156 Google Docs Renderer"
+    }
+  },
+  "headings": [
+    {
+      "text": "",
+      "level": 1,
+      "evidence": {
+        "pdf_role": "H1",
+        "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(11, 0, 2294776999952), '/Pg': IndirectObject(2, 0, 2294776999952), '/K': 0}"
+      }
+    }
+  ],
+  "lists": [],
+  "inline_languages": [],
+  "images": [
+    {
+      "identifier": "figure-1",
+      "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/Alt': 'Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.', '/P': IndirectObject(14, 0, 2294776999952), '/Pg': IndirectObject(2, 0, 2294776999952), '/K': 4}"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "identifier": "figure-1",
+      "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+      "decorative": false,
+      "evidence": {
+        "pdf_role": "Figure",
+        "object": "{'/Type': '/StructElem', '/S': '/Figure', '/Alt': 'Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.', '/P': IndirectObject(14, 0, 2294776999952), '/Pg': IndirectObject(2, 0, 2294776999952), '/K': 4}"
+      }
+    }
+  ],
+  "tables": [],
+  "table_headers": [
+    false
+  ],
+  "hyperlinks": [],
+  "footnotes": [],
+  "equations": [],
+  "captions": [],
+  "tagged": true,
+  "pdf": {
+    "tagged": true,
+    "struct_tree_root": true,
+    "role_map": {},
+    "pages": 1
+  },
+  "text_preview": "A11yPreserve\n \nAlternative\n \nText\n \nFixture\n \nEnrollment\n \nis\n \nreported\n \nacross\n \nthree\n \nacademic\n \nyears\n \nin\n \nthe\n \nchart\n \nbelow.\n \n \nThe\n \nvisual\n \nsummarizes\n \nthe\n \nreported\n \ntrend\n \nwithout\n \nrepeating\n \nits\n \ncomplete\n \nalternative\n \ntext.\n \n",
+  "pdf_text": "A11yPreserve\n \nAlternative\n \nText\n \nFixture\n \nEnrollment\n \nis\n \nreported\n \nacross\n \nthree\n \nacademic\n \nyears\n \nin\n \nthe\n \nchart\n \nbelow.\n \n \nThe\n \nvisual\n \nsummarizes\n \nthe\n \nreported\n \ntrend\n \nwithout\n \nrepeating\n \nits\n \ncomplete\n \nalternative\n \ntext.\n \n",
+  "extraction": {
+    "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\results\\full_experiment\\outputs\\google_docs\\F02_ALT_TEXT__GOOGLE_DOCS.pdf"
+  }
+}

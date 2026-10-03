@@ -1,0 +1,63 @@
+{
+  "contract_version": "a11ypreserve-contract-v1",
+  "fixture_id": "F07_DECORATIVE_IMAGE",
+  "source": {
+    "format": "DOCX",
+    "feature": "decorative_image",
+    "fixture_path": "corpus/fixtures/F07_DECORATIVE_IMAGE.docx",
+    "sha256": "02b65084773bfd96272411945bed53b1a0bf46edc6359f4e34206e972cb98d70",
+    "manifest_path": "corpus/manifests/F07_DECORATIVE_IMAGE.json",
+    "manifest_sha256": "4914a5c125ad64edbfa8214275a6470f0e3dbbcabbb76e9db43d2d6712f3d677",
+    "oracle": "independent raw OOXML ZIP/XML inspection plus source extractor agreement"
+  },
+  "destination": {
+    "format": "PDF",
+    "representation_requirement": "decorative and informative figure status preserved",
+    "accepted_equivalents": [
+      "Artifact or equivalent decorative representation; Figure with equivalent Alt for informative content"
+    ]
+  },
+  "contract": {
+    "feature_contract": {
+      "figures": [
+        {
+          "identifier": "figure-1",
+          "alt": "A meaningful research figure showing the benchmark workflow.",
+          "decorative": false,
+          "order": 1
+        },
+        {
+          "identifier": "figure-2",
+          "alt": "",
+          "decorative": true,
+          "order": 2
+        }
+      ]
+    }
+  },
+  "decision_rules": {
+    "outcomes": [
+      "PRESERVED",
+      "PARTIALLY_PRESERVED",
+      "ALTERED",
+      "LOST",
+      "MEASUREMENT_ERROR"
+    ],
+    "evidence_statuses": [
+      "VERIFIED_EQUIVALENCE",
+      "OBSERVED_DIFFERENCE",
+      "OBSERVED_PARTIAL",
+      "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "UNRESOLVED_EQUIVALENCE",
+      "INSUFFICIENT_EVIDENCE",
+      "MEASUREMENT_FAILURE"
+    ],
+    "equivalence_rule": "Declare PRESERVED only when the destination representation satisfies the feature contract; otherwise record the observed difference or partial evidence without inferring semantic absence from a single extractor encoding.",
+    "uncertainty_rule": "If a feature-specific equivalent cannot be established with the available destination evidence, retain the frozen outcome but label the evidence UNRESOLVED_EQUIVALENCE or INSUFFICIENT_EVIDENCE; use MEASUREMENT_FAILURE only when the measurement path fails."
+  },
+  "provenance": {
+    "frozen_corpus": "corpus/FROZEN_CORPUS_MANIFEST.json",
+    "primary_results": "results/full_experiment/PRIMARY_RESULTS_FREEZE.json",
+    "contract_materializer": "scripts/build_contracts.py"
+  }
+}

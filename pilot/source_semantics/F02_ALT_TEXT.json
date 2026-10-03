@@ -1,0 +1,33 @@
+{
+  "asir": "ASIR-pilot-1",
+  "format": "docx",
+  "document": {
+    "title": "A11yPreserve Alternative Text Fixture",
+    "language": "en-US",
+    "evidence": {
+      "ooxml": [
+        "docProps/core.xml",
+        "word/document.xml"
+      ]
+    }
+  },
+  "headings": [],
+  "figures": [
+    {
+      "identifier": "figure-1",
+      "alt": "Bar chart showing enrollment increasing from 120 students in 2024 to 180 students in 2026.",
+      "decorative": false,
+      "order": 1,
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "docPr": "1"
+      }
+    }
+  ],
+  "lists": [],
+  "tables": [],
+  "extraction": {
+    "method": "deterministic OOXML inspection",
+    "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\pilot\\fixtures\\F02_ALT_TEXT.docx"
+  }
+}

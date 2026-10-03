@@ -1,0 +1,10 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+A11yPreserve demonstrates a practical source-grounded way to measure accessibility-information preservation across document conversion. The study froze 13 controlled DOCX accessibility fixtures, verified their source representations, converted them through LibreOffice and the Google Docs DOCX-to-PDF pipeline, inspected destination PDF structure, and compared the paired representations with retained evidence and hashes.
+
+Across 26 real outputs, the evidence-aware benchmark recorded 11 verified preserved, 3 observed partial, 3 altered, 2 confirmed lost, 6 unresolved equivalence, and 1 measurement-error case. The two confirmed losses were the inline-language and footnote properties in the Google Docs pipeline. A separate three-document sanity check showed that the same protocol remained usable when multiple existing feature contracts coexisted. The study also found that a tagged destination can retain accessibility structure while changing or failing to preserve particular source information. This is why destination accessibility and source accessibility preservation should be reported as related but distinct questions.
+
+The conclusions are intentionally bounded. The corpus is controlled and not representative, only two DOCX-to-PDF pipelines were evaluated, Google Docs is cloud-versioned, PDF representation equivalence can be parser-sensitive, and no disabled-user study was performed. Within those limits, the evidence supports the feasibility of source-grounded preservation measurement and shows that preservation outcomes differed across tested features and the two evaluated pipelines. It does not support claims about general accessibility, a global product ranking, all DOCX documents, all software versions, universal user harm, or PDF-export-only causation. Future work can extend the corpus with justified variants, compare additional converters, study validator detection, and connect structural changes to user tasks without changing the central question: did known accessibility information survive conversion?
+
+

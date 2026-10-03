@@ -1,0 +1,57 @@
+{
+  "contract_version": "a11ypreserve-contract-v1",
+  "fixture_id": "F11_FOOTNOTES",
+  "source": {
+    "format": "DOCX",
+    "feature": "footnotes",
+    "fixture_path": "corpus/fixtures/F11_FOOTNOTES.docx",
+    "sha256": "72b7182ee9e677f7a302a2f937bac054b321545239bab97be126ea6a01cbce47",
+    "manifest_path": "corpus/manifests/F11_FOOTNOTES.json",
+    "manifest_sha256": "2e0ca22b6516a575c74f1232c2fca7738c087912eb08fef6c61be40598913e81",
+    "oracle": "independent raw OOXML ZIP/XML inspection plus source extractor agreement"
+  },
+  "destination": {
+    "format": "PDF",
+    "representation_requirement": "footnote reference, body, and association preserved",
+    "accepted_equivalents": [
+      "Note/Footnote or an equivalent machine-verifiable association"
+    ]
+  },
+  "contract": {
+    "feature_contract": {
+      "notes": [
+        {
+          "kind": "footnote",
+          "reference_text": "The benchmark uses an explicit footnote association.",
+          "id": 1,
+          "text": "This note records the source-to-note association."
+        }
+      ]
+    }
+  },
+  "decision_rules": {
+    "outcomes": [
+      "PRESERVED",
+      "PARTIALLY_PRESERVED",
+      "ALTERED",
+      "LOST",
+      "MEASUREMENT_ERROR"
+    ],
+    "evidence_statuses": [
+      "VERIFIED_EQUIVALENCE",
+      "OBSERVED_DIFFERENCE",
+      "OBSERVED_PARTIAL",
+      "INDEPENDENTLY_CONFIRMED_ABSENCE",
+      "UNRESOLVED_EQUIVALENCE",
+      "INSUFFICIENT_EVIDENCE",
+      "MEASUREMENT_FAILURE"
+    ],
+    "equivalence_rule": "Declare PRESERVED only when the destination representation satisfies the feature contract; otherwise record the observed difference or partial evidence without inferring semantic absence from a single extractor encoding.",
+    "uncertainty_rule": "If a feature-specific equivalent cannot be established with the available destination evidence, retain the frozen outcome but label the evidence UNRESOLVED_EQUIVALENCE or INSUFFICIENT_EVIDENCE; use MEASUREMENT_FAILURE only when the measurement path fails."
+  },
+  "provenance": {
+    "frozen_corpus": "corpus/FROZEN_CORPUS_MANIFEST.json",
+    "primary_results": "results/full_experiment/PRIMARY_RESULTS_FREEZE.json",
+    "contract_materializer": "scripts/build_contracts.py"
+  }
+}
