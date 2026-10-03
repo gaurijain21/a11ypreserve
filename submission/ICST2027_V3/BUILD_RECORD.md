@@ -1,4 +1,4 @@
-# ICST 2027 V3 build record
+# ICST 2027 manuscript build record
 
 - Source: `submission/ICST2027_V3/main.tex`
 - Format: IEEEtran conference two-column copy, anonymous author block
@@ -8,11 +8,12 @@
 - Bibliography tool: BibTeX 0.99e (MiKTeX 25.12)
 - Build command: `pdflatex --enable-installer=f -file-line-error -interaction=nonstopmode -halt-on-error main.tex`, BibTeX, then three final pdfLaTeX passes in a clean local build directory outside OneDrive.
 - Final PDF: `main.pdf`
-- SHA-256: `E720EB8EB58898F592491E7BB67DB739E09BA1D670E222350E2465B5C435199D`
-- Size: 143,861 bytes
+- SHA-256: `CAE94FA084B653F7CECA21435D6F39F4D71B1BC0324F4BC2F8B15F4C1CEE084C`
+- Size: 146,413 bytes; 9 pages.
 - Pages: 9 total; 9 content pages including the acknowledgment, 0 reference-only pages.
-- Compilation: successful; no undefined citation/reference warnings and no overfull boxes. MiKTeX update-check notices and ordinary underfull-box warnings remain.
+- Compilation: successful after MiKTeX user-configuration initialization; final citation and cross-reference pass completed. Ordinary underfull-box warnings and MiKTeX update-check notices remain; no compilation errors occurred.
 - Fonts: all seven reported fonts embedded; no unembedded fonts.
 - Metadata/anonymity: no author or title identity metadata, no email, username, local path, attachment, form, annotation, or JavaScript found.
 - Visual QA: all nine rendered pages inspected at 144 DPI; no clipping, overlap, unreadable content, malformed reference, or table overflow found.
-- Layout repair: narrowed the V3 feature-matrix columns and shortened pipeline headers to remove one overfull table line; no scientific content or evidence changed.
+- Layout repair: narrowed the feature-matrix columns and shortened pipeline headers to remove one overfull table line; no scientific content or evidence changed.
+- Strengthening-pass changes: added bounded software-testing/oracle/format-conversion grounding, added DOI-backed references, removed reviewer-facing development labels from the manuscript, and clarified the frozen-versus-additive unresolved counts plus the presence-only baseline. Frozen experimental counts and result rows were not changed.

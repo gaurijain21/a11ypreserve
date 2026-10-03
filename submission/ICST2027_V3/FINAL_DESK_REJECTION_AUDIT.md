@@ -1,8 +1,8 @@
-# ICST 2027 V3 final desk-rejection audit
+# ICST 2027 final desk-rejection audit
 
 ## Status
 
-The V3 manuscript and anonymized artifact are cleared for human-controlled submission preparation. The scientific scope remains bounded to the frozen V3 evidence.
+The A11yPreserve manuscript and anonymized artifact are cleared for human-controlled submission preparation. The scientific scope remains bounded to the frozen primary evidence.
 
 ## Final PDF checks
 
@@ -21,7 +21,7 @@ The V3 manuscript and anonymized artifact are cleared for human-controlled submi
 
 ## Build record
 
-The canonical output is `submission/ICST2027_V3/main.pdf`. Its SHA-256 is `E720EB8EB58898F592491E7BB67DB739E09BA1D670E222350E2465B5C435199D`, and its size is 143,861 bytes. MiKTeX was initialized in per-user mode after the original registry-access failure; compilation was then performed in a clean local directory outside OneDrive and the resulting PDF was copied back to the canonical submission directory.
+The canonical output is `submission/ICST2027_V3/main.pdf`. Its SHA-256 is `CAE94FA084B653F7CECA21435D6F39F4D71B1BC0324F4BC2F8B15F4C1CEE084C`, and its size is 146,413 bytes. MiKTeX was initialized in per-user mode after the original registry-access failure; compilation was then performed in a clean local build directory and the resulting PDF was copied back to the canonical submission directory.
 
 The final source pass retains ordinary underfull-box warnings but has no overfull boxes, undefined citations, or undefined references. A small table-column/header adjustment removed the only overfull result-table line; no scientific text, evidence, classification, or denominator changed.
 

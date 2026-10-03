@@ -1,4 +1,4 @@
-# A11yPreserve V3 artifact candidate
+# A11yPreserve artifact
 
 A11yPreserve is a controlled, source-grounded, uncertainty-aware conformance method for testing whether machine-verifiable accessibility information present in DOCX survives DOCX-to-PDF conversion. It is not a complete PDF accessibility validator and does not measure disabled-user usability.
 
@@ -6,28 +6,28 @@ A11yPreserve is a controlled, source-grounded, uncertainty-aware conformance met
 
 - `corpus/fixtures/`: the frozen Core DOCX fixtures.
 - `corpus/v3_variant_set_b/`: the 13 pre-specified Variant B DOCX fixtures, manifests, and source-oracle report.
-- `corpus/outputs/`: frozen Core V2 outputs.
+- `corpus/outputs/`: frozen Core conversion outputs.
 - `v3/google_repeatability/`: 26 new Core Google PDFs, hashes, run manifest, and repeatability reports.
 - `v3/variant_set_b/`: LibreOffice and Google Variant B PDFs, extraction records, hashes, and final matrix.
-- `contracts/`: machine-readable source/destination contracts and V3 classification rules.
+- `contracts/`: machine-readable source/destination contracts and classification rules.
 - `results/V3_PRIMARY_RESULTS.json`: the 52-case atomic result record.
 - `results/V3_WITHIN_FEATURE_CONSISTENCY.md`: Core-versus-Variant feature-family interpretation.
 - `final_methodology/`: calibration false-negative impact and related evidence.
-- `src/`: source-oracle, extraction, audit, freezing, and V3 analysis scripts.
+- `src/`: source-oracle, extraction, audit, freezing, and analysis scripts.
 
-## V3 denominators
+## Primary-experiment denominators
 
 - Atomic benchmark: 26 controlled fixtures x 2 named pipelines = 52 cases.
 - Google repeatability: 13 Core fixtures x 3 runs = 39 conversions.
 - Integrated sanity check: 3 project-generated multi-feature documents and 42 property--pipeline observations; separate denominator.
 
-The atomic counts are 18 VERIFIED_PRESERVED, 4 OBSERVED_PARTIAL, 7 ALTERED, 4 CONFIRMED_LOST, 18 UNRESOLVED_EQUIVALENCE, and 1 MEASUREMENT_ERROR. Unresolved is a conservative abstention, not a loss finding.
+The frozen atomic counts are 18 VERIFIED_PRESERVED, 4 OBSERVED_PARTIAL, 7 ALTERED, 4 CONFIRMED_LOST, 18 UNRESOLVED_EQUIVALENCE, and 1 MEASUREMENT_ERROR. Unresolved is a conservative abstention, not a loss finding. A separate additive hyperlink-evidence analysis resolved four of those frozen unresolved rows, leaving 14 unresolved in that derived analysis; it did not overwrite the frozen result record or its 18-row primary denominator.
 
 ## Reproducibility levels
 
 ### Level 1 — verify existing evidence
 
-Inspect contracts, manifests, source hashes, PDF hashes, extraction records, and the machine-readable V3 results. Existing PDF analysis can be rerun with the included extractor and comparator dependencies.
+Inspect contracts, manifests, source hashes, PDF hashes, extraction records, and the machine-readable primary results. Existing PDF analysis can be rerun with the included extractor and comparator dependencies.
 
 ### Level 2 — reproduce LibreOffice conversion
 
@@ -56,7 +56,7 @@ The supplied `requirements.txt` pins the verification environment used for
 these package checks. Installing it does not regenerate or redefine the frozen
 PDFs and classifications.
 
-The V3 output PDFs and hashes are already included; no conversion is required to inspect or reproduce the analysis reports.
+The output PDFs and hashes are already included; no conversion is required to inspect or reproduce the analysis reports. Filenames containing historical development labels are retained for provenance and do not denote separate reviewer-facing research versions.
 
 The repeatability report derives classification stability from byte identity of
 the three stored outputs for each fixture and the deterministic comparator
@@ -66,4 +66,4 @@ contract; it does not silently claim a fresh re-extraction of every repeat.
 
 The corpus is controlled and purposive, not representative. Feature families have unequal complexity, F13 reading order was deferred because reliable automated equivalence was unavailable, and no comprehensive adequacy metric is claimed. Results concern machine-verifiable structural preservation under two named pipelines, not complete accessibility, user impact, product superiority, or all future software versions.
 
-This is a candidate artifact package. Human review is still required for the final license, author metadata, venue anonymity, and public-release decision.
+This package is the sanitized reviewer artifact. It is self-contained for evidence verification; conversion reruns that require LibreOffice or an authenticated cloud service remain environment-dependent as described above.

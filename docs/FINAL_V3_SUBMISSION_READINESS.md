@@ -1,4 +1,6 @@
-# Final V3 submission readiness
+# Superseded submission-readiness record
+
+> This historical record predates the final documentation repair and canonical-file manifest. Use `submission/CANONICAL_SUBMISSION.md` and `docs/FINAL_SUBMISSION_KILL_AUDIT.md` for current hashes and upload decisions.
 
 ## Verdict
 
