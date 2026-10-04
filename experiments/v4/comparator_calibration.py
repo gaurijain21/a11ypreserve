@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 BASE = ROOT / "experiments" / "v4"
 sys.path.insert(0, str(ROOT / "artifact" / "src"))
-from phase4_compare import compare_feature  # type: ignore  # noqa: E402
+from v4_comparator import compare_feature_v4  # type: ignore  # noqa: E402
 
 FEATURES = [
     ("headings", "headings"), ("alt_text", "image_alt_text"), ("lists", "lists"),
@@ -131,7 +131,7 @@ def main() -> None:
     frozen = json.loads(controls_path.read_text(encoding="utf-8"))
     rows = []
     for case in frozen["controls"]:
-        result = compare_feature(case["source"], case["destination"], case["comparator_feature"])
+        result = compare_feature_v4(case["source"], case["destination"], case["comparator_feature"], explicit_ambiguity=case["intent"] == "ambiguous")
         raw = result["fidelity_classification"]
         observed = {"EXACT_PRESERVATION": "EQUIVALENT", "SEMANTICALLY_EQUIVALENT": "EQUIVALENT", "MUTATED": "DIFFERENT", "REGENERATED": "DIFFERENT", "PARTIAL_PRESERVATION": "PARTIAL", "LOST": "LOST", "NOT_REPRESENTABLE": "UNRESOLVED", "MEASUREMENT_ERROR": "MEASUREMENT_ERROR"}.get(raw, "UNRESOLVED")
         expected = case["expected"]

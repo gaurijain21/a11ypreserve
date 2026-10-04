@@ -1,0 +1,216 @@
+{
+  "status": "PASS",
+  "documents": 10,
+  "property_observations": 78,
+  "rows": [
+    {
+      "document_id": "R01",
+      "source_sha256": "05133dd3c150fac10cee283c8bdd77cfef3efa3828a872acafa090f143549b20",
+      "contract_checks": {
+        "headings": true,
+        "inline_language": true,
+        "hyperlinks": true,
+        "basic_tables": true,
+        "alternative_text": true,
+        "captions": true,
+        "document_title": true
+      },
+      "primary_extractor_nonempty": {
+        "headings": true,
+        "figures": true,
+        "tables": true,
+        "hyperlinks": true,
+        "captions": true
+      }
+    },
+    {
+      "document_id": "R02",
+      "source_sha256": "ee496afe3a317b03fcf9593e3a9cc7330a0051c8ba2a439e03bdc86fe24a372f",
+      "contract_checks": {
+        "headings": true,
+        "inline_language": true,
+        "hyperlinks": true,
+        "basic_tables": true,
+        "alternative_text": true,
+        "captions": true,
+        "document_title": true,
+        "footnotes": true
+      },
+      "primary_extractor_nonempty": {
+        "headings": true,
+        "figures": true,
+        "tables": true,
+        "hyperlinks": true,
+        "captions": true
+      }
+    },
+    {
+      "document_id": "R03",
+      "source_sha256": "5581c91871c9706bb1778d75c6146cadffce4e75df9c88f73883ced6f3371a09",
+      "contract_checks": {
+        "headings": true,
+        "inline_language": true,
+        "hyperlinks": true,
+        "basic_tables": true,
+        "alternative_text": true,
+        "captions": true,
+        "document_title": true,
+        "equations": true
+      },
+      "primary_extractor_nonempty": {
+        "headings": true,
+        "figures": true,
+        "tables": true,
+        "hyperlinks": true,
+        "captions": true
+      }
+    },
+    {
+      "document_id": "R04",
+      "source_sha256": "a3a6fdc6231670398f41c8bf8679610d1a0ed9e558b89ecaf0ddac904d1ebd22",
+      "contract_checks": {
+        "headings": true,
+        "inline_language": true,
+        "hyperlinks": true,
+        "basic_tables": true,
+        "alternative_text": true,
+        "captions": true,
+        "document_title": true,
+        "footnotes": true
+      },
+      "primary_extractor_nonempty": {
+        "headings": true,
+        "figures": true,
+        "tables": true,
+        "hyperlinks": true,
+        "captions": true
+      }
+    },
+    {
+      "document_id": "R05",
+      "source_sha256": "fd9e4911665c4d641cb62924b3d09b50e80da3758c4ab5e57556fbc9e7850019",
+      "contract_checks": {
+        "headings": true,
+        "inline_language": true,
+        "hyperlinks": true,
+        "basic_tables": true,
+        "alternative_text": true,
+        "captions": true,
+        "document_title": true
+      },
+      "primary_extractor_nonempty": {
+        "headings": true,
+        "figures": true,
+        "tables": true,
+        "hyperlinks": true,
+        "captions": true
+      }
+    },
+    {
+      "document_id": "R06",
+      "source_sha256": "f6c0aacc262cde9102804c7f5cb6f3dd2536de1f95cedd1a0bea140dbfad6af2",
+      "contract_checks": {
+        "headings": true,
+        "inline_language": true,
+        "hyperlinks": true,
+        "basic_tables": true,
+        "alternative_text": true,
+        "captions": true,
+        "document_title": true,
+        "footnotes": true,
+        "equations": true
+      },
+      "primary_extractor_nonempty": {
+        "headings": true,
+        "figures": true,
+        "tables": true,
+        "hyperlinks": true,
+        "captions": true
+      }
+    },
+    {
+      "document_id": "R07",
+      "source_sha256": "79b2addce5f47bf3ac9790f2fadce4bf38540615dbe13db0e16f726971d942e3",
+      "contract_checks": {
+        "headings": true,
+        "inline_language": true,
+        "hyperlinks": true,
+        "basic_tables": true,
+        "alternative_text": true,
+        "captions": true,
+        "document_title": true
+      },
+      "primary_extractor_nonempty": {
+        "headings": true,
+        "figures": true,
+        "tables": true,
+        "hyperlinks": true,
+        "captions": true
+      }
+    },
+    {
+      "document_id": "R08",
+      "source_sha256": "84485936f310b385b71ae722f79919c00ef76b21ada5a8903acbaf93d5deea8c",
+      "contract_checks": {
+        "headings": true,
+        "inline_language": true,
+        "hyperlinks": true,
+        "basic_tables": true,
+        "alternative_text": true,
+        "captions": true,
+        "document_title": true,
+        "footnotes": true
+      },
+      "primary_extractor_nonempty": {
+        "headings": true,
+        "figures": true,
+        "tables": true,
+        "hyperlinks": true,
+        "captions": true
+      }
+    },
+    {
+      "document_id": "R09",
+      "source_sha256": "b59eaeae0e74805fb19ca804d32ef65e0d957998d9aea2d9a29ac0c6686e5383",
+      "contract_checks": {
+        "headings": true,
+        "inline_language": true,
+        "hyperlinks": true,
+        "basic_tables": true,
+        "alternative_text": true,
+        "captions": true,
+        "document_title": true,
+        "equations": true
+      },
+      "primary_extractor_nonempty": {
+        "headings": true,
+        "figures": true,
+        "tables": true,
+        "hyperlinks": true,
+        "captions": true
+      }
+    },
+    {
+      "document_id": "R10",
+      "source_sha256": "4312119ac651e9abdf641beb51a171619db94f27c150d43e5d216a0413eb21e2",
+      "contract_checks": {
+        "headings": true,
+        "inline_language": true,
+        "hyperlinks": true,
+        "basic_tables": true,
+        "alternative_text": true,
+        "captions": true,
+        "document_title": true,
+        "footnotes": true
+      },
+      "primary_extractor_nonempty": {
+        "headings": true,
+        "figures": true,
+        "tables": true,
+        "hyperlinks": true,
+        "captions": true
+      }
+    }
+  ],
+  "scoring": "contract-level only; no global accessibility score"
+}

@@ -1,0 +1,464 @@
+{
+  "documents": [
+    {
+      "document_id": "R01",
+      "contracts": [
+        {
+          "property": "headings",
+          "expected_count": 5,
+          "source_evidence": "word/document.xml paragraph styles"
+        },
+        {
+          "property": "inline_language",
+          "expected_language": "fr-FR",
+          "source_evidence": "word/document.xml w:lang"
+        },
+        {
+          "property": "hyperlinks",
+          "expected_target": "https://example.org/realistic/1",
+          "source_evidence": "document relationship"
+        },
+        {
+          "property": "basic_tables",
+          "header_rows": [
+            0
+          ],
+          "source_evidence": "w:tblHeader"
+        },
+        {
+          "property": "alternative_text",
+          "expected_alt": "Illustration for the community accessibility guide.",
+          "source_evidence": "drawing docPr descr"
+        },
+        {
+          "property": "captions",
+          "expected_text": "Figure 1. Community Accessibility Guide overview.",
+          "source_evidence": "Caption paragraph"
+        },
+        {
+          "property": "document_title",
+          "expected_title": "A11yPreserve realistic document 1: community accessibility guide",
+          "source_evidence": "core properties"
+        }
+      ]
+    },
+    {
+      "document_id": "R02",
+      "contracts": [
+        {
+          "property": "headings",
+          "expected_count": 5,
+          "source_evidence": "word/document.xml paragraph styles"
+        },
+        {
+          "property": "inline_language",
+          "expected_language": "fr-FR",
+          "source_evidence": "word/document.xml w:lang"
+        },
+        {
+          "property": "hyperlinks",
+          "expected_target": "https://example.org/realistic/2",
+          "source_evidence": "document relationship"
+        },
+        {
+          "property": "basic_tables",
+          "header_rows": [
+            0
+          ],
+          "source_evidence": "w:tblHeader"
+        },
+        {
+          "property": "alternative_text",
+          "expected_alt": "Illustration for the course syllabus.",
+          "source_evidence": "drawing docPr descr"
+        },
+        {
+          "property": "captions",
+          "expected_text": "Figure 2. Course Syllabus overview.",
+          "source_evidence": "Caption paragraph"
+        },
+        {
+          "property": "document_title",
+          "expected_title": "A11yPreserve realistic document 2: course syllabus",
+          "source_evidence": "core properties"
+        },
+        {
+          "property": "footnotes",
+          "expected_count": 1,
+          "source_evidence": "word/footnotes.xml"
+        }
+      ]
+    },
+    {
+      "document_id": "R03",
+      "contracts": [
+        {
+          "property": "headings",
+          "expected_count": 5,
+          "source_evidence": "word/document.xml paragraph styles"
+        },
+        {
+          "property": "inline_language",
+          "expected_language": "fr-FR",
+          "source_evidence": "word/document.xml w:lang"
+        },
+        {
+          "property": "hyperlinks",
+          "expected_target": "https://example.org/realistic/3",
+          "source_evidence": "document relationship"
+        },
+        {
+          "property": "basic_tables",
+          "header_rows": [
+            0
+          ],
+          "source_evidence": "w:tblHeader"
+        },
+        {
+          "property": "alternative_text",
+          "expected_alt": "Illustration for the policy memo.",
+          "source_evidence": "drawing docPr descr"
+        },
+        {
+          "property": "captions",
+          "expected_text": "Figure 3. Policy Memo overview.",
+          "source_evidence": "Caption paragraph"
+        },
+        {
+          "property": "document_title",
+          "expected_title": "A11yPreserve realistic document 3: policy memo",
+          "source_evidence": "core properties"
+        },
+        {
+          "property": "equations",
+          "expected_count": 1,
+          "source_evidence": "OMML"
+        }
+      ]
+    },
+    {
+      "document_id": "R04",
+      "contracts": [
+        {
+          "property": "headings",
+          "expected_count": 5,
+          "source_evidence": "word/document.xml paragraph styles"
+        },
+        {
+          "property": "inline_language",
+          "expected_language": "fr-FR",
+          "source_evidence": "word/document.xml w:lang"
+        },
+        {
+          "property": "hyperlinks",
+          "expected_target": "https://example.org/realistic/4",
+          "source_evidence": "document relationship"
+        },
+        {
+          "property": "basic_tables",
+          "header_rows": [
+            0
+          ],
+          "source_evidence": "w:tblHeader"
+        },
+        {
+          "property": "alternative_text",
+          "expected_alt": "Illustration for the research handout.",
+          "source_evidence": "drawing docPr descr"
+        },
+        {
+          "property": "captions",
+          "expected_text": "Figure 4. Research Handout overview.",
+          "source_evidence": "Caption paragraph"
+        },
+        {
+          "property": "document_title",
+          "expected_title": "A11yPreserve realistic document 4: research handout",
+          "source_evidence": "core properties"
+        },
+        {
+          "property": "footnotes",
+          "expected_count": 1,
+          "source_evidence": "word/footnotes.xml"
+        }
+      ]
+    },
+    {
+      "document_id": "R05",
+      "contracts": [
+        {
+          "property": "headings",
+          "expected_count": 5,
+          "source_evidence": "word/document.xml paragraph styles"
+        },
+        {
+          "property": "inline_language",
+          "expected_language": "fr-FR",
+          "source_evidence": "word/document.xml w:lang"
+        },
+        {
+          "property": "hyperlinks",
+          "expected_target": "https://example.org/realistic/5",
+          "source_evidence": "document relationship"
+        },
+        {
+          "property": "basic_tables",
+          "header_rows": [
+            0
+          ],
+          "source_evidence": "w:tblHeader"
+        },
+        {
+          "property": "alternative_text",
+          "expected_alt": "Illustration for the public meeting report.",
+          "source_evidence": "drawing docPr descr"
+        },
+        {
+          "property": "captions",
+          "expected_text": "Figure 5. Public Meeting Report overview.",
+          "source_evidence": "Caption paragraph"
+        },
+        {
+          "property": "document_title",
+          "expected_title": "A11yPreserve realistic document 5: public meeting report",
+          "source_evidence": "core properties"
+        }
+      ]
+    },
+    {
+      "document_id": "R06",
+      "contracts": [
+        {
+          "property": "headings",
+          "expected_count": 5,
+          "source_evidence": "word/document.xml paragraph styles"
+        },
+        {
+          "property": "inline_language",
+          "expected_language": "fr-FR",
+          "source_evidence": "word/document.xml w:lang"
+        },
+        {
+          "property": "hyperlinks",
+          "expected_target": "https://example.org/realistic/6",
+          "source_evidence": "document relationship"
+        },
+        {
+          "property": "basic_tables",
+          "header_rows": [
+            0
+          ],
+          "source_evidence": "w:tblHeader"
+        },
+        {
+          "property": "alternative_text",
+          "expected_alt": "Illustration for the instructional guide.",
+          "source_evidence": "drawing docPr descr"
+        },
+        {
+          "property": "captions",
+          "expected_text": "Figure 6. Instructional Guide overview.",
+          "source_evidence": "Caption paragraph"
+        },
+        {
+          "property": "document_title",
+          "expected_title": "A11yPreserve realistic document 6: instructional guide",
+          "source_evidence": "core properties"
+        },
+        {
+          "property": "footnotes",
+          "expected_count": 1,
+          "source_evidence": "word/footnotes.xml"
+        },
+        {
+          "property": "equations",
+          "expected_count": 1,
+          "source_evidence": "OMML"
+        }
+      ]
+    },
+    {
+      "document_id": "R07",
+      "contracts": [
+        {
+          "property": "headings",
+          "expected_count": 5,
+          "source_evidence": "word/document.xml paragraph styles"
+        },
+        {
+          "property": "inline_language",
+          "expected_language": "fr-FR",
+          "source_evidence": "word/document.xml w:lang"
+        },
+        {
+          "property": "hyperlinks",
+          "expected_target": "https://example.org/realistic/7",
+          "source_evidence": "document relationship"
+        },
+        {
+          "property": "basic_tables",
+          "header_rows": [
+            0
+          ],
+          "source_evidence": "w:tblHeader"
+        },
+        {
+          "property": "alternative_text",
+          "expected_alt": "Illustration for the service overview.",
+          "source_evidence": "drawing docPr descr"
+        },
+        {
+          "property": "captions",
+          "expected_text": "Figure 7. Service Overview overview.",
+          "source_evidence": "Caption paragraph"
+        },
+        {
+          "property": "document_title",
+          "expected_title": "A11yPreserve realistic document 7: service overview",
+          "source_evidence": "core properties"
+        }
+      ]
+    },
+    {
+      "document_id": "R08",
+      "contracts": [
+        {
+          "property": "headings",
+          "expected_count": 5,
+          "source_evidence": "word/document.xml paragraph styles"
+        },
+        {
+          "property": "inline_language",
+          "expected_language": "fr-FR",
+          "source_evidence": "word/document.xml w:lang"
+        },
+        {
+          "property": "hyperlinks",
+          "expected_target": "https://example.org/realistic/8",
+          "source_evidence": "document relationship"
+        },
+        {
+          "property": "basic_tables",
+          "header_rows": [
+            0
+          ],
+          "source_evidence": "w:tblHeader"
+        },
+        {
+          "property": "alternative_text",
+          "expected_alt": "Illustration for the evaluation brief.",
+          "source_evidence": "drawing docPr descr"
+        },
+        {
+          "property": "captions",
+          "expected_text": "Figure 8. Evaluation Brief overview.",
+          "source_evidence": "Caption paragraph"
+        },
+        {
+          "property": "document_title",
+          "expected_title": "A11yPreserve realistic document 8: evaluation brief",
+          "source_evidence": "core properties"
+        },
+        {
+          "property": "footnotes",
+          "expected_count": 1,
+          "source_evidence": "word/footnotes.xml"
+        }
+      ]
+    },
+    {
+      "document_id": "R09",
+      "contracts": [
+        {
+          "property": "headings",
+          "expected_count": 5,
+          "source_evidence": "word/document.xml paragraph styles"
+        },
+        {
+          "property": "inline_language",
+          "expected_language": "fr-FR",
+          "source_evidence": "word/document.xml w:lang"
+        },
+        {
+          "property": "hyperlinks",
+          "expected_target": "https://example.org/realistic/9",
+          "source_evidence": "document relationship"
+        },
+        {
+          "property": "basic_tables",
+          "header_rows": [
+            0
+          ],
+          "source_evidence": "w:tblHeader"
+        },
+        {
+          "property": "alternative_text",
+          "expected_alt": "Illustration for the program brochure.",
+          "source_evidence": "drawing docPr descr"
+        },
+        {
+          "property": "captions",
+          "expected_text": "Figure 9. Program Brochure overview.",
+          "source_evidence": "Caption paragraph"
+        },
+        {
+          "property": "document_title",
+          "expected_title": "A11yPreserve realistic document 9: program brochure",
+          "source_evidence": "core properties"
+        },
+        {
+          "property": "equations",
+          "expected_count": 1,
+          "source_evidence": "OMML"
+        }
+      ]
+    },
+    {
+      "document_id": "R10",
+      "contracts": [
+        {
+          "property": "headings",
+          "expected_count": 5,
+          "source_evidence": "word/document.xml paragraph styles"
+        },
+        {
+          "property": "inline_language",
+          "expected_language": "fr-FR",
+          "source_evidence": "word/document.xml w:lang"
+        },
+        {
+          "property": "hyperlinks",
+          "expected_target": "https://example.org/realistic/10",
+          "source_evidence": "document relationship"
+        },
+        {
+          "property": "basic_tables",
+          "header_rows": [
+            0
+          ],
+          "source_evidence": "w:tblHeader"
+        },
+        {
+          "property": "alternative_text",
+          "expected_alt": "Illustration for the small annual report.",
+          "source_evidence": "drawing docPr descr"
+        },
+        {
+          "property": "captions",
+          "expected_text": "Figure 10. Small Annual Report overview.",
+          "source_evidence": "Caption paragraph"
+        },
+        {
+          "property": "document_title",
+          "expected_title": "A11yPreserve realistic document 10: small annual report",
+          "source_evidence": "core properties"
+        },
+        {
+          "property": "footnotes",
+          "expected_count": 1,
+          "source_evidence": "word/footnotes.xml"
+        }
+      ]
+    }
+  ]
+}

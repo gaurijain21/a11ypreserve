@@ -1,0 +1,25 @@
+{
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "libreoffice": {
+    "available": false,
+    "evidence": "No soffice.exe or libreoffice executable was found on PATH or in the standard Program Files locations during the V4 pre-result environment check.",
+    "primary_cases": 0
+  },
+  "microsoft_word": {
+    "installed": true,
+    "executable": "C:/Program Files/Microsoft Office/Root/Office16/WINWORD.EXE",
+    "pywin32_available": true,
+    "attempt": "python scripts/word_convert.py experiments/v4/fixtures/F01_A.docx",
+    "result": "FAILED_BEFORE_CONVERSION",
+    "error": "0x80070520: A specified logon session does not exist. It may already have been terminated.",
+    "primary_cases": 0
+  },
+  "google_docs": {
+    "available": false,
+    "authenticated_session": false,
+    "evidence": "Browser inventory showed Chrome tabs for unrelated pages and no Google Docs session. No V4 DOCX was uploaded and no Google output was fabricated.",
+    "primary_cases": 0
+  },
+  "primary_converter_count": 0,
+  "decision": "No V4 converter output was inspected or entered into the primary denominator. This is an environment limitation, not a preservation result."
+}
