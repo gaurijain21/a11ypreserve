@@ -1,81 +1,63 @@
 # A11yPreserve
 
-A11yPreserve is a source-grounded, uncertainty-aware testing protocol for
-measuring whether machine-verifiable accessibility information survives
-DOCX-to-PDF conversion.
+A11yPreserve is a source-grounded, contract-based, uncertainty-aware conformance-testing methodology for one question:
 
-The canonical ICST 2027 research-paper candidate is the anonymous V3 source in
-[`submission/ICST2027_V3`](submission/ICST2027_V3). The canonical replication
-candidate is [`artifact_v3`](artifact_v3). The older V2 manuscript under
-[`paper`](paper) is retained for provenance and is not the submission source.
+> When accessibility information is known to exist in a DOCX source, does that information survive DOCX-to-PDF conversion?
 
-## Current research snapshot
+It is not a general PDF accessibility checker, a WCAG/PDF-UA validator, a converter ranking, a prevalence study, or a disabled-user study. It tests selected machine-verifiable source semantics against destination PDF evidence and abstains when semantic equivalence cannot be established safely.
 
-- 26 controlled DOCX fixtures: two controlled instances for each of 13 selected
-  feature families.
-- 52 fixture--pipeline cases across LibreOffice and the Google Docs DOCX-to-PDF
-  conversion pipeline.
-- Evidence-aware result counts: 18 verified preserved, 4 observed partial,
-  7 altered, 4 confirmed lost, 18 unresolved equivalence, and 1 measurement
-  error.
-- A separate 39-run Google Core repeatability arm: all 13 fixture outputs were
-  byte-identical across three recorded runs.
-- A separate integrated sanity check: three project-generated multi-feature
-  documents and 42 property--pipeline observations.
+## Current state
 
-These are controlled-case observations, not prevalence estimates, a global
-converter ranking, a complete PDF accessibility score, or a disabled-user
-impact study.
+The authoritative submission state is [`CANONICAL_SUBMISSION_STATE.md`](CANONICAL_SUBMISSION_STATE.md). The current machine-readable benchmark is [`results/V3_PRIMARY_RESULTS.json`](results/V3_PRIMARY_RESULTS.json): 26 controlled DOCX fixtures, two named pipelines, and 52 fixture–pipeline cases.
 
-## Verify the replication candidate
+Current outcomes are 18 `VERIFIED_PRESERVED`, 4 `OBSERVED_PARTIAL`, 7 `ALTERED`, 4 `CONFIRMED_LOST`, 18 `UNRESOLVED_EQUIVALENCE`, and 1 `MEASUREMENT_ERROR`. These are controlled-case observations, not prevalence estimates or a global accessibility score.
 
-From `artifact_v3/`:
+## Reproduce the evidence
+
+From the repository root:
 
 ```powershell
-python src/verify_public_package.py
-python src/independent_source_oracle.py
-python src/v3_difficult_variant_audit.py
-python src/v3_finalize_repeatability.py
+python reproduce.py
 ```
 
-The standard-library self-check validates the result counts, frozen source and
-PDF hashes, provenance links, repeatability outputs, and release-path
-sanitization. The other commands rerun the source-oracle and stored evidence
-audits. Google Docs reproduction requires an authenticated browser workflow;
-credentials, cookies, and browser state are intentionally excluded.
+For the artifact-only self-check:
 
-## What makes the testing contribution distinct
+```powershell
+python artifact_v3/src/verify_public_package.py
+python artifact_v3/src/independent_source_oracle.py
+```
 
-The suite treats feature contracts as test oracles, controlled DOCX files as
-test inputs, conversion pipelines as systems under test, PDF extraction as
-observations, and evidence-aware rules as oracle decisions. When multiple PDF
-representations are plausible but the evidence is insufficient, the oracle
-abstains as `UNRESOLVED_EQUIVALENCE` instead of silently converting uncertainty
-into a pass or failure.
+The evidence-only workflow validates stored hashes, source contracts, PDF provenance, result accounting, repeatability records, and artifact sanitization. It does not claim to recreate authenticated Google Docs conversion or Word export without those external conditions.
 
-## Release and anonymity status
+## Repository layout
 
-The public candidate is prepared for review, but it is not a release-ready
-public repository yet. Before public release, the authors must choose a license
-for original code and documentation, verify the provenance and redistribution
-rights of every fixture asset, and rebuild the final artifact archive.
-
-For double-blind ICST review, do not link an identity-bearing GitHub repository
-from the submission. Use an anonymized replication package and re-run the
-anonymity scan after the final archive and PDF are created.
-
-The V3 manuscript PDF is now compiled and verified at
-`submission/ICST2027_V3/main.pdf`. The build record reports the hash, page
-count, embedded-font check, metadata/anonymity scan, and visual inspection.
-Human venue, authorship, license, and portal checks remain before upload.
-
-## Repository map
-
-| Path | Role |
+| Path | Purpose |
 |---|---|
-| `submission/ICST2027_V3/` | Anonymous ICST V3 manuscript source and submission checks |
-| `artifact_v3/` | Sanitized V3 replication candidate |
-| `contracts/v3/` | Cross-format oracle and classification specifications |
-| `corpus/`, `results/`, `v3/` | Frozen evidence and derived result records |
-| `paper/` | Earlier V2 manuscript and rendered history |
-| `research/`, `audit/`, `final_*` | Working research and hostile-review records |
+| `corpus/` | Frozen Core source manifests, fixtures, and evidence |
+| `corpus/v3_variant_set_b/` | Pre-specified Variant B sources and freeze record |
+| `contracts/` | Feature-specific source/destination contracts |
+| `results/` | Canonical and historical machine-readable result records |
+| `v3/` | Variant B, Google repeatability, and V3 evidence |
+| `integrated_study/` | Separate project-generated multi-feature sanity arm |
+| `final_strengthening/` | Calibration and difficult-case evidence |
+| `tools/` | Consistency and source-oracle corruption checks |
+| `submission/ICST2027_V3/` | Current anonymous manuscript source and verified PDF |
+| `artifact_v3/` | Review artifact and self-checking replication candidate |
+| `docs/current/` | Current methodology, results, limitations, and reproduction notes |
+| `docs/archive/` | Archive policy for historical states |
+
+## Benchmark scope
+
+The 13 selected families are headings, alternative text, lists, basic tables, document language, inline language, decorative images, hyperlinks, document title/metadata, complex tables, footnotes, equations, and captions. The selection rationale and fault model are documented in [`docs/FEATURE_SELECTION_RATIONALE.md`](docs/FEATURE_SELECTION_RATIONALE.md) and [`docs/TEST_ADEQUACY_AND_FAULT_MODEL.md`](docs/TEST_ADEQUACY_AND_FAULT_MODEL.md). Reading order was considered but excluded from the atomic denominator because a defensible automated equivalence oracle was not established.
+
+The primary conditions are LibreOffice with recorded tagged/PDF-UA export settings and the recorded authenticated Google Docs DOCX-to-PDF workflow. Microsoft Word is documented as a genuine attempted but unavailable pipeline; no Word result is included.
+
+## Outcome taxonomy
+
+`VERIFIED_PRESERVED` requires contract-supported equivalence. `OBSERVED_PARTIAL` records measured partial correspondence. `ALTERED` records a measured author-value or semantic difference without equating it to complete inaccessibility. `CONFIRMED_LOST` is reserved for independently corroborated absence of the required machine-verifiable representation. `UNRESOLVED_EQUIVALENCE` is a conservative abstention. `MEASUREMENT_ERROR` means the evidence path failed to support a valid decision.
+
+## Evidence and limitations
+
+The 26-row Core result is historical evidence retained unchanged; Variant B is a separate, pre-specified second instance per family. Google repeatability (39 runs), calibration (27 controls), and the integrated three-document arm are supplementary and remain out of the 52-case denominator. The project has no disabled-user task study, no representative real-world corpus, no Word arm, and no claim that structural preservation equals complete accessibility.
+
+Run [`tools/audit_submission_consistency.py`](tools/audit_submission_consistency.py) to regenerate [`reports/FINAL_CONSISTENCY_AUDIT.md`](reports/FINAL_CONSISTENCY_AUDIT.md). Read [`FINAL_SUBMISSION_READINESS.md`](FINAL_SUBMISSION_READINESS.md) for the final adversarial gate and the exact remaining human actions.

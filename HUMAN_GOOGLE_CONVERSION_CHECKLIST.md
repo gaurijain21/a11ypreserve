@@ -1,3 +1,7 @@
+# HISTORICAL — Google conversion blocker checklist
+
+> The checklist records the earlier automation blocker. Current V3 outputs and route provenance are recorded under `v3/variant_set_b/` and `reports/GOOGLE_ROUTE_AUDIT.md`.
+
 # Human Google Docs Conversion Checklist
 
 Status: required because the current browser bridge opens the Google Docs Upload tab but cannot control the native Windows file chooser. No Google Variant Set B or repeatability result is claimed until the downloaded PDFs exist and pass validation.

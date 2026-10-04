@@ -13,7 +13,7 @@ machine-verifiable DOCX-to-tagged-PDF preservation contracts.
 | Item | Canonical path | SHA-256 / status |
 |---|---|---|
 | Manuscript source | `submission/ICST2027_V3/main.tex` | canonical source |
-| Manuscript PDF | `submission/ICST2027_V3/main.pdf` | `CAE94FA084B653F7CECA21435D6F39F4D71B1BC0324F4BC2F8B15F4C1CEE084C`; 9 pages; 146,413 bytes |
+| Manuscript PDF | `submission/ICST2027_V3/main.pdf` | `4F4CC53B5783ADEECF418B645EDDC16D39A7CD17144B8CD2A76D6A32D8B46285`; 9 pages; 146,472 bytes |
 | Bibliography | `submission/ICST2027_V3/references.bib` | used by the canonical build |
 | Primary result dataset | `artifact_v3/results/V3_PRIMARY_RESULTS.json` | 52 records; frozen evidence record |
 | Artifact directory | `artifact_v3/` | self-contained reviewer boundary |

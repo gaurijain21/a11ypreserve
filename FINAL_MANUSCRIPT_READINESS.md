@@ -1,3 +1,7 @@
+# HISTORICAL — V2 readiness snapshot; superseded by `FINAL_SUBMISSION_READINESS.md`
+
+> This file is retained for provenance. Its 26-case counts describe the historical Core state, not the current 52-case V3 submission state.
+
 # READY FOR SUBMISSION; PDF VERIFIED
 
 ## 1. Executive decision

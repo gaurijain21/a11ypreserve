@@ -14,8 +14,8 @@ all later work must be additive and must not rewrite the frozen primary evidence
 ## Canonical submission hashes
 
 - Manuscript: `submission/ICST2027_V3/main.pdf`
-  - SHA-256: `CAE94FA084B653F7CECA21435D6F39F4D71B1BC0324F4BC2F8B15F4C1CEE084C`
-  - 9 pages; 146,413 bytes
+  - SHA-256: `4F4CC53B5783ADEECF418B645EDDC16D39A7CD17144B8CD2A76D6A32D8B46285`
+  - 9 pages; 146,472 bytes
 - Reviewer artifact: `submission/A11yPreserve_artifact_ICST2027_V3.zip`
   - SHA-256: `B315C204C2E112909498B12D17F69B582ACA8813E8A9E42CC1E0E37D1EF08F49`
   - 342 packaged files; 4,632,945 bytes

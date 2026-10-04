@@ -1,3 +1,7 @@
+# HISTORICAL — superseded blocker record
+
+> The PDF-verification blocker described here was resolved in the later V3 package. Use `FINAL_SUBMISSION_READINESS.md` and `submission/ICST2027_V3/FINAL_PACKAGE_DECISION.md` for current status.
+
 # DO NOT SUBMIT CURRENT CLAIMS
 
 ## V2 integrity

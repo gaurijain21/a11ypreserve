@@ -21,7 +21,7 @@ The A11yPreserve manuscript and anonymized artifact are cleared for human-contro
 
 ## Build record
 
-The canonical output is `submission/ICST2027_V3/main.pdf`. Its SHA-256 is `CAE94FA084B653F7CECA21435D6F39F4D71B1BC0324F4BC2F8B15F4C1CEE084C`, and its size is 146,413 bytes. MiKTeX was initialized in per-user mode after the original registry-access failure; compilation was then performed in a clean local build directory and the resulting PDF was copied back to the canonical submission directory.
+The canonical output is `submission/ICST2027_V3/main.pdf`. Its SHA-256 is `4F4CC53B5783ADEECF418B645EDDC16D39A7CD17144B8CD2A76D6A32D8B46285`, and its size is 146,472 bytes. MiKTeX was initialized in per-user mode after the original registry-access failure; compilation was then performed in a clean local build directory and the resulting PDF was copied back to the canonical submission directory.
 
 The final source pass retains ordinary underfull-box warnings but has no overfull boxes, undefined citations, or undefined references. A small table-column/header adjustment removed the only overfull result-table line; no scientific text, evidence, classification, or denominator changed.
 

@@ -1,3 +1,7 @@
+# HISTORICAL — superseded by `CANONICAL_SUBMISSION_STATE.md` and `FINAL_SUBMISSION_READINESS.md`
+
+> This snapshot mixes the earlier 26-output Core account with later V3 packaging. Use the canonical 52-row V3 state for current claims.
+
 # READY FOR SUBMISSION; PDF VERIFIED
 
 ## 1. Final title

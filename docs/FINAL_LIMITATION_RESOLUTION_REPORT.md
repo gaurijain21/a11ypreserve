@@ -4,7 +4,7 @@
 - Clean Stage 1 freeze commit: `4b9e3cd3a08fe6a961b75f3cccb26964b074f247`.
 - Audited submission-state commit immediately before the freeze record:
   `d361f99740a86cad15e4009282f7ee9a086405a3`.
-- Manuscript SHA-256: `CAE94FA084B653F7CECA21435D6F39F4D71B1BC0324F4BC2F8B15F4C1CEE084C`.
+- Manuscript SHA-256: `4F4CC53B5783ADEECF418B645EDDC16D39A7CD17144B8CD2A76D6A32D8B46285`.
 - Artifact SHA-256: `B315C204C2E112909498B12D17F69B582ACA8813E8A9E42CC1E0E37D1EF08F49`.
 - Frozen primary counts: 52 rows; 18 preserved, 4 partial, 7 altered, 4 lost, 18 unresolved, 1 measurement error.
 - Additive starting count: 14 unresolved after four hyperlink rows were resolved by the prior deterministic geometry audit.

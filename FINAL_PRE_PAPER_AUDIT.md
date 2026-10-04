@@ -1,3 +1,7 @@
+# HISTORICAL — pre-V3 Core audit
+
+> Retained as provenance for the 26-row Core state; it is not the current submission account.
+
 # MINOR FIXES BEFORE PAPER
 
 ## 1. Executive conclusion
