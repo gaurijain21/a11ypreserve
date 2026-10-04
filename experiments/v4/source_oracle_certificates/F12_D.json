@@ -1,0 +1,61 @@
+{
+  "variant_id": "F12_D",
+  "feature_family": "equations",
+  "source_sha256": "866eba9e9b90728a7cccad540a3b6b2ef60798bd43c5d5e38b45503551626aa7",
+  "contract_sha256": "1bb4dc10ddda907c9a643443015bb7dddf959b1b0cb1e08ab460e1e385fca6c1",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "866eba9e9b90728a7cccad540a3b6b2ef60798bd43c5d5e38b45503551626aa7",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 equations 4",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 equations 4",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [
+      {
+        "tokens": [
+          "√",
+          "x",
+          "=",
+          "y"
+        ],
+        "expression": "√x=y"
+      }
+    ],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

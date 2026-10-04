@@ -1,0 +1,17 @@
+{
+  "variant_id": "F13_A",
+  "feature_family": "captions",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F13_A.docx",
+  "ground_truth": {
+    "pairs": [
+      {
+        "figure_order": 1,
+        "caption": "Figure 1. Workflow."
+      }
+    ]
+  },
+  "source_sha256": "226d2d57d81be5a4e1f43a09c3d6db81541d91574851554e52d5f38290059541"
+}

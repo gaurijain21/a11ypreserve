@@ -1,0 +1,28 @@
+{
+  "variant_id": "F07_D",
+  "feature_family": "decorative_images",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F07_D.docx",
+  "ground_truth": {
+    "figures": [
+      {
+        "alt": "Meaningful first.",
+        "decorative": false,
+        "order": 1
+      },
+      {
+        "alt": "",
+        "decorative": true,
+        "order": 2
+      },
+      {
+        "alt": "Meaningful last.",
+        "decorative": false,
+        "order": 3
+      }
+    ]
+  },
+  "source_sha256": "4b885710928688dcfbb60527fd00e465dac0561f2c5b2d0e5b3e80ec44866011"
+}

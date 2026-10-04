@@ -1,0 +1,63 @@
+{
+  "variant_id": "F06_D",
+  "feature_family": "inline_language",
+  "source_sha256": "1fcc333be3c6142fd16c2ceaa62fc2be4c4b57d2f16f36939e87b008f10095c6",
+  "contract_sha256": "9fb729bc58d3557ea2563e0d6c8d760613caa2a4aa31e06d39f796ac5d65625d",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "1fcc333be3c6142fd16c2ceaa62fc2be4c4b57d2f16f36939e87b008f10095c6",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 inline language 4",
+        "language": "en-US"
+      },
+      {
+        "text": "bonjour ",
+        "language": "fr-FR"
+      },
+      {
+        "text": "hola ",
+        "language": "es-ES"
+      },
+      {
+        "text": "ciao ",
+        "language": "it-IT"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 inline language 4",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

@@ -1,0 +1,22 @@
+{
+  "variant_id": "F06_E",
+  "feature_family": "inline_language",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F06_E.docx",
+  "ground_truth": {
+    "document_language": "en-US",
+    "spans": [
+      {
+        "text": "English",
+        "language": "en-GB"
+      },
+      {
+        "text": "日本語",
+        "language": "ja-JP"
+      }
+    ]
+  },
+  "source_sha256": "53ff9c73cb994c9b5c9c6655588d2d7432d604f6660bf14623815d8fa9bd68b5"
+}

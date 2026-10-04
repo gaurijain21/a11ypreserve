@@ -1,0 +1,28 @@
+{
+  "variant_id": "F03_E",
+  "feature_family": "lists",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F03_E.docx",
+  "ground_truth": {
+    "lists": [
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Restart one"
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Restart two"
+      },
+      {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Nested note"
+      }
+    ]
+  },
+  "source_sha256": "b00841b7bfddfd74ca046df61eb472db25423ede1ecaeea71636ec00089829e3"
+}

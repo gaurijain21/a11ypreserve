@@ -1,0 +1,15 @@
+{
+  "variant_id": "F09_C",
+  "feature_family": "document_metadata",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F09_C.docx",
+  "ground_truth": {
+    "visible_title": "Title: Findings (draft)",
+    "core_title": "Title: Findings (draft)",
+    "subject": "Subject 3: source metadata",
+    "keywords": "a11y, preservation, V4"
+  },
+  "source_sha256": "1c7d18a49d4eacc601a7fbfd268f1cf8df3e3c81f47cf6b64370dc36c41b50f8"
+}

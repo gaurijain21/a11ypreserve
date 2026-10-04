@@ -1,0 +1,23 @@
+{
+  "variant_id": "F08_D",
+  "feature_family": "hyperlinks",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F08_D.docx",
+  "ground_truth": {
+    "hyperlinks": [
+      {
+        "text": "Same label",
+        "target": "https://example.org/one",
+        "order": 1
+      },
+      {
+        "text": "Same label",
+        "target": "https://example.org/two",
+        "order": 2
+      }
+    ]
+  },
+  "source_sha256": "8a8bd9c948fe8816c9f7207138bc6fb241821c58b4522de64e3b432d64a89374"
+}

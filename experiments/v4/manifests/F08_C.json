@@ -1,0 +1,23 @@
+{
+  "variant_id": "F08_C",
+  "feature_family": "hyperlinks",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F08_C.docx",
+  "ground_truth": {
+    "hyperlinks": [
+      {
+        "text": "Guidance",
+        "target": "https://example.org/guidance",
+        "order": 1
+      },
+      {
+        "text": "Reference",
+        "target": "https://example.org/reference",
+        "order": 2
+      }
+    ]
+  },
+  "source_sha256": "7d21589968da35ec1fbd8baea8e6868bc17154ed5ccd44d97a1a6ba563d520ae"
+}

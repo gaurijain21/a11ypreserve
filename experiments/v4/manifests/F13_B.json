@@ -1,0 +1,21 @@
+{
+  "variant_id": "F13_B",
+  "feature_family": "captions",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F13_B.docx",
+  "ground_truth": {
+    "pairs": [
+      {
+        "figure_order": 1,
+        "caption": "Figure 1. First."
+      },
+      {
+        "figure_order": 2,
+        "caption": "Figure 2. Second."
+      }
+    ]
+  },
+  "source_sha256": "3ba26ff718b4a544594ed1ac2da627c7ee685dd32859d8ceeb10923a0c7f6f1a"
+}

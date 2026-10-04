@@ -1,0 +1,12 @@
+{
+  "variant_id": "F05_D",
+  "feature_family": "document_language",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F05_D.docx",
+  "ground_truth": {
+    "document_language": "fr-FR"
+  },
+  "source_sha256": "fbd0f32c5469e9ffe08095dc848636d43ed72ac16155975499c9eb781e06ed3b"
+}

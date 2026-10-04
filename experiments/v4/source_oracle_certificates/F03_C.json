@@ -1,0 +1,70 @@
+{
+  "variant_id": "F03_C",
+  "feature_family": "lists",
+  "source_sha256": "bba720b1248fb140d3ba1edeb0c7b78bffaa17c577843eeb9a26822f7981c48e",
+  "contract_sha256": "aca9f9c47b4d769dc669b9e022eac773a3a32071ea2ee0854f6281b59f9bb83b",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "bba720b1248fb140d3ba1edeb0c7b78bffaa17c577843eeb9a26822f7981c48e",
+    "headings": [],
+    "figures": [],
+    "lists": [
+      {
+        "depth": 0,
+        "num_id": "11",
+        "text": "Parent",
+        "type": "unordered"
+      },
+      {
+        "depth": 1,
+        "num_id": "11",
+        "text": "Child",
+        "type": "unordered"
+      },
+      {
+        "depth": 1,
+        "num_id": "11",
+        "text": "Sibling",
+        "type": "unordered"
+      }
+    ],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 lists 3",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 lists 3",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

@@ -1,0 +1,17 @@
+{
+  "variant_id": "F02_B",
+  "feature_family": "alt_text",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F02_B.docx",
+  "ground_truth": {
+    "figures": [
+      {
+        "alt": "A long description of a line chart showing enrollment increasing each academic year from 2021 through 2026.",
+        "order": 1
+      }
+    ]
+  },
+  "source_sha256": "b8fed253e1ada97a12a4e16e62fd1d07cb4233e7654e4345dc42d76814dcc408"
+}

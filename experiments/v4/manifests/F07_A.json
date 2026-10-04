@@ -1,0 +1,18 @@
+{
+  "variant_id": "F07_A",
+  "feature_family": "decorative_images",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F07_A.docx",
+  "ground_truth": {
+    "figures": [
+      {
+        "alt": "",
+        "decorative": true,
+        "order": 1
+      }
+    ]
+  },
+  "source_sha256": "83abc799c2d127a47d494aeea61cc64347e4615d049712772493c776e1dc7af6"
+}

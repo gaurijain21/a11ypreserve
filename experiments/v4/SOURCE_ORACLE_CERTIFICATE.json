@@ -1,0 +1,334 @@
+{
+  "oracle": "v4_raw_ooxml_contract_oracle",
+  "fixture_count": 65,
+  "passed": 65,
+  "failed": 0,
+  "status": "PASS",
+  "results": [
+    {
+      "variant_id": "F01_A",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F01_B",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F01_C",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F01_D",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F01_E",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F02_A",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F02_B",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F02_C",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F02_D",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F02_E",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F03_A",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F03_B",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F03_C",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F03_D",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F03_E",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F04_A",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F04_B",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F04_C",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F04_D",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F04_E",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F05_A",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F05_B",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F05_C",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F05_D",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F05_E",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F06_A",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F06_B",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F06_C",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F06_D",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F06_E",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F07_A",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F07_B",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F07_C",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F07_D",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F07_E",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F08_A",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F08_B",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F08_C",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F08_D",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F08_E",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F09_A",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F09_B",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F09_C",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F09_D",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F09_E",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F10_A",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F10_B",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F10_C",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F10_D",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F10_E",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F11_A",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F11_B",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F11_C",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F11_D",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F11_E",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F12_A",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F12_B",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F12_C",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F12_D",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F12_E",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F13_A",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F13_B",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F13_C",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F13_D",
+      "status": "PASS",
+      "problems": []
+    },
+    {
+      "variant_id": "F13_E",
+      "status": "PASS",
+      "problems": []
+    }
+  ]
+}

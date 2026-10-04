@@ -1,0 +1,55 @@
+{
+  "variant_id": "F09_D",
+  "feature_family": "document_metadata",
+  "source_sha256": "f8b1ee09bc9f737383426e861d0e7f056a972a07660a46f129252614f86ac3aa",
+  "contract_sha256": "f58b6822d7904b30adf5605e23db25fb178c820eab1b9dd6325a0ad56b547f05",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "f8b1ee09bc9f737383426e861d0e7f056a972a07660a46f129252614f86ac3aa",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "A long document title for preservation review",
+        "language": "en-US"
+      },
+      {
+        "text": "Visible title and core metadata are recorded as separate contract values.",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "A long document title for preservation review",
+      "subject": "Subject 4: source metadata",
+      "keywords": "a11y, preservation, V4",
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

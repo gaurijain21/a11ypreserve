@@ -1,0 +1,72 @@
+{
+  "variant_id": "F01_A",
+  "feature_family": "headings",
+  "source_sha256": "62643e92f2a7e40ff87c94795c6ad4cda019af8870f0b2f16eebc625a3a40fc2",
+  "contract_sha256": "260e97508ae825cea11b25f89ef06378a99aa03a2b21c8ee6e9b78ec7285d8df",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "62643e92f2a7e40ff87c94795c6ad4cda019af8870f0b2f16eebc625a3a40fc2",
+    "headings": [
+      {
+        "text": "Overview",
+        "level": 1
+      },
+      {
+        "text": "Context",
+        "level": 2
+      }
+    ],
+    "figures": [],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 headings 1",
+        "language": "en-US"
+      },
+      {
+        "text": "Overview",
+        "language": "en-US"
+      },
+      {
+        "text": "Context",
+        "language": "en-US"
+      },
+      {
+        "text": "The heading hierarchy is separated from ordinary body text.",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 headings 1",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

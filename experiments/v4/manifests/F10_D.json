@@ -1,0 +1,22 @@
+{
+  "variant_id": "F10_D",
+  "feature_family": "complex_tables",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F10_D.docx",
+  "ground_truth": {
+    "span_type": "groups",
+    "rows": 5,
+    "columns": 4,
+    "header_rows": [
+      0,
+      1
+    ],
+    "span_signature": {
+      "gridSpan": "2",
+      "vMerge": null
+    }
+  },
+  "source_sha256": "5a1e08a8702b1710c6f647bdaab49afef01736c62bb26179f3160904331e1230"
+}

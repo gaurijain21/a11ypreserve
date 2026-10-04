@@ -1,0 +1,95 @@
+{
+  "variant_id": "F10_B",
+  "feature_family": "complex_tables",
+  "source_sha256": "5649b706d7d62fc49b282878ff02efb7d334655a1bc70492d3f557ece13c1018",
+  "contract_sha256": "8e99319308bf120fd7ed1f673953dfbed2de33592a5d2e36ff9338bcc3012ade",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "5649b706d7d62fc49b282878ff02efb7d334655a1bc70492d3f557ece13c1018",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [
+      {
+        "rows": 4,
+        "cells": 16,
+        "header_rows": [
+          0
+        ],
+        "spans": [
+          {
+            "gridSpan": null,
+            "vMerge": "restart"
+          },
+          {
+            "gridSpan": null,
+            "vMerge": "continue"
+          }
+        ],
+        "values": [
+          [
+            "row 1.1",
+            "row 1.2",
+            "row row span",
+            "row 1.4"
+          ],
+          [
+            "row 2.1",
+            "row 2.2",
+            "",
+            "row 2.4"
+          ],
+          [
+            "row 3.1",
+            "row 3.2",
+            "row 3.3",
+            "row 3.4"
+          ],
+          [
+            "row 4.1",
+            "row 4.2",
+            "row 4.3",
+            "row 4.4"
+          ]
+        ]
+      }
+    ],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 complex table 2",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 complex table 2",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

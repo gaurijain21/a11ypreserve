@@ -1,0 +1,28 @@
+{
+  "variant_id": "F03_C",
+  "feature_family": "lists",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F03_C.docx",
+  "ground_truth": {
+    "lists": [
+      {
+        "type": "unordered",
+        "depth": 0,
+        "text": "Parent"
+      },
+      {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Child"
+      },
+      {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Sibling"
+      }
+    ]
+  },
+  "source_sha256": "bba720b1248fb140d3ba1edeb0c7b78bffaa17c577843eeb9a26822f7981c48e"
+}

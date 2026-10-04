@@ -1,0 +1,18 @@
+{
+  "variant_id": "F08_B",
+  "feature_family": "hyperlinks",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F08_B.docx",
+  "ground_truth": {
+    "hyperlinks": [
+      {
+        "text": "https://example.org/raw",
+        "target": "https://example.org/raw",
+        "order": 1
+      }
+    ]
+  },
+  "source_sha256": "68364097903620b8af9ebbaf5ec1426cd270f6dd3d1f071f5a230e59acf35cba"
+}

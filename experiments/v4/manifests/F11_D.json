@@ -1,0 +1,17 @@
+{
+  "variant_id": "F11_D",
+  "feature_family": "footnotes",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F11_D.docx",
+  "ground_truth": {
+    "notes": [
+      {
+        "id": 1,
+        "text": "A longer footnote body containing enough text to test relocation and extraction."
+      }
+    ]
+  },
+  "source_sha256": "e2140c08c44e9a8e90c2dc8914b860337080b4f52407145140a1ab99119c339f"
+}

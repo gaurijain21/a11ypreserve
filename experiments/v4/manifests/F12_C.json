@@ -1,0 +1,23 @@
+{
+  "variant_id": "F12_C",
+  "feature_family": "equations",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F12_C.docx",
+  "ground_truth": {
+    "equations": [
+      {
+        "expression": "x^2 + y^2",
+        "tokens": [
+          "x",
+          "2",
+          "+",
+          "y",
+          "2"
+        ]
+      }
+    ]
+  },
+  "source_sha256": "2d3b56e835048ea41b3c89b6723eb24ba2f94185c38058a8a6d252f7458bbe8c"
+}

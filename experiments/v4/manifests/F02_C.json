@@ -1,0 +1,17 @@
+{
+  "variant_id": "F02_C",
+  "feature_family": "alt_text",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F02_C.docx",
+  "ground_truth": {
+    "figures": [
+      {
+        "alt": "Punctuation: review — results (2026)!",
+        "order": 1
+      }
+    ]
+  },
+  "source_sha256": "7e4a11e6e81cb706783e876ea2f208b3469b8b4cb2ba769fbc0b930de6d1f2a9"
+}

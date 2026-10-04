@@ -1,0 +1,15 @@
+{
+  "variant_id": "F09_D",
+  "feature_family": "document_metadata",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F09_D.docx",
+  "ground_truth": {
+    "visible_title": "A long document title for preservation review",
+    "core_title": "A long document title for preservation review",
+    "subject": "Subject 4: source metadata",
+    "keywords": "a11y, preservation, V4"
+  },
+  "source_sha256": "f8b1ee09bc9f737383426e861d0e7f056a972a07660a46f129252614f86ac3aa"
+}

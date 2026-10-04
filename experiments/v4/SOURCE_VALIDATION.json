@@ -1,0 +1,593 @@
+{
+  "status": "PASS",
+  "fixture_count": 65,
+  "raw_oracle_pass": 65,
+  "primary_supported": 65,
+  "rows": [
+    {
+      "variant_id": "F01_A",
+      "feature_family": "headings",
+      "source_sha256": "62643e92f2a7e40ff87c94795c6ad4cda019af8870f0b2f16eebc625a3a40fc2",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F01_A.json"
+    },
+    {
+      "variant_id": "F01_B",
+      "feature_family": "headings",
+      "source_sha256": "b47d7e6c5534da631abd7599e986282e434420be18b39d0d7442603577c8940a",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F01_B.json"
+    },
+    {
+      "variant_id": "F01_C",
+      "feature_family": "headings",
+      "source_sha256": "013f01dd8db9301dd49124f382f5d56530903dbab4b545c8c24d13443b1df44d",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F01_C.json"
+    },
+    {
+      "variant_id": "F01_D",
+      "feature_family": "headings",
+      "source_sha256": "9156c9ef9e0fdaa04b93b225fb231623048a9a033c938e862c8e742b82a7e334",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F01_D.json"
+    },
+    {
+      "variant_id": "F01_E",
+      "feature_family": "headings",
+      "source_sha256": "3b8f49fafcbc5165a03634c9dff00ece978c822e4189703a12da8b8c22b69487",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F01_E.json"
+    },
+    {
+      "variant_id": "F02_A",
+      "feature_family": "alt_text",
+      "source_sha256": "ae64b91085158916d5a5be11987cb3fbfabc0501c57acdbbf23fffcd769fde80",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F02_A.json"
+    },
+    {
+      "variant_id": "F02_B",
+      "feature_family": "alt_text",
+      "source_sha256": "b8fed253e1ada97a12a4e16e62fd1d07cb4233e7654e4345dc42d76814dcc408",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F02_B.json"
+    },
+    {
+      "variant_id": "F02_C",
+      "feature_family": "alt_text",
+      "source_sha256": "7e4a11e6e81cb706783e876ea2f208b3469b8b4cb2ba769fbc0b930de6d1f2a9",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F02_C.json"
+    },
+    {
+      "variant_id": "F02_D",
+      "feature_family": "alt_text",
+      "source_sha256": "79b212c7afdd5ba5ff27e9d9bb22d05c5c8aec0c04554501c6788e943a078ab8",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F02_D.json"
+    },
+    {
+      "variant_id": "F02_E",
+      "feature_family": "alt_text",
+      "source_sha256": "801332b1b4337ad122cfa78e4866af48e467736a6840bb3fa9092e74d9141bc7",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F02_E.json"
+    },
+    {
+      "variant_id": "F03_A",
+      "feature_family": "lists",
+      "source_sha256": "84b579cace9f44ab51623fcfd1526061ce8ce70fe8b728a728afe301d56fda7f",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F03_A.json"
+    },
+    {
+      "variant_id": "F03_B",
+      "feature_family": "lists",
+      "source_sha256": "c2451d7139ff66fb4f747b957915cc17ab6a7d7fd34a94d1ae75bc62f1b3acdb",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F03_B.json"
+    },
+    {
+      "variant_id": "F03_C",
+      "feature_family": "lists",
+      "source_sha256": "bba720b1248fb140d3ba1edeb0c7b78bffaa17c577843eeb9a26822f7981c48e",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F03_C.json"
+    },
+    {
+      "variant_id": "F03_D",
+      "feature_family": "lists",
+      "source_sha256": "8f9c59083345539501a727d7fe6e0abd2f386cb60841ed28711e9190723b75f3",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F03_D.json"
+    },
+    {
+      "variant_id": "F03_E",
+      "feature_family": "lists",
+      "source_sha256": "b00841b7bfddfd74ca046df61eb472db25423ede1ecaeea71636ec00089829e3",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F03_E.json"
+    },
+    {
+      "variant_id": "F04_A",
+      "feature_family": "basic_tables",
+      "source_sha256": "4eff9ec0fcb3da3b267f6948aac8fe0ee6f82523060c4629eb4b5f8f473a44b8",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F04_A.json"
+    },
+    {
+      "variant_id": "F04_B",
+      "feature_family": "basic_tables",
+      "source_sha256": "2da29d168d2b96940a505cdf86f41fbcd6c61faac08b9c3446995fe38cc98d16",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F04_B.json"
+    },
+    {
+      "variant_id": "F04_C",
+      "feature_family": "basic_tables",
+      "source_sha256": "d07ba7d1c3c9bb9ddb32d4e3f3c3a2500554efc6265f33e8feb6474a8b0e84fb",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F04_C.json"
+    },
+    {
+      "variant_id": "F04_D",
+      "feature_family": "basic_tables",
+      "source_sha256": "87dcb4771635f04a934bf1a84c4cc6cd6146bb9b08f940c319ec36f319ba443c",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F04_D.json"
+    },
+    {
+      "variant_id": "F04_E",
+      "feature_family": "basic_tables",
+      "source_sha256": "c4d179636beb2f2940134c9b067bcde5b2b1a6ff17abecba44fe097979a7fa03",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F04_E.json"
+    },
+    {
+      "variant_id": "F05_A",
+      "feature_family": "document_language",
+      "source_sha256": "18c4c7c57060133fb7c80d377d84070dfdf180f2a5c356cd7d429cb81c31f57d",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F05_A.json"
+    },
+    {
+      "variant_id": "F05_B",
+      "feature_family": "document_language",
+      "source_sha256": "57a905acacd76d043ac4a4b5d519741dea7044ebe6904ed8b8df1172a8a1fb9f",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F05_B.json"
+    },
+    {
+      "variant_id": "F05_C",
+      "feature_family": "document_language",
+      "source_sha256": "324349411dee10011a7fde349a9e6b658bc865a42ff02497862086dc97bb843d",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F05_C.json"
+    },
+    {
+      "variant_id": "F05_D",
+      "feature_family": "document_language",
+      "source_sha256": "fbd0f32c5469e9ffe08095dc848636d43ed72ac16155975499c9eb781e06ed3b",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F05_D.json"
+    },
+    {
+      "variant_id": "F05_E",
+      "feature_family": "document_language",
+      "source_sha256": "926930bb75fb4184b19de5fb258860d32cc809f28f19bfb4a81d504ae921bd60",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F05_E.json"
+    },
+    {
+      "variant_id": "F06_A",
+      "feature_family": "inline_language",
+      "source_sha256": "f3aab26f438ef5e524606d05411c36527e5f59860c5d045b417324e7597598ca",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F06_A.json"
+    },
+    {
+      "variant_id": "F06_B",
+      "feature_family": "inline_language",
+      "source_sha256": "6f28fce117d6b79d94e44c75fb623e72b79bad63d685243165411ee19d858813",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F06_B.json"
+    },
+    {
+      "variant_id": "F06_C",
+      "feature_family": "inline_language",
+      "source_sha256": "87b9fdee1b5e79c60f42378b39d0d916df788b90a04c756917c59e67c9b2b18d",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F06_C.json"
+    },
+    {
+      "variant_id": "F06_D",
+      "feature_family": "inline_language",
+      "source_sha256": "1fcc333be3c6142fd16c2ceaa62fc2be4c4b57d2f16f36939e87b008f10095c6",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F06_D.json"
+    },
+    {
+      "variant_id": "F06_E",
+      "feature_family": "inline_language",
+      "source_sha256": "53ff9c73cb994c9b5c9c6655588d2d7432d604f6660bf14623815d8fa9bd68b5",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F06_E.json"
+    },
+    {
+      "variant_id": "F07_A",
+      "feature_family": "decorative_images",
+      "source_sha256": "83abc799c2d127a47d494aeea61cc64347e4615d049712772493c776e1dc7af6",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F07_A.json"
+    },
+    {
+      "variant_id": "F07_B",
+      "feature_family": "decorative_images",
+      "source_sha256": "100762353306ff3f8596fd3a8598d79518b02295654de2cf8ca79d28187327b0",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F07_B.json"
+    },
+    {
+      "variant_id": "F07_C",
+      "feature_family": "decorative_images",
+      "source_sha256": "fea0fbc9cef1ef8b99bbcd979d19bbe67ff6b737fe604682234430dc437d3508",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F07_C.json"
+    },
+    {
+      "variant_id": "F07_D",
+      "feature_family": "decorative_images",
+      "source_sha256": "4b885710928688dcfbb60527fd00e465dac0561f2c5b2d0e5b3e80ec44866011",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F07_D.json"
+    },
+    {
+      "variant_id": "F07_E",
+      "feature_family": "decorative_images",
+      "source_sha256": "1a0a65e7f46379d4829c84737f31325fe342efd06f7a6b1ebb98fd40a2f57a2f",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F07_E.json"
+    },
+    {
+      "variant_id": "F08_A",
+      "feature_family": "hyperlinks",
+      "source_sha256": "bd0b60024852b25d95a09d0486234bf58abe00051faed8723ffea6a91548042b",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F08_A.json"
+    },
+    {
+      "variant_id": "F08_B",
+      "feature_family": "hyperlinks",
+      "source_sha256": "68364097903620b8af9ebbaf5ec1426cd270f6dd3d1f071f5a230e59acf35cba",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F08_B.json"
+    },
+    {
+      "variant_id": "F08_C",
+      "feature_family": "hyperlinks",
+      "source_sha256": "7d21589968da35ec1fbd8baea8e6868bc17154ed5ccd44d97a1a6ba563d520ae",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F08_C.json"
+    },
+    {
+      "variant_id": "F08_D",
+      "feature_family": "hyperlinks",
+      "source_sha256": "8a8bd9c948fe8816c9f7207138bc6fb241821c58b4522de64e3b432d64a89374",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F08_D.json"
+    },
+    {
+      "variant_id": "F08_E",
+      "feature_family": "hyperlinks",
+      "source_sha256": "a796d06b06c55a7d8c55767f4bb6d8eed7240a71a79777c624aa8773e41ca6f8",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F08_E.json"
+    },
+    {
+      "variant_id": "F09_A",
+      "feature_family": "document_metadata",
+      "source_sha256": "8c70f8e8086421acf6d1cfa5395a345201cdc6c9a2f2982d6445bc35c4862426",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F09_A.json"
+    },
+    {
+      "variant_id": "F09_B",
+      "feature_family": "document_metadata",
+      "source_sha256": "47a60db117324d2d711891a9614b724aeb29a8aa64675d99cb26e4317df10d33",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F09_B.json"
+    },
+    {
+      "variant_id": "F09_C",
+      "feature_family": "document_metadata",
+      "source_sha256": "1c7d18a49d4eacc601a7fbfd268f1cf8df3e3c81f47cf6b64370dc36c41b50f8",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F09_C.json"
+    },
+    {
+      "variant_id": "F09_D",
+      "feature_family": "document_metadata",
+      "source_sha256": "f8b1ee09bc9f737383426e861d0e7f056a972a07660a46f129252614f86ac3aa",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F09_D.json"
+    },
+    {
+      "variant_id": "F09_E",
+      "feature_family": "document_metadata",
+      "source_sha256": "4a803fdc4a90db567c3bcae817a4ceeeb481b476836f8dca46e7178141400080",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F09_E.json"
+    },
+    {
+      "variant_id": "F10_A",
+      "feature_family": "complex_tables",
+      "source_sha256": "63bfec96e6ae93f83a1d9b132e10626cddb2ea73c6ef83b1acbf1b333ee52d6d",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F10_A.json"
+    },
+    {
+      "variant_id": "F10_B",
+      "feature_family": "complex_tables",
+      "source_sha256": "5649b706d7d62fc49b282878ff02efb7d334655a1bc70492d3f557ece13c1018",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F10_B.json"
+    },
+    {
+      "variant_id": "F10_C",
+      "feature_family": "complex_tables",
+      "source_sha256": "643854a9927a22070314eeb12f494eae8fa6b314a70a56222f12cea81892a2c2",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F10_C.json"
+    },
+    {
+      "variant_id": "F10_D",
+      "feature_family": "complex_tables",
+      "source_sha256": "5a1e08a8702b1710c6f647bdaab49afef01736c62bb26179f3160904331e1230",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F10_D.json"
+    },
+    {
+      "variant_id": "F10_E",
+      "feature_family": "complex_tables",
+      "source_sha256": "0fa24da4022214b20998bb06059ad3c7589c64ccd0a57b164157d66a3f9b53ab",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F10_E.json"
+    },
+    {
+      "variant_id": "F11_A",
+      "feature_family": "footnotes",
+      "source_sha256": "74d2bcbe4858e016d50443b6c311aef8f7e652488b61b11f676490ea2e31fef5",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F11_A.json"
+    },
+    {
+      "variant_id": "F11_B",
+      "feature_family": "footnotes",
+      "source_sha256": "86a868b8eaebc1e71a894725b293f6590700720b8f48e00c279610d65fdfb2ad",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F11_B.json"
+    },
+    {
+      "variant_id": "F11_C",
+      "feature_family": "footnotes",
+      "source_sha256": "82c4ca81755a16ea49a6fcd55a6737ce501fca72661e6c6312c231e26c2a8a3c",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F11_C.json"
+    },
+    {
+      "variant_id": "F11_D",
+      "feature_family": "footnotes",
+      "source_sha256": "e2140c08c44e9a8e90c2dc8914b860337080b4f52407145140a1ab99119c339f",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F11_D.json"
+    },
+    {
+      "variant_id": "F11_E",
+      "feature_family": "footnotes",
+      "source_sha256": "0aa72b2625d32ba0a86cfb0c2fa5666b0824840e1d62461314b2b7e6e72492f8",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F11_E.json"
+    },
+    {
+      "variant_id": "F12_A",
+      "feature_family": "equations",
+      "source_sha256": "9659ca62c193cd4dafe67daa48d4846970a254ed95ea244c7b097dc0365db819",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F12_A.json"
+    },
+    {
+      "variant_id": "F12_B",
+      "feature_family": "equations",
+      "source_sha256": "25960111c2c103f86d13050e73220dd99cbc70383b2e9bf266c2122aeac27710",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F12_B.json"
+    },
+    {
+      "variant_id": "F12_C",
+      "feature_family": "equations",
+      "source_sha256": "2d3b56e835048ea41b3c89b6723eb24ba2f94185c38058a8a6d252f7458bbe8c",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F12_C.json"
+    },
+    {
+      "variant_id": "F12_D",
+      "feature_family": "equations",
+      "source_sha256": "866eba9e9b90728a7cccad540a3b6b2ef60798bd43c5d5e38b45503551626aa7",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F12_D.json"
+    },
+    {
+      "variant_id": "F12_E",
+      "feature_family": "equations",
+      "source_sha256": "58799267553269c18406d2602d4dc30a4dd968ebe5b8204df621623358e54ec8",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F12_E.json"
+    },
+    {
+      "variant_id": "F13_A",
+      "feature_family": "captions",
+      "source_sha256": "226d2d57d81be5a4e1f43a09c3d6db81541d91574851554e52d5f38290059541",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F13_A.json"
+    },
+    {
+      "variant_id": "F13_B",
+      "feature_family": "captions",
+      "source_sha256": "3ba26ff718b4a544594ed1ac2da627c7ee685dd32859d8ceeb10923a0c7f6f1a",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F13_B.json"
+    },
+    {
+      "variant_id": "F13_C",
+      "feature_family": "captions",
+      "source_sha256": "56cfa7817ee38dd53e96d50b9c401185f5824a983f33cee09fc9a14bb8e6afef",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F13_C.json"
+    },
+    {
+      "variant_id": "F13_D",
+      "feature_family": "captions",
+      "source_sha256": "78d7b0c85ea8d6307d842f76afcaf4b36f845033ab7b43e3ff405e919b4b3d64",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F13_D.json"
+    },
+    {
+      "variant_id": "F13_E",
+      "feature_family": "captions",
+      "source_sha256": "7169db683a156d1690ba29640b848244940c4bd39295a845711b169ef46cedfc",
+      "raw_oracle": "PASS",
+      "raw_problems": [],
+      "primary_extractor": "SUPPORTED",
+      "primary_extraction": "experiments\\v4\\source_extractions\\F13_E.json"
+    }
+  ]
+}

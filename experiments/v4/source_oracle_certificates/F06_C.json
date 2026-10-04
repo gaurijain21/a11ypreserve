@@ -1,0 +1,55 @@
+{
+  "variant_id": "F06_C",
+  "feature_family": "inline_language",
+  "source_sha256": "87b9fdee1b5e79c60f42378b39d0d916df788b90a04c756917c59e67c9b2b18d",
+  "contract_sha256": "afb811055a807fe6b0f2aa645ec1b14a963d4818d0f70ea6ce5be7bbef1231c7",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "87b9fdee1b5e79c60f42378b39d0d916df788b90a04c756917c59e67c9b2b18d",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 inline language 3",
+        "language": "en-US"
+      },
+      {
+        "text": "Guten Tag, wie geht es Ihnen? ",
+        "language": "de-DE"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 inline language 3",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

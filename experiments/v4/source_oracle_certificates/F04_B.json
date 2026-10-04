@@ -1,0 +1,77 @@
+{
+  "variant_id": "F04_B",
+  "feature_family": "basic_tables",
+  "source_sha256": "2da29d168d2b96940a505cdf86f41fbcd6c61faac08b9c3446995fe38cc98d16",
+  "contract_sha256": "111fbe5abc944af359fa0cd941d4a4ed675312da3ba543abd7eae38a234ca03e",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "2da29d168d2b96940a505cdf86f41fbcd6c61faac08b9c3446995fe38cc98d16",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [
+      {
+        "rows": 3,
+        "cells": 9,
+        "header_rows": [
+          0
+        ],
+        "spans": [],
+        "values": [
+          [
+            "Year",
+            "North",
+            "South"
+          ],
+          [
+            "2025",
+            "10",
+            "20"
+          ],
+          [
+            "2026",
+            "11",
+            "21"
+          ]
+        ]
+      }
+    ],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 basic table 2",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 basic table 2",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

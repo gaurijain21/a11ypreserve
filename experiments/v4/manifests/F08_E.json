@@ -1,0 +1,18 @@
+{
+  "variant_id": "F08_E",
+  "feature_family": "hyperlinks",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F08_E.docx",
+  "ground_truth": {
+    "hyperlinks": [
+      {
+        "text": "Internal section",
+        "target": "#section-2",
+        "order": 1
+      }
+    ]
+  },
+  "source_sha256": "a796d06b06c55a7d8c55767f4bb6d8eed7240a71a79777c624aa8773e41ca6f8"
+}

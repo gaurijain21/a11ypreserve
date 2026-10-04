@@ -1,0 +1,78 @@
+{
+  "variant_id": "F04_C",
+  "feature_family": "basic_tables",
+  "source_sha256": "d07ba7d1c3c9bb9ddb32d4e3f3c3a2500554efc6265f33e8feb6474a8b0e84fb",
+  "contract_sha256": "4deab3e99d80e6ddd22f0dc757061eb6a385833e842358c0f6896f2ae605efc4",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "d07ba7d1c3c9bb9ddb32d4e3f3c3a2500554efc6265f33e8feb6474a8b0e84fb",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [
+      {
+        "rows": 4,
+        "cells": 8,
+        "header_rows": [
+          0
+        ],
+        "spans": [],
+        "values": [
+          [
+            "Measure",
+            "Result"
+          ],
+          [
+            "Coverage",
+            "82%"
+          ],
+          [
+            "Review",
+            "Pass"
+          ],
+          [
+            "Notes",
+            "Three rows"
+          ]
+        ]
+      }
+    ],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 basic table 3",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 basic table 3",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

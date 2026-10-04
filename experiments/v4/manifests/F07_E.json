@@ -1,0 +1,28 @@
+{
+  "variant_id": "F07_E",
+  "feature_family": "decorative_images",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F07_E.docx",
+  "ground_truth": {
+    "figures": [
+      {
+        "alt": "",
+        "decorative": true,
+        "order": 1
+      },
+      {
+        "alt": "",
+        "decorative": true,
+        "order": 2
+      },
+      {
+        "alt": "Decorative texture.",
+        "decorative": false,
+        "order": 3
+      }
+    ]
+  },
+  "source_sha256": "1a0a65e7f46379d4829c84737f31325fe342efd06f7a6b1ebb98fd40a2f57a2f"
+}

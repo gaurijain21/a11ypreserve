@@ -1,0 +1,17 @@
+{
+  "variant_id": "F02_A",
+  "feature_family": "alt_text",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F02_A.docx",
+  "ground_truth": {
+    "figures": [
+      {
+        "alt": "Short chart.",
+        "order": 1
+      }
+    ]
+  },
+  "source_sha256": "ae64b91085158916d5a5be11987cb3fbfabc0501c57acdbbf23fffcd769fde80"
+}
