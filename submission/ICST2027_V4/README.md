@@ -8,3 +8,13 @@ Primary evidence:
 - `experiments/v4/conversions/google/analysis/V4_GOOGLE_ANALYSIS.json`
 - `experiments/v4/conversions/CROSS_PIPELINE_COMPARISON.json`
 - `reports/V4_CONVERSION_RECOVERY_FINAL.md`
+
+## Verified manuscript build
+
+Run the following command twice from the repository root:
+
+```text
+pdflatex --enable-installer=no -interaction=nonstopmode -halt-on-error -file-line-error -output-directory submission\ICST2027_V4 submission\ICST2027_V4\main.tex
+```
+
+The first MiKTeX run on a cold package cache may take roughly two minutes while loading packages. Keep the process attached as long as output continues to advance. Subsequent runs complete in a few seconds. The verified output is `submission/ICST2027_V4/main.pdf`.

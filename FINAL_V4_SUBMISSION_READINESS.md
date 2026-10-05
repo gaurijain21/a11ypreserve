@@ -1,6 +1,6 @@
 # GO WITH LIMITATIONS
 
-V4 now has two complete legitimate converter arms and can replace V3 as the primary submission evidence. Word remains excluded, and the anonymous manuscript source is complete but no compiled PDF was produced in the available TeX environment.
+V4 now has two complete legitimate converter arms and can replace V3 as the primary submission evidence. Word remains excluded. The anonymous manuscript compiles successfully to a visually verified three-page PDF.
 
 ## Evidence
 
@@ -32,7 +32,7 @@ The arms are reported separately; no overall converter score is used.
 
 ## Limitations
 
-Word was not completed after COM error `0x80070520` and a final bounded GUI/native-export pilot that returned a persistent zero-byte PDF. Google is a dated cloud condition. The atomic corpus is controlled, not representative. The realistic corpus is project-created/integrated, not external real-world evidence. External corpus count is zero. No disabled-user study, defensible reading-order oracle, or complete optional validator arm is claimed. The manuscript PDF build remains unverified because both the built-in compiler and local MiKTeX environment failed independently.
+Word was not completed after COM error `0x80070520` and a final bounded GUI/native-export pilot that returned a persistent zero-byte PDF. Google is a dated cloud condition. The atomic corpus is controlled, not representative. The realistic corpus is project-created/integrated, not external real-world evidence. External corpus count is zero. No disabled-user study, defensible reading-order oracle, or complete optional validator arm is claimed. The built-in Codex compiler remains unavailable on this host, but the installed MiKTeX pipeline is now verified.
 
 The protocol, contracts, fixtures, oracle, comparator taxonomy, holdout rules, and decision rules were not changed after result inspection. See `reports/V4_CONVERSION_RECOVERY_FINAL.md` and `reports/V4_CROSS_PIPELINE_ANALYSIS.md`.
 

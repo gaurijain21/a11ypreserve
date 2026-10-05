@@ -71,4 +71,4 @@ No credentials or unrelated documents were uploaded. The Google artifacts contai
 - Normalized repeatability semantics are stable 6/6 for both pipelines. Raw extraction identity is not claimed as a stable unit because extraction records contain output paths and process-local evidence-object addresses.
 - Word received the final bounded attempt required by the hardening instructions: safe-mode launch/open worked, but native PDF export returned a persistent zero-byte file. No Word output was accepted.
 - External corpus remains zero; the realistic corpus remains project-created/integrated. Reading-order feasibility is `NO-GO — ORACLE NOT DEFENSIBLE`. Complete PAC/Acrobat/veraPDF validation is not claimed.
-- An anonymous manuscript source and machine-readable artifact package were prepared. Built-in and local MiKTeX compilation attempts produced no PDF, so no compiled PDF is included or claimed.
+- An anonymous manuscript source and machine-readable artifact package were prepared. The local MiKTeX route now compiles the manuscript successfully; all three rendered pages passed visual QA. The built-in Codex compiler remains unavailable on this host.

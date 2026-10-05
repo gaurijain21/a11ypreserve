@@ -7,4 +7,16 @@
 3. Local MiKTeX with elevated per-user initialization: reached package loading but produced no PDF or non-empty log and stalled. A bounded wait was followed by termination of the compiler process.
 4. Local MiKTeX with `--enable-installer=no`: reached `hyperref` package loading but again stalled without a PDF. The process was terminated after a bounded wait.
 
-No source repair was attempted based on a partial log, and no PDF was copied from another version. Compilation therefore remains unverified. The exact source to compile is `submission/ICST2027_V4/main.tex`.
+## Resolution
+
+The local process was slow rather than deadlocked. A later attached run was allowed to continue through the cold package load and completed successfully with exit code 0. A second pass resolved all table references and outlines.
+
+- Command: `pdflatex --enable-installer=no -interaction=nonstopmode -halt-on-error -file-line-error -output-directory submission\\ICST2027_V4 submission\\ICST2027_V4\\main.tex`
+- Output: `submission/ICST2027_V4/main.pdf`
+- Pages: 3
+- Producer: `MiKTeX pdfTeX-1.40.28`
+- Parseability: PASS
+- Visual page review: PASS
+- Frozen scientific content changed: NO
+
+The remaining built-in compiler error is host-tool specific and does not block the verified MiKTeX build route.

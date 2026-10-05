@@ -27,7 +27,7 @@
 | Prior-art novelty overstated | PASS | Related work and final prior-art audit use bounded wording and do not claim first-ever or universal coverage. |
 | Manuscript numbers inconsistent | PASS | Abstract, atomic table, feature table, holdout text, readiness, and analysis artifacts use the frozen counts; `reproduce_v4.py` passes. |
 | Anonymity or licensing leak | PASS WITH LIMITATIONS | Manuscript author is anonymous; artifact audit excludes credentials and user identifiers. Public candidate URLs are documented as provenance leads only; no external files were redistributed. |
-| Compiled PDF fabricated | PASS | Built-in compiler and local MiKTeX attempts failed to produce a PDF; no PDF is included or represented as compiled. |
+| Compiled PDF fabricated | PASS | The PDF was generated directly from the reviewed V4 LaTeX source with MiKTeX, parsed as three pages, and visually inspected page by page. |
 
 ## Residual threats
 
@@ -35,4 +35,4 @@ The strongest remaining threats are the dated Google service condition, the cont
 
 ## Final reviewer disposition
 
-The evidence is sufficient for a V4 submission package with limitations and for replacing V3 as the primary experimental basis. The package should be submitted only after compiling `submission/ICST2027_V4/main.tex` in a functioning TeX environment and visually reviewing the resulting PDF. Until then, the repository contains an auditable source manuscript and complete machine-readable evidence, not a verified final PDF.
+The evidence is sufficient for a V4 submission package with limitations and for replacing V3 as the primary experimental basis. The manuscript now compiles in the local MiKTeX environment and the three rendered pages have been visually reviewed. Venue-format and submission-policy review remain separate human submission steps.

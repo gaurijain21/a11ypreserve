@@ -57,7 +57,11 @@
   },
   "build": {
     "manuscript_source": "main.tex",
-    "compiled_pdf": false,
-    "reason": "Built-in compiler and local MiKTeX pdflatex attempts produced no PDF."
+    "compiled_pdf": true,
+    "pdf": "main.pdf",
+    "pages": 3,
+    "producer": "MiKTeX pdfTeX-1.40.28",
+    "visual_qa": "PASS",
+    "pdf_sha256": "5259EB8006C47AD8F41A4F19E5F273C86AC589F008AD6E45EB0919A533239387"
   }
 }
