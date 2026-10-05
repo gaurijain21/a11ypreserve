@@ -1,62 +1,34 @@
-# NO-GO
+# GO WITH LIMITATIONS
 
-## Primary V4 experiment
-- feature families: 13
-- variants: 5 per feature
-- fixtures: 65
-- converters: 0 successfully established
-- primary cases: 0
+## Conversion-dependent readiness
 
-## Calibration
-- controls: 78
-- correct determinate: 60
-- false positives: 0
-- false negatives: 5
-- correct unresolved: 13
-- other unresolved: 0 unsupported confident classifications
+- Frozen atomic fixtures: 65
+- Established V4 pipelines: 1 (LibreOffice)
+- LibreOffice atomic cases: 65/65
+- LibreOffice realistic documents: 10/10
+- LibreOffice realistic property contracts: 78
+- Google Docs cases: 0; authenticated session usable, upload pending explicit confirmation
+- Word cases: 0; launch failed before conversion with `0x80070520`
 
-## Holdout
-- size: 26
-- results: not run; outputs were not available
-- unexpected failures: not applicable
+## LibreOffice atomic counts
 
-## Realistic corpus
-- documents: 10
-- external: 0
-- project-created: 10
-- property observations: 78
+| Classification | Count |
+|---|---:|
+| VERIFIED_PRESERVED | 38 |
+| OBSERVED_PARTIAL | 11 |
+| ALTERED | 9 |
+| CONFIRMED_LOST | 1 |
+| UNRESOLVED_EQUIVALENCE | 1 |
+| MEASUREMENT_ERROR | 5 |
 
-## Repeatability
-- runs: 0
-- classification consistency: not run
-- byte identity where relevant: not run
+Holdout D/E: 26 cases; 14 VERIFIED_PRESERVED, 5 OBSERVED_PARTIAL, 4 ALTERED, 1 CONFIRMED_LOST, 2 MEASUREMENT_ERROR.
 
-## Reading order
-- excluded
-- justification: a defensible bounded oracle did not pass calibration before conversion.
+## Replacement decision
 
-## Word
-- unavailable for V4
-- evidence: Word COM `DispatchEx` failed before conversion with `0x80070520`; no output was fabricated.
+V4 is not approved to replace V3 as the repository’s primary submission evidence yet. V4 has a complete and auditable one-pipeline arm, but V3 has two completed pipelines and a completed Google repeatability arm. V4 is ready as a bounded LibreOffice extension and becomes materially stronger if the authenticated Google route is completed under one consistent V4 workflow.
 
-## Unresolved cases
-- total: not applicable because primary conversion cases are zero
-- reason categories: not applicable; no conversion evidence exists to classify.
+## Frozen-methodology status
 
-## Novelty
+No frozen methodology, taxonomy, contract, fixture, protocol, comparator, oracle, or extractor changed after output inspection. The new runner is an implementation layer around the frozen extractor/comparator and does not manually select classifications.
 
-A11yPreserve’s strongest defensible contribution is a prospective source-grounded preservation-testing protocol that combines known DOCX semantics, contract-level source truth, raw-OOXML checking, identical inputs across converter conditions, destination structure evidence, calibrated equivalence mapping, conservative abstention, and provenance certificates. It asks whether a particular author-supplied semantic known to exist before transformation survived the transformation, which is a different question from destination-only accessibility checking.
-
-## Remaining reviewer attacks
-
-The central blocker is the absence of V4 converter outputs. Additional limitations are the project-created realistic corpus, no reading-order extension, five comparator false negatives in calibration, no Word/Google V4 arm, no validator comparison, and no user study. These are disclosed rather than converted into claims.
-
-## Submission blockers
-
-- Establish at least one legitimate V4 converter pipeline and run all 65 fixtures under the frozen protocol.
-- Preserve output hashes, extraction evidence, classifications, unresolved causes, and repeatability records.
-- Only then create a V4 manuscript; V3 remains the only manuscript with conversion results.
-
-Source validation status: PASS (65/65 raw-oracle and 65/65 primary-extractor supported).
-Mutation status: PASS (39/39).
-Converter inventory: 0 established.
+See `reports/V4_CONVERSION_RECOVERY_FINAL.md` and `reports/V4_OUTPUT_PROVENANCE_AUDIT.md` for the complete decision and audit trail.
