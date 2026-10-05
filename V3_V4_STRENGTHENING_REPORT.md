@@ -1,22 +1,15 @@
-# V3–V4 Strengthening Report
+# V3-V4 Strengthening Report
 
-V3 remains frozen historical evidence. V4 now has a complete, auditable LibreOffice arm, but it does not replace V3’s two-pipeline evidence because Google V4 remains pending and Word produced no pilot.
+V4 supersedes V3 as primary submission evidence while preserving V3 unchanged as historical provenance.
 
 | Dimension | V3 | V4 |
-|---|---:|---:|
-| Feature families | 13 | 13 |
-| Atomic variants per feature | 2 | 5 |
-| Atomic fixtures | 26 | 65 |
-| Established converters | 2 | 1 |
-| Primary cases | 52 | 65 LibreOffice |
-| Calibration controls | 27 | 78 |
-| Source mutation tests | 6 | 39 |
-| Holdout cases | 0 | 26 |
-| Realistic documents | 3 project-created | 10 project-created |
-| Realistic property observations | 42 | 78 |
-| Repeatability runs | 39 Google | 18 LibreOffice |
-| Unresolved/measurement cases | 18 unresolved + 1 measurement error | 1 unresolved + 5 measurement errors |
+|---|---|---|
+| Atomic corpus | Earlier V3 corpus | 65 frozen DOCX fixtures, 13 families, 5 variants |
+| Converter arms | Historical V3 arms | 65 LibreOffice + 65 Google Docs atomic cases |
+| Holdout | Historical separation | 26 prospective holdout cases |
+| Oracle/calibration | Earlier evidence | 39/39 mutations; 60/78 calibration correct; 0 FP |
+| Repeatability | Historical records | 18 Google outputs; 6/6 stable classifications |
+| Integrated evidence | Historical records | 10 project-created documents; 78 contracts per arm |
+| Word | Not completed | Excluded after pre-conversion failure |
 
-LibreOffice V4 atomic classifications: 38 VERIFIED_PRESERVED, 11 OBSERVED_PARTIAL, 9 ALTERED, 1 CONFIRMED_LOST, 1 UNRESOLVED_EQUIVALENCE, and 5 MEASUREMENT_ERROR.
-
-The V4 corpus, source oracle, calibrated comparator, prospective holdout, realistic contracts, and provenance records materially strengthen fixture depth and source-grounded analysis. The remaining limitation is converter coverage: V4 currently supports a valid one-pipeline result, while V3 remains the broader cross-pipeline submission baseline.
+This is completion of the frozen V4 evidence, not a methodology redesign. Outcomes remain converter-specific and are not population claims or an overall ranking.

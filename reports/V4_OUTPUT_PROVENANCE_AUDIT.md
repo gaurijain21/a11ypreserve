@@ -1,22 +1,9 @@
 # V4 Output Provenance Audit
 
-Status: PASS for the completed LibreOffice arm.
+LibreOffice has 65 atomic + 10 realistic validated outputs. Google Docs has 65 atomic + 10 realistic outputs from the authenticated visible route:
 
-| Check | Result |
-|---|---:|
-| Atomic manifest records | 65 |
-| Realistic manifest records | 10 |
-| Successful conversions | 75/75 |
-| Source hash matched frozen manifest | 75/75 |
-| Output exists and non-zero | 75/75 |
-| `%PDF-` signature | 75/75 |
-| Parseable by pypdf | 75/75 |
-| Tagged structure present | 75/75 |
-| Producer consistent | 75/75, `LibreOffice 26.2.6.3 (X86_64)` |
-| Timestamp after conversion start | 75/75 |
-| Primary extraction records | 75/75 |
-| Independent PyMuPDF evidence records | 75/75 |
+`Frozen DOCX -> Google Docs import -> File -> Download -> PDF Document (.pdf) -> Chrome download capture`
 
-Each output was generated from the exact frozen DOCX path recorded in `source_manifest.json` or `REALISTIC_CORPUS_MANIFEST.json`. The converter route was the reconstructed V3 LibreOffice route with a per-fixture isolated profile and frozen export settings. No pre-existing V3 PDF was used.
+All 75 Google outputs passed source-hash, non-zero, `%PDF`, parseability, tagged-structure, producer, plausible-page-count, post-baseline-timestamp, and distinct-from-LibreOffice-hash checks. The observed producer was `Skia/PDF m156 Google Docs Renderer` for all 75. No print-to-PDF, screenshot, manual repair, V3 PDF reuse, or unrelated upload was used. Exact upload timestamps were not separately captured; output filesystem timestamps are retained as conversion timestamps.
 
-Google has no V4 output record because the authenticated session was inspected but no local DOCX was transmitted without just-in-time confirmation. Word has no V4 output record because direct launch failed before conversion with `0x80070520`.
+Machine-readable gate: `experiments/v4/conversions/V4_CONVERSION_RECOVERY_AUDIT.json`.

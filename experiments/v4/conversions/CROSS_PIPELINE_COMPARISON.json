@@ -1,0 +1,2268 @@
+{
+  "method": "Pairwise comparison of independently analyzed outputs; no reclassification or cross-pipeline aggregation into a single converter score.",
+  "atomic": {
+    "total": 65,
+    "libreoffice": {
+      "VERIFIED_PRESERVED": 38,
+      "ALTERED": 9,
+      "OBSERVED_PARTIAL": 11,
+      "CONFIRMED_LOST": 1,
+      "MEASUREMENT_ERROR": 5,
+      "UNRESOLVED_EQUIVALENCE": 1
+    },
+    "google_docs": {
+      "OBSERVED_PARTIAL": 32,
+      "VERIFIED_PRESERVED": 11,
+      "ALTERED": 11,
+      "CONFIRMED_LOST": 6,
+      "UNRESOLVED_EQUIVALENCE": 5
+    },
+    "same_classification": 16,
+    "different_classification": 49,
+    "classification_pairs": {
+      "VERIFIED_PRESERVED -> OBSERVED_PARTIAL": 19,
+      "ALTERED -> VERIFIED_PRESERVED": 6,
+      "OBSERVED_PARTIAL -> OBSERVED_PARTIAL": 11,
+      "VERIFIED_PRESERVED -> VERIFIED_PRESERVED": 5,
+      "VERIFIED_PRESERVED -> ALTERED": 10,
+      "VERIFIED_PRESERVED -> CONFIRMED_LOST": 4,
+      "ALTERED -> CONFIRMED_LOST": 1,
+      "ALTERED -> OBSERVED_PARTIAL": 2,
+      "CONFIRMED_LOST -> ALTERED": 1,
+      "MEASUREMENT_ERROR -> UNRESOLVED_EQUIVALENCE": 5,
+      "UNRESOLVED_EQUIVALENCE -> CONFIRMED_LOST": 1
+    }
+  },
+  "atomic_holdout": {
+    "total": 26,
+    "libreoffice": {
+      "VERIFIED_PRESERVED": 14,
+      "ALTERED": 4,
+      "OBSERVED_PARTIAL": 5,
+      "CONFIRMED_LOST": 1,
+      "MEASUREMENT_ERROR": 2
+    },
+    "google_docs": {
+      "OBSERVED_PARTIAL": 13,
+      "VERIFIED_PRESERVED": 4,
+      "ALTERED": 5,
+      "CONFIRMED_LOST": 2,
+      "UNRESOLVED_EQUIVALENCE": 2
+    },
+    "same_classification": 7,
+    "different_classification": 19,
+    "classification_pairs": {
+      "VERIFIED_PRESERVED -> OBSERVED_PARTIAL": 7,
+      "ALTERED -> VERIFIED_PRESERVED": 2,
+      "OBSERVED_PARTIAL -> OBSERVED_PARTIAL": 5,
+      "VERIFIED_PRESERVED -> VERIFIED_PRESERVED": 2,
+      "VERIFIED_PRESERVED -> ALTERED": 4,
+      "VERIFIED_PRESERVED -> CONFIRMED_LOST": 1,
+      "ALTERED -> CONFIRMED_LOST": 1,
+      "ALTERED -> OBSERVED_PARTIAL": 1,
+      "CONFIRMED_LOST -> ALTERED": 1,
+      "MEASUREMENT_ERROR -> UNRESOLVED_EQUIVALENCE": 2
+    }
+  },
+  "atomic_development": {
+    "total": 39,
+    "libreoffice": {
+      "VERIFIED_PRESERVED": 24,
+      "ALTERED": 5,
+      "OBSERVED_PARTIAL": 6,
+      "MEASUREMENT_ERROR": 3,
+      "UNRESOLVED_EQUIVALENCE": 1
+    },
+    "google_docs": {
+      "OBSERVED_PARTIAL": 19,
+      "VERIFIED_PRESERVED": 7,
+      "ALTERED": 6,
+      "CONFIRMED_LOST": 4,
+      "UNRESOLVED_EQUIVALENCE": 3
+    },
+    "same_classification": 9,
+    "different_classification": 30,
+    "classification_pairs": {
+      "VERIFIED_PRESERVED -> OBSERVED_PARTIAL": 12,
+      "ALTERED -> VERIFIED_PRESERVED": 4,
+      "VERIFIED_PRESERVED -> VERIFIED_PRESERVED": 3,
+      "VERIFIED_PRESERVED -> ALTERED": 6,
+      "VERIFIED_PRESERVED -> CONFIRMED_LOST": 3,
+      "OBSERVED_PARTIAL -> OBSERVED_PARTIAL": 6,
+      "ALTERED -> OBSERVED_PARTIAL": 1,
+      "MEASUREMENT_ERROR -> UNRESOLVED_EQUIVALENCE": 3,
+      "UNRESOLVED_EQUIVALENCE -> CONFIRMED_LOST": 1
+    }
+  },
+  "realistic": {
+    "total": 78,
+    "libreoffice": {
+      "VERIFIED_PRESERVED": 53,
+      "OBSERVED_PARTIAL": 5,
+      "ALTERED": 15,
+      "MEASUREMENT_ERROR": 5
+    },
+    "google_docs": {
+      "OBSERVED_PARTIAL": 33,
+      "CONFIRMED_LOST": 15,
+      "VERIFIED_PRESERVED": 20,
+      "ALTERED": 10
+    },
+    "same_classification": 15,
+    "different_classification": 63,
+    "classification_pairs": {
+      "VERIFIED_PRESERVED -> OBSERVED_PARTIAL": 23,
+      "VERIFIED_PRESERVED -> CONFIRMED_LOST": 10,
+      "OBSERVED_PARTIAL -> OBSERVED_PARTIAL": 5,
+      "VERIFIED_PRESERVED -> VERIFIED_PRESERVED": 10,
+      "ALTERED -> VERIFIED_PRESERVED": 10,
+      "VERIFIED_PRESERVED -> ALTERED": 10,
+      "ALTERED -> OBSERVED_PARTIAL": 5,
+      "MEASUREMENT_ERROR -> CONFIRMED_LOST": 5
+    }
+  },
+  "by_feature": {
+    "alt_text": {
+      "total": 5,
+      "libreoffice": {
+        "ALTERED": 5
+      },
+      "google_docs": {
+        "VERIFIED_PRESERVED": 5
+      },
+      "same_classification": 0,
+      "different_classification": 5,
+      "classification_pairs": {
+        "ALTERED -> VERIFIED_PRESERVED": 5
+      }
+    },
+    "basic_tables": {
+      "total": 5,
+      "libreoffice": {
+        "VERIFIED_PRESERVED": 5
+      },
+      "google_docs": {
+        "VERIFIED_PRESERVED": 5
+      },
+      "same_classification": 5,
+      "different_classification": 0,
+      "classification_pairs": {
+        "VERIFIED_PRESERVED -> VERIFIED_PRESERVED": 5
+      }
+    },
+    "captions": {
+      "total": 5,
+      "libreoffice": {
+        "VERIFIED_PRESERVED": 4,
+        "UNRESOLVED_EQUIVALENCE": 1
+      },
+      "google_docs": {
+        "OBSERVED_PARTIAL": 4,
+        "CONFIRMED_LOST": 1
+      },
+      "same_classification": 0,
+      "different_classification": 5,
+      "classification_pairs": {
+        "VERIFIED_PRESERVED -> OBSERVED_PARTIAL": 4,
+        "UNRESOLVED_EQUIVALENCE -> CONFIRMED_LOST": 1
+      }
+    },
+    "complex_tables": {
+      "total": 5,
+      "libreoffice": {
+        "OBSERVED_PARTIAL": 3,
+        "VERIFIED_PRESERVED": 2
+      },
+      "google_docs": {
+        "OBSERVED_PARTIAL": 5
+      },
+      "same_classification": 3,
+      "different_classification": 2,
+      "classification_pairs": {
+        "OBSERVED_PARTIAL -> OBSERVED_PARTIAL": 3,
+        "VERIFIED_PRESERVED -> OBSERVED_PARTIAL": 2
+      }
+    },
+    "decorative_images": {
+      "total": 5,
+      "libreoffice": {
+        "OBSERVED_PARTIAL": 4,
+        "ALTERED": 1
+      },
+      "google_docs": {
+        "OBSERVED_PARTIAL": 4,
+        "VERIFIED_PRESERVED": 1
+      },
+      "same_classification": 4,
+      "different_classification": 1,
+      "classification_pairs": {
+        "OBSERVED_PARTIAL -> OBSERVED_PARTIAL": 4,
+        "ALTERED -> VERIFIED_PRESERVED": 1
+      }
+    },
+    "document_language": {
+      "total": 5,
+      "libreoffice": {
+        "VERIFIED_PRESERVED": 5
+      },
+      "google_docs": {
+        "ALTERED": 5
+      },
+      "same_classification": 0,
+      "different_classification": 5,
+      "classification_pairs": {
+        "VERIFIED_PRESERVED -> ALTERED": 5
+      }
+    },
+    "document_metadata": {
+      "total": 5,
+      "libreoffice": {
+        "VERIFIED_PRESERVED": 5
+      },
+      "google_docs": {
+        "ALTERED": 5
+      },
+      "same_classification": 0,
+      "different_classification": 5,
+      "classification_pairs": {
+        "VERIFIED_PRESERVED -> ALTERED": 5
+      }
+    },
+    "equations": {
+      "total": 5,
+      "libreoffice": {
+        "VERIFIED_PRESERVED": 5
+      },
+      "google_docs": {
+        "OBSERVED_PARTIAL": 5
+      },
+      "same_classification": 0,
+      "different_classification": 5,
+      "classification_pairs": {
+        "VERIFIED_PRESERVED -> OBSERVED_PARTIAL": 5
+      }
+    },
+    "footnotes": {
+      "total": 5,
+      "libreoffice": {
+        "MEASUREMENT_ERROR": 5
+      },
+      "google_docs": {
+        "UNRESOLVED_EQUIVALENCE": 5
+      },
+      "same_classification": 0,
+      "different_classification": 5,
+      "classification_pairs": {
+        "MEASUREMENT_ERROR -> UNRESOLVED_EQUIVALENCE": 5
+      }
+    },
+    "headings": {
+      "total": 5,
+      "libreoffice": {
+        "VERIFIED_PRESERVED": 5
+      },
+      "google_docs": {
+        "OBSERVED_PARTIAL": 5
+      },
+      "same_classification": 0,
+      "different_classification": 5,
+      "classification_pairs": {
+        "VERIFIED_PRESERVED -> OBSERVED_PARTIAL": 5
+      }
+    },
+    "hyperlinks": {
+      "total": 5,
+      "libreoffice": {
+        "OBSERVED_PARTIAL": 2,
+        "ALTERED": 2,
+        "CONFIRMED_LOST": 1
+      },
+      "google_docs": {
+        "OBSERVED_PARTIAL": 4,
+        "ALTERED": 1
+      },
+      "same_classification": 2,
+      "different_classification": 3,
+      "classification_pairs": {
+        "OBSERVED_PARTIAL -> OBSERVED_PARTIAL": 2,
+        "ALTERED -> OBSERVED_PARTIAL": 2,
+        "CONFIRMED_LOST -> ALTERED": 1
+      }
+    },
+    "inline_language": {
+      "total": 5,
+      "libreoffice": {
+        "VERIFIED_PRESERVED": 4,
+        "ALTERED": 1
+      },
+      "google_docs": {
+        "CONFIRMED_LOST": 5
+      },
+      "same_classification": 0,
+      "different_classification": 5,
+      "classification_pairs": {
+        "VERIFIED_PRESERVED -> CONFIRMED_LOST": 4,
+        "ALTERED -> CONFIRMED_LOST": 1
+      }
+    },
+    "lists": {
+      "total": 5,
+      "libreoffice": {
+        "VERIFIED_PRESERVED": 3,
+        "OBSERVED_PARTIAL": 2
+      },
+      "google_docs": {
+        "OBSERVED_PARTIAL": 5
+      },
+      "same_classification": 2,
+      "different_classification": 3,
+      "classification_pairs": {
+        "VERIFIED_PRESERVED -> OBSERVED_PARTIAL": 3,
+        "OBSERVED_PARTIAL -> OBSERVED_PARTIAL": 2
+      }
+    }
+  },
+  "rows": {
+    "atomic": [
+      {
+        "key": [
+          "atomic",
+          "F01_A"
+        ],
+        "feature_family": "headings",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F01_A__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F01_A__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F01_B"
+        ],
+        "feature_family": "headings",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F01_B__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F01_B__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F01_C"
+        ],
+        "feature_family": "headings",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F01_C__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F01_C__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F01_D"
+        ],
+        "feature_family": "headings",
+        "role": "holdout",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F01_D__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F01_D__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F01_E"
+        ],
+        "feature_family": "headings",
+        "role": "holdout",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F01_E__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F01_E__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F02_A"
+        ],
+        "feature_family": "alt_text",
+        "role": "development",
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F02_A__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F02_A__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F02_B"
+        ],
+        "feature_family": "alt_text",
+        "role": "development",
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F02_B__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F02_B__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F02_C"
+        ],
+        "feature_family": "alt_text",
+        "role": "development",
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F02_C__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F02_C__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F02_D"
+        ],
+        "feature_family": "alt_text",
+        "role": "holdout",
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F02_D__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F02_D__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F02_E"
+        ],
+        "feature_family": "alt_text",
+        "role": "holdout",
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F02_E__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F02_E__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F03_A"
+        ],
+        "feature_family": "lists",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F03_A__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F03_A__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F03_B"
+        ],
+        "feature_family": "lists",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F03_B__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F03_B__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F03_C"
+        ],
+        "feature_family": "lists",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F03_C__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F03_C__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F03_D"
+        ],
+        "feature_family": "lists",
+        "role": "holdout",
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F03_D__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F03_D__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F03_E"
+        ],
+        "feature_family": "lists",
+        "role": "holdout",
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F03_E__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F03_E__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F04_A"
+        ],
+        "feature_family": "basic_tables",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F04_A__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F04_A__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F04_B"
+        ],
+        "feature_family": "basic_tables",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F04_B__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F04_B__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F04_C"
+        ],
+        "feature_family": "basic_tables",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F04_C__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F04_C__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F04_D"
+        ],
+        "feature_family": "basic_tables",
+        "role": "holdout",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F04_D__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F04_D__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F04_E"
+        ],
+        "feature_family": "basic_tables",
+        "role": "holdout",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F04_E__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F04_E__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F05_A"
+        ],
+        "feature_family": "document_language",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F05_A__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F05_A__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F05_B"
+        ],
+        "feature_family": "document_language",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F05_B__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F05_B__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F05_C"
+        ],
+        "feature_family": "document_language",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F05_C__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F05_C__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F05_D"
+        ],
+        "feature_family": "document_language",
+        "role": "holdout",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F05_D__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F05_D__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F05_E"
+        ],
+        "feature_family": "document_language",
+        "role": "holdout",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F05_E__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F05_E__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F06_A"
+        ],
+        "feature_family": "inline_language",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F06_A__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F06_A__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F06_B"
+        ],
+        "feature_family": "inline_language",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F06_B__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F06_B__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F06_C"
+        ],
+        "feature_family": "inline_language",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F06_C__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F06_C__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F06_D"
+        ],
+        "feature_family": "inline_language",
+        "role": "holdout",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F06_D__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F06_D__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F06_E"
+        ],
+        "feature_family": "inline_language",
+        "role": "holdout",
+        "libreoffice": "ALTERED",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F06_E__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F06_E__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F07_A"
+        ],
+        "feature_family": "decorative_images",
+        "role": "development",
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F07_A__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F07_A__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F07_B"
+        ],
+        "feature_family": "decorative_images",
+        "role": "development",
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F07_B__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F07_B__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F07_C"
+        ],
+        "feature_family": "decorative_images",
+        "role": "development",
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F07_C__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F07_C__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F07_D"
+        ],
+        "feature_family": "decorative_images",
+        "role": "holdout",
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F07_D__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F07_D__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F07_E"
+        ],
+        "feature_family": "decorative_images",
+        "role": "holdout",
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F07_E__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F07_E__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F08_A"
+        ],
+        "feature_family": "hyperlinks",
+        "role": "development",
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F08_A__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F08_A__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F08_B"
+        ],
+        "feature_family": "hyperlinks",
+        "role": "development",
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F08_B__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F08_B__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F08_C"
+        ],
+        "feature_family": "hyperlinks",
+        "role": "development",
+        "libreoffice": "ALTERED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F08_C__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F08_C__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F08_D"
+        ],
+        "feature_family": "hyperlinks",
+        "role": "holdout",
+        "libreoffice": "ALTERED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F08_D__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F08_D__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F08_E"
+        ],
+        "feature_family": "hyperlinks",
+        "role": "holdout",
+        "libreoffice": "CONFIRMED_LOST",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F08_E__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F08_E__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F09_A"
+        ],
+        "feature_family": "document_metadata",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F09_A__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F09_A__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F09_B"
+        ],
+        "feature_family": "document_metadata",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F09_B__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F09_B__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F09_C"
+        ],
+        "feature_family": "document_metadata",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F09_C__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F09_C__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F09_D"
+        ],
+        "feature_family": "document_metadata",
+        "role": "holdout",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F09_D__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F09_D__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F09_E"
+        ],
+        "feature_family": "document_metadata",
+        "role": "holdout",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F09_E__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F09_E__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F10_A"
+        ],
+        "feature_family": "complex_tables",
+        "role": "development",
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F10_A__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F10_A__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F10_B"
+        ],
+        "feature_family": "complex_tables",
+        "role": "development",
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F10_B__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F10_B__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F10_C"
+        ],
+        "feature_family": "complex_tables",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F10_C__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F10_C__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F10_D"
+        ],
+        "feature_family": "complex_tables",
+        "role": "holdout",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F10_D__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F10_D__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F10_E"
+        ],
+        "feature_family": "complex_tables",
+        "role": "holdout",
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F10_E__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F10_E__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F11_A"
+        ],
+        "feature_family": "footnotes",
+        "role": "development",
+        "libreoffice": "MEASUREMENT_ERROR",
+        "google_docs": "UNRESOLVED_EQUIVALENCE",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F11_A__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F11_A__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F11_B"
+        ],
+        "feature_family": "footnotes",
+        "role": "development",
+        "libreoffice": "MEASUREMENT_ERROR",
+        "google_docs": "UNRESOLVED_EQUIVALENCE",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F11_B__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F11_B__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F11_C"
+        ],
+        "feature_family": "footnotes",
+        "role": "development",
+        "libreoffice": "MEASUREMENT_ERROR",
+        "google_docs": "UNRESOLVED_EQUIVALENCE",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F11_C__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F11_C__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F11_D"
+        ],
+        "feature_family": "footnotes",
+        "role": "holdout",
+        "libreoffice": "MEASUREMENT_ERROR",
+        "google_docs": "UNRESOLVED_EQUIVALENCE",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F11_D__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F11_D__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F11_E"
+        ],
+        "feature_family": "footnotes",
+        "role": "holdout",
+        "libreoffice": "MEASUREMENT_ERROR",
+        "google_docs": "UNRESOLVED_EQUIVALENCE",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F11_E__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F11_E__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F12_A"
+        ],
+        "feature_family": "equations",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F12_A__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F12_A__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F12_B"
+        ],
+        "feature_family": "equations",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F12_B__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F12_B__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F12_C"
+        ],
+        "feature_family": "equations",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F12_C__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F12_C__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F12_D"
+        ],
+        "feature_family": "equations",
+        "role": "holdout",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F12_D__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F12_D__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F12_E"
+        ],
+        "feature_family": "equations",
+        "role": "holdout",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F12_E__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F12_E__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F13_A"
+        ],
+        "feature_family": "captions",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F13_A__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F13_A__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F13_B"
+        ],
+        "feature_family": "captions",
+        "role": "development",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F13_B__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F13_B__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F13_C"
+        ],
+        "feature_family": "captions",
+        "role": "development",
+        "libreoffice": "UNRESOLVED_EQUIVALENCE",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F13_C__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F13_C__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F13_D"
+        ],
+        "feature_family": "captions",
+        "role": "holdout",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F13_D__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F13_D__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "atomic",
+          "F13_E"
+        ],
+        "feature_family": "captions",
+        "role": "holdout",
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/atomic/F13_E__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/atomic/F13_E__GOOGLE_DOCS.pdf"
+      }
+    ],
+    "realistic": [
+      {
+        "key": [
+          "realistic",
+          "R01",
+          1
+        ],
+        "feature_family": "headings",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R01__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R01__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R01",
+          2
+        ],
+        "feature_family": "inline_language",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R01__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R01__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R01",
+          3
+        ],
+        "feature_family": "hyperlinks",
+        "role": null,
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R01__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R01__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R01",
+          4
+        ],
+        "feature_family": "basic_tables",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R01__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R01__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R01",
+          5
+        ],
+        "feature_family": "alternative_text",
+        "role": null,
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R01__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R01__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R01",
+          6
+        ],
+        "feature_family": "captions",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R01__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R01__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R01",
+          7
+        ],
+        "feature_family": "document_title",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R01__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R01__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R02",
+          1
+        ],
+        "feature_family": "headings",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R02__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R02__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R02",
+          2
+        ],
+        "feature_family": "inline_language",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R02__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R02__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R02",
+          3
+        ],
+        "feature_family": "hyperlinks",
+        "role": null,
+        "libreoffice": "ALTERED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R02__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R02__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R02",
+          4
+        ],
+        "feature_family": "basic_tables",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R02__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R02__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R02",
+          5
+        ],
+        "feature_family": "alternative_text",
+        "role": null,
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R02__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R02__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R02",
+          6
+        ],
+        "feature_family": "captions",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R02__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R02__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R02",
+          7
+        ],
+        "feature_family": "document_title",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R02__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R02__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R02",
+          8
+        ],
+        "feature_family": "footnotes",
+        "role": null,
+        "libreoffice": "MEASUREMENT_ERROR",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R02__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R02__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R03",
+          1
+        ],
+        "feature_family": "headings",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R03__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R03__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R03",
+          2
+        ],
+        "feature_family": "inline_language",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R03__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R03__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R03",
+          3
+        ],
+        "feature_family": "hyperlinks",
+        "role": null,
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R03__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R03__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R03",
+          4
+        ],
+        "feature_family": "basic_tables",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R03__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R03__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R03",
+          5
+        ],
+        "feature_family": "alternative_text",
+        "role": null,
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R03__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R03__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R03",
+          6
+        ],
+        "feature_family": "captions",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R03__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R03__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R03",
+          7
+        ],
+        "feature_family": "document_title",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R03__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R03__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R03",
+          8
+        ],
+        "feature_family": "equations",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R03__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R03__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R04",
+          1
+        ],
+        "feature_family": "headings",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R04__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R04__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R04",
+          2
+        ],
+        "feature_family": "inline_language",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R04__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R04__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R04",
+          3
+        ],
+        "feature_family": "hyperlinks",
+        "role": null,
+        "libreoffice": "ALTERED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R04__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R04__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R04",
+          4
+        ],
+        "feature_family": "basic_tables",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R04__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R04__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R04",
+          5
+        ],
+        "feature_family": "alternative_text",
+        "role": null,
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R04__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R04__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R04",
+          6
+        ],
+        "feature_family": "captions",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R04__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R04__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R04",
+          7
+        ],
+        "feature_family": "document_title",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R04__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R04__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R04",
+          8
+        ],
+        "feature_family": "footnotes",
+        "role": null,
+        "libreoffice": "MEASUREMENT_ERROR",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R04__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R04__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R05",
+          1
+        ],
+        "feature_family": "headings",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R05__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R05__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R05",
+          2
+        ],
+        "feature_family": "inline_language",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R05__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R05__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R05",
+          3
+        ],
+        "feature_family": "hyperlinks",
+        "role": null,
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R05__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R05__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R05",
+          4
+        ],
+        "feature_family": "basic_tables",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R05__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R05__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R05",
+          5
+        ],
+        "feature_family": "alternative_text",
+        "role": null,
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R05__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R05__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R05",
+          6
+        ],
+        "feature_family": "captions",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R05__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R05__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R05",
+          7
+        ],
+        "feature_family": "document_title",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R05__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R05__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R06",
+          1
+        ],
+        "feature_family": "headings",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R06__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R06__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R06",
+          2
+        ],
+        "feature_family": "inline_language",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R06__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R06__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R06",
+          3
+        ],
+        "feature_family": "hyperlinks",
+        "role": null,
+        "libreoffice": "ALTERED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R06__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R06__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R06",
+          4
+        ],
+        "feature_family": "basic_tables",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R06__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R06__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R06",
+          5
+        ],
+        "feature_family": "alternative_text",
+        "role": null,
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R06__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R06__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R06",
+          6
+        ],
+        "feature_family": "captions",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R06__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R06__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R06",
+          7
+        ],
+        "feature_family": "document_title",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R06__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R06__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R06",
+          8
+        ],
+        "feature_family": "footnotes",
+        "role": null,
+        "libreoffice": "MEASUREMENT_ERROR",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R06__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R06__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R06",
+          9
+        ],
+        "feature_family": "equations",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R06__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R06__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R07",
+          1
+        ],
+        "feature_family": "headings",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R07__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R07__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R07",
+          2
+        ],
+        "feature_family": "inline_language",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R07__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R07__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R07",
+          3
+        ],
+        "feature_family": "hyperlinks",
+        "role": null,
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R07__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R07__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R07",
+          4
+        ],
+        "feature_family": "basic_tables",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R07__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R07__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R07",
+          5
+        ],
+        "feature_family": "alternative_text",
+        "role": null,
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R07__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R07__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R07",
+          6
+        ],
+        "feature_family": "captions",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R07__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R07__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R07",
+          7
+        ],
+        "feature_family": "document_title",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R07__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R07__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R08",
+          1
+        ],
+        "feature_family": "headings",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R08__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R08__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R08",
+          2
+        ],
+        "feature_family": "inline_language",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R08__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R08__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R08",
+          3
+        ],
+        "feature_family": "hyperlinks",
+        "role": null,
+        "libreoffice": "ALTERED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R08__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R08__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R08",
+          4
+        ],
+        "feature_family": "basic_tables",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R08__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R08__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R08",
+          5
+        ],
+        "feature_family": "alternative_text",
+        "role": null,
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R08__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R08__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R08",
+          6
+        ],
+        "feature_family": "captions",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R08__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R08__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R08",
+          7
+        ],
+        "feature_family": "document_title",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R08__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R08__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R08",
+          8
+        ],
+        "feature_family": "footnotes",
+        "role": null,
+        "libreoffice": "MEASUREMENT_ERROR",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R08__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R08__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R09",
+          1
+        ],
+        "feature_family": "headings",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R09__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R09__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R09",
+          2
+        ],
+        "feature_family": "inline_language",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R09__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R09__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R09",
+          3
+        ],
+        "feature_family": "hyperlinks",
+        "role": null,
+        "libreoffice": "OBSERVED_PARTIAL",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R09__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R09__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R09",
+          4
+        ],
+        "feature_family": "basic_tables",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R09__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R09__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R09",
+          5
+        ],
+        "feature_family": "alternative_text",
+        "role": null,
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R09__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R09__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R09",
+          6
+        ],
+        "feature_family": "captions",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R09__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R09__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R09",
+          7
+        ],
+        "feature_family": "document_title",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R09__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R09__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R09",
+          8
+        ],
+        "feature_family": "equations",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R09__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R09__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R10",
+          1
+        ],
+        "feature_family": "headings",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R10__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R10__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R10",
+          2
+        ],
+        "feature_family": "inline_language",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R10__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R10__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R10",
+          3
+        ],
+        "feature_family": "hyperlinks",
+        "role": null,
+        "libreoffice": "ALTERED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R10__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R10__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R10",
+          4
+        ],
+        "feature_family": "basic_tables",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": true,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R10__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R10__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R10",
+          5
+        ],
+        "feature_family": "alternative_text",
+        "role": null,
+        "libreoffice": "ALTERED",
+        "google_docs": "VERIFIED_PRESERVED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R10__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R10__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R10",
+          6
+        ],
+        "feature_family": "captions",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "OBSERVED_PARTIAL",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R10__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R10__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R10",
+          7
+        ],
+        "feature_family": "document_title",
+        "role": null,
+        "libreoffice": "VERIFIED_PRESERVED",
+        "google_docs": "ALTERED",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R10__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R10__GOOGLE_DOCS.pdf"
+      },
+      {
+        "key": [
+          "realistic",
+          "R10",
+          8
+        ],
+        "feature_family": "footnotes",
+        "role": null,
+        "libreoffice": "MEASUREMENT_ERROR",
+        "google_docs": "CONFIRMED_LOST",
+        "same_classification": false,
+        "lo_output": "experiments/v4/conversions/libreoffice/outputs/realistic/R10__LIBREOFFICE.pdf",
+        "google_output": "experiments/v4/conversions/google/outputs/realistic/R10__GOOGLE_DOCS.pdf"
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "pipeline": "Google Docs",
+  "records": [
+    {
+      "fixture_id": "F04_D",
+      "run": "run1",
+      "output_path": "experiments/v4/conversions/google/repeatability/run1/F04_D__GOOGLE_DOCS__R1.pdf",
+      "output_sha256": "c1811889c19ab31b3c62d2119a6ebffccaf559d0cf521efbf32e1ad46dd8365e"
+    },
+    {
+      "fixture_id": "F06_D",
+      "run": "run1",
+      "output_path": "experiments/v4/conversions/google/repeatability/run1/F06_D__GOOGLE_DOCS__R1.pdf",
+      "output_sha256": "8779503ebd2406458c20c72ebad877cb058a9c9f02254c4dc81df8fb3d342950"
+    },
+    {
+      "fixture_id": "F08_D",
+      "run": "run1",
+      "output_path": "experiments/v4/conversions/google/repeatability/run1/F08_D__GOOGLE_DOCS__R1.pdf",
+      "output_sha256": "b18f70e2a6759ea9d93173f42aa0766c0d037e77d1ef09f326823e0bb52d5803"
+    },
+    {
+      "fixture_id": "F11_D",
+      "run": "run1",
+      "output_path": "experiments/v4/conversions/google/repeatability/run1/F11_D__GOOGLE_DOCS__R1.pdf",
+      "output_sha256": "5dccac92fb40e73bef2049d89e86af5a7785f9a846dabe9daee99a907909659a"
+    },
+    {
+      "fixture_id": "F12_D",
+      "run": "run1",
+      "output_path": "experiments/v4/conversions/google/repeatability/run1/F12_D__GOOGLE_DOCS__R1.pdf",
+      "output_sha256": "24b6aa70c3684281037838975ab25bbc6d0feb8ce5b583310cf97c5c0bb69a2c"
+    },
+    {
+      "fixture_id": "F13_D",
+      "run": "run1",
+      "output_path": "experiments/v4/conversions/google/repeatability/run1/F13_D__GOOGLE_DOCS__R1.pdf",
+      "output_sha256": "47e015f2f3e8fad04d420a5645eab9499562c9ea3f764f3aa96485a07429746e"
+    },
+    {
+      "fixture_id": "F04_D",
+      "run": "run2",
+      "output_path": "experiments/v4/conversions/google/repeatability/run2/F04_D__GOOGLE_DOCS__R2.pdf",
+      "output_sha256": "c1811889c19ab31b3c62d2119a6ebffccaf559d0cf521efbf32e1ad46dd8365e"
+    },
+    {
+      "fixture_id": "F06_D",
+      "run": "run2",
+      "output_path": "experiments/v4/conversions/google/repeatability/run2/F06_D__GOOGLE_DOCS__R2.pdf",
+      "output_sha256": "8779503ebd2406458c20c72ebad877cb058a9c9f02254c4dc81df8fb3d342950"
+    },
+    {
+      "fixture_id": "F08_D",
+      "run": "run2",
+      "output_path": "experiments/v4/conversions/google/repeatability/run2/F08_D__GOOGLE_DOCS__R2.pdf",
+      "output_sha256": "b18f70e2a6759ea9d93173f42aa0766c0d037e77d1ef09f326823e0bb52d5803"
+    },
+    {
+      "fixture_id": "F11_D",
+      "run": "run2",
+      "output_path": "experiments/v4/conversions/google/repeatability/run2/F11_D__GOOGLE_DOCS__R2.pdf",
+      "output_sha256": "5dccac92fb40e73bef2049d89e86af5a7785f9a846dabe9daee99a907909659a"
+    },
+    {
+      "fixture_id": "F12_D",
+      "run": "run2",
+      "output_path": "experiments/v4/conversions/google/repeatability/run2/F12_D__GOOGLE_DOCS__R2.pdf",
+      "output_sha256": "24b6aa70c3684281037838975ab25bbc6d0feb8ce5b583310cf97c5c0bb69a2c"
+    },
+    {
+      "fixture_id": "F13_D",
+      "run": "run2",
+      "output_path": "experiments/v4/conversions/google/repeatability/run2/F13_D__GOOGLE_DOCS__R2.pdf",
+      "output_sha256": "47e015f2f3e8fad04d420a5645eab9499562c9ea3f764f3aa96485a07429746e"
+    },
+    {
+      "fixture_id": "F04_D",
+      "run": "run3",
+      "output_path": "experiments/v4/conversions/google/repeatability/run3/F04_D__GOOGLE_DOCS__R3.pdf",
+      "output_sha256": "c1811889c19ab31b3c62d2119a6ebffccaf559d0cf521efbf32e1ad46dd8365e"
+    },
+    {
+      "fixture_id": "F06_D",
+      "run": "run3",
+      "output_path": "experiments/v4/conversions/google/repeatability/run3/F06_D__GOOGLE_DOCS__R3.pdf",
+      "output_sha256": "8779503ebd2406458c20c72ebad877cb058a9c9f02254c4dc81df8fb3d342950"
+    },
+    {
+      "fixture_id": "F08_D",
+      "run": "run3",
+      "output_path": "experiments/v4/conversions/google/repeatability/run3/F08_D__GOOGLE_DOCS__R3.pdf",
+      "output_sha256": "b18f70e2a6759ea9d93173f42aa0766c0d037e77d1ef09f326823e0bb52d5803"
+    },
+    {
+      "fixture_id": "F11_D",
+      "run": "run3",
+      "output_path": "experiments/v4/conversions/google/repeatability/run3/F11_D__GOOGLE_DOCS__R3.pdf",
+      "output_sha256": "5dccac92fb40e73bef2049d89e86af5a7785f9a846dabe9daee99a907909659a"
+    },
+    {
+      "fixture_id": "F12_D",
+      "run": "run3",
+      "output_path": "experiments/v4/conversions/google/repeatability/run3/F12_D__GOOGLE_DOCS__R3.pdf",
+      "output_sha256": "24b6aa70c3684281037838975ab25bbc6d0feb8ce5b583310cf97c5c0bb69a2c"
+    },
+    {
+      "fixture_id": "F13_D",
+      "run": "run3",
+      "output_path": "experiments/v4/conversions/google/repeatability/run3/F13_D__GOOGLE_DOCS__R3.pdf",
+      "output_sha256": "47e015f2f3e8fad04d420a5645eab9499562c9ea3f764f3aa96485a07429746e"
+    }
+  ]
+}

@@ -1,5 +1,10 @@
-# ICST2027 V4 Submission Placeholder
+# A11yPreserve V4 manuscript
 
-V4 is currently **NO-GO** because no legitimate V4 converter pipeline produced output in the recorded environment. The V3 manuscript remains frozen at `submission/ICST2027_V3/`; do not replace it with this placeholder. Generate a V4 manuscript only after conversion-dependent results are frozen.
+This manuscript is generated from the completed frozen V4 evidence. It reports the 65-fixture corpus across LibreOffice and Google Docs, retains the 26-case holdout separation, and does not include Word in the denominator. V3 remains preserved at `submission/ICST2027_V3/`.
 
-Read `FINAL_V4_SUBMISSION_READINESS.md`, `FINAL_V4_ADVERSARIAL_REVIEW.md`, and `V3_V4_STRENGTHENING_REPORT.md`.
+Primary evidence:
+
+- `experiments/v4/conversions/libreoffice/analysis/V4_LIBREOFFICE_ANALYSIS.json`
+- `experiments/v4/conversions/google/analysis/V4_GOOGLE_ANALYSIS.json`
+- `experiments/v4/conversions/CROSS_PIPELINE_COMPARISON.json`
+- `reports/V4_CONVERSION_RECOVERY_FINAL.md`
