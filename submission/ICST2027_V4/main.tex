@@ -1,6 +1,7 @@
 \documentclass[10pt]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{booktabs}
+\usepackage{array}
 \usepackage{hyperref}
 \title{A11yPreserve: Measuring Accessibility Preservation Across DOCX-to-PDF Conversion Pipelines}
 \author{Anonymous Submission}
@@ -15,6 +16,9 @@ Accessible source documents do not necessarily retain all of their accessibility
 Destination accessibility and preservation of source accessibility information are related but distinct questions. A tagged PDF can still fail to retain a source-level language span, title value, footnote association, or author-provided alternative text. A11yPreserve makes the source contract explicit and retains the evidence needed to distinguish preservation, partial preservation, alteration, confirmed loss, and unresolved equivalence.
 
 We ask: (RQ1) to what extent do the tested DOCX-to-PDF pipelines preserve accessibility information in controlled sources; (RQ2) which properties are preserved, partially preserved, altered, or lost; and (RQ3) how do outcomes differ between LibreOffice and Google Docs?
+
+\section{Related work and scope}
+Prior work has studied accessibility consequences of office-document transformation, PDF-to-HTML reconstruction, destination PDF evaluation, tagging/remediation, and conversion benchmarking. Roig and Ribera provide a direct office-document accessibility-conversion precedent, but target EPUB rather than tagged PDF. SciA11y studies PDF-to-HTML reconstruction, while iTagPDF generates or improves PDF accessibility metadata. Kumar et al. benchmark destination-PDF accessibility evaluation, and DAISY and DocAccessible provide important contemporary conversion-benchmark context. A11yPreserve is narrower: it tests whether verified author-supplied DOCX semantics survive named DOCX-to-PDF pipelines, retains accepted alternate evidence, and abstains when cross-format association cannot be established. We therefore make no first-ever or universal converter claim.
 
 \section{Method}
 The V4 protocol was frozen before conversion recovery. It defines 13 feature families, five variants per family, 65 atomic DOCX fixtures, a 26-case holdout, 78 calibration controls, and a source-grounded comparator taxonomy. The source manifest, raw OOXML oracle, source extractor, comparator, destination extractor, and holdout manifest were hash-verified before conversion. Calibration produced 60 correct decisions, zero false positives, five conservative false negatives, and 13 correct abstentions; a systematic source-oracle mutation audit detected 39/39 mutations.
@@ -48,6 +52,34 @@ The LibreOffice holdout contained 14 preserved, 5 partial, 4 altered, 1 lost, an
 
 The realistic/integrated corpus contained 10 project-created documents and 78 property contracts per pipeline. LibreOffice produced 53 preserved, 5 partial, 15 altered, and 5 measurement-error observations. Google Docs produced 20 preserved, 33 partial, 10 altered, and 15 confirmed-lost observations. These observations are a strengthening arm, not external real-world evidence.
 
+Table~\ref{tab:feature} exposes variant-level heterogeneity by feature family. The notation is V = verified preserved, P = observed partial, A = altered, L = confirmed lost, U = unresolved equivalence, and M = measurement error; entries list the five frozen variants in source-manifest order.
+
+\begin{table}[h]
+\centering
+\scriptsize
+\caption{Feature-family result pattern across the five variants.}
+\label{tab:feature}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.29\linewidth}p{0.29\linewidth}p{0.29\linewidth}}
+\toprule
+Feature family & LibreOffice & Google Docs\\
+\midrule
+Headings & V/V/V/V/V & P/P/P/P/P\\
+Alternative text & A/A/A/A/A & V/V/V/V/V\\
+Lists & V/V/V/P/P & P/P/P/P/P\\
+Basic tables & V/V/V/V/V & V/V/V/V/V\\
+Document language & V/V/V/V/V & A/A/A/A/A\\
+Inline language & V/V/V/V/A & L/L/L/L/L\\
+Decorative images & P/A/P/P/P & P/V/P/P/P\\
+Hyperlinks & P/P/A/A/L & P/P/P/P/A\\
+Document metadata & V/V/V/V/V & A/A/A/A/A\\
+Complex tables & P/P/V/V/P & P/P/P/P/P\\
+Footnotes & M/M/M/M/M & U/U/U/U/U\\
+Equations & V/V/V/V/V & P/P/P/P/P\\
+Captions & V/V/U/V/V & P/P/L/P/P\\
+\bottomrule
+\end{tabular}
+\end{table}
+
 For repeatability, six difficult-feature variants were imported and exported independently three times through Google Docs. All six classifications were stable. The 18 outputs were byte-identical within each selected variant, while the current extraction digest was identical for 0/6 variants; therefore the stable unit is the frozen classification, not bytewise or extractor-object identity.
 
 \section{Discussion and limitations}
@@ -57,5 +89,13 @@ The corpus is controlled and feature-isolating rather than statistically represe
 
 \section{Conclusion}
 A11yPreserve provides a reproducible, source-grounded way to measure accessibility-information preservation during document conversion. In the frozen V4 experiment, preservation varied by feature and converter, and tagged output alone did not establish preservation of every source contract. The complete evidence supports replacing the earlier V3 submission basis with V4, with the limitations stated above.
+
+\begin{thebibliography}{9}
+\bibitem{roig2015} M. Roig and T. Ribera, ``Accessibility in office-document to EPUB conversion,'' Interacci\'on, 2015. \url{https://doi.org/10.1145/2829875.2829926}
+\bibitem{sciA11y} Y. Wang et al., ``SciA11y: A comprehensive scientific document accessibility system,'' ASSETS, 2021. \url{https://doi.org/10.1145/3441852.3476545}
+\bibitem{itagpdf} A. Mowar, C. Steinfeld, and J. Bigham, ``iTagPDF,'' CHI, 2026. \url{https://doi.org/10.1145/3772318.3790289}
+\bibitem{kumar2025} A. Kumar, S. Padath, and Y. Wang, ``Benchmarking PDF accessibility evaluation,'' ASSETS, 2025. \url{https://doi.org/10.1145/3663547.3746380}
+\bibitem{daisy} DAISY AI SIG, ``PDF Conversions Put to the Test,'' 2026. \url{https://daisy.org/activities/projects/ai-special-interest-group/pdf-conversions-put-to-the-test/}
+\end{thebibliography}
 
 \end{document}

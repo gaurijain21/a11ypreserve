@@ -1,6 +1,6 @@
-# Final V4 Submission Readiness
+# GO WITH LIMITATIONS
 
-**GO WITH LIMITATIONS.** V4 now has two complete legitimate converter arms and can replace V3 as primary submission evidence. Word remains excluded.
+V4 now has two complete legitimate converter arms and can replace V3 as the primary submission evidence. Word remains excluded, and the anonymous manuscript source is complete but no compiled PDF was produced in the available TeX environment.
 
 ## Evidence
 
@@ -9,6 +9,7 @@
 - Google Docs: 65 atomic + 10 realistic PDFs, validated and analyzed.
 - Primary atomic cases: **130**.
 - Google repeatability: **6 variants x 3 independent imports/exports = 18 outputs; 6/6 classifications stable**.
+- Repeatability semantic audit: normalized semantic evidence stable 6/6 for both pipelines; Google PDFs were byte-identical 6/6, while raw extraction identity is not a stable identity because it embeds output paths and process-local evidence-object addresses.
 
 ## Atomic results
 
@@ -31,6 +32,8 @@ The arms are reported separately; no overall converter score is used.
 
 ## Limitations
 
-Word was not completed after pre-conversion `0x80070520`. Google is a dated cloud condition. The atomic corpus is controlled, not representative. The realistic corpus is project-created/integrated, not external real-world evidence. No disabled-user study or complete optional validator arm is claimed.
+Word was not completed after COM error `0x80070520` and a final bounded GUI/native-export pilot that returned a persistent zero-byte PDF. Google is a dated cloud condition. The atomic corpus is controlled, not representative. The realistic corpus is project-created/integrated, not external real-world evidence. External corpus count is zero. No disabled-user study, defensible reading-order oracle, or complete optional validator arm is claimed. The manuscript PDF build remains unverified because both the built-in compiler and local MiKTeX environment failed independently.
 
-The protocol, contracts, fixtures, feature families, oracle, comparator taxonomy, holdout rules, and decision rules were not changed after result inspection. See `reports/V4_CONVERSION_RECOVERY_FINAL.md` and `reports/V4_CROSS_PIPELINE_ANALYSIS.md`.
+The protocol, contracts, fixtures, oracle, comparator taxonomy, holdout rules, and decision rules were not changed after result inspection. See `reports/V4_CONVERSION_RECOVERY_FINAL.md` and `reports/V4_CROSS_PIPELINE_ANALYSIS.md`.
+
+The final artifact index is `submission/ICST2027_V4/final/README.md`; the detailed adversarial review is `FINAL_V4_ADVERSARIAL_REVIEW.md`.

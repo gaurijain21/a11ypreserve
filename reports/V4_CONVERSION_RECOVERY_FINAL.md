@@ -62,3 +62,13 @@ Overall audit status: **PASS**
 The V4 protocol, feature families, fixture corpus, source oracle, comparator boundary, taxonomy, and holdout rules were not changed after result inspection. Implementation repairs were limited to output capture and JSON/report plumbing.
 
 No credentials or unrelated documents were uploaded. The Google artifacts contain no detected email, account-name, OAuth, token, password, or secret strings.
+
+## Final hardening addendum
+
+- LibreOffice completed 65 atomic and 10 project-created realistic conversions; its frozen atomic counts are 38 verified-preserved, 11 observed-partial, 9 altered, 1 confirmed-lost, 1 unresolved-equivalence, and 5 measurement-error.
+- Google completed 65 atomic and 10 project-created realistic conversions; its frozen atomic counts are 11 verified-preserved, 32 observed-partial, 11 altered, 6 confirmed-lost, 5 unresolved-equivalence, and 0 measurement-error.
+- The five LO measurement errors are retained as footnote representation limitations. The five Google unresolved cases are footnotes; the one LO unresolved case is a caption association. No post-result evidence was promoted into the frozen primary classification.
+- Normalized repeatability semantics are stable 6/6 for both pipelines. Raw extraction identity is not claimed as a stable unit because extraction records contain output paths and process-local evidence-object addresses.
+- Word received the final bounded attempt required by the hardening instructions: safe-mode launch/open worked, but native PDF export returned a persistent zero-byte file. No Word output was accepted.
+- External corpus remains zero; the realistic corpus remains project-created/integrated. Reading-order feasibility is `NO-GO — ORACLE NOT DEFENSIBLE`. Complete PAC/Acrobat/veraPDF validation is not claimed.
+- An anonymous manuscript source and machine-readable artifact package were prepared. Built-in and local MiKTeX compilation attempts produced no PDF, so no compiled PDF is included or claimed.
