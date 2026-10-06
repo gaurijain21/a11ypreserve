@@ -1,0 +1,236 @@
+{
+  "analysis_version": "v4-word-repeatability-frozen-comparator-1",
+  "method": "frozen destination extractor + frozen V4 comparator; secondary evidence normalized only by excluding output byte hash",
+  "records": [
+    {
+      "fixture_id": "F04_D",
+      "feature_family": "basic_tables",
+      "runs": [
+        {
+          "run": 1,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F04_D__WORD_DESKTOP__run1.pdf",
+          "output_sha256": "9d6d242b417c6aeb79a36d836bfc4eb808a882ddedd88de01eaee8caacf526fc",
+          "destination_extraction_sha256": "0652636b41ad6fdbd310cf9118dea1eeb4f369faf3961e34eca4ca1a9965b72c",
+          "secondary_normalized_sha256": "8e24d41bd645c9183eab31bbc5ebadbe42eea5ae2b4e1ec2032d5d85fb8fbe2b",
+          "classification": "OBSERVED_PARTIAL",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 2,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F04_D__WORD_DESKTOP__run2.pdf",
+          "output_sha256": "5c0edd53163b34f35f1fba7e3ce046678d770aa1bfdd674b3563d2aeb9fa0555",
+          "destination_extraction_sha256": "0652636b41ad6fdbd310cf9118dea1eeb4f369faf3961e34eca4ca1a9965b72c",
+          "secondary_normalized_sha256": "8e24d41bd645c9183eab31bbc5ebadbe42eea5ae2b4e1ec2032d5d85fb8fbe2b",
+          "classification": "OBSERVED_PARTIAL",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 3,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F04_D__WORD_DESKTOP__run3.pdf",
+          "output_sha256": "d2e8b39d600c4675e6c52f026e670cdf4780b1cbf5b80a74513c711ddfee03b1",
+          "destination_extraction_sha256": "0652636b41ad6fdbd310cf9118dea1eeb4f369faf3961e34eca4ca1a9965b72c",
+          "secondary_normalized_sha256": "8e24d41bd645c9183eab31bbc5ebadbe42eea5ae2b4e1ec2032d5d85fb8fbe2b",
+          "classification": "OBSERVED_PARTIAL",
+          "classification_basis": "frozen raw-fidelity mapping"
+        }
+      ],
+      "byte_identity": false,
+      "destination_extraction_identity": true,
+      "secondary_normalized_identity": true,
+      "classification_identity": true
+    },
+    {
+      "fixture_id": "F06_D",
+      "feature_family": "complex_tables",
+      "runs": [
+        {
+          "run": 1,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F06_D__WORD_DESKTOP__run1.pdf",
+          "output_sha256": "7c6a5f5c0360b284702b4ec2c45472e5a41aec3dc6eff448214c27b70135431d",
+          "destination_extraction_sha256": "43b749251faeaa3767ec4cde09513832f5fc9fb1669d16ab9588bebb0ed95a2e",
+          "secondary_normalized_sha256": "7fdaf768687246a75d730c15d6f44557a755b1ef84a1912524a088538d478a7d",
+          "classification": "CONFIRMED_LOST",
+          "classification_basis": "raw loss corroborated by independent PyMuPDF/object-marker absence"
+        },
+        {
+          "run": 2,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F06_D__WORD_DESKTOP__run2.pdf",
+          "output_sha256": "7db87d96396dd207f6cacbd6684aef937203c5536e580badcc600944dc624688",
+          "destination_extraction_sha256": "43b749251faeaa3767ec4cde09513832f5fc9fb1669d16ab9588bebb0ed95a2e",
+          "secondary_normalized_sha256": "7fdaf768687246a75d730c15d6f44557a755b1ef84a1912524a088538d478a7d",
+          "classification": "CONFIRMED_LOST",
+          "classification_basis": "raw loss corroborated by independent PyMuPDF/object-marker absence"
+        },
+        {
+          "run": 3,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F06_D__WORD_DESKTOP__run3.pdf",
+          "output_sha256": "bb18b54418a44130d825f2a8c17ceca065ed5bd2584fdf7c07ca912bdac73b5c",
+          "destination_extraction_sha256": "43b749251faeaa3767ec4cde09513832f5fc9fb1669d16ab9588bebb0ed95a2e",
+          "secondary_normalized_sha256": "7fdaf768687246a75d730c15d6f44557a755b1ef84a1912524a088538d478a7d",
+          "classification": "CONFIRMED_LOST",
+          "classification_basis": "raw loss corroborated by independent PyMuPDF/object-marker absence"
+        }
+      ],
+      "byte_identity": false,
+      "destination_extraction_identity": true,
+      "secondary_normalized_identity": true,
+      "classification_identity": true
+    },
+    {
+      "fixture_id": "F08_D",
+      "feature_family": "hyperlinks",
+      "runs": [
+        {
+          "run": 1,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F08_D__WORD_DESKTOP__run1.pdf",
+          "output_sha256": "5b659f8de99bfc463ed85ba2dd0eaed1ae2fbab6b061a93b93b8231a2c4dc015",
+          "destination_extraction_sha256": "cb5f1d4fc18c7bd61875b3e43d5072ebd0ee7772c56954c321e7b433f8fee20a",
+          "secondary_normalized_sha256": "6a137167b24a9477ddd0abfd8926905245facd540550a5056f572b270c8b7694",
+          "classification": "OBSERVED_PARTIAL",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 2,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F08_D__WORD_DESKTOP__run2.pdf",
+          "output_sha256": "68f93ff01c801dd0bf4014bd433121ff5374f5a1d24f5cafd846e5a3430ba264",
+          "destination_extraction_sha256": "cb5f1d4fc18c7bd61875b3e43d5072ebd0ee7772c56954c321e7b433f8fee20a",
+          "secondary_normalized_sha256": "6a137167b24a9477ddd0abfd8926905245facd540550a5056f572b270c8b7694",
+          "classification": "OBSERVED_PARTIAL",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 3,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F08_D__WORD_DESKTOP__run3.pdf",
+          "output_sha256": "e6627323d99ebf3a43a72ab706aafbe9fc416c6b28790b4f74b6066dd3ab5d38",
+          "destination_extraction_sha256": "cb5f1d4fc18c7bd61875b3e43d5072ebd0ee7772c56954c321e7b433f8fee20a",
+          "secondary_normalized_sha256": "6a137167b24a9477ddd0abfd8926905245facd540550a5056f572b270c8b7694",
+          "classification": "OBSERVED_PARTIAL",
+          "classification_basis": "frozen raw-fidelity mapping"
+        }
+      ],
+      "byte_identity": false,
+      "destination_extraction_identity": true,
+      "secondary_normalized_identity": true,
+      "classification_identity": true
+    },
+    {
+      "fixture_id": "F11_D",
+      "feature_family": "equations",
+      "runs": [
+        {
+          "run": 1,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F11_D__WORD_DESKTOP__run1.pdf",
+          "output_sha256": "12751ebb081d3cef179847ecad583d7018fa1ddf00385e76f09f566fb37d1ffd",
+          "destination_extraction_sha256": "cbaeae5567502b8802df08e754d3ae2931b47734c270e0c0b2071f1ae7b4c819",
+          "secondary_normalized_sha256": "f58660d989feff72ee3d9e73fad989884b637924af3ffcf6e4e49887f5959188",
+          "classification": "CONFIRMED_LOST",
+          "classification_basis": "raw loss corroborated by independent PyMuPDF/object-marker absence"
+        },
+        {
+          "run": 2,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F11_D__WORD_DESKTOP__run2.pdf",
+          "output_sha256": "8453cbb07915317b7c5b639ed61e180a473e813a79eadc85cec7553ab7dbe852",
+          "destination_extraction_sha256": "cbaeae5567502b8802df08e754d3ae2931b47734c270e0c0b2071f1ae7b4c819",
+          "secondary_normalized_sha256": "f58660d989feff72ee3d9e73fad989884b637924af3ffcf6e4e49887f5959188",
+          "classification": "CONFIRMED_LOST",
+          "classification_basis": "raw loss corroborated by independent PyMuPDF/object-marker absence"
+        },
+        {
+          "run": 3,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F11_D__WORD_DESKTOP__run3.pdf",
+          "output_sha256": "ea0f974d460d3e04f2b7e0ff2115b089463cf78ff6b242f7e5e3dbd9205cd3c7",
+          "destination_extraction_sha256": "cbaeae5567502b8802df08e754d3ae2931b47734c270e0c0b2071f1ae7b4c819",
+          "secondary_normalized_sha256": "f58660d989feff72ee3d9e73fad989884b637924af3ffcf6e4e49887f5959188",
+          "classification": "CONFIRMED_LOST",
+          "classification_basis": "raw loss corroborated by independent PyMuPDF/object-marker absence"
+        }
+      ],
+      "byte_identity": false,
+      "destination_extraction_identity": true,
+      "secondary_normalized_identity": true,
+      "classification_identity": true
+    },
+    {
+      "fixture_id": "F12_D",
+      "feature_family": "footnotes",
+      "runs": [
+        {
+          "run": 1,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F12_D__WORD_DESKTOP__run1.pdf",
+          "output_sha256": "fa8bfb8f24ea4c5bd3edabb1c0f03ff12f145f69b9741bcd4a8125c7f0a4174a",
+          "destination_extraction_sha256": "b44fdbd3d26d19178d7b7ab03ab7f94af2c8c3eb2310e2243983f0fb9129e767",
+          "secondary_normalized_sha256": "430bf032d8c8e66c34690443fff3f26cfeba4ceafd1ef053edf296624822c04a",
+          "classification": "CONFIRMED_LOST",
+          "classification_basis": "raw loss corroborated by independent PyMuPDF/object-marker absence"
+        },
+        {
+          "run": 2,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F12_D__WORD_DESKTOP__run2.pdf",
+          "output_sha256": "e65ae6fd33a49e0464a4aaa724e6883e763f802ef6826967ab72ff25e2ecf969",
+          "destination_extraction_sha256": "b44fdbd3d26d19178d7b7ab03ab7f94af2c8c3eb2310e2243983f0fb9129e767",
+          "secondary_normalized_sha256": "430bf032d8c8e66c34690443fff3f26cfeba4ceafd1ef053edf296624822c04a",
+          "classification": "CONFIRMED_LOST",
+          "classification_basis": "raw loss corroborated by independent PyMuPDF/object-marker absence"
+        },
+        {
+          "run": 3,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F12_D__WORD_DESKTOP__run3.pdf",
+          "output_sha256": "6fe131dec13059251b36bd68524301ce7394faf068807dbb3a43d2ffab5ca578",
+          "destination_extraction_sha256": "b44fdbd3d26d19178d7b7ab03ab7f94af2c8c3eb2310e2243983f0fb9129e767",
+          "secondary_normalized_sha256": "430bf032d8c8e66c34690443fff3f26cfeba4ceafd1ef053edf296624822c04a",
+          "classification": "CONFIRMED_LOST",
+          "classification_basis": "raw loss corroborated by independent PyMuPDF/object-marker absence"
+        }
+      ],
+      "byte_identity": false,
+      "destination_extraction_identity": true,
+      "secondary_normalized_identity": true,
+      "classification_identity": true
+    },
+    {
+      "fixture_id": "F13_D",
+      "feature_family": "captions",
+      "runs": [
+        {
+          "run": 1,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F13_D__WORD_DESKTOP__run1.pdf",
+          "output_sha256": "91973e4b03446cd3b8541380d44621d4f0681a708c635a658bd6e7311f0e6404",
+          "destination_extraction_sha256": "6bbab03f6dc027e3765bb6997dff05817831062fdc2e0aed6b5c3b5f78feb4a3",
+          "secondary_normalized_sha256": "664aefcb994663705937d1b6b138bdc2b750f461593aa739afaf5f6e135e6b10",
+          "classification": "VERIFIED_PRESERVED",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 2,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F13_D__WORD_DESKTOP__run2.pdf",
+          "output_sha256": "5d6f7a1f5b55ad4597d4f939455507256f497d256d888b965870eefb3b1352a6",
+          "destination_extraction_sha256": "6bbab03f6dc027e3765bb6997dff05817831062fdc2e0aed6b5c3b5f78feb4a3",
+          "secondary_normalized_sha256": "664aefcb994663705937d1b6b138bdc2b750f461593aa739afaf5f6e135e6b10",
+          "classification": "VERIFIED_PRESERVED",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 3,
+          "output_path": "experiments/v4/conversions/word/outputs/repeatability/F13_D__WORD_DESKTOP__run3.pdf",
+          "output_sha256": "8d3912f3cd5a67ae565486976b0cb00fa2fd2a3dc3464bf5d927f61a620406ff",
+          "destination_extraction_sha256": "6bbab03f6dc027e3765bb6997dff05817831062fdc2e0aed6b5c3b5f78feb4a3",
+          "secondary_normalized_sha256": "664aefcb994663705937d1b6b138bdc2b750f461593aa739afaf5f6e135e6b10",
+          "classification": "VERIFIED_PRESERVED",
+          "classification_basis": "frozen raw-fidelity mapping"
+        }
+      ],
+      "byte_identity": false,
+      "destination_extraction_identity": true,
+      "secondary_normalized_identity": true,
+      "classification_identity": true
+    }
+  ],
+  "summary": {
+    "fixtures": 6,
+    "runs": 18,
+    "byte_identity_fixtures": 0,
+    "destination_extraction_identity_fixtures": 6,
+    "secondary_normalized_identity_fixtures": 6,
+    "classification_identity_fixtures": 6
+  }
+}
