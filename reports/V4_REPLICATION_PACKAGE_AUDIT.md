@@ -8,8 +8,8 @@ Audit date: 2026-10-05. Package construction did not run a new experiment and di
 - Upload contents: `paper.pdf`, `replication_package.zip`, `UPLOAD_README.md`, and `BUNDLE_MANIFEST.json`.
 - Paper: eight-page anonymous IEEE conference-format PDF, SHA-256 `DFF87450361EC21F21993161C6002C443582316C854D19846F30FEBBBE627FCA`.
 - Replication package: 556 manifest-listed files (557 ZIP entries including the manifest); 65 atomic DOCX fixtures; 75 LibreOffice PDFs (65 atomic + 10 realistic); 75 Google Docs PDFs (65 atomic + 10 realistic); 65 atomic Word PDFs, 10 realistic Word PDFs, and 18 Word repeatability PDFs.
-- Replication package SHA-256: `287D3470ECA89E0686C0696C08E58E884C3BB82D018184B44536811C3F183638`.
-- Outer upload bundle SHA-256: `7E303922C696B2D1A6F35C7CC693E1F50F3530E2C480CA1E8812956D1B612E7B`.
+- Replication package SHA-256: `798F5D8B3E07F5DE1744EDC11F352DC076B1C7747F27F9BAD5FEE099CFAAA190`.
+- Outer upload bundle SHA-256: `64E927E576F14B33603BF1B8A65B3611A29B5285DD9B472F3E7AC9551010F235`.
 - The repeatability evidence and normalized repeatability records are included separately; repeatability PDFs are not merged into the 130-case primary denominator.
 
 ## Included evidence
