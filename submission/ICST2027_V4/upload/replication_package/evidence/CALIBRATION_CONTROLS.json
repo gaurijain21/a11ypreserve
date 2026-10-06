@@ -1,0 +1,2670 @@
+{
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "control_count": 78,
+  "controls": [
+    {
+      "control_id": "headings_exact",
+      "feature_family": "headings",
+      "comparator_feature": "headings",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1
+          },
+          {
+            "level": 2
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1,
+            "evidence": {
+              "pdf_role": "H1"
+            }
+          },
+          {
+            "level": 2,
+            "evidence": {
+              "pdf_role": "H2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "headings_alternate",
+      "feature_family": "headings",
+      "comparator_feature": "headings",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1
+          },
+          {
+            "level": 2
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1,
+            "evidence": {
+              "pdf_role": "H1"
+            }
+          },
+          {
+            "level": 2,
+            "evidence": {
+              "pdf_role": "H2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "headings_altered",
+      "feature_family": "headings",
+      "comparator_feature": "headings",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1
+          },
+          {
+            "level": 2
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1,
+            "evidence": {
+              "pdf_role": "H1"
+            }
+          },
+          {
+            "level": 3,
+            "evidence": {
+              "pdf_role": "H2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "headings_partial",
+      "feature_family": "headings",
+      "comparator_feature": "headings",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1
+          },
+          {
+            "level": 2
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1,
+            "evidence": {
+              "pdf_role": "H1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "headings_lost",
+      "feature_family": "headings",
+      "comparator_feature": "headings",
+      "intent": "lost",
+      "expected": "LOST",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1
+          },
+          {
+            "level": 2
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "headings": []
+      }
+    },
+    {
+      "control_id": "headings_ambiguous",
+      "feature_family": "headings",
+      "comparator_feature": "headings",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1
+          },
+          {
+            "level": 2
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1,
+            "evidence": {}
+          },
+          {
+            "level": 2,
+            "evidence": {
+              "pdf_role": "H2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "alt_text_exact",
+      "feature_family": "alt_text",
+      "comparator_feature": "image_alt_text",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "alt_text_alternate",
+      "feature_family": "alt_text",
+      "comparator_feature": "image_alt_text",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "alt_text_altered",
+      "feature_family": "alt_text",
+      "comparator_feature": "image_alt_text",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Different chart",
+            "decorative": false
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "alt_text_partial",
+      "feature_family": "alt_text",
+      "comparator_feature": "image_alt_text",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "",
+            "decorative": true
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "alt_text_lost",
+      "feature_family": "alt_text",
+      "comparator_feature": "image_alt_text",
+      "intent": "lost",
+      "expected": "LOST",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": []
+      }
+    },
+    {
+      "control_id": "alt_text_ambiguous",
+      "feature_family": "alt_text",
+      "comparator_feature": "image_alt_text",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "",
+            "decorative": false
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "lists_exact",
+      "feature_family": "lists",
+      "comparator_feature": "lists",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "unordered",
+            "depth": 0,
+            "text": "A"
+          },
+          {
+            "type": "unordered",
+            "depth": 0,
+            "text": "B"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "L",
+            "depth": 0,
+            "list_type": "unordered"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "A"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "B"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "lists_alternate",
+      "feature_family": "lists",
+      "comparator_feature": "lists",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "unordered",
+            "depth": 0,
+            "text": "A"
+          },
+          {
+            "type": "unordered",
+            "depth": 0,
+            "text": "B"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "L",
+            "depth": 0,
+            "list_type": "unordered"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "A"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "B"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "lists_altered",
+      "feature_family": "lists",
+      "comparator_feature": "lists",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "unordered",
+            "depth": 0,
+            "text": "A"
+          },
+          {
+            "type": "unordered",
+            "depth": 0,
+            "text": "B"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "L",
+            "depth": 0,
+            "list_type": "unordered"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "A"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "C"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "lists_partial",
+      "feature_family": "lists",
+      "comparator_feature": "lists",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "unordered",
+            "depth": 0,
+            "text": "A"
+          },
+          {
+            "type": "unordered",
+            "depth": 0,
+            "text": "B"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "L",
+            "depth": 0
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "A"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "B"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "lists_lost",
+      "feature_family": "lists",
+      "comparator_feature": "lists",
+      "intent": "lost",
+      "expected": "LOST",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "unordered",
+            "depth": 0,
+            "text": "A"
+          },
+          {
+            "type": "unordered",
+            "depth": 0,
+            "text": "B"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "lists": []
+      }
+    },
+    {
+      "control_id": "lists_ambiguous",
+      "feature_family": "lists",
+      "comparator_feature": "lists",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "unordered",
+            "depth": 0,
+            "text": "A"
+          },
+          {
+            "type": "unordered",
+            "depth": 0,
+            "text": "B"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "L",
+            "depth": 0
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "A"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "B"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "basic_tables_exact",
+      "feature_family": "basic_tables",
+      "comparator_feature": "table",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "cells": [
+              [
+                "A",
+                "B"
+              ],
+              [
+                "1",
+                "2"
+              ]
+            ],
+            "headers": [
+              "A",
+              "B"
+            ],
+            "dimensions": {
+              "rows": 2,
+              "columns": 2
+            }
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          },
+          {
+            "role": "TD"
+          }
+        ],
+        "table_headers": [
+          true
+        ]
+      }
+    },
+    {
+      "control_id": "basic_tables_alternate",
+      "feature_family": "basic_tables",
+      "comparator_feature": "table",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "cells": [
+              [
+                "A",
+                "B"
+              ],
+              [
+                "1",
+                "2"
+              ]
+            ],
+            "headers": [
+              "A",
+              "B"
+            ],
+            "dimensions": {
+              "rows": 2,
+              "columns": 2
+            }
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          },
+          {
+            "role": "TD"
+          }
+        ],
+        "table_headers": [
+          true
+        ]
+      }
+    },
+    {
+      "control_id": "basic_tables_altered",
+      "feature_family": "basic_tables",
+      "comparator_feature": "table",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "cells": [
+              [
+                "A",
+                "B"
+              ],
+              [
+                "1",
+                "2"
+              ]
+            ],
+            "headers": [
+              "A",
+              "B"
+            ],
+            "dimensions": {
+              "rows": 2,
+              "columns": 2
+            }
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          }
+        ],
+        "table_headers": [
+          true
+        ]
+      }
+    },
+    {
+      "control_id": "basic_tables_partial",
+      "feature_family": "basic_tables",
+      "comparator_feature": "table",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "cells": [
+              [
+                "A",
+                "B"
+              ],
+              [
+                "1",
+                "2"
+              ]
+            ],
+            "headers": [
+              "A",
+              "B"
+            ],
+            "dimensions": {
+              "rows": 2,
+              "columns": 2
+            }
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          }
+        ],
+        "table_headers": [
+          true
+        ]
+      }
+    },
+    {
+      "control_id": "basic_tables_lost",
+      "feature_family": "basic_tables",
+      "comparator_feature": "table",
+      "intent": "lost",
+      "expected": "LOST",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "cells": [
+              [
+                "A",
+                "B"
+              ],
+              [
+                "1",
+                "2"
+              ]
+            ],
+            "headers": [
+              "A",
+              "B"
+            ],
+            "dimensions": {
+              "rows": 2,
+              "columns": 2
+            }
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [],
+        "table_headers": [
+          true
+        ]
+      }
+    },
+    {
+      "control_id": "basic_tables_ambiguous",
+      "feature_family": "basic_tables",
+      "comparator_feature": "table",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "cells": [
+              [
+                "A",
+                "B"
+              ],
+              [
+                "1",
+                "2"
+              ]
+            ],
+            "headers": [
+              "A",
+              "B"
+            ],
+            "dimensions": {
+              "rows": 2,
+              "columns": 2
+            }
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          }
+        ],
+        "table_headers": [
+          true
+        ]
+      }
+    },
+    {
+      "control_id": "document_language_exact",
+      "feature_family": "document_language",
+      "comparator_feature": "document_language",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "fr-FR"
+        }
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "fr-FR"
+        }
+      }
+    },
+    {
+      "control_id": "document_language_alternate",
+      "feature_family": "document_language",
+      "comparator_feature": "document_language",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "fr-FR"
+        }
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "fr-FR"
+        }
+      }
+    },
+    {
+      "control_id": "document_language_altered",
+      "feature_family": "document_language",
+      "comparator_feature": "document_language",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "source": {
+        "document": {
+          "language": "fr-FR"
+        }
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "de-DE"
+        }
+      }
+    },
+    {
+      "control_id": "document_language_partial",
+      "feature_family": "document_language",
+      "comparator_feature": "document_language",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "source": {
+        "document": {
+          "language": "fr-FR"
+        }
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": null
+        }
+      }
+    },
+    {
+      "control_id": "document_language_lost",
+      "feature_family": "document_language",
+      "comparator_feature": "document_language",
+      "intent": "lost",
+      "expected": "LOST",
+      "source": {
+        "document": {
+          "language": "fr-FR"
+        }
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": null
+        }
+      }
+    },
+    {
+      "control_id": "document_language_ambiguous",
+      "feature_family": "document_language",
+      "comparator_feature": "document_language",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "source": {
+        "document": {
+          "language": "fr-FR"
+        }
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": null
+        }
+      }
+    },
+    {
+      "control_id": "inline_language_exact",
+      "feature_family": "inline_language",
+      "comparator_feature": "inline_language",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": [
+          {
+            "text": "bonjour",
+            "language": "fr-FR"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": [
+          {
+            "text": "bonjour",
+            "language": "fr-FR"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "inline_language_alternate",
+      "feature_family": "inline_language",
+      "comparator_feature": "inline_language",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": [
+          {
+            "text": "bonjour",
+            "language": "fr-FR"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": [
+          {
+            "text": "bonjour",
+            "language": "fr-FR"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "inline_language_altered",
+      "feature_family": "inline_language",
+      "comparator_feature": "inline_language",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": [
+          {
+            "text": "bonjour",
+            "language": "fr-FR"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": [
+          {
+            "text": "bonjour",
+            "language": "es-ES"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "inline_language_partial",
+      "feature_family": "inline_language",
+      "comparator_feature": "inline_language",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": [
+          {
+            "text": "bonjour",
+            "language": "fr-FR"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": []
+      }
+    },
+    {
+      "control_id": "inline_language_lost",
+      "feature_family": "inline_language",
+      "comparator_feature": "inline_language",
+      "intent": "lost",
+      "expected": "LOST",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": [
+          {
+            "text": "bonjour",
+            "language": "fr-FR"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": []
+      }
+    },
+    {
+      "control_id": "inline_language_ambiguous",
+      "feature_family": "inline_language",
+      "comparator_feature": "inline_language",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": [
+          {
+            "text": "bonjour",
+            "language": "fr-FR"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": []
+      }
+    },
+    {
+      "control_id": "decorative_images_exact",
+      "feature_family": "decorative_images",
+      "comparator_feature": "decorative_image",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "decorative_images_alternate",
+      "feature_family": "decorative_images",
+      "comparator_feature": "decorative_image",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "",
+            "decorative": true
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "",
+            "decorative": true
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "decorative_images_altered",
+      "feature_family": "decorative_images",
+      "comparator_feature": "decorative_image",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Different chart",
+            "decorative": false
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "decorative_images_partial",
+      "feature_family": "decorative_images",
+      "comparator_feature": "decorative_image",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "",
+            "decorative": true
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "decorative_images_lost",
+      "feature_family": "decorative_images",
+      "comparator_feature": "decorative_image",
+      "intent": "lost",
+      "expected": "LOST",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": []
+      }
+    },
+    {
+      "control_id": "decorative_images_ambiguous",
+      "feature_family": "decorative_images",
+      "comparator_feature": "decorative_image",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "",
+            "decorative": false
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "hyperlinks_exact",
+      "feature_family": "hyperlinks",
+      "comparator_feature": "hyperlinks",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": [
+          {
+            "target": "https://example.org",
+            "text": "Guidance"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": [
+          {
+            "target": "https://example.org"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "hyperlinks_alternate",
+      "feature_family": "hyperlinks",
+      "comparator_feature": "hyperlinks",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": [
+          {
+            "target": "https://example.org",
+            "text": "Guidance"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": [
+          {
+            "target": "https://example.org"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "hyperlinks_altered",
+      "feature_family": "hyperlinks",
+      "comparator_feature": "hyperlinks",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": [
+          {
+            "target": "https://example.org",
+            "text": "Guidance"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": [
+          {
+            "target": "https://other.example"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "hyperlinks_partial",
+      "feature_family": "hyperlinks",
+      "comparator_feature": "hyperlinks",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": [
+          {
+            "target": "https://example.org",
+            "text": "Guidance"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": []
+      }
+    },
+    {
+      "control_id": "hyperlinks_lost",
+      "feature_family": "hyperlinks",
+      "comparator_feature": "hyperlinks",
+      "intent": "lost",
+      "expected": "LOST",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": [
+          {
+            "target": "https://example.org",
+            "text": "Guidance"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": []
+      }
+    },
+    {
+      "control_id": "hyperlinks_ambiguous",
+      "feature_family": "hyperlinks",
+      "comparator_feature": "hyperlinks",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": [
+          {
+            "target": "https://example.org",
+            "text": "Guidance"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": []
+      }
+    },
+    {
+      "control_id": "document_metadata_exact",
+      "feature_family": "document_metadata",
+      "comparator_feature": "document_title",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "metadata": {
+            "title": "Report"
+          }
+        }
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "metadata": {
+            "Title": "Report"
+          }
+        }
+      }
+    },
+    {
+      "control_id": "document_metadata_alternate",
+      "feature_family": "document_metadata",
+      "comparator_feature": "document_title",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "metadata": {
+            "title": "Report"
+          }
+        }
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "metadata": {
+            "Title": "Report"
+          }
+        }
+      }
+    },
+    {
+      "control_id": "document_metadata_altered",
+      "feature_family": "document_metadata",
+      "comparator_feature": "document_title",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "source": {
+        "document": {
+          "metadata": {
+            "title": "Report"
+          }
+        }
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "metadata": {
+            "Title": "Changed"
+          }
+        }
+      }
+    },
+    {
+      "control_id": "document_metadata_partial",
+      "feature_family": "document_metadata",
+      "comparator_feature": "document_title",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "source": {
+        "document": {
+          "metadata": {
+            "title": "Report"
+          }
+        }
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "metadata": {}
+        }
+      }
+    },
+    {
+      "control_id": "document_metadata_lost",
+      "feature_family": "document_metadata",
+      "comparator_feature": "document_title",
+      "intent": "lost",
+      "expected": "LOST",
+      "source": {
+        "document": {
+          "metadata": {
+            "title": "Report"
+          }
+        }
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "metadata": {}
+        }
+      }
+    },
+    {
+      "control_id": "document_metadata_ambiguous",
+      "feature_family": "document_metadata",
+      "comparator_feature": "document_title",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "source": {
+        "document": {
+          "metadata": {
+            "title": "Report"
+          }
+        }
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "metadata": {}
+        }
+      }
+    },
+    {
+      "control_id": "complex_tables_exact",
+      "feature_family": "complex_tables",
+      "comparator_feature": "complex_table",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "cells": [
+              [
+                "Group",
+                "Result"
+              ],
+              [
+                "A",
+                "1"
+              ]
+            ],
+            "header_rows": [
+              0,
+              1
+            ],
+            "grid_spans": [
+              [
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH",
+            "scope": "Column",
+            "col_span": "2"
+          },
+          {
+            "role": "TH",
+            "scope": "Column"
+          },
+          {
+            "role": "TD"
+          },
+          {
+            "role": "TD"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "complex_tables_alternate",
+      "feature_family": "complex_tables",
+      "comparator_feature": "complex_table",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "cells": [
+              [
+                "Group",
+                "Result"
+              ],
+              [
+                "A",
+                "1"
+              ]
+            ],
+            "header_rows": [
+              0,
+              1
+            ],
+            "grid_spans": [
+              [
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH",
+            "scope": "Column",
+            "col_span": "2"
+          },
+          {
+            "role": "TH",
+            "scope": "Column"
+          },
+          {
+            "role": "TD"
+          },
+          {
+            "role": "TD"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "complex_tables_altered",
+      "feature_family": "complex_tables",
+      "comparator_feature": "complex_table",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "cells": [
+              [
+                "Group",
+                "Result"
+              ],
+              [
+                "A",
+                "1"
+              ]
+            ],
+            "header_rows": [
+              0,
+              1
+            ],
+            "grid_spans": [
+              [
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "complex_tables_partial",
+      "feature_family": "complex_tables",
+      "comparator_feature": "complex_table",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "cells": [
+              [
+                "Group",
+                "Result"
+              ],
+              [
+                "A",
+                "1"
+              ]
+            ],
+            "header_rows": [
+              0,
+              1
+            ],
+            "grid_spans": [
+              [
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "complex_tables_lost",
+      "feature_family": "complex_tables",
+      "comparator_feature": "complex_table",
+      "intent": "lost",
+      "expected": "LOST",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "cells": [
+              [
+                "Group",
+                "Result"
+              ],
+              [
+                "A",
+                "1"
+              ]
+            ],
+            "header_rows": [
+              0,
+              1
+            ],
+            "grid_spans": [
+              [
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": []
+      }
+    },
+    {
+      "control_id": "complex_tables_ambiguous",
+      "feature_family": "complex_tables",
+      "comparator_feature": "complex_table",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "cells": [
+              [
+                "Group",
+                "Result"
+              ],
+              [
+                "A",
+                "1"
+              ]
+            ],
+            "header_rows": [
+              0,
+              1
+            ],
+            "grid_spans": [
+              [
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "footnotes_exact",
+      "feature_family": "footnotes",
+      "comparator_feature": "footnotes",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": [
+          {
+            "id": 1,
+            "text": "Note"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": [
+          {
+            "id": 1,
+            "text": "Note",
+            "evidence": {
+              "pdf_role": "Note"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "footnotes_alternate",
+      "feature_family": "footnotes",
+      "comparator_feature": "footnotes",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": [
+          {
+            "id": 1,
+            "text": "Note"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": [
+          {
+            "id": 1,
+            "text": "Note",
+            "evidence": {
+              "pdf_role": "Note"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "footnotes_altered",
+      "feature_family": "footnotes",
+      "comparator_feature": "footnotes",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": [
+          {
+            "id": 1,
+            "text": "Note"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": [
+          {
+            "id": 1,
+            "text": "Changed",
+            "evidence": {
+              "pdf_role": "Note"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "footnotes_partial",
+      "feature_family": "footnotes",
+      "comparator_feature": "footnotes",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": [
+          {
+            "id": 1,
+            "text": "Note"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": [
+          {
+            "id": 1,
+            "text": "",
+            "evidence": {
+              "pdf_role": "Note"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "footnotes_lost",
+      "feature_family": "footnotes",
+      "comparator_feature": "footnotes",
+      "intent": "lost",
+      "expected": "LOST",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": [
+          {
+            "id": 1,
+            "text": "Note"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": []
+      }
+    },
+    {
+      "control_id": "footnotes_ambiguous",
+      "feature_family": "footnotes",
+      "comparator_feature": "footnotes",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": [
+          {
+            "id": 1,
+            "text": "Note"
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": []
+      }
+    },
+    {
+      "control_id": "equations_exact",
+      "feature_family": "equations",
+      "comparator_feature": "equation",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "equations": [
+          {
+            "tokens": [
+              "E",
+              "=",
+              "m",
+              "c",
+              "2"
+            ]
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "equations": [
+          {
+            "representation": "PDF /Formula",
+            "expression": "E = mc^2"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "equations_alternate",
+      "feature_family": "equations",
+      "comparator_feature": "equation",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "equations": [
+          {
+            "tokens": [
+              "E",
+              "=",
+              "m",
+              "c",
+              "2"
+            ]
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "equations": [
+          {
+            "representation": "PDF /Formula",
+            "expression": "E = mc^2"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "equations_altered",
+      "feature_family": "equations",
+      "comparator_feature": "equation",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "equations": [
+          {
+            "tokens": [
+              "E",
+              "=",
+              "m",
+              "c",
+              "2"
+            ]
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "equations": [
+          {
+            "representation": "PDF visible text fallback",
+            "expression": "E = mc^2"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "equations_partial",
+      "feature_family": "equations",
+      "comparator_feature": "equation",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "equations": [
+          {
+            "tokens": [
+              "E",
+              "=",
+              "m",
+              "c",
+              "2"
+            ]
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "equations": [
+          {
+            "representation": "PDF visible text fallback",
+            "expression": "E = mc^2"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "equations_lost",
+      "feature_family": "equations",
+      "comparator_feature": "equation",
+      "intent": "lost",
+      "expected": "LOST",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "equations": [
+          {
+            "tokens": [
+              "E",
+              "=",
+              "m",
+              "c",
+              "2"
+            ]
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "equations": []
+      }
+    },
+    {
+      "control_id": "equations_ambiguous",
+      "feature_family": "equations",
+      "comparator_feature": "equation",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "equations": [
+          {
+            "tokens": [
+              "E",
+              "=",
+              "m",
+              "c",
+              "2"
+            ]
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "equations": []
+      }
+    },
+    {
+      "control_id": "captions_exact",
+      "feature_family": "captions",
+      "comparator_feature": "captions",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "captions": [
+          {
+            "text": "Figure 1. Overview."
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "captions": [
+          {
+            "text": "Figure 1. Overview.",
+            "association": "PDF /Caption structure"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "captions_alternate",
+      "feature_family": "captions",
+      "comparator_feature": "captions",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "captions": [
+          {
+            "text": "Figure 1. Overview."
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "captions": [
+          {
+            "text": "Figure 1. Overview.",
+            "association": "PDF /Caption structure"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "captions_altered",
+      "feature_family": "captions",
+      "comparator_feature": "captions",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "captions": [
+          {
+            "text": "Figure 1. Overview."
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "captions": [
+          {
+            "text": "Figure 1. Changed.",
+            "association": "PDF /Caption structure"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "captions_partial",
+      "feature_family": "captions",
+      "comparator_feature": "captions",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "captions": [
+          {
+            "text": "Figure 1. Overview."
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "captions": [
+          {
+            "text": "Figure 1. Overview.",
+            "association": "ordered page-text adjacency"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "captions_lost",
+      "feature_family": "captions",
+      "comparator_feature": "captions",
+      "intent": "lost",
+      "expected": "LOST",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "captions": [
+          {
+            "text": "Figure 1. Overview."
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "captions": []
+      }
+    },
+    {
+      "control_id": "captions_ambiguous",
+      "feature_family": "captions",
+      "comparator_feature": "captions",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "source": {
+        "document": {
+          "language": "en-US"
+        },
+        "captions": [
+          {
+            "text": "Figure 1. Overview."
+          }
+        ]
+      },
+      "destination": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "captions": []
+      }
+    }
+  ]
+}

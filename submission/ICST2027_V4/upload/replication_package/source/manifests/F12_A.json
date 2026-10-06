@@ -1,0 +1,23 @@
+{
+  "variant_id": "F12_A",
+  "feature_family": "equations",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F12_A.docx",
+  "ground_truth": {
+    "equations": [
+      {
+        "expression": "x + y = z",
+        "tokens": [
+          "x",
+          "+",
+          "y",
+          "=",
+          "z"
+        ]
+      }
+    ]
+  },
+  "source_sha256": "9659ca62c193cd4dafe67daa48d4846970a254ed95ea244c7b097dc0365db819"
+}

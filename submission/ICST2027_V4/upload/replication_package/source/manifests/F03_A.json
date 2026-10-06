@@ -1,0 +1,23 @@
+{
+  "variant_id": "F03_A",
+  "feature_family": "lists",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F03_A.docx",
+  "ground_truth": {
+    "lists": [
+      {
+        "type": "unordered",
+        "depth": 0,
+        "text": "Alpha"
+      },
+      {
+        "type": "unordered",
+        "depth": 0,
+        "text": "Beta"
+      }
+    ]
+  },
+  "source_sha256": "84b579cace9f44ab51623fcfd1526061ce8ce70fe8b728a728afe301d56fda7f"
+}

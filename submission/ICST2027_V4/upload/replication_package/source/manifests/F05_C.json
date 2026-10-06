@@ -1,0 +1,12 @@
+{
+  "variant_id": "F05_C",
+  "feature_family": "document_language",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F05_C.docx",
+  "ground_truth": {
+    "document_language": "es-ES"
+  },
+  "source_sha256": "324349411dee10011a7fde349a9e6b658bc865a42ff02497862086dc97bb843d"
+}

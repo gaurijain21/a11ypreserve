@@ -1,0 +1,55 @@
+{
+  "variant_id": "F05_D",
+  "feature_family": "document_language",
+  "source_sha256": "fbd0f32c5469e9ffe08095dc848636d43ed72ac16155975499c9eb781e06ed3b",
+  "contract_sha256": "4a064c8a4060a929080b9b9b7c8100e661135d0f18aa4861f2fed455faca4887",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "fbd0f32c5469e9ffe08095dc848636d43ed72ac16155975499c9eb781e06ed3b",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [],
+    "document_language": "fr-FR",
+    "inline_languages": [
+      {
+        "text": "V4 document language fr-FR",
+        "language": "en-US"
+      },
+      {
+        "text": "This document declares the default locale fr-FR.",
+        "language": "fr-FR"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 language fr-FR",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "fr-FR"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

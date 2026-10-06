@@ -1,0 +1,33 @@
+{
+  "variant_id": "F03_D",
+  "feature_family": "lists",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F03_D.docx",
+  "ground_truth": {
+    "lists": [
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Chapter"
+      },
+      {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Topic"
+      },
+      {
+        "type": "ordered",
+        "depth": 1,
+        "text": "Subtopic"
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Next chapter"
+      }
+    ]
+  },
+  "source_sha256": "8f9c59083345539501a727d7fe6e0abd2f386cb60841ed28711e9190723b75f3"
+}

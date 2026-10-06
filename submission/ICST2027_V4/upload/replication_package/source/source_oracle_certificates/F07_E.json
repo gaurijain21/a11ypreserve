@@ -1,0 +1,68 @@
+{
+  "variant_id": "F07_E",
+  "feature_family": "decorative_images",
+  "source_sha256": "1a0a65e7f46379d4829c84737f31325fe342efd06f7a6b1ebb98fd40a2f57a2f",
+  "contract_sha256": "a990d02d82e0be45c5bcd2c9d4412e282054a7ef040d730b8b977c85192deb4c",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "1a0a65e7f46379d4829c84737f31325fe342efd06f7a6b1ebb98fd40a2f57a2f",
+    "headings": [],
+    "figures": [
+      {
+        "alt": "",
+        "decorative": true,
+        "title": "Figure 1"
+      },
+      {
+        "alt": "",
+        "decorative": true,
+        "title": "Figure 2"
+      },
+      {
+        "alt": "Decorative texture.",
+        "decorative": false,
+        "title": "Figure 3"
+      }
+    ],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 decorative state 5",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 decorative state 5",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/media/image1.png",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

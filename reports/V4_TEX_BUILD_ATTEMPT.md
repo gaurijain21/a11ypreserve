@@ -11,12 +11,13 @@
 
 The local process was slow rather than deadlocked. A later attached run was allowed to continue through the cold package load and completed successfully with exit code 0. A second pass resolved all table references and outlines.
 
-- Command: `pdflatex --enable-installer=no -interaction=nonstopmode -halt-on-error -file-line-error -output-directory submission\\ICST2027_V4 submission\\ICST2027_V4\\main.tex`
+- Command: `powershell -ExecutionPolicy Bypass -File submission\\ICST2027_V4\\build.ps1`
 - Output: `submission/ICST2027_V4/main.pdf`
-- Pages: 3
+- Pages: 8
 - Producer: `MiKTeX pdfTeX-1.40.28`
 - Parseability: PASS
 - Visual page review: PASS
+- No unresolved references: PASS. Table overfull-box warnings were reviewed visually; no clipped content or page-boundary overflow was present.
 - Frozen scientific content changed: NO
 
 The remaining built-in compiler error is host-tool specific and does not block the verified MiKTeX build route.

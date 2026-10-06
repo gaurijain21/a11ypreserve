@@ -1,0 +1,36 @@
+{
+  "variant_id": "F04_C",
+  "feature_family": "basic_tables",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F04_C.docx",
+  "ground_truth": {
+    "dimensions": {
+      "rows": 4,
+      "columns": 2
+    },
+    "header_rows": [
+      0
+    ],
+    "cells": [
+      [
+        "Measure",
+        "Result"
+      ],
+      [
+        "Coverage",
+        "82%"
+      ],
+      [
+        "Review",
+        "Pass"
+      ],
+      [
+        "Notes",
+        "Three rows"
+      ]
+    ]
+  },
+  "source_sha256": "d07ba7d1c3c9bb9ddb32d4e3f3c3a2500554efc6265f33e8feb6474a8b0e84fb"
+}

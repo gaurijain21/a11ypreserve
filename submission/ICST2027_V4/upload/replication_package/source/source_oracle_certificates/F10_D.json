@@ -1,0 +1,97 @@
+{
+  "variant_id": "F10_D",
+  "feature_family": "complex_tables",
+  "source_sha256": "5a1e08a8702b1710c6f647bdaab49afef01736c62bb26179f3160904331e1230",
+  "contract_sha256": "0fa2b18d86ce9ea509663d04495eabf09c5db9007c337bb88321416296b7abd7",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "5a1e08a8702b1710c6f647bdaab49afef01736c62bb26179f3160904331e1230",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [
+      {
+        "rows": 5,
+        "cells": 19,
+        "header_rows": [
+          0,
+          1
+        ],
+        "spans": [
+          {
+            "gridSpan": "2",
+            "vMerge": null
+          }
+        ],
+        "values": [
+          [
+            "groups group A",
+            "groups 1.3",
+            "groups 1.4"
+          ],
+          [
+            "groups 2.1",
+            "groups 2.2",
+            "groups 2.3",
+            "groups 2.4"
+          ],
+          [
+            "groups 3.1",
+            "groups 3.2",
+            "groups 3.3",
+            "groups 3.4"
+          ],
+          [
+            "groups 4.1",
+            "groups 4.2",
+            "groups 4.3",
+            "groups 4.4"
+          ],
+          [
+            "groups 5.1",
+            "groups 5.2",
+            "groups 5.3",
+            "groups 5.4"
+          ]
+        ]
+      }
+    ],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 complex table 4",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 complex table 4",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

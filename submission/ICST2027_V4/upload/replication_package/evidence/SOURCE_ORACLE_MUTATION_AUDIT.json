@@ -1,0 +1,413 @@
+{
+  "status": "PASS",
+  "mutations": 39,
+  "detected": 39,
+  "by_feature": {
+    "alt_text": {
+      "mutations": 3,
+      "detected": 3
+    },
+    "basic_tables": {
+      "mutations": 3,
+      "detected": 3
+    },
+    "captions": {
+      "mutations": 3,
+      "detected": 3
+    },
+    "complex_tables": {
+      "mutations": 3,
+      "detected": 3
+    },
+    "decorative_images": {
+      "mutations": 3,
+      "detected": 3
+    },
+    "document_language": {
+      "mutations": 3,
+      "detected": 3
+    },
+    "document_metadata": {
+      "mutations": 3,
+      "detected": 3
+    },
+    "equations": {
+      "mutations": 3,
+      "detected": 3
+    },
+    "footnotes": {
+      "mutations": 3,
+      "detected": 3
+    },
+    "headings": {
+      "mutations": 3,
+      "detected": 3
+    },
+    "hyperlinks": {
+      "mutations": 3,
+      "detected": 3
+    },
+    "inline_language": {
+      "mutations": 3,
+      "detected": 3
+    },
+    "lists": {
+      "mutations": 3,
+      "detected": 3
+    }
+  },
+  "rows": [
+    {
+      "variant_id": "F01_E",
+      "feature_family": "headings",
+      "mutation": "delete",
+      "detected": true,
+      "problems": [
+        "heading sequence differs"
+      ]
+    },
+    {
+      "variant_id": "F01_E",
+      "feature_family": "headings",
+      "mutation": "value",
+      "detected": true,
+      "problems": [
+        "heading sequence differs"
+      ]
+    },
+    {
+      "variant_id": "F01_E",
+      "feature_family": "headings",
+      "mutation": "structure",
+      "detected": true,
+      "problems": [
+        "heading sequence differs"
+      ]
+    },
+    {
+      "variant_id": "F02_A",
+      "feature_family": "alt_text",
+      "mutation": "delete",
+      "detected": true,
+      "problems": [
+        "alternative-text values differ"
+      ]
+    },
+    {
+      "variant_id": "F02_A",
+      "feature_family": "alt_text",
+      "mutation": "value",
+      "detected": true,
+      "problems": [
+        "alternative-text values differ"
+      ]
+    },
+    {
+      "variant_id": "F02_A",
+      "feature_family": "alt_text",
+      "mutation": "structure",
+      "detected": true,
+      "problems": [
+        "alternative-text values differ"
+      ]
+    },
+    {
+      "variant_id": "F03_D",
+      "feature_family": "lists",
+      "mutation": "delete",
+      "detected": true,
+      "problems": [
+        "list structure differs"
+      ]
+    },
+    {
+      "variant_id": "F03_D",
+      "feature_family": "lists",
+      "mutation": "value",
+      "detected": true,
+      "problems": [
+        "list structure differs"
+      ]
+    },
+    {
+      "variant_id": "F03_D",
+      "feature_family": "lists",
+      "mutation": "structure",
+      "detected": true,
+      "problems": [
+        "list structure differs"
+      ]
+    },
+    {
+      "variant_id": "F04_B",
+      "feature_family": "basic_tables",
+      "mutation": "delete",
+      "detected": true,
+      "problems": [
+        "basic table dimensions/header differ"
+      ]
+    },
+    {
+      "variant_id": "F04_B",
+      "feature_family": "basic_tables",
+      "mutation": "value",
+      "detected": true,
+      "problems": [
+        "basic table dimensions/header differ"
+      ]
+    },
+    {
+      "variant_id": "F04_B",
+      "feature_family": "basic_tables",
+      "mutation": "structure",
+      "detected": true,
+      "problems": [
+        "basic table dimensions/header differ"
+      ]
+    },
+    {
+      "variant_id": "F05_B",
+      "feature_family": "document_language",
+      "mutation": "delete",
+      "detected": true,
+      "problems": [
+        "document language differs"
+      ]
+    },
+    {
+      "variant_id": "F05_B",
+      "feature_family": "document_language",
+      "mutation": "value",
+      "detected": true,
+      "problems": [
+        "document language differs"
+      ]
+    },
+    {
+      "variant_id": "F05_B",
+      "feature_family": "document_language",
+      "mutation": "structure",
+      "detected": true,
+      "problems": [
+        "document language differs"
+      ]
+    },
+    {
+      "variant_id": "F06_A",
+      "feature_family": "inline_language",
+      "mutation": "delete",
+      "detected": true,
+      "problems": [
+        "inline language spans differ"
+      ]
+    },
+    {
+      "variant_id": "F06_A",
+      "feature_family": "inline_language",
+      "mutation": "value",
+      "detected": true,
+      "problems": [
+        "inline language spans differ"
+      ]
+    },
+    {
+      "variant_id": "F06_A",
+      "feature_family": "inline_language",
+      "mutation": "structure",
+      "detected": true,
+      "problems": [
+        "inline language spans differ"
+      ]
+    },
+    {
+      "variant_id": "F07_B",
+      "feature_family": "decorative_images",
+      "mutation": "delete",
+      "detected": true,
+      "problems": [
+        "decorative/image state differs"
+      ]
+    },
+    {
+      "variant_id": "F07_B",
+      "feature_family": "decorative_images",
+      "mutation": "value",
+      "detected": true,
+      "problems": [
+        "decorative/image state differs"
+      ]
+    },
+    {
+      "variant_id": "F07_B",
+      "feature_family": "decorative_images",
+      "mutation": "structure",
+      "detected": true,
+      "problems": [
+        "decorative/image state differs"
+      ]
+    },
+    {
+      "variant_id": "F08_A",
+      "feature_family": "hyperlinks",
+      "mutation": "delete",
+      "detected": true,
+      "problems": [
+        "hyperlink values differ"
+      ]
+    },
+    {
+      "variant_id": "F08_A",
+      "feature_family": "hyperlinks",
+      "mutation": "value",
+      "detected": true,
+      "problems": [
+        "hyperlink values differ"
+      ]
+    },
+    {
+      "variant_id": "F08_A",
+      "feature_family": "hyperlinks",
+      "mutation": "structure",
+      "detected": true,
+      "problems": [
+        "hyperlink values differ"
+      ]
+    },
+    {
+      "variant_id": "F09_A",
+      "feature_family": "document_metadata",
+      "mutation": "delete",
+      "detected": true,
+      "problems": [
+        "metadata differs"
+      ]
+    },
+    {
+      "variant_id": "F09_A",
+      "feature_family": "document_metadata",
+      "mutation": "value",
+      "detected": true,
+      "problems": [
+        "metadata differs"
+      ]
+    },
+    {
+      "variant_id": "F09_A",
+      "feature_family": "document_metadata",
+      "mutation": "structure",
+      "detected": true,
+      "problems": [
+        "metadata differs"
+      ]
+    },
+    {
+      "variant_id": "F10_A",
+      "feature_family": "complex_tables",
+      "mutation": "delete",
+      "detected": true,
+      "problems": [
+        "complex-table structure differs"
+      ]
+    },
+    {
+      "variant_id": "F10_A",
+      "feature_family": "complex_tables",
+      "mutation": "value",
+      "detected": true,
+      "problems": [
+        "complex-table structure differs"
+      ]
+    },
+    {
+      "variant_id": "F10_A",
+      "feature_family": "complex_tables",
+      "mutation": "structure",
+      "detected": true,
+      "problems": [
+        "complex-table structure differs"
+      ]
+    },
+    {
+      "variant_id": "F11_A",
+      "feature_family": "footnotes",
+      "mutation": "delete",
+      "detected": true,
+      "problems": [
+        "footnotes differ"
+      ]
+    },
+    {
+      "variant_id": "F11_A",
+      "feature_family": "footnotes",
+      "mutation": "value",
+      "detected": true,
+      "problems": [
+        "footnotes differ"
+      ]
+    },
+    {
+      "variant_id": "F11_A",
+      "feature_family": "footnotes",
+      "mutation": "structure",
+      "detected": true,
+      "problems": [
+        "footnotes differ"
+      ]
+    },
+    {
+      "variant_id": "F12_A",
+      "feature_family": "equations",
+      "mutation": "delete",
+      "detected": true,
+      "problems": [
+        "equations differ"
+      ]
+    },
+    {
+      "variant_id": "F12_A",
+      "feature_family": "equations",
+      "mutation": "value",
+      "detected": true,
+      "problems": [
+        "equations differ"
+      ]
+    },
+    {
+      "variant_id": "F12_A",
+      "feature_family": "equations",
+      "mutation": "structure",
+      "detected": true,
+      "problems": [
+        "equations differ"
+      ]
+    },
+    {
+      "variant_id": "F13_A",
+      "feature_family": "captions",
+      "mutation": "delete",
+      "detected": true,
+      "problems": [
+        "caption text differs"
+      ]
+    },
+    {
+      "variant_id": "F13_A",
+      "feature_family": "captions",
+      "mutation": "value",
+      "detected": true,
+      "problems": [
+        "caption text differs"
+      ]
+    },
+    {
+      "variant_id": "F13_A",
+      "feature_family": "captions",
+      "mutation": "structure",
+      "detected": true,
+      "problems": [
+        "caption text differs"
+      ]
+    }
+  ],
+  "caveat": "Three mutation operators per generated fixture are a systematic audit, not a claim of exhaustive mutation coverage."
+}

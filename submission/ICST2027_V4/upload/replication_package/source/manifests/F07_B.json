@@ -1,0 +1,18 @@
+{
+  "variant_id": "F07_B",
+  "feature_family": "decorative_images",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F07_B.docx",
+  "ground_truth": {
+    "figures": [
+      {
+        "alt": "Meaningful chart.",
+        "decorative": false,
+        "order": 1
+      }
+    ]
+  },
+  "source_sha256": "100762353306ff3f8596fd3a8598d79518b02295654de2cf8ca79d28187327b0"
+}

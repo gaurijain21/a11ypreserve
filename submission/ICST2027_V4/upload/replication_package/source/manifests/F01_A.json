@@ -1,0 +1,21 @@
+{
+  "variant_id": "F01_A",
+  "feature_family": "headings",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F01_A.docx",
+  "ground_truth": {
+    "headings": [
+      {
+        "text": "Overview",
+        "level": 1
+      },
+      {
+        "text": "Context",
+        "level": 2
+      }
+    ]
+  },
+  "source_sha256": "62643e92f2a7e40ff87c94795c6ad4cda019af8870f0b2f16eebc625a3a40fc2"
+}

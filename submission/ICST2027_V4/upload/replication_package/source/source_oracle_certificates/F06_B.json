@@ -1,0 +1,55 @@
+{
+  "variant_id": "F06_B",
+  "feature_family": "inline_language",
+  "source_sha256": "6f28fce117d6b79d94e44c75fb623e72b79bad63d685243165411ee19d858813",
+  "contract_sha256": "91a29ef40e52717719fbc27f0ed7da507995f3e61ff44a374064777c744ffc05",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "6f28fce117d6b79d94e44c75fb623e72b79bad63d685243165411ee19d858813",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 inline language 2",
+        "language": "en-US"
+      },
+      {
+        "text": "hola mundo ",
+        "language": "es-ES"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 inline language 2",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

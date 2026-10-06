@@ -1,0 +1,23 @@
+{
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "development_variants": "A-C per feature",
+  "holdout_variants": "D-E per feature",
+  "result_inspection_rule": "Do not inspect holdout converter outputs until the source oracle, extraction code, comparator rules, calibration controls, and classification taxonomy are frozen.",
+  "records": [
+    {"feature_family": "headings", "variants": ["F01_D", "F01_E"]},
+    {"feature_family": "alt_text", "variants": ["F02_D", "F02_E"]},
+    {"feature_family": "lists", "variants": ["F03_D", "F03_E"]},
+    {"feature_family": "basic_tables", "variants": ["F04_D", "F04_E"]},
+    {"feature_family": "document_language", "variants": ["F05_D", "F05_E"]},
+    {"feature_family": "inline_language", "variants": ["F06_D", "F06_E"]},
+    {"feature_family": "decorative_images", "variants": ["F07_D", "F07_E"]},
+    {"feature_family": "hyperlinks", "variants": ["F08_D", "F08_E"]},
+    {"feature_family": "document_metadata", "variants": ["F09_D", "F09_E"]},
+    {"feature_family": "complex_tables", "variants": ["F10_D", "F10_E"]},
+    {"feature_family": "footnotes", "variants": ["F11_D", "F11_E"]},
+    {"feature_family": "equations", "variants": ["F12_D", "F12_E"]},
+    {"feature_family": "captions", "variants": ["F13_D", "F13_E"]}
+  ],
+  "holdout_count": 26,
+  "frozen_before_conversion": true
+}

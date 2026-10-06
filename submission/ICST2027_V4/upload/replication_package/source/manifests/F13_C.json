@@ -1,0 +1,21 @@
+{
+  "variant_id": "F13_C",
+  "feature_family": "captions",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F13_C.docx",
+  "ground_truth": {
+    "pairs": [
+      {
+        "figure_order": 1,
+        "caption": "Figure A. Caption before."
+      },
+      {
+        "figure_order": 2,
+        "caption": "Figure B. Caption after."
+      }
+    ]
+  },
+  "source_sha256": "56cfa7817ee38dd53e96d50b9c401185f5824a983f33cee09fc9a14bb8e6afef"
+}

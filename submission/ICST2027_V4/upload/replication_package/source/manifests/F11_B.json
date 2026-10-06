@@ -1,0 +1,21 @@
+{
+  "variant_id": "F11_B",
+  "feature_family": "footnotes",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F11_B.docx",
+  "ground_truth": {
+    "notes": [
+      {
+        "id": 1,
+        "text": "First note."
+      },
+      {
+        "id": 2,
+        "text": "Second note."
+      }
+    ]
+  },
+  "source_sha256": "86a868b8eaebc1e71a894725b293f6590700720b8f48e00c279610d65fdfb2ad"
+}

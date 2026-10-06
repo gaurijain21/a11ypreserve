@@ -1,0 +1,15 @@
+{
+  "variant_id": "F09_B",
+  "feature_family": "document_metadata",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F09_B.docx",
+  "ground_truth": {
+    "visible_title": "Résumé — été 2026",
+    "core_title": "Résumé — été 2026",
+    "subject": "Subject 2: source metadata",
+    "keywords": "a11y, preservation, V4"
+  },
+  "source_sha256": "47a60db117324d2d711891a9614b724aeb29a8aa64675d99cb26e4317df10d33"
+}

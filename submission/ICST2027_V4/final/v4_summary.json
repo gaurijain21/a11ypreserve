@@ -4,17 +4,23 @@
   "status": "GO WITH LIMITATIONS",
   "anonymous": true,
   "provenance": {
-    "final_hardening_base_commit": "977ebe921458e1eeffb5bdee29a5b4adfbacff42",
+    "final_hardening_base_commit": "3913a9e8553fe52d89db7667c8e3046149f51c94",
     "protocol_freeze_commit": "41a7d3f8b84e98acbdafe14070f2ebe7ea6a59e1"
   },
   "corpus": {
     "atomic_fixtures": 65,
+    "primary_fixture_pipeline_cases": 130,
     "feature_families": 13,
     "variants_per_family": 5,
     "holdout_cases": 26,
     "realistic_documents": 10,
     "realistic_corpus_label": "project-created realistic/integrated",
-    "external_documents": 0
+    "external_documents": 0,
+    "supplementary_word_fixture_pipeline_cases": 65,
+    "archived_atomic_observations": 195,
+    "realistic_primary_pdfs": 20,
+    "realistic_supplementary_word_pdfs": 10,
+    "realistic_archived_pdfs": 30
   },
   "atomic_counts": {
     "LibreOffice": {
@@ -32,6 +38,14 @@
       "CONFIRMED_LOST": 6,
       "UNRESOLVED_EQUIVALENCE": 5,
       "MEASUREMENT_ERROR": 0
+    },
+    "Microsoft Word desktop": {
+      "VERIFIED_PRESERVED": 16,
+      "OBSERVED_PARTIAL": 26,
+      "ALTERED": 16,
+      "CONFIRMED_LOST": 2,
+      "UNRESOLVED_EQUIVALENCE": 0,
+      "MEASUREMENT_ERROR": 5
     }
   },
   "calibration": {
@@ -53,15 +67,21 @@
     "google_classification_stable": "6/6",
     "google_byte_identical": "6/6",
     "google_normalized_semantic_stable": "6/6",
-    "libreoffice_normalized_semantic_stable": "6/6"
+    "libreoffice_normalized_semantic_stable": "6/6",
+    "libreoffice_byte_identical": "0/6",
+    "word_outputs": 18,
+    "word_classification_stable": "6/6",
+    "word_normalized_semantic_stable": "6/6",
+    "word_byte_identical": "0/6"
   },
   "build": {
     "manuscript_source": "main.tex",
     "compiled_pdf": true,
     "pdf": "main.pdf",
-    "pages": 3,
+    "pages": 8,
+    "format": "IEEEtran conference, two-column, letter",
     "producer": "MiKTeX pdfTeX-1.40.28",
     "visual_qa": "PASS",
-    "pdf_sha256": "FCC47BCB984A206CE8AD962E34A3D23D4D8DA01B198F26FAEC220362512C6D32"
+    "pdf_sha256": "DFF87450361EC21F21993161C6002C443582316C854D19846F30FEBBBE627FCA"
   }
 }

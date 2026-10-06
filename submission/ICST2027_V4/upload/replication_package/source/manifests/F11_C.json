@@ -1,0 +1,17 @@
+{
+  "variant_id": "F11_C",
+  "feature_family": "footnotes",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F11_C.docx",
+  "ground_truth": {
+    "notes": [
+      {
+        "id": 1,
+        "text": "Repeated reference note."
+      }
+    ]
+  },
+  "source_sha256": "82c4ca81755a16ea49a6fcd55a6737ce501fca72661e6c6312c231e26c2a8a3c"
+}

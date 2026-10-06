@@ -1,0 +1,29 @@
+{
+  "variant_id": "F01_C",
+  "feature_family": "headings",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F01_C.docx",
+  "ground_truth": {
+    "headings": [
+      {
+        "text": "A",
+        "level": 1
+      },
+      {
+        "text": "B",
+        "level": 2
+      },
+      {
+        "text": "C",
+        "level": 2
+      },
+      {
+        "text": "D",
+        "level": 2
+      }
+    ]
+  },
+  "source_sha256": "013f01dd8db9301dd49124f382f5d56530903dbab4b545c8c24d13443b1df44d"
+}

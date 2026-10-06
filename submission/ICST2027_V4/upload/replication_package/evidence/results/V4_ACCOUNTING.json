@@ -1,0 +1,9 @@
+{
+  "status": "NOT_RUN",
+  "development_cases": 0,
+  "holdout_cases": 0,
+  "primary_cases": 0,
+  "unresolved_cases": null,
+  "measurement_errors": null,
+  "reason": "No legitimate V4 converter pipeline was available in the recorded environment."
+}

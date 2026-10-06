@@ -83,9 +83,11 @@ changing the PDF export route.
 - No frozen methodology, source contract, fixture membership, holdout, source
   oracle, comparator, classification taxonomy, LibreOffice output, or Google
   output changed.
-- No Word accessibility classifications or repeatability results are claimed
-  by this recovery report. Those require the separately frozen supplementary
-  analysis pass.
+- The separately frozen supplementary analysis pass reports 16 verified-preserved,
+  26 observed-partial, 16 altered, 2 confirmed-lost, 0 unresolved-equivalence,
+  and 5 measurement-error outcomes across the 65 atomic fixtures. Word
+  repeatability is stable for normalized semantic evidence and classifications
+  on all six selected variants; byte identity is 0/6.
 - The manuscript should not replace the 130-case primary result with 195 cases.
   If Word is integrated, it should be described as a post-freeze supplementary
   arm after an explicit value assessment.
