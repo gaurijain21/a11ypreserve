@@ -1,0 +1,74 @@
+{
+  "source_of_truth": {
+    "fixture_manifest": "experiments/v4/source_manifest.json",
+    "holdout_manifest": "experiments/v4/HOLDOUT_MANIFEST.json",
+    "pipeline_manifests": [
+      "experiments/v4/conversions/libreoffice/manifest.json",
+      "experiments/v4/conversions/google/manifest.json"
+    ],
+    "calibration_manifest": "experiments/v4/COMPARATOR_CALIBRATION.json"
+  },
+  "atomic_fixtures": 65,
+  "feature_families": 13,
+  "primary_pipelines": [
+    "LibreOffice",
+    "Google Docs"
+  ],
+  "holdout_fixtures": 26,
+  "holdout_fixture_ids": [
+    "F01_D",
+    "F01_E",
+    "F02_D",
+    "F02_E",
+    "F03_D",
+    "F03_E",
+    "F04_D",
+    "F04_E",
+    "F05_D",
+    "F05_E",
+    "F06_D",
+    "F06_E",
+    "F07_D",
+    "F07_E",
+    "F08_D",
+    "F08_E",
+    "F09_D",
+    "F09_E",
+    "F10_D",
+    "F10_E",
+    "F11_D",
+    "F11_E",
+    "F12_D",
+    "F12_E",
+    "F13_D",
+    "F13_E"
+  ],
+  "holdout_fixture_level": true,
+  "holdout_fixture_pipeline_cases": {
+    "LibreOffice": 26,
+    "Google Docs": 26
+  },
+  "non_holdout_fixture_pipeline_cases": {
+    "LibreOffice": 39,
+    "Google Docs": 39
+  },
+  "primary_cases": 130,
+  "calibration_cases": 78,
+  "calibration_overlaps_primary_fixture_ids": [],
+  "arithmetic": {
+    "total": 130,
+    "holdout": 52,
+    "non_holdout": 78,
+    "identity": true
+  },
+  "checks": {
+    "fixture_count": true,
+    "family_count": true,
+    "variants_per_family": true,
+    "holdout_manifest_count": true,
+    "pipeline_case_counts": true,
+    "arithmetic": true,
+    "calibration_is_separate": true
+  },
+  "status": "PASS"
+}

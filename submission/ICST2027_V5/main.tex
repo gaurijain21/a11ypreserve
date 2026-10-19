@@ -1,0 +1,52 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage{amsmath,amssymb}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\setlength{\tabcolsep}{1.5pt}
+
+\newcommand{\verified}{\textsc{verified preserved}}
+\newcommand{\partialresult}{\textsc{observed partial}}
+\newcommand{\alteredresult}{\textsc{altered}}
+\newcommand{\lostresult}{\textsc{confirmed lost}}
+\newcommand{\unresolvedresult}{\textsc{unresolved equivalence}}
+\newcommand{\measurementresult}{\textsc{measurement error}}
+
+\title{A11yPreserve: Source-Grounded Testing of Accessibility Preservation in DOCX-to-PDF Conversion}
+\author{Anonymous for review}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Author-supplied accessibility information in a DOCX document can be changed, removed, or represented differently during conversion even when the destination PDF is tagged. We present A11yPreserve, a source-grounded testing protocol that freezes feature contracts, verifies source OOXML, converts identical documents through named real pipelines, extracts multiple forms of PDF evidence, and compares cross-format semantics with explicit abstention. The prospectively frozen V4 primary benchmark contains 13 accessibility feature families, five controlled variants per family, 65 atomic DOCX fixtures, and 130 fixture--pipeline cases across LibreOffice and Google Docs. LibreOffice produced 38 verified-preserved, 11 observed-partial, 9 altered, 1 confirmed-lost, 1 unresolved, and 5 measurement-error atomic outcomes. Google Docs produced 11, 32, 11, 6, 5, and 0 respectively. A post-freeze supplementary Microsoft Word evaluation over the same 65 fixtures produced 16, 26, 16, 2, 0, and 5 respectively; these 65 observations are not part of the primary denominator. V5 adds corrected fixture-level holdout accounting, a documented LibreOffice profile comparison, source and destination mutation testing, independent technical validation, and calibration ground-truth auditing. The findings are descriptive of the recorded conditions: the contribution is an auditable testing methodology for selected machine-verifiable semantics, not a complete accessibility assessment or universal converter ranking.
+\end{abstract}
+
+\begin{IEEEkeywords}
+document conversion, accessibility preservation, DOCX, PDF, source contracts, differential testing, testing oracles
+\end{IEEEkeywords}
+
+% The V4 sections are retained as the frozen full-paper evidence base. V5's
+% completed hardening analyses are reported in the section below.
+\input{sections/introduction}
+\input{sections/background}
+\input{sections/method}
+\input{sections/design}
+\input{sections/results}
+\input{sections/discussion}
+\input{v5_hardening}
+\input{sections/threats}
+\input{sections/conclusion}
+
+\section*{AI Disclosure}
+OpenAI ChatGPT and OpenAI Codex assisted with drafting and restructuring portions of the manuscript; with adversarial review; and with verification-script, submission-artifact, and package documentation. The assistance was at the prose, organization, critique, code-support, and packaging level. These systems were not used as experimental ground truth, independent human validation, or autonomous decision-makers for frozen classifications or final scientific conclusions. Human authors reviewed and verified AI-assisted material against the source artifacts, frozen evidence, analysis records, and cited literature.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

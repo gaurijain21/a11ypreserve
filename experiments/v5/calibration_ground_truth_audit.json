@@ -1,0 +1,1929 @@
+{
+  "protocol": "V5 calibration ground-truth audit",
+  "status": "COMPLETE",
+  "control_count": 78,
+  "expected_labels_independent_of_comparator": true,
+  "counts": {
+    "correct": 60,
+    "false_positives": 0,
+    "false_negatives": 5,
+    "correct_abstentions": 13
+  },
+  "false_negative_ids": [
+    "decorative_images_alternate",
+    "hyperlinks_exact",
+    "hyperlinks_alternate",
+    "complex_tables_exact",
+    "complex_tables_alternate"
+  ],
+  "rows": [
+    {
+      "control_id": "headings_exact",
+      "feature_family": "headings",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1,
+            "evidence": {
+              "pdf_role": "H1"
+            }
+          },
+          {
+            "level": 2,
+            "evidence": {
+              "pdf_role": "H2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "headings_alternate",
+      "feature_family": "headings",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1,
+            "evidence": {
+              "pdf_role": "H1"
+            }
+          },
+          {
+            "level": 2,
+            "evidence": {
+              "pdf_role": "H2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "headings_altered",
+      "feature_family": "headings",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "observed": "PARTIAL",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1,
+            "evidence": {
+              "pdf_role": "H1"
+            }
+          },
+          {
+            "level": 3,
+            "evidence": {
+              "pdf_role": "H2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "headings_partial",
+      "feature_family": "headings",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "observed": "PARTIAL",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1,
+            "evidence": {
+              "pdf_role": "H1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "headings_lost",
+      "feature_family": "headings",
+      "intent": "lost",
+      "expected": "LOST",
+      "observed": "LOST",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "headings": []
+      }
+    },
+    {
+      "control_id": "headings_ambiguous",
+      "feature_family": "headings",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "headings": [
+          {
+            "level": 1,
+            "evidence": {}
+          },
+          {
+            "level": 2,
+            "evidence": {
+              "pdf_role": "H2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "alt_text_exact",
+      "feature_family": "alt_text",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "alt_text_alternate",
+      "feature_family": "alt_text",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "alt_text_altered",
+      "feature_family": "alt_text",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "observed": "DIFFERENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Different chart",
+            "decorative": false
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "alt_text_partial",
+      "feature_family": "alt_text",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "observed": "PARTIAL",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "",
+            "decorative": true
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "alt_text_lost",
+      "feature_family": "alt_text",
+      "intent": "lost",
+      "expected": "LOST",
+      "observed": "LOST",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": []
+      }
+    },
+    {
+      "control_id": "alt_text_ambiguous",
+      "feature_family": "alt_text",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "",
+            "decorative": false
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "lists_exact",
+      "feature_family": "lists",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "L",
+            "depth": 0,
+            "list_type": "unordered"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "A"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "B"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "lists_alternate",
+      "feature_family": "lists",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "L",
+            "depth": 0,
+            "list_type": "unordered"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "A"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "B"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "lists_altered",
+      "feature_family": "lists",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "observed": "PARTIAL",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "L",
+            "depth": 0,
+            "list_type": "unordered"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "A"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "C"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "lists_partial",
+      "feature_family": "lists",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "observed": "PARTIAL",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "L",
+            "depth": 0
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "A"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "B"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "lists_lost",
+      "feature_family": "lists",
+      "intent": "lost",
+      "expected": "LOST",
+      "observed": "LOST",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "lists": []
+      }
+    },
+    {
+      "control_id": "lists_ambiguous",
+      "feature_family": "lists",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "lists": [
+          {
+            "type": "L",
+            "depth": 0
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "A"
+          },
+          {
+            "type": "LI",
+            "depth": 1,
+            "text": "B"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "basic_tables_exact",
+      "feature_family": "basic_tables",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          },
+          {
+            "role": "TD"
+          }
+        ],
+        "table_headers": [
+          true
+        ]
+      }
+    },
+    {
+      "control_id": "basic_tables_alternate",
+      "feature_family": "basic_tables",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          },
+          {
+            "role": "TD"
+          }
+        ],
+        "table_headers": [
+          true
+        ]
+      }
+    },
+    {
+      "control_id": "basic_tables_altered",
+      "feature_family": "basic_tables",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "observed": "PARTIAL",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          }
+        ],
+        "table_headers": [
+          true
+        ]
+      }
+    },
+    {
+      "control_id": "basic_tables_partial",
+      "feature_family": "basic_tables",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "observed": "PARTIAL",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          }
+        ],
+        "table_headers": [
+          true
+        ]
+      }
+    },
+    {
+      "control_id": "basic_tables_lost",
+      "feature_family": "basic_tables",
+      "intent": "lost",
+      "expected": "LOST",
+      "observed": "LOST",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [],
+        "table_headers": [
+          true
+        ]
+      }
+    },
+    {
+      "control_id": "basic_tables_ambiguous",
+      "feature_family": "basic_tables",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          }
+        ],
+        "table_headers": [
+          true
+        ]
+      }
+    },
+    {
+      "control_id": "document_language_exact",
+      "feature_family": "document_language",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "fr-FR"
+        }
+      }
+    },
+    {
+      "control_id": "document_language_alternate",
+      "feature_family": "document_language",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "fr-FR"
+        }
+      }
+    },
+    {
+      "control_id": "document_language_altered",
+      "feature_family": "document_language",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "observed": "DIFFERENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "de-DE"
+        }
+      }
+    },
+    {
+      "control_id": "document_language_partial",
+      "feature_family": "document_language",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "observed": "LOST",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": null
+        }
+      }
+    },
+    {
+      "control_id": "document_language_lost",
+      "feature_family": "document_language",
+      "intent": "lost",
+      "expected": "LOST",
+      "observed": "LOST",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": null
+        }
+      }
+    },
+    {
+      "control_id": "document_language_ambiguous",
+      "feature_family": "document_language",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": null
+        }
+      }
+    },
+    {
+      "control_id": "inline_language_exact",
+      "feature_family": "inline_language",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": [
+          {
+            "text": "bonjour",
+            "language": "fr-FR"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "inline_language_alternate",
+      "feature_family": "inline_language",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": [
+          {
+            "text": "bonjour",
+            "language": "fr-FR"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "inline_language_altered",
+      "feature_family": "inline_language",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "observed": "DIFFERENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": [
+          {
+            "text": "bonjour",
+            "language": "es-ES"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "inline_language_partial",
+      "feature_family": "inline_language",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "observed": "PARTIAL",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": []
+      }
+    },
+    {
+      "control_id": "inline_language_lost",
+      "feature_family": "inline_language",
+      "intent": "lost",
+      "expected": "LOST",
+      "observed": "PARTIAL",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": []
+      }
+    },
+    {
+      "control_id": "inline_language_ambiguous",
+      "feature_family": "inline_language",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "inline_languages": []
+      }
+    },
+    {
+      "control_id": "decorative_images_exact",
+      "feature_family": "decorative_images",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Chart",
+            "decorative": false
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "decorative_images_alternate",
+      "feature_family": "decorative_images",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "observed": "PARTIAL",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "",
+            "decorative": true
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "decorative_images_altered",
+      "feature_family": "decorative_images",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "observed": "DIFFERENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "Different chart",
+            "decorative": false
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "decorative_images_partial",
+      "feature_family": "decorative_images",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "observed": "PARTIAL",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "",
+            "decorative": true
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "decorative_images_lost",
+      "feature_family": "decorative_images",
+      "intent": "lost",
+      "expected": "LOST",
+      "observed": "LOST",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": []
+      }
+    },
+    {
+      "control_id": "decorative_images_ambiguous",
+      "feature_family": "decorative_images",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "figures": [
+          {
+            "alt": "",
+            "decorative": false
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "hyperlinks_exact",
+      "feature_family": "hyperlinks",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "observed": "PARTIAL",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": [
+          {
+            "target": "https://example.org"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "hyperlinks_alternate",
+      "feature_family": "hyperlinks",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "observed": "PARTIAL",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": [
+          {
+            "target": "https://example.org"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "hyperlinks_altered",
+      "feature_family": "hyperlinks",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "observed": "DIFFERENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": [
+          {
+            "target": "https://other.example"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "hyperlinks_partial",
+      "feature_family": "hyperlinks",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "observed": "LOST",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": []
+      }
+    },
+    {
+      "control_id": "hyperlinks_lost",
+      "feature_family": "hyperlinks",
+      "intent": "lost",
+      "expected": "LOST",
+      "observed": "LOST",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": []
+      }
+    },
+    {
+      "control_id": "hyperlinks_ambiguous",
+      "feature_family": "hyperlinks",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "hyperlinks": []
+      }
+    },
+    {
+      "control_id": "document_metadata_exact",
+      "feature_family": "document_metadata",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "metadata": {
+            "Title": "Report"
+          }
+        }
+      }
+    },
+    {
+      "control_id": "document_metadata_alternate",
+      "feature_family": "document_metadata",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "metadata": {
+            "Title": "Report"
+          }
+        }
+      }
+    },
+    {
+      "control_id": "document_metadata_altered",
+      "feature_family": "document_metadata",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "observed": "DIFFERENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "metadata": {
+            "Title": "Changed"
+          }
+        }
+      }
+    },
+    {
+      "control_id": "document_metadata_partial",
+      "feature_family": "document_metadata",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "observed": "LOST",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "metadata": {}
+        }
+      }
+    },
+    {
+      "control_id": "document_metadata_lost",
+      "feature_family": "document_metadata",
+      "intent": "lost",
+      "expected": "LOST",
+      "observed": "LOST",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "metadata": {}
+        }
+      }
+    },
+    {
+      "control_id": "document_metadata_ambiguous",
+      "feature_family": "document_metadata",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "metadata": {}
+        }
+      }
+    },
+    {
+      "control_id": "complex_tables_exact",
+      "feature_family": "complex_tables",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "observed": "PARTIAL",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH",
+            "scope": "Column",
+            "col_span": "2"
+          },
+          {
+            "role": "TH",
+            "scope": "Column"
+          },
+          {
+            "role": "TD"
+          },
+          {
+            "role": "TD"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "complex_tables_alternate",
+      "feature_family": "complex_tables",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "observed": "PARTIAL",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH",
+            "scope": "Column",
+            "col_span": "2"
+          },
+          {
+            "role": "TH",
+            "scope": "Column"
+          },
+          {
+            "role": "TD"
+          },
+          {
+            "role": "TD"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "complex_tables_altered",
+      "feature_family": "complex_tables",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "observed": "PARTIAL",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "complex_tables_partial",
+      "feature_family": "complex_tables",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "observed": "PARTIAL",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "complex_tables_lost",
+      "feature_family": "complex_tables",
+      "intent": "lost",
+      "expected": "LOST",
+      "observed": "LOST",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": []
+      }
+    },
+    {
+      "control_id": "complex_tables_ambiguous",
+      "feature_family": "complex_tables",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "tables": [
+          {
+            "identifier": "table-1"
+          },
+          {
+            "role": "TH"
+          },
+          {
+            "role": "TD"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "footnotes_exact",
+      "feature_family": "footnotes",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": [
+          {
+            "id": 1,
+            "text": "Note",
+            "evidence": {
+              "pdf_role": "Note"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "footnotes_alternate",
+      "feature_family": "footnotes",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": [
+          {
+            "id": 1,
+            "text": "Note",
+            "evidence": {
+              "pdf_role": "Note"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "footnotes_altered",
+      "feature_family": "footnotes",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "observed": "PARTIAL",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": [
+          {
+            "id": 1,
+            "text": "Changed",
+            "evidence": {
+              "pdf_role": "Note"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "footnotes_partial",
+      "feature_family": "footnotes",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "observed": "MEASUREMENT_ERROR",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": [
+          {
+            "id": 1,
+            "text": "",
+            "evidence": {
+              "pdf_role": "Note"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "footnotes_lost",
+      "feature_family": "footnotes",
+      "intent": "lost",
+      "expected": "LOST",
+      "observed": "LOST",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": []
+      }
+    },
+    {
+      "control_id": "footnotes_ambiguous",
+      "feature_family": "footnotes",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "footnotes": []
+      }
+    },
+    {
+      "control_id": "equations_exact",
+      "feature_family": "equations",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "equations": [
+          {
+            "representation": "PDF /Formula",
+            "expression": "E = mc^2"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "equations_alternate",
+      "feature_family": "equations",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "equations": [
+          {
+            "representation": "PDF /Formula",
+            "expression": "E = mc^2"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "equations_altered",
+      "feature_family": "equations",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "observed": "PARTIAL",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "equations": [
+          {
+            "representation": "PDF visible text fallback",
+            "expression": "E = mc^2"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "equations_partial",
+      "feature_family": "equations",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "observed": "PARTIAL",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "equations": [
+          {
+            "representation": "PDF visible text fallback",
+            "expression": "E = mc^2"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "equations_lost",
+      "feature_family": "equations",
+      "intent": "lost",
+      "expected": "LOST",
+      "observed": "PARTIAL",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "equations": []
+      }
+    },
+    {
+      "control_id": "equations_ambiguous",
+      "feature_family": "equations",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "equations": []
+      }
+    },
+    {
+      "control_id": "captions_exact",
+      "feature_family": "captions",
+      "intent": "exact",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "captions": [
+          {
+            "text": "Figure 1. Overview.",
+            "association": "PDF /Caption structure"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "captions_alternate",
+      "feature_family": "captions",
+      "intent": "alternate",
+      "expected": "EQUIVALENT",
+      "observed": "EQUIVALENT",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "captions": [
+          {
+            "text": "Figure 1. Overview.",
+            "association": "PDF /Caption structure"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "captions_altered",
+      "feature_family": "captions",
+      "intent": "altered",
+      "expected": "DIFFERENT",
+      "observed": "PARTIAL",
+      "correct": false,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "captions": [
+          {
+            "text": "Figure 1. Changed.",
+            "association": "PDF /Caption structure"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "captions_partial",
+      "feature_family": "captions",
+      "intent": "partial",
+      "expected": "PARTIAL",
+      "observed": "PARTIAL",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "captions": [
+          {
+            "text": "Figure 1. Overview.",
+            "association": "ordered page-text adjacency"
+          }
+        ]
+      }
+    },
+    {
+      "control_id": "captions_lost",
+      "feature_family": "captions",
+      "intent": "lost",
+      "expected": "LOST",
+      "observed": "LOST",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "captions": []
+      }
+    },
+    {
+      "control_id": "captions_ambiguous",
+      "feature_family": "captions",
+      "intent": "ambiguous",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "correct": true,
+      "false_positive": null,
+      "false_negative": null,
+      "source_of_expected": "frozen CALIBRATION_CONTROLS.json authored before comparator execution",
+      "evidence": {
+        "format": "pdf",
+        "tagged": true,
+        "document": {
+          "language": "en-US"
+        },
+        "captions": []
+      }
+    }
+  ]
+}

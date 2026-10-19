@@ -1,0 +1,20 @@
+\section{Threats to Validity}
+\label{sec:threats}
+
+\subsection{Construct validity}
+Cross-format equivalence is not identical to string equality or tag presence. PDF permits multiple encodings for related semantics, and the current extractor cannot establish every possible equivalent representation. The comparator therefore uses feature-specific contracts and abstains when evidence is insufficient. The five calibration false negatives, six unresolved atomic outcomes, five LibreOffice footnote measurement errors, and deferred reading-order family make this boundary explicit. The study does not claim complete PDF accessibility or standards conformance.
+
+\subsection{Internal validity}
+The source oracle and comparator were implemented and reviewed by the same research team, so their agreement is not external validation. The 39/39 mutation result tests deliberate source changes but does not prove oracle completeness. The conversion records preserve source/output hashes, routes, timestamps, and producer observations, and the V4 methodology was frozen before final result inspection. The holdout remained separate from calibration and primary analysis. These controls reduce but do not eliminate implementation and process error.
+
+\subsection{External validity}
+The 65 atomic fixtures are controlled, purposive, and project-generated. The 10-document realistic arm is also project-created and integrated; it is not a natural real-world corpus. The prospectively frozen primary comparison contains two pipelines. Microsoft Word was recovered only after primary-result completion and was therefore evaluated as a supplementary third pipeline rather than retroactively incorporated into the primary design. Results do not generalize to all DOCX documents, converters, software versions, or accessibility properties.
+
+\subsection{Reliability and environment dependence}
+LibreOffice was tested under a recorded local version and export configuration. Google Docs is a cloud service whose backend version cannot be independently pinned. Word used native desktop GUI export because COM automation was unavailable in the local Windows session; the route, settings, source hashes, and output provenance were frozen and recorded, but reviewers may not reproduce the COM failure or GUI condition identically in every Windows environment. The repeatability arm shows stable classifications for six selected variants under the recorded environment, but a later service or application update can change behavior. Output byte identity is not required for semantic stability; the final audit treats normalized evidence and classification identity separately from process-local extraction metadata.
+
+\subsection{User validity and ethics}
+No disabled-user study, screen-reader task study, perceived-usability study, or severity assessment was performed. The results concern machine-verifiable preservation of selected source information, not task completion or user harm. The project used controlled and project-created documents and did not upload an external natural-document corpus. The anonymous replication package contains no credentials, browser state, or private account material.
+
+\subsection{Interpretation}
+Counts are descriptive controlled-case summaries. No prevalence estimate, inferential statistic, weighted accessibility score, or ecosystem-wide product ranking is justified. An altered or partial property may remain usable, an unresolved case may later prove equivalent under richer evidence, and a confirmed machine-level loss does not by itself establish human harm. These limitations define the valid scope of the conclusions rather than invalidating the source-grounded measurement question.

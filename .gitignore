@@ -28,6 +28,8 @@ tmp/
 **/tmp/
 paper/rendered*/
 submission/**/rendered*/
+submission/**/upload_v5/
+submission/**/upload/
 
 # Local conversion/runtime material
 pilot2/7zip_runtime/
