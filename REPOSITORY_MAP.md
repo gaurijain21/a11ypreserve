@@ -1,6 +1,6 @@
 # A11yPreserve repository map
 
-Canonical root: `C:\Gauri\a11ypreserve`
+Canonical root: `<CANONICAL_REPOSITORY_ROOT>`
 
 - `corpus/` — controlled DOCX fixtures, manifests, render QA, and frozen corpus records.
 - `contracts/` — source-preservation contracts and comparator specifications.

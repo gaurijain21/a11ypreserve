@@ -4,7 +4,7 @@
 
 All future A11yPreserve work must be performed in:
 
-`C:\Gauri\a11ypreserve`
+`<CANONICAL_REPOSITORY_ROOT>`
 
 This repository is connected to `https://github.com/gaurijain21/a11ypreserve`. The previous OneDrive/ChatGPT checkout is a backup/history source only and must not receive normal development changes.
 

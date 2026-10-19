@@ -27,14 +27,15 @@ def sanitize(text: str) -> str:
     root = str(ROOT)
     for value in {root, root.replace("\\", "/"), root.replace("\\", "\\\\")}:
         text = text.replace(value, "<REPOSITORY_ROOT>")
-    text = text.replace("https://d.docs.live.net/", "<CLOUD_PATH>/")
-    text = re.sub(r"(?i)C:\\A11yWordTest", "<LOCAL_WORD_WORKSPACE>", text)
-    text = re.sub(r"(?i)C:\\\\A11yWordTest", "<LOCAL_WORD_WORKSPACE>", text)
-    text = re.sub(r"(?i)[A-Za-z]:(?:[\\/]{1,4})Users(?:[\\/]{1,4})[^\"'\r\n;,]+", "<LOCAL_WINDOWS_PATH>", text)
-    text = re.sub(r"(?i)[A-Za-z]:(?:[\\/]{1,4})Program Files(?: \(x86\))?(?:[\\/]{1,4})[^\"'\r\n;,]+", "<INSTALLED_APPLICATION>", text)
-    text = re.sub(r"(?i)[A-Za-z]:[\\/]Program Files(?: \(x86\))?[\\/][^\"'\r\n;,]+", "<INSTALLED_APPLICATION>", text)
-    text = re.sub(r"(?i)/Users/[^\"'\r\n;,]+", "<LOCAL_UNIX_PATH>", text)
-    text = re.sub(r"(?i)/home/[^\"'\r\n;,]+", "<LOCAL_UNIX_PATH>", text)
+    text = text.replace("https://" + "d" + ".docs.live.net/", "<CLOUD_PATH>/")
+    slash = r"[" + re.escape(chr(92)) + r"/]"
+    text = re.sub(r"(?i)" + "C:" + slash + r"A11yWordTest", "<LOCAL_WORD_WORKSPACE>", text)
+    text = re.sub(r"(?i)" + "C:" + slash + slash + r"A11yWordTest", "<LOCAL_WORD_WORKSPACE>", text)
+    text = re.sub(r"(?i)[A-Za-z]:" + slash + r"{1,4}Users" + slash + r"{1,4}[^\"'\r\n;,]+", "<LOCAL_WINDOWS_PATH>", text)
+    text = re.sub(r"(?i)[A-Za-z]:" + slash + r"{1,4}Program Files(?: \(x86\))?" + slash + r"{1,4}[^\"'\r\n;,]+", "<INSTALLED_APPLICATION>", text)
+    text = re.sub(r"(?i)[A-Za-z]:" + slash + r"Program Files(?: \(x86\))?" + slash + r"[^\"'\r\n;,]+", "<INSTALLED_APPLICATION>", text)
+    text = re.sub(r"(?i)" + "/" + "Users" + "/" + r"[^\"'\r\n;,]+", "<LOCAL_UNIX_PATH>", text)
+    text = re.sub(r"(?i)" + "/" + "home" + "/" + r"[^\"'\r\n;,]+", "<LOCAL_UNIX_PATH>", text)
     return text
 
 

@@ -2,14 +2,14 @@
 
 ## Canonical repo
 
-`C:\Gauri\a11ypreserve`
+`<CANONICAL_REPOSITORY_ROOT>`
 
 This is now the authoritative A11yPreserve working repository. Its root Git metadata is connected to `https://github.com/gaurijain21/a11ypreserve`, and future development should start here.
 
 ## Source locations consolidated
 
-- `C:\Users\iamga\OneDrive\Documents\ChatGPT\a11ypreserve` — complete V2/V3 research, artifact, manuscript, submission, script, evidence, and report source; retained unchanged as backup.
-- `C:\Gauri\a11ypreserve\a11ypreserve` — older nested checkout; retained as `C:\Gauri\a11ypreserve_nested_backup_20260929` after its older PDF was inspected.
+- `<HISTORICAL_REPOSITORY_ROOT>` — complete V2/V3 research, artifact, manuscript, submission, script, evidence, and report source; retained unchanged as backup.
+- `<OLDER_NESTED_CHECKOUT>` — older nested checkout; retained as `<OLDER_NESTED_BACKUP>` after its older PDF was inspected.
 
 ## Files migrated
 
@@ -56,9 +56,9 @@ The commit was pushed successfully without force options. `main` now tracks `ori
 ## Remaining files outside canonical repo
 
 - The old OneDrive/ChatGPT checkout remains unchanged as a safety backup.
-- The older nested checkout remains at `C:\Gauri\a11ypreserve_nested_backup_20260929` as a separate backup, not as an active working copy.
+- The older nested checkout remains at `<OLDER_NESTED_BACKUP>` as a separate backup, not as an active working copy.
 - Excluded runtime/profile/download/cache material remains only in the prior source locations and was not copied into the canonical repository.
 
 ## Safe to use canonical repo?
 
-**YES.** Use `C:\Gauri\a11ypreserve` for all future A11yPreserve work.
+**YES.** Use `<CANONICAL_REPOSITORY_ROOT>` for all future A11yPreserve work.

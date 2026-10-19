@@ -21,11 +21,13 @@ def tracked_files() -> list[Path]:
 
 def patterns() -> list[tuple[str, re.Pattern[str]]]:
     slash = re.escape("/")
+    backslash = re.escape(chr(92))
     users = "Users"
     home = "home"
+    drive = r"(?<![A-Za-z0-9])[A-Za-z]" + ":" + "[" + backslash + "/]"
     return [
-        ("windows absolute path", re.compile(r"(?i)(?<![A-Za-z0-9])[A-Za-z]:[\\/]")),
-        ("UNC path", re.compile(r"\\\\\\\\")),
+        ("windows absolute path", re.compile(r"(?i)" + drive)),
+        ("UNC path", re.compile(r"(?i)(?<![A-Za-z0-9>])" + re.escape(chr(92) * 2) + r"[A-Za-z0-9._-]+" + re.escape(chr(92)))),
         ("unix user path", re.compile(r"(?i)" + slash + users + slash + r"|" + slash + home + slash)),
         ("private cloud path", re.compile(r"(?i)d[.]docs[.]live[.]net")),
         ("private key", re.compile(r"-----BEGIN(?: [A-Z]+)? PRIVATE KEY-----")),

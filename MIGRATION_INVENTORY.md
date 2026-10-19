@@ -2,7 +2,7 @@
 
 ## Destination repository
 
-`C:\Gauri\a11ypreserve`
+`<CANONICAL_REPOSITORY_ROOT>`
 
 This is the canonical working repository. Its existing root `.git` metadata was preserved; the configured remote is `https://github.com/gaurijain21/a11ypreserve`.
 
@@ -10,8 +10,8 @@ This is the canonical working repository. Its existing root `.git` metadata was 
 
 | Source | Initial state | Disposition |
 |---|---|---|
-| `C:\Users\iamga\OneDrive\Documents\ChatGPT\a11ypreserve` | Most complete/current working tree; `master`, HEAD `55520e4` (`audit: record scope-change decision and pilot findings`), with V2/V3, submission, artifact, and uncommitted research files | Copied into the destination root, excluding Git metadata and machine-specific runtime/cache material; retained as backup and not modified by this migration |
-| `C:\Gauri\a11ypreserve\a11ypreserve` | Older nested checkout; `master`, HEAD `55520e4`, no remote configured | Used only to identify the older 8-page PDF; that PDF was preserved as `paper/historical/main_pre_final_8page.pdf`. The nested checkout was moved to `C:\Gauri\a11ypreserve_nested_backup_20260929` after verification |
+| `<HISTORICAL_REPOSITORY_ROOT>` | Most complete/current working tree; `master`, HEAD `55520e4` (`audit: record scope-change decision and pilot findings`), with V2/V3, submission, artifact, and uncommitted research files | Copied into the destination root, excluding Git metadata and machine-specific runtime/cache material; retained as backup and not modified by this migration |
+| `<OLDER_NESTED_CHECKOUT>` | Older nested checkout; `master`, HEAD `55520e4`, no remote configured | Used only to identify the older 8-page PDF; that PDF was preserved as `paper/historical/main_pre_final_8page.pdf`. The nested checkout was moved to `<OLDER_NESTED_BACKUP>` after verification |
 
 ## Major project material
 

@@ -4,7 +4,7 @@ Audit date: 2026-09-29
 
 ## Repository state
 
-The canonical repository is `C:\Gauri\a11ypreserve`, on branch `main`, clean before this audit package was added, with `origin` configured as the GitHub remote. The frozen upload files were verified against baseline commit `4066cf79fd7043e904e285f09fd85ff179a4cb3b` and remain unchanged.
+The canonical repository is `<CANONICAL_REPOSITORY_ROOT>`, on branch `main`, clean before this audit package was added, with `origin` configured as the GitHub remote. The frozen upload files were verified against baseline commit `4066cf79fd7043e904e285f09fd85ff179a4cb3b` and remain unchanged.
 
 ## V2 integrity
 

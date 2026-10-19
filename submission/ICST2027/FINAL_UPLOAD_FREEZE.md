@@ -6,7 +6,7 @@ The following V2 files are the exact upload candidates. Do not regenerate, renam
 
 ## Paper
 
-- Path: `C:\Gauri\a11ypreserve\submission\ICST2027\main.pdf`
+- Path: `<CANONICAL_REPOSITORY_ROOT>/submission/ICST2027/main.pdf`
 - SHA-256: `22AFD73963E0186B9E75A73DA022312E111930C14ED4AFF091FCF1D8C982CAC5`
 - Pages: 9
 - File size: 143,213 bytes
@@ -14,7 +14,7 @@ The following V2 files are the exact upload candidates. Do not regenerate, renam
 
 ## Artifact
 
-- Path: `C:\Gauri\a11ypreserve\submission\A11yPreserve_artifact_ICST2027.zip`
+- Path: `<CANONICAL_REPOSITORY_ROOT>/submission/A11yPreserve_artifact_ICST2027.zip`
 - SHA-256: `EE343279DC86F9991D3C378D0676D17B2B8DF05545C40561B92FC81E0400E39D`
 - File size: 2,098,006 bytes
 - ZIP member count: 158
@@ -22,7 +22,7 @@ The following V2 files are the exact upload candidates. Do not regenerate, renam
 
 ## Repository
 
-- Canonical repository: `C:\Gauri\a11ypreserve`
+- Canonical repository: `<CANONICAL_REPOSITORY_ROOT>`
 - Branch: `main`
 - Frozen-upload verification baseline commit: `4066cf79fd7043e904e285f09fd85ff179a4cb3b`
 - Remote: `origin`
