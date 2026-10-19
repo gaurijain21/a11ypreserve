@@ -51,7 +51,7 @@
     "captions": [],
     "extraction": {
       "method": "deterministic OOXML inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v4\\fixtures\\F05_C.docx",
+      "source": "<ARTIFACT_ROOT>\\experiments\\v4\\fixtures\\F05_C.docx",
       "independent_raw_package": true
     }
   },
@@ -79,7 +79,7 @@
         "language": "es-ES",
         "evidence": {
           "pdf_role": "Span",
-          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2488505558480), '/Pg': IndirectObject(1, 0, 2488505558480), '/Lang': 'es-ES', '/K': [1]}",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2276857847888), '/Pg': IndirectObject(1, 0, 2276857847888), '/Lang': 'es-ES', '/K': [1]}",
           "source": "StructElem/Lang"
         }
       }
@@ -108,7 +108,7 @@
     "pdf_text": "V4 document language es-ES\nThis document declares the default locale es-ES.",
     "extraction": {
       "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F05_C__LIBREOFFICE_PROFILE_B.pdf"
+      "source": "<ARTIFACT_ROOT>\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F05_C__LIBREOFFICE_PROFILE_B.pdf"
     }
   },
   "secondary": {

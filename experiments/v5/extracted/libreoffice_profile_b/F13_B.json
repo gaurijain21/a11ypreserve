@@ -108,7 +108,7 @@
     ],
     "extraction": {
       "method": "deterministic OOXML inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v4\\fixtures\\F13_B.docx",
+      "source": "<ARTIFACT_ROOT>\\experiments\\v4\\fixtures\\F13_B.docx",
       "independent_raw_package": true
     }
   },
@@ -138,7 +138,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2488506040144), '/Pg': IndirectObject(1, 0, 2488506040144), '/Alt': 'Figure 1 - Description for figure 1.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2276858692880), '/Pg': IndirectObject(1, 0, 2276858692880), '/Alt': 'Figure 1 - Description for figure 1.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       },
       {
@@ -147,7 +147,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 2488506040144), '/Pg': IndirectObject(1, 0, 2488506040144), '/Alt': 'Figure 2 - Description for figure 2.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 419.8, 360, 527.8]}, '/K': [3]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 2276858692880), '/Pg': IndirectObject(1, 0, 2276858692880), '/Alt': 'Figure 2 - Description for figure 2.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 419.8, 360, 527.8]}, '/K': [3]}"
         }
       }
     ],
@@ -158,7 +158,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2488506040144), '/Pg': IndirectObject(1, 0, 2488506040144), '/Alt': 'Figure 1 - Description for figure 1.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2276858692880), '/Pg': IndirectObject(1, 0, 2276858692880), '/Alt': 'Figure 1 - Description for figure 1.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       },
       {
@@ -167,7 +167,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 2488506040144), '/Pg': IndirectObject(1, 0, 2488506040144), '/Alt': 'Figure 2 - Description for figure 2.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 419.8, 360, 527.8]}, '/K': [3]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 2276858692880), '/Pg': IndirectObject(1, 0, 2276858692880), '/Alt': 'Figure 2 - Description for figure 2.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 419.8, 360, 527.8]}, '/K': [3]}"
         }
       }
     ],
@@ -210,7 +210,7 @@
     "pdf_text": "V4 captions 2\nFigure 1. First.\nFigure 2. Second.",
     "extraction": {
       "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F13_B__LIBREOFFICE_PROFILE_B.pdf"
+      "source": "<ARTIFACT_ROOT>\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F13_B__LIBREOFFICE_PROFILE_B.pdf"
     }
   },
   "secondary": {

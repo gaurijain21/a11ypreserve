@@ -68,7 +68,7 @@
     "captions": [],
     "extraction": {
       "method": "deterministic OOXML inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v4\\fixtures\\F03_A.docx",
+      "source": "<ARTIFACT_ROOT>\\experiments\\v4\\fixtures\\F03_A.docx",
       "independent_raw_package": true
     }
   },
@@ -98,7 +98,7 @@
         "list_type": "unordered",
         "evidence": {
           "pdf_role": "L",
-          "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 2488505493392), '/Pg': IndirectObject(1, 0, 2488505493392), '/A': {'/O': '/List', '/ListNumbering': '/Disc'}, '/K': [IndirectObject(7, 0, 2488505493392), IndirectObject(11, 0, 2488505493392)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 2276830370640), '/Pg': IndirectObject(1, 0, 2276830370640), '/A': {'/O': '/List', '/ListNumbering': '/Disc'}, '/K': [IndirectObject(7, 0, 2276830370640), IndirectObject(11, 0, 2276830370640)]}"
         }
       },
       {
@@ -109,7 +109,7 @@
         "list_type": null,
         "evidence": {
           "pdf_role": "LI",
-          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 2488505493392), '/Pg': IndirectObject(1, 0, 2488505493392), '/K': [IndirectObject(8, 0, 2488505493392), IndirectObject(9, 0, 2488505493392)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 2276830370640), '/Pg': IndirectObject(1, 0, 2276830370640), '/K': [IndirectObject(8, 0, 2276830370640), IndirectObject(9, 0, 2276830370640)]}"
         }
       },
       {
@@ -120,7 +120,7 @@
         "list_type": null,
         "evidence": {
           "pdf_role": "Lbl",
-          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(7, 0, 2488505493392), '/Pg': IndirectObject(1, 0, 2488505493392), '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(7, 0, 2276830370640), '/Pg': IndirectObject(1, 0, 2276830370640), '/K': [1]}"
         }
       },
       {
@@ -131,7 +131,7 @@
         "list_type": null,
         "evidence": {
           "pdf_role": "LBody",
-          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(7, 0, 2488505493392), '/Pg': IndirectObject(1, 0, 2488505493392), '/K': [IndirectObject(10, 0, 2488505493392)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(7, 0, 2276830370640), '/Pg': IndirectObject(1, 0, 2276830370640), '/K': [IndirectObject(10, 0, 2276830370640)]}"
         }
       },
       {
@@ -142,7 +142,7 @@
         "list_type": null,
         "evidence": {
           "pdf_role": "LI",
-          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 2488505493392), '/Pg': IndirectObject(1, 0, 2488505493392), '/K': [IndirectObject(12, 0, 2488505493392), IndirectObject(13, 0, 2488505493392)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 2276830370640), '/Pg': IndirectObject(1, 0, 2276830370640), '/K': [IndirectObject(12, 0, 2276830370640), IndirectObject(13, 0, 2276830370640)]}"
         }
       },
       {
@@ -153,7 +153,7 @@
         "list_type": null,
         "evidence": {
           "pdf_role": "Lbl",
-          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(11, 0, 2488505493392), '/Pg': IndirectObject(1, 0, 2488505493392), '/K': [3]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(11, 0, 2276830370640), '/Pg': IndirectObject(1, 0, 2276830370640), '/K': [3]}"
         }
       },
       {
@@ -164,7 +164,7 @@
         "list_type": null,
         "evidence": {
           "pdf_role": "LBody",
-          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(11, 0, 2488505493392), '/Pg': IndirectObject(1, 0, 2488505493392), '/K': [IndirectObject(14, 0, 2488505493392)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(11, 0, 2276830370640), '/Pg': IndirectObject(1, 0, 2276830370640), '/K': [IndirectObject(14, 0, 2276830370640)]}"
         }
       }
     ],
@@ -193,7 +193,7 @@
     "pdf_text": "V4 lists 1\n• Alpha\n• Beta",
     "extraction": {
       "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F03_A__LIBREOFFICE_PROFILE_B.pdf"
+      "source": "<ARTIFACT_ROOT>\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F03_A__LIBREOFFICE_PROFILE_B.pdf"
     }
   },
   "secondary": {

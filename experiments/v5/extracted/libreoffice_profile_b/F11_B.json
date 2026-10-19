@@ -69,7 +69,7 @@
     "captions": [],
     "extraction": {
       "method": "deterministic OOXML inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v4\\fixtures\\F11_B.docx",
+      "source": "<ARTIFACT_ROOT>\\experiments\\v4\\fixtures\\F11_B.docx",
       "independent_raw_package": true
     }
   },
@@ -99,7 +99,7 @@
         "list_type": null,
         "evidence": {
           "pdf_role": "Lbl",
-          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(12, 0, 2488505417488), '/Pg': IndirectObject(1, 0, 2488505417488), '/K': [IndirectObject(14, 0, 2488505417488)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(12, 0, 2276857370320), '/Pg': IndirectObject(1, 0, 2276857370320), '/K': [IndirectObject(14, 0, 2276857370320)]}"
         }
       },
       {
@@ -110,7 +110,7 @@
         "list_type": null,
         "evidence": {
           "pdf_role": "Lbl",
-          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(16, 0, 2488505417488), '/Pg': IndirectObject(1, 0, 2488505417488), '/K': [IndirectObject(18, 0, 2488505417488)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(16, 0, 2276857370320), '/Pg': IndirectObject(1, 0, 2276857370320), '/K': [IndirectObject(18, 0, 2276857370320)]}"
         }
       }
     ],
@@ -181,7 +181,7 @@
         "text": "",
         "evidence": {
           "pdf_role": "Note",
-          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id12', '/P': IndirectObject(11, 0, 2488505417488), '/Pg': IndirectObject(1, 0, 2488505417488), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(13, 0, 2488505417488), IndirectObject(15, 0, 2488505417488)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id12', '/P': IndirectObject(11, 0, 2276857370320), '/Pg': IndirectObject(1, 0, 2276857370320), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(13, 0, 2276857370320), IndirectObject(15, 0, 2276857370320)]}"
         }
       },
       {
@@ -189,7 +189,7 @@
         "text": "",
         "evidence": {
           "pdf_role": "Note",
-          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id16', '/P': IndirectObject(11, 0, 2488505417488), '/Pg': IndirectObject(1, 0, 2488505417488), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(17, 0, 2488505417488), IndirectObject(19, 0, 2488505417488)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id16', '/P': IndirectObject(11, 0, 2276857370320), '/Pg': IndirectObject(1, 0, 2276857370320), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(17, 0, 2276857370320), IndirectObject(19, 0, 2276857370320)]}"
         }
       }
     ],
@@ -209,7 +209,7 @@
     "pdf_text": "V4 footnotes 2\nThe source contains a footnote reference for each declared note.\n1\n2\n1\n2",
     "extraction": {
       "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F11_B__LIBREOFFICE_PROFILE_B.pdf"
+      "source": "<ARTIFACT_ROOT>\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F11_B__LIBREOFFICE_PROFILE_B.pdf"
     }
   },
   "secondary": {

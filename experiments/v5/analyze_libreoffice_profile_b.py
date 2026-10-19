@@ -18,6 +18,16 @@ def digest(value: dict) -> str:
     return hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()
 
 
+def sanitize(value):
+    if isinstance(value, str):
+        return value.replace(str(ROOT), "<ARTIFACT_ROOT>").replace(str(ROOT).replace("\\\\", "/"), "<ARTIFACT_ROOT>")
+    if isinstance(value, list):
+        return [sanitize(item) for item in value]
+    if isinstance(value, dict):
+        return {key: sanitize(item) for key, item in value.items()}
+    return value
+
+
 def main() -> None:
     source = json.loads((V4 / "source_manifest.json").read_text(encoding="utf-8"))
     manifest = json.loads((V5 / "conversions" / "libreoffice_profile_b" / "manifest.json").read_text(encoding="utf-8"))
@@ -33,7 +43,7 @@ def main() -> None:
         feature = FEATURES[entry["feature_family"]]
         raw = compare_feature_v4(source_data, destination, feature)
         classification, basis = final_classification(raw, feature, destination, second)
-        extracted = {"source": source_data, "destination": destination, "secondary": second}
+        extracted = sanitize({"source": source_data, "destination": destination, "secondary": second})
         ext_path = V5 / "extracted" / "libreoffice_profile_b" / f"{fixture}.json"
         ext_path.parent.mkdir(parents=True, exist_ok=True)
         ext_path.write_text(json.dumps(extracted, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

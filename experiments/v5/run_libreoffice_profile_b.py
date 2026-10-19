@@ -110,7 +110,7 @@ def convert(entry: dict, executable: str, version: str, reuse_existing: bool = F
     return {
         "corpus": "atomic", "fixture_id": fixture, "feature_family": entry["feature_family"], "role": entry["role"],
         "source_path": entry["fixture"], "source_sha256": source_hash, "expected_source_sha256": entry["source_sha256"],
-        "converter": "LibreOffice", "condition": "V5_PROFILE_B", "converter_version": version, "executable": executable,
+        "converter": "LibreOffice", "condition": "V5_PROFILE_B", "converter_version": version, "executable": "<LOCAL_LIBREOFFICE_RUNTIME>",
         "settings": SETTINGS, "route": "headless soffice writer_pdf_Export with isolated profile",
         "started_at": started.isoformat(), "completed_at": datetime.now(timezone.utc).isoformat(),
         "output_path": str(destination.relative_to(ROOT)).replace("\\", "/"), "output": facts,
@@ -132,7 +132,7 @@ def main() -> None:
     payload = {
         "manifest_version": "v5-libreoffice-profile-b-1", "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "converter": "LibreOffice", "condition": "V5_PROFILE_B", "settings": SETTINGS,
-        "converter_version": version, "executable": executable, "records": rows,
+        "converter_version": version, "executable": "<LOCAL_LIBREOFFICE_RUNTIME>", "records": rows,
         "total": len(rows), "successful": sum(row["status"] == "SUCCESS" for row in rows), "failed": sum(row["status"] != "SUCCESS" for row in rows),
         "pdf_profile_interpretation": "SelectPdfVersion=0 is the documented default PDF 1.7 selection, not PDF/A.",
     }

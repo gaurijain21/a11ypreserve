@@ -60,7 +60,7 @@
     "captions": [],
     "extraction": {
       "method": "deterministic OOXML inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v4\\fixtures\\F11_C.docx",
+      "source": "<ARTIFACT_ROOT>\\experiments\\v4\\fixtures\\F11_C.docx",
       "independent_raw_package": true
     }
   },
@@ -90,7 +90,7 @@
         "list_type": null,
         "evidence": {
           "pdf_role": "Lbl",
-          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(10, 0, 2488507202320), '/Pg': IndirectObject(1, 0, 2488507202320), '/K': [IndirectObject(12, 0, 2488507202320)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(10, 0, 2276810258640), '/Pg': IndirectObject(1, 0, 2276810258640), '/K': [IndirectObject(12, 0, 2276810258640)]}"
         }
       }
     ],
@@ -135,7 +135,7 @@
         "text": "",
         "evidence": {
           "pdf_role": "Note",
-          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id10', '/P': IndirectObject(9, 0, 2488507202320), '/Pg': IndirectObject(1, 0, 2488507202320), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(11, 0, 2488507202320), IndirectObject(13, 0, 2488507202320)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id10', '/P': IndirectObject(9, 0, 2276810258640), '/Pg': IndirectObject(1, 0, 2276810258640), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(11, 0, 2276810258640), IndirectObject(13, 0, 2276810258640)]}"
         }
       }
     ],
@@ -155,7 +155,7 @@
     "pdf_text": "V4 footnotes 3\nThe source contains a footnote reference for each declared note.\n1\n1",
     "extraction": {
       "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F11_C__LIBREOFFICE_PROFILE_B.pdf"
+      "source": "<ARTIFACT_ROOT>\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F11_C__LIBREOFFICE_PROFILE_B.pdf"
     }
   },
   "secondary": {

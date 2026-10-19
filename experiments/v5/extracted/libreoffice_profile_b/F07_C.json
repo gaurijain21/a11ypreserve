@@ -87,7 +87,7 @@
     "captions": [],
     "extraction": {
       "method": "deterministic OOXML inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v4\\fixtures\\F07_C.docx",
+      "source": "<ARTIFACT_ROOT>\\experiments\\v4\\fixtures\\F07_C.docx",
       "independent_raw_package": true
     }
   },
@@ -117,7 +117,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2488477339088), '/Pg': IndirectObject(1, 0, 2488477339088), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2276855773904), '/Pg': IndirectObject(1, 0, 2276855773904), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       },
       {
@@ -126,7 +126,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(9, 0, 2488477339088), '/Pg': IndirectObject(1, 0, 2488477339088), '/Alt': 'Figure 2 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 440.35, 360, 548.35]}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(9, 0, 2276855773904), '/Pg': IndirectObject(1, 0, 2276855773904), '/Alt': 'Figure 2 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 440.35, 360, 548.35]}, '/K': [2]}"
         }
       }
     ],
@@ -137,7 +137,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2488477339088), '/Pg': IndirectObject(1, 0, 2488477339088), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2276855773904), '/Pg': IndirectObject(1, 0, 2276855773904), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       },
       {
@@ -146,7 +146,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(9, 0, 2488477339088), '/Pg': IndirectObject(1, 0, 2488477339088), '/Alt': 'Figure 2 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 440.35, 360, 548.35]}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(9, 0, 2276855773904), '/Pg': IndirectObject(1, 0, 2276855773904), '/Alt': 'Figure 2 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 440.35, 360, 548.35]}, '/K': [2]}"
         }
       }
     ],
@@ -172,7 +172,7 @@
     "pdf_text": "V4 decorative state 3\n",
     "extraction": {
       "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F07_C__LIBREOFFICE_PROFILE_B.pdf"
+      "source": "<ARTIFACT_ROOT>\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F07_C__LIBREOFFICE_PROFILE_B.pdf"
     }
   },
   "secondary": {

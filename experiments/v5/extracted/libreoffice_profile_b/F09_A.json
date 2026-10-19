@@ -50,7 +50,7 @@
     "captions": [],
     "extraction": {
       "method": "deterministic OOXML inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v4\\fixtures\\F09_A.docx",
+      "source": "<ARTIFACT_ROOT>\\experiments\\v4\\fixtures\\F09_A.docx",
       "independent_raw_package": true
     }
   },
@@ -98,7 +98,7 @@
     "pdf_text": "Accessible policy guide\nVisible title and core metadata are recorded as separate contract values.",
     "extraction": {
       "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F09_A__LIBREOFFICE_PROFILE_B.pdf"
+      "source": "<ARTIFACT_ROOT>\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F09_A__LIBREOFFICE_PROFILE_B.pdf"
     }
   },
   "secondary": {

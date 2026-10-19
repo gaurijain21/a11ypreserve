@@ -57,7 +57,7 @@
     "captions": [],
     "extraction": {
       "method": "deterministic OOXML inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v4\\fixtures\\F12_C.docx",
+      "source": "<ARTIFACT_ROOT>\\experiments\\v4\\fixtures\\F12_C.docx",
       "independent_raw_package": true
     }
   },
@@ -94,7 +94,7 @@
         "representation": "PDF /Formula",
         "evidence": {
           "pdf_role": "Formula",
-          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 2488505806928), '/Pg': IndirectObject(1, 0, 2488505806928), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.8, '/Height': 0.267, '/BBox': [286, 654.9, 326, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 2276798913104), '/Pg': IndirectObject(1, 0, 2276798913104), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.8, '/Height': 0.267, '/BBox': [286, 654.9, 326, 668.25]}, '/K': [1]}"
         }
       }
     ],
@@ -113,7 +113,7 @@
     "pdf_text": "V4 equations 3\nx 2 + y 2",
     "extraction": {
       "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F12_C__LIBREOFFICE_PROFILE_B.pdf"
+      "source": "<ARTIFACT_ROOT>\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F12_C__LIBREOFFICE_PROFILE_B.pdf"
     }
   },
   "secondary": {

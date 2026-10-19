@@ -78,7 +78,7 @@
     "captions": [],
     "extraction": {
       "method": "deterministic OOXML inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v4\\fixtures\\F11_E.docx",
+      "source": "<ARTIFACT_ROOT>\\experiments\\v4\\fixtures\\F11_E.docx",
       "independent_raw_package": true
     }
   },
@@ -108,7 +108,7 @@
         "list_type": null,
         "evidence": {
           "pdf_role": "Lbl",
-          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(14, 0, 2488506005968), '/Pg': IndirectObject(1, 0, 2488506005968), '/K': [IndirectObject(16, 0, 2488506005968)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(14, 0, 2276858357200), '/Pg': IndirectObject(1, 0, 2276858357200), '/K': [IndirectObject(16, 0, 2276858357200)]}"
         }
       },
       {
@@ -119,7 +119,7 @@
         "list_type": null,
         "evidence": {
           "pdf_role": "Lbl",
-          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(18, 0, 2488506005968), '/Pg': IndirectObject(1, 0, 2488506005968), '/K': [IndirectObject(20, 0, 2488506005968)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(18, 0, 2276858357200), '/Pg': IndirectObject(1, 0, 2276858357200), '/K': [IndirectObject(20, 0, 2276858357200)]}"
         }
       },
       {
@@ -130,7 +130,7 @@
         "list_type": null,
         "evidence": {
           "pdf_role": "Lbl",
-          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(22, 0, 2488506005968), '/Pg': IndirectObject(1, 0, 2488506005968), '/K': [IndirectObject(24, 0, 2488506005968)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(22, 0, 2276858357200), '/Pg': IndirectObject(1, 0, 2276858357200), '/K': [IndirectObject(24, 0, 2276858357200)]}"
         }
       }
     ],
@@ -227,7 +227,7 @@
         "text": "",
         "evidence": {
           "pdf_role": "Note",
-          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id14', '/P': IndirectObject(13, 0, 2488506005968), '/Pg': IndirectObject(1, 0, 2488506005968), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(15, 0, 2488506005968), IndirectObject(17, 0, 2488506005968)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id14', '/P': IndirectObject(13, 0, 2276858357200), '/Pg': IndirectObject(1, 0, 2276858357200), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(15, 0, 2276858357200), IndirectObject(17, 0, 2276858357200)]}"
         }
       },
       {
@@ -235,7 +235,7 @@
         "text": "",
         "evidence": {
           "pdf_role": "Note",
-          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id18', '/P': IndirectObject(13, 0, 2488506005968), '/Pg': IndirectObject(1, 0, 2488506005968), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(19, 0, 2488506005968), IndirectObject(21, 0, 2488506005968)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id18', '/P': IndirectObject(13, 0, 2276858357200), '/Pg': IndirectObject(1, 0, 2276858357200), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(19, 0, 2276858357200), IndirectObject(21, 0, 2276858357200)]}"
         }
       },
       {
@@ -243,7 +243,7 @@
         "text": "",
         "evidence": {
           "pdf_role": "Note",
-          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id22', '/P': IndirectObject(13, 0, 2488506005968), '/Pg': IndirectObject(1, 0, 2488506005968), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(23, 0, 2488506005968), IndirectObject(25, 0, 2488506005968)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id22', '/P': IndirectObject(13, 0, 2276858357200), '/Pg': IndirectObject(1, 0, 2276858357200), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(23, 0, 2276858357200), IndirectObject(25, 0, 2276858357200)]}"
         }
       }
     ],
@@ -263,7 +263,7 @@
     "pdf_text": "V4 footnotes 5\nThe source contains a footnote reference for each declared note.\n1\n2\n3\n1\n2\n3Note in section one.",
     "extraction": {
       "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F11_E__LIBREOFFICE_PROFILE_B.pdf"
+      "source": "<ARTIFACT_ROOT>\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F11_E__LIBREOFFICE_PROFILE_B.pdf"
     }
   },
   "secondary": {

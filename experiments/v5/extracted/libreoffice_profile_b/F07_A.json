@@ -65,7 +65,7 @@
     "captions": [],
     "extraction": {
       "method": "deterministic OOXML inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v4\\fixtures\\F07_A.docx",
+      "source": "<ARTIFACT_ROOT>\\experiments\\v4\\fixtures\\F07_A.docx",
       "independent_raw_package": true
     }
   },
@@ -95,7 +95,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2488506122128), '/Pg': IndirectObject(1, 0, 2488506122128), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2276855103312), '/Pg': IndirectObject(1, 0, 2276855103312), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       }
     ],
@@ -106,7 +106,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2488506122128), '/Pg': IndirectObject(1, 0, 2488506122128), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2276855103312), '/Pg': IndirectObject(1, 0, 2276855103312), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       }
     ],
@@ -132,7 +132,7 @@
     "pdf_text": "V4 decorative state 1\n",
     "extraction": {
       "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F07_A__LIBREOFFICE_PROFILE_B.pdf"
+      "source": "<ARTIFACT_ROOT>\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F07_A__LIBREOFFICE_PROFILE_B.pdf"
     }
   },
   "secondary": {

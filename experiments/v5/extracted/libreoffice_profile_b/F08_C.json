@@ -60,7 +60,7 @@
     "captions": [],
     "extraction": {
       "method": "deterministic OOXML inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v4\\fixtures\\F08_C.docx",
+      "source": "<ARTIFACT_ROOT>\\experiments\\v4\\fixtures\\F08_C.docx",
       "independent_raw_package": true
     }
   },
@@ -134,7 +134,7 @@
     "pdf_text": "V4 hyperlinks 3\nGuidance and Reference",
     "extraction": {
       "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F08_C__LIBREOFFICE_PROFILE_B.pdf"
+      "source": "<ARTIFACT_ROOT>\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F08_C__LIBREOFFICE_PROFILE_B.pdf"
     }
   },
   "secondary": {

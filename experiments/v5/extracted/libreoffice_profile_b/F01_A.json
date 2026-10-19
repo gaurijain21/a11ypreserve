@@ -87,7 +87,7 @@
     "captions": [],
     "extraction": {
       "method": "deterministic OOXML inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v4\\fixtures\\F01_A.docx",
+      "source": "<ARTIFACT_ROOT>\\experiments\\v4\\fixtures\\F01_A.docx",
       "independent_raw_package": true
     }
   },
@@ -113,7 +113,7 @@
         "level": 1,
         "evidence": {
           "pdf_role": "H1",
-          "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(4, 0, 2488479105936), '/Pg': IndirectObject(1, 0, 2488479105936), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.48}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(4, 0, 2276855181072), '/Pg': IndirectObject(1, 0, 2276855181072), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.48}, '/K': [1]}"
         }
       },
       {
@@ -121,7 +121,7 @@
         "level": 2,
         "evidence": {
           "pdf_role": "H2",
-          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 2488479105936), '/Pg': IndirectObject(1, 0, 2488479105936), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.251}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 2276855181072), '/Pg': IndirectObject(1, 0, 2276855181072), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.251}, '/K': [2]}"
         }
       }
     ],
@@ -151,7 +151,7 @@
     "pdf_text": "V4 headings 1\nOverview\nContext\nThe heading hierarchy is separated from ordinary body text.",
     "extraction": {
       "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F01_A__LIBREOFFICE_PROFILE_B.pdf"
+      "source": "<ARTIFACT_ROOT>\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F01_A__LIBREOFFICE_PROFILE_B.pdf"
     }
   },
   "secondary": {

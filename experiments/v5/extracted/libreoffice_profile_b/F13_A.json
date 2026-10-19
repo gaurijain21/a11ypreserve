@@ -76,7 +76,7 @@
     ],
     "extraction": {
       "method": "deterministic OOXML inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v4\\fixtures\\F13_A.docx",
+      "source": "<ARTIFACT_ROOT>\\experiments\\v4\\fixtures\\F13_A.docx",
       "independent_raw_package": true
     }
   },
@@ -106,7 +106,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2488507154192), '/Pg': IndirectObject(1, 0, 2488507154192), '/Alt': 'Figure 1 - Description for figure 1.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2276857456400), '/Pg': IndirectObject(1, 0, 2276857456400), '/Alt': 'Figure 1 - Description for figure 1.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       }
     ],
@@ -117,7 +117,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2488507154192), '/Pg': IndirectObject(1, 0, 2488507154192), '/Alt': 'Figure 1 - Description for figure 1.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2276857456400), '/Pg': IndirectObject(1, 0, 2276857456400), '/Alt': 'Figure 1 - Description for figure 1.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       }
     ],
@@ -152,7 +152,7 @@
     "pdf_text": "V4 captions 1\nFigure 1. Workflow.",
     "extraction": {
       "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
-      "source": "C:\\Users\\iamga\\OneDrive\\Documents\\ChatGPT\\a11ypreserve\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F13_A__LIBREOFFICE_PROFILE_B.pdf"
+      "source": "<ARTIFACT_ROOT>\\experiments\\v5\\conversions\\libreoffice_profile_b\\outputs\\F13_A__LIBREOFFICE_PROFILE_B.pdf"
     }
   },
   "secondary": {
