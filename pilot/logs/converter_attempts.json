@@ -1,0 +1,21 @@
+{
+  "word": {
+    "status": "blocked",
+    "converter_version": "16.0.20326.20158",
+    "pathway": "Microsoft Word ExportAsFixedFormat",
+    "error": "0x80070520: A specified logon session does not exist",
+    "fixtures_converted": 0
+  },
+  "libreoffice": {
+    "status": "unavailable",
+    "converter_version": null,
+    "pathway": null,
+    "fixtures_converted": 0
+  },
+  "google_docs": {
+    "status": "not_run",
+    "converter_version": null,
+    "pathway": "Authenticated Docs home page reachable; local-file upload surface unavailable",
+    "fixtures_converted": 0
+  }
+}

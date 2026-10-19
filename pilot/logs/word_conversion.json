@@ -1,0 +1,11 @@
+{
+  "converter": "Microsoft Word",
+  "converter_version": "16.0.20326.20158",
+  "pathway": "native COM ExportAsFixedFormat attempt",
+  "status": "blocked",
+  "python_attempt": "pywin32 unavailable in bundled runtime",
+  "native_com_attempt": "0x80070520: A specified logon session does not exist",
+  "process_launch_attempt": "0x80070520: A specified logon session does not exist",
+  "fixtures_converted": 0,
+  "records": []
+}
