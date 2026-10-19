@@ -1,0 +1,17 @@
+{
+  "variant_id": "F11_A",
+  "feature_family": "footnotes",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F11_A.docx",
+  "ground_truth": {
+    "notes": [
+      {
+        "id": 1,
+        "text": "One note body."
+      }
+    ]
+  },
+  "source_sha256": "74d2bcbe4858e016d50443b6c311aef8f7e652488b61b11f676490ea2e31fef5"
+}

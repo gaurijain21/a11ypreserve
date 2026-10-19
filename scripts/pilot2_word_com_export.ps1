@@ -1,5 +1,5 @@
 $ErrorActionPreference = 'Stop'
-$root = Split-Path -Parent $PSScriptRoot
+$root = 'C:\Users\iamga\OneDrive\Documents\ChatGPT\a11ypreserve'
 $pilot2 = Join-Path $root 'pilot2'
 $outDir = Join-Path $pilot2 'outputs\word_pdf'
 $logDir = Join-Path $pilot2 'logs'

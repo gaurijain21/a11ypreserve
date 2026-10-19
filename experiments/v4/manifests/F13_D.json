@@ -1,0 +1,17 @@
+{
+  "variant_id": "F13_D",
+  "feature_family": "captions",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F13_D.docx",
+  "ground_truth": {
+    "pairs": [
+      {
+        "figure_order": 1,
+        "caption": "Figure 1. Unicode café — results."
+      }
+    ]
+  },
+  "source_sha256": "78d7b0c85ea8d6307d842f76afcaf4b36f845033ab7b43e3ff405e919b4b3d64"
+}

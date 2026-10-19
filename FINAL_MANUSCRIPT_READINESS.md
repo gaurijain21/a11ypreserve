@@ -1,4 +1,8 @@
-# READY FOR HUMAN REVIEW
+# HISTORICAL — V2 readiness snapshot; superseded by `FINAL_SUBMISSION_READINESS.md`
+
+> This file is retained for provenance. Its 26-case counts describe the historical Core state, not the current 52-case V3 submission state.
+
+# READY FOR SUBMISSION; PDF VERIFIED
 
 ## 1. Executive decision
 
@@ -10,11 +14,11 @@ The paper uses 13 frozen DOCX fixtures, 26 frozen PDFs, two completed pipelines,
 
 ## 3. Manuscript artifacts
 
-`paper/main.tex`, eight section files, `paper/references.bib`, and `paper/main.pdf` are present. Citation, claim-evidence, number, terminology, build, and mock-review records are present.
+The canonical V3 manuscript is `submission/ICST2027_V3/main.tex` with verified PDF `submission/ICST2027_V3/main.pdf`. The earlier `paper/` source remains historical provenance. Citation, claim-evidence, number, terminology, build, and mock-review records are present.
 
 ## 4. Build
 
-The built-in compiler failed before parsing because of its environment. A fallback MiKTeX 25.12 toolchain completed BibTeX and two final LaTeX passes successfully after the rejection-audit revisions, producing the current 8-page PDF. Remaining underfull-box and MiKTeX update-check warnings are documented.
+The built-in compiler failed before parsing because of its environment. MiKTeX was initialized in per-user mode and the canonical V3 source was compiled successfully from a clean local build directory outside OneDrive. The final PDF was copied to the V3 submission directory and passed final QA.
 
 ## 5. Counts and claims
 
@@ -30,4 +34,4 @@ RQ1 extent of preservation; RQ2 feature-specific outcomes; RQ3 differences betwe
 
 ## 8. Human review focus
 
-Review citation presentation, venue formatting, the legibility of the dense feature table, and whether the intended venue prefers a named-author rather than anonymous version. No scientific expansion is required before manuscript review.
+Review citation presentation, venue formatting, the final portal fields, the artifact license, and whether the intended venue prefers a named-author rather than anonymous version. No scientific expansion or further build work is required.

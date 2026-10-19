@@ -1,0 +1,21 @@
+{
+  "variant_id": "F12_B",
+  "feature_family": "equations",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F12_B.docx",
+  "ground_truth": {
+    "equations": [
+      {
+        "expression": "a/b",
+        "tokens": [
+          "a",
+          "/",
+          "b"
+        ]
+      }
+    ]
+  },
+  "source_sha256": "25960111c2c103f86d13050e73220dd99cbc70383b2e9bf266c2122aeac27710"
+}

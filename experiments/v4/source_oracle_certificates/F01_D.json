@@ -1,0 +1,88 @@
+{
+  "variant_id": "F01_D",
+  "feature_family": "headings",
+  "source_sha256": "9156c9ef9e0fdaa04b93b225fb231623048a9a033c938e862c8e742b82a7e334",
+  "contract_sha256": "733758e49f0f9da2ad85d42cda6a6483646220cdce969580cdc98a873277448d",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "9156c9ef9e0fdaa04b93b225fb231623048a9a033c938e862c8e742b82a7e334",
+    "headings": [
+      {
+        "text": "Overview",
+        "level": 1
+      },
+      {
+        "text": "Context",
+        "level": 2
+      },
+      {
+        "text": "Body",
+        "level": 2
+      },
+      {
+        "text": "Detail",
+        "level": 3
+      }
+    ],
+    "figures": [],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 headings 4",
+        "language": "en-US"
+      },
+      {
+        "text": "Overview",
+        "language": "en-US"
+      },
+      {
+        "text": "Context",
+        "language": "en-US"
+      },
+      {
+        "text": "Body",
+        "language": "en-US"
+      },
+      {
+        "text": "Detail",
+        "language": "en-US"
+      },
+      {
+        "text": "The heading hierarchy is separated from ordinary body text.",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 headings 4",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

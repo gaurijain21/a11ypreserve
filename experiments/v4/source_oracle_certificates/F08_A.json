@@ -1,0 +1,57 @@
+{
+  "variant_id": "F08_A",
+  "feature_family": "hyperlinks",
+  "source_sha256": "bd0b60024852b25d95a09d0486234bf58abe00051faed8723ffea6a91548042b",
+  "contract_sha256": "560c30ee83e28362af80be757c3bab200eec0db33e8978dd4c0dc3f6d09b3fff",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "bd0b60024852b25d95a09d0486234bf58abe00051faed8723ffea6a91548042b",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 hyperlinks 1",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [
+      {
+        "text": "Read the guidance",
+        "target": "https://example.org/guidance",
+        "order": 1
+      }
+    ],
+    "metadata": {
+      "title": "V4 hyperlinks 1",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

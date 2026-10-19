@@ -1,24 +1,15 @@
 from __future__ import annotations
 
 import sys
-import os
-import shutil
 from pathlib import Path
 
-SKILL_SCRIPTS = os.environ.get("A11YPRESERVE_DOCUMENT_SKILLS")
-if SKILL_SCRIPTS:
-    sys.path.insert(0, SKILL_SCRIPTS)
-try:
-    import render_docx  # type: ignore  # noqa: E402
-except ModuleNotFoundError as exc:
-    raise SystemExit(
-        "render_docx is unavailable; install the document helper or set "
-        "A11YPRESERVE_DOCUMENT_SKILLS to its directory"
-    ) from exc
+SKILL_SCRIPTS = Path("C:/Users/iamga/.codex/plugins/cache/openai-primary-runtime/documents/26.909.12148/skills/documents")
+sys.path.insert(0, str(SKILL_SCRIPTS))
+import render_docx  # noqa: E402
 
 
+LO = Path("C:/Users/iamga/OneDrive/Documents/ChatGPT/a11ypreserve/pilot2/libreoffice_runtime/program/soffice.com")
 ROOT = Path(__file__).resolve().parents[1]
-LO = Path(os.environ.get("A11YPRESERVE_SOFFICE", shutil.which("soffice.com") or shutil.which("soffice") or ""))
 
 
 def main() -> None:

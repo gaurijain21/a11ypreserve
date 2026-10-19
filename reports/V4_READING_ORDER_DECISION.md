@@ -1,0 +1,3 @@
+# V4 Reading-Order Decision
+
+Reading order remains excluded from the 13-family atomic denominator. The prospective bounded contract considered relative order of specifically identified structural blocks, such as Heading A → paragraph A → image → Heading B → paragraph B. No V4 destination calibration suite established a reliable structure-tree/marked-content correspondence for that relation before conversion. Visual position, PDF object order, and ordinary text extraction order are not treated as semantic reading order. Adding the feature without a defensible oracle would weaken the benchmark, so it is documented as an accepted limitation.

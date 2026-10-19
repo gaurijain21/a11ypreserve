@@ -1,3 +1,7 @@
+# HISTORICAL — pre-final-experiment readiness snapshot
+
+> The current submission state is recorded in `CANONICAL_SUBMISSION_STATE.md`.
+
 # READY FOR FULL EXPERIMENT
 
 ## Readiness basis

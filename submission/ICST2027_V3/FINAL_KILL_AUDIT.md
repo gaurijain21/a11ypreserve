@@ -1,6 +1,6 @@
 # Final ICST 2027 hostile rejection audit (scientific/package-risk snapshot)
 
-> Scientific attack results remain applicable. V3 PDF compilation and visual QA are currently unverified; the authoritative package gate is `FINAL_DESK_REJECTION_AUDIT.md` and `FINAL_PACKAGE_DECISION.md`.
+> Scientific attack results remain applicable. The V3 PDF compilation, metadata, font, anonymity, and visual QA are now verified; the authoritative final records are `FINAL_DESK_REJECTION_AUDIT.md` and `FINAL_PACKAGE_DECISION.md`.
 
 The audit treats the paper as a software-testing submission and does not assume that the earlier readiness decision is correct. Frozen science was not changed.
 

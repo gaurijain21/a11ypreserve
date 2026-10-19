@@ -1,0 +1,35 @@
+{
+  "variant_id": "F04_B",
+  "feature_family": "basic_tables",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F04_B.docx",
+  "ground_truth": {
+    "dimensions": {
+      "rows": 3,
+      "columns": 3
+    },
+    "header_rows": [
+      0
+    ],
+    "cells": [
+      [
+        "Year",
+        "North",
+        "South"
+      ],
+      [
+        "2025",
+        "10",
+        "20"
+      ],
+      [
+        "2026",
+        "11",
+        "21"
+      ]
+    ]
+  },
+  "source_sha256": "2da29d168d2b96940a505cdf86f41fbcd6c61faac08b9c3446995fe38cc98d16"
+}

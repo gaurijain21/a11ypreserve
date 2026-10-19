@@ -1,0 +1,18 @@
+{
+  "variant_id": "F06_A",
+  "feature_family": "inline_language",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F06_A.docx",
+  "ground_truth": {
+    "document_language": "en-US",
+    "spans": [
+      {
+        "text": "bonjour",
+        "language": "fr-FR"
+      }
+    ]
+  },
+  "source_sha256": "f3aab26f438ef5e524606d05411c36527e5f59860c5d045b417324e7597598ca"
+}

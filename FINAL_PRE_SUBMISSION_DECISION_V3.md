@@ -1,4 +1,8 @@
-# READY FOR SUBMISSION TARGETING
+# HISTORICAL — superseded by `CANONICAL_SUBMISSION_STATE.md` and `FINAL_SUBMISSION_READINESS.md`
+
+> This snapshot mixes the earlier 26-output Core account with later V3 packaging. Use the canonical 52-row V3 state for current claims.
+
+# READY FOR SUBMISSION; PDF VERIFIED
 
 ## 1. Final title
 
@@ -58,7 +62,7 @@ External validity: the atomic corpus is small, feature families are unequal, onl
 
 ## 15. Artifact status
 
-The frozen V1 evidence is unchanged. V2 evidence-aware results, changelog, contracts, source certificates, loss certificates, calibration, integrated secondary study, parser triangulation, manuscript audits, and final PDF are present. Public packaging still needs local-path sanitization and licensing/provenance review.
+The frozen V1 evidence is unchanged. V2 evidence-aware results, changelog, contracts, source certificates, loss certificates, calibration, integrated secondary study, parser triangulation, manuscript audits, and the verified V3 PDF are present. The sanitized artifact passes its self-check. Public packaging still needs the author's final licensing/provenance decision.
 
 ## 16. Recommended primary venue family
 
@@ -70,8 +74,8 @@ Accessibility research / ACM ASSETS, with the same structural-preservation and n
 
 ## 18. Exact remaining fixes
 
-Before public release: sanitize any pre-existing local paths, verify artifact licensing/provenance, and apply the target venue template. No scientific experiment is required.
+Before submission/public release: recheck the venue portal/template, verify artifact licensing/provenance, and complete the author's metadata/originality checks. No new scientific experiment or build repair is required.
 
 ## 19. Submission recommendation
 
-Submit with V2 as the primary result model and V1 clearly labeled historical. Do not submit as a general accessibility validator, universal conversion claim, product ranking, or disabled-user impact study.
+Use V3 as the submission manuscript, V2 as historical provenance, and V1 as historical. Do not submit as a general accessibility validator, universal conversion claim, product ranking, or disabled-user impact study.

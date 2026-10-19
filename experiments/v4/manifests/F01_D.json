@@ -1,0 +1,29 @@
+{
+  "variant_id": "F01_D",
+  "feature_family": "headings",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F01_D.docx",
+  "ground_truth": {
+    "headings": [
+      {
+        "text": "Overview",
+        "level": 1
+      },
+      {
+        "text": "Context",
+        "level": 2
+      },
+      {
+        "text": "Body",
+        "level": 2
+      },
+      {
+        "text": "Detail",
+        "level": 3
+      }
+    ]
+  },
+  "source_sha256": "9156c9ef9e0fdaa04b93b225fb231623048a9a033c938e862c8e742b82a7e334"
+}

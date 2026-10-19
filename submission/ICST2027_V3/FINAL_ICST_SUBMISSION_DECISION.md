@@ -1,6 +1,6 @@
 # Superseded V3 decision snapshot
 
-> This earlier decision predates the final V3 compile audit and must not be used as the package decision. The current decision is `FINAL_PACKAGE_DECISION.md`, which begins `# DO NOT SUBMIT YET` because no verified V3 PDF exists.
+> This earlier decision predates the final V3 compile audit and must not be used as the package decision. The current decision is `FINAL_PACKAGE_DECISION.md`, which records the verified V3 PDF and human-controlled upload steps.
 
 ## AI disclosure status
 

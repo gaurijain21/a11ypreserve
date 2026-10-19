@@ -1,6 +1,6 @@
-# V3 claim-to-artifact trace
+# A11yPreserve claim-to-artifact trace
 
-This trace binds the claims in the V3 ICST submission copy to the frozen evidence and derived package records. It is a packaging trace, not new scientific evidence.
+This trace binds the claims in the A11yPreserve ICST submission copy to the frozen evidence and derived package records. It is a packaging trace, not new scientific evidence.
 
 | Manuscript claim or reported result | Artifact source | Verification boundary |
 |---|---|---|
@@ -15,4 +15,4 @@ This trace binds the claims in the V3 ICST submission copy to the frozen evidenc
 | Calibration and uncertainty handling | `final_strengthening/COMPARATOR_CALIBRATION.md`, `final_methodology/CALIBRATION_FALSE_NEGATIVE_IMPACT_FINAL.md` | 27 diagnostic controls: 12 correct determinate, 6 safe abstentions, 0 false positives, 2 false negatives, 7 unresolved/indeterminate; not sensitivity or specificity. |
 | Reproducibility package | `artifact_v3/README.md`, `submission/A11yPreserve_artifact_ICST2027_V3.zip` | Level 1 evidence verification and Level 2 LibreOffice reproduction are documented; Level 3 Google repetition is workflow-repeatable but backend-dependent. |
 
-The V3 submission source is `submission/ICST2027_V3/main.tex`. A final PDF claim is intentionally absent because compilation and visual inspection have not been verified in the current environment.
+The submission source is `submission/ICST2027_V3/main.tex`; the canonical compiled PDF and its current hash are recorded in `submission/CANONICAL_SUBMISSION.md` and `BUILD_RECORD.md`.

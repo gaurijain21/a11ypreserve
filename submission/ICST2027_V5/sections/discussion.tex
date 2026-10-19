@@ -1,0 +1,23 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Destination accessibility and preservation are different questions}
+The central methodological result is that destination accessibility and source-semantic preservation should be reported separately. A tagged PDF can contain headings, figures, tables, and visible text while changing a source language span, title value, alternative-text string, or association between a footnote and its reference. Conversely, a destination structure can be present while the available evidence is insufficient to establish that it represents the source contract. The unresolved and measurement-error categories prevent both situations from being hidden inside a single pass/fail label.
+
+\subsection{Testing implications}
+For a software-testing audience, the protocol makes the testing chain explicit: contracts are feature-specific oracles, DOCX files are controlled test inputs, each converter is a system under test, PDF extraction produces observations, and precedence rules make the oracle decision. Calibration controls expose alternate encodings that cannot safely be accepted by the current comparator. Such cases become actionable unresolved results rather than silent false failures or false passes.
+
+The mutation audit provides evidence that the source oracle detects deliberate changes, while the holdout provides a prospective check on the frozen decision procedure. These are complementary: mutation detection tests sensitivity to source perturbation; holdout separation tests that the primary corpus was not used as an informal tuning set. Neither establishes external validity or complete fault-model coverage.
+
+\subsection{Pipeline-specific observations}
+The feature matrix shows no monotonic converter pattern. Google Docs preserved the author-written alternative-text strings in all five variants while LibreOffice and Word altered them; LibreOffice preserved more explicit structural evidence for several list, language, equation, and caption cases; Google Docs confirmed loss of every tested inline-language variant, while Word altered those values. The supplementary Word arm also preserved all tested document-metadata and equation variants, but showed partial headings and basic-table behavior. The Google condition includes DOCX import, an internal document representation, and PDF generation, while Word used native desktop export; the evidence establishes end-to-end behavior under each recorded workflow, not the location of a defect within a converter.
+
+Repeatability strengthens the operational claim for the recorded conditions. The six selected classifications and normalized semantic evidence were stable across three repeated conversions for each of the three pipelines (6/6 per pipeline). Word's PDFs were not byte-identical across the six selected variants, so byte identity and semantic-result reproducibility remain distinct claims. This does not make a cloud service timeless, nor does it turn byte identity into a requirement for semantic repeatability.
+
+\subsection{Engineering and accessibility implications}
+The protocol can support regression testing in authoring, publishing, and document-conversion pipelines. A converter adapter can be evaluated against the same frozen sources and contracts, while unresolved cases identify where parser or representational work is needed. The practical implication is not that every export must be rejected or that one product should always be selected. It is that destination-only checks should be complemented by checks of selected author-supplied properties when preservation matters.
+
+The classifications intentionally do not encode user impact. An altered description may remain understandable, an observed partial structure may retain substantial accessibility, and a confirmed machine-level loss may have different consequences for different tasks. Connecting structural preservation to task performance requires a separate user-centered study.
+
+\subsection{Contribution boundary}
+A11yPreserve is a source-contract conformance protocol, benchmark, comparison implementation, and empirical study. It is not a complete PDF accessibility validator, a user study, a population survey, a universal converter ranking, or a claim that PDF export alone caused every observed difference. The prospectively frozen primary evidence covers two named pipeline conditions; the recovered Word route supplies a separately frozen supplementary third-pipeline observation set.

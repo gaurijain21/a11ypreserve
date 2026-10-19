@@ -1,12 +1,13 @@
-# Artifact build record
+# Reviewer artifact build record
 
-- Candidate directory: `artifact/`
-- Candidate archive: `submission/A11yPreserve_artifact_ICST2027.zip`
-- Directory inventory: 158 files, 2,659,966 bytes before compression
-- Archive SHA-256: `EE343279DC86F9991D3C378D0676D17B2B8DF05545C40561B92FC81E0400E39D`
-- Archive size: 2,098,006 bytes
-- Build script: `scripts/build_public_artifact.py`
-- Packaging exclusion: internal `contracts/v3` audit files are excluded from the public V2 candidate; canonical internal files are untouched.
-- Sanitization: publication copies replace local workspace paths with `<ARTIFACT_ROOT>` and omit browser state, cookies, credentials, and private account material
-- Verification: fresh-package source-oracle run passed 13/13 fixtures; focused OOXML checks, the 27-control calibration, the phase-4 verification aid, and the F06 comparator invocation completed; JSON files parsed; archive and directory scans found no local user paths, credentials, or sensitive binary remnants. Text mentions of cookies/tokens in README/checklists are explanatory exclusions, not included credentials.
+- Canonical directory: `artifact_v3/`
+- Canonical archive: `submission/A11yPreserve_artifact_ICST2027_V3.zip`
+- Directory inventory: 356 files before packaging exclusions; 342 files in the archive
+- Archive SHA-256: `C0F0326DBF40E169BD6A0E101B27F486EB001F5A04518E2AF68B5890528D4908`
+- Archive size: 4,633,014 bytes
+- Build script: `scripts/package_v3_artifact.py`
+- Packaging exclusions: `.git`, `.miktex`, and `__pycache__` directories are excluded; canonical internal evidence is otherwise included.
+- Sanitization: the reviewer boundary omits browser state, cookies, credentials, and private account material.
+- Verification: the public-package verifier checks the 52 result rows, source/output hashes, provenance links, all 39 repeatability outputs, and release-path sanitization.
 - Status: ready for anonymous venue review; not yet licensed for public release.
+- Terminology alignment: the reviewer README now states that semantic preservation is evaluated through machine-observable evidence and feature-specific cross-format equivalence; frozen evidence is unchanged.

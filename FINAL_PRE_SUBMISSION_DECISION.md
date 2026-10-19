@@ -1,3 +1,7 @@
+# HISTORICAL — superseded by `FINAL_SUBMISSION_READINESS.md`
+
+> This is a pre-V3 submission-targeting snapshot.
+
 # READY FOR SUBMISSION TARGETING
 
 ## 1. Executive decision

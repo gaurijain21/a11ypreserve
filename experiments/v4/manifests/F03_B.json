@@ -1,0 +1,28 @@
+{
+  "variant_id": "F03_B",
+  "feature_family": "lists",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F03_B.docx",
+  "ground_truth": {
+    "lists": [
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "One"
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Two"
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Three"
+      }
+    ]
+  },
+  "source_sha256": "c2451d7139ff66fb4f747b957915cc17ab6a7d7fd34a94d1ae75bc62f1b3acdb"
+}

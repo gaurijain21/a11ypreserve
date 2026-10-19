@@ -1,0 +1,227 @@
+{
+  "protocol": "experiments/v4/REPEATABILITY_MANIFEST.json",
+  "pipeline": "LibreOffice",
+  "records": [
+    {
+      "fixture_id": "F04_D",
+      "runs": [
+        {
+          "run": 1,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run1/F04_D__LIBREOFFICE__R1.pdf",
+          "output_sha256": "14846bccd99d0f26887aab03e3c26e222a5c235d1213312f513b34b64f543b06",
+          "extraction_sha256": "828b8cb76cb64b2424b00130b8591a0cbf1dfde2eecadf1322e8c5da96f3d65e",
+          "classification": "VERIFIED_PRESERVED",
+          "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 2,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run2/F04_D__LIBREOFFICE__R2.pdf",
+          "output_sha256": "f7f88c3c56a67d6c7681058a4733c5cf51e4496f5a3d1ec81d01405518a2ce99",
+          "extraction_sha256": "37134b9adc8f3fbf3d728405646afbc4bf80ba6c06abbcb9d00d086a6e3f3170",
+          "classification": "VERIFIED_PRESERVED",
+          "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 3,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run3/F04_D__LIBREOFFICE__R3.pdf",
+          "output_sha256": "cb634b25140350e3f6b5aa4112a894050e9371e9bdb3c33e3c5d27bbfb6257ad",
+          "extraction_sha256": "8d80fca0662bb0a8f8cccd9e6de71a780eaa0c9f6a6b11a1bf59be3cc4dceeae",
+          "classification": "VERIFIED_PRESERVED",
+          "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+          "classification_basis": "frozen raw-fidelity mapping"
+        }
+      ],
+      "byte_identity": false,
+      "extraction_identity": false,
+      "classification_identity": true
+    },
+    {
+      "fixture_id": "F06_D",
+      "runs": [
+        {
+          "run": 1,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run1/F06_D__LIBREOFFICE__R1.pdf",
+          "output_sha256": "bc4d1dd89981359c3451f46b5d7eb818a5b06159cca0949ac695cf21c9d395b0",
+          "extraction_sha256": "19c81344799250924f09a2ec64a709f0c737d682011546e065a8e3f4462b21bb",
+          "classification": "VERIFIED_PRESERVED",
+          "raw_fidelity": "EXACT_PRESERVATION",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 2,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run2/F06_D__LIBREOFFICE__R2.pdf",
+          "output_sha256": "2befacad577bf3c7220a264409cfc6f24e8997d9f5b683c36edb537b5ec229da",
+          "extraction_sha256": "ce812073a03c66f875ec25d794d33f7676dd65c1fba3d988cab33daa656a6002",
+          "classification": "VERIFIED_PRESERVED",
+          "raw_fidelity": "EXACT_PRESERVATION",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 3,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run3/F06_D__LIBREOFFICE__R3.pdf",
+          "output_sha256": "c446a8fb0221ddf9ef3f9b8468397e9c3e4b362acc10c5fe01e7216085dbb51c",
+          "extraction_sha256": "87b60af1fb39566203c112bee0238b0ffe754a77cacf07e3efccd3a8e4be6caa",
+          "classification": "VERIFIED_PRESERVED",
+          "raw_fidelity": "EXACT_PRESERVATION",
+          "classification_basis": "frozen raw-fidelity mapping"
+        }
+      ],
+      "byte_identity": false,
+      "extraction_identity": false,
+      "classification_identity": true
+    },
+    {
+      "fixture_id": "F08_D",
+      "runs": [
+        {
+          "run": 1,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run1/F08_D__LIBREOFFICE__R1.pdf",
+          "output_sha256": "f0d9348afa5fcdbc6feecd6c27f94645c189df6a36b168fd7016f0ce991c6df2",
+          "extraction_sha256": "7e08b7b626bbd4d52a8a39e5a75b02b7351813d224c418a988ee8822cd22098c",
+          "classification": "ALTERED",
+          "raw_fidelity": "MUTATED",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 2,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run2/F08_D__LIBREOFFICE__R2.pdf",
+          "output_sha256": "4233aed724f78599e770af7f1f2e39da0d154a0070a94d0cba97849c9869aee1",
+          "extraction_sha256": "6fb8b92f794a91b4d061d9b3e76f3f619f5365b556dfd9e522cca0119ae3c852",
+          "classification": "ALTERED",
+          "raw_fidelity": "MUTATED",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 3,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run3/F08_D__LIBREOFFICE__R3.pdf",
+          "output_sha256": "8f8bf162febc15540afb257efc7acfb34578f7b0776d37a4a66653f6fffb44a7",
+          "extraction_sha256": "2ccda3aca538b05f9437d4fe9e105a8cfc1e77dbad60aa5de0c48212d1f2746d",
+          "classification": "ALTERED",
+          "raw_fidelity": "MUTATED",
+          "classification_basis": "frozen raw-fidelity mapping"
+        }
+      ],
+      "byte_identity": false,
+      "extraction_identity": false,
+      "classification_identity": true
+    },
+    {
+      "fixture_id": "F11_D",
+      "runs": [
+        {
+          "run": 1,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run1/F11_D__LIBREOFFICE__R1.pdf",
+          "output_sha256": "71a3b5006359ce571af2cda365c61d42db007ec5f777c2839e2aead10330d5e8",
+          "extraction_sha256": "e6961266785951aa4ee95b3b0ef5e5b8af31458ffec4f16691b7081eb71e63a7",
+          "classification": "MEASUREMENT_ERROR",
+          "raw_fidelity": "MEASUREMENT_ERROR",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 2,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run2/F11_D__LIBREOFFICE__R2.pdf",
+          "output_sha256": "46f0dd5bcadc08df89ada66319c121cd101320c5c55d69ca31fd395b91798069",
+          "extraction_sha256": "4096dca75f3dde5d11c22cbda8f7bd876ecef2cacfa236dc10da457b07256bce",
+          "classification": "MEASUREMENT_ERROR",
+          "raw_fidelity": "MEASUREMENT_ERROR",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 3,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run3/F11_D__LIBREOFFICE__R3.pdf",
+          "output_sha256": "3574a909f7b423d1cd90c300704766e76b717faa1b560cd29a49dc26ae072bbd",
+          "extraction_sha256": "557125a8493cd802e7e0a941176c57d7c111e99670ab0ebf9838819af1aa86c4",
+          "classification": "MEASUREMENT_ERROR",
+          "raw_fidelity": "MEASUREMENT_ERROR",
+          "classification_basis": "frozen raw-fidelity mapping"
+        }
+      ],
+      "byte_identity": false,
+      "extraction_identity": false,
+      "classification_identity": true
+    },
+    {
+      "fixture_id": "F12_D",
+      "runs": [
+        {
+          "run": 1,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run1/F12_D__LIBREOFFICE__R1.pdf",
+          "output_sha256": "edb34b29a22c09d933012db14974cad5e7e7b064cb56b4fc7f18b6eb9976141c",
+          "extraction_sha256": "fcbb7973d47720c22fc8840f858fadc203000fe3de656a31d990d92e575792c8",
+          "classification": "VERIFIED_PRESERVED",
+          "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 2,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run2/F12_D__LIBREOFFICE__R2.pdf",
+          "output_sha256": "063037a2b9fd92fca29db22dcfd6b79c4c4c5ac5fcff0cfbb8ba7bae62850cd3",
+          "extraction_sha256": "17066dd5888d63dfd9859f0f882c373685720fd2496a92681177a8edb9b6c088",
+          "classification": "VERIFIED_PRESERVED",
+          "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 3,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run3/F12_D__LIBREOFFICE__R3.pdf",
+          "output_sha256": "e0165cfe41980c4d5fd6c2b1b7ca4295335cb30744f361a0f99414442bc9c1b2",
+          "extraction_sha256": "3a5ec3604978ecd7d88e20e926e3fcfa88377a8b4d8fc9f8b6b9b11498a8fbae",
+          "classification": "VERIFIED_PRESERVED",
+          "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+          "classification_basis": "frozen raw-fidelity mapping"
+        }
+      ],
+      "byte_identity": false,
+      "extraction_identity": false,
+      "classification_identity": true
+    },
+    {
+      "fixture_id": "F13_D",
+      "runs": [
+        {
+          "run": 1,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run1/F13_D__LIBREOFFICE__R1.pdf",
+          "output_sha256": "4afcc25ffa894eefae850cbb0d8b5c5ff7c9c2da5133da10a77dcfa30879b11f",
+          "extraction_sha256": "0300274c2990e2fe9f706ab14124235fe149da3ad86cd6d621b172692aa6871b",
+          "classification": "VERIFIED_PRESERVED",
+          "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 2,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run2/F13_D__LIBREOFFICE__R2.pdf",
+          "output_sha256": "b8403e3c6f54f1be58205c87b53c90a76e7325746053ada1110efac98218cdad",
+          "extraction_sha256": "1288f9e7c7a7b6f3a10305914a6f67f3785ee6b9795d0944d6e7ac7ef502f677",
+          "classification": "VERIFIED_PRESERVED",
+          "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+          "classification_basis": "frozen raw-fidelity mapping"
+        },
+        {
+          "run": 3,
+          "output_path": "experiments/v4/conversions/libreoffice/repeatability/run3/F13_D__LIBREOFFICE__R3.pdf",
+          "output_sha256": "a3c502d57f80650f66ccd881a167e0a5dde4f87818a5ecca2ccbce61cd1fd99f",
+          "extraction_sha256": "15978d2bbc7d3eca8f827de10bd21729ee2db9cff5fe5ee6f6f5c42ae17450cc",
+          "classification": "VERIFIED_PRESERVED",
+          "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+          "classification_basis": "frozen raw-fidelity mapping"
+        }
+      ],
+      "byte_identity": false,
+      "extraction_identity": false,
+      "classification_identity": true
+    }
+  ],
+  "fixtures": 6,
+  "runs": 18,
+  "byte_identical": 0,
+  "extraction_identical": 0,
+  "classification_stable": 6,
+  "classification_counts": {
+    "VERIFIED_PRESERVED": 4,
+    "ALTERED": 1,
+    "MEASUREMENT_ERROR": 1
+  },
+  "conclusion": "All selected LibreOffice repeatability classifications were compared using the frozen extractor/comparator and independent output hashes."
+}

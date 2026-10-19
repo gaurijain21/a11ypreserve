@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import hashlib
 import json
-import os
 import shutil
 import subprocess
 from collections import defaultdict
@@ -44,13 +43,13 @@ def output_record(row: dict) -> dict:
 def main() -> None:
     (BASE / "evidence").mkdir(parents=True, exist_ok=True)
     # Independent text extraction is retained as corroborating evidence, not ground truth.
-    pdftotext = os.environ.get("A11YPRESERVE_PDFTOTEXT") or shutil.which("pdftotext")
+    pdftotext = shutil.which("pdftotext") or r"C:\Users\iamga\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdftotext.exe"
     for row in DIFF["records"]:
         pdf = Path(row["destination_path"])
         evidence_dir = BASE / "evidence" / row["fixture"]
         evidence_dir.mkdir(parents=True, exist_ok=True)
         text_path = evidence_dir / f"{row['converter'].lower().replace(' ', '_')}_pdftotext.txt"
-        if pdftotext and Path(pdftotext).exists():
+        if Path(pdftotext).exists():
             run = subprocess.run([pdftotext, "-layout", str(pdf), "-"], capture_output=True, text=True, check=False)
             text_path.write_text(run.stdout, encoding="utf-8")
 

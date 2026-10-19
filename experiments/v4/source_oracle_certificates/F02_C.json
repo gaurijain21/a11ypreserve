@@ -1,0 +1,62 @@
+{
+  "variant_id": "F02_C",
+  "feature_family": "alt_text",
+  "source_sha256": "7e4a11e6e81cb706783e876ea2f208b3469b8b4cb2ba769fbc0b930de6d1f2a9",
+  "contract_sha256": "94cc5b432f62416861950b13e6969bbe0a31882315134d3221d1f58779c77a47",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "7e4a11e6e81cb706783e876ea2f208b3469b8b4cb2ba769fbc0b930de6d1f2a9",
+    "headings": [],
+    "figures": [
+      {
+        "alt": "Punctuation: review — results (2026)!",
+        "decorative": false,
+        "title": "Alt image 1"
+      }
+    ],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 alt text 3",
+        "language": "en-US"
+      },
+      {
+        "text": "Each image description is an author-supplied source value.",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 alt text 3",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/media/image1.png",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

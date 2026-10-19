@@ -1,0 +1,7 @@
+{
+  "status": "NOT_RUN",
+  "primary": false,
+  "reason": "No V4 PDF outputs exist, so no consistent destination-only validator run can be compared against source-preservation classifications.",
+  "tools": [],
+  "interpretation": "Omitted rather than reported as validator failure."
+}

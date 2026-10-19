@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": {
+    "atomic_fixture_count": true,
+    "feature_family_count": true,
+    "variants_per_family": true,
+    "primary_denominator": true,
+    "supplementary_denominator": true,
+    "holdout_denominator": true,
+    "calibration_denominator": true,
+    "destination_mutations": true,
+    "libreoffice_profile_b": true,
+    "realistic_documents": true,
+    "primary_counts_libreoffice": true,
+    "primary_counts_google": true,
+    "supplementary_counts_word": true,
+    "manuscript_primary_numbers": true,
+    "v4_provenance_exists": true
+  },
+  "v4_primary_denominator": 130,
+  "v4_supplementary_denominator": 65,
+  "v4_archived_atomic_observations": 195,
+  "v5_profile_analysis": "experiments\\v5\\LIBREOFFICE_PROFILE_B_ANALYSIS.json"
+}

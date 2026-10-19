@@ -40,8 +40,7 @@ The final manuscript's primary interpretation of the same 26 records is 11 VERIF
 ## Verification status
 
 - Built with BibTeX plus three MiKTeX pdfLaTeX passes after the built-in compiler failed before source parsing with its environment diagnostic.
-- Final PDF: `paper/main.pdf`, 10 pages, 233158 bytes at final rebuild after the two submission wording repairs.
-- Final PDF SHA-256: `BDD9FE6A31E17DA034117C66324389487E13B7F374A62F97F0BDF8B4B656EEF4`.
+- Historical build record: `paper/main.pdf`, 10 pages, 233158 bytes, SHA-256 `BDD9FE6A31E17DA034117C66324389487E13B7F374A62F97F0BDF8B4B656EEF4`. The PDF is not present in the current checkout and is not reasserted as a current deliverable.
 - Citations and cross-references: no undefined citation, reference, or label diagnostics in the final log.
 - Layout: every page rendered to `paper/rendered_v3/page-01.png` through `page-10.png` and visually inspected. No clipping, overlap, broken reference, or unreadable figure was found. The result and loss tables are compact but legible; ordinary underfull-box warnings remain and no overfull-box warning was present.
-- Final decision: **READY FOR SUBMISSION TARGETING**, contingent on venue-specific template, anonymity, licensing, and public-artifact path cleanup.
+- Current decision: **READY FOR HUMAN REVIEW / NOT PDF-FROZEN**. The scientific and artifact repairs are complete, but a trusted environment must recreate and inspect the V3 venue PDF before submission.

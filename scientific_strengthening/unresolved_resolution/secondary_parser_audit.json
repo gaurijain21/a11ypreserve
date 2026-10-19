@@ -1,0 +1,410 @@
+{
+  "scope": "14 additive unresolved rows after the four-case hyperlink geometry audit",
+  "source_result_file_unchanged": true,
+  "records": [
+    {
+      "fixture": "F03_LISTS",
+      "feature": null,
+      "pipeline": "Google Docs",
+      "reason": "target-format representability ambiguity",
+      "pdf": "artifact_v3/corpus/outputs/google_docs/F03_LISTS__GOOGLE_DOCS.pdf",
+      "evidence": {
+        "pages": 1,
+        "pypdf_structure_roles": {
+          "/Document": 1,
+          "/H1": 1,
+          "/L": 3,
+          "/LBody": 1,
+          "/LI": 7,
+          "/P": 3
+        },
+        "pymupdf_links": 0,
+        "pymupdf_uri_targets": [],
+        "pymupdf_text_chars": 262,
+        "pymupdf_words": 35,
+        "pdfplumber": {
+          "available": false
+        }
+      },
+      "additional_general_rule": false,
+      "outcome": "RETAIN_ABSTENTION",
+      "explanation": "Independent parsers expose structure/text evidence, but no standards-grounded one-to-one semantic relation sufficient for the full source contract."
+    },
+    {
+      "fixture": "F10_COMPLEX_TABLE",
+      "feature": null,
+      "pipeline": "Google Docs",
+      "reason": "target-format representability ambiguity",
+      "pdf": "artifact_v3/corpus/outputs/google_docs/F10_COMPLEX_TABLE__GOOGLE_DOCS.pdf",
+      "evidence": {
+        "pages": 1,
+        "pypdf_structure_roles": {
+          "/Document": 1,
+          "/H1": 1,
+          "/P": 16,
+          "/TD": 9,
+          "/TH": 5,
+          "/TR": 5,
+          "/Table": 1
+        },
+        "pymupdf_links": 0,
+        "pymupdf_uri_targets": [],
+        "pymupdf_text_chars": 222,
+        "pymupdf_words": 33,
+        "pdfplumber": {
+          "available": false
+        }
+      },
+      "additional_general_rule": false,
+      "outcome": "RETAIN_ABSTENTION",
+      "explanation": "Independent parsers expose structure/text evidence, but no standards-grounded one-to-one semantic relation sufficient for the full source contract."
+    },
+    {
+      "fixture": "F12_EQUATION",
+      "feature": null,
+      "pipeline": "Google Docs",
+      "reason": "target-format representability ambiguity",
+      "pdf": "artifact_v3/corpus/outputs/google_docs/F12_EQUATION__GOOGLE_DOCS.pdf",
+      "evidence": {
+        "pages": 1,
+        "pypdf_structure_roles": {
+          "/Document": 1,
+          "/H1": 1,
+          "/P": 2,
+          "/Span": 2
+        },
+        "pymupdf_links": 0,
+        "pymupdf_uri_targets": [],
+        "pymupdf_text_chars": 119,
+        "pymupdf_words": 18,
+        "pdfplumber": {
+          "available": false
+        }
+      },
+      "additional_general_rule": false,
+      "outcome": "RETAIN_ABSTENTION",
+      "explanation": "Independent parsers expose structure/text evidence, but no standards-grounded one-to-one semantic relation sufficient for the full source contract."
+    },
+    {
+      "fixture": "F14_CAPTIONS",
+      "feature": null,
+      "pipeline": "Google Docs",
+      "reason": "target-format representability ambiguity",
+      "pdf": "artifact_v3/corpus/outputs/google_docs/F14_CAPTIONS__GOOGLE_DOCS.pdf",
+      "evidence": {
+        "pages": 1,
+        "pypdf_structure_roles": {
+          "/Document": 1,
+          "/Figure": 1,
+          "/H1": 1,
+          "/P": 3,
+          "/Span": 1
+        },
+        "pymupdf_links": 0,
+        "pymupdf_uri_targets": [],
+        "pymupdf_text_chars": 142,
+        "pymupdf_words": 18,
+        "pdfplumber": {
+          "available": false
+        }
+      },
+      "additional_general_rule": false,
+      "outcome": "RETAIN_ABSTENTION",
+      "explanation": "Independent parsers expose structure/text evidence, but no standards-grounded one-to-one semantic relation sufficient for the full source contract."
+    },
+    {
+      "fixture": "B03",
+      "feature": "lists",
+      "pipeline": "LibreOffice",
+      "reason": "extraction incomplete / target-format representability ambiguity",
+      "pdf": "artifact_v3/v3/variant_set_b/libreoffice/outputs/B03__LIBREOFFICE.pdf",
+      "evidence": {
+        "pages": 1,
+        "pypdf_structure_roles": {
+          "/Document": 1,
+          "/L": 4,
+          "/LBody": 5,
+          "/LI": 5,
+          "/Lbl": 5,
+          "/Standard": 5,
+          "/Title": 1
+        },
+        "pymupdf_links": 0,
+        "pymupdf_uri_targets": [],
+        "pymupdf_text_chars": 81,
+        "pymupdf_words": 16,
+        "pdfplumber": {
+          "available": false
+        }
+      },
+      "additional_general_rule": false,
+      "outcome": "RETAIN_ABSTENTION",
+      "explanation": "Independent parsers expose structure/text evidence, but no standards-grounded one-to-one semantic relation sufficient for the full source contract."
+    },
+    {
+      "fixture": "B03",
+      "feature": "lists",
+      "pipeline": "Google Docs",
+      "reason": "extraction incomplete / target-format representability ambiguity",
+      "pdf": "artifact_v3/v3/variant_set_b/google/outputs/B03__GOOGLE_DOCS.pdf",
+      "evidence": {
+        "pages": 1,
+        "pypdf_structure_roles": {
+          "/Document": 1,
+          "/H1": 1,
+          "/L": 6,
+          "/LI": 7
+        },
+        "pymupdf_links": 0,
+        "pymupdf_uri_targets": [],
+        "pymupdf_text_chars": 92,
+        "pymupdf_words": 16,
+        "pdfplumber": {
+          "available": false
+        }
+      },
+      "additional_general_rule": false,
+      "outcome": "RETAIN_ABSTENTION",
+      "explanation": "Independent parsers expose structure/text evidence, but no standards-grounded one-to-one semantic relation sufficient for the full source contract."
+    },
+    {
+      "fixture": "B04",
+      "feature": "table",
+      "pipeline": "LibreOffice",
+      "reason": "semantic-equivalence ambiguity",
+      "pdf": "artifact_v3/v3/variant_set_b/libreoffice/outputs/B04__LIBREOFFICE.pdf",
+      "evidence": {
+        "pages": 1,
+        "pypdf_structure_roles": {
+          "/Document": 1,
+          "/Standard": 16,
+          "/TD": 12,
+          "/TH": 4,
+          "/TR": 4,
+          "/Table": 1,
+          "/Title": 1
+        },
+        "pymupdf_links": 0,
+        "pymupdf_uri_targets": [],
+        "pymupdf_text_chars": 113,
+        "pymupdf_words": 21,
+        "pdfplumber": {
+          "available": false
+        }
+      },
+      "additional_general_rule": false,
+      "outcome": "RETAIN_ABSTENTION",
+      "explanation": "Independent parsers expose structure/text evidence, but no standards-grounded one-to-one semantic relation sufficient for the full source contract."
+    },
+    {
+      "fixture": "B04",
+      "feature": "table",
+      "pipeline": "Google Docs",
+      "reason": "semantic-equivalence ambiguity",
+      "pdf": "artifact_v3/v3/variant_set_b/google/outputs/B04__GOOGLE_DOCS.pdf",
+      "evidence": {
+        "pages": 1,
+        "pypdf_structure_roles": {
+          "/Document": 1,
+          "/H1": 1,
+          "/P": 17,
+          "/TD": 12,
+          "/TH": 4,
+          "/TR": 4,
+          "/Table": 1
+        },
+        "pymupdf_links": 0,
+        "pymupdf_uri_targets": [],
+        "pymupdf_text_chars": 132,
+        "pymupdf_words": 21,
+        "pdfplumber": {
+          "available": false
+        }
+      },
+      "additional_general_rule": false,
+      "outcome": "RETAIN_ABSTENTION",
+      "explanation": "Independent parsers expose structure/text evidence, but no standards-grounded one-to-one semantic relation sufficient for the full source contract."
+    },
+    {
+      "fixture": "B10",
+      "feature": "complex_table",
+      "pipeline": "LibreOffice",
+      "reason": "target-format representability and semantic-equivalence ambiguity",
+      "pdf": "artifact_v3/v3/variant_set_b/libreoffice/outputs/B10__LIBREOFFICE.pdf",
+      "evidence": {
+        "pages": 1,
+        "pypdf_structure_roles": {
+          "/Document": 1,
+          "/Standard": 18,
+          "/TD": 12,
+          "/TH": 6,
+          "/TR": 5,
+          "/Table": 1,
+          "/Title": 1
+        },
+        "pymupdf_links": 0,
+        "pymupdf_uri_targets": [],
+        "pymupdf_text_chars": 109,
+        "pymupdf_words": 22,
+        "pdfplumber": {
+          "available": false
+        }
+      },
+      "additional_general_rule": false,
+      "outcome": "RETAIN_ABSTENTION",
+      "explanation": "Independent parsers expose structure/text evidence, but no standards-grounded one-to-one semantic relation sufficient for the full source contract."
+    },
+    {
+      "fixture": "B10",
+      "feature": "complex_table",
+      "pipeline": "Google Docs",
+      "reason": "target-format representability and semantic-equivalence ambiguity",
+      "pdf": "artifact_v3/v3/variant_set_b/google/outputs/B10__GOOGLE_DOCS.pdf",
+      "evidence": {
+        "pages": 1,
+        "pypdf_structure_roles": {
+          "/Document": 1,
+          "/H1": 1,
+          "/P": 19,
+          "/TD": 12,
+          "/TH": 6,
+          "/TR": 5,
+          "/Table": 1
+        },
+        "pymupdf_links": 0,
+        "pymupdf_uri_targets": [],
+        "pymupdf_text_chars": 130,
+        "pymupdf_words": 22,
+        "pdfplumber": {
+          "available": false
+        }
+      },
+      "additional_general_rule": false,
+      "outcome": "RETAIN_ABSTENTION",
+      "explanation": "Independent parsers expose structure/text evidence, but no standards-grounded one-to-one semantic relation sufficient for the full source contract."
+    },
+    {
+      "fixture": "B11",
+      "feature": "footnotes",
+      "pipeline": "LibreOffice",
+      "reason": "extraction limitation",
+      "pdf": "artifact_v3/v3/variant_set_b/libreoffice/outputs/B11__LIBREOFFICE.pdf",
+      "evidence": {
+        "pages": 1,
+        "pypdf_structure_roles": {
+          "/Div": 1,
+          "/Document": 1,
+          "/Lbl": 2,
+          "/Link": 4,
+          "/Note": 2,
+          "/Standard": 3,
+          "/Title": 1
+        },
+        "pymupdf_links": 0,
+        "pymupdf_uri_targets": [],
+        "pymupdf_text_chars": 95,
+        "pymupdf_words": 17,
+        "pdfplumber": {
+          "available": false
+        }
+      },
+      "additional_general_rule": false,
+      "outcome": "RETAIN_ABSTENTION",
+      "explanation": "Independent parsers expose structure/text evidence, but no standards-grounded one-to-one semantic relation sufficient for the full source contract."
+    },
+    {
+      "fixture": "B12",
+      "feature": "equation",
+      "pipeline": "LibreOffice",
+      "reason": "target-format representability and semantic-equivalence ambiguity",
+      "pdf": "artifact_v3/v3/variant_set_b/libreoffice/outputs/B12__LIBREOFFICE.pdf",
+      "evidence": {
+        "pages": 1,
+        "pypdf_structure_roles": {
+          "/Document": 1,
+          "/Formula": 2,
+          "/Standard": 3,
+          "/Title": 1
+        },
+        "pymupdf_links": 0,
+        "pymupdf_uri_targets": [],
+        "pymupdf_text_chars": 82,
+        "pymupdf_words": 18,
+        "pdfplumber": {
+          "available": false
+        }
+      },
+      "additional_general_rule": false,
+      "outcome": "RETAIN_ABSTENTION",
+      "explanation": "Independent parsers expose structure/text evidence, but no standards-grounded one-to-one semantic relation sufficient for the full source contract."
+    },
+    {
+      "fixture": "B12",
+      "feature": "equation",
+      "pipeline": "Google Docs",
+      "reason": "target-format representability ambiguity",
+      "pdf": "artifact_v3/v3/variant_set_b/google/outputs/B12__GOOGLE_DOCS.pdf",
+      "evidence": {
+        "pages": 1,
+        "pypdf_structure_roles": {
+          "/Document": 1,
+          "/H1": 1,
+          "/P": 3,
+          "/Span": 4
+        },
+        "pymupdf_links": 0,
+        "pymupdf_uri_targets": [],
+        "pymupdf_text_chars": 84,
+        "pymupdf_words": 14,
+        "pdfplumber": {
+          "available": false
+        }
+      },
+      "additional_general_rule": false,
+      "outcome": "RETAIN_ABSTENTION",
+      "explanation": "Independent parsers expose structure/text evidence, but no standards-grounded one-to-one semantic relation sufficient for the full source contract."
+    },
+    {
+      "fixture": "B13",
+      "feature": "captions",
+      "pipeline": "Google Docs",
+      "reason": "target-format representability ambiguity",
+      "pdf": "artifact_v3/v3/variant_set_b/google/outputs/B13__GOOGLE_DOCS.pdf",
+      "evidence": {
+        "pages": 1,
+        "pypdf_structure_roles": {
+          "/Document": 1,
+          "/Figure": 2,
+          "/H1": 1,
+          "/P": 5,
+          "/Span": 2
+        },
+        "pymupdf_links": 0,
+        "pymupdf_uri_targets": [],
+        "pymupdf_text_chars": 130,
+        "pymupdf_words": 17,
+        "pdfplumber": {
+          "available": false
+        }
+      },
+      "additional_general_rule": false,
+      "outcome": "RETAIN_ABSTENTION",
+      "explanation": "Independent parsers expose structure/text evidence, but no standards-grounded one-to-one semantic relation sufficient for the full source contract."
+    }
+  ],
+  "counts_by_reason": {
+    "extraction incomplete / target-format representability ambiguity": 2,
+    "extraction limitation": 1,
+    "semantic-equivalence ambiguity": 2,
+    "target-format representability ambiguity": 6,
+    "target-format representability and semantic-equivalence ambiguity": 3
+  },
+  "resolved_by_this_audit": 0,
+  "remaining_abstentions": 14,
+  "parser_set": [
+    "pypdf",
+    "PyMuPDF",
+    "pdfplumber-unavailable"
+  ],
+  "conclusion": "No general deterministic equivalence rule was justified; all 14 additive abstentions remain."
+}

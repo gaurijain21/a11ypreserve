@@ -1,3 +1,7 @@
+# HISTORICAL — earlier full-experiment result snapshot
+
+> This document predates the current canonical V3 denominator and remains only as provenance.
+
 # DECISION: GO
 
 # FULL EXPERIMENT RESULTS

@@ -1,0 +1,65 @@
+{
+  "variant_id": "F11_B",
+  "feature_family": "footnotes",
+  "source_sha256": "86a868b8eaebc1e71a894725b293f6590700720b8f48e00c279610d65fdfb2ad",
+  "contract_sha256": "dedb53715d6a40520f90d3cbb8d4ef71b244308acdb6c01a43a3304056c97c8e",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "86a868b8eaebc1e71a894725b293f6590700720b8f48e00c279610d65fdfb2ad",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 footnotes 2",
+        "language": "en-US"
+      },
+      {
+        "text": "The source contains a footnote reference for each declared note.",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 footnotes 2",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [
+      {
+        "id": 1,
+        "text": " First note."
+      },
+      {
+        "id": 2,
+        "text": " Second note."
+      }
+    ],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/footnotes.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

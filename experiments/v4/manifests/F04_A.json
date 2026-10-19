@@ -1,0 +1,28 @@
+{
+  "variant_id": "F04_A",
+  "feature_family": "basic_tables",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F04_A.docx",
+  "ground_truth": {
+    "dimensions": {
+      "rows": 2,
+      "columns": 2
+    },
+    "header_rows": [
+      0
+    ],
+    "cells": [
+      [
+        "Name",
+        "Value"
+      ],
+      [
+        "A",
+        "1"
+      ]
+    ]
+  },
+  "source_sha256": "4eff9ec0fcb3da3b267f6948aac8fe0ee6f82523060c4629eb4b5f8f473a44b8"
+}

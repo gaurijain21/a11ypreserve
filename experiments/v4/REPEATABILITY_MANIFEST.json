@@ -1,0 +1,9 @@
+{
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "status": "NOT_RUN",
+  "target_runs_per_identical_source": 3,
+  "selected_features": ["inline_language", "basic_tables", "hyperlinks", "equations", "footnotes", "captions"],
+  "selected_variants": ["F04_D", "F06_D", "F08_D", "F11_D", "F12_D", "F13_D"],
+  "comparison_fields": ["byte_identity", "structure_identity", "extraction_identity", "classification_identity"],
+  "reason": "No legitimate V4 converter pipeline was available in the recorded environment."
+}

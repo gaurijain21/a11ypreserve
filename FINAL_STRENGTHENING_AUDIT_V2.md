@@ -1,3 +1,7 @@
+# HISTORICAL — V2 strengthening snapshot
+
+> The V2 evidence is preserved, but current submission claims are defined by `CANONICAL_SUBMISSION_STATE.md`.
+
 # SCIENTIFICALLY READY FOR SUBMISSION TARGETING
 
 ## Source oracle

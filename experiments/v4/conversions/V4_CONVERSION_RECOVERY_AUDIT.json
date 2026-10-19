@@ -1,0 +1,1724 @@
+{
+  "generated_at_utc": "2026-10-05T01:38:54.747993+00:00",
+  "checks": {
+    "frozen_hashes_match": true,
+    "google_output_records": true,
+    "google_outputs_all_pass": true,
+    "google_atomic_analysis_65": true,
+    "google_holdout_26": true,
+    "calibration_60_correct": true,
+    "calibration_zero_false_positive": true,
+    "calibration_five_false_negative": true,
+    "calibration_thirteen_correct_unresolved": true,
+    "source_oracle_39_of_39": true,
+    "google_repeatability_18": true,
+    "google_repeatability_classification_stable_6": true,
+    "cross_pipeline_atomic_65": true,
+    "no_identity_hits_in_google_artifacts": true
+  },
+  "frozen_hashes": {
+    "source_manifest": {
+      "expected": "6D4E77423E84AA6B0038FDBC4EA1BD8C65425C2C9DEF1C8A8D0C057E6D1AB5D7",
+      "actual": "6D4E77423E84AA6B0038FDBC4EA1BD8C65425C2C9DEF1C8A8D0C057E6D1AB5D7",
+      "match": true
+    },
+    "realistic_manifest": {
+      "expected": "E09C8EE8A5569B789E6BAC92DA8D5FF03CEBEBFA18DFF497FD9CDBA284985ED4",
+      "actual": "E09C8EE8A5569B789E6BAC92DA8D5FF03CEBEBFA18DFF497FD9CDBA284985ED4",
+      "match": true
+    },
+    "protocol": {
+      "expected": "B4A2F974B7E14CB6C5847EB8667BF3A7E9CDF5C38C60AFE9C47391F476648556",
+      "actual": "B4A2F974B7E14CB6C5847EB8667BF3A7E9CDF5C38C60AFE9C47391F476648556",
+      "match": true
+    },
+    "comparator": {
+      "expected": "8BD28AF4E330D100290A049965834CFB47B388A89DE36E563C741CC3199F8EC4",
+      "actual": "8BD28AF4E330D100290A049965834CFB47B388A89DE36E563C741CC3199F8EC4",
+      "match": true
+    },
+    "source_oracle": {
+      "expected": "7B5C309D80BD2DC32438A8EACE499ED145A0BF77E880616A0AA0875935EC1DE6",
+      "actual": "7B5C309D80BD2DC32438A8EACE499ED145A0BF77E880616A0AA0875935EC1DE6",
+      "match": true
+    },
+    "destination_extractor": {
+      "expected": "BBDD736254F7AD08D9CAD81DF1335A480C7E81CD3094FC83924C36D6913160C7",
+      "actual": "BBDD736254F7AD08D9CAD81DF1335A480C7E81CD3094FC83924C36D6913160C7",
+      "match": true
+    },
+    "frozen_analysis": {
+      "expected": "08FF23F71DE46D1DB31AC459878B5165506EAC83311FD7510222AD0A51C9D13D",
+      "actual": "08FF23F71DE46D1DB31AC459878B5165506EAC83311FD7510222AD0A51C9D13D",
+      "match": true
+    },
+    "holdout_manifest": {
+      "expected": "CC228687B6097886DF66CFFE3F112499AA83BE7056B90394D0C60869DB075E9E",
+      "actual": "CC228687B6097886DF66CFFE3F112499AA83BE7056B90394D0C60869DB075E9E",
+      "match": true
+    }
+  },
+  "google_output_checks": [
+    {
+      "fixture_id": "F01_A",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F01_A__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F01_B",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F01_B__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F01_C",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F01_C__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F01_D",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F01_D__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F01_E",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F01_E__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F02_A",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F02_A__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F02_B",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F02_B__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F02_C",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F02_C__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F02_D",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F02_D__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F02_E",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F02_E__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F03_A",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F03_A__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F03_B",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F03_B__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F03_C",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F03_C__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F03_D",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F03_D__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F03_E",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F03_E__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F04_A",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F04_A__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F04_B",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F04_B__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F04_C",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F04_C__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F04_D",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F04_D__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F04_E",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F04_E__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F05_A",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F05_A__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F05_B",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F05_B__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F05_C",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F05_C__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F05_D",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F05_D__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F05_E",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F05_E__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F06_A",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F06_A__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F06_B",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F06_B__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F06_C",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F06_C__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F06_D",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F06_D__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F06_E",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F06_E__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F07_A",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F07_A__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F07_B",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F07_B__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F07_C",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F07_C__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F07_D",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F07_D__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F07_E",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F07_E__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F08_A",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F08_A__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F08_B",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F08_B__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F08_C",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F08_C__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F08_D",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F08_D__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F08_E",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F08_E__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F09_A",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F09_A__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F09_B",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F09_B__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F09_C",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F09_C__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F09_D",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F09_D__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F09_E",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F09_E__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F10_A",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F10_A__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F10_B",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F10_B__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F10_C",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F10_C__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F10_D",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F10_D__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F10_E",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F10_E__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F11_A",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F11_A__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F11_B",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F11_B__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F11_C",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F11_C__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F11_D",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F11_D__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F11_E",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F11_E__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F12_A",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F12_A__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F12_B",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F12_B__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F12_C",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F12_C__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F12_D",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F12_D__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F12_E",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F12_E__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F13_A",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F13_A__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F13_B",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F13_B__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F13_C",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F13_C__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F13_D",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F13_D__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "F13_E",
+      "corpus": "atomic",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F13_E__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "R01",
+      "corpus": "realistic",
+      "output_path": "experiments/v4/conversions/google/outputs/realistic/R01__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "R02",
+      "corpus": "realistic",
+      "output_path": "experiments/v4/conversions/google/outputs/realistic/R02__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "R03",
+      "corpus": "realistic",
+      "output_path": "experiments/v4/conversions/google/outputs/realistic/R03__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "R04",
+      "corpus": "realistic",
+      "output_path": "experiments/v4/conversions/google/outputs/realistic/R04__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "R05",
+      "corpus": "realistic",
+      "output_path": "experiments/v4/conversions/google/outputs/realistic/R05__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "R06",
+      "corpus": "realistic",
+      "output_path": "experiments/v4/conversions/google/outputs/realistic/R06__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "R07",
+      "corpus": "realistic",
+      "output_path": "experiments/v4/conversions/google/outputs/realistic/R07__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "R08",
+      "corpus": "realistic",
+      "output_path": "experiments/v4/conversions/google/outputs/realistic/R08__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "R09",
+      "corpus": "realistic",
+      "output_path": "experiments/v4/conversions/google/outputs/realistic/R09__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    },
+    {
+      "fixture_id": "R10",
+      "corpus": "realistic",
+      "output_path": "experiments/v4/conversions/google/outputs/realistic/R10__GOOGLE_DOCS.pdf",
+      "producer": "Skia/PDF m156 Google Docs Renderer",
+      "checks": {
+        "source_hash_match": true,
+        "exists_nonzero": true,
+        "pdf_signature": true,
+        "parseable": true,
+        "tagged": true,
+        "timestamp_after_baseline": true,
+        "not_identical_to_libreoffice_output": true,
+        "producer_recorded": true,
+        "page_count_plausible": true
+      }
+    }
+  ],
+  "google_analysis_summary": {
+    "total": 65,
+    "counts": {
+      "OBSERVED_PARTIAL": 32,
+      "VERIFIED_PRESERVED": 11,
+      "ALTERED": 11,
+      "CONFIRMED_LOST": 6,
+      "UNRESOLVED_EQUIVALENCE": 5
+    },
+    "by_feature": {
+      "headings": {
+        "OBSERVED_PARTIAL": 5
+      },
+      "alt_text": {
+        "VERIFIED_PRESERVED": 5
+      },
+      "lists": {
+        "OBSERVED_PARTIAL": 5
+      },
+      "basic_tables": {
+        "VERIFIED_PRESERVED": 5
+      },
+      "alternative_text": {},
+      "document_title": {},
+      "document_language": {
+        "ALTERED": 5
+      },
+      "inline_language": {
+        "CONFIRMED_LOST": 5
+      },
+      "decorative_images": {
+        "OBSERVED_PARTIAL": 4,
+        "VERIFIED_PRESERVED": 1
+      },
+      "hyperlinks": {
+        "OBSERVED_PARTIAL": 4,
+        "ALTERED": 1
+      },
+      "document_metadata": {
+        "ALTERED": 5
+      },
+      "complex_tables": {
+        "OBSERVED_PARTIAL": 5
+      },
+      "footnotes": {
+        "UNRESOLVED_EQUIVALENCE": 5
+      },
+      "equations": {
+        "OBSERVED_PARTIAL": 5
+      },
+      "captions": {
+        "OBSERVED_PARTIAL": 4,
+        "CONFIRMED_LOST": 1
+      }
+    }
+  },
+  "google_holdout": {
+    "total": 26,
+    "counts": {
+      "OBSERVED_PARTIAL": 13,
+      "VERIFIED_PRESERVED": 4,
+      "ALTERED": 5,
+      "CONFIRMED_LOST": 2,
+      "UNRESOLVED_EQUIVALENCE": 2
+    },
+    "by_feature": {
+      "headings": {
+        "OBSERVED_PARTIAL": 2
+      },
+      "alt_text": {
+        "VERIFIED_PRESERVED": 2
+      },
+      "lists": {
+        "OBSERVED_PARTIAL": 2
+      },
+      "basic_tables": {
+        "VERIFIED_PRESERVED": 2
+      },
+      "alternative_text": {},
+      "document_title": {},
+      "document_language": {
+        "ALTERED": 2
+      },
+      "inline_language": {
+        "CONFIRMED_LOST": 2
+      },
+      "decorative_images": {
+        "OBSERVED_PARTIAL": 2
+      },
+      "hyperlinks": {
+        "OBSERVED_PARTIAL": 1,
+        "ALTERED": 1
+      },
+      "document_metadata": {
+        "ALTERED": 2
+      },
+      "complex_tables": {
+        "OBSERVED_PARTIAL": 2
+      },
+      "footnotes": {
+        "UNRESOLVED_EQUIVALENCE": 2
+      },
+      "equations": {
+        "OBSERVED_PARTIAL": 2
+      },
+      "captions": {
+        "OBSERVED_PARTIAL": 2
+      }
+    }
+  },
+  "google_repeatability": {
+    "protocol": "experiments/v4/REPEATABILITY_MANIFEST.json",
+    "pipeline": "Google Docs",
+    "records": [
+      {
+        "fixture_id": "F04_D",
+        "runs": [
+          {
+            "run": "run1",
+            "output_path": "experiments/v4/conversions/google/repeatability/run1/F04_D__GOOGLE_DOCS__R1.pdf",
+            "output_sha256": "c1811889c19ab31b3c62d2119a6ebffccaf559d0cf521efbf32e1ad46dd8365e",
+            "extraction_sha256": "55bee8ec52fc2414e3ec81067b6e0725be143f6876eab8254272c4fdf0a4ff2f",
+            "classification": "VERIFIED_PRESERVED",
+            "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+            "classification_basis": "frozen raw-fidelity mapping"
+          },
+          {
+            "run": "run2",
+            "output_path": "experiments/v4/conversions/google/repeatability/run2/F04_D__GOOGLE_DOCS__R2.pdf",
+            "output_sha256": "c1811889c19ab31b3c62d2119a6ebffccaf559d0cf521efbf32e1ad46dd8365e",
+            "extraction_sha256": "631bc1cb3aad98ede146f3cc54a266be68714d7bf7e45e2800797524060c48c4",
+            "classification": "VERIFIED_PRESERVED",
+            "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+            "classification_basis": "frozen raw-fidelity mapping"
+          },
+          {
+            "run": "run3",
+            "output_path": "experiments/v4/conversions/google/repeatability/run3/F04_D__GOOGLE_DOCS__R3.pdf",
+            "output_sha256": "c1811889c19ab31b3c62d2119a6ebffccaf559d0cf521efbf32e1ad46dd8365e",
+            "extraction_sha256": "abcb6a384712411fc1cba9674e05f9df7818bbd1b03a30e8e59ac8c5376f7e35",
+            "classification": "VERIFIED_PRESERVED",
+            "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+            "classification_basis": "frozen raw-fidelity mapping"
+          }
+        ],
+        "byte_identity": true,
+        "extraction_identity": false,
+        "classification_identity": true
+      },
+      {
+        "fixture_id": "F06_D",
+        "runs": [
+          {
+            "run": "run1",
+            "output_path": "experiments/v4/conversions/google/repeatability/run1/F06_D__GOOGLE_DOCS__R1.pdf",
+            "output_sha256": "8779503ebd2406458c20c72ebad877cb058a9c9f02254c4dc81df8fb3d342950",
+            "extraction_sha256": "d02ca601de855473848569646a622b20ea06acb484cb8b8cb31b618c22c512a9",
+            "classification": "CONFIRMED_LOST",
+            "raw_fidelity": "LOST",
+            "classification_basis": "raw loss corroborated by independent PyMuPDF/object-marker absence"
+          },
+          {
+            "run": "run2",
+            "output_path": "experiments/v4/conversions/google/repeatability/run2/F06_D__GOOGLE_DOCS__R2.pdf",
+            "output_sha256": "8779503ebd2406458c20c72ebad877cb058a9c9f02254c4dc81df8fb3d342950",
+            "extraction_sha256": "5ba7ece3f116948ec11e448d8faca6b54b8ef9be55646d33ac53672c9355bee7",
+            "classification": "CONFIRMED_LOST",
+            "raw_fidelity": "LOST",
+            "classification_basis": "raw loss corroborated by independent PyMuPDF/object-marker absence"
+          },
+          {
+            "run": "run3",
+            "output_path": "experiments/v4/conversions/google/repeatability/run3/F06_D__GOOGLE_DOCS__R3.pdf",
+            "output_sha256": "8779503ebd2406458c20c72ebad877cb058a9c9f02254c4dc81df8fb3d342950",
+            "extraction_sha256": "e82fb53e5ff3bf4c9f4a94afc2148f55c58210ac62af4278102d04c485e39103",
+            "classification": "CONFIRMED_LOST",
+            "raw_fidelity": "LOST",
+            "classification_basis": "raw loss corroborated by independent PyMuPDF/object-marker absence"
+          }
+        ],
+        "byte_identity": true,
+        "extraction_identity": false,
+        "classification_identity": true
+      },
+      {
+        "fixture_id": "F08_D",
+        "runs": [
+          {
+            "run": "run1",
+            "output_path": "experiments/v4/conversions/google/repeatability/run1/F08_D__GOOGLE_DOCS__R1.pdf",
+            "output_sha256": "b18f70e2a6759ea9d93173f42aa0766c0d037e77d1ef09f326823e0bb52d5803",
+            "extraction_sha256": "b2ccff0b0d4b203a90f657a0b74454125ebc86ad1b7f3a19b746ebb604025b4e",
+            "classification": "OBSERVED_PARTIAL",
+            "raw_fidelity": "PARTIAL_PRESERVATION",
+            "classification_basis": "frozen raw-fidelity mapping"
+          },
+          {
+            "run": "run2",
+            "output_path": "experiments/v4/conversions/google/repeatability/run2/F08_D__GOOGLE_DOCS__R2.pdf",
+            "output_sha256": "b18f70e2a6759ea9d93173f42aa0766c0d037e77d1ef09f326823e0bb52d5803",
+            "extraction_sha256": "52607f14e906ff113ae6f68356a1c03319d9cada809828a1b19a1f66f4f02d6e",
+            "classification": "OBSERVED_PARTIAL",
+            "raw_fidelity": "PARTIAL_PRESERVATION",
+            "classification_basis": "frozen raw-fidelity mapping"
+          },
+          {
+            "run": "run3",
+            "output_path": "experiments/v4/conversions/google/repeatability/run3/F08_D__GOOGLE_DOCS__R3.pdf",
+            "output_sha256": "b18f70e2a6759ea9d93173f42aa0766c0d037e77d1ef09f326823e0bb52d5803",
+            "extraction_sha256": "763be05a9e77010eb3f8321479cf131d6561bc3bbd00ca421518c4660f96e5b1",
+            "classification": "OBSERVED_PARTIAL",
+            "raw_fidelity": "PARTIAL_PRESERVATION",
+            "classification_basis": "frozen raw-fidelity mapping"
+          }
+        ],
+        "byte_identity": true,
+        "extraction_identity": false,
+        "classification_identity": true
+      },
+      {
+        "fixture_id": "F11_D",
+        "runs": [
+          {
+            "run": "run1",
+            "output_path": "experiments/v4/conversions/google/repeatability/run1/F11_D__GOOGLE_DOCS__R1.pdf",
+            "output_sha256": "5dccac92fb40e73bef2049d89e86af5a7785f9a846dabe9daee99a907909659a",
+            "extraction_sha256": "4735f20bcb5cd1532d137d719938332a25981a8ac998c83815edc68f199e23ec",
+            "classification": "UNRESOLVED_EQUIVALENCE",
+            "raw_fidelity": "LOST",
+            "classification_basis": "raw loss not independently corroborated; conservative abstention"
+          },
+          {
+            "run": "run2",
+            "output_path": "experiments/v4/conversions/google/repeatability/run2/F11_D__GOOGLE_DOCS__R2.pdf",
+            "output_sha256": "5dccac92fb40e73bef2049d89e86af5a7785f9a846dabe9daee99a907909659a",
+            "extraction_sha256": "d5ba7bea549a9e20fcd6c2c6de7d0a1650830ffc9ea08d5c79b99013ccc7736c",
+            "classification": "UNRESOLVED_EQUIVALENCE",
+            "raw_fidelity": "LOST",
+            "classification_basis": "raw loss not independently corroborated; conservative abstention"
+          },
+          {
+            "run": "run3",
+            "output_path": "experiments/v4/conversions/google/repeatability/run3/F11_D__GOOGLE_DOCS__R3.pdf",
+            "output_sha256": "5dccac92fb40e73bef2049d89e86af5a7785f9a846dabe9daee99a907909659a",
+            "extraction_sha256": "a322b4d2c96608f861d732954c49b9f4e17fe177983f2deaccc52e57b75e26d1",
+            "classification": "UNRESOLVED_EQUIVALENCE",
+            "raw_fidelity": "LOST",
+            "classification_basis": "raw loss not independently corroborated; conservative abstention"
+          }
+        ],
+        "byte_identity": true,
+        "extraction_identity": false,
+        "classification_identity": true
+      },
+      {
+        "fixture_id": "F12_D",
+        "runs": [
+          {
+            "run": "run1",
+            "output_path": "experiments/v4/conversions/google/repeatability/run1/F12_D__GOOGLE_DOCS__R1.pdf",
+            "output_sha256": "24b6aa70c3684281037838975ab25bbc6d0feb8ce5b583310cf97c5c0bb69a2c",
+            "extraction_sha256": "a379b0efd1d38a9b75451338ab65836d366f2a027becc82bfbc50e36483708b3",
+            "classification": "OBSERVED_PARTIAL",
+            "raw_fidelity": "PARTIAL_PRESERVATION",
+            "classification_basis": "frozen raw-fidelity mapping"
+          },
+          {
+            "run": "run2",
+            "output_path": "experiments/v4/conversions/google/repeatability/run2/F12_D__GOOGLE_DOCS__R2.pdf",
+            "output_sha256": "24b6aa70c3684281037838975ab25bbc6d0feb8ce5b583310cf97c5c0bb69a2c",
+            "extraction_sha256": "d08c7975f5209e2b4303ee48cebf1190fa2fbc3d10ade6fca2e2a9ee10ea5201",
+            "classification": "OBSERVED_PARTIAL",
+            "raw_fidelity": "PARTIAL_PRESERVATION",
+            "classification_basis": "frozen raw-fidelity mapping"
+          },
+          {
+            "run": "run3",
+            "output_path": "experiments/v4/conversions/google/repeatability/run3/F12_D__GOOGLE_DOCS__R3.pdf",
+            "output_sha256": "24b6aa70c3684281037838975ab25bbc6d0feb8ce5b583310cf97c5c0bb69a2c",
+            "extraction_sha256": "92160c6bc7262bb1417ae53d3d0f4d0e352d10ee80a18f707a64988ab48f0908",
+            "classification": "OBSERVED_PARTIAL",
+            "raw_fidelity": "PARTIAL_PRESERVATION",
+            "classification_basis": "frozen raw-fidelity mapping"
+          }
+        ],
+        "byte_identity": true,
+        "extraction_identity": false,
+        "classification_identity": true
+      },
+      {
+        "fixture_id": "F13_D",
+        "runs": [
+          {
+            "run": "run1",
+            "output_path": "experiments/v4/conversions/google/repeatability/run1/F13_D__GOOGLE_DOCS__R1.pdf",
+            "output_sha256": "47e015f2f3e8fad04d420a5645eab9499562c9ea3f764f3aa96485a07429746e",
+            "extraction_sha256": "2ff6588c4de3336955f1d340bd85e37dd66c65819a2dffbd7e7a11165406c92d",
+            "classification": "OBSERVED_PARTIAL",
+            "raw_fidelity": "PARTIAL_PRESERVATION",
+            "classification_basis": "frozen raw-fidelity mapping"
+          },
+          {
+            "run": "run2",
+            "output_path": "experiments/v4/conversions/google/repeatability/run2/F13_D__GOOGLE_DOCS__R2.pdf",
+            "output_sha256": "47e015f2f3e8fad04d420a5645eab9499562c9ea3f764f3aa96485a07429746e",
+            "extraction_sha256": "cf00766b7b3834b89e1bb38f31989ca760bd8c7cf4ceac1867b5afe1224062b1",
+            "classification": "OBSERVED_PARTIAL",
+            "raw_fidelity": "PARTIAL_PRESERVATION",
+            "classification_basis": "frozen raw-fidelity mapping"
+          },
+          {
+            "run": "run3",
+            "output_path": "experiments/v4/conversions/google/repeatability/run3/F13_D__GOOGLE_DOCS__R3.pdf",
+            "output_sha256": "47e015f2f3e8fad04d420a5645eab9499562c9ea3f764f3aa96485a07429746e",
+            "extraction_sha256": "70a7bd72131abf0edd62d1651157e32e69f2f4d52ae3ec415d6ea9030a76885b",
+            "classification": "OBSERVED_PARTIAL",
+            "raw_fidelity": "PARTIAL_PRESERVATION",
+            "classification_basis": "frozen raw-fidelity mapping"
+          }
+        ],
+        "byte_identity": true,
+        "extraction_identity": false,
+        "classification_identity": true
+      }
+    ],
+    "fixtures": 6,
+    "runs": 18,
+    "byte_identical": 6,
+    "extraction_identical": 0,
+    "classification_stable": 6,
+    "classification_counts": {
+      "VERIFIED_PRESERVED": 1,
+      "CONFIRMED_LOST": 1,
+      "OBSERVED_PARTIAL": 3,
+      "UNRESOLVED_EQUIVALENCE": 1
+    },
+    "conclusion": "All selected Google Docs repeatability classifications were compared using the frozen extractor/comparator and independent output hashes."
+  },
+  "cross_pipeline": {
+    "total": 65,
+    "libreoffice": {
+      "VERIFIED_PRESERVED": 38,
+      "ALTERED": 9,
+      "OBSERVED_PARTIAL": 11,
+      "CONFIRMED_LOST": 1,
+      "MEASUREMENT_ERROR": 5,
+      "UNRESOLVED_EQUIVALENCE": 1
+    },
+    "google_docs": {
+      "OBSERVED_PARTIAL": 32,
+      "VERIFIED_PRESERVED": 11,
+      "ALTERED": 11,
+      "CONFIRMED_LOST": 6,
+      "UNRESOLVED_EQUIVALENCE": 5
+    },
+    "same_classification": 16,
+    "different_classification": 49,
+    "classification_pairs": {
+      "VERIFIED_PRESERVED -> OBSERVED_PARTIAL": 19,
+      "ALTERED -> VERIFIED_PRESERVED": 6,
+      "OBSERVED_PARTIAL -> OBSERVED_PARTIAL": 11,
+      "VERIFIED_PRESERVED -> VERIFIED_PRESERVED": 5,
+      "VERIFIED_PRESERVED -> ALTERED": 10,
+      "VERIFIED_PRESERVED -> CONFIRMED_LOST": 4,
+      "ALTERED -> CONFIRMED_LOST": 1,
+      "ALTERED -> OBSERVED_PARTIAL": 2,
+      "CONFIRMED_LOST -> ALTERED": 1,
+      "MEASUREMENT_ERROR -> UNRESOLVED_EQUIVALENCE": 5,
+      "UNRESOLVED_EQUIVALENCE -> CONFIRMED_LOST": 1
+    }
+  },
+  "calibration": {
+    "correct": 60,
+    "incorrect": 18,
+    "unsupported_confident": 0,
+    "false_positives": 0,
+    "false_negatives": 5,
+    "correct_unresolved": 13
+  },
+  "source_oracle": {
+    "mutations": 39,
+    "detected": 39,
+    "status": "PASS"
+  },
+  "identity_hits": [],
+  "overall": true
+}

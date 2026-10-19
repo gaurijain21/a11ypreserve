@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import hashlib
 import json
-import os
 import sys
 from pathlib import Path
 from typing import Any
@@ -20,9 +19,9 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "integrated_study"
 DOCX_DIR = OUT / "sources"
 ASSETS = ROOT / "corpus"
-FOOTNOTE_HELPER = os.environ.get("A11YPRESERVE_DOCUMENT_SKILLS")
-if FOOTNOTE_HELPER and FOOTNOTE_HELPER not in sys.path:
-    sys.path.insert(0, FOOTNOTE_HELPER)
+FOOTNOTE_HELPER = Path("C:/Users/iamga/.codex/plugins/cache/openai-primary-runtime/documents/26.909.12148/skills/documents/scripts")
+if str(FOOTNOTE_HELPER) not in sys.path:
+    sys.path.insert(0, str(FOOTNOTE_HELPER))
 from insert_note import insert_note  # noqa: E402
 
 

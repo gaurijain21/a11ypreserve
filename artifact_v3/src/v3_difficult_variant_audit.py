@@ -111,8 +111,8 @@ def pymupdf_audit(path: Path) -> dict:
 
 def main() -> None:
     paths = {
-        "F06_CORE_GOOGLE": ROOT / "results/full_experiment/outputs/google_docs/F06_INLINE_LANGUAGE__GOOGLE_DOCS.pdf",
-        "F11_CORE_GOOGLE": ROOT / "results/full_experiment/outputs/google_docs/F11_FOOTNOTES__GOOGLE_DOCS.pdf",
+        "F06_CORE_GOOGLE": ROOT / "corpus/outputs/google_docs/F06_INLINE_LANGUAGE__GOOGLE_DOCS.pdf",
+        "F11_CORE_GOOGLE": ROOT / "corpus/outputs/google_docs/F11_FOOTNOTES__GOOGLE_DOCS.pdf",
         "B06_VARIANT_GOOGLE": ROOT / "v3/variant_set_b/google/outputs/B06__GOOGLE_DOCS.pdf",
         "B11_VARIANT_GOOGLE": ROOT / "v3/variant_set_b/google/outputs/B11__GOOGLE_DOCS.pdf",
     }

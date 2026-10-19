@@ -1,3 +1,7 @@
+# HISTORICAL — V2-to-V3 methodology decision
+
+> This record is retained for methodological chronology; it is not the sole current status document.
+
 # READY WITH NARROWER CLAIMS
 
 ## Scientific boundary
@@ -33,4 +37,3 @@ No fatal issue was found in the V2 source/destination comparison or the two boun
 ## Exact recommendation
 
 Retain the current V2 ICST package as the submission candidate only after applying the pending chronology wording repair in a separate manuscript copy. Do not add V3 variant/repeatability numbers to the manuscript until the blocked Google arm is completed. Do not submit, upload, or publicly release from this pass.
-

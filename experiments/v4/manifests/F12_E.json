@@ -1,0 +1,32 @@
+{
+  "variant_id": "F12_E",
+  "feature_family": "equations",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F12_E.docx",
+  "ground_truth": {
+    "equations": [
+      {
+        "expression": "E = mc^2",
+        "tokens": [
+          "E",
+          "=",
+          "m",
+          "c",
+          "2"
+        ]
+      },
+      {
+        "expression": "F = ma",
+        "tokens": [
+          "F",
+          "=",
+          "m",
+          "a"
+        ]
+      }
+    ]
+  },
+  "source_sha256": "58799267553269c18406d2602d4dc30a4dd968ebe5b8204df621623358e54ec8"
+}

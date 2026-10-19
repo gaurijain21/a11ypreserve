@@ -1,0 +1,88 @@
+{
+  "variant_id": "F01_C",
+  "feature_family": "headings",
+  "source_sha256": "013f01dd8db9301dd49124f382f5d56530903dbab4b545c8c24d13443b1df44d",
+  "contract_sha256": "c4d78393c1908aa2fd182fc586d2a05d2221982c028d5362cff7f77a79117d22",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "013f01dd8db9301dd49124f382f5d56530903dbab4b545c8c24d13443b1df44d",
+    "headings": [
+      {
+        "text": "A",
+        "level": 1
+      },
+      {
+        "text": "B",
+        "level": 2
+      },
+      {
+        "text": "C",
+        "level": 2
+      },
+      {
+        "text": "D",
+        "level": 2
+      }
+    ],
+    "figures": [],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 headings 3",
+        "language": "en-US"
+      },
+      {
+        "text": "A",
+        "language": "en-US"
+      },
+      {
+        "text": "B",
+        "language": "en-US"
+      },
+      {
+        "text": "C",
+        "language": "en-US"
+      },
+      {
+        "text": "D",
+        "language": "en-US"
+      },
+      {
+        "text": "The heading hierarchy is separated from ordinary body text.",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 headings 3",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

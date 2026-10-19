@@ -1,0 +1,10 @@
+{
+  "status": "NOT_RUN",
+  "reason": "No legitimate V4 converter pipeline was available in the recorded environment.",
+  "feature_families": 13,
+  "variants_per_feature": 5,
+  "atomic_fixtures": 65,
+  "converters": [],
+  "primary_cases": 0,
+  "records": []
+}

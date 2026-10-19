@@ -3,8 +3,6 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
-import os
-import shutil
 import subprocess
 from collections import Counter
 from datetime import datetime, timezone
@@ -56,8 +54,8 @@ def manifest_for(fixture: str) -> tuple[dict[str, Any], Path]:
 
 
 def text_extract(pdf: Path) -> str:
-    exe = os.environ.get("A11YPRESERVE_PDFTOTEXT") or shutil.which("pdftotext")
-    if not exe:
+    exe = r"C:\Users\iamga\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdftotext.exe"
+    if not Path(exe).exists():
         return ""
     run = subprocess.run([exe, "-layout", str(pdf), "-"], capture_output=True, text=True, check=False)
     return run.stdout

@@ -1,3 +1,7 @@
+# HISTORICAL — superseded Google automation blocker
+
+> This records an earlier attempt before the current V3 Variant B and repeatability evidence. Use `reports/GOOGLE_ROUTE_AUDIT.md` for the current route account.
+
 # Google Automation Blocker
 
 Date: 2026-09-28

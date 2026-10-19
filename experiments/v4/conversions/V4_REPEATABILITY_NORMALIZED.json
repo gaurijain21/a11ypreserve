@@ -1,0 +1,909 @@
+{
+  "method": "Fresh pdf_extract runs with provenance/path fields and process-address-only object noise normalized separately from raw extraction.",
+  "google": {
+    "pipeline": "Google Docs",
+    "fixtures": [
+      {
+        "fixture_id": "F04_D",
+        "paths": [
+          "experiments/v4/conversions/google/repeatability/run1/F04_D__GOOGLE_DOCS__R1.pdf",
+          "experiments/v4/conversions/google/repeatability/run2/F04_D__GOOGLE_DOCS__R2.pdf",
+          "experiments/v4/conversions/google/repeatability/run3/F04_D__GOOGLE_DOCS__R3.pdf"
+        ],
+        "file_lengths": [
+          26924,
+          26924,
+          26924
+        ],
+        "pdf_sha256": [
+          "c1811889c19ab31b3c62d2119a6ebffccaf559d0cf521efbf32e1ad46dd8365e",
+          "c1811889c19ab31b3c62d2119a6ebffccaf559d0cf521efbf32e1ad46dd8365e",
+          "c1811889c19ab31b3c62d2119a6ebffccaf559d0cf521efbf32e1ad46dd8365e"
+        ],
+        "byte_identity": true,
+        "metadata": [
+          {
+            "format": "PDF 1.4",
+            "title": "F04_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.4",
+            "title": "F04_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.4",
+            "title": "F04_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          }
+        ],
+        "raw_extraction_sha256": [
+          "f36488d62a768b2c18c5d677704e4c11fdd78342db978d3abaa04d48f53642b0",
+          "555d6a53511fdc9546aca9e059c46de1746ef23f0f4f8b3d0f552f2af8998482",
+          "affd3ffe064fa1bf7865ee8b2038aca3c7d22324362161946345157841d8fdb4"
+        ],
+        "raw_extraction_identity": false,
+        "normalized_semantic_sha256": [
+          "d8f6d207b2b1684955fe00dff5523fc02b6592b2fdc3a2da4f30d6d31d4fe1d5",
+          "d8f6d207b2b1684955fe00dff5523fc02b6592b2fdc3a2da4f30d6d31d4fe1d5",
+          "d8f6d207b2b1684955fe00dff5523fc02b6592b2fdc3a2da4f30d6d31d4fe1d5"
+        ],
+        "normalized_semantic_identity": true,
+        "raw_difference_paths": [
+          ".extraction.source",
+          ".headings[0].evidence.object",
+          ".tables[0].evidence.object",
+          ".tables[10].evidence.object",
+          ".tables[11].evidence.object",
+          ".tables[12].evidence.object",
+          ".tables[1].evidence.object",
+          ".tables[2].evidence.object",
+          ".tables[3].evidence.object",
+          ".tables[4].evidence.object",
+          ".tables[5].evidence.object",
+          ".tables[6].evidence.object",
+          ".tables[7].evidence.object",
+          ".tables[8].evidence.object",
+          ".tables[9].evidence.object"
+        ],
+        "normalized_difference_paths": []
+      },
+      {
+        "fixture_id": "F06_D",
+        "paths": [
+          "experiments/v4/conversions/google/repeatability/run1/F06_D__GOOGLE_DOCS__R1.pdf",
+          "experiments/v4/conversions/google/repeatability/run2/F06_D__GOOGLE_DOCS__R2.pdf",
+          "experiments/v4/conversions/google/repeatability/run3/F06_D__GOOGLE_DOCS__R3.pdf"
+        ],
+        "file_lengths": [
+          22990,
+          22990,
+          22990
+        ],
+        "pdf_sha256": [
+          "8779503ebd2406458c20c72ebad877cb058a9c9f02254c4dc81df8fb3d342950",
+          "8779503ebd2406458c20c72ebad877cb058a9c9f02254c4dc81df8fb3d342950",
+          "8779503ebd2406458c20c72ebad877cb058a9c9f02254c4dc81df8fb3d342950"
+        ],
+        "byte_identity": true,
+        "metadata": [
+          {
+            "format": "PDF 1.4",
+            "title": "F06_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.4",
+            "title": "F06_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.4",
+            "title": "F06_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          }
+        ],
+        "raw_extraction_sha256": [
+          "9f5793b318aefd41a9cc9bc9a6e5fe2709356f5b095198abbfa516e3b98ee15b",
+          "af82706775d80ef8d5d2c6ba09e31b63b39213664deb4e27023db364665e1e50",
+          "0da71c5e8740747e4dc10d79552f8ba94d2071e56ff197f2dd267d12e70a64ff"
+        ],
+        "raw_extraction_identity": false,
+        "normalized_semantic_sha256": [
+          "66e5b52845a7238b787a485fe2e588069d080fecfa0e3121970054f499f511a4",
+          "66e5b52845a7238b787a485fe2e588069d080fecfa0e3121970054f499f511a4",
+          "66e5b52845a7238b787a485fe2e588069d080fecfa0e3121970054f499f511a4"
+        ],
+        "normalized_semantic_identity": true,
+        "raw_difference_paths": [
+          ".extraction.source",
+          ".headings[0].evidence.object"
+        ],
+        "normalized_difference_paths": []
+      },
+      {
+        "fixture_id": "F08_D",
+        "paths": [
+          "experiments/v4/conversions/google/repeatability/run1/F08_D__GOOGLE_DOCS__R1.pdf",
+          "experiments/v4/conversions/google/repeatability/run2/F08_D__GOOGLE_DOCS__R2.pdf",
+          "experiments/v4/conversions/google/repeatability/run3/F08_D__GOOGLE_DOCS__R3.pdf"
+        ],
+        "file_lengths": [
+          23105,
+          23105,
+          23105
+        ],
+        "pdf_sha256": [
+          "b18f70e2a6759ea9d93173f42aa0766c0d037e77d1ef09f326823e0bb52d5803",
+          "b18f70e2a6759ea9d93173f42aa0766c0d037e77d1ef09f326823e0bb52d5803",
+          "b18f70e2a6759ea9d93173f42aa0766c0d037e77d1ef09f326823e0bb52d5803"
+        ],
+        "byte_identity": true,
+        "metadata": [
+          {
+            "format": "PDF 1.4",
+            "title": "F08_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.4",
+            "title": "F08_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.4",
+            "title": "F08_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          }
+        ],
+        "raw_extraction_sha256": [
+          "99d391bcb937ff86a01a4931135af76310e7ac7309c834df31a8ccb9848abbed",
+          "3e3ddabaa3692cf40221f1ba0636db3b4af2ea8525b8a5695cf72fd35f30f438",
+          "1f8b96dc3efc8937bf003364a1f64b2b77b4c2fcb660dff95f3cb0cac74ddd6e"
+        ],
+        "raw_extraction_identity": false,
+        "normalized_semantic_sha256": [
+          "6a1325f3c7d4449cbc4162e2f94552103cf5ff96f922cbb288ec6f64304933cd",
+          "6a1325f3c7d4449cbc4162e2f94552103cf5ff96f922cbb288ec6f64304933cd",
+          "6a1325f3c7d4449cbc4162e2f94552103cf5ff96f922cbb288ec6f64304933cd"
+        ],
+        "normalized_semantic_identity": true,
+        "raw_difference_paths": [
+          ".extraction.source",
+          ".headings[0].evidence.object"
+        ],
+        "normalized_difference_paths": []
+      },
+      {
+        "fixture_id": "F11_D",
+        "paths": [
+          "experiments/v4/conversions/google/repeatability/run1/F11_D__GOOGLE_DOCS__R1.pdf",
+          "experiments/v4/conversions/google/repeatability/run2/F11_D__GOOGLE_DOCS__R2.pdf",
+          "experiments/v4/conversions/google/repeatability/run3/F11_D__GOOGLE_DOCS__R3.pdf"
+        ],
+        "file_lengths": [
+          24907,
+          24907,
+          24907
+        ],
+        "pdf_sha256": [
+          "5dccac92fb40e73bef2049d89e86af5a7785f9a846dabe9daee99a907909659a",
+          "5dccac92fb40e73bef2049d89e86af5a7785f9a846dabe9daee99a907909659a",
+          "5dccac92fb40e73bef2049d89e86af5a7785f9a846dabe9daee99a907909659a"
+        ],
+        "byte_identity": true,
+        "metadata": [
+          {
+            "format": "PDF 1.4",
+            "title": "F11_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.4",
+            "title": "F11_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.4",
+            "title": "F11_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          }
+        ],
+        "raw_extraction_sha256": [
+          "179b6c8c8a4aebe2d5637e86526e9ed52bdd13a1cd21171795f31d81f6803c80",
+          "6c104712a9a4d28d4623dedb952371f4e9147e986047ef8ae1802823ef54445b",
+          "aa494d645aa69473f2bb6f8bf5cec5625409d1af367b5308d3f8c6245205f197"
+        ],
+        "raw_extraction_identity": false,
+        "normalized_semantic_sha256": [
+          "ce8bd1719256526af66e4eb4e5c0a8c8aeee632a4478fb2dd00e5f8a35057cf9",
+          "ce8bd1719256526af66e4eb4e5c0a8c8aeee632a4478fb2dd00e5f8a35057cf9",
+          "ce8bd1719256526af66e4eb4e5c0a8c8aeee632a4478fb2dd00e5f8a35057cf9"
+        ],
+        "normalized_semantic_identity": true,
+        "raw_difference_paths": [
+          ".extraction.source",
+          ".headings[0].evidence.object"
+        ],
+        "normalized_difference_paths": []
+      },
+      {
+        "fixture_id": "F12_D",
+        "paths": [
+          "experiments/v4/conversions/google/repeatability/run1/F12_D__GOOGLE_DOCS__R1.pdf",
+          "experiments/v4/conversions/google/repeatability/run2/F12_D__GOOGLE_DOCS__R2.pdf",
+          "experiments/v4/conversions/google/repeatability/run3/F12_D__GOOGLE_DOCS__R3.pdf"
+        ],
+        "file_lengths": [
+          29842,
+          29842,
+          29842
+        ],
+        "pdf_sha256": [
+          "24b6aa70c3684281037838975ab25bbc6d0feb8ce5b583310cf97c5c0bb69a2c",
+          "24b6aa70c3684281037838975ab25bbc6d0feb8ce5b583310cf97c5c0bb69a2c",
+          "24b6aa70c3684281037838975ab25bbc6d0feb8ce5b583310cf97c5c0bb69a2c"
+        ],
+        "byte_identity": true,
+        "metadata": [
+          {
+            "format": "PDF 1.4",
+            "title": "F12_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.4",
+            "title": "F12_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.4",
+            "title": "F12_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          }
+        ],
+        "raw_extraction_sha256": [
+          "fa187ce550a7245a3b12dde1f6ac10615e4558c36cb088240647224d6826d23b",
+          "bda8b1cbf2845cc01ca3e28e7d8ab556510e25458e44d6fcf823a2a2b62098cf",
+          "41bcfd64e95f53db60d5d679a1f2ca5c1a4b4128ee2585d74286a0c896b1b87c"
+        ],
+        "raw_extraction_identity": false,
+        "normalized_semantic_sha256": [
+          "99756fc3826d94012b0c5a52e983cefc9077b5c91a96a528c2096c273d4fe3b1",
+          "99756fc3826d94012b0c5a52e983cefc9077b5c91a96a528c2096c273d4fe3b1",
+          "99756fc3826d94012b0c5a52e983cefc9077b5c91a96a528c2096c273d4fe3b1"
+        ],
+        "normalized_semantic_identity": true,
+        "raw_difference_paths": [
+          ".extraction.source",
+          ".headings[0].evidence.object"
+        ],
+        "normalized_difference_paths": []
+      },
+      {
+        "fixture_id": "F13_D",
+        "paths": [
+          "experiments/v4/conversions/google/repeatability/run1/F13_D__GOOGLE_DOCS__R1.pdf",
+          "experiments/v4/conversions/google/repeatability/run2/F13_D__GOOGLE_DOCS__R2.pdf",
+          "experiments/v4/conversions/google/repeatability/run3/F13_D__GOOGLE_DOCS__R3.pdf"
+        ],
+        "file_lengths": [
+          29817,
+          29817,
+          29817
+        ],
+        "pdf_sha256": [
+          "47e015f2f3e8fad04d420a5645eab9499562c9ea3f764f3aa96485a07429746e",
+          "47e015f2f3e8fad04d420a5645eab9499562c9ea3f764f3aa96485a07429746e",
+          "47e015f2f3e8fad04d420a5645eab9499562c9ea3f764f3aa96485a07429746e"
+        ],
+        "byte_identity": true,
+        "metadata": [
+          {
+            "format": "PDF 1.4",
+            "title": "F13_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.4",
+            "title": "F13_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.4",
+            "title": "F13_D",
+            "author": "",
+            "subject": "",
+            "keywords": "",
+            "creator": "",
+            "producer": "Skia/PDF m156 Google Docs Renderer",
+            "creationDate": "",
+            "modDate": ""
+          }
+        ],
+        "raw_extraction_sha256": [
+          "f3a592981c45fb8c319e0548bc77de508887466de4d9cd3e88069e4b3f16720b",
+          "007d44f34c5d9a7081ad922354a57fa016b7a7bbc0456762a22f68f5542ebd14",
+          "d207e0a1d7628031c8aa4411a4912995bb8f6c9fb82a326bdb09aa9883ff97ac"
+        ],
+        "raw_extraction_identity": false,
+        "normalized_semantic_sha256": [
+          "feab0823769aba9ebb5c26a5375e41458efd57b197de8084e102be285ecb7a5d",
+          "feab0823769aba9ebb5c26a5375e41458efd57b197de8084e102be285ecb7a5d",
+          "feab0823769aba9ebb5c26a5375e41458efd57b197de8084e102be285ecb7a5d"
+        ],
+        "normalized_semantic_identity": true,
+        "raw_difference_paths": [
+          ".extraction.source",
+          ".figures[0].evidence.object",
+          ".headings[0].evidence.object",
+          ".images[0].evidence.object"
+        ],
+        "normalized_difference_paths": []
+      }
+    ],
+    "byte_identity": 6,
+    "raw_extraction_identity": 0,
+    "normalized_semantic_identity": 6,
+    "classification_identity": 6
+  },
+  "libreoffice": {
+    "pipeline": "LibreOffice",
+    "fixtures": [
+      {
+        "fixture_id": "F04_D",
+        "paths": [
+          "experiments/v4/conversions/libreoffice/repeatability/run1/F04_D__LIBREOFFICE__R1.pdf",
+          "experiments/v4/conversions/libreoffice/repeatability/run2/F04_D__LIBREOFFICE__R2.pdf",
+          "experiments/v4/conversions/libreoffice/repeatability/run3/F04_D__LIBREOFFICE__R3.pdf"
+        ],
+        "file_lengths": [
+          40560,
+          40560,
+          40560
+        ],
+        "pdf_sha256": [
+          "14846bccd99d0f26887aab03e3c26e222a5c235d1213312f513b34b64f543b06",
+          "f7f88c3c56a67d6c7681058a4733c5cf51e4496f5a3d1ec81d01405518a2ce99",
+          "cb634b25140350e3f6b5aa4112a894050e9371e9bdb3c33e3c5d27bbfb6257ad"
+        ],
+        "byte_identity": false,
+        "metadata": [
+          {
+            "format": "PDF 1.7",
+            "title": "V4 basic table 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170307-07'00'",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.7",
+            "title": "V4 basic table 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170506-07'00'",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.7",
+            "title": "V4 basic table 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170702-07'00'",
+            "modDate": ""
+          }
+        ],
+        "raw_extraction_sha256": [
+          "01ee98a8550d19f7e5ae81366b4ba8ea385c415439f4e8b59c3221fc5f20dbd9",
+          "493cf2e80b0bf4081a705c1c86bace6bbc32a3598607f88ea7b3c789eda5d0df",
+          "4d99f2ab737ce45cf3d77b72098917c85df551ce6276ac648cd589455e5392d0"
+        ],
+        "raw_extraction_identity": false,
+        "normalized_semantic_sha256": [
+          "e00031a22b8eb7ac969f304968dc7e55f8f418b6bdecfa2a92a7afe5137dfc2f",
+          "e00031a22b8eb7ac969f304968dc7e55f8f418b6bdecfa2a92a7afe5137dfc2f",
+          "e00031a22b8eb7ac969f304968dc7e55f8f418b6bdecfa2a92a7afe5137dfc2f"
+        ],
+        "normalized_semantic_identity": true,
+        "raw_difference_paths": [
+          ".document.metadata.CreationDate",
+          ".extraction.source",
+          ".tables[0].evidence.object",
+          ".tables[10].evidence.object",
+          ".tables[11].evidence.object",
+          ".tables[12].evidence.object",
+          ".tables[1].evidence.object",
+          ".tables[2].evidence.object",
+          ".tables[3].evidence.object",
+          ".tables[4].evidence.object",
+          ".tables[5].evidence.object",
+          ".tables[6].evidence.object",
+          ".tables[7].evidence.object",
+          ".tables[8].evidence.object",
+          ".tables[9].evidence.object"
+        ],
+        "normalized_difference_paths": []
+      },
+      {
+        "fixture_id": "F06_D",
+        "paths": [
+          "experiments/v4/conversions/libreoffice/repeatability/run1/F06_D__LIBREOFFICE__R1.pdf",
+          "experiments/v4/conversions/libreoffice/repeatability/run2/F06_D__LIBREOFFICE__R2.pdf",
+          "experiments/v4/conversions/libreoffice/repeatability/run3/F06_D__LIBREOFFICE__R3.pdf"
+        ],
+        "file_lengths": [
+          35280,
+          35280,
+          35280
+        ],
+        "pdf_sha256": [
+          "bc4d1dd89981359c3451f46b5d7eb818a5b06159cca0949ac695cf21c9d395b0",
+          "2befacad577bf3c7220a264409cfc6f24e8997d9f5b683c36edb537b5ec229da",
+          "c446a8fb0221ddf9ef3f9b8468397e9c3e4b362acc10c5fe01e7216085dbb51c"
+        ],
+        "byte_identity": false,
+        "metadata": [
+          {
+            "format": "PDF 1.7",
+            "title": "V4 inline language 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170332-07'00'",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.7",
+            "title": "V4 inline language 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170524-07'00'",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.7",
+            "title": "V4 inline language 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170720-07'00'",
+            "modDate": ""
+          }
+        ],
+        "raw_extraction_sha256": [
+          "f1078f713756eb2c6ac46c98fbd743a9533640d506db6b86b40ae4a19b7242c9",
+          "579634a768b624b7e91048d0e41b29cd79a4794d850b7b816982a29863c9cd42",
+          "0f47bc4d97de7b461454eeca60c301205ba0b3fee44cb1002d9c27d87239f956"
+        ],
+        "raw_extraction_identity": false,
+        "normalized_semantic_sha256": [
+          "ce2d2907d710b3cf9f19d29106a2b6144b25c391f7e8e2acb1832188e1f546c2",
+          "ce2d2907d710b3cf9f19d29106a2b6144b25c391f7e8e2acb1832188e1f546c2",
+          "ce2d2907d710b3cf9f19d29106a2b6144b25c391f7e8e2acb1832188e1f546c2"
+        ],
+        "normalized_semantic_identity": true,
+        "raw_difference_paths": [
+          ".document.metadata.CreationDate",
+          ".extraction.source",
+          ".inline_languages[0].evidence.object",
+          ".inline_languages[1].evidence.object",
+          ".inline_languages[2].evidence.object"
+        ],
+        "normalized_difference_paths": []
+      },
+      {
+        "fixture_id": "F08_D",
+        "paths": [
+          "experiments/v4/conversions/libreoffice/repeatability/run1/F08_D__LIBREOFFICE__R1.pdf",
+          "experiments/v4/conversions/libreoffice/repeatability/run2/F08_D__LIBREOFFICE__R2.pdf",
+          "experiments/v4/conversions/libreoffice/repeatability/run3/F08_D__LIBREOFFICE__R3.pdf"
+        ],
+        "file_lengths": [
+          34481,
+          34481,
+          34481
+        ],
+        "pdf_sha256": [
+          "f0d9348afa5fcdbc6feecd6c27f94645c189df6a36b168fd7016f0ce991c6df2",
+          "4233aed724f78599e770af7f1f2e39da0d154a0070a94d0cba97849c9869aee1",
+          "8f8bf162febc15540afb257efc7acfb34578f7b0776d37a4a66653f6fffb44a7"
+        ],
+        "byte_identity": false,
+        "metadata": [
+          {
+            "format": "PDF 1.7",
+            "title": "V4 hyperlinks 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170350-07'00'",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.7",
+            "title": "V4 hyperlinks 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170542-07'00'",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.7",
+            "title": "V4 hyperlinks 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170739-07'00'",
+            "modDate": ""
+          }
+        ],
+        "raw_extraction_sha256": [
+          "6a7b372368786e3a33a1c526cf138e9322b975524d7b3b86e5defecd208fdb7c",
+          "de5c07670b79748dd84d393dec52521e79f24ab16fd38d80a32d019e63d2a4c6",
+          "3445273b717d744d91051e9478fd749fcdd926c7aa068ca56454be651ee2717c"
+        ],
+        "raw_extraction_identity": false,
+        "normalized_semantic_sha256": [
+          "2ea25fcb6275d1befab61564ba9b88fef6df2a6528321963892fa558299318f8",
+          "2ea25fcb6275d1befab61564ba9b88fef6df2a6528321963892fa558299318f8",
+          "2ea25fcb6275d1befab61564ba9b88fef6df2a6528321963892fa558299318f8"
+        ],
+        "normalized_semantic_identity": true,
+        "raw_difference_paths": [
+          ".document.metadata.CreationDate",
+          ".extraction.source"
+        ],
+        "normalized_difference_paths": []
+      },
+      {
+        "fixture_id": "F11_D",
+        "paths": [
+          "experiments/v4/conversions/libreoffice/repeatability/run1/F11_D__LIBREOFFICE__R1.pdf",
+          "experiments/v4/conversions/libreoffice/repeatability/run2/F11_D__LIBREOFFICE__R2.pdf",
+          "experiments/v4/conversions/libreoffice/repeatability/run3/F11_D__LIBREOFFICE__R3.pdf"
+        ],
+        "file_lengths": [
+          36184,
+          36184,
+          36184
+        ],
+        "pdf_sha256": [
+          "71a3b5006359ce571af2cda365c61d42db007ec5f777c2839e2aead10330d5e8",
+          "46f0dd5bcadc08df89ada66319c121cd101320c5c55d69ca31fd395b91798069",
+          "3574a909f7b423d1cd90c300704766e76b717faa1b560cd29a49dc26ae072bbd"
+        ],
+        "byte_identity": false,
+        "metadata": [
+          {
+            "format": "PDF 1.7",
+            "title": "V4 footnotes 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170408-07'00'",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.7",
+            "title": "V4 footnotes 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170601-07'00'",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.7",
+            "title": "V4 footnotes 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170758-07'00'",
+            "modDate": ""
+          }
+        ],
+        "raw_extraction_sha256": [
+          "e29ac2f9ae120710633675505e7e3c77cf427fc59f1b2365d484c6dadb2639a0",
+          "5df6f5a5ebf06a992dce89f96e8ae838de1b9e3386d74dc63607ad69a2f988e6",
+          "11aebfee6b967d192f37597a73fc3a882001bfc2bfd8757fb00003cb6aedc3f3"
+        ],
+        "raw_extraction_identity": false,
+        "normalized_semantic_sha256": [
+          "2c6e681de9e42739ecd2a9a789ce5dbb3bb5645d2d3cb263e5ff08153f67be2a",
+          "2c6e681de9e42739ecd2a9a789ce5dbb3bb5645d2d3cb263e5ff08153f67be2a",
+          "2c6e681de9e42739ecd2a9a789ce5dbb3bb5645d2d3cb263e5ff08153f67be2a"
+        ],
+        "normalized_semantic_identity": true,
+        "raw_difference_paths": [
+          ".document.metadata.CreationDate",
+          ".extraction.source",
+          ".footnotes[0].evidence.object",
+          ".lists[0].evidence.object"
+        ],
+        "normalized_difference_paths": []
+      },
+      {
+        "fixture_id": "F12_D",
+        "paths": [
+          "experiments/v4/conversions/libreoffice/repeatability/run1/F12_D__LIBREOFFICE__R1.pdf",
+          "experiments/v4/conversions/libreoffice/repeatability/run2/F12_D__LIBREOFFICE__R2.pdf",
+          "experiments/v4/conversions/libreoffice/repeatability/run3/F12_D__LIBREOFFICE__R3.pdf"
+        ],
+        "file_lengths": [
+          43677,
+          43677,
+          43677
+        ],
+        "pdf_sha256": [
+          "edb34b29a22c09d933012db14974cad5e7e7b064cb56b4fc7f18b6eb9976141c",
+          "063037a2b9fd92fca29db22dcfd6b79c4c4c5ac5fcff0cfbb8ba7bae62850cd3",
+          "e0165cfe41980c4d5fd6c2b1b7ca4295335cb30744f361a0f99414442bc9c1b2"
+        ],
+        "byte_identity": false,
+        "metadata": [
+          {
+            "format": "PDF 1.7",
+            "title": "V4 equations 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170428-07'00'",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.7",
+            "title": "V4 equations 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170619-07'00'",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.7",
+            "title": "V4 equations 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170817-07'00'",
+            "modDate": ""
+          }
+        ],
+        "raw_extraction_sha256": [
+          "86ddd9e766769699f6221e29e87ec76d3c5f1a8c53d15770196e5e1e97dd831e",
+          "6ea3f96d42f8713b9656fe4db262e94699adf2e62ea7f15f5b2296763f706103",
+          "517cde91ed6c29c96ed40ff591d7ffab063f5f4c4bfc9ce26826ee6006bcbe95"
+        ],
+        "raw_extraction_identity": false,
+        "normalized_semantic_sha256": [
+          "7eb953fdc7e9d915daeb624551cc1fb6360233e6f2273a01fcc48330ef40904b",
+          "7eb953fdc7e9d915daeb624551cc1fb6360233e6f2273a01fcc48330ef40904b",
+          "7eb953fdc7e9d915daeb624551cc1fb6360233e6f2273a01fcc48330ef40904b"
+        ],
+        "normalized_semantic_identity": true,
+        "raw_difference_paths": [
+          ".document.metadata.CreationDate",
+          ".equations[0].evidence.object",
+          ".extraction.source"
+        ],
+        "normalized_difference_paths": []
+      },
+      {
+        "fixture_id": "F13_D",
+        "paths": [
+          "experiments/v4/conversions/libreoffice/repeatability/run1/F13_D__LIBREOFFICE__R1.pdf",
+          "experiments/v4/conversions/libreoffice/repeatability/run2/F13_D__LIBREOFFICE__R2.pdf",
+          "experiments/v4/conversions/libreoffice/repeatability/run3/F13_D__LIBREOFFICE__R3.pdf"
+        ],
+        "file_lengths": [
+          33648,
+          33648,
+          33648
+        ],
+        "pdf_sha256": [
+          "4afcc25ffa894eefae850cbb0d8b5c5ff7c9c2da5133da10a77dcfa30879b11f",
+          "b8403e3c6f54f1be58205c87b53c90a76e7325746053ada1110efac98218cdad",
+          "a3c502d57f80650f66ccd881a167e0a5dde4f87818a5ecca2ccbce61cd1fd99f"
+        ],
+        "byte_identity": false,
+        "metadata": [
+          {
+            "format": "PDF 1.7",
+            "title": "V4 captions 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170447-07'00'",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.7",
+            "title": "V4 captions 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170643-07'00'",
+            "modDate": ""
+          },
+          {
+            "format": "PDF 1.7",
+            "title": "V4 captions 4",
+            "author": "A11yPreserve V4 controlled corpus",
+            "subject": "Source-grounded preservation contract",
+            "keywords": "",
+            "creator": "Writer",
+            "producer": "LibreOffice 26.2.6.3 (X86_64)",
+            "creationDate": "D:20261004170835-07'00'",
+            "modDate": ""
+          }
+        ],
+        "raw_extraction_sha256": [
+          "6c1676efb80e970e82b1ddf2f5c70a49ec9aeb126daf2f4d11a6b86345f18443",
+          "9ca102991a96f2d2559c5e8d629fe46b5605b40f65a7496a0ccff9c6b54d8f4a",
+          "e72b62fe29709dad4e5856539946b3788f21067cff9d25e00816c89256671f0c"
+        ],
+        "raw_extraction_identity": false,
+        "normalized_semantic_sha256": [
+          "440466c3e487330a7dc96c1137fe5a5c37fe42d6637deaa8b55cad29c51beb48",
+          "440466c3e487330a7dc96c1137fe5a5c37fe42d6637deaa8b55cad29c51beb48",
+          "440466c3e487330a7dc96c1137fe5a5c37fe42d6637deaa8b55cad29c51beb48"
+        ],
+        "normalized_semantic_identity": true,
+        "raw_difference_paths": [
+          ".document.metadata.CreationDate",
+          ".extraction.source",
+          ".figures[0].evidence.object",
+          ".images[0].evidence.object"
+        ],
+        "normalized_difference_paths": []
+      }
+    ],
+    "byte_identity": 0,
+    "raw_extraction_identity": 0,
+    "normalized_semantic_identity": 6,
+    "classification_identity": 6
+  }
+}

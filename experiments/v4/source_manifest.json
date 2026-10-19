@@ -1,0 +1,593 @@
+{
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "fixture_count": 65,
+  "feature_family_count": 13,
+  "variants_per_feature": 5,
+  "records": [
+    {
+      "variant_id": "F01_A",
+      "feature_family": "headings",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F01_A.docx",
+      "source_sha256": "62643e92f2a7e40ff87c94795c6ad4cda019af8870f0b2f16eebc625a3a40fc2",
+      "manifest": "experiments/v4/manifests/F01_A.json",
+      "manifest_sha256": "260e97508ae825cea11b25f89ef06378a99aa03a2b21c8ee6e9b78ec7285d8df"
+    },
+    {
+      "variant_id": "F01_B",
+      "feature_family": "headings",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F01_B.docx",
+      "source_sha256": "b47d7e6c5534da631abd7599e986282e434420be18b39d0d7442603577c8940a",
+      "manifest": "experiments/v4/manifests/F01_B.json",
+      "manifest_sha256": "1e410310ee69b990103982d3375c497d06adb495aed5735c6ee022fff77fa7ac"
+    },
+    {
+      "variant_id": "F01_C",
+      "feature_family": "headings",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F01_C.docx",
+      "source_sha256": "013f01dd8db9301dd49124f382f5d56530903dbab4b545c8c24d13443b1df44d",
+      "manifest": "experiments/v4/manifests/F01_C.json",
+      "manifest_sha256": "c4d78393c1908aa2fd182fc586d2a05d2221982c028d5362cff7f77a79117d22"
+    },
+    {
+      "variant_id": "F01_D",
+      "feature_family": "headings",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F01_D.docx",
+      "source_sha256": "9156c9ef9e0fdaa04b93b225fb231623048a9a033c938e862c8e742b82a7e334",
+      "manifest": "experiments/v4/manifests/F01_D.json",
+      "manifest_sha256": "733758e49f0f9da2ad85d42cda6a6483646220cdce969580cdc98a873277448d"
+    },
+    {
+      "variant_id": "F01_E",
+      "feature_family": "headings",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F01_E.docx",
+      "source_sha256": "3b8f49fafcbc5165a03634c9dff00ece978c822e4189703a12da8b8c22b69487",
+      "manifest": "experiments/v4/manifests/F01_E.json",
+      "manifest_sha256": "094bf4e7281add266d9ed49269a2c2d907e123d0a54fe151cde24237dfc557e4"
+    },
+    {
+      "variant_id": "F02_A",
+      "feature_family": "alt_text",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F02_A.docx",
+      "source_sha256": "ae64b91085158916d5a5be11987cb3fbfabc0501c57acdbbf23fffcd769fde80",
+      "manifest": "experiments/v4/manifests/F02_A.json",
+      "manifest_sha256": "b7c522aa33d8aec1d740e075e20e5041359685270649f9d7a7dba31fabc584dc"
+    },
+    {
+      "variant_id": "F02_B",
+      "feature_family": "alt_text",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F02_B.docx",
+      "source_sha256": "b8fed253e1ada97a12a4e16e62fd1d07cb4233e7654e4345dc42d76814dcc408",
+      "manifest": "experiments/v4/manifests/F02_B.json",
+      "manifest_sha256": "141050c570026845eed90813d73481da8e06e14c396bccd5f7e85ea9dc04c1c1"
+    },
+    {
+      "variant_id": "F02_C",
+      "feature_family": "alt_text",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F02_C.docx",
+      "source_sha256": "7e4a11e6e81cb706783e876ea2f208b3469b8b4cb2ba769fbc0b930de6d1f2a9",
+      "manifest": "experiments/v4/manifests/F02_C.json",
+      "manifest_sha256": "94cc5b432f62416861950b13e6969bbe0a31882315134d3221d1f58779c77a47"
+    },
+    {
+      "variant_id": "F02_D",
+      "feature_family": "alt_text",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F02_D.docx",
+      "source_sha256": "79b212c7afdd5ba5ff27e9d9bb22d05c5c8aec0c04554501c6788e943a078ab8",
+      "manifest": "experiments/v4/manifests/F02_D.json",
+      "manifest_sha256": "0781b63665a15c2dd05693c19fbb791b642ca16a57cfbe0d2bd4a66d2f060491"
+    },
+    {
+      "variant_id": "F02_E",
+      "feature_family": "alt_text",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F02_E.docx",
+      "source_sha256": "801332b1b4337ad122cfa78e4866af48e467736a6840bb3fa9092e74d9141bc7",
+      "manifest": "experiments/v4/manifests/F02_E.json",
+      "manifest_sha256": "7ec4633ff39a7b830f5efc6d489677dd34bad55d35ed1deaf116f1acc5a97abd"
+    },
+    {
+      "variant_id": "F03_A",
+      "feature_family": "lists",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F03_A.docx",
+      "source_sha256": "84b579cace9f44ab51623fcfd1526061ce8ce70fe8b728a728afe301d56fda7f",
+      "manifest": "experiments/v4/manifests/F03_A.json",
+      "manifest_sha256": "51abdccc5f87e44924955fa33e0bc6da0d9b924c1aa0481c57552f388278f079"
+    },
+    {
+      "variant_id": "F03_B",
+      "feature_family": "lists",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F03_B.docx",
+      "source_sha256": "c2451d7139ff66fb4f747b957915cc17ab6a7d7fd34a94d1ae75bc62f1b3acdb",
+      "manifest": "experiments/v4/manifests/F03_B.json",
+      "manifest_sha256": "078325ff788cc31ff825a391b07a38b6052912e3d5135f9fda16f50169022756"
+    },
+    {
+      "variant_id": "F03_C",
+      "feature_family": "lists",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F03_C.docx",
+      "source_sha256": "bba720b1248fb140d3ba1edeb0c7b78bffaa17c577843eeb9a26822f7981c48e",
+      "manifest": "experiments/v4/manifests/F03_C.json",
+      "manifest_sha256": "aca9f9c47b4d769dc669b9e022eac773a3a32071ea2ee0854f6281b59f9bb83b"
+    },
+    {
+      "variant_id": "F03_D",
+      "feature_family": "lists",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F03_D.docx",
+      "source_sha256": "8f9c59083345539501a727d7fe6e0abd2f386cb60841ed28711e9190723b75f3",
+      "manifest": "experiments/v4/manifests/F03_D.json",
+      "manifest_sha256": "bccc3b765d2d7e8abc7e3968419c8ff695570b8d9a946076775a653e9ab25765"
+    },
+    {
+      "variant_id": "F03_E",
+      "feature_family": "lists",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F03_E.docx",
+      "source_sha256": "b00841b7bfddfd74ca046df61eb472db25423ede1ecaeea71636ec00089829e3",
+      "manifest": "experiments/v4/manifests/F03_E.json",
+      "manifest_sha256": "b92d6d4287e122a38a91331e9d698811472df3b60160f0385aa39ec435501115"
+    },
+    {
+      "variant_id": "F04_A",
+      "feature_family": "basic_tables",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F04_A.docx",
+      "source_sha256": "4eff9ec0fcb3da3b267f6948aac8fe0ee6f82523060c4629eb4b5f8f473a44b8",
+      "manifest": "experiments/v4/manifests/F04_A.json",
+      "manifest_sha256": "ad6be4274819e001432d76d94c682493d911753dcbbb9a2994abc9aaf9d9b7da"
+    },
+    {
+      "variant_id": "F04_B",
+      "feature_family": "basic_tables",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F04_B.docx",
+      "source_sha256": "2da29d168d2b96940a505cdf86f41fbcd6c61faac08b9c3446995fe38cc98d16",
+      "manifest": "experiments/v4/manifests/F04_B.json",
+      "manifest_sha256": "111fbe5abc944af359fa0cd941d4a4ed675312da3ba543abd7eae38a234ca03e"
+    },
+    {
+      "variant_id": "F04_C",
+      "feature_family": "basic_tables",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F04_C.docx",
+      "source_sha256": "d07ba7d1c3c9bb9ddb32d4e3f3c3a2500554efc6265f33e8feb6474a8b0e84fb",
+      "manifest": "experiments/v4/manifests/F04_C.json",
+      "manifest_sha256": "4deab3e99d80e6ddd22f0dc757061eb6a385833e842358c0f6896f2ae605efc4"
+    },
+    {
+      "variant_id": "F04_D",
+      "feature_family": "basic_tables",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F04_D.docx",
+      "source_sha256": "87dcb4771635f04a934bf1a84c4cc6cd6146bb9b08f940c319ec36f319ba443c",
+      "manifest": "experiments/v4/manifests/F04_D.json",
+      "manifest_sha256": "085a770abd9197a444d3fb462876dc96b9bc6383c81dea4490aacf069178138e"
+    },
+    {
+      "variant_id": "F04_E",
+      "feature_family": "basic_tables",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F04_E.docx",
+      "source_sha256": "c4d179636beb2f2940134c9b067bcde5b2b1a6ff17abecba44fe097979a7fa03",
+      "manifest": "experiments/v4/manifests/F04_E.json",
+      "manifest_sha256": "05ba404c1ac2f0a9f79a00e8e5fc639b29d2f09cad41a8a4096214c6bd5a2024"
+    },
+    {
+      "variant_id": "F05_A",
+      "feature_family": "document_language",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F05_A.docx",
+      "source_sha256": "18c4c7c57060133fb7c80d377d84070dfdf180f2a5c356cd7d429cb81c31f57d",
+      "manifest": "experiments/v4/manifests/F05_A.json",
+      "manifest_sha256": "f4c2c2715cac12dd92832c0070a8f8dec04da9a95102a013d7596866d6b08329"
+    },
+    {
+      "variant_id": "F05_B",
+      "feature_family": "document_language",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F05_B.docx",
+      "source_sha256": "57a905acacd76d043ac4a4b5d519741dea7044ebe6904ed8b8df1172a8a1fb9f",
+      "manifest": "experiments/v4/manifests/F05_B.json",
+      "manifest_sha256": "021ce8123b42933473b2d605f557c37cd431849d211334e998d6ec4cc562c1be"
+    },
+    {
+      "variant_id": "F05_C",
+      "feature_family": "document_language",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F05_C.docx",
+      "source_sha256": "324349411dee10011a7fde349a9e6b658bc865a42ff02497862086dc97bb843d",
+      "manifest": "experiments/v4/manifests/F05_C.json",
+      "manifest_sha256": "f89562b9ad65cbddda9eff3a507f97ceaf12b8ea4ce8fe79afc83469382bc2df"
+    },
+    {
+      "variant_id": "F05_D",
+      "feature_family": "document_language",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F05_D.docx",
+      "source_sha256": "fbd0f32c5469e9ffe08095dc848636d43ed72ac16155975499c9eb781e06ed3b",
+      "manifest": "experiments/v4/manifests/F05_D.json",
+      "manifest_sha256": "4a064c8a4060a929080b9b9b7c8100e661135d0f18aa4861f2fed455faca4887"
+    },
+    {
+      "variant_id": "F05_E",
+      "feature_family": "document_language",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F05_E.docx",
+      "source_sha256": "926930bb75fb4184b19de5fb258860d32cc809f28f19bfb4a81d504ae921bd60",
+      "manifest": "experiments/v4/manifests/F05_E.json",
+      "manifest_sha256": "6769eaae81ad6d59a14b187d38a51ca47f9ea6d15a4f722c90eb68f332a3f643"
+    },
+    {
+      "variant_id": "F06_A",
+      "feature_family": "inline_language",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F06_A.docx",
+      "source_sha256": "f3aab26f438ef5e524606d05411c36527e5f59860c5d045b417324e7597598ca",
+      "manifest": "experiments/v4/manifests/F06_A.json",
+      "manifest_sha256": "f90ccc959eed939abe8b2e9542e0e39a5b6dcef7cde37ea0906e954c92e2cdc3"
+    },
+    {
+      "variant_id": "F06_B",
+      "feature_family": "inline_language",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F06_B.docx",
+      "source_sha256": "6f28fce117d6b79d94e44c75fb623e72b79bad63d685243165411ee19d858813",
+      "manifest": "experiments/v4/manifests/F06_B.json",
+      "manifest_sha256": "91a29ef40e52717719fbc27f0ed7da507995f3e61ff44a374064777c744ffc05"
+    },
+    {
+      "variant_id": "F06_C",
+      "feature_family": "inline_language",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F06_C.docx",
+      "source_sha256": "87b9fdee1b5e79c60f42378b39d0d916df788b90a04c756917c59e67c9b2b18d",
+      "manifest": "experiments/v4/manifests/F06_C.json",
+      "manifest_sha256": "afb811055a807fe6b0f2aa645ec1b14a963d4818d0f70ea6ce5be7bbef1231c7"
+    },
+    {
+      "variant_id": "F06_D",
+      "feature_family": "inline_language",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F06_D.docx",
+      "source_sha256": "1fcc333be3c6142fd16c2ceaa62fc2be4c4b57d2f16f36939e87b008f10095c6",
+      "manifest": "experiments/v4/manifests/F06_D.json",
+      "manifest_sha256": "9fb729bc58d3557ea2563e0d6c8d760613caa2a4aa31e06d39f796ac5d65625d"
+    },
+    {
+      "variant_id": "F06_E",
+      "feature_family": "inline_language",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F06_E.docx",
+      "source_sha256": "53ff9c73cb994c9b5c9c6655588d2d7432d604f6660bf14623815d8fa9bd68b5",
+      "manifest": "experiments/v4/manifests/F06_E.json",
+      "manifest_sha256": "9d6048bf38554e0068a308fcbeffb019f81a07924f783420837d8f043532b33e"
+    },
+    {
+      "variant_id": "F07_A",
+      "feature_family": "decorative_images",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F07_A.docx",
+      "source_sha256": "83abc799c2d127a47d494aeea61cc64347e4615d049712772493c776e1dc7af6",
+      "manifest": "experiments/v4/manifests/F07_A.json",
+      "manifest_sha256": "2e266c3386b5b835ec7f76d8a257126baf96d054a54db0eb0a7587b055376c33"
+    },
+    {
+      "variant_id": "F07_B",
+      "feature_family": "decorative_images",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F07_B.docx",
+      "source_sha256": "100762353306ff3f8596fd3a8598d79518b02295654de2cf8ca79d28187327b0",
+      "manifest": "experiments/v4/manifests/F07_B.json",
+      "manifest_sha256": "47f1c71b958ed3d521a7fe7c13c91bae89c1e059e4c189039b6490add0facd42"
+    },
+    {
+      "variant_id": "F07_C",
+      "feature_family": "decorative_images",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F07_C.docx",
+      "source_sha256": "fea0fbc9cef1ef8b99bbcd979d19bbe67ff6b737fe604682234430dc437d3508",
+      "manifest": "experiments/v4/manifests/F07_C.json",
+      "manifest_sha256": "a2693533825aeb7b20beb4066875a0415ce3568674673260c4fe6ba265f0057f"
+    },
+    {
+      "variant_id": "F07_D",
+      "feature_family": "decorative_images",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F07_D.docx",
+      "source_sha256": "4b885710928688dcfbb60527fd00e465dac0561f2c5b2d0e5b3e80ec44866011",
+      "manifest": "experiments/v4/manifests/F07_D.json",
+      "manifest_sha256": "33aa5ba9bc8c633ab2c2525eef2fcd351cf4b3e41e16c6220af592f79d9edd9a"
+    },
+    {
+      "variant_id": "F07_E",
+      "feature_family": "decorative_images",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F07_E.docx",
+      "source_sha256": "1a0a65e7f46379d4829c84737f31325fe342efd06f7a6b1ebb98fd40a2f57a2f",
+      "manifest": "experiments/v4/manifests/F07_E.json",
+      "manifest_sha256": "a990d02d82e0be45c5bcd2c9d4412e282054a7ef040d730b8b977c85192deb4c"
+    },
+    {
+      "variant_id": "F08_A",
+      "feature_family": "hyperlinks",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F08_A.docx",
+      "source_sha256": "bd0b60024852b25d95a09d0486234bf58abe00051faed8723ffea6a91548042b",
+      "manifest": "experiments/v4/manifests/F08_A.json",
+      "manifest_sha256": "560c30ee83e28362af80be757c3bab200eec0db33e8978dd4c0dc3f6d09b3fff"
+    },
+    {
+      "variant_id": "F08_B",
+      "feature_family": "hyperlinks",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F08_B.docx",
+      "source_sha256": "68364097903620b8af9ebbaf5ec1426cd270f6dd3d1f071f5a230e59acf35cba",
+      "manifest": "experiments/v4/manifests/F08_B.json",
+      "manifest_sha256": "622beb7b1ef08a868d00d48222f6a8a9f902b68d0a9c4bc223578ef27d32da2f"
+    },
+    {
+      "variant_id": "F08_C",
+      "feature_family": "hyperlinks",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F08_C.docx",
+      "source_sha256": "7d21589968da35ec1fbd8baea8e6868bc17154ed5ccd44d97a1a6ba563d520ae",
+      "manifest": "experiments/v4/manifests/F08_C.json",
+      "manifest_sha256": "4e199a27236539f2d222e1f13408c99d090ee89226dbd1cc166e1f3ec4f9150f"
+    },
+    {
+      "variant_id": "F08_D",
+      "feature_family": "hyperlinks",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F08_D.docx",
+      "source_sha256": "8a8bd9c948fe8816c9f7207138bc6fb241821c58b4522de64e3b432d64a89374",
+      "manifest": "experiments/v4/manifests/F08_D.json",
+      "manifest_sha256": "bfaff174c59e096cce52b7d64e34f284415dbc90ad6b231e6ebe7710330b49a2"
+    },
+    {
+      "variant_id": "F08_E",
+      "feature_family": "hyperlinks",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F08_E.docx",
+      "source_sha256": "a796d06b06c55a7d8c55767f4bb6d8eed7240a71a79777c624aa8773e41ca6f8",
+      "manifest": "experiments/v4/manifests/F08_E.json",
+      "manifest_sha256": "d2324a939226bcfc500ca0d4a733d24033c3fe877ca9b3cb38ac4023d4ed0dbb"
+    },
+    {
+      "variant_id": "F09_A",
+      "feature_family": "document_metadata",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F09_A.docx",
+      "source_sha256": "8c70f8e8086421acf6d1cfa5395a345201cdc6c9a2f2982d6445bc35c4862426",
+      "manifest": "experiments/v4/manifests/F09_A.json",
+      "manifest_sha256": "8a33742a66ce46be8722cd00ec7529ff29c34e94201a0940ab1959fa8f96f261"
+    },
+    {
+      "variant_id": "F09_B",
+      "feature_family": "document_metadata",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F09_B.docx",
+      "source_sha256": "47a60db117324d2d711891a9614b724aeb29a8aa64675d99cb26e4317df10d33",
+      "manifest": "experiments/v4/manifests/F09_B.json",
+      "manifest_sha256": "c8a369433a1d4ba1f9add4b30767f64931d5ad9249c206065efc4c22dc2cb2a4"
+    },
+    {
+      "variant_id": "F09_C",
+      "feature_family": "document_metadata",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F09_C.docx",
+      "source_sha256": "1c7d18a49d4eacc601a7fbfd268f1cf8df3e3c81f47cf6b64370dc36c41b50f8",
+      "manifest": "experiments/v4/manifests/F09_C.json",
+      "manifest_sha256": "4add689c37b5cbd9371a2ccd682a38e97bc797f26bddb0ca8ec9604864a5f006"
+    },
+    {
+      "variant_id": "F09_D",
+      "feature_family": "document_metadata",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F09_D.docx",
+      "source_sha256": "f8b1ee09bc9f737383426e861d0e7f056a972a07660a46f129252614f86ac3aa",
+      "manifest": "experiments/v4/manifests/F09_D.json",
+      "manifest_sha256": "f58b6822d7904b30adf5605e23db25fb178c820eab1b9dd6325a0ad56b547f05"
+    },
+    {
+      "variant_id": "F09_E",
+      "feature_family": "document_metadata",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F09_E.docx",
+      "source_sha256": "4a803fdc4a90db567c3bcae817a4ceeeb481b476836f8dca46e7178141400080",
+      "manifest": "experiments/v4/manifests/F09_E.json",
+      "manifest_sha256": "f1beff086434470cfe311a912003d7592f3dfee56343c548a8df092e8c4bef6f"
+    },
+    {
+      "variant_id": "F10_A",
+      "feature_family": "complex_tables",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F10_A.docx",
+      "source_sha256": "63bfec96e6ae93f83a1d9b132e10626cddb2ea73c6ef83b1acbf1b333ee52d6d",
+      "manifest": "experiments/v4/manifests/F10_A.json",
+      "manifest_sha256": "cff1934f926138b8e194f2b08f78cc49923b5d13e0813bd3394b207d935debea"
+    },
+    {
+      "variant_id": "F10_B",
+      "feature_family": "complex_tables",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F10_B.docx",
+      "source_sha256": "5649b706d7d62fc49b282878ff02efb7d334655a1bc70492d3f557ece13c1018",
+      "manifest": "experiments/v4/manifests/F10_B.json",
+      "manifest_sha256": "8e99319308bf120fd7ed1f673953dfbed2de33592a5d2e36ff9338bcc3012ade"
+    },
+    {
+      "variant_id": "F10_C",
+      "feature_family": "complex_tables",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F10_C.docx",
+      "source_sha256": "643854a9927a22070314eeb12f494eae8fa6b314a70a56222f12cea81892a2c2",
+      "manifest": "experiments/v4/manifests/F10_C.json",
+      "manifest_sha256": "1b858bbd6aab92e4542683a851d82d9a9b5bd6f2125fac42e70e7d6e7116015e"
+    },
+    {
+      "variant_id": "F10_D",
+      "feature_family": "complex_tables",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F10_D.docx",
+      "source_sha256": "5a1e08a8702b1710c6f647bdaab49afef01736c62bb26179f3160904331e1230",
+      "manifest": "experiments/v4/manifests/F10_D.json",
+      "manifest_sha256": "0fa2b18d86ce9ea509663d04495eabf09c5db9007c337bb88321416296b7abd7"
+    },
+    {
+      "variant_id": "F10_E",
+      "feature_family": "complex_tables",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F10_E.docx",
+      "source_sha256": "0fa24da4022214b20998bb06059ad3c7589c64ccd0a57b164157d66a3f9b53ab",
+      "manifest": "experiments/v4/manifests/F10_E.json",
+      "manifest_sha256": "f0607c14596a41eddfba1089451a5a339b5b6862316af8226b0004fdb9397c76"
+    },
+    {
+      "variant_id": "F11_A",
+      "feature_family": "footnotes",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F11_A.docx",
+      "source_sha256": "74d2bcbe4858e016d50443b6c311aef8f7e652488b61b11f676490ea2e31fef5",
+      "manifest": "experiments/v4/manifests/F11_A.json",
+      "manifest_sha256": "76dbdbf4d5caf64ef15551c4749029ad2736131ca6b15b8fa465da8fe6a168e5"
+    },
+    {
+      "variant_id": "F11_B",
+      "feature_family": "footnotes",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F11_B.docx",
+      "source_sha256": "86a868b8eaebc1e71a894725b293f6590700720b8f48e00c279610d65fdfb2ad",
+      "manifest": "experiments/v4/manifests/F11_B.json",
+      "manifest_sha256": "dedb53715d6a40520f90d3cbb8d4ef71b244308acdb6c01a43a3304056c97c8e"
+    },
+    {
+      "variant_id": "F11_C",
+      "feature_family": "footnotes",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F11_C.docx",
+      "source_sha256": "82c4ca81755a16ea49a6fcd55a6737ce501fca72661e6c6312c231e26c2a8a3c",
+      "manifest": "experiments/v4/manifests/F11_C.json",
+      "manifest_sha256": "5925569693751d892084504468efe48077b4946985d152abad59485923da33ed"
+    },
+    {
+      "variant_id": "F11_D",
+      "feature_family": "footnotes",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F11_D.docx",
+      "source_sha256": "e2140c08c44e9a8e90c2dc8914b860337080b4f52407145140a1ab99119c339f",
+      "manifest": "experiments/v4/manifests/F11_D.json",
+      "manifest_sha256": "497764ef6c63cfd1f510558b4981a2b778967cb8330c722d949c013ba7ad2811"
+    },
+    {
+      "variant_id": "F11_E",
+      "feature_family": "footnotes",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F11_E.docx",
+      "source_sha256": "0aa72b2625d32ba0a86cfb0c2fa5666b0824840e1d62461314b2b7e6e72492f8",
+      "manifest": "experiments/v4/manifests/F11_E.json",
+      "manifest_sha256": "6b23c56ee99eacd9ed7eaf0f574bb8ee2eb8bc60ab66b289f81e7761acf0b9a2"
+    },
+    {
+      "variant_id": "F12_A",
+      "feature_family": "equations",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F12_A.docx",
+      "source_sha256": "9659ca62c193cd4dafe67daa48d4846970a254ed95ea244c7b097dc0365db819",
+      "manifest": "experiments/v4/manifests/F12_A.json",
+      "manifest_sha256": "341df0f2995d05a0343e649c6d5091375028719c29f2b7498429c4c8b04dbcbe"
+    },
+    {
+      "variant_id": "F12_B",
+      "feature_family": "equations",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F12_B.docx",
+      "source_sha256": "25960111c2c103f86d13050e73220dd99cbc70383b2e9bf266c2122aeac27710",
+      "manifest": "experiments/v4/manifests/F12_B.json",
+      "manifest_sha256": "6be189d8b51b3c67e0a94794c5cae582302e121e9b389cfaaf59a72737c878a4"
+    },
+    {
+      "variant_id": "F12_C",
+      "feature_family": "equations",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F12_C.docx",
+      "source_sha256": "2d3b56e835048ea41b3c89b6723eb24ba2f94185c38058a8a6d252f7458bbe8c",
+      "manifest": "experiments/v4/manifests/F12_C.json",
+      "manifest_sha256": "82c75beef170c7bada62ff328bb4990e8bef127cd25c92ee5e14eadbc973bcbf"
+    },
+    {
+      "variant_id": "F12_D",
+      "feature_family": "equations",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F12_D.docx",
+      "source_sha256": "866eba9e9b90728a7cccad540a3b6b2ef60798bd43c5d5e38b45503551626aa7",
+      "manifest": "experiments/v4/manifests/F12_D.json",
+      "manifest_sha256": "1bb4dc10ddda907c9a643443015bb7dddf959b1b0cb1e08ab460e1e385fca6c1"
+    },
+    {
+      "variant_id": "F12_E",
+      "feature_family": "equations",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F12_E.docx",
+      "source_sha256": "58799267553269c18406d2602d4dc30a4dd968ebe5b8204df621623358e54ec8",
+      "manifest": "experiments/v4/manifests/F12_E.json",
+      "manifest_sha256": "f2ce7db5d75ee1eb58153163fb77b0a2def720769450cefa304053a0e67846d5"
+    },
+    {
+      "variant_id": "F13_A",
+      "feature_family": "captions",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F13_A.docx",
+      "source_sha256": "226d2d57d81be5a4e1f43a09c3d6db81541d91574851554e52d5f38290059541",
+      "manifest": "experiments/v4/manifests/F13_A.json",
+      "manifest_sha256": "f415238537e4a45294c30568ab0d582389659c4b1c671a03e9d1b11d5face1a3"
+    },
+    {
+      "variant_id": "F13_B",
+      "feature_family": "captions",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F13_B.docx",
+      "source_sha256": "3ba26ff718b4a544594ed1ac2da627c7ee685dd32859d8ceeb10923a0c7f6f1a",
+      "manifest": "experiments/v4/manifests/F13_B.json",
+      "manifest_sha256": "3018564871022348fec9d4989abbf555226a7d1937c529e0ec6bff1578d4935b"
+    },
+    {
+      "variant_id": "F13_C",
+      "feature_family": "captions",
+      "role": "development",
+      "fixture": "experiments/v4/fixtures/F13_C.docx",
+      "source_sha256": "56cfa7817ee38dd53e96d50b9c401185f5824a983f33cee09fc9a14bb8e6afef",
+      "manifest": "experiments/v4/manifests/F13_C.json",
+      "manifest_sha256": "0cf99bd09ddd6bfde05dc78c7d2eb1bb80c9a3a646caab47bd03ac8947838bed"
+    },
+    {
+      "variant_id": "F13_D",
+      "feature_family": "captions",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F13_D.docx",
+      "source_sha256": "78d7b0c85ea8d6307d842f76afcaf4b36f845033ab7b43e3ff405e919b4b3d64",
+      "manifest": "experiments/v4/manifests/F13_D.json",
+      "manifest_sha256": "ba08a23aeff961af14c4767782a7588a6e640f79b333b69607444026e06ca2c2"
+    },
+    {
+      "variant_id": "F13_E",
+      "feature_family": "captions",
+      "role": "holdout",
+      "fixture": "experiments/v4/fixtures/F13_E.docx",
+      "source_sha256": "7169db683a156d1690ba29640b848244940c4bd39295a845711b169ef46cedfc",
+      "manifest": "experiments/v4/manifests/F13_E.json",
+      "manifest_sha256": "fc2c809d35b853ff3aebc1dc5031e71c1dfd056436c44573a4149444fbd0fed9"
+    }
+  ]
+}

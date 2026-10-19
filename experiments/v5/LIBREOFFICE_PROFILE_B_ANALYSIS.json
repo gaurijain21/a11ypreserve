@@ -1,0 +1,1522 @@
+{
+  "analysis_version": "v5-libreoffice-profile-b-1",
+  "condition": "V5_PROFILE_B",
+  "settings": "UseTaggedPDF=true;PDFUACompliance=true;SelectPdfVersion=0",
+  "status": "COMPLETE",
+  "records": [
+    {
+      "fixture_id": "F01_A",
+      "feature_family": "headings",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "0c388c8e25174fde4139e95a479bdc0bfdfd43967eca3b89c497b75e2419627f",
+      "v5_output_sha256": "efdeedbcd526454fafc4ac21195404401b724e17dfe234c6107a123ef59baf29",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "766f258cf823b744cdc3957baf65fbe78b06d63e80dbb5d2d4e1953934413b04",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F01_B",
+      "feature_family": "headings",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "5d6e74e06d0ba9eb5e281d1de13f95c16607ee1f2bc3635bf61c821caec44124",
+      "v5_output_sha256": "1be04610f41cbf524ae9fcf0027bb2529165592221eee3d95e614c6bfee60a97",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "036d67664015d82e920515d8b4d973ffd9fad616a0052c02c730d4114de8f7fc",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F01_C",
+      "feature_family": "headings",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "a2dfa54daff6cc415325b53a83788130a825630817abfbb751386031d83b5b31",
+      "v5_output_sha256": "67679467163079f830c9b703e8aed533236691260e2cde05652895add55c875c",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "6b64ae8935c24f0a6074441f321333a5519ec9bb6a0566fec47e47017b08e779",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F01_D",
+      "feature_family": "headings",
+      "role": "holdout",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "dec8805ec285db89c1c739f1d8cfa6abd8b53b6b78da9ed9527a35e5bcc87af5",
+      "v5_output_sha256": "8245755ceb51af787b28235c784d5e7c4e0218fd9198f7f63eecddc9c46d1873",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "07fbd2cb15ab5593ad8448a53da554e50c671ee689c7c6fac8d5abc9be8227ac",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F01_E",
+      "feature_family": "headings",
+      "role": "holdout",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "49db42dfaffb0246a14685f70fce94faeff10e1dda19fbc3b950dba1cd07aef9",
+      "v5_output_sha256": "ae98dad8fb132f9297dafab2a3458418b406ae3a478f31d971ea46dbad318ecc",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "71da5f1ad42ff39fe26c5c197d29f84deedd455391949ddaaeda3430215e2191",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F02_A",
+      "feature_family": "alt_text",
+      "role": "development",
+      "v4_classification": "ALTERED",
+      "v5_classification": "ALTERED",
+      "classification_changed": false,
+      "v4_output_sha256": "8f14168d37a484a79ecfa2c7d6a7d69a76e0fdfad5237caa3ff1bb8b5a04c4f1",
+      "v5_output_sha256": "54648484cfb114a1788e46d30a04cd480d48485e9978cb4aa8e06050c30c4e6c",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "ba913ef8e222051d776417a3d059c22105eadd8add524bf78042c7c6dae5b1bb",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F02_B",
+      "feature_family": "alt_text",
+      "role": "development",
+      "v4_classification": "ALTERED",
+      "v5_classification": "ALTERED",
+      "classification_changed": false,
+      "v4_output_sha256": "efada2c7f834371088f1813fe81703cde539133b50e90bfc3e07f07257f5b1ef",
+      "v5_output_sha256": "d38128445d803fd94c1448baca3802eea6b7642b0a19bbbd801c81a8ad7ab636",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "7e5ce0457e523098bd59ecda6da773f2bbf99a47b37b038189e75298f827ee70",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F02_C",
+      "feature_family": "alt_text",
+      "role": "development",
+      "v4_classification": "ALTERED",
+      "v5_classification": "ALTERED",
+      "classification_changed": false,
+      "v4_output_sha256": "d5bc930732ebe9305d0d4143556839a3fe75f8a22deb90eadb07ad3fef52199d",
+      "v5_output_sha256": "8e11b666330ad2b6ad5d9ada9a47abf4b081349ab1a0dc7584c081c771daff4f",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "75c1589247836afb42f686b05cee38097f9046e854953d0a0d1e8b5d8466d445",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F02_D",
+      "feature_family": "alt_text",
+      "role": "holdout",
+      "v4_classification": "ALTERED",
+      "v5_classification": "ALTERED",
+      "classification_changed": false,
+      "v4_output_sha256": "90eaae309310f39079160fff20f30aaab722d2ca5f3ff52bf83efe301052ef97",
+      "v5_output_sha256": "54134c8416ee50da51f7fa446c00c159ccdac2f9de51d99fb9af40ef92c80653",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "8648ee722acbf6b32ebf06aa3f005ab528736038d54b1314756454f101189c5b",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F02_E",
+      "feature_family": "alt_text",
+      "role": "holdout",
+      "v4_classification": "ALTERED",
+      "v5_classification": "ALTERED",
+      "classification_changed": false,
+      "v4_output_sha256": "55fbb54b09954f86673d8a80fa74fb0f4c3aca273d95f55e3cb6040f69f51b88",
+      "v5_output_sha256": "7fe7f9025f9cd84f50d85ed94227e30562d4bd0c7605c5889e4086dcee9fc5ad",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "6b5b110f91316482b642b4cb9baab6af226e94fbd691918ba3eeb17c8a10e1f0",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F03_A",
+      "feature_family": "lists",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "71c506e178257884b0da9ba140802c06bf848558d804eac17bf7619623aa4ecd",
+      "v5_output_sha256": "585b3e8704324501e90942de55f68ab19edb93a5006f4ab46002fa8da824abbc",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "b04f1a68c6c1873a8937b6dec4754bd9f6b2a7c6850750f2448949a6d86f6469",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F03_B",
+      "feature_family": "lists",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "d0152a2f3eedf37a51c22775ec750925cba91e9755573c184b143ec1ea9cd79d",
+      "v5_output_sha256": "134c7a26da1b9df95b77473fd6e11ad3cf12974303e7c73f2c447f431c47bc6d",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "c52ec0bb805b101e45fe6fab3e86cc7504d9ced739223913837ec4d7a45be9e4",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F03_C",
+      "feature_family": "lists",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "24e11419276fb84e738af62d183f42a532a81ffdd57052f7f9ce591639716359",
+      "v5_output_sha256": "133f16f158af280daeb31b1a34b386e0cf33d310af05797c084f38ba6c5e87c1",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "419f0bdb29226ac51a8f9ffb7522c9f9698c44e4c9253e44c1ee1576bf4f7b25",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F03_D",
+      "feature_family": "lists",
+      "role": "holdout",
+      "v4_classification": "OBSERVED_PARTIAL",
+      "v5_classification": "OBSERVED_PARTIAL",
+      "classification_changed": false,
+      "v4_output_sha256": "2adb92c551a16ce062e929e5cfe726ddbff59d5e588da3111d16b0afb75d4be0",
+      "v5_output_sha256": "9f7519c83178cb35b811aebe79c968b7a63fe21efcc2a1b09ae1c8473da8f2ee",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "2e26ec1b257e97e7b71478b50c86f46f6091e3dc90e19d7ae80bc65d625b2b22",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F03_E",
+      "feature_family": "lists",
+      "role": "holdout",
+      "v4_classification": "OBSERVED_PARTIAL",
+      "v5_classification": "OBSERVED_PARTIAL",
+      "classification_changed": false,
+      "v4_output_sha256": "4c4e3f99eb0131ad4033162c0b8a0dfab020df286f56d452e153a8af932361e6",
+      "v5_output_sha256": "3c3f98ab970d04fb6d574afc630611a802ef3821065636dbd519c57f95c7fbdb",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "0e1c4e7653b72348f1549efb51767654d2a35669688a9a9a4d00feb415c1bb35",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F04_A",
+      "feature_family": "basic_tables",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "36346a9a3503fd91feffc6d433698a58cb6a058060981ee01235a47b0146caec",
+      "v5_output_sha256": "10885f4350e541387d278f261563960e560e009ef2561ffe8f70ca79f4063cae",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "e4a28ee9b2f297a38fbe21eb465b00943dfcb7619f5a39364f0917da707bb7ec",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F04_B",
+      "feature_family": "basic_tables",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "9117725e0a42293d2ba090525885622937d384975ff10498df976e05cad163d0",
+      "v5_output_sha256": "e032668f4e690f773be7198a02bb779db7f48345c70666eaf444e3a1707d1313",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "aa53c9fa0a2fe6009ec2da8b6eb3534c6e52724808de557e137ccd9a70d40bc0",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F04_C",
+      "feature_family": "basic_tables",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "43d05b7777dbd443c10d23b824e1bc321ddd3e6df8969687fbeab8752640d05e",
+      "v5_output_sha256": "5c3627ccff1c4194a4cdd332270d5bd21d0cfcf2cb9c6caaf8db29107e15fa24",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "0e7ddde8dca07af8a8379112811575bd207f10d0113222f63329d9a9ad7a589b",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F04_D",
+      "feature_family": "basic_tables",
+      "role": "holdout",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "37e156954455a6b1b0aeb1cfda336af5de594c06284d208d9f4a5d7450628dca",
+      "v5_output_sha256": "65cffd9bfa9c9134770c6451bb44bd7365e56bad29cacdc2b568aa506d8c9331",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "4ac5bc043292189d248c4118a7a3c76bcf35f2fba6d06b08406cb5bc804d6941",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F04_E",
+      "feature_family": "basic_tables",
+      "role": "holdout",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "55f851f1b030818d35a714b0312173662795c53c01fae997548b5f0adb17234c",
+      "v5_output_sha256": "50f5d860d07a9cbb2ae423b226834a01841eaac87ac72b4430c5dc82cd5fe185",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "dbea2488194cbc0e588f933930a07ce5f5ffa8d4660d01b340f5e5c1fe431b72",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F05_A",
+      "feature_family": "document_language",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "51ad2999d2b7d0e5333c06a86dff13a5ac63acd68d3258b5cce57d73a4ca8af6",
+      "v5_output_sha256": "b50ea836fd5a1a02eb4f404cd370197a169321ef90d54721f8725a35ee1e1a2d",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "65fd9ffc0fc0816f7527b07d21cd901d4d7f73d5fa36930d959222fc597ee3ee",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F05_B",
+      "feature_family": "document_language",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "afc1861926fb9d9856b6032f75ca5101262ea04b83d87a962ac5a3d8d0ec2eea",
+      "v5_output_sha256": "36c8aceee45b4e2a64dfc4eb9a38543e88721a3f5341816a6907ef14abc4fe0b",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "6e7809e512e497c2bcb3c00b472037c55c18ffdb457fc1dae94fc21220138dbc",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F05_C",
+      "feature_family": "document_language",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "e451534f0eba735ce8e02d44908f731e64c419a4fddfa9a1c44b27e45e4ef3ee",
+      "v5_output_sha256": "d121b0e1a38edad2b039ac0fde19f877b72bba550ed6d0407dc66003faa802ca",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "9e1f800443a18887a807f354c754a96b4fbb965a31d02cbe974711af2ce5ab18",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F05_D",
+      "feature_family": "document_language",
+      "role": "holdout",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "c978856010ecf799dcd77d4a709251496d5411a691eb7a2e7df329f97063fbbf",
+      "v5_output_sha256": "cc27ce5117fbb0148c432e3084ae2cd34adb1cba5388469ce64c469a739baff1",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "95a98ab850346ae22ff3aada5d8d38ace6d7940a51b77e72cbc8c21414c971d1",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F05_E",
+      "feature_family": "document_language",
+      "role": "holdout",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "a011265e0ab0d1fb265616f93bb0cf217e927f82c31efaba40add13e8c4d8c9c",
+      "v5_output_sha256": "d7aba64a490a99b80471a8e3a6896b5ca61018f5f946f69518df4d9d97510911",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "c6376a4eb567143f6bae09b3be8a5b64ad2f6c1dc6f3622f98b2dbecd771e034",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F06_A",
+      "feature_family": "inline_language",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "d40e1b5cd25704cb293a50a94431d64e5f7433af2c8d662fafbaeb29235be1c3",
+      "v5_output_sha256": "99b8c2e0ccb455ed7277a0f3dfacc04ea3b84f43dbd58a343b6620fb32f2c5e1",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "18787ef9902174ab6dee3538facbbe672ae12d8ebf741967d379527af61ac8b5",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F06_B",
+      "feature_family": "inline_language",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "033b1c8ad03cd98e4e1b97ec4179506d72350e3eb67e8c43e8d6c274c8255e9a",
+      "v5_output_sha256": "42364c6844f26478141cb325fcf3d3cfe2cda2b987b6abe86e3730277483971b",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "26d69e4dc85dea9f0c7630f98b296636e2406723bf6aeb89b967bc5d5fb0536f",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F06_C",
+      "feature_family": "inline_language",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "34bc68ee9ca85c6c5a4897592b8c3d2a01d756f564f4231bb242e61983deaa70",
+      "v5_output_sha256": "f90759696a4e487372ddb7bd2dbd108ad130eee74103c2b09f9eda94bd13ee41",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "70c749c679c6ecef6b92e2434a44acd50e6ba3e82922f752ed86be369f4de15a",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F06_D",
+      "feature_family": "inline_language",
+      "role": "holdout",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "15f660be771be5570a8bfbcbd37243bfbb52e1d4a77a96cfce696707b442a438",
+      "v5_output_sha256": "f10ac791a8cee80870154e87b3c807abc984c1c6ece2eea94111e2f4690b471c",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "10c0a4f9b45bd184d87e14abd6ce10e71abebf8b68958e5ac6d44a79239d4dc5",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F06_E",
+      "feature_family": "inline_language",
+      "role": "holdout",
+      "v4_classification": "ALTERED",
+      "v5_classification": "ALTERED",
+      "classification_changed": false,
+      "v4_output_sha256": "b8bbbafa3581179479be9f63ee201a17bc8f971e40a08e43e1692036465dfdfa",
+      "v5_output_sha256": "2a5f86ea8d562f7a0686668ede154cb350c93b48548a01679a7ed59faa841948",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "d298d167b55ea8fa9e576f878082c91e218c3cfc13445a054f3178ddaa457d28",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F07_A",
+      "feature_family": "decorative_images",
+      "role": "development",
+      "v4_classification": "OBSERVED_PARTIAL",
+      "v5_classification": "OBSERVED_PARTIAL",
+      "classification_changed": false,
+      "v4_output_sha256": "659cc2a0ec3a4a7d8604f482fa7878d54581a02dfe4a2074f99dd04f7bb5374d",
+      "v5_output_sha256": "198d965e640287660e342b8f625a0b29a31b8033fdd2cad6a0f526aed837638d",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "e919f6a686ae44c4c8fd40851ce476024769514030d0e6ab828a6a30acb73d6d",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F07_B",
+      "feature_family": "decorative_images",
+      "role": "development",
+      "v4_classification": "ALTERED",
+      "v5_classification": "ALTERED",
+      "classification_changed": false,
+      "v4_output_sha256": "4b573f6709cc6eb35288c698a012ee6787da366b83464ea955486abd432c6b63",
+      "v5_output_sha256": "9a8b0b459f24289bf17021ba771a3924e237ad42e5ab5d0342ff637a208a0d50",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "13753ba147b1a5a726afad3c1f905ee644b41824cffda7d3c5eca89983c8d789",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F07_C",
+      "feature_family": "decorative_images",
+      "role": "development",
+      "v4_classification": "OBSERVED_PARTIAL",
+      "v5_classification": "OBSERVED_PARTIAL",
+      "classification_changed": false,
+      "v4_output_sha256": "ca040124327d2176feb0347d126fa18a43ffd022dc07d2439dadb7ab712a396a",
+      "v5_output_sha256": "756598b63e95a4d4051d1764588d67c0a8b5d7b09a5a1f8f8214104c8b60872f",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "bdea8979b8bbe83ef6e6b78efeee019b8598d037c9c948a865026deb4476ce40",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F07_D",
+      "feature_family": "decorative_images",
+      "role": "holdout",
+      "v4_classification": "OBSERVED_PARTIAL",
+      "v5_classification": "OBSERVED_PARTIAL",
+      "classification_changed": false,
+      "v4_output_sha256": "5bc3ab4a6a9683188a54da0eb1324da7e9cca0e2fff1927e8b27f4b382fb8c6c",
+      "v5_output_sha256": "42dcd38b87a81dbaaa633f369c078c6019559a55a97c64e845eea6eb13d88196",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "889d6fe0ae2a6072b6fe070327870da955a97f2fd608bccfab680d94be670e75",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F07_E",
+      "feature_family": "decorative_images",
+      "role": "holdout",
+      "v4_classification": "OBSERVED_PARTIAL",
+      "v5_classification": "OBSERVED_PARTIAL",
+      "classification_changed": false,
+      "v4_output_sha256": "69a1ba14a606eb179fee33a8397ef4e8192bfa7552c124c57d175e9f1c3b6ada",
+      "v5_output_sha256": "2276fdd34f7d8c8897c430e322b3113746645250f8ec7f48dc091f5af6514599",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "4f553efdba8c4648a2332b9e7797121bd32e73f4e2f4b63988e45c02ac1e39e5",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F08_A",
+      "feature_family": "hyperlinks",
+      "role": "development",
+      "v4_classification": "OBSERVED_PARTIAL",
+      "v5_classification": "OBSERVED_PARTIAL",
+      "classification_changed": false,
+      "v4_output_sha256": "2007f97f759e03ee6c1591e3146c79145a18eb475f9a3ce3093cbcaa63abbabb",
+      "v5_output_sha256": "66a4f1b21c48fa8f9c7e9631830960222c7f63d41428f67d8cacab6fe7ffd8a1",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "b840cb3de82fe4ada0ee21779fd5945ba637bb782bdde43a3cdff2eb9b51eac1",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F08_B",
+      "feature_family": "hyperlinks",
+      "role": "development",
+      "v4_classification": "OBSERVED_PARTIAL",
+      "v5_classification": "OBSERVED_PARTIAL",
+      "classification_changed": false,
+      "v4_output_sha256": "9bb2809ccfd2c9da28283b53c751b5041783ac41432d4b1d354f0859a139a017",
+      "v5_output_sha256": "623f3461f45a0cf6ab42d78953eebaa5e4b122464529ade3937d06f44409da8c",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "2c8308d27d86b8e1c50c0470924b512b2d9c9b2804e6d3b3a6977d2881dbc4b4",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F08_C",
+      "feature_family": "hyperlinks",
+      "role": "development",
+      "v4_classification": "ALTERED",
+      "v5_classification": "ALTERED",
+      "classification_changed": false,
+      "v4_output_sha256": "4796d1a41b1e48c84623ac744f520b6a149234939b62823a6bb9f381fafd2c25",
+      "v5_output_sha256": "b1f41dbda56b63df33e5a880c293ee7a98ace4ffcb56d872be0698b26fe82181",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "234fd1758c196b15d0098877260bb52c2712b7b2a681553f6620f428386ceb03",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F08_D",
+      "feature_family": "hyperlinks",
+      "role": "holdout",
+      "v4_classification": "ALTERED",
+      "v5_classification": "ALTERED",
+      "classification_changed": false,
+      "v4_output_sha256": "f51858deed4d51c825222f5b9e462b7e01c39b792a6115a4480e4a913e4f8ef4",
+      "v5_output_sha256": "6deb934089d85caa08e6ee7e1c6abb4014843506300ab4c104705e88704ea4f0",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "04c5a7bec26c2925af950419ca3ce37546b1c189566f54c0376176ed820eb42f",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F08_E",
+      "feature_family": "hyperlinks",
+      "role": "holdout",
+      "v4_classification": "CONFIRMED_LOST",
+      "v5_classification": "CONFIRMED_LOST",
+      "classification_changed": false,
+      "v4_output_sha256": "b1f315e26fe8181ca3f1173bae72dfb2201857b386fb609594c0034e3c745a75",
+      "v5_output_sha256": "3e2b8749878e035cba1c52717db92df64f4b8bb2f6ec9ae1a5fad661cda2c189",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "0c0ea975640e769cdd91217366de16d05ca4ad7fdd6c7e26dcbb781bc0eb3ba7",
+      "classification_basis": "raw loss corroborated by independent PyMuPDF/object-marker absence"
+    },
+    {
+      "fixture_id": "F09_A",
+      "feature_family": "document_metadata",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "0dbd3085728295f9fc47bb0304104d31b46109bf3b770860d5d643b0c18f6564",
+      "v5_output_sha256": "99220630b3164a4b3de0d034429a64608f730117f5327c1ec10ca8ffe8fa9db4",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "c843ea31ef45482c490e95c8e7e17e05c2176072878fb562578cbd7bbc8a351c",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F09_B",
+      "feature_family": "document_metadata",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "3f1ad384117292925e879372b4fd67510dc118bacfd87756dd2e994816f8821e",
+      "v5_output_sha256": "395b146db0e65f47ada2e50f77bac8a42fec474ee10f446a7b9f9d0604673d9e",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "4bde499b02752741c2f619dd0a290f48c9b9e7eccd7fe8c2eb7036b9bedb408e",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F09_C",
+      "feature_family": "document_metadata",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "53b1f3973eda7b225bca1cea7dfc3fe0c65a42e013b383a9103070c7c6776365",
+      "v5_output_sha256": "c5d58410a9d48f4797be042a6a2aa8c37534255646a2cf04cd9d7096d9ad9c64",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "e0fed41823c53a4da3804affda7de09fd650c5da2f7fcefc6560edd8454b92e7",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F09_D",
+      "feature_family": "document_metadata",
+      "role": "holdout",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "3a8cc5319622aedf1d5bbf0df8c784dab4be5be5e21a32c4ecaf111a7f6e19d7",
+      "v5_output_sha256": "9385649dd5e3afda34c321c618f8d9f57555635fdaf8eedcf663f588fe67d134",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "4da2b6c2b23c620743e2bc5660a29af496b0d3300fb0d4c9e46af671500942e7",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F09_E",
+      "feature_family": "document_metadata",
+      "role": "holdout",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "f645e97b0096d15b326ff47fe3899ac22169d8b860067ceac5bec626f0edb4b1",
+      "v5_output_sha256": "449ccc12deec0de6f55dd9d3e88afd3e141cf7a1fc222439a45806ed621f476a",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "9e3ecc028dee606038c566aafa3acb484ebd41b33ec6ac07f5ec210d3c9218bb",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F10_A",
+      "feature_family": "complex_tables",
+      "role": "development",
+      "v4_classification": "OBSERVED_PARTIAL",
+      "v5_classification": "OBSERVED_PARTIAL",
+      "classification_changed": false,
+      "v4_output_sha256": "cd50d1946caef6eb26cf2028b037aa3d73a1e438d2fc49146f96a8b81fb6714f",
+      "v5_output_sha256": "44d10ba42692fa4ed19f451f415fc8f1cc9aa9ab842d43cffd10bf26752d2c8e",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "b47496c5dc8079726067ac9689c0800f433116836ff22a8ad2adff0a6679d1b8",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F10_B",
+      "feature_family": "complex_tables",
+      "role": "development",
+      "v4_classification": "OBSERVED_PARTIAL",
+      "v5_classification": "OBSERVED_PARTIAL",
+      "classification_changed": false,
+      "v4_output_sha256": "798b2afca69003b1d236715e78fc38a033b3d31abeec53914d2805eff3a94e5c",
+      "v5_output_sha256": "9d04171669a5e8352f5a7af821deddf7baee8d2be6689b01485a77412c9bd46b",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "2f2f6312690a0ad997b421cde667c589e345095ef1391ff9ec6a02d690130b7b",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F10_C",
+      "feature_family": "complex_tables",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "747f5dfde0407d607c750b6cc3d280f920199a28560357cd921362b9c1d81580",
+      "v5_output_sha256": "8f49ec1b0f706de522f53e8890bd8e8c0680f6dd2aa4dc25bb30c0f1ed01a51f",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "e70ad7d0ca66ac767ff9d8a23bfc12189cc8c88ef204e28478d380ff36908889",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F10_D",
+      "feature_family": "complex_tables",
+      "role": "holdout",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "c49507b7dd53f80a79f19b4b8a51d9c0d60a1e133175b06cbebb0f7832956691",
+      "v5_output_sha256": "ce2321cba637127fa4a927a705728be3c3fb39aa32310fa0fd2051990da10aff",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "670b2b95811ea310d092923afbe74d598160140e12a3792e67fc456b920eb2b8",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F10_E",
+      "feature_family": "complex_tables",
+      "role": "holdout",
+      "v4_classification": "OBSERVED_PARTIAL",
+      "v5_classification": "OBSERVED_PARTIAL",
+      "classification_changed": false,
+      "v4_output_sha256": "2a2f1464df1429c457a36957e77f6dd67188622bb616c654beae575f5f550e90",
+      "v5_output_sha256": "1eb8878c9307bfae0f585ea804f16254022779671be94bb5dfd8160a5fd6e648",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "ba17aff86091766369df00f308e095d9fb49c40f9ff51ce1425b9ff9a2d8fedc",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F11_A",
+      "feature_family": "footnotes",
+      "role": "development",
+      "v4_classification": "MEASUREMENT_ERROR",
+      "v5_classification": "MEASUREMENT_ERROR",
+      "classification_changed": false,
+      "v4_output_sha256": "f66e58240246a1e9e086a2cd659fc9180cedda12be80bf51ccb108e9108588d2",
+      "v5_output_sha256": "93a38756c7510f2adc87ae0f50c9ec40ce393141a42140d0a56c032a87159988",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "97e92409128f1b845e983a17eefbd3218c600dc15e6b46092018d93d0bb1e94e",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F11_B",
+      "feature_family": "footnotes",
+      "role": "development",
+      "v4_classification": "MEASUREMENT_ERROR",
+      "v5_classification": "MEASUREMENT_ERROR",
+      "classification_changed": false,
+      "v4_output_sha256": "51f7c59c2d1b86e8024d1e8a53d3e02557ed54d13b7f86682f90c6e6d024a9b8",
+      "v5_output_sha256": "327ab14a3adffbf6e41e1b98e2845db72f70f59440c2d934607b3a91852da224",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "cda87e31e43bf7fb3631317f54d12eba6052f9b65a6966191f847e696e25d23a",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F11_C",
+      "feature_family": "footnotes",
+      "role": "development",
+      "v4_classification": "MEASUREMENT_ERROR",
+      "v5_classification": "MEASUREMENT_ERROR",
+      "classification_changed": false,
+      "v4_output_sha256": "5edcc1f88bcb259e15a6618512761d662c0da5ad16c0a8f12210f46afc7e47d0",
+      "v5_output_sha256": "e4f0c4ce23d0b819ef87fb96ea4046fe5a9986ee3f88d41c6f3b5b86e70ceb2d",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "e5d15249e5bb1490bc582f723263c1c6db8d8e09c5e23d1ec7cef65147c1d809",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F11_D",
+      "feature_family": "footnotes",
+      "role": "holdout",
+      "v4_classification": "MEASUREMENT_ERROR",
+      "v5_classification": "MEASUREMENT_ERROR",
+      "classification_changed": false,
+      "v4_output_sha256": "8a524f5a69e6ec1bb52c6891409cb14a045d8233812a5030fd832509f309cefd",
+      "v5_output_sha256": "fd8981464c53d17da662c43c9f7e3fb4bc9ca23381ed51cc130739f2beb1d59a",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "6f57e8524b8f923aab8e765ee9938abce0d8753c510698e20212f79e6759c694",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F11_E",
+      "feature_family": "footnotes",
+      "role": "holdout",
+      "v4_classification": "MEASUREMENT_ERROR",
+      "v5_classification": "MEASUREMENT_ERROR",
+      "classification_changed": false,
+      "v4_output_sha256": "cf98527fa32f94b7cce18f567115ada3ef0aac696fd9e4f84e3a09a50040a50c",
+      "v5_output_sha256": "9b4a4cc2158467a0bafb8e168d60b4ae582b2f8164180f57b2650d2842faaeb6",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "8e7e77ea40d0abded52bc5760a69550441d4bafc853c16a6eac08b11ddcc0e35",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F12_A",
+      "feature_family": "equations",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "2381974bae6a10ab45cdde1bbff5ca1a41d575f58251fd1781956b2e01a3b34c",
+      "v5_output_sha256": "9ae71f84a3e56224e5a3ec8b4038df647a29525c5eb2a7e30e8ba8e0e0bd1ec7",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "f4729b1d91945aee5e26cee7abe3c22f94ad77658c42e78b0ab2128fe9251d61",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F12_B",
+      "feature_family": "equations",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "5b7bd98dc86584041b5a4bb212c0caf387c3d2ed06809fee460186ac581eadab",
+      "v5_output_sha256": "b8963329f3c1245eec4969acbc897ac9e70fe8c73c19499fe2436f322089f87e",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "aec420f2f334889e51c95f486c0f6201ca2c2aed7faaefab217f2d92bf5202df",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F12_C",
+      "feature_family": "equations",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "5967abfd0efafa5e56dcc4d63aa03b602010e8d3999e269bce95d5547935f53c",
+      "v5_output_sha256": "785403aa418c594634a840278e1ed47bc00a787250494bd3e3bca4fe4d0c1567",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "8ad639ca15bf887ee80d655ca5a9758fe6d59b5314beda7832296e1e78848f5d",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F12_D",
+      "feature_family": "equations",
+      "role": "holdout",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "34fb30d7ab8757a2313aba0e1e6a47122ee9b09c83712440d3bdcce35ea07e4c",
+      "v5_output_sha256": "0058a545e55b020e67339eb37c04447de6f4eaaf18ebdd4e29dc0c92a6c9117f",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "07c51487b498252a6158a86ed451fd210619e025f1a4ba7b225775d079681223",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F12_E",
+      "feature_family": "equations",
+      "role": "holdout",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "fc20676bd6f3c1d5e1ba06de040df258bca3f1ff7ae4aed76ce2991bd149ddb0",
+      "v5_output_sha256": "d665e3026ccd3541cef2b39b737b0b530778311e29e24413905fec2ed2387a03",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "51a9ab7d10b1f8980efd5adb4e5bd44e6c5650c1af89972268667cf50398062b",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F13_A",
+      "feature_family": "captions",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "1471d860b80831fb3b324757fd47a7948144e938cbdcc402dd87dbfb94ba92ed",
+      "v5_output_sha256": "f03dd7c58379380dead1346d9cec04d8576d0b8305096c9fe71b2ac230bb0bf2",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "e1b223f7103c15d57ce94f3e6274766094dea6b80a22a12c7856c1bc9523cb1e",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F13_B",
+      "feature_family": "captions",
+      "role": "development",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "5fe4f7f3685300da7f0df4b8593012a12fda9e085ebe0d1a5f0bbfdfb109640a",
+      "v5_output_sha256": "6f3874df6f56b123f1d5844e915e60df004fb91984e2420fe2e33f0a85e402ae",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "372d7451a692799845087c9ef1888a7dc75a009d0af4ed0ca5235c1216d4fd4a",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F13_C",
+      "feature_family": "captions",
+      "role": "development",
+      "v4_classification": "UNRESOLVED_EQUIVALENCE",
+      "v5_classification": "UNRESOLVED_EQUIVALENCE",
+      "classification_changed": false,
+      "v4_output_sha256": "c40caa2d4201f3bba875143f950b7bc0e4a7a081d8f249a91126b132df72d4b6",
+      "v5_output_sha256": "2347a4486b04a37a85520751f362199a94693e7ccdc4d72b5598164d98d39ce4",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "ebb22b5fc74db200ece53df6d0d107fe670786ead46935e51a2ad5bf01377f31",
+      "classification_basis": "raw loss not independently corroborated; conservative abstention"
+    },
+    {
+      "fixture_id": "F13_D",
+      "feature_family": "captions",
+      "role": "holdout",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "e035e8d5b7e6a9c347438dbb5fd6870fe87de58a98bec0b746599c47040aafc0",
+      "v5_output_sha256": "baae241672be8a934db52fb48340597f79d6f1e5fcc18f096e71f2785b277bd7",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "1a72809ff4a26877126f03b1ea940184a799bc5f9107a0077c0ec91e36cfb281",
+      "classification_basis": "frozen raw-fidelity mapping"
+    },
+    {
+      "fixture_id": "F13_E",
+      "feature_family": "captions",
+      "role": "holdout",
+      "v4_classification": "VERIFIED_PRESERVED",
+      "v5_classification": "VERIFIED_PRESERVED",
+      "classification_changed": false,
+      "v4_output_sha256": "6e83816482019b38690211f9e78770c0f4ef0ed4db921085aabe068dec270310",
+      "v5_output_sha256": "030cf83119de127df8b9acf4eb50292a04731d05f0e2f635253c1533e1778930",
+      "v4_pdf_facts": {},
+      "v5_pdf_facts": {
+        "pdf_version": "%PDF-1.7",
+        "tagged": true,
+        "producer": "LibreOffice 26.2.6.3 (X86_64)",
+        "raw_pdfa_markers": {
+          "pdfaid:part": 0,
+          "GTS_PDFA1": 0,
+          "PDF/A": 0
+        }
+      },
+      "normalized_semantics_sha256": "c3f1c684a3ccbd1e803da879656ed1e4832d6f05fc6531a44b483673f6f450ea",
+      "classification_basis": "frozen raw-fidelity mapping"
+    }
+  ],
+  "counts": {
+    "VERIFIED_PRESERVED": 38,
+    "ALTERED": 9,
+    "OBSERVED_PARTIAL": 11,
+    "CONFIRMED_LOST": 1,
+    "MEASUREMENT_ERROR": 5,
+    "UNRESOLVED_EQUIVALENCE": 1
+  },
+  "classification_changes": [],
+  "profile_summary": {
+    "v4_pdfa_setting": "SelectPdfVersion=1 / PDF-A-1b",
+    "v5_pdf_setting": "SelectPdfVersion=0 / default PDF 1.7",
+    "v5_tagged_count": 65,
+    "v5_pdfa_marker_totals": {
+      "pdfaid:part": 0,
+      "GTS_PDFA1": 0,
+      "PDF/A": 0
+    }
+  }
+}

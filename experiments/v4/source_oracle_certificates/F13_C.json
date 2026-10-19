@@ -1,0 +1,70 @@
+{
+  "variant_id": "F13_C",
+  "feature_family": "captions",
+  "source_sha256": "56cfa7817ee38dd53e96d50b9c401185f5824a983f33cee09fc9a14bb8e6afef",
+  "contract_sha256": "0cf99bd09ddd6bfde05dc78c7d2eb1bb80c9a3a646caab47bd03ac8947838bed",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "56cfa7817ee38dd53e96d50b9c401185f5824a983f33cee09fc9a14bb8e6afef",
+    "headings": [],
+    "figures": [
+      {
+        "alt": "Description for figure 1.",
+        "decorative": false,
+        "title": "Figure 1"
+      },
+      {
+        "alt": "Description for figure 2.",
+        "decorative": false,
+        "title": "Figure 2"
+      }
+    ],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 captions 3",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 captions 3",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [
+      {
+        "text": "Figure A. Caption before."
+      },
+      {
+        "text": "Figure B. Caption after."
+      }
+    ],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/media/image1.png",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

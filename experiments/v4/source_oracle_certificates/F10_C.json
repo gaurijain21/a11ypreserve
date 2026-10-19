@@ -1,0 +1,91 @@
+{
+  "variant_id": "F10_C",
+  "feature_family": "complex_tables",
+  "source_sha256": "643854a9927a22070314eeb12f494eae8fa6b314a70a56222f12cea81892a2c2",
+  "contract_sha256": "1b858bbd6aab92e4542683a851d82d9a9b5bd6f2125fac42e70e7d6e7116015e",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "643854a9927a22070314eeb12f494eae8fa6b314a70a56222f12cea81892a2c2",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [
+      {
+        "rows": 4,
+        "cells": 15,
+        "header_rows": [
+          0,
+          1
+        ],
+        "spans": [
+          {
+            "gridSpan": "2",
+            "vMerge": null
+          }
+        ],
+        "values": [
+          [
+            "multi-level group A",
+            "multi-level 1.3",
+            "multi-level 1.4"
+          ],
+          [
+            "multi-level 2.1",
+            "multi-level 2.2",
+            "multi-level 2.3",
+            "multi-level 2.4"
+          ],
+          [
+            "multi-level 3.1",
+            "multi-level 3.2",
+            "multi-level 3.3",
+            "multi-level 3.4"
+          ],
+          [
+            "multi-level 4.1",
+            "multi-level 4.2",
+            "multi-level 4.3",
+            "multi-level 4.4"
+          ]
+        ]
+      }
+    ],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 complex table 3",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 complex table 3",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

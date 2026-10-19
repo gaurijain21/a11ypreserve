@@ -1,0 +1,38 @@
+{
+  "variant_id": "F04_D",
+  "feature_family": "basic_tables",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F04_D.docx",
+  "ground_truth": {
+    "dimensions": {
+      "rows": 3,
+      "columns": 4
+    },
+    "header_rows": [
+      0
+    ],
+    "cells": [
+      [
+        "Region",
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      [
+        "North",
+        "1",
+        "2",
+        "3"
+      ],
+      [
+        "South",
+        "4",
+        "5",
+        "6"
+      ]
+    ]
+  },
+  "source_sha256": "87dcb4771635f04a934bf1a84c4cc6cd6146bb9b08f940c319ec36f319ba443c"
+}

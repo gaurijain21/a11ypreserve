@@ -1,6 +1,6 @@
 # ICST 2027 desk-rejection audit (superseded package snapshot)
 
-> This earlier audit contains V2-era “rendered” status statements and is retained for provenance only. The current V3 package gate is `FINAL_DESK_REJECTION_AUDIT.md`; it records that the V3 PDF is absent and page/visual checks are unverified.
+> This earlier audit contains V2-era “rendered” status statements and is retained for provenance only. The final V3 gate is recorded in `FINAL_DESK_REJECTION_AUDIT.md`, which supersedes this snapshot.
 
 Status: no known desk-rejection issue in the current anonymous candidate; final portal/template checks remain human actions.
 

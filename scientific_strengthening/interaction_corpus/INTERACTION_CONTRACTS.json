@@ -1,0 +1,299 @@
+{
+  "corpus": "interaction_corpus",
+  "design": "controlled feature coexistence; not a random real-world sample",
+  "documents": [
+    {
+      "document_id": "IC01",
+      "source_docx": "scientific_strengthening/interaction_corpus/sources/IC01_HEADING.docx",
+      "source_sha256": "ae96f5ce5c940078cb7d311af9a92f09a2c90a156c58bf71300abbb6410a50b4",
+      "purpose": "heading hierarchy + hyperlink + inline language coexistence",
+      "features": [
+        "headings",
+        "hyperlinks",
+        "inline_language",
+        "document_language"
+      ],
+      "contracts": [
+        {
+          "feature": "headings",
+          "expected": {
+            "levels": [
+              1,
+              1,
+              2,
+              2
+            ]
+          }
+        },
+        {
+          "feature": "hyperlinks",
+          "expected": {
+            "text": "accessibility standards overview",
+            "target": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+          }
+        },
+        {
+          "feature": "inline_language",
+          "expected": {
+            "text": "información pública",
+            "language": "es-MX"
+          }
+        },
+        {
+          "feature": "document_language",
+          "expected": {
+            "language": "en-US"
+          }
+        }
+      ]
+    },
+    {
+      "document_id": "IC02",
+      "source_docx": "scientific_strengthening/interaction_corpus/sources/IC02_NESTED.docx",
+      "source_sha256": "2ed8e5e599aa59edf9c4488ea8ad99f74ce2a31fc8cf4ccc0a947851fff60f38",
+      "purpose": "nested ordered list + inline language + explanatory hierarchy",
+      "features": [
+        "headings",
+        "nested_lists",
+        "inline_language",
+        "document_language"
+      ],
+      "contracts": [
+        {
+          "feature": "headings",
+          "expected": {
+            "levels": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "feature": "lists",
+          "expected": {
+            "depths": [
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "top_level_type": "ordered"
+          }
+        },
+        {
+          "feature": "inline_language",
+          "expected": {
+            "text": "Buenos días",
+            "language": "es-MX"
+          }
+        },
+        {
+          "feature": "document_language",
+          "expected": {
+            "language": "en-US"
+          }
+        }
+      ]
+    },
+    {
+      "document_id": "IC03",
+      "source_docx": "scientific_strengthening/interaction_corpus/sources/IC03_HEADING.docx",
+      "source_sha256": "e2156bd858a64e94786b6b99f6bc6a0db62f34a52903ece93fc4f8586b89c4b6",
+      "purpose": "heading + informative image alternative + caption + hyperlink coexistence",
+      "features": [
+        "headings",
+        "image_alt_text",
+        "captions",
+        "hyperlinks"
+      ],
+      "contracts": [
+        {
+          "feature": "headings",
+          "expected": {
+            "levels": [
+              1,
+              2,
+              1
+            ]
+          }
+        },
+        {
+          "feature": "image_alt_text",
+          "expected": {
+            "alt": "A rising line showing completed requests increasing across two reporting periods."
+          }
+        },
+        {
+          "feature": "captions",
+          "expected": {
+            "text": "Figure 1. Completed requests increased across the reporting periods."
+          }
+        },
+        {
+          "feature": "hyperlinks",
+          "expected": {
+            "text": "public accessibility guidance",
+            "target": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+          }
+        }
+      ]
+    },
+    {
+      "document_id": "IC04",
+      "source_docx": "scientific_strengthening/interaction_corpus/sources/IC04_TABLE.docx",
+      "source_sha256": "7fc7d20e270160bce3ce49191285a8cdd26d24f70bfd3acda25141190fde5b18",
+      "purpose": "table headers + list nesting + heading hierarchy",
+      "features": [
+        "headings",
+        "table_headers",
+        "lists"
+      ],
+      "contracts": [
+        {
+          "feature": "headings",
+          "expected": {
+            "levels": [
+              1,
+              2,
+              1
+            ]
+          }
+        },
+        {
+          "feature": "table",
+          "expected": {
+            "headers": [
+              "Measure",
+              "Current",
+              "Next step"
+            ],
+            "rows": 4
+          }
+        },
+        {
+          "feature": "lists",
+          "expected": {
+            "depths": [
+              0,
+              1,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "document_id": "IC05",
+      "source_docx": "scientific_strengthening/interaction_corpus/sources/IC05_LINKED_SOURCE_NOTE.docx",
+      "source_sha256": "15f4615a0aec8ddca0500eee8dad2c98dd13466bb03137954756164a58509ff8",
+      "purpose": "footnote reference + hyperlink + heading coexistence",
+      "features": [
+        "headings",
+        "footnotes",
+        "hyperlinks"
+      ],
+      "contracts": [
+        {
+          "feature": "headings",
+          "expected": {
+            "levels": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "feature": "footnotes",
+          "expected": {
+            "text": "This note identifies the source used for the public-information example."
+          }
+        },
+        {
+          "feature": "hyperlinks",
+          "expected": {
+            "text": "accessibility standards overview",
+            "target": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+          }
+        }
+      ]
+    },
+    {
+      "document_id": "IC06",
+      "source_docx": "scientific_strengthening/interaction_corpus/sources/IC06_MULTI-PAGE-STYLE.docx",
+      "source_sha256": "105dd4ad10b66c4afb5838a6e0ec0d1683873190f64593f2c76bc5e7f11bf41c",
+      "purpose": "multi-page-style mini-report with cross-feature coexistence",
+      "features": [
+        "headings",
+        "lists",
+        "table_headers",
+        "image_alt_text",
+        "captions",
+        "inline_language",
+        "hyperlinks"
+      ],
+      "contracts": [
+        {
+          "feature": "headings",
+          "expected": {
+            "levels": [
+              1,
+              1,
+              2,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "feature": "lists",
+          "expected": {
+            "depths": [
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "feature": "table",
+          "expected": {
+            "headers": [
+              "Measure",
+              "Before",
+              "After"
+            ],
+            "rows": 3
+          }
+        },
+        {
+          "feature": "image_alt_text",
+          "expected": {
+            "alt": "A simple process diagram showing intake, review, and response stages."
+          }
+        },
+        {
+          "feature": "captions",
+          "expected": {
+            "text": "Figure 1. The service process has intake, review, and response stages."
+          }
+        },
+        {
+          "feature": "inline_language",
+          "expected": {
+            "text": "información pública",
+            "language": "es-MX"
+          }
+        },
+        {
+          "feature": "hyperlinks",
+          "expected": {
+            "text": "Web Content Accessibility Guidelines",
+            "target": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "records": [
     {
       "fixture": "F01_HEADINGS",
-      "run_1": "results/full_experiment/outputs/google_docs/F01_HEADINGS__GOOGLE_DOCS.pdf",
+      "run_1": "corpus/outputs/google_docs/F01_HEADINGS__GOOGLE_DOCS.pdf",
       "run_2": "v3/google_repeatability/run2/F01_HEADINGS__GOOGLE_DOCS__R2.pdf",
       "run_3": "v3/google_repeatability/run3/F01_HEADINGS__GOOGLE_DOCS__R3.pdf",
       "hashes": [
@@ -16,11 +16,12 @@
       "byte_repeatability": "BYTE_IDENTICAL",
       "run_1_classification": "OBSERVED_PARTIAL",
       "classification_stable": true,
-      "repeatability_classification": "BYTE_IDENTICAL"
+      "repeatability_classification": "STABLE_BY_BYTE_IDENTITY",
+      "classification_stability_basis": "byte-identical outputs imply the deterministic frozen comparator would receive identical destination bytes"
     },
     {
       "fixture": "F02_ALT_TEXT",
-      "run_1": "results/full_experiment/outputs/google_docs/F02_ALT_TEXT__GOOGLE_DOCS.pdf",
+      "run_1": "corpus/outputs/google_docs/F02_ALT_TEXT__GOOGLE_DOCS.pdf",
       "run_2": "v3/google_repeatability/run2/F02_ALT_TEXT__GOOGLE_DOCS__R2.pdf",
       "run_3": "v3/google_repeatability/run3/F02_ALT_TEXT__GOOGLE_DOCS__R3.pdf",
       "hashes": [
@@ -31,11 +32,12 @@
       "byte_repeatability": "BYTE_IDENTICAL",
       "run_1_classification": "VERIFIED_PRESERVED",
       "classification_stable": true,
-      "repeatability_classification": "BYTE_IDENTICAL"
+      "repeatability_classification": "STABLE_BY_BYTE_IDENTITY",
+      "classification_stability_basis": "byte-identical outputs imply the deterministic frozen comparator would receive identical destination bytes"
     },
     {
       "fixture": "F03_LISTS",
-      "run_1": "results/full_experiment/outputs/google_docs/F03_LISTS__GOOGLE_DOCS.pdf",
+      "run_1": "corpus/outputs/google_docs/F03_LISTS__GOOGLE_DOCS.pdf",
       "run_2": "v3/google_repeatability/run2/F03_LISTS__GOOGLE_DOCS__R2.pdf",
       "run_3": "v3/google_repeatability/run3/F03_LISTS__GOOGLE_DOCS__R3.pdf",
       "hashes": [
@@ -46,11 +48,12 @@
       "byte_repeatability": "BYTE_IDENTICAL",
       "run_1_classification": "UNRESOLVED_EQUIVALENCE",
       "classification_stable": true,
-      "repeatability_classification": "BYTE_IDENTICAL"
+      "repeatability_classification": "STABLE_BY_BYTE_IDENTITY",
+      "classification_stability_basis": "byte-identical outputs imply the deterministic frozen comparator would receive identical destination bytes"
     },
     {
       "fixture": "F04_TABLE",
-      "run_1": "results/full_experiment/outputs/google_docs/F04_TABLE__GOOGLE_DOCS.pdf",
+      "run_1": "corpus/outputs/google_docs/F04_TABLE__GOOGLE_DOCS.pdf",
       "run_2": "v3/google_repeatability/run2/F04_TABLE__GOOGLE_DOCS__R2.pdf",
       "run_3": "v3/google_repeatability/run3/F04_TABLE__GOOGLE_DOCS__R3.pdf",
       "hashes": [
@@ -61,11 +64,12 @@
       "byte_repeatability": "BYTE_IDENTICAL",
       "run_1_classification": "VERIFIED_PRESERVED",
       "classification_stable": true,
-      "repeatability_classification": "BYTE_IDENTICAL"
+      "repeatability_classification": "STABLE_BY_BYTE_IDENTITY",
+      "classification_stability_basis": "byte-identical outputs imply the deterministic frozen comparator would receive identical destination bytes"
     },
     {
       "fixture": "F05_DOCUMENT_LANGUAGE",
-      "run_1": "results/full_experiment/outputs/google_docs/F05_DOCUMENT_LANGUAGE__GOOGLE_DOCS.pdf",
+      "run_1": "corpus/outputs/google_docs/F05_DOCUMENT_LANGUAGE__GOOGLE_DOCS.pdf",
       "run_2": "v3/google_repeatability/run2/F05_DOCUMENT_LANGUAGE__GOOGLE_DOCS__R2.pdf",
       "run_3": "v3/google_repeatability/run3/F05_DOCUMENT_LANGUAGE__GOOGLE_DOCS__R3.pdf",
       "hashes": [
@@ -76,11 +80,12 @@
       "byte_repeatability": "BYTE_IDENTICAL",
       "run_1_classification": "ALTERED",
       "classification_stable": true,
-      "repeatability_classification": "BYTE_IDENTICAL"
+      "repeatability_classification": "STABLE_BY_BYTE_IDENTITY",
+      "classification_stability_basis": "byte-identical outputs imply the deterministic frozen comparator would receive identical destination bytes"
     },
     {
       "fixture": "F06_INLINE_LANGUAGE",
-      "run_1": "results/full_experiment/outputs/google_docs/F06_INLINE_LANGUAGE__GOOGLE_DOCS.pdf",
+      "run_1": "corpus/outputs/google_docs/F06_INLINE_LANGUAGE__GOOGLE_DOCS.pdf",
       "run_2": "v3/google_repeatability/run2/F06_INLINE_LANGUAGE__GOOGLE_DOCS__R2.pdf",
       "run_3": "v3/google_repeatability/run3/F06_INLINE_LANGUAGE__GOOGLE_DOCS__R3.pdf",
       "hashes": [
@@ -91,11 +96,12 @@
       "byte_repeatability": "BYTE_IDENTICAL",
       "run_1_classification": "CONFIRMED_LOST",
       "classification_stable": true,
-      "repeatability_classification": "BYTE_IDENTICAL"
+      "repeatability_classification": "STABLE_BY_BYTE_IDENTITY",
+      "classification_stability_basis": "byte-identical outputs imply the deterministic frozen comparator would receive identical destination bytes"
     },
     {
       "fixture": "F07_DECORATIVE_IMAGE",
-      "run_1": "results/full_experiment/outputs/google_docs/F07_DECORATIVE_IMAGE__GOOGLE_DOCS.pdf",
+      "run_1": "corpus/outputs/google_docs/F07_DECORATIVE_IMAGE__GOOGLE_DOCS.pdf",
       "run_2": "v3/google_repeatability/run2/F07_DECORATIVE_IMAGE__GOOGLE_DOCS__R2.pdf",
       "run_3": "v3/google_repeatability/run3/F07_DECORATIVE_IMAGE__GOOGLE_DOCS__R3.pdf",
       "hashes": [
@@ -106,11 +112,12 @@
       "byte_repeatability": "BYTE_IDENTICAL",
       "run_1_classification": "OBSERVED_PARTIAL",
       "classification_stable": true,
-      "repeatability_classification": "BYTE_IDENTICAL"
+      "repeatability_classification": "STABLE_BY_BYTE_IDENTITY",
+      "classification_stability_basis": "byte-identical outputs imply the deterministic frozen comparator would receive identical destination bytes"
     },
     {
       "fixture": "F08_LINKS",
-      "run_1": "results/full_experiment/outputs/google_docs/F08_LINKS__GOOGLE_DOCS.pdf",
+      "run_1": "corpus/outputs/google_docs/F08_LINKS__GOOGLE_DOCS.pdf",
       "run_2": "v3/google_repeatability/run2/F08_LINKS__GOOGLE_DOCS__R2.pdf",
       "run_3": "v3/google_repeatability/run3/F08_LINKS__GOOGLE_DOCS__R3.pdf",
       "hashes": [
@@ -121,11 +128,12 @@
       "byte_repeatability": "BYTE_IDENTICAL",
       "run_1_classification": "UNRESOLVED_EQUIVALENCE",
       "classification_stable": true,
-      "repeatability_classification": "BYTE_IDENTICAL"
+      "repeatability_classification": "STABLE_BY_BYTE_IDENTITY",
+      "classification_stability_basis": "byte-identical outputs imply the deterministic frozen comparator would receive identical destination bytes"
     },
     {
       "fixture": "F09_DOCUMENT_TITLE",
-      "run_1": "results/full_experiment/outputs/google_docs/F09_DOCUMENT_TITLE__GOOGLE_DOCS.pdf",
+      "run_1": "corpus/outputs/google_docs/F09_DOCUMENT_TITLE__GOOGLE_DOCS.pdf",
       "run_2": "v3/google_repeatability/run2/F09_DOCUMENT_TITLE__GOOGLE_DOCS__R2.pdf",
       "run_3": "v3/google_repeatability/run3/F09_DOCUMENT_TITLE__GOOGLE_DOCS__R3.pdf",
       "hashes": [
@@ -136,11 +144,12 @@
       "byte_repeatability": "BYTE_IDENTICAL",
       "run_1_classification": "ALTERED",
       "classification_stable": true,
-      "repeatability_classification": "BYTE_IDENTICAL"
+      "repeatability_classification": "STABLE_BY_BYTE_IDENTITY",
+      "classification_stability_basis": "byte-identical outputs imply the deterministic frozen comparator would receive identical destination bytes"
     },
     {
       "fixture": "F10_COMPLEX_TABLE",
-      "run_1": "results/full_experiment/outputs/google_docs/F10_COMPLEX_TABLE__GOOGLE_DOCS.pdf",
+      "run_1": "corpus/outputs/google_docs/F10_COMPLEX_TABLE__GOOGLE_DOCS.pdf",
       "run_2": "v3/google_repeatability/run2/F10_COMPLEX_TABLE__GOOGLE_DOCS__R2.pdf",
       "run_3": "v3/google_repeatability/run3/F10_COMPLEX_TABLE__GOOGLE_DOCS__R3.pdf",
       "hashes": [
@@ -151,11 +160,12 @@
       "byte_repeatability": "BYTE_IDENTICAL",
       "run_1_classification": "UNRESOLVED_EQUIVALENCE",
       "classification_stable": true,
-      "repeatability_classification": "BYTE_IDENTICAL"
+      "repeatability_classification": "STABLE_BY_BYTE_IDENTITY",
+      "classification_stability_basis": "byte-identical outputs imply the deterministic frozen comparator would receive identical destination bytes"
     },
     {
       "fixture": "F11_FOOTNOTES",
-      "run_1": "results/full_experiment/outputs/google_docs/F11_FOOTNOTES__GOOGLE_DOCS.pdf",
+      "run_1": "corpus/outputs/google_docs/F11_FOOTNOTES__GOOGLE_DOCS.pdf",
       "run_2": "v3/google_repeatability/run2/F11_FOOTNOTES__GOOGLE_DOCS__R2.pdf",
       "run_3": "v3/google_repeatability/run3/F11_FOOTNOTES__GOOGLE_DOCS__R3.pdf",
       "hashes": [
@@ -166,11 +176,12 @@
       "byte_repeatability": "BYTE_IDENTICAL",
       "run_1_classification": "CONFIRMED_LOST",
       "classification_stable": true,
-      "repeatability_classification": "BYTE_IDENTICAL"
+      "repeatability_classification": "STABLE_BY_BYTE_IDENTITY",
+      "classification_stability_basis": "byte-identical outputs imply the deterministic frozen comparator would receive identical destination bytes"
     },
     {
       "fixture": "F12_EQUATION",
-      "run_1": "results/full_experiment/outputs/google_docs/F12_EQUATION__GOOGLE_DOCS.pdf",
+      "run_1": "corpus/outputs/google_docs/F12_EQUATION__GOOGLE_DOCS.pdf",
       "run_2": "v3/google_repeatability/run2/F12_EQUATION__GOOGLE_DOCS__R2.pdf",
       "run_3": "v3/google_repeatability/run3/F12_EQUATION__GOOGLE_DOCS__R3.pdf",
       "hashes": [
@@ -181,11 +192,12 @@
       "byte_repeatability": "BYTE_IDENTICAL",
       "run_1_classification": "UNRESOLVED_EQUIVALENCE",
       "classification_stable": true,
-      "repeatability_classification": "BYTE_IDENTICAL"
+      "repeatability_classification": "STABLE_BY_BYTE_IDENTITY",
+      "classification_stability_basis": "byte-identical outputs imply the deterministic frozen comparator would receive identical destination bytes"
     },
     {
       "fixture": "F14_CAPTIONS",
-      "run_1": "results/full_experiment/outputs/google_docs/F14_CAPTIONS__GOOGLE_DOCS.pdf",
+      "run_1": "corpus/outputs/google_docs/F14_CAPTIONS__GOOGLE_DOCS.pdf",
       "run_2": "v3/google_repeatability/run2/F14_CAPTIONS__GOOGLE_DOCS__R2.pdf",
       "run_3": "v3/google_repeatability/run3/F14_CAPTIONS__GOOGLE_DOCS__R3.pdf",
       "hashes": [
@@ -196,10 +208,12 @@
       "byte_repeatability": "BYTE_IDENTICAL",
       "run_1_classification": "UNRESOLVED_EQUIVALENCE",
       "classification_stable": true,
-      "repeatability_classification": "BYTE_IDENTICAL"
+      "repeatability_classification": "STABLE_BY_BYTE_IDENTITY",
+      "classification_stability_basis": "byte-identical outputs imply the deterministic frozen comparator would receive identical destination bytes"
     }
   ],
   "byte_identical": 13,
   "classification_stable": 13,
-  "conclusion": "The tested preservation classifications remained stable across three independently executed Google Docs conversions for all 13 Core fixtures under the recorded workflow. All three files were also byte-identical for every fixture."
+  "classification_stability_basis": "byte_identity_of_all_three_outputs",
+  "conclusion": "All three files were byte-identical for 13/13 fixtures; classification stability is inferred from byte identity for those fixtures and is not independently re-extracted by this script."
 }

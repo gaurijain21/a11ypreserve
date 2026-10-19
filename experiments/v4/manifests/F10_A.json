@@ -1,0 +1,21 @@
+{
+  "variant_id": "F10_A",
+  "feature_family": "complex_tables",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F10_A.docx",
+  "ground_truth": {
+    "span_type": "column",
+    "rows": 3,
+    "columns": 4,
+    "header_rows": [
+      0
+    ],
+    "span_signature": {
+      "gridSpan": "2",
+      "vMerge": null
+    }
+  },
+  "source_sha256": "63bfec96e6ae93f83a1d9b132e10626cddb2ea73c6ef83b1acbf1b333ee52d6d"
+}

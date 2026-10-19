@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import hashlib
 import json
-import os
 import shutil
 import sys
 from pathlib import Path
@@ -19,9 +18,9 @@ BASE = ROOT / "corpus" / "v3_variant_set_b"
 FIXTURES = BASE / "fixtures"
 MANIFESTS = BASE / "manifests"
 ASSETS = ROOT / "corpus"
-HELPER = os.environ.get("A11YPRESERVE_DOCUMENT_SKILLS")
-if HELPER and HELPER not in sys.path:
-    sys.path.insert(0, HELPER)
+HELPER = Path("C:/Users/iamga/.codex/plugins/cache/openai-primary-runtime/documents/26.909.12148/skills/documents/scripts")
+if str(HELPER) not in sys.path:
+    sys.path.insert(0, str(HELPER))
 from insert_note import insert_note  # noqa: E402
 
 W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"

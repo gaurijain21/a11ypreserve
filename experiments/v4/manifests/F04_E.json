@@ -1,0 +1,32 @@
+{
+  "variant_id": "F04_E",
+  "feature_family": "basic_tables",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "holdout",
+  "fixture_path": "experiments/v4/fixtures/F04_E.docx",
+  "ground_truth": {
+    "dimensions": {
+      "rows": 3,
+      "columns": 2
+    },
+    "header_rows": [
+      0
+    ],
+    "cells": [
+      [
+        "Category",
+        "Count"
+      ],
+      [
+        "A",
+        "3"
+      ],
+      [
+        "B",
+        "4"
+      ]
+    ]
+  },
+  "source_sha256": "c4d179636beb2f2940134c9b067bcde5b2b1a6ff17abecba44fe097979a7fa03"
+}

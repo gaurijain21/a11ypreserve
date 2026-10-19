@@ -1,0 +1,55 @@
+{
+  "variant_id": "F09_C",
+  "feature_family": "document_metadata",
+  "source_sha256": "1c7d18a49d4eacc601a7fbfd268f1cf8df3e3c81f47cf6b64370dc36c41b50f8",
+  "contract_sha256": "4add689c37b5cbd9371a2ccd682a38e97bc797f26bddb0ca8ec9604864a5f006",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "1c7d18a49d4eacc601a7fbfd268f1cf8df3e3c81f47cf6b64370dc36c41b50f8",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "Title: Findings (draft)",
+        "language": "en-US"
+      },
+      {
+        "text": "Visible title and core metadata are recorded as separate contract values.",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "Title: Findings (draft)",
+      "subject": "Subject 3: source metadata",
+      "keywords": "a11y, preservation, V4",
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

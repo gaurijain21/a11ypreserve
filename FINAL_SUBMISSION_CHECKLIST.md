@@ -1,3 +1,7 @@
+# HISTORICAL — earlier submission checklist
+
+> Use `FINAL_SUBMISSION_READINESS.md` for the current V3 checklist; this file is retained for provenance.
+
 # Final Submission Checklist
 
 ## Manuscript

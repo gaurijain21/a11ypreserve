@@ -1,8 +1,8 @@
-# V3 artifact license report
+# Reviewer artifact license report
 
 ## Current status
 
-`artifact_v3/` and `A11yPreserve_artifact_ICST2027_V3.zip` are sanitized candidate packages, not a public release. The inherited `LICENSE` is a review notice rather than a final open-source license. Human authors must choose final code/data/document terms before public distribution.
+`artifact_v3/` and `A11yPreserve_artifact_ICST2027_V3.zip` are sanitized reviewer packages, not a public release. The inherited `LICENSE` is a review notice rather than a final open-source license. Human authors must choose final code/data/document terms before public distribution.
 
 ## Included material
 

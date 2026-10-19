@@ -3,7 +3,7 @@
 
 \subsection{Overall accounting}
 
-All 52 atomic fixture--pipeline cases produced genuine, parseable, non-empty, structurally tagged PDFs that passed the predefined structural output checks. The V3 atomic evidence-aware counts are 18 \verifiedpreserved{}, 4 \observedpartial{}, 7 \altered{}, 4 \confirmedlost{}, 18 \unresolved{}, and 1 \measured{}. These are controlled-case counts, not prevalence estimates or failure rates. The frozen Core V2 denominator remains 26 cases and is reported separately in the provenance records.
+All 52 atomic fixture--pipeline cases produced genuine, parseable, non-empty, structurally tagged PDFs that passed the predefined structural output checks. The atomic evidence-aware counts are 18 \verifiedpreserved{}, 4 \observedpartial{}, 7 \altered{}, 4 \confirmedlost{}, 18 \unresolved{}, and 1 \measured{}. These are controlled-case counts, not prevalence estimates or failure rates. The 18 unresolved cases are the frozen primary analysis. A separate additive hyperlink-evidence audit deterministically resolved four of those rows, leaving 14 unresolved in the derived analysis; it did not overwrite the frozen result file or primary denominators. The earlier Core denominator remains 26 cases and is reported separately in the provenance records.
 
 \begin{figure*}[t]
 \centering
@@ -19,15 +19,15 @@ Manifest + OOXML + ASIR\hfill Converter/version/settings\\[3pt]
 
 \subsection{Feature-family matrix}
 
-Table~\ref{tab:results} is the central V3 matrix. ``Preserved'' denotes \verifiedpreserved{}; ``Partial'' denotes \observedpartial{}; ``Lost'' denotes \confirmedlost{}; ``Unresolved'' denotes \unresolved{}; and ``Meas.'' denotes \measured{}. The Core and Variant columns are separate controlled instances, not repeated samples from a population.
+Table~\ref{tab:results} is the central atomic matrix. ``Preserved'' denotes \verifiedpreserved{}; ``Partial'' denotes \observedpartial{}; ``Lost'' denotes \confirmedlost{}; ``Unresolved'' denotes \unresolved{}; and ``Meas.'' denotes \measured{}. The Core and Variant columns are separate controlled instances, not repeated samples from a population.
 
 \begin{table*}[t]
 \centering\scriptsize
-\caption{V3 atomic benchmark: two controlled instances per selected feature family, each run through both named pipelines.}
+\caption{Atomic benchmark: two controlled instances per selected feature family, each run through both named pipelines.}
 \label{tab:results}
-\begin{tabular}{p{0.16\textwidth}p{0.12\textwidth}p{0.12\textwidth}p{0.12\textwidth}p{0.12\textwidth}p{0.26\textwidth}}
+\begin{tabular}{p{0.14\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.25\textwidth}}
 \hline
-Feature & LO Core & LO Variant & Google Core & Google Variant & Interpretation \\
+Feature & LO Core & LO Var. & G. Core & G. Var. & Interpretation \\
 \hline
 Headings & Preserved & Preserved & Partial & Partial & Google adds a generated H1 in both controlled cases \\
 Alt text & Altered & Altered & Preserved & Preserved & Exporter-added wording occurs only in the tested LO cases \\
@@ -54,6 +54,8 @@ The four confirmed-loss rows are the Core and Variant B instances of F06/B06 inl
 
 The two-path audit also explains the unresolved rows. For list, hyperlink, complex-table, equation, and caption mappings, destination structure or visible content often survives, but the available evidence does not establish a feature-specific equivalent representation. The comparator therefore abstains. Absence from one extracted encoding is not treated as semantic absence when a valid alternate representation remains possible.
 
+As a deliberately weaker contrast, a destination-presence-only baseline found a feature-shaped destination structure in 16 of the 18 frozen unresolved rows. This does not resolve those cases: destination presence alone does not establish preservation of the corresponding source semantic relationship.
+
 \subsection{Google repeatability}
 
 The separate Core repeatability arm contains 13 fixtures and 39 total Google runs. All 13 fixtures were classification-stable across Run 1, Run 2, and Run 3; all three PDFs were byte-identical for every fixture under the recorded workflow. This is a dated cloud-workflow observation. The backend version cannot be pinned, and the result does not guarantee future Google Docs behavior.
@@ -61,4 +63,3 @@ The separate Core repeatability arm contains 13 fixtures and 39 total Google run
 \subsection{Integrated-document sanity check}
 
 The separate secondary evaluation used three project-generated multi-feature documents and 42 property--pipeline observations, after 21/21 source-oracle assertions passed. Those observations are retained as a protocol-applicability sanity check; they are not merged with the 52 atomic cases, do not create a representative corpus, and do not estimate real-world prevalence.
-

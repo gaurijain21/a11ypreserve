@@ -1,0 +1,18 @@
+{
+  "variant_id": "F06_C",
+  "feature_family": "inline_language",
+  "source_format": "DOCX",
+  "protocol": "experiments/v4/V4_PROTOCOL.md",
+  "role": "development",
+  "fixture_path": "experiments/v4/fixtures/F06_C.docx",
+  "ground_truth": {
+    "document_language": "en-US",
+    "spans": [
+      {
+        "text": "Guten Tag, wie geht es Ihnen?",
+        "language": "de-DE"
+      }
+    ]
+  },
+  "source_sha256": "87b9fdee1b5e79c60f42378b39d0d916df788b90a04c756917c59e67c9b2b18d"
+}

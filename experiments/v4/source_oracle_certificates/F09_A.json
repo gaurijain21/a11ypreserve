@@ -1,0 +1,55 @@
+{
+  "variant_id": "F09_A",
+  "feature_family": "document_metadata",
+  "source_sha256": "8c70f8e8086421acf6d1cfa5395a345201cdc6c9a2f2982d6445bc35c4862426",
+  "contract_sha256": "8a33742a66ce46be8722cd00ec7529ff29c34e94201a0940ab1959fa8f96f261",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "8c70f8e8086421acf6d1cfa5395a345201cdc6c9a2f2982d6445bc35c4862426",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "Accessible policy guide",
+        "language": "en-US"
+      },
+      {
+        "text": "Visible title and core metadata are recorded as separate contract values.",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "Accessible policy guide",
+      "subject": "Subject 1: source metadata",
+      "keywords": "a11y, preservation, V4",
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

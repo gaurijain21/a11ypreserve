@@ -1,0 +1,62 @@
+{
+  "variant_id": "F02_B",
+  "feature_family": "alt_text",
+  "source_sha256": "b8fed253e1ada97a12a4e16e62fd1d07cb4233e7654e4345dc42d76814dcc408",
+  "contract_sha256": "141050c570026845eed90813d73481da8e06e14c396bccd5f7e85ea9dc04c1c1",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "b8fed253e1ada97a12a4e16e62fd1d07cb4233e7654e4345dc42d76814dcc408",
+    "headings": [],
+    "figures": [
+      {
+        "alt": "A long description of a line chart showing enrollment increasing each academic year from 2021 through 2026.",
+        "decorative": false,
+        "title": "Alt image 1"
+      }
+    ],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "V4 alt text 2",
+        "language": "en-US"
+      },
+      {
+        "text": "Each image description is an author-supplied source value.",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "V4 alt text 2",
+      "subject": "Source-grounded preservation contract",
+      "keywords": null,
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/media/image1.png",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}

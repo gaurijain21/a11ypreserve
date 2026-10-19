@@ -1,0 +1,55 @@
+{
+  "variant_id": "F09_B",
+  "feature_family": "document_metadata",
+  "source_sha256": "47a60db117324d2d711891a9614b724aeb29a8aa64675d99cb26e4317df10d33",
+  "contract_sha256": "c8a369433a1d4ba1f9add4b30767f64931d5ad9249c206065efc4c22dc2cb2a4",
+  "status": "PASS",
+  "raw_ooxml": {
+    "source_sha256": "47a60db117324d2d711891a9614b724aeb29a8aa64675d99cb26e4317df10d33",
+    "headings": [],
+    "figures": [],
+    "lists": [],
+    "tables": [],
+    "document_language": "en-US",
+    "inline_languages": [
+      {
+        "text": "Résumé — été 2026",
+        "language": "en-US"
+      },
+      {
+        "text": "Visible title and core metadata are recorded as separate contract values.",
+        "language": "en-US"
+      }
+    ],
+    "hyperlinks": [],
+    "metadata": {
+      "title": "Résumé — été 2026",
+      "subject": "Subject 2: source metadata",
+      "keywords": "a11y, preservation, V4",
+      "language": "en-US"
+    },
+    "footnotes": [],
+    "equations": [],
+    "captions": [],
+    "ooxml_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "customXml/_rels/item1.xml.rels",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/app.xml",
+      "docProps/core.xml",
+      "docProps/thumbnail.jpeg",
+      "word/_rels/document.xml.rels",
+      "word/document.xml",
+      "word/fontTable.xml",
+      "word/numbering.xml",
+      "word/settings.xml",
+      "word/styles.xml",
+      "word/stylesWithEffects.xml",
+      "word/theme/theme1.xml",
+      "word/webSettings.xml"
+    ]
+  },
+  "problems": []
+}
