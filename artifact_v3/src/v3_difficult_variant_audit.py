@@ -10,7 +10,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-import fitz
+import pymupdf
 from pypdf import PdfReader
 from pypdf.generic import ArrayObject, DictionaryObject, IndirectObject
 
@@ -85,7 +85,7 @@ def pypdf_audit(path: Path) -> dict:
 
 
 def pymupdf_audit(path: Path) -> dict:
-    document = fitz.open(path)
+    document = pymupdf.open(path)
     counts = {marker: 0 for marker in MARKERS}
     marker_objects = []
     for xref in range(1, document.xref_length()):
@@ -106,7 +106,7 @@ def pymupdf_audit(path: Path) -> dict:
         text.append(page_text)
         pages.append({"text_chars": len(page_text), "image_count": len(page.get_images(full=True)), "link_count": len(page.get_links())})
         links.extend(page.get_links())
-    return {"library": "PyMuPDF " + fitz.VersionBind, "pages": len(document), "page_summary": pages, "text": "\n".join(text), "links": links, "serialized_marker_counts": counts, "serialized_objects_with_markers": marker_objects}
+    return {"library": "PyMuPDF " + pymupdf.VersionBind, "pages": len(document), "page_summary": pages, "text": "\n".join(text), "links": links, "serialized_marker_counts": counts, "serialized_objects_with_markers": marker_objects}
 
 
 def main() -> None:

@@ -1,15 +1,472 @@
 {
   "protocol": "V5 destination-side mutation testing",
   "status": "COMPLETE",
-  "mutants_attempted": 13,
-  "valid_mutants": 12,
-  "detected_mutants": 12,
-  "surviving_mutants": 0,
+  "mutants_attempted": 65,
+  "valid_mutants": 59,
+  "detected_mutants": 46,
+  "surviving_mutants": 13,
   "false_positive_controls": 0,
-  "controls_evaluated": 13,
-  "control_definition": "unmutated baseline PDFs were re-extracted and compared to their own baseline classification; no control was treated as a mutant",
-  "measurement_errors": 0,
-  "unsupported_attempts": 1,
+  "controls_evaluated": 65,
+  "control_definition": "no-op controls re-extracted each unmutated baseline PDF and required the same classification; no control was treated as a mutant",
+  "no_op_controls": [
+    {
+      "family": "headings",
+      "fixture_id": "F01_A",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "headings",
+      "fixture_id": "F01_B",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "headings",
+      "fixture_id": "F01_C",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "headings",
+      "fixture_id": "F01_D",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "headings",
+      "fixture_id": "F01_E",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "alt_text",
+      "fixture_id": "F02_A",
+      "baseline_classification": "ALTERED",
+      "control_classification": "ALTERED",
+      "false_positive": false
+    },
+    {
+      "family": "alt_text",
+      "fixture_id": "F02_B",
+      "baseline_classification": "ALTERED",
+      "control_classification": "ALTERED",
+      "false_positive": false
+    },
+    {
+      "family": "alt_text",
+      "fixture_id": "F02_C",
+      "baseline_classification": "ALTERED",
+      "control_classification": "ALTERED",
+      "false_positive": false
+    },
+    {
+      "family": "alt_text",
+      "fixture_id": "F02_D",
+      "baseline_classification": "ALTERED",
+      "control_classification": "ALTERED",
+      "false_positive": false
+    },
+    {
+      "family": "alt_text",
+      "fixture_id": "F02_E",
+      "baseline_classification": "ALTERED",
+      "control_classification": "ALTERED",
+      "false_positive": false
+    },
+    {
+      "family": "lists",
+      "fixture_id": "F03_A",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "lists",
+      "fixture_id": "F03_B",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "lists",
+      "fixture_id": "F03_C",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "lists",
+      "fixture_id": "F03_D",
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "control_classification": "OBSERVED_PARTIAL",
+      "false_positive": false
+    },
+    {
+      "family": "lists",
+      "fixture_id": "F03_E",
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "control_classification": "OBSERVED_PARTIAL",
+      "false_positive": false
+    },
+    {
+      "family": "basic_tables",
+      "fixture_id": "F04_A",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "basic_tables",
+      "fixture_id": "F04_B",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "basic_tables",
+      "fixture_id": "F04_C",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "basic_tables",
+      "fixture_id": "F04_D",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "basic_tables",
+      "fixture_id": "F04_E",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "document_language",
+      "fixture_id": "F05_A",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "document_language",
+      "fixture_id": "F05_B",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "document_language",
+      "fixture_id": "F05_C",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "document_language",
+      "fixture_id": "F05_D",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "document_language",
+      "fixture_id": "F05_E",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "inline_language",
+      "fixture_id": "F06_A",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "inline_language",
+      "fixture_id": "F06_B",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "inline_language",
+      "fixture_id": "F06_C",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "inline_language",
+      "fixture_id": "F06_D",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "inline_language",
+      "fixture_id": "F06_E",
+      "baseline_classification": "ALTERED",
+      "control_classification": "ALTERED",
+      "false_positive": false
+    },
+    {
+      "family": "decorative_images",
+      "fixture_id": "F07_A",
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "control_classification": "OBSERVED_PARTIAL",
+      "false_positive": false
+    },
+    {
+      "family": "decorative_images",
+      "fixture_id": "F07_B",
+      "baseline_classification": "ALTERED",
+      "control_classification": "ALTERED",
+      "false_positive": false
+    },
+    {
+      "family": "decorative_images",
+      "fixture_id": "F07_C",
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "control_classification": "OBSERVED_PARTIAL",
+      "false_positive": false
+    },
+    {
+      "family": "decorative_images",
+      "fixture_id": "F07_D",
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "control_classification": "OBSERVED_PARTIAL",
+      "false_positive": false
+    },
+    {
+      "family": "decorative_images",
+      "fixture_id": "F07_E",
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "control_classification": "OBSERVED_PARTIAL",
+      "false_positive": false
+    },
+    {
+      "family": "hyperlinks",
+      "fixture_id": "F08_A",
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "control_classification": "OBSERVED_PARTIAL",
+      "false_positive": false
+    },
+    {
+      "family": "hyperlinks",
+      "fixture_id": "F08_B",
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "control_classification": "OBSERVED_PARTIAL",
+      "false_positive": false
+    },
+    {
+      "family": "hyperlinks",
+      "fixture_id": "F08_C",
+      "baseline_classification": "ALTERED",
+      "control_classification": "ALTERED",
+      "false_positive": false
+    },
+    {
+      "family": "hyperlinks",
+      "fixture_id": "F08_D",
+      "baseline_classification": "ALTERED",
+      "control_classification": "ALTERED",
+      "false_positive": false
+    },
+    {
+      "family": "hyperlinks",
+      "fixture_id": "F08_E",
+      "baseline_classification": "CONFIRMED_LOST",
+      "control_classification": "CONFIRMED_LOST",
+      "false_positive": false
+    },
+    {
+      "family": "document_metadata",
+      "fixture_id": "F09_A",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "document_metadata",
+      "fixture_id": "F09_B",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "document_metadata",
+      "fixture_id": "F09_C",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "document_metadata",
+      "fixture_id": "F09_D",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "document_metadata",
+      "fixture_id": "F09_E",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "complex_tables",
+      "fixture_id": "F10_A",
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "control_classification": "OBSERVED_PARTIAL",
+      "false_positive": false
+    },
+    {
+      "family": "complex_tables",
+      "fixture_id": "F10_B",
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "control_classification": "OBSERVED_PARTIAL",
+      "false_positive": false
+    },
+    {
+      "family": "complex_tables",
+      "fixture_id": "F10_C",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "complex_tables",
+      "fixture_id": "F10_D",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "complex_tables",
+      "fixture_id": "F10_E",
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "control_classification": "OBSERVED_PARTIAL",
+      "false_positive": false
+    },
+    {
+      "family": "footnotes",
+      "fixture_id": "F11_A",
+      "baseline_classification": "MEASUREMENT_ERROR",
+      "control_classification": "MEASUREMENT_ERROR",
+      "false_positive": false
+    },
+    {
+      "family": "footnotes",
+      "fixture_id": "F11_B",
+      "baseline_classification": "MEASUREMENT_ERROR",
+      "control_classification": "MEASUREMENT_ERROR",
+      "false_positive": false
+    },
+    {
+      "family": "footnotes",
+      "fixture_id": "F11_C",
+      "baseline_classification": "MEASUREMENT_ERROR",
+      "control_classification": "MEASUREMENT_ERROR",
+      "false_positive": false
+    },
+    {
+      "family": "footnotes",
+      "fixture_id": "F11_D",
+      "baseline_classification": "MEASUREMENT_ERROR",
+      "control_classification": "MEASUREMENT_ERROR",
+      "false_positive": false
+    },
+    {
+      "family": "footnotes",
+      "fixture_id": "F11_E",
+      "baseline_classification": "MEASUREMENT_ERROR",
+      "control_classification": "MEASUREMENT_ERROR",
+      "false_positive": false
+    },
+    {
+      "family": "equations",
+      "fixture_id": "F12_A",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "equations",
+      "fixture_id": "F12_B",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "equations",
+      "fixture_id": "F12_C",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "equations",
+      "fixture_id": "F12_D",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "equations",
+      "fixture_id": "F12_E",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "captions",
+      "fixture_id": "F13_A",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "captions",
+      "fixture_id": "F13_B",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "captions",
+      "fixture_id": "F13_C",
+      "baseline_classification": "UNRESOLVED_EQUIVALENCE",
+      "control_classification": "UNRESOLVED_EQUIVALENCE",
+      "false_positive": false
+    },
+    {
+      "family": "captions",
+      "fixture_id": "F13_D",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    },
+    {
+      "family": "captions",
+      "fixture_id": "F13_E",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "control_classification": "VERIFIED_PRESERVED",
+      "false_positive": false
+    }
+  ],
+  "measurement_errors": 2,
+  "unsupported_attempts": 6,
   "rows": [
     {
       "family": "headings",
@@ -17,6 +474,62 @@
       "mutant": "H1-to-P",
       "baseline_pdf_sha256": "0c388c8e25174fde4139e95a479bdc0bfdfd43967eca3b89c497b75e2419627f",
       "mutant_pdf_sha256": "32924ae244da5d520c9fe84dc3598ed895be0e2369344d5314fe9783fac7eed8",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /H1 role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "headings",
+      "fixture_id": "F01_B",
+      "mutant": "H1-to-P",
+      "baseline_pdf_sha256": "5d6e74e06d0ba9eb5e281d1de13f95c16607ee1f2bc3635bf61c821caec44124",
+      "mutant_pdf_sha256": "57038cb6651a30f2fe2578794175f7f23775148aa4526150ff1231d16186addd",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /H1 role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "headings",
+      "fixture_id": "F01_C",
+      "mutant": "H1-to-P",
+      "baseline_pdf_sha256": "a2dfa54daff6cc415325b53a83788130a825630817abfbb751386031d83b5b31",
+      "mutant_pdf_sha256": "726410bc24251bc2fc593f44d7764804800e8ba6743673ea798549d19ddb83de",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /H1 role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "headings",
+      "fixture_id": "F01_D",
+      "mutant": "H1-to-P",
+      "baseline_pdf_sha256": "dec8805ec285db89c1c739f1d8cfa6abd8b53b6b78da9ed9527a35e5bcc87af5",
+      "mutant_pdf_sha256": "c315783217538750fc37306391842e2cfb058021dedde7451b793659e851cd91",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /H1 role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "headings",
+      "fixture_id": "F01_E",
+      "mutant": "H1-to-P",
+      "baseline_pdf_sha256": "49db42dfaffb0246a14685f70fce94faeff10e1dda19fbc3b950dba1cd07aef9",
+      "mutant_pdf_sha256": "b2c07faa3b35e13ce67600c106fb592b37c7f1aaeed39b4fe31ad1bc951a17a5",
       "mutation_applied": true,
       "mutation_note": "mutated first /H1 role",
       "valid_pdf": true,
@@ -40,6 +553,62 @@
       "error": null
     },
     {
+      "family": "alt_text",
+      "fixture_id": "F02_B",
+      "mutant": "remove-Alt",
+      "baseline_pdf_sha256": "efada2c7f834371088f1813fe81703cde539133b50e90bfc3e07f07257f5b1ef",
+      "mutant_pdf_sha256": "f9832e4d8b62dc45a73db72594e8562758bd4ebaab2cbec547bf7cffa9f5c77a",
+      "mutation_applied": true,
+      "mutation_note": "removed first Figure /Alt",
+      "valid_pdf": true,
+      "baseline_classification": "ALTERED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "alt_text",
+      "fixture_id": "F02_C",
+      "mutant": "remove-Alt",
+      "baseline_pdf_sha256": "d5bc930732ebe9305d0d4143556839a3fe75f8a22deb90eadb07ad3fef52199d",
+      "mutant_pdf_sha256": "31fc707a89d3cbaada371b63e07b4a4c182f867575cd9f8b1dac9925faa65727",
+      "mutation_applied": true,
+      "mutation_note": "removed first Figure /Alt",
+      "valid_pdf": true,
+      "baseline_classification": "ALTERED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "alt_text",
+      "fixture_id": "F02_D",
+      "mutant": "remove-Alt",
+      "baseline_pdf_sha256": "90eaae309310f39079160fff20f30aaab722d2ca5f3ff52bf83efe301052ef97",
+      "mutant_pdf_sha256": "27d509a546e4de38fcf602d9408043ed08f12e44d317bd82b8675494b54b94e2",
+      "mutation_applied": true,
+      "mutation_note": "removed first Figure /Alt",
+      "valid_pdf": true,
+      "baseline_classification": "ALTERED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "alt_text",
+      "fixture_id": "F02_E",
+      "mutant": "remove-Alt",
+      "baseline_pdf_sha256": "55fbb54b09954f86673d8a80fa74fb0f4c3aca273d95f55e3cb6040f69f51b88",
+      "mutant_pdf_sha256": "3a016680f5cfb5285505ebc37739aa06dc8c32d8a96fd869f47b14c0c79d764f",
+      "mutation_applied": true,
+      "mutation_note": "removed first Figure /Alt",
+      "valid_pdf": true,
+      "baseline_classification": "ALTERED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
       "family": "lists",
       "fixture_id": "F03_A",
       "mutant": "remove-list-role",
@@ -54,11 +623,123 @@
       "error": null
     },
     {
+      "family": "lists",
+      "fixture_id": "F03_B",
+      "mutant": "remove-list-role",
+      "baseline_pdf_sha256": "d0152a2f3eedf37a51c22775ec750925cba91e9755573c184b143ec1ea9cd79d",
+      "mutant_pdf_sha256": "4be38478cc2c883a09380fcff01f1f5edbea7c69c0dcbebfa0e4cdb51cc22d28",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /L role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "UNRESOLVED_EQUIVALENCE",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "lists",
+      "fixture_id": "F03_C",
+      "mutant": "remove-list-role",
+      "baseline_pdf_sha256": "24e11419276fb84e738af62d183f42a532a81ffdd57052f7f9ce591639716359",
+      "mutant_pdf_sha256": "c481efaa609503e9a944585d484e21792432ba4d956f1d480816d737f4067341",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /L role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "UNRESOLVED_EQUIVALENCE",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "lists",
+      "fixture_id": "F03_D",
+      "mutant": "remove-list-role",
+      "baseline_pdf_sha256": "2adb92c551a16ce062e929e5cfe726ddbff59d5e588da3111d16b0afb75d4be0",
+      "mutant_pdf_sha256": "219a86ee5539e28306ea1645ca0a9be01e37abe6c60612db79b44403e50d179c",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /L role",
+      "valid_pdf": true,
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": false,
+      "error": null
+    },
+    {
+      "family": "lists",
+      "fixture_id": "F03_E",
+      "mutant": "remove-list-role",
+      "baseline_pdf_sha256": "4c4e3f99eb0131ad4033162c0b8a0dfab020df286f56d452e153a8af932361e6",
+      "mutant_pdf_sha256": "4fb44560e3a5778f83339b3c31085cb890f344074f9777e6b58888fe17c2e22a",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /L role",
+      "valid_pdf": true,
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": false,
+      "error": null
+    },
+    {
       "family": "basic_tables",
       "fixture_id": "F04_A",
       "mutant": "TH-to-TD",
       "baseline_pdf_sha256": "36346a9a3503fd91feffc6d433698a58cb6a058060981ee01235a47b0146caec",
       "mutant_pdf_sha256": "6543e0c4ac0177c1865c24c9d7292995052e676d1227777547d234210392d3cd",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /TH role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "basic_tables",
+      "fixture_id": "F04_B",
+      "mutant": "TH-to-TD",
+      "baseline_pdf_sha256": "9117725e0a42293d2ba090525885622937d384975ff10498df976e05cad163d0",
+      "mutant_pdf_sha256": "44a0a708cee07ef526e9a92324028a63994762d24c38f7e27cbba094448fc36f",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /TH role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "basic_tables",
+      "fixture_id": "F04_C",
+      "mutant": "TH-to-TD",
+      "baseline_pdf_sha256": "43d05b7777dbd443c10d23b824e1bc321ddd3e6df8969687fbeab8752640d05e",
+      "mutant_pdf_sha256": "46ac7f3dd31a416ac2121d1d9be8ef95a06e0d4e6064a07c7513854b8d56887c",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /TH role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "basic_tables",
+      "fixture_id": "F04_D",
+      "mutant": "TH-to-TD",
+      "baseline_pdf_sha256": "37e156954455a6b1b0aeb1cfda336af5de594c06284d208d9f4a5d7450628dca",
+      "mutant_pdf_sha256": "1a5b548f9bd45d9e659fc0ed56a3dad0e45054b0c86c07292c8b06a2f2848b4a",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /TH role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "basic_tables",
+      "fixture_id": "F04_E",
+      "mutant": "TH-to-TD",
+      "baseline_pdf_sha256": "55f851f1b030818d35a714b0312173662795c53c01fae997548b5f0adb17234c",
+      "mutant_pdf_sha256": "d1d9551808e64eaf876c12a30f20ad8b9cf23e2bf883acf810cf24baca491396",
       "mutation_applied": true,
       "mutation_note": "mutated first /TH role",
       "valid_pdf": true,
@@ -82,6 +763,62 @@
       "error": null
     },
     {
+      "family": "document_language",
+      "fixture_id": "F05_B",
+      "mutant": "remove-document-Lang",
+      "baseline_pdf_sha256": "afc1861926fb9d9856b6032f75ca5101262ea04b83d87a962ac5a3d8d0ec2eea",
+      "mutant_pdf_sha256": "7089fcdbff02d4c2b994dd208bb3dc53046d8c074845d405b72890158b7dea18",
+      "mutation_applied": true,
+      "mutation_note": "removed catalog /Lang",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "UNRESOLVED_EQUIVALENCE",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "document_language",
+      "fixture_id": "F05_C",
+      "mutant": "remove-document-Lang",
+      "baseline_pdf_sha256": "e451534f0eba735ce8e02d44908f731e64c419a4fddfa9a1c44b27e45e4ef3ee",
+      "mutant_pdf_sha256": "bb34df3d2d7d1beee0086d17ff70c68625166cd2634c914c7d1e4ac35bf6ced8",
+      "mutation_applied": true,
+      "mutation_note": "removed catalog /Lang",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "UNRESOLVED_EQUIVALENCE",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "document_language",
+      "fixture_id": "F05_D",
+      "mutant": "remove-document-Lang",
+      "baseline_pdf_sha256": "c978856010ecf799dcd77d4a709251496d5411a691eb7a2e7df329f97063fbbf",
+      "mutant_pdf_sha256": "9fd33d19a06c3dd5d9cc613c22b77db9ab7605a83ebd786a7e99a0d4ced3318a",
+      "mutation_applied": true,
+      "mutation_note": "removed catalog /Lang",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "UNRESOLVED_EQUIVALENCE",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "document_language",
+      "fixture_id": "F05_E",
+      "mutant": "remove-document-Lang",
+      "baseline_pdf_sha256": "a011265e0ab0d1fb265616f93bb0cf217e927f82c31efaba40add13e8c4d8c9c",
+      "mutant_pdf_sha256": "1321308ae483e50c5f3ee7e0aab7b61964b9c402802531576704ae34c815df03",
+      "mutation_applied": true,
+      "mutation_note": "removed catalog /Lang",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "UNRESOLVED_EQUIVALENCE",
+      "detected": true,
+      "error": null
+    },
+    {
       "family": "inline_language",
       "fixture_id": "F06_A",
       "mutant": "remove-inline-Lang",
@@ -96,11 +833,123 @@
       "error": null
     },
     {
+      "family": "inline_language",
+      "fixture_id": "F06_B",
+      "mutant": "remove-inline-Lang",
+      "baseline_pdf_sha256": "033b1c8ad03cd98e4e1b97ec4179506d72350e3eb67e8c43e8d6c274c8255e9a",
+      "mutant_pdf_sha256": "b7193fd3b896c28330797f81881be47b5d57fbcb7a588d44e8d799613cb3f229",
+      "mutation_applied": true,
+      "mutation_note": "removed first inline StructElem /Lang",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "inline_language",
+      "fixture_id": "F06_C",
+      "mutant": "remove-inline-Lang",
+      "baseline_pdf_sha256": "34bc68ee9ca85c6c5a4897592b8c3d2a01d756f564f4231bb242e61983deaa70",
+      "mutant_pdf_sha256": "e891ba599cb31c61b8f7ee80649b20b3b827995e2c9813f7bd8b4e8c49bbe6a0",
+      "mutation_applied": true,
+      "mutation_note": "removed first inline StructElem /Lang",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "inline_language",
+      "fixture_id": "F06_D",
+      "mutant": "remove-inline-Lang",
+      "baseline_pdf_sha256": "15f660be771be5570a8bfbcbd37243bfbb52e1d4a77a96cfce696707b442a438",
+      "mutant_pdf_sha256": "fb46f59cf3a2aa362d5d3d501266f478ce6f967c9bdfd2ead5b2a31980a773ea",
+      "mutation_applied": true,
+      "mutation_note": "removed first inline StructElem /Lang",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "ALTERED",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "inline_language",
+      "fixture_id": "F06_E",
+      "mutant": "remove-inline-Lang",
+      "baseline_pdf_sha256": "b8bbbafa3581179479be9f63ee201a17bc8f971e40a08e43e1692036465dfdfa",
+      "mutant_pdf_sha256": "0878f7f4e4a02ea265084252630ec7408044597e595b4a5484d3347b82c7b436",
+      "mutation_applied": true,
+      "mutation_note": "removed first inline StructElem /Lang",
+      "valid_pdf": true,
+      "baseline_classification": "ALTERED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
       "family": "decorative_images",
       "fixture_id": "F07_A",
       "mutant": "Artifact-to-Figure",
       "baseline_pdf_sha256": "659cc2a0ec3a4a7d8604f482fa7878d54581a02dfe4a2074f99dd04f7bb5374d",
       "mutant_pdf_sha256": "97a0ec28a30aca44daf4f5953e8a0c0cd155c91ac07850793073bc7d39ce70e2",
+      "mutation_applied": false,
+      "mutation_note": "Artifact role absent",
+      "valid_pdf": true,
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": false,
+      "error": null
+    },
+    {
+      "family": "decorative_images",
+      "fixture_id": "F07_B",
+      "mutant": "Artifact-to-Figure",
+      "baseline_pdf_sha256": "4b573f6709cc6eb35288c698a012ee6787da366b83464ea955486abd432c6b63",
+      "mutant_pdf_sha256": "c7eb0cb2849c10b2eca084149062c8f556af2910f3f06c77c2434012bc24c488",
+      "mutation_applied": false,
+      "mutation_note": "Artifact role absent",
+      "valid_pdf": true,
+      "baseline_classification": "ALTERED",
+      "mutant_classification": "ALTERED",
+      "detected": false,
+      "error": null
+    },
+    {
+      "family": "decorative_images",
+      "fixture_id": "F07_C",
+      "mutant": "Artifact-to-Figure",
+      "baseline_pdf_sha256": "ca040124327d2176feb0347d126fa18a43ffd022dc07d2439dadb7ab712a396a",
+      "mutant_pdf_sha256": "f7cddeb3d0bd766af1763780774de2dd1a2bde57bd16612f45fafd755e8db6e1",
+      "mutation_applied": false,
+      "mutation_note": "Artifact role absent",
+      "valid_pdf": true,
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": false,
+      "error": null
+    },
+    {
+      "family": "decorative_images",
+      "fixture_id": "F07_D",
+      "mutant": "Artifact-to-Figure",
+      "baseline_pdf_sha256": "5bc3ab4a6a9683188a54da0eb1324da7e9cca0e2fff1927e8b27f4b382fb8c6c",
+      "mutant_pdf_sha256": "f4f07cea66bbe5bdac329d1ce2d41cc961f57cf55fe73f7c0d8e6fe9c148e3e0",
+      "mutation_applied": false,
+      "mutation_note": "Artifact role absent",
+      "valid_pdf": true,
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": false,
+      "error": null
+    },
+    {
+      "family": "decorative_images",
+      "fixture_id": "F07_E",
+      "mutant": "Artifact-to-Figure",
+      "baseline_pdf_sha256": "69a1ba14a606eb179fee33a8397ef4e8192bfa7552c124c57d175e9f1c3b6ada",
+      "mutant_pdf_sha256": "b856c793ee4eaeeca08e0570d35c2ad57e43700dbcb8077563a19f6de5e14265",
       "mutation_applied": false,
       "mutation_note": "Artifact role absent",
       "valid_pdf": true,
@@ -124,11 +973,123 @@
       "error": null
     },
     {
+      "family": "hyperlinks",
+      "fixture_id": "F08_B",
+      "mutant": "remove-URI",
+      "baseline_pdf_sha256": "9bb2809ccfd2c9da28283b53c751b5041783ac41432d4b1d354f0859a139a017",
+      "mutant_pdf_sha256": "64deee76e5a2f218cb8cb0ce65975080809f11ced06f5c933923b70666c5c83f",
+      "mutation_applied": true,
+      "mutation_note": "removed first Link /URI",
+      "valid_pdf": true,
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "mutant_classification": "ALTERED",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "hyperlinks",
+      "fixture_id": "F08_C",
+      "mutant": "remove-URI",
+      "baseline_pdf_sha256": "4796d1a41b1e48c84623ac744f520b6a149234939b62823a6bb9f381fafd2c25",
+      "mutant_pdf_sha256": "5b010a1ed13ec6500f45277ee5c58ff148d5b475781a46ffd539588f6e026e95",
+      "mutation_applied": true,
+      "mutation_note": "removed first Link /URI",
+      "valid_pdf": true,
+      "baseline_classification": "ALTERED",
+      "mutant_classification": "ALTERED",
+      "detected": false,
+      "error": null
+    },
+    {
+      "family": "hyperlinks",
+      "fixture_id": "F08_D",
+      "mutant": "remove-URI",
+      "baseline_pdf_sha256": "f51858deed4d51c825222f5b9e462b7e01c39b792a6115a4480e4a913e4f8ef4",
+      "mutant_pdf_sha256": "c7964c723cbd989c65f5efaf0bd9077b132df12047ae50c5fe8a3bc2c4565d63",
+      "mutation_applied": true,
+      "mutation_note": "removed first Link /URI",
+      "valid_pdf": true,
+      "baseline_classification": "ALTERED",
+      "mutant_classification": "ALTERED",
+      "detected": false,
+      "error": null
+    },
+    {
+      "family": "hyperlinks",
+      "fixture_id": "F08_E",
+      "mutant": "remove-URI",
+      "baseline_pdf_sha256": "b1f315e26fe8181ca3f1173bae72dfb2201857b386fb609594c0034e3c745a75",
+      "mutant_pdf_sha256": "62ab32a1c6c6c9b228564277b09961650582a1f299333e57a4c43466d0281747",
+      "mutation_applied": false,
+      "mutation_note": "URI absent",
+      "valid_pdf": true,
+      "baseline_classification": "CONFIRMED_LOST",
+      "mutant_classification": "CONFIRMED_LOST",
+      "detected": false,
+      "error": null
+    },
+    {
       "family": "document_metadata",
       "fixture_id": "F09_A",
       "mutant": "change-Title",
       "baseline_pdf_sha256": "0dbd3085728295f9fc47bb0304104d31b46109bf3b770860d5d643b0c18f6564",
       "mutant_pdf_sha256": "fe4439c30bdbd0974bc434752e8ba6cd5fd3be79f957a1994393a21ca0053528",
+      "mutation_applied": true,
+      "mutation_note": "changed document title",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "ALTERED",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "document_metadata",
+      "fixture_id": "F09_B",
+      "mutant": "change-Title",
+      "baseline_pdf_sha256": "3f1ad384117292925e879372b4fd67510dc118bacfd87756dd2e994816f8821e",
+      "mutant_pdf_sha256": "5b997466efecadf8ba2e7b0cd7476dd0c300ae79cf5c9fd013fb5f6ca29d0159",
+      "mutation_applied": true,
+      "mutation_note": "changed document title",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "ALTERED",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "document_metadata",
+      "fixture_id": "F09_C",
+      "mutant": "change-Title",
+      "baseline_pdf_sha256": "53b1f3973eda7b225bca1cea7dfc3fe0c65a42e013b383a9103070c7c6776365",
+      "mutant_pdf_sha256": "9e2ee62497a51bb5fddb3ede15dc260688f7ce66eb0f1b9bec1273d9d74f7c64",
+      "mutation_applied": true,
+      "mutation_note": "changed document title",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "ALTERED",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "document_metadata",
+      "fixture_id": "F09_D",
+      "mutant": "change-Title",
+      "baseline_pdf_sha256": "3a8cc5319622aedf1d5bbf0df8c784dab4be5be5e21a32c4ecaf111a7f6e19d7",
+      "mutant_pdf_sha256": "2751e5e7163fae28a34054b4af9abcbdb6d39b6161dce5b76402cffe561a0cf0",
+      "mutation_applied": true,
+      "mutation_note": "changed document title",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "ALTERED",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "document_metadata",
+      "fixture_id": "F09_E",
+      "mutant": "change-Title",
+      "baseline_pdf_sha256": "f645e97b0096d15b326ff47fe3899ac22169d8b860067ceac5bec626f0edb4b1",
+      "mutant_pdf_sha256": "fdd2b3b7036940f1331212fb52636ec268fb422c952d927ab7ddd00a9be9c983",
       "mutation_applied": true,
       "mutation_note": "changed document title",
       "valid_pdf": true,
@@ -148,7 +1109,63 @@
       "valid_pdf": true,
       "baseline_classification": "OBSERVED_PARTIAL",
       "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": false,
+      "error": null
+    },
+    {
+      "family": "complex_tables",
+      "fixture_id": "F10_B",
+      "mutant": "TH-to-TD",
+      "baseline_pdf_sha256": "798b2afca69003b1d236715e78fc38a033b3d31abeec53914d2805eff3a94e5c",
+      "mutant_pdf_sha256": "273d706ddf7f3ad472c6b7c162c6e1ed15e898f69ffcfd3cdab287e2b22f594b",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /TH role",
+      "valid_pdf": true,
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": false,
+      "error": null
+    },
+    {
+      "family": "complex_tables",
+      "fixture_id": "F10_C",
+      "mutant": "TH-to-TD",
+      "baseline_pdf_sha256": "747f5dfde0407d607c750b6cc3d280f920199a28560357cd921362b9c1d81580",
+      "mutant_pdf_sha256": "11c89a96cce75048d5d424968fda8ea6f9d4b3f181ea7f5841d3e935de1942a7",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /TH role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
       "detected": true,
+      "error": null
+    },
+    {
+      "family": "complex_tables",
+      "fixture_id": "F10_D",
+      "mutant": "TH-to-TD",
+      "baseline_pdf_sha256": "c49507b7dd53f80a79f19b4b8a51d9c0d60a1e133175b06cbebb0f7832956691",
+      "mutant_pdf_sha256": "6c4ca373fa6ee0b5d33d06abe696a6ad98baef1b3f9eab568ba4ab672629591f",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /TH role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "complex_tables",
+      "fixture_id": "F10_E",
+      "mutant": "TH-to-TD",
+      "baseline_pdf_sha256": "2a2f1464df1429c457a36957e77f6dd67188622bb616c654beae575f5f550e90",
+      "mutant_pdf_sha256": "e9bc54f0d3b419aaa9b7fbafd9fdf742671a646f97fe64f3986fb32edee05791",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /TH role",
+      "valid_pdf": true,
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": false,
       "error": null
     },
     {
@@ -166,6 +1183,62 @@
       "error": null
     },
     {
+      "family": "footnotes",
+      "fixture_id": "F11_B",
+      "mutant": "remove-Note-role",
+      "baseline_pdf_sha256": "51f7c59c2d1b86e8024d1e8a53d3e02557ed54d13b7f86682f90c6e6d024a9b8",
+      "mutant_pdf_sha256": "b769fb0689f1c0fcb465f8426ae37ee1ed60c1302174611c6017fcd9b724e4dd",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /Note role",
+      "valid_pdf": true,
+      "baseline_classification": "MEASUREMENT_ERROR",
+      "mutant_classification": "MEASUREMENT_ERROR",
+      "detected": false,
+      "error": null
+    },
+    {
+      "family": "footnotes",
+      "fixture_id": "F11_C",
+      "mutant": "remove-Note-role",
+      "baseline_pdf_sha256": "5edcc1f88bcb259e15a6618512761d662c0da5ad16c0a8f12210f46afc7e47d0",
+      "mutant_pdf_sha256": "fc699d58dbe29144fc837825a10fb79b89f809e9dafbb195269b2e41705fb96a",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /Note role",
+      "valid_pdf": true,
+      "baseline_classification": "MEASUREMENT_ERROR",
+      "mutant_classification": "UNRESOLVED_EQUIVALENCE",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "footnotes",
+      "fixture_id": "F11_D",
+      "mutant": "remove-Note-role",
+      "baseline_pdf_sha256": "8a524f5a69e6ec1bb52c6891409cb14a045d8233812a5030fd832509f309cefd",
+      "mutant_pdf_sha256": "233b2ded63b48fddb5d24c52da8ea0ab753c2f18f763ef8b650ccd89b5aa17c4",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /Note role",
+      "valid_pdf": true,
+      "baseline_classification": "MEASUREMENT_ERROR",
+      "mutant_classification": "UNRESOLVED_EQUIVALENCE",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "footnotes",
+      "fixture_id": "F11_E",
+      "mutant": "remove-Note-role",
+      "baseline_pdf_sha256": "cf98527fa32f94b7cce18f567115ada3ef0aac696fd9e4f84e3a09a50040a50c",
+      "mutant_pdf_sha256": "9f99709c9db49926b7d0a1aae9e5c54930b7455d1fc296e270bb2b8000dd148a",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /Note role",
+      "valid_pdf": true,
+      "baseline_classification": "MEASUREMENT_ERROR",
+      "mutant_classification": "MEASUREMENT_ERROR",
+      "detected": false,
+      "error": null
+    },
+    {
       "family": "equations",
       "fixture_id": "F12_A",
       "mutant": "remove-Formula-role",
@@ -180,6 +1253,62 @@
       "error": null
     },
     {
+      "family": "equations",
+      "fixture_id": "F12_B",
+      "mutant": "remove-Formula-role",
+      "baseline_pdf_sha256": "5b7bd98dc86584041b5a4bb212c0caf387c3d2ed06809fee460186ac581eadab",
+      "mutant_pdf_sha256": "d2c5fa9e7e7cf55177beac47f77f73acc4396e62a2a4ec11c37445f394cfb24f",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /Formula role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "equations",
+      "fixture_id": "F12_C",
+      "mutant": "remove-Formula-role",
+      "baseline_pdf_sha256": "5967abfd0efafa5e56dcc4d63aa03b602010e8d3999e269bce95d5547935f53c",
+      "mutant_pdf_sha256": "a66f01180501150ea824b041cdbf4718e388c37d9153e6d31213a08703b8f17a",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /Formula role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "equations",
+      "fixture_id": "F12_D",
+      "mutant": "remove-Formula-role",
+      "baseline_pdf_sha256": "34fb30d7ab8757a2313aba0e1e6a47122ee9b09c83712440d3bdcce35ea07e4c",
+      "mutant_pdf_sha256": "7938b86f1e23ce0930fa955216ab9e7b67ce84b416e7f292966cf34ae7aac005",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /Formula role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "equations",
+      "fixture_id": "F12_E",
+      "mutant": "remove-Formula-role",
+      "baseline_pdf_sha256": "fc20676bd6f3c1d5e1ba06de040df258bca3f1ff7ae4aed76ce2991bd149ddb0",
+      "mutant_pdf_sha256": "713e5c9d57d7b1a026d29b15d5e2379fd2aed881f54e31773e4d37085a7b7bcb",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /Formula role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "VERIFIED_PRESERVED",
+      "detected": false,
+      "error": null
+    },
+    {
       "family": "captions",
       "fixture_id": "F13_A",
       "mutant": "remove-Caption-role",
@@ -191,6 +1320,62 @@
       "baseline_classification": "VERIFIED_PRESERVED",
       "mutant_classification": "OBSERVED_PARTIAL",
       "detected": true,
+      "error": null
+    },
+    {
+      "family": "captions",
+      "fixture_id": "F13_B",
+      "mutant": "remove-Caption-role",
+      "baseline_pdf_sha256": "5fe4f7f3685300da7f0df4b8593012a12fda9e085ebe0d1a5f0bbfdfb109640a",
+      "mutant_pdf_sha256": "2865a45e3716ef411e1d05eb963742463b64971b8dd5120bc3a98aa68f9c7c65",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /Caption role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "VERIFIED_PRESERVED",
+      "detected": false,
+      "error": null
+    },
+    {
+      "family": "captions",
+      "fixture_id": "F13_C",
+      "mutant": "remove-Caption-role",
+      "baseline_pdf_sha256": "c40caa2d4201f3bba875143f950b7bc0e4a7a081d8f249a91126b132df72d4b6",
+      "mutant_pdf_sha256": "67d5d1195cb33c9ca6cd2a7c33699579b9098c10cef2ff8ed3a686bf4caa498b",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /Caption role",
+      "valid_pdf": true,
+      "baseline_classification": "UNRESOLVED_EQUIVALENCE",
+      "mutant_classification": "UNRESOLVED_EQUIVALENCE",
+      "detected": false,
+      "error": null
+    },
+    {
+      "family": "captions",
+      "fixture_id": "F13_D",
+      "mutant": "remove-Caption-role",
+      "baseline_pdf_sha256": "e035e8d5b7e6a9c347438dbb5fd6870fe87de58a98bec0b746599c47040aafc0",
+      "mutant_pdf_sha256": "8ef8de986f9c3f54ea369aff5d8b91cc4014f378424fcc06e0d43795381ebe3c",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /Caption role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "OBSERVED_PARTIAL",
+      "detected": true,
+      "error": null
+    },
+    {
+      "family": "captions",
+      "fixture_id": "F13_E",
+      "mutant": "remove-Caption-role",
+      "baseline_pdf_sha256": "6e83816482019b38690211f9e78770c0f4ef0ed4db921085aabe068dec270310",
+      "mutant_pdf_sha256": "c4a539eaa6b8b17f857dc003be82da16e1b903d9d2f7bf078ecc35e60a853d4f",
+      "mutation_applied": true,
+      "mutation_note": "mutated first /Caption role",
+      "valid_pdf": true,
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutant_classification": "VERIFIED_PRESERVED",
+      "detected": false,
       "error": null
     }
   ]

@@ -9,7 +9,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
-import fitz
+import pymupdf
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -38,13 +38,13 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 def secondary(path: Path) -> dict[str, Any]:
-    doc = fitz.open(path)
+    doc = pymupdf.open(path)
     raw = path.read_bytes().decode("latin-1", errors="ignore")
     markers = ["/StructTreeRoot", "/ParentTree", "/RoleMap", "/Lang", "/Alt", "/Title", "/Artifact", "/Formula", "/Note", "/Caption", "/Table", "/TH", "/TD", "/L", "/LI", "/Figure", "/H1", "/H2", "/H3", "/H4", "/H5", "/H6"]
     text = "\n".join(page.get_text("text") for page in doc)
     links = [link.get("uri") for page in doc for link in page.get_links() if link.get("uri")]
     return {
-        "library": "PyMuPDF " + fitz.VersionBind, "pages": len(doc), "text_sha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
+        "library": "PyMuPDF " + pymupdf.VersionBind, "pages": len(doc), "text_sha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
         "text_preview": text[:2000], "links": links, "page_image_counts": [len(page.get_images(full=True)) for page in doc],
         "serialized_marker_counts": {marker: raw.count(marker) for marker in markers}, "pdf_sha256": sha256(path),
     }

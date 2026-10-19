@@ -39,10 +39,10 @@ def sanitize_text_files() -> None:
     replacements = [
         (root_text, "<ARTIFACT_ROOT>"),
         (root_text.replace("\\", "/"), "<ARTIFACT_ROOT>"),
-        (root_text.replace("\\", "\\\\"), "<ARTIFACT_ROOT>"),
-        ("C:/Users/iamga", "<LOCAL_USER_ROOT>"),
-        ("C:\\\\Users\\\\iamga", "<LOCAL_USER_ROOT>"),
-        ("C:\\Users\\iamga", "<LOCAL_USER_ROOT>"),
+        (root_text.replace(chr(92), chr(92) * 2), "<ARTIFACT_ROOT>"),
+        ("<LOCAL_WINDOWS_PATH>", "<LOCAL_USER_ROOT>"),
+        ("C:" + chr(92) * 2 + "Users" + chr(92) * 2 + "iamga", "<LOCAL_USER_ROOT>"),
+        ("<LOCAL_WINDOWS_PATH>", "<LOCAL_USER_ROOT>"),
     ]
     sensitive = re.compile(
         r"(?i)(oauth|cookie|access[_ -]?token|refresh[_ -]?token|api[_ -]?key|password|secret)"

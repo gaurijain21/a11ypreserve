@@ -19,7 +19,7 @@ Evidence: [pilot2/FROZEN_INPUT_VERIFICATION.md](pilot2/FROZEN_INPUT_VERIFICATION
 
 ## 3. Conversion engines
 
-Microsoft Word 16.0.20326.20158 was present at `C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE`. COM activation, legacy Windows PowerShell COM activation, and direct native launch all failed before opening a fixture with `0x80070520` (“A specified logon session does not exist”). No print-to-PDF substitute was used.
+Microsoft Word 16.0.20326.20158 was present at `<INSTALLED_APPLICATION>, legacy Windows PowerShell COM activation, and direct native launch all failed before opening a fixture with `0x80070520` (“A specified logon session does not exist”). No print-to-PDF substitute was used.
 
 LibreOffice 26.2.6.3 was installed from the verified official MSI into `pilot2/libreoffice_runtime`. The retry used `soffice.com` headless conversion with `writer_pdf_Export`, `UseTaggedPDF=true`, `PDFUACompliance=true`, and `SelectPdfVersion=1`.
 

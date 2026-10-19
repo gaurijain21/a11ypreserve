@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-import fitz
+import pymupdf
 from pypdf import PdfReader
 from pypdf.generic import ArrayObject, DictionaryObject
 
@@ -42,7 +42,7 @@ def inspect(path: Path, expected_text: str) -> dict:
     langs: list[str] = []
     if isinstance(struct, DictionaryObject):
         walk(struct.get("/K"), roles, langs)
-    pdf = fitz.open(str(path))
+    pdf = pymupdf.open(str(path))
     page_text = "\n".join(page.get_text() for page in pdf)
     links = [link for page in pdf for link in page.get_links()]
     marker_absent = not any(marker in raw.decode("latin-1", errors="ignore") for marker in ("/Note", "/Footnote", "/Lang es-MX", "es-MX"))

@@ -1,0 +1,6 @@
+# Python dependencies for V5 audits and evidence inspection.
+# PDF compilation and converter reruns require separately installed tools.
+pymupdf>=1.28,<2
+pypdf>=6,<7
+python-docx>=1.2,<2
+lxml>=5,<7

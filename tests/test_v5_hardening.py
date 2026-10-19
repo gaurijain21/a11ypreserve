@@ -30,11 +30,15 @@ def main() -> None:
 
     mutation = load("experiments/v5/destination_mutation_manifest.json")
     assert mutation["status"] == "COMPLETE"
-    assert mutation["valid_mutants"] == mutation["detected_mutants"] == 12
-    assert mutation["surviving_mutants"] == 0
-    assert mutation["measurement_errors"] == 0
-    assert mutation["controls_evaluated"] == 13
+    assert mutation["mutants_attempted"] == 65
+    assert mutation["valid_mutants"] == 59
+    assert mutation["detected_mutants"] == 46
+    assert mutation["surviving_mutants"] == 13
+    assert mutation["unsupported_attempts"] == 6
+    assert mutation["measurement_errors"] == 2
+    assert mutation["controls_evaluated"] == 65
     assert mutation["false_positive_controls"] == 0
+    assert len(mutation["no_op_controls"]) == 65
 
     oracle = load("experiments/v5/independent_oracle_validation.json")
     assert oracle["status"] == "COMPLETE"
@@ -48,6 +52,12 @@ def main() -> None:
     assert "104 non-holdout" not in manuscript
     assert "38 & 11 & 16" in manuscript
     assert "11 & 32 & 26" in manuscript
+    assert "75 records" in manuscript
+    assert "65 atomic" in manuscript
+    assert "10 project-created" in manuscript
+    assert "8/26" in manuscript and "18/26" in manuscript
+    assert "independent technical validation" not in manuscript.lower()
+    assert "59" in manuscript and "46" in manuscript and "13" in manuscript
 
     print("V5 hardening regression assertions: PASS")
 

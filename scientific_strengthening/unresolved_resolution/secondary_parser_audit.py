@@ -13,7 +13,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
-import fitz
+import pymupdf
 from pypdf import PdfReader
 
 try:
@@ -94,7 +94,7 @@ def structure_roles(reader: PdfReader) -> Counter[str]:
 def inspect_pdf(path: Path) -> dict[str, Any]:
     reader = PdfReader(str(path))
     roles = structure_roles(reader)
-    document = fitz.open(path)
+    document = pymupdf.open(path)
     links = [link for page in document for link in page.get_links() if link.get("uri")]
     text = "\n".join(page.get_text() for page in document)
     words = sum(len(page.get_text("words")) for page in document)

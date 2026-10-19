@@ -5,7 +5,7 @@ import json
 import re
 from pathlib import Path
 
-import fitz
+import pymupdf
 
 ROOT = Path(__file__).resolve().parents[2]
 V4 = ROOT / "experiments" / "v4"
@@ -14,7 +14,7 @@ V5 = ROOT / "experiments" / "v5"
 
 def raw_evidence(pdf: Path) -> dict:
     raw = pdf.read_bytes().decode("latin-1", errors="ignore")
-    document = fitz.open(pdf)
+    document = pymupdf.open(pdf)
     text = "\n".join(page.get_text("text") for page in document)
     links = [link.get("uri") for page in document for link in page.get_links() if link.get("uri")]
     markers = {marker: raw.count(marker) for marker in ("/StructTreeRoot", "/H1", "/H2", "/Figure", "/Alt", "/Artifact", "/L", "/LI", "/Table", "/TH", "/Lang", "/Link", "/URI", "/Title", "/Note", "/Formula", "/Caption")}

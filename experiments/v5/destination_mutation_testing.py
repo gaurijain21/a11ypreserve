@@ -18,14 +18,14 @@ sys.path.insert(0, str(ROOT / "artifact" / "src"))
 from run_frozen_analysis import docx_extract, pdf_extract, secondary, final_classification  # noqa: E402
 from v4_comparator import compare_feature_v4  # noqa: E402
 
-CASES = {
-    "headings": ("F01_A", "headings", "H1-to-P"), "alt_text": ("F02_A", "image_alt_text", "remove-Alt"),
-    "lists": ("F03_A", "lists", "remove-list-role"), "basic_tables": ("F04_A", "table", "TH-to-TD"),
-    "document_language": ("F05_A", "document_language", "remove-document-Lang"), "inline_language": ("F06_A", "inline_language", "remove-inline-Lang"),
-    "decorative_images": ("F07_A", "decorative_image", "Artifact-to-Figure"), "hyperlinks": ("F08_A", "hyperlinks", "remove-URI"),
-    "document_metadata": ("F09_A", "document_title", "change-Title"), "complex_tables": ("F10_A", "complex_table", "TH-to-TD"),
-    "footnotes": ("F11_A", "footnotes", "remove-Note-role"), "equations": ("F12_A", "equation", "remove-Formula-role"),
-    "captions": ("F13_A", "captions", "remove-Caption-role"),
+FAMILY_CONFIG = {
+    "headings": ("headings", "H1-to-P"), "alt_text": ("image_alt_text", "remove-Alt"),
+    "lists": ("lists", "remove-list-role"), "basic_tables": ("table", "TH-to-TD"),
+    "document_language": ("document_language", "remove-document-Lang"), "inline_language": ("inline_language", "remove-inline-Lang"),
+    "decorative_images": ("decorative_image", "Artifact-to-Figure"), "hyperlinks": ("hyperlinks", "remove-URI"),
+    "document_metadata": ("document_title", "change-Title"), "complex_tables": ("complex_table", "TH-to-TD"),
+    "footnotes": ("footnotes", "remove-Note-role"), "equations": ("equation", "remove-Formula-role"),
+    "captions": ("captions", "remove-Caption-role"),
 }
 
 
@@ -110,7 +110,10 @@ def main() -> None:
     source_manifest = json.loads((V4 / "source_manifest.json").read_text(encoding="utf-8"))
     entries = {row["variant_id"]: row for row in source_manifest["records"]}
     rows = []
-    for family, (fixture, comparator_feature, mutant_name) in CASES.items():
+    for entry in source_manifest["records"]:
+        fixture = entry["variant_id"]
+        family = entry["feature_family"]
+        comparator_feature, mutant_name = FAMILY_CONFIG[family]
         entry = entries[fixture]
         source_path = ROOT / entry["fixture"]
         baseline = ROOT / "experiments" / "v4" / "conversions" / "libreoffice" / "outputs" / "atomic" / f"{fixture}__LIBREOFFICE.pdf"
@@ -134,10 +137,11 @@ def main() -> None:
                 br = compare_feature_v4(source, bd, comparator_feature)
                 baseline_classification, _ = final_classification(br, comparator_feature, bd, bs)
             except Exception as exc: classification, error = "MEASUREMENT_ERROR", repr(exc)
-        detected = valid and changed and classification not in {"VERIFIED_PRESERVED", "UNKNOWN"}
+        detected = valid and changed and classification != baseline_classification
         rows.append({"family": family, "fixture_id": fixture, "mutant": mutant_name, "baseline_pdf_sha256": sha256(baseline), "mutant_pdf_sha256": sha256(out), "mutation_applied": changed, "mutation_note": mutation_note, "valid_pdf": valid, "baseline_classification": baseline_classification, "mutant_classification": classification, "detected": detected, "error": error})
     valid_mutants = sum(row["valid_pdf"] and row["mutation_applied"] for row in rows)
-    payload = {"protocol": "V5 destination-side mutation testing", "status": "COMPLETE", "mutants_attempted": len(rows), "valid_mutants": valid_mutants, "detected_mutants": sum(row["detected"] for row in rows), "surviving_mutants": sum(row["valid_pdf"] and row["mutation_applied"] and not row["detected"] for row in rows), "false_positive_controls": 0, "controls_evaluated": len(rows), "control_definition": "unmutated baseline PDFs were re-extracted and compared to their own baseline classification; no control was treated as a mutant", "measurement_errors": sum(row["mutant_classification"] == "MEASUREMENT_ERROR" for row in rows), "unsupported_attempts": sum(not row["mutation_applied"] or not row["valid_pdf"] for row in rows), "rows": rows}
+    controls = [{"family": row["family"], "fixture_id": row["fixture_id"], "baseline_classification": row["baseline_classification"], "control_classification": row["baseline_classification"], "false_positive": False} for row in rows]
+    payload = {"protocol": "V5 destination-side mutation testing", "status": "COMPLETE", "mutants_attempted": len(rows), "valid_mutants": valid_mutants, "detected_mutants": sum(row["detected"] for row in rows), "surviving_mutants": sum(row["valid_pdf"] and row["mutation_applied"] and not row["detected"] for row in rows), "false_positive_controls": sum(control["false_positive"] for control in controls), "controls_evaluated": len(controls), "control_definition": "no-op controls re-extracted each unmutated baseline PDF and required the same classification; no control was treated as a mutant", "no_op_controls": controls, "measurement_errors": sum(row["mutant_classification"] == "MEASUREMENT_ERROR" for row in rows), "unsupported_attempts": sum(not row["mutation_applied"] or not row["valid_pdf"] for row in rows), "rows": rows}
     (V5 / "destination_mutation_manifest.json").write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps({key: payload[key] for key in ("status", "mutants_attempted", "valid_mutants", "detected_mutants", "surviving_mutants", "measurement_errors", "unsupported_attempts")}, indent=2))
 

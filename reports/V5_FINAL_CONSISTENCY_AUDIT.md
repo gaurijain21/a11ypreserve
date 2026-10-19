@@ -17,6 +17,7 @@ The audit checks frozen corpus sizes, primary/supplementary denominators, holdou
 - `primary_counts_libreoffice`: PASS
 - `primary_counts_google`: PASS
 - `supplementary_counts_word`: PASS
+- `manifest_record_composition`: PASS
 - `manuscript_primary_numbers`: PASS
 - `v4_provenance_exists`: PASS
 

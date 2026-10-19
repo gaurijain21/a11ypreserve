@@ -16,7 +16,7 @@ Evidence: `pilot3/FROZEN_INPUT_VERIFICATION.md` and `pilot3/FROZEN_INPUT_VERIFIC
 
 - LibreOffice `26.2.6.3`: Pilot 2 headless PDF outputs were reused as the frozen baseline; no conversion was rerun.
 - Google Docs: authenticated Google Docs web workflow in Chrome on Windows, using Upload/Open, then File → Download → PDF Document (.pdf). No print-to-PDF path was used.
-- Microsoft Word: native `WINWORD.EXE` was found at `C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE`, version `16.0.20326.20158`, but Word conversion was deferred in this focused Pilot 3 scope. The earlier Pilot 2 Word absence remains an infrastructure limitation, not a semantic result.
+- Microsoft Word: native `WINWORD.EXE` was found at `<INSTALLED_APPLICATION>, version `16.0.20326.20158`, but Word conversion was deferred in this focused Pilot 3 scope. The earlier Pilot 2 Word absence remains an infrastructure limitation, not a semantic result.
 
 Exact workflow and per-output hashes are in `pilot3/AUTOMATION_LOG.md`.
 

@@ -6,7 +6,7 @@ import platform
 from datetime import datetime, timezone
 from pathlib import Path
 
-import fitz
+import pymupdf
 
 ROOT = Path(__file__).resolve().parents[2]
 V4 = ROOT / "experiments" / "v4"
@@ -25,7 +25,7 @@ def inspect_pdf(path: Path) -> dict:
     data = path.read_bytes()
     if not data.startswith(b"%PDF"):
         raise ValueError(f"not a PDF signature: {path}")
-    doc = fitz.open(path)
+    doc = pymupdf.open(path)
     raw = data.decode("latin-1", errors="ignore")
     metadata = doc.metadata or {}
     return {

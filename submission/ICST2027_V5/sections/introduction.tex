@@ -24,8 +24,8 @@ The primary unit is a fixture--pipeline case, not a document-level accessibility
 \centering
 \fbox{\begin{minipage}{0.93\textwidth}
 \centering
-\textbf{Verified DOCX} $\longrightarrow$ \textbf{Source contract and oracle} $\longrightarrow$ \textbf{Named converter} $\longrightarrow$ \textbf{Tagged PDF} $\longrightarrow$ \textbf{Evidence extraction} $\longrightarrow$ \textbf{Uncertainty-aware comparison}
+\textbf{Verified DOCX + source contract} $\longrightarrow$ \textbf{source/destination extraction} $\longrightarrow$ \textbf{feature comparison} $\longrightarrow$ \textbf{classification or abstention} $\longrightarrow$ \textbf{caveat and provenance record}
 \end{minipage}}
-\caption{A11yPreserve's source-grounded testing chain. The output is compared with the verified source contract; destination-only accessibility status is not treated as preservation evidence.}
+\caption{Evidence architecture. A11yPreserve moves from a verified source contract through extraction and feature-specific comparison to a classification or abstention, while retaining the caveat and provenance record. Destination-only accessibility status is not treated as preservation evidence.}
 \label{fig:workflow}
 \end{figure*}

@@ -5,7 +5,7 @@ import json
 import re
 from pathlib import Path
 
-import fitz
+import pymupdf
 
 ROOT = Path(__file__).resolve().parent
 V4 = ROOT / "experiments" / "v4"
@@ -64,7 +64,7 @@ def audit_pipeline(name: str, base: Path, suffix: str):
         normalized = [normalize(x) for x in extracts]
         metadata = []
         for p in paths:
-            doc = fitz.open(p)
+            doc = pymupdf.open(p)
             md = doc.metadata or {}
             metadata.append({k: md.get(k) for k in ("format", "title", "author", "subject", "keywords", "creator", "producer", "creationDate", "modDate")})
         raw_diffs = sorted(set(sum((diff_paths(extracts[0], x) for x in extracts[1:]), [])))

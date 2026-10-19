@@ -2,10 +2,12 @@
 
 ## 1. Final verdict
 
-**GO — READY FOR FINAL HUMAN SUBMISSION**. The central claim is supported by
-the frozen V4 controlled evidence and the completed V5 oracle hardening. The
-paper states its evidence boundary precisely; no avoidable scientific,
-consistency, build, anonymity, or packaging blocker remains.
+**GO — READY FOR FINAL HUMAN SUBMISSION WITH EXPLICIT OPEN GAPS**. The central
+claim is supported by the frozen V4 controlled evidence and the completed V5
+hardening. The paper states its evidence boundary precisely. Natural-corpus,
+time-separated cloud, standards-validator, expert-adjudication, usability,
+and licensing decisions remain explicit rather than being represented as
+completed evidence.
 
 ## 2. What changed from V4
 
@@ -13,7 +15,7 @@ consistency, build, anonymity, or packaging blocker remains.
 - Added machine-derived holdout audit: 130 primary cases = 52 holdout + 78 non-holdout; holdout is fixture-level.
 - Resolved LibreOffice setting interpretation: V4 `SelectPdfVersion=1` is PDF/A-1b; V5 condition B tests default PDF 1.7 with tagging/PDF-UA flags.
 - Added explicit environment/provenance table and cross-format equivalence contract.
-- Added destination-side mutation testing, independent technical oracle validation, and calibration ground-truth audit.
+- Added destination-side mutation testing across all 65 atomic variants with no-op controls, an independent diagnostic cross-check, and calibration ground-truth audit.
 - Added explicit reading-order, external-document, Google-boundary, temporal-repeatability, attribute-scope, prior-art, and adversarial-review reports.
 - Revised manuscript copy: `submission/ICST2027_V5/main.tex`.
 
@@ -22,7 +24,7 @@ consistency, build, anonymity, or packaging blocker remains.
 - Pipelines: LibreOffice and Google Docs primary; Microsoft Word supplementary/post-freeze.
 - Corpus: 65 atomic DOCX fixtures, 13 families, five variants per family; 10 project-created realistic documents per primary pipeline.
 - Primary cases: 130; supplementary Word atomic observations: 65; archived atomic observations: 195.
-- Validation arms: 78 calibration controls, 39 source mutations, 13 destination mutation attempts, 26 independent technical validation rows, repeatability, and realistic integrated documents.
+- Validation arms: 78 calibration controls, 39 source mutations, 65 destination mutation attempts, 26 independent diagnostic cross-check rows, repeatability, and realistic integrated documents.
 
 ## 4. Final primary results
 
@@ -46,9 +48,9 @@ PDF/UA conformance.
 ## 5. Oracle validation
 
 - Source mutation: 39/39 detected.
-- Destination mutation: 12 valid mutants, 12 detected, 0 surviving; 1 unsupported attempt retained.
+- Destination mutation: 65 attempts, 59 valid, 46 classification changes detected, 13 surviving mutants, 6 unsupported attempts, and 2 measurement errors; 65 no-op controls had 0 false positives.
 - Calibration: 60 correct, 0 false positives, 5 conservative false negatives, 13 correct abstentions.
-- Independent validation: 26 rows, 8 agreements and 18 disagreements with the original classification; the second path is intentionally lightweight and does not claim full contract equivalence.
+- Independent diagnostic cross-check: 26 rows, 8 agreements and 18 disagreements with the original classification; the second path is intentionally lightweight and does not claim full contract equivalence.
 - Holdout: 52 aggregate fixture–pipeline cases; 78 aggregate non-holdout cases.
 
 ## 6. External validity
@@ -95,10 +97,10 @@ unfinished limitation repair.
 ## 10a. Final package verification
 
 - Manuscript PDF: `submission/ICST2027_V5/main.pdf`; 9 pages; SHA-256
-  `96D56804D6E84447AB66E2268BDA86BCEE62BAC15199BA5C77F038386EB7BD5F`.
+  `f325a12f4a17d2fa084645a56782c69b3fdae8dbc86947d99d0ab728c3957975`.
 - Anonymous upload bundle: `submission/ICST2027_V5/ICST2027_V5_anonymous_upload.zip`.
 - Replication package: `submission/ICST2027_V5/upload_v5/replication_package.zip`;
-  812 files; cache/profile binaries excluded. Exact hashes are recorded in
+  870 files; cache/profile binaries excluded. Exact hashes are recorded in
   `upload_v5/BUNDLE_MANIFEST.json`.
 - Visual QA: all nine rendered pages inspected; no clipping, overlap, broken
   table, unreadable reference, or page-size defect found.

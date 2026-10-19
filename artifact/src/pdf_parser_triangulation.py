@@ -12,7 +12,7 @@ import re
 from pathlib import Path
 from typing import Any
 
-import fitz
+import pymupdf
 from pypdf import PdfReader
 from pypdf.generic import ArrayObject, DictionaryObject, IndirectObject
 
@@ -105,7 +105,7 @@ def pypdf_path(path: Path) -> dict:
 
 
 def pymupdf_path(path: Path) -> dict:
-    document = fitz.open(path)
+    document = pymupdf.open(path)
     objects = []
     marker_set = ["/StructTreeRoot", "/ParentTree", "/RoleMap", "/Lang", "/Alt", "/ActualText", "/Note", "/Footnote", "/Artifact", "/Formula", "es-MX"]
     marker_counts = {marker: 0 for marker in marker_set}
@@ -129,7 +129,7 @@ def pymupdf_path(path: Path) -> dict:
             links.append({"kind": link.get("kind"), "xref": link.get("xref"), "from": list(link["from"]) if link.get("from") is not None else None, "uri": link.get("uri"), "id": link.get("id")})
         pages.append({"text_chars": len(page_text), "image_count": len(page.get_images(full=True)), "link_count": len(page.get_links())})
     return {
-        "library": "PyMuPDF " + fitz.VersionBind,
+        "library": "PyMuPDF " + pymupdf.VersionBind,
         "pages": len(document),
         "metadata": document.metadata,
         "page_summary": pages,

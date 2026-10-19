@@ -4,9 +4,9 @@ A11yPreserve is a source-grounded, contract-based, uncertainty-aware method for 
 
 ## Current release: V5 / ICST 2027
 
-The current submission is the anonymous V5 manuscript and replication bundle under [`submission/ICST2027_V5/`](submission/ICST2027_V5/). The verified paper contains 13 feature families, five variants per family, 65 atomic DOCX fixtures, and 130 primary fixture--pipeline cases across LibreOffice and Google Docs. Microsoft Word contributes 65 post-freeze supplementary observations and is not pooled into the primary denominator.
+The canonical submission is the anonymous V5 manuscript and replication bundle under [`submission/ICST2027_V5/`](submission/ICST2027_V5/). V3 and V4 material is retained as historical provenance, not as alternate current submissions. The verified paper contains 13 feature families, five variants per family, 65 atomic DOCX fixtures, and 130 primary fixture--pipeline cases across LibreOffice and Google Docs. Each primary conversion manifest has 75 records: 65 atomic plus 10 project-created realistic integrated records. Microsoft Word contributes 65 post-freeze supplementary observations and is not pooled into the primary denominator.
 
-V5 adds machine-derived holdout accounting, a LibreOffice profile comparison, source and destination mutation testing, calibration ground truth, independent technical cross-checks, repeatability evidence, and explicit scope decisions. The final readiness assessment is [`FINAL_V5_RESEARCH_READINESS.md`](FINAL_V5_RESEARCH_READINESS.md).
+V5 adds machine-derived holdout accounting, a LibreOffice profile comparison, source and destination mutation testing, calibration ground truth, an independent diagnostic cross-check, repeatability evidence, and explicit scope decisions. The final readiness assessment is [`FINAL_V5_RESEARCH_READINESS.md`](FINAL_V5_RESEARCH_READINESS.md); the issue-by-issue closure is [`reports/V5_GAP_CLOSURE_REPORT.md`](reports/V5_GAP_CLOSURE_REPORT.md).
 
 Primary outcome counts are:
 
@@ -26,15 +26,12 @@ These are descriptive observations under recorded conditions, not population est
 From the repository root:
 
 ```powershell
-python scripts/audit_v5_holdout_accounting.py
-python scripts/audit_v5_calibration.py
-python scripts/audit_v5_final_consistency.py
-python tests/test_v5_hardening.py
+python scripts/reproduce_v5.py
 ```
 
-The V5 evidence and analysis scripts are under [`experiments/v5/`](experiments/v5/), [`contracts/v5/`](contracts/v5/), and the [`reports/`](reports/) directory. Re-running LibreOffice profile B requires the recorded local LibreOffice runtime; repeating Google Docs requires an authorized interactive session. Credentials, cookies, browser profiles, and private account material are not distributed.
+Install Python dependencies first with `python -m pip install -r requirements-v5.txt`. Use `python scripts/reproduce_v5.py --refresh-artifacts` only when intentionally regenerating the 65-row destination mutation audit and anonymous bundle. The V5 evidence and analysis scripts are under [`experiments/v5/`](experiments/v5/), [`contracts/v5/`](contracts/v5/), and the [`reports/`](reports/) directory. Re-running LibreOffice profile B requires the recorded local LibreOffice runtime; repeating Google Docs requires an authorized interactive session. Credentials, cookies, browser profiles, and private account material are not distributed.
 
-To rebuild the paper, run `powershell -ExecutionPolicy Bypass -File build.ps1` from `submission/ICST2027_V5/`. To rebuild the sanitized upload bundle, run `python build_v5_upload_bundle.py` from the repository root.
+To rebuild the paper, run `powershell -ExecutionPolicy Bypass -File build.ps1` from `submission/ICST2027_V5/`. To rebuild the sanitized upload bundle, run `python build_v5_upload_bundle.py` from the repository root. Release details are in [`docs/V5_RELEASE.md`](docs/V5_RELEASE.md).
 
 ## Repository structure
 
@@ -51,4 +48,4 @@ To rebuild the paper, run `powershell -ExecutionPolicy Bypass -File build.ps1` f
 
 ## Evidence boundary
 
-The corpus is controlled and purposive. The realistic documents are project-created, Google Docs is cloud-versioned, reading order is deferred because a defensible automated oracle was not established, and no screen-reader or disabled-user task study was performed. The method therefore makes claims about selected machine-verifiable source semantics under named conversion conditions—not about overall accessibility or human impact.
+The corpus is controlled and purposive. The holdout is within-family/within-variant, not a fully independent natural corpus. The realistic documents are project-created, Google Docs is cloud-versioned, reading order is deferred because a defensible automated oracle was not established, and no screen-reader or disabled-user task study was performed. No PDF/A or PDF/UA conformance claim is made because a standards validator was unavailable. The method therefore makes claims about selected machine-verifiable source semantics under named conversion conditions—not about overall accessibility, serialization identity, standards conformance, or human impact.

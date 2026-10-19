@@ -7,7 +7,7 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
-import fitz
+import pymupdf
 
 ROOT = Path(__file__).resolve().parents[2]
 V4 = ROOT / "experiments" / "v4"
@@ -46,7 +46,7 @@ def output_checks(manifest: dict, baseline_time: float) -> list[dict]:
         source = ROOT / row["source_path"]
         output = ROOT / row["output_path"]
         data = output.read_bytes()
-        doc = fitz.open(output)
+        doc = pymupdf.open(output)
         raw = data.decode("latin-1", errors="ignore")
         checks = {
             "source_hash_match": sha256(source).lower() == row["source_sha256"].lower() == row["expected_source_sha256"].lower(),

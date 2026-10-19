@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Human authors must complete the author list and approve a public license before release."
+title: "A11yPreserve: Source-Grounded Testing of Accessibility Preservation in DOCX-to-PDF Conversion"
+version: "V5"
+date-released: "2026-10-18"
+authors:
+  - family-names: "AUTHOR-REQUIRED"
+    given-names: "AUTHOR-REQUIRED"
+license: "NO-LICENSE-SELECTED"
+repository-code: "https://github.com/gaurijain21/a11ypreserve"

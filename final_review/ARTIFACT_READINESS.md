@@ -15,7 +15,7 @@
 ## Must not be released as-is
 
 - Authenticated Google Docs browser state, cookies, tokens, or account artifacts if present outside the tracked evidence tree.
-- Raw logs and JSON containing personal absolute paths such as `C:\Users\iamga`.
+- Raw logs and JSON containing personal absolute paths such as `<LOCAL_WINDOWS_PATH>
 - Local MiKTeX build logs and rendered scratch directories unless paths are generalized.
 - Any private cloud document identifiers or account-specific metadata.
 

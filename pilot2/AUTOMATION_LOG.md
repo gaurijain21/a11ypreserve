@@ -10,12 +10,12 @@
 ## Microsoft Word
 
 - Timestamp: 2026-09-28T01:07:21.4401419Z.
-- Tool: Microsoft Word 16.0.20326.20158, `C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE`.
+- Tool: Microsoft Word 16.0.20326.20158, `<INSTALLED_APPLICATION>
 - Primary method: PowerShell `Word.Application` COM activation, then `Documents.Open` and `ExportAsFixedFormat`.
 - Intended settings: PDF format 17; print optimization; all-document range; document content; document properties; KeepIRM; heading bookmarks; document structure tags; bitmap missing fonts; ISO 19005-1.
 - Result: COM activation blocked before any fixture opened with `0x80070520: A specified logon session does not exist`.
 - No output hash exists because no output was produced.
-- A direct process-launch attempt with `/q /n` was repeated with both the workspace and `C:\Windows` as working directories; both failed with the same session error.
+- A direct process-launch attempt with `/q /n` was repeated with both the workspace and the recorded system-root working directory; both failed with the same session error.
 - The native Windows automation surface returned no controllable apps, so GUI export could not be performed.
 - No print-to-PDF path was used.
 
@@ -37,7 +37,7 @@
 
 - Engine discovery timestamp: 2026-09-27T18:40:43-07:00 through 2026-09-27T19:05:19-07:00.
 - Tool: LibreOffice 26.2.6.3 (`8221e31b3ac356a1623c672912a3d2b492f7e3d1`), installed from the verified official MSI `LibreOffice_26.2.6_Win_x86-64.msi` (MSI SHA-256 `f9877032fd908beb9c0ddf06df4af5c2e85f419c42e14876c4cce5aae5fb2660`).
-- Executable: `C:\Users\iamga\OneDrive\Documents\ChatGPT\a11ypreserve\pilot2\libreoffice_runtime\program\soffice.com`.
+- Executable: `<REPOSITORY_ROOT>\pilot2\libreoffice_runtime\program\soffice.com`.
 - Windows: `Microsoft Windows NT 10.0.26200.0`.
 - Method: `soffice.com` headless conversion from byte-for-byte staged copies of the frozen DOCX inputs; staging was used only to avoid OneDrive first-run file locking. The source hash recorded below is the hash of the frozen fixture, and each staged copy was made with `Copy-Item` without modification.
 - Exact settings: `--headless --invisible --nodefault --nologo --nolockcheck --norestore --nofirststartwizard --convert-to "pdf:writer_pdf_Export:UseTaggedPDF=true;PDFUACompliance=true;SelectPdfVersion=1" --outdir pilot2\outputs\libreoffice_pdf <staged-source.docx>`.
@@ -52,7 +52,7 @@
 ## Pilot 2 retry: Microsoft Word reattempt
 
 - Timestamp: 2026-09-27T19:06:12-07:00.
-- Tool: Microsoft Word 16.0.20326.20158, `C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE`.
+- Tool: Microsoft Word 16.0.20326.20158, `<INSTALLED_APPLICATION>
 - Methods attempted: Windows PowerShell 5.1 `Word.Application` COM activation; PowerShell 7 `Word.Application` COM activation; direct `WINWORD.EXE /q /n /w` launch.
 - Native export settings for the COM route: `ExportAsFixedFormat` PDF format 17; all-document range; document content; document properties; heading bookmarks; document structure tags; bitmap missing fonts; ISO 19005-1.
 - Result: all Word paths were blocked before a fixture opened with `0x80070520: A specified logon session does not exist. It may already have been terminated.`

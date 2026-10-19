@@ -13,7 +13,7 @@ import json
 import re
 from pathlib import Path
 
-import fitz  # PyMuPDF
+import pymupdf  # PyMuPDF
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -56,19 +56,19 @@ def norm(value: str) -> list[str]:
     return re.findall(r"[a-z0-9]+", value.lower())
 
 
-def words_in_rect(page: fitz.Page, rect: fitz.Rect) -> list[str]:
+def words_in_rect(page: pymupdf.Page, rect: pymupdf.Rect) -> list[str]:
     words = []
     for word in page.get_text("words"):
-        wrect = fitz.Rect(word[:4])
+        wrect = pymupdf.Rect(word[:4])
         # A linked word should be substantially covered by the annotation.
-        if wrect.get_area() and fitz.Rect(rect).intersect(wrect).get_area() / wrect.get_area() >= 0.80:
+        if wrect.get_area() and pymupdf.Rect(rect).intersect(wrect).get_area() / wrect.get_area() >= 0.80:
             words.append((word[1], word[0], word[4]))
     words.sort(key=lambda item: (round(item[0], 2), round(item[1], 2)))
     return [text for _, _, text in words]
 
 
 def audit(case: dict) -> dict:
-    document = fitz.open(case["pdf"])
+    document = pymupdf.open(case["pdf"])
     annotations = []
     for page_no, page in enumerate(document, start=1):
         for link in page.get_links():

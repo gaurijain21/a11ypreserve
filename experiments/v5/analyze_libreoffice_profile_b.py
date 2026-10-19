@@ -20,7 +20,7 @@ def digest(value: dict) -> str:
 
 def sanitize(value):
     if isinstance(value, str):
-        return value.replace(str(ROOT), "<ARTIFACT_ROOT>").replace(str(ROOT).replace("\\\\", "/"), "<ARTIFACT_ROOT>")
+        return value.replace(str(ROOT), "<ARTIFACT_ROOT>").replace(ROOT.as_posix(), "<ARTIFACT_ROOT>")
     if isinstance(value, list):
         return [sanitize(item) for item in value]
     if isinstance(value, dict):

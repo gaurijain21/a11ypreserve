@@ -3,7 +3,7 @@
 | Reviewer attack | Severity | Status | Evidence / remaining concern |
 |---|---|---|---|
 | Software testing: contribution is only a PDF checker | HIGH | MITIGATED | Source-contract framing, holdout, differential routes, mutation tests, and abstention make the testing boundary explicit. |
-| Software testing: source mutation does not validate destination chain | HIGH | RESOLVED for tested mutants | 12 valid destination mutants detected 12/12; one unsupported attempt is retained. Mutation model is not exhaustive. |
+| Software testing: source mutation does not validate destination chain | HIGH | RESOLVED for tested mutants | 59 valid destination mutants were attempted across all 65 atomic variants; 46 changed classification, 13 survived, six attempts were unsupported, and two produced measurement errors. Sixty-five no-op controls produced zero false positives. Mutation model is not exhaustive. |
 | Software testing: holdout arithmetic leaks calibration/development | HIGH | RESOLVED | Machine audit derives 130 total, 52 holdout, 78 non-holdout from manifests. |
 | Accessibility: tag presence is treated as semantics | HIGH | MITIGATED | V5 feature contracts require values, relations, and association evidence; unresolved cases abstain. |
 | Accessibility: footnotes are overclaimed | HIGH | MITIGATED | `/Note` alone is insufficient; reference/body identity is required and uncertainty remains. |

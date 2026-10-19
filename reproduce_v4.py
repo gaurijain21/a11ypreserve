@@ -5,7 +5,7 @@ import hashlib
 import json
 from pathlib import Path
 
-import fitz
+import pymupdf
 
 ROOT = Path(__file__).resolve().parent
 V4 = ROOT / "experiments" / "v4"
@@ -21,7 +21,7 @@ def verify_manifest(path: Path) -> dict:
     for row in manifest["records"]:
         source, output = ROOT / row["source_path"], ROOT / row["output_path"]
         data = output.read_bytes()
-        doc = fitz.open(output)
+        doc = pymupdf.open(output)
         checks = [source.exists(), sha(source) == row["source_sha256"].lower(), output.exists(), len(data) > 0, data.startswith(b"%PDF"), len(doc) > 0, b"/StructTreeRoot" in data]
         if not all(checks):
             raise SystemExit(f"verification failed: {row['fixture_id']} {row['output_path']}")
