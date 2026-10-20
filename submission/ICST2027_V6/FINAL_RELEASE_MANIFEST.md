@@ -12,8 +12,8 @@ upload.
 |---|---|---|
 | Canonical manuscript | `submission/ICST2027_V6/main.pdf` | `A34A6D2B67C62A7D4331560843B0279533AF0B9D09D62A467CBE6885CC15BC80` |
 | Manuscript format | canonical PDF | 9 pages; US letter; IEEE two-column |
-| Anonymous upload candidate | `submission/ICST2027_V6/ICST2027_V6_anonymous_upload.zip` | `53B65C5B50402F054BA4776B5075E0CCC587D63B08C86A593260EC2A0AF49D0B` |
-| Archive payload | nested `replication_package.zip` | recorded in `upload_v6/BUNDLE_MANIFEST.json` |
+| Anonymous upload candidate | `submission/ICST2027_V6/ICST2027_V6_anonymous_upload.zip` | `1AA38CBB7D0BE29D59203CB8A4EE2AB45F922659F925677CCB800A61568F030A` |
+| Archive payload | nested `replication_package.zip` | `568E01E9DFAF3C1BE039F70678853C0EC080036BA5580BF8B84E41CBF9B50BE2` |
 | Archive file count | nested replication package | 1,130 files |
 
 ## Technical validation
@@ -38,10 +38,12 @@ upload.
 The canonical PDF is byte- and text-identical to the verified alternate-
 jobname build recorded in `experiments/v6/V6_PDF_BUILD_PROVENANCE.json`.
 
-Technical release commit: **to be recorded after the authorized local release
-commit**. No remote push has been authorized or performed. The final Git commit
-hash and clean-tree result must be copied here after commit finalization; this
-manifest must not be treated as a submission receipt until that update is made.
+Scientific implementation commit: `629996f8ea76175c0b067a01e029d8ec87bd1e89`.
+Final package/provenance commit: `04c408a8548c9fa90c0cdd3a8d671709642b4628`.
+The post-commit bundle was generated from the final package/provenance commit;
+the checksum update in this manifest is a documentation/artifact follow-up.
+No remote push has been authorized or performed, and this is not a submission
+receipt.
 
 ## Scientific and compliance status
 
