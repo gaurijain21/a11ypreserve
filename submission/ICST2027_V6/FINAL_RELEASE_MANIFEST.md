@@ -41,7 +41,7 @@ jobname build `v6_direct_language.pdf`; the updated build provenance is recorded
 in `experiments/v6/V6_PDF_BUILD_PROVENANCE.json`.
 
 Scientific implementation commit: `0cd03b2ea1bc6ecb716469fd4de9f9d3cb6c0ad5`.
-Final bundle/provenance commit: pending the archive-refresh commit below.
+Final bundle/provenance commit: `dd7cf70` (refreshed archive commit).
 The refreshed bundle was generated from the validated source state using
 disposable external staging; its outer ZIP and nested package hashes above were
 independently verified.
