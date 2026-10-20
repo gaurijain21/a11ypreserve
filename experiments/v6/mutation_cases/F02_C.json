@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:10.917307+00:00",
+  "timestamp_utc": "2026-10-20T06:02:47.044092+00:00",
   "fixture_id": "F02_C",
   "feature_family": "alt_text",
   "mutation_operator": "removed first Figure /Alt",
@@ -38,7 +38,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 1984522191056), '/Pg': IndirectObject(1, 0, 1984522191056), '/Alt': 'Alt image 1 - Punctuation: review — results (2026)!', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 1536144357840), '/Pg': IndirectObject(1, 0, 1536144357840), '/Alt': 'Alt image 1 - Punctuation: review — results (2026)!', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
         }
       }
     ],
@@ -49,7 +49,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 1984522191056), '/Pg': IndirectObject(1, 0, 1984522191056), '/Alt': 'Alt image 1 - Punctuation: review — results (2026)!', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 1536144357840), '/Pg': IndirectObject(1, 0, 1536144357840), '/Alt': 'Alt image 1 - Punctuation: review — results (2026)!', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
         }
       }
     ],
@@ -93,7 +93,7 @@
         "decorative": true,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(22, 0, 1984529202640), '/Pg': IndirectObject(15, 0, 1984529202640), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(22, 0, 1536115770960), '/Pg': IndirectObject(15, 0, 1536115770960), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
         }
       }
     ],
@@ -104,7 +104,7 @@
         "decorative": true,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(22, 0, 1984529202640), '/Pg': IndirectObject(15, 0, 1984529202640), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(22, 0, 1536115770960), '/Pg': IndirectObject(15, 0, 1536115770960), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
         }
       }
     ],
@@ -129,6 +129,8 @@
   "normalized_evidence_sha256_before": "d044026394658a4601a588c6a04457ad82a9e05e2d9443b38ca5421f5615a60a",
   "normalized_evidence_sha256_after": "899761e5c35ce460efba1c9e5252776eb63c39179f2b188ae472d05dfdf30f02",
   "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
   "contracted_semantics_before": {
     "signature_sha256": "4cfa77528a16dd88e6ee02a3603ae118bcfed6557a03768beafcf6cd8bcbe54a",
     "classification": "ALTERED",

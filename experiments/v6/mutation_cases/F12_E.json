@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:21.612029+00:00",
+  "timestamp_utc": "2026-10-20T06:03:12.685029+00:00",
   "fixture_id": "F12_E",
   "feature_family": "equations",
   "mutation_operator": "mutated first /Formula role",
@@ -55,7 +55,7 @@
         "representation": "PDF /Formula",
         "evidence": {
           "pdf_role": "Formula",
-          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1984528249680), '/Pg': IndirectObject(1, 0, 1984528249680), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.868, '/Height': 0.267, '/BBox': [284.3, 654.9, 327.7, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1536165397968), '/Pg': IndirectObject(1, 0, 1536165397968), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.868, '/Height': 0.267, '/BBox': [284.3, 654.9, 327.7, 668.25]}, '/K': [1]}"
         }
       },
       {
@@ -63,7 +63,7 @@
         "representation": "PDF /Formula",
         "evidence": {
           "pdf_role": "Formula",
-          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(8, 0, 1984528249680), '/Pg': IndirectObject(1, 0, 1984528249680), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.733, '/Height': 0.267, '/BBox': [287.7, 629.65, 324.35, 643]}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(8, 0, 1536165397968), '/Pg': IndirectObject(1, 0, 1536165397968), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.733, '/Height': 0.267, '/BBox': [287.7, 629.65, 324.35, 643]}, '/K': [2]}"
         }
       }
     ],
@@ -73,7 +73,7 @@
         "representation": "PDF /Formula",
         "evidence": {
           "pdf_role": "Formula",
-          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1984528249680), '/Pg': IndirectObject(1, 0, 1984528249680), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.868, '/Height': 0.267, '/BBox': [284.3, 654.9, 327.7, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1536165397968), '/Pg': IndirectObject(1, 0, 1536165397968), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.868, '/Height': 0.267, '/BBox': [284.3, 654.9, 327.7, 668.25]}, '/K': [1]}"
         }
       },
       {
@@ -81,7 +81,7 @@
         "representation": "PDF /Formula",
         "evidence": {
           "pdf_role": "Formula",
-          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(8, 0, 1984528249680), '/Pg': IndirectObject(1, 0, 1984528249680), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.733, '/Height': 0.267, '/BBox': [287.7, 629.65, 324.35, 643]}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(8, 0, 1536165397968), '/Pg': IndirectObject(1, 0, 1536165397968), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.733, '/Height': 0.267, '/BBox': [287.7, 629.65, 324.35, 643]}, '/K': [2]}"
         }
       }
     ],
@@ -142,7 +142,7 @@
         "representation": "PDF /Formula",
         "evidence": {
           "pdf_role": "Formula",
-          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(25, 0, 1984528021136), '/Pg': IndirectObject(17, 0, 1984528021136), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.733, '/Height': 0.267, '/BBox': [287.7, 629.65, 324.35, 643]}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(25, 0, 1536142064976), '/Pg': IndirectObject(17, 0, 1536142064976), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.733, '/Height': 0.267, '/BBox': [287.7, 629.65, 324.35, 643]}, '/K': [2]}"
         }
       }
     ],
@@ -152,7 +152,7 @@
         "representation": "PDF /Formula",
         "evidence": {
           "pdf_role": "Formula",
-          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(25, 0, 1984528021136), '/Pg': IndirectObject(17, 0, 1984528021136), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.733, '/Height': 0.267, '/BBox': [287.7, 629.65, 324.35, 643]}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(25, 0, 1536142064976), '/Pg': IndirectObject(17, 0, 1536142064976), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.733, '/Height': 0.267, '/BBox': [287.7, 629.65, 324.35, 643]}, '/K': [2]}"
         }
       }
     ],
@@ -177,6 +177,8 @@
   "normalized_evidence_sha256_before": "d2e2c620133cb8c4a4f446e298f259398f0fd30aca98347d915ba43358f2aee9",
   "normalized_evidence_sha256_after": "59c4d525b6e8bf43542be18c9acd071b0936076bbbf3c89592343c822522524c",
   "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
   "contracted_semantics_before": {
     "signature_sha256": "82621db90245f4c4a01aa1ce3f913793efd99b4ac6c11fe82dc883540c63e675",
     "classification": "VERIFIED_PRESERVED",

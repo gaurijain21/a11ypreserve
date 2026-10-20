@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:15.805535+00:00",
+  "timestamp_utc": "2026-10-20T06:03:00.819593+00:00",
   "fixture_id": "F07_C",
   "feature_family": "decorative_images",
   "mutation_operator": "Artifact role absent",
@@ -49,7 +49,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1984529262416), '/Pg': IndirectObject(1, 0, 1984529262416), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1536146732240), '/Pg': IndirectObject(1, 0, 1536146732240), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       },
       {
@@ -58,7 +58,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(9, 0, 1984529262416), '/Pg': IndirectObject(1, 0, 1984529262416), '/Alt': 'Figure 2 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 440.35, 360, 548.35]}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(9, 0, 1536146732240), '/Pg': IndirectObject(1, 0, 1536146732240), '/Alt': 'Figure 2 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 440.35, 360, 548.35]}, '/K': [2]}"
         }
       }
     ],
@@ -69,7 +69,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1984529262416), '/Pg': IndirectObject(1, 0, 1984529262416), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1536146732240), '/Pg': IndirectObject(1, 0, 1536146732240), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       },
       {
@@ -78,7 +78,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(9, 0, 1984529262416), '/Pg': IndirectObject(1, 0, 1984529262416), '/Alt': 'Figure 2 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 440.35, 360, 548.35]}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(9, 0, 1536146732240), '/Pg': IndirectObject(1, 0, 1536146732240), '/Alt': 'Figure 2 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 440.35, 360, 548.35]}, '/K': [2]}"
         }
       }
     ],
@@ -104,6 +104,8 @@
   "normalized_evidence_sha256_before": "1354f54a67d71923a30269ce6bcaf46b62a1c50ef6ef134a8835cb917def0cfc",
   "normalized_evidence_sha256_after": null,
   "extracted_evidence_changed": false,
+  "evidence_drift_alert": false,
+  "evidence_level_detection": false,
   "contracted_semantics_before": {
     "signature_sha256": "c38eee33042fffedac54a62e5e0cb50d429dfbc0976d2e66c624b522f7ed6414",
     "classification": "OBSERVED_PARTIAL",

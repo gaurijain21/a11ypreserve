@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:19.411832+00:00",
+  "timestamp_utc": "2026-10-20T06:03:08.529993+00:00",
   "fixture_id": "F10_E",
   "feature_family": "complex_tables",
   "mutation_operator": "mutated first /TH role",
@@ -145,7 +145,7 @@
         "header_row": null,
         "evidence": {
           "pdf_role": "Table",
-          "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(4, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.3, '/SpaceAfter': 0.01, '/StartIndent': -0.108, '/EndIndent': 0.108, '/Width': 8.64, '/Height': 1.65, '/BBox': [90, 600.75, 522, 683.25]}, '/K': [IndirectObject(7, 0, 1984546881232), IndirectObject(14, 0, 1984546881232), IndirectObject(21, 0, 1984546881232), IndirectObject(30, 0, 1984546881232), IndirectObject(39, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(4, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.3, '/SpaceAfter': 0.01, '/StartIndent': -0.108, '/EndIndent': 0.108, '/Width': 8.64, '/Height': 1.65, '/BBox': [90, 600.75, 522, 683.25]}, '/K': [IndirectObject(7, 0, 1536147254416), IndirectObject(14, 0, 1536147254416), IndirectObject(21, 0, 1536147254416), IndirectObject(30, 0, 1536147254416), IndirectObject(39, 0, 1536147254416)]}"
         }
       },
       {
@@ -158,7 +158,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 4.32, '/Height': 0.268}, {'/O': '/Table', '/ColSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(9, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 4.32, '/Height': 0.268}, {'/O': '/Table', '/ColSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(9, 0, 1536147254416)]}"
         }
       },
       {
@@ -171,7 +171,7 @@
         "row_span": "2",
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.536}, {'/O': '/Table', '/RowSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(11, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.536}, {'/O': '/Table', '/RowSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(11, 0, 1536147254416)]}"
         }
       },
       {
@@ -184,7 +184,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(13, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(13, 0, 1536147254416)]}"
         }
       },
       {
@@ -197,7 +197,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(16, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(16, 0, 1536147254416)]}"
         }
       },
       {
@@ -210,7 +210,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(18, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(18, 0, 1536147254416)]}"
         }
       },
       {
@@ -223,7 +223,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(20, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(20, 0, 1536147254416)]}"
         }
       },
       {
@@ -236,7 +236,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(23, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(23, 0, 1536147254416)]}"
         }
       },
       {
@@ -249,7 +249,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(25, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(25, 0, 1536147254416)]}"
         }
       },
       {
@@ -262,7 +262,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(27, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(27, 0, 1536147254416)]}"
         }
       },
       {
@@ -275,7 +275,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(29, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(29, 0, 1536147254416)]}"
         }
       },
       {
@@ -288,7 +288,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(32, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(32, 0, 1536147254416)]}"
         }
       },
       {
@@ -301,7 +301,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(34, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(34, 0, 1536147254416)]}"
         }
       },
       {
@@ -314,7 +314,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(36, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(36, 0, 1536147254416)]}"
         }
       },
       {
@@ -327,7 +327,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(38, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(38, 0, 1536147254416)]}"
         }
       },
       {
@@ -340,7 +340,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(41, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(41, 0, 1536147254416)]}"
         }
       },
       {
@@ -353,7 +353,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(43, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(43, 0, 1536147254416)]}"
         }
       },
       {
@@ -366,7 +366,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(45, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(45, 0, 1536147254416)]}"
         }
       },
       {
@@ -379,7 +379,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(47, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(47, 0, 1536147254416)]}"
         }
       }
     ],
@@ -392,7 +392,7 @@
         "header_row": null,
         "evidence": {
           "pdf_role": "Table",
-          "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(4, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.3, '/SpaceAfter': 0.01, '/StartIndent': -0.108, '/EndIndent': 0.108, '/Width': 8.64, '/Height': 1.65, '/BBox': [90, 600.75, 522, 683.25]}, '/K': [IndirectObject(7, 0, 1984546881232), IndirectObject(14, 0, 1984546881232), IndirectObject(21, 0, 1984546881232), IndirectObject(30, 0, 1984546881232), IndirectObject(39, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(4, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.3, '/SpaceAfter': 0.01, '/StartIndent': -0.108, '/EndIndent': 0.108, '/Width': 8.64, '/Height': 1.65, '/BBox': [90, 600.75, 522, 683.25]}, '/K': [IndirectObject(7, 0, 1536147254416), IndirectObject(14, 0, 1536147254416), IndirectObject(21, 0, 1536147254416), IndirectObject(30, 0, 1536147254416), IndirectObject(39, 0, 1536147254416)]}"
         }
       },
       {
@@ -405,7 +405,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 4.32, '/Height': 0.268}, {'/O': '/Table', '/ColSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(9, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 4.32, '/Height': 0.268}, {'/O': '/Table', '/ColSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(9, 0, 1536147254416)]}"
         }
       },
       {
@@ -418,7 +418,7 @@
         "row_span": "2",
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.536}, {'/O': '/Table', '/RowSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(11, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.536}, {'/O': '/Table', '/RowSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(11, 0, 1536147254416)]}"
         }
       },
       {
@@ -431,7 +431,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(13, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(13, 0, 1536147254416)]}"
         }
       },
       {
@@ -444,7 +444,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(16, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(16, 0, 1536147254416)]}"
         }
       },
       {
@@ -457,7 +457,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(18, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(18, 0, 1536147254416)]}"
         }
       },
       {
@@ -470,7 +470,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(20, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(20, 0, 1536147254416)]}"
         }
       },
       {
@@ -483,7 +483,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(23, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(23, 0, 1536147254416)]}"
         }
       },
       {
@@ -496,7 +496,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(25, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(25, 0, 1536147254416)]}"
         }
       },
       {
@@ -509,7 +509,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(27, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(27, 0, 1536147254416)]}"
         }
       },
       {
@@ -522,7 +522,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(29, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(29, 0, 1536147254416)]}"
         }
       },
       {
@@ -535,7 +535,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(32, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(32, 0, 1536147254416)]}"
         }
       },
       {
@@ -548,7 +548,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(34, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(34, 0, 1536147254416)]}"
         }
       },
       {
@@ -561,7 +561,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(36, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(36, 0, 1536147254416)]}"
         }
       },
       {
@@ -574,7 +574,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(38, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(38, 0, 1536147254416)]}"
         }
       },
       {
@@ -587,7 +587,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(41, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(41, 0, 1536147254416)]}"
         }
       },
       {
@@ -600,7 +600,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(43, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(43, 0, 1536147254416)]}"
         }
       },
       {
@@ -613,7 +613,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(45, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(45, 0, 1536147254416)]}"
         }
       },
       {
@@ -626,7 +626,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(47, 0, 1984546881232)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1536147254416), '/Pg': IndirectObject(1, 0, 1536147254416), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(47, 0, 1536147254416)]}"
         }
       }
     ],
@@ -817,7 +817,7 @@
         "header_row": null,
         "evidence": {
           "pdf_role": "Table",
-          "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(18, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.3, '/SpaceAfter': 0.01, '/StartIndent': -0.108, '/EndIndent': 0.108, '/Width': 8.64, '/Height': 1.65, '/BBox': [90, 600.75, 522, 683.25]}, '/K': [IndirectObject(20, 0, 1984528584976), IndirectObject(27, 0, 1984528584976), IndirectObject(34, 0, 1984528584976), IndirectObject(43, 0, 1984528584976), IndirectObject(52, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(18, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.3, '/SpaceAfter': 0.01, '/StartIndent': -0.108, '/EndIndent': 0.108, '/Width': 8.64, '/Height': 1.65, '/BBox': [90, 600.75, 522, 683.25]}, '/K': [IndirectObject(20, 0, 1536145235152), IndirectObject(27, 0, 1536145235152), IndirectObject(34, 0, 1536145235152), IndirectObject(43, 0, 1536145235152), IndirectObject(52, 0, 1536145235152)]}"
         }
       },
       {
@@ -830,7 +830,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(20, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 4.32, '/Height': 0.268}, {'/O': '/Table', '/ColSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(22, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(20, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 4.32, '/Height': 0.268}, {'/O': '/Table', '/ColSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(22, 0, 1536145235152)]}"
         }
       },
       {
@@ -843,7 +843,7 @@
         "row_span": "2",
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(20, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.536}, {'/O': '/Table', '/RowSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(24, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(20, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.536}, {'/O': '/Table', '/RowSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(24, 0, 1536145235152)]}"
         }
       },
       {
@@ -856,7 +856,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(20, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(26, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(20, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(26, 0, 1536145235152)]}"
         }
       },
       {
@@ -869,7 +869,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(29, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(29, 0, 1536145235152)]}"
         }
       },
       {
@@ -882,7 +882,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(31, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(31, 0, 1536145235152)]}"
         }
       },
       {
@@ -895,7 +895,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(33, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(33, 0, 1536145235152)]}"
         }
       },
       {
@@ -908,7 +908,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(36, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(36, 0, 1536145235152)]}"
         }
       },
       {
@@ -921,7 +921,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(38, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(38, 0, 1536145235152)]}"
         }
       },
       {
@@ -934,7 +934,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(40, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(40, 0, 1536145235152)]}"
         }
       },
       {
@@ -947,7 +947,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(42, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(42, 0, 1536145235152)]}"
         }
       },
       {
@@ -960,7 +960,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(45, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(45, 0, 1536145235152)]}"
         }
       },
       {
@@ -973,7 +973,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(47, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(47, 0, 1536145235152)]}"
         }
       },
       {
@@ -986,7 +986,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(49, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(49, 0, 1536145235152)]}"
         }
       },
       {
@@ -999,7 +999,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(51, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(51, 0, 1536145235152)]}"
         }
       },
       {
@@ -1012,7 +1012,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(54, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(54, 0, 1536145235152)]}"
         }
       },
       {
@@ -1025,7 +1025,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(56, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(56, 0, 1536145235152)]}"
         }
       },
       {
@@ -1038,7 +1038,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(58, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(58, 0, 1536145235152)]}"
         }
       },
       {
@@ -1051,7 +1051,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(60, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(60, 0, 1536145235152)]}"
         }
       }
     ],
@@ -1064,7 +1064,7 @@
         "header_row": null,
         "evidence": {
           "pdf_role": "Table",
-          "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(18, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.3, '/SpaceAfter': 0.01, '/StartIndent': -0.108, '/EndIndent': 0.108, '/Width': 8.64, '/Height': 1.65, '/BBox': [90, 600.75, 522, 683.25]}, '/K': [IndirectObject(20, 0, 1984528584976), IndirectObject(27, 0, 1984528584976), IndirectObject(34, 0, 1984528584976), IndirectObject(43, 0, 1984528584976), IndirectObject(52, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(18, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.3, '/SpaceAfter': 0.01, '/StartIndent': -0.108, '/EndIndent': 0.108, '/Width': 8.64, '/Height': 1.65, '/BBox': [90, 600.75, 522, 683.25]}, '/K': [IndirectObject(20, 0, 1536145235152), IndirectObject(27, 0, 1536145235152), IndirectObject(34, 0, 1536145235152), IndirectObject(43, 0, 1536145235152), IndirectObject(52, 0, 1536145235152)]}"
         }
       },
       {
@@ -1077,7 +1077,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(20, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 4.32, '/Height': 0.268}, {'/O': '/Table', '/ColSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(22, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(20, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 4.32, '/Height': 0.268}, {'/O': '/Table', '/ColSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(22, 0, 1536145235152)]}"
         }
       },
       {
@@ -1090,7 +1090,7 @@
         "row_span": "2",
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(20, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.536}, {'/O': '/Table', '/RowSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(24, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(20, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.536}, {'/O': '/Table', '/RowSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(24, 0, 1536145235152)]}"
         }
       },
       {
@@ -1103,7 +1103,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(20, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(26, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(20, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(26, 0, 1536145235152)]}"
         }
       },
       {
@@ -1116,7 +1116,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(29, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(29, 0, 1536145235152)]}"
         }
       },
       {
@@ -1129,7 +1129,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(31, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(31, 0, 1536145235152)]}"
         }
       },
       {
@@ -1142,7 +1142,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TH",
-          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(33, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(33, 0, 1536145235152)]}"
         }
       },
       {
@@ -1155,7 +1155,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(36, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(36, 0, 1536145235152)]}"
         }
       },
       {
@@ -1168,7 +1168,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(38, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(38, 0, 1536145235152)]}"
         }
       },
       {
@@ -1181,7 +1181,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(40, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(40, 0, 1536145235152)]}"
         }
       },
       {
@@ -1194,7 +1194,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(42, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(42, 0, 1536145235152)]}"
         }
       },
       {
@@ -1207,7 +1207,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(45, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(45, 0, 1536145235152)]}"
         }
       },
       {
@@ -1220,7 +1220,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(47, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(47, 0, 1536145235152)]}"
         }
       },
       {
@@ -1233,7 +1233,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(49, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(49, 0, 1536145235152)]}"
         }
       },
       {
@@ -1246,7 +1246,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(51, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(51, 0, 1536145235152)]}"
         }
       },
       {
@@ -1259,7 +1259,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(54, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(54, 0, 1536145235152)]}"
         }
       },
       {
@@ -1272,7 +1272,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(56, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(56, 0, 1536145235152)]}"
         }
       },
       {
@@ -1285,7 +1285,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(58, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(58, 0, 1536145235152)]}"
         }
       },
       {
@@ -1298,7 +1298,7 @@
         "row_span": null,
         "evidence": {
           "pdf_role": "TD",
-          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(60, 0, 1984528584976)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1536145235152), '/Pg': IndirectObject(13, 0, 1536145235152), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(60, 0, 1536145235152)]}"
         }
       }
     ],
@@ -1363,6 +1363,8 @@
   "normalized_evidence_sha256_before": "218b6ac909812f20b353989b0049580d5ce1a1876bf6edfe2023a59888710e5b",
   "normalized_evidence_sha256_after": "a6f55c8f89b669d8ec1b1dd209672893f7ce605a0f94586114d479790da37ae3",
   "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
   "contracted_semantics_before": {
     "signature_sha256": "dd979f50326b297f01df7626c0e4a18098d35173388ab8b8a103ff7c7b52af98",
     "classification": "OBSERVED_PARTIAL",

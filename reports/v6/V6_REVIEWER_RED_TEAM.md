@@ -6,7 +6,7 @@
 
 **Evidence:** The historical V5 script did contain a circular no-op control assignment. V6 removes that implementation flaw, reruns 65 controls, and obtains 0/65 disagreements. V6 also finds 46/59 coarse detections and 10 semantically meaningful survivors, so the mutation result is now explicitly fault-model bounded.
 
-**Strongest remaining objection:** Ten meaningful survivors mean a coarse classification can miss relevant evidence changes. V6 now reports those survivors and family-level sensitivity, and adds an evidence-drift alert that flags 59/59 valid applied mutants. The alert improves operational visibility but does not eliminate the coarse-comparator blind spot.
+**Strongest remaining objection:** Ten meaningful survivors mean a coarse classification can miss relevant evidence changes. The paper must report survivors and family-level sensitivity, not only 46/59.
 
 ## Reviewer B - accessibility
 
@@ -14,7 +14,7 @@
 
 **Evidence:** V6 baselines detect 0/59 faults for tag presence and visible-text equality, while destination-only evidence detects 16/59. The full method retains unresolved and measurement outcomes, and F11 remains an explicit association-extraction boundary.
 
-**Strongest remaining objection:** Machine-observable PDF structure is not equivalent to assistive-technology usability or standards conformance. No human study or PAC/verapDF result is claimed; the new blinded adjudication protocol is only prepared, not executed.
+**Strongest remaining objection:** Machine-observable PDF structure is not equivalent to assistive-technology usability or standards conformance. No human study or PAC/verapDF result is claimed.
 
 ## Reviewer C - experimental methodology
 
@@ -26,4 +26,4 @@
 
 ## Verdict after remediation
 
-The submission is scientifically stronger and the manuscript/package checks now pass. The appropriate status remains **GO WITH LIMITATIONS** because the stale repeatability metadata, absent independent adjudication, unavailable standards validators, and human release decisions remain explicit limitations. The evidence-drift alert reduces the practical risk of silently treating a same-category mutation as unchanged, but it does not supply external ground truth or natural-corpus validity.
+The submission is scientifically stronger and the manuscript/package checks now pass. The appropriate status remains **GO WITH LIMITATIONS** because the stale repeatability metadata, absent independent adjudication, unavailable standards validators, and human release decisions remain explicit limitations.

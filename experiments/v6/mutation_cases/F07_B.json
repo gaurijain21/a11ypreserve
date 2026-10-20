@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:15.702174+00:00",
+  "timestamp_utc": "2026-10-20T06:03:00.598198+00:00",
   "fixture_id": "F07_B",
   "feature_family": "decorative_images",
   "mutation_operator": "Artifact role absent",
@@ -38,7 +38,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1984525307792), '/Pg': IndirectObject(1, 0, 1984525307792), '/Alt': 'Figure 1 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1536143221328), '/Pg': IndirectObject(1, 0, 1536143221328), '/Alt': 'Figure 1 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       }
     ],
@@ -49,7 +49,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1984525307792), '/Pg': IndirectObject(1, 0, 1984525307792), '/Alt': 'Figure 1 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1536143221328), '/Pg': IndirectObject(1, 0, 1536143221328), '/Alt': 'Figure 1 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       }
     ],
@@ -75,6 +75,8 @@
   "normalized_evidence_sha256_before": "deaa934535492cc9dacf81245eb7b4a2431fb34fd4abef5166e9401d8f9b03a5",
   "normalized_evidence_sha256_after": null,
   "extracted_evidence_changed": false,
+  "evidence_drift_alert": false,
+  "evidence_level_detection": false,
   "contracted_semantics_before": {
     "signature_sha256": "ed18662bef2528848ab3a450204f75b87018e7288511637461764b2de6398cb4",
     "classification": "ALTERED",

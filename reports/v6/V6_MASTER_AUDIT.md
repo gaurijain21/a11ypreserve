@@ -8,9 +8,7 @@
 
 - Circular no-op-control implementation confirmed and removed. Fresh controls: 0/65 classification disagreements, 0/65 extraction failures, 0/65 semantic-evidence differences.
 - Destination mutation sensitivity regenerated: 65 attempts, 59 valid applied, 46 classification detections, 10 semantically meaningful survivors, 6 unsupported, 0 invalid, 0 inconclusive.
-- Additive objection mitigation derived from the retained traces: 59/59 valid applied mutants raise an evidence-drift alert; this does not rewrite the 46/59 coarse result or erase the ten survivors.
 - Baselines/ablations executed over 130 primary cases and 59 known valid destination faults. Tag presence and visible-text equality detected 0/59 injected faults; destination-only evidence detected 16/59; full A11yPreserve detected 46/59.
-- A blinded 26-case adjudication packet index and rubric are prepared, but no human adjudication result is claimed.
 - LibreOffice profile-B result verified from retained V5 evidence: 65 valid outputs and zero classification changes; interpretation is within-pipeline robustness only.
 - Historical V4/V5 source fixtures, primary outputs, classifications, hashes, and chronology were not overwritten.
 

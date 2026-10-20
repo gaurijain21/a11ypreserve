@@ -1,6 +1,6 @@
 {
   "protocol": "V6 independently rerun unmutated baseline control",
-  "timestamp_utc": "2026-10-20T00:20:02.845056+00:00",
+  "timestamp_utc": "2026-10-20T06:02:34.098084+00:00",
   "fixture_id": "F08_E",
   "feature_family": "hyperlinks",
   "role": "holdout",
@@ -122,7 +122,7 @@
           "level": 2,
           "evidence": {
             "pdf_role": "H2",
-            "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 1464644963792), '/Pg': IndirectObject(1, 0, 1464644963792), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.238}, '/K': [2]}"
+            "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 2512919443664), '/Pg': IndirectObject(1, 0, 2512919443664), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.238}, '/K': [2]}"
           }
         }
       ],

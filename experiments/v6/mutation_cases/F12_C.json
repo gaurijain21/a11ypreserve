@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:21.153235+00:00",
+  "timestamp_utc": "2026-10-20T06:03:11.952962+00:00",
   "fixture_id": "F12_C",
   "feature_family": "equations",
   "mutation_operator": "mutated first /Formula role",
@@ -41,7 +41,7 @@
         "representation": "PDF /Formula",
         "evidence": {
           "pdf_role": "Formula",
-          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1984525163024), '/Pg': IndirectObject(1, 0, 1984525163024), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.8, '/Height': 0.267, '/BBox': [286, 654.9, 326, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1536142410064), '/Pg': IndirectObject(1, 0, 1536142410064), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.8, '/Height': 0.267, '/BBox': [286, 654.9, 326, 668.25]}, '/K': [1]}"
         }
       }
     ],
@@ -51,7 +51,7 @@
         "representation": "PDF /Formula",
         "evidence": {
           "pdf_role": "Formula",
-          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1984525163024), '/Pg': IndirectObject(1, 0, 1984525163024), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.8, '/Height': 0.267, '/BBox': [286, 654.9, 326, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1536142410064), '/Pg': IndirectObject(1, 0, 1536142410064), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.8, '/Height': 0.267, '/BBox': [286, 654.9, 326, 668.25]}, '/K': [1]}"
         }
       }
     ],
@@ -115,6 +115,8 @@
   "normalized_evidence_sha256_before": "ae2733f80ed41cd2685bfc6f5b62078afce4ed4b4238cf67a5a98cd80c2aceb3",
   "normalized_evidence_sha256_after": "27bd025bdca5abd5bb929e791ad8228487f2b5982244c4846ebc60a15033fc75",
   "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
   "contracted_semantics_before": {
     "signature_sha256": "837cee112e7385dacb2ce82fb40b78a2e5ff2f572d4260724923201bce72ff27",
     "classification": "VERIFIED_PRESERVED",

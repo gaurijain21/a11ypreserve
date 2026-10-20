@@ -83,13 +83,13 @@
     },
     {
       "path": "submission/ICST2027_V6/main.tex",
-      "size_bytes": 4449,
-      "sha256": "f7b87a948d91e668354d962c710cc15971672021b0f640901d49fe3efe4c56a1"
+      "size_bytes": 4552,
+      "sha256": "0265d5895fcfd6c2a5ffea926ed3298c27f54c2d7149095e2fda6802c77bc818"
     },
     {
       "path": "submission/ICST2027_V6/v6_hardening.tex",
-      "size_bytes": 6986,
-      "sha256": "d871319f9efe15e2a50bda899fad8018de5c1d0f699851557b0e440fc001ed97"
+      "size_bytes": 7100,
+      "sha256": "f3565d34405b5dbf6bb27f2d5fcfaabab3bf53eaf6c667ae1a80cb94d36dbc71"
     },
     {
       "path": "submission/ICST2027_V6/references.bib",
@@ -108,8 +108,8 @@
     },
     {
       "path": "submission/ICST2027_V6/main.pdf",
-      "size_bytes": 212191,
-      "sha256": "d929515580ca814c9b0d9a4be1906eae58108651a4982be3ce6011c456ef5617"
+      "size_bytes": 212426,
+      "sha256": "2fd2d4c738d1b5c175b02eac7a589f664dbfdd73528a7e5a7147f666d89d26a3"
     },
     {
       "path": "submission/ICST2027_V6/sections/background.tex",

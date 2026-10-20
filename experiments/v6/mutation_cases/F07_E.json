@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:16.047337+00:00",
+  "timestamp_utc": "2026-10-20T06:03:01.444711+00:00",
   "fixture_id": "F07_E",
   "feature_family": "decorative_images",
   "mutation_operator": "Artifact role absent",
@@ -60,7 +60,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1984529254096), '/Pg': IndirectObject(1, 0, 1984529254096), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1536142416464), '/Pg': IndirectObject(1, 0, 1536142416464), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       },
       {
@@ -69,7 +69,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(9, 0, 1984529254096), '/Pg': IndirectObject(1, 0, 1984529254096), '/Alt': 'Figure 2', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 440.35, 360, 548.35]}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(9, 0, 1536142416464), '/Pg': IndirectObject(1, 0, 1536142416464), '/Alt': 'Figure 2', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 440.35, 360, 548.35]}, '/K': [2]}"
         }
       },
       {
@@ -78,7 +78,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(11, 0, 1984529254096), '/Pg': IndirectObject(1, 0, 1984529254096), '/Alt': 'Figure 3 - Decorative texture.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 320.45, 360, 428.45]}, '/K': [3]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(11, 0, 1536142416464), '/Pg': IndirectObject(1, 0, 1536142416464), '/Alt': 'Figure 3 - Decorative texture.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 320.45, 360, 428.45]}, '/K': [3]}"
         }
       }
     ],
@@ -89,7 +89,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1984529254096), '/Pg': IndirectObject(1, 0, 1984529254096), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1536142416464), '/Pg': IndirectObject(1, 0, 1536142416464), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       },
       {
@@ -98,7 +98,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(9, 0, 1984529254096), '/Pg': IndirectObject(1, 0, 1984529254096), '/Alt': 'Figure 2', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 440.35, 360, 548.35]}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(9, 0, 1536142416464), '/Pg': IndirectObject(1, 0, 1536142416464), '/Alt': 'Figure 2', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 440.35, 360, 548.35]}, '/K': [2]}"
         }
       },
       {
@@ -107,7 +107,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(11, 0, 1984529254096), '/Pg': IndirectObject(1, 0, 1984529254096), '/Alt': 'Figure 3 - Decorative texture.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 320.45, 360, 428.45]}, '/K': [3]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(11, 0, 1536142416464), '/Pg': IndirectObject(1, 0, 1536142416464), '/Alt': 'Figure 3 - Decorative texture.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 320.45, 360, 428.45]}, '/K': [3]}"
         }
       }
     ],
@@ -133,6 +133,8 @@
   "normalized_evidence_sha256_before": "136c9f1e7b7d3c889bdf309ac1ede5488f83a4aa8d1cf4abb4705bb8fd20f052",
   "normalized_evidence_sha256_after": null,
   "extracted_evidence_changed": false,
+  "evidence_drift_alert": false,
+  "evidence_level_detection": false,
   "contracted_semantics_before": {
     "signature_sha256": "309b499b456462737f82599c406da7a0f7a77172d72f8d55fe5bb9674c7ea265",
     "classification": "OBSERVED_PARTIAL",

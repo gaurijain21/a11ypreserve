@@ -1,8 +1,8 @@
 {
   "protocol": "V6 executable baseline and ablation comparison",
   "status": "COMPLETE",
-  "started_at_utc": "2026-10-20T00:20:24.833977+00:00",
-  "completed_at_utc": "2026-10-20T00:20:52.333418+00:00",
+  "started_at_utc": "2026-10-20T06:03:18.862838+00:00",
+  "completed_at_utc": "2026-10-20T06:04:00.171982+00:00",
   "primary_cases": 130,
   "reference_label_protocol": {
     "primary": "No independent adjudicated labels were available. Primary agreement/error rates are therefore not claimed; rows retain observed outputs and abstentions.",

@@ -1,6 +1,6 @@
 {
   "protocol": "V6 independently rerun unmutated baseline control",
-  "timestamp_utc": "2026-10-20T00:20:01.516340+00:00",
+  "timestamp_utc": "2026-10-20T06:02:31.792835+00:00",
   "fixture_id": "F06_E",
   "feature_family": "inline_language",
   "role": "holdout",
@@ -115,7 +115,7 @@
           "language": "en-GB",
           "evidence": {
             "pdf_role": "Span",
-            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1464645569872), '/Pg': IndirectObject(1, 0, 1464645569872), '/Lang': 'en-GB', '/K': [2]}",
+            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2512890552784), '/Pg': IndirectObject(1, 0, 2512890552784), '/Lang': 'en-GB', '/K': [2]}",
             "source": "StructElem/Lang"
           }
         }
@@ -210,7 +210,7 @@
           "language": "en-GB",
           "evidence": {
             "pdf_role": "Span",
-            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1464645569872), '/Pg': IndirectObject(1, 0, 1464645569872), '/Lang': 'en-GB', '/K': [2]}",
+            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2512890552784), '/Pg': IndirectObject(1, 0, 2512890552784), '/Lang': 'en-GB', '/K': [2]}",
             "source": "StructElem/Lang"
           }
         }
@@ -221,7 +221,7 @@
           "language": "en-GB",
           "evidence": {
             "pdf_role": "Span",
-            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1464645569872), '/Pg': IndirectObject(1, 0, 1464645569872), '/Lang': 'en-GB', '/K': [2]}",
+            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2512890552784), '/Pg': IndirectObject(1, 0, 2512890552784), '/Lang': 'en-GB', '/K': [2]}",
             "source": "StructElem/Lang"
           }
         }

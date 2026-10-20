@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:13.694965+00:00",
+  "timestamp_utc": "2026-10-20T06:02:56.080304+00:00",
   "fixture_id": "F05_A",
   "feature_family": "document_language",
   "mutation_operator": "removed catalog /Lang",
@@ -65,6 +65,8 @@
   "normalized_evidence_sha256_before": "01f7aeb8f22ac006f7a0488681e9bcbfeaf4b7be3fb9bcb8ca83c33548bcfe64",
   "normalized_evidence_sha256_after": "68ad00dd6efa38a543542b7c9e83aa504ba29ea21a8dbdb2faa66a26dd10bc19",
   "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
   "contracted_semantics_before": {
     "signature_sha256": "9d81a082546e0938b89d25c9786ac4791f91f04a3e4e0f404eb00e732d896be7",
     "classification": "VERIFIED_PRESERVED",

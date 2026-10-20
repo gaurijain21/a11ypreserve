@@ -1,6 +1,6 @@
 {
   "protocol": "V6 independently rerun unmutated baseline control",
-  "timestamp_utc": "2026-10-20T00:20:00.787773+00:00",
+  "timestamp_utc": "2026-10-20T06:02:30.692546+00:00",
   "fixture_id": "F05_E",
   "feature_family": "document_language",
   "role": "holdout",
@@ -105,7 +105,7 @@
           "language": "de-DE",
           "evidence": {
             "pdf_role": "Span",
-            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1464646460624), '/Pg': IndirectObject(1, 0, 1464646460624), '/Lang': 'de-DE', '/K': [1]}",
+            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2512917830544), '/Pg': IndirectObject(1, 0, 2512917830544), '/Lang': 'de-DE', '/K': [1]}",
             "source": "StructElem/Lang"
           }
         }

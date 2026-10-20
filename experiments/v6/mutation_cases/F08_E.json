@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:16.986572+00:00",
+  "timestamp_utc": "2026-10-20T06:03:03.400212+00:00",
   "fixture_id": "F08_E",
   "feature_family": "hyperlinks",
   "mutation_operator": "URI absent",
@@ -53,6 +53,8 @@
   "normalized_evidence_sha256_before": "4b1c0649eca8c832403bcf30121a773a4bc72cd460a042483b0dd2a9a3f7e08d",
   "normalized_evidence_sha256_after": null,
   "extracted_evidence_changed": false,
+  "evidence_drift_alert": false,
+  "evidence_level_detection": false,
   "contracted_semantics_before": {
     "signature_sha256": "42c74f1f90352bfa051d7b62c1078676d203cd60adce74373d301c90012552a2",
     "classification": "CONFIRMED_LOST",

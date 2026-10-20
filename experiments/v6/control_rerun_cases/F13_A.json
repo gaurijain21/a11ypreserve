@@ -1,6 +1,6 @@
 {
   "protocol": "V6 independently rerun unmutated baseline control",
-  "timestamp_utc": "2026-10-20T00:20:06.029582+00:00",
+  "timestamp_utc": "2026-10-20T06:02:39.222182+00:00",
   "fixture_id": "F13_A",
   "feature_family": "captions",
   "role": "development",
@@ -132,7 +132,7 @@
           "decorative": false,
           "evidence": {
             "pdf_role": "Figure",
-            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1464645731792), '/Pg': IndirectObject(1, 0, 1464645731792), '/Alt': 'Figure 1 - Description for figure 1.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2512919919952), '/Pg': IndirectObject(1, 0, 2512919919952), '/Alt': 'Figure 1 - Description for figure 1.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
           }
         }
       ],
@@ -143,7 +143,7 @@
           "decorative": false,
           "evidence": {
             "pdf_role": "Figure",
-            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1464645731792), '/Pg': IndirectObject(1, 0, 1464645731792), '/Alt': 'Figure 1 - Description for figure 1.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 2512919919952), '/Pg': IndirectObject(1, 0, 2512919919952), '/Alt': 'Figure 1 - Description for figure 1.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
           }
         }
       ],

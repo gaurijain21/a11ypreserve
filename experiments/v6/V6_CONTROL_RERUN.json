@@ -1,8 +1,8 @@
 {
   "protocol": "V6 Phase A control rerun",
   "status": "COMPLETE",
-  "started_at_utc": "2026-10-20T00:19:56.239428+00:00",
-  "completed_at_utc": "2026-10-20T00:20:06.629184+00:00",
+  "started_at_utc": "2026-10-20T06:02:23.874102+00:00",
+  "completed_at_utc": "2026-10-20T06:02:40.242747+00:00",
   "controls_evaluated": 65,
   "expected_controls": 65,
   "classification_disagreements": 0,

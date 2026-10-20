@@ -1,11 +1,13 @@
 {
   "protocol": "V6 Phase B destination mutation sensitivity",
   "status": "COMPLETE",
-  "started_at_utc": "2026-10-20T00:20:08.735720+00:00",
-  "completed_at_utc": "2026-10-20T00:20:22.765378+00:00",
+  "started_at_utc": "2026-10-20T06:02:43.678360+00:00",
+  "completed_at_utc": "2026-10-20T06:03:14.853099+00:00",
   "attempted": 65,
   "valid_applied_mutants": 59,
   "classification_level_detections": 46,
+  "evidence_level_detections": 59,
+  "evidence_drift_alerts": 59,
   "semantically_meaningful_survivals": 10,
   "unsupported_attempts": 6,
   "invalid_mutants": 0,
@@ -24,6 +26,7 @@
       "applied": 5,
       "valid": 5,
       "classification_detected": 5,
+      "evidence_drift_alerts": 5,
       "semantically_meaningful_survival": 0,
       "unsupported": 0,
       "inconclusive": 0,
@@ -38,6 +41,7 @@
       "applied": 5,
       "valid": 5,
       "classification_detected": 5,
+      "evidence_drift_alerts": 5,
       "semantically_meaningful_survival": 0,
       "unsupported": 0,
       "inconclusive": 0,
@@ -52,6 +56,7 @@
       "applied": 5,
       "valid": 5,
       "classification_detected": 2,
+      "evidence_drift_alerts": 5,
       "semantically_meaningful_survival": 0,
       "unsupported": 0,
       "inconclusive": 0,
@@ -67,6 +72,7 @@
       "applied": 5,
       "valid": 5,
       "classification_detected": 2,
+      "evidence_drift_alerts": 5,
       "semantically_meaningful_survival": 3,
       "unsupported": 0,
       "inconclusive": 0,
@@ -82,6 +88,7 @@
       "applied": 0,
       "valid": 0,
       "classification_detected": 0,
+      "evidence_drift_alerts": 0,
       "semantically_meaningful_survival": 0,
       "unsupported": 5,
       "inconclusive": 0,
@@ -97,6 +104,7 @@
       "applied": 5,
       "valid": 5,
       "classification_detected": 5,
+      "evidence_drift_alerts": 5,
       "semantically_meaningful_survival": 0,
       "unsupported": 0,
       "inconclusive": 0,
@@ -111,6 +119,7 @@
       "applied": 5,
       "valid": 5,
       "classification_detected": 5,
+      "evidence_drift_alerts": 5,
       "semantically_meaningful_survival": 0,
       "unsupported": 0,
       "inconclusive": 0,
@@ -125,6 +134,7 @@
       "applied": 5,
       "valid": 5,
       "classification_detected": 4,
+      "evidence_drift_alerts": 5,
       "semantically_meaningful_survival": 1,
       "unsupported": 0,
       "inconclusive": 0,
@@ -139,6 +149,7 @@
       "applied": 5,
       "valid": 5,
       "classification_detected": 3,
+      "evidence_drift_alerts": 5,
       "semantically_meaningful_survival": 2,
       "unsupported": 0,
       "inconclusive": 0,
@@ -153,6 +164,7 @@
       "applied": 5,
       "valid": 5,
       "classification_detected": 5,
+      "evidence_drift_alerts": 5,
       "semantically_meaningful_survival": 0,
       "unsupported": 0,
       "inconclusive": 0,
@@ -167,6 +179,7 @@
       "applied": 4,
       "valid": 4,
       "classification_detected": 2,
+      "evidence_drift_alerts": 4,
       "semantically_meaningful_survival": 2,
       "unsupported": 1,
       "inconclusive": 0,
@@ -183,6 +196,7 @@
       "applied": 5,
       "valid": 5,
       "classification_detected": 5,
+      "evidence_drift_alerts": 5,
       "semantically_meaningful_survival": 0,
       "unsupported": 0,
       "inconclusive": 0,
@@ -198,6 +212,7 @@
       "applied": 5,
       "valid": 5,
       "classification_detected": 3,
+      "evidence_drift_alerts": 5,
       "semantically_meaningful_survival": 2,
       "unsupported": 0,
       "inconclusive": 0,
@@ -220,6 +235,7 @@
     "application_success": "mutation_applied",
     "validity": "valid_pdf",
     "evidence_detection": "extracted_evidence_changed",
+    "evidence_drift_alert": "valid applied mutation with changed normalized extracted evidence",
     "contract_detection": "contracted_semantics_changed",
     "classification_detection": "classification_changed",
     "meaningful_survival": "valid applied mutation with changed normalized evidence and contracted semantics but unchanged classification"
@@ -227,7 +243,7 @@
   "rows": [
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:09.370550+00:00",
+      "timestamp_utc": "2026-10-20T06:02:44.688270+00:00",
       "fixture_id": "F01_A",
       "feature_family": "headings",
       "mutation_operator": "mutated first /H1 role",
@@ -246,6 +262,8 @@
       "normalized_evidence_sha256_before": "ced56c6a7cb10e3ebfc5afefed6a754ccc9c31bd41fe2c3176bf450cf11cf4f7",
       "normalized_evidence_sha256_after": "7fc53591b6a3779f9c50743568319484eb7718dc0451d72201358955976c5fd5",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "6a88015778f98ae611ed66ecc313b16b0506ebc1b55080fb5cf390ffb8a8b0e2",
         "classification": "VERIFIED_PRESERVED",
@@ -274,7 +292,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:09.743583+00:00",
+      "timestamp_utc": "2026-10-20T06:02:45.218890+00:00",
       "fixture_id": "F01_B",
       "feature_family": "headings",
       "mutation_operator": "mutated first /H1 role",
@@ -293,6 +311,8 @@
       "normalized_evidence_sha256_before": "1d9c8a7f38afc4eac9413120aca0ae924a1225e98d3f67eae2820372b0c4370c",
       "normalized_evidence_sha256_after": "da74e17a31cd6d141ef007ebc0096db4530d7a1fea03952de440ce004ce65040",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "ec294d77c40e6cdfd30003039dea452b1027beff23b522a48b46e3d71bec33b0",
         "classification": "VERIFIED_PRESERVED",
@@ -321,7 +341,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:09.945270+00:00",
+      "timestamp_utc": "2026-10-20T06:02:45.507282+00:00",
       "fixture_id": "F01_C",
       "feature_family": "headings",
       "mutation_operator": "mutated first /H1 role",
@@ -340,6 +360,8 @@
       "normalized_evidence_sha256_before": "b0ba1d80677eb87dd34582bf287645c5429d3c13afe888c74880ad1a8f79c4f3",
       "normalized_evidence_sha256_after": "9fa4be4939abf3acd3138e8b5e512b22bd313ce7a5b609df11d4fd00d3dd83d6",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "865f32f2ea1cc0dc2c1ce8442f34742cf3ac69c1b816cfa9ed76a031b27f6cbe",
         "classification": "VERIFIED_PRESERVED",
@@ -368,7 +390,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:10.140296+00:00",
+      "timestamp_utc": "2026-10-20T06:02:45.799652+00:00",
       "fixture_id": "F01_D",
       "feature_family": "headings",
       "mutation_operator": "mutated first /H1 role",
@@ -387,6 +409,8 @@
       "normalized_evidence_sha256_before": "0869055dc285e4b3198e37e2a934dda1f0f1e35c21b9227c6f1e660bf6937337",
       "normalized_evidence_sha256_after": "267edb17f085c8ddb37952f09640a1e0a8122a94249125cb8d4f460630c9cd3d",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "21095b46a04a0411fe1ea6380c17f5b69221b1afe7b7f3ccdf90f04b47e37f48",
         "classification": "VERIFIED_PRESERVED",
@@ -415,7 +439,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:10.366289+00:00",
+      "timestamp_utc": "2026-10-20T06:02:46.175942+00:00",
       "fixture_id": "F01_E",
       "feature_family": "headings",
       "mutation_operator": "mutated first /H1 role",
@@ -434,6 +458,8 @@
       "normalized_evidence_sha256_before": "0a7706b506788a05dc52836203f5b257f4ab1d0eef37c98b1655c8a87b87c0bd",
       "normalized_evidence_sha256_after": "a564af09dfaca986baeba23d2770dffdeb4089dc1360edc8cb41e737a717e56a",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "0253a441b48255a7b1b78956697efd77803e6dc468c5acd468bcf9d906cbacb7",
         "classification": "VERIFIED_PRESERVED",
@@ -462,7 +488,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:10.534928+00:00",
+      "timestamp_utc": "2026-10-20T06:02:46.441007+00:00",
       "fixture_id": "F02_A",
       "feature_family": "alt_text",
       "mutation_operator": "removed first Figure /Alt",
@@ -481,6 +507,8 @@
       "normalized_evidence_sha256_before": "dffd929b4bd45f36a7c234a9dc64ea5002c0dcb80883d5237ce80efae8ed52f7",
       "normalized_evidence_sha256_after": "f151dc49bf9cf3ee7cc45da0af5a4f4bd70c2588b07577b5cd4540359814cd39",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "74f3a4917afbdacb8f03d9573f1a943fcdd22430bfcf63e89cf293a9c8feeffa",
         "classification": "ALTERED",
@@ -509,7 +537,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:10.714320+00:00",
+      "timestamp_utc": "2026-10-20T06:02:46.720474+00:00",
       "fixture_id": "F02_B",
       "feature_family": "alt_text",
       "mutation_operator": "removed first Figure /Alt",
@@ -528,6 +556,8 @@
       "normalized_evidence_sha256_before": "e471767aad91be1a84c394550ce064f63a6771ab2d0c76283e1eb16c280d6df6",
       "normalized_evidence_sha256_after": "b8bf43dfe7219645d06faba1ff04aeaeee9696edbf6a30423d86e8f1c9bf2816",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "19eedf634b1c80001cf96635657c00cc44459cdc0c8bff4b7d062bdbef00ea90",
         "classification": "ALTERED",
@@ -556,7 +586,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:10.917307+00:00",
+      "timestamp_utc": "2026-10-20T06:02:47.044092+00:00",
       "fixture_id": "F02_C",
       "feature_family": "alt_text",
       "mutation_operator": "removed first Figure /Alt",
@@ -575,6 +605,8 @@
       "normalized_evidence_sha256_before": "d044026394658a4601a588c6a04457ad82a9e05e2d9443b38ca5421f5615a60a",
       "normalized_evidence_sha256_after": "899761e5c35ce460efba1c9e5252776eb63c39179f2b188ae472d05dfdf30f02",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "4cfa77528a16dd88e6ee02a3603ae118bcfed6557a03768beafcf6cd8bcbe54a",
         "classification": "ALTERED",
@@ -603,7 +635,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:11.090415+00:00",
+      "timestamp_utc": "2026-10-20T06:02:47.316573+00:00",
       "fixture_id": "F02_D",
       "feature_family": "alt_text",
       "mutation_operator": "removed first Figure /Alt",
@@ -622,6 +654,8 @@
       "normalized_evidence_sha256_before": "dc4307bfd589136d2f4e47f182b6d468be3952aeb5c9c610147d9fc4dc37aeec",
       "normalized_evidence_sha256_after": "681bdb5ab465deda0bf31aa9f0442c35d81b1721c9dfb01c25f8e924f09c2521",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "66ce775326617b9e780e9b444af76118bd2add20c4597bc0584d0f9162cd4362",
         "classification": "ALTERED",
@@ -650,7 +684,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:11.265946+00:00",
+      "timestamp_utc": "2026-10-20T06:02:47.626203+00:00",
       "fixture_id": "F02_E",
       "feature_family": "alt_text",
       "mutation_operator": "removed first Figure /Alt",
@@ -669,6 +703,8 @@
       "normalized_evidence_sha256_before": "73e53e4876de028cd6dbb7d4c05869c665c9ff59436d3698476ec1805cc2fa54",
       "normalized_evidence_sha256_after": "59d76b7609b6ddfff746d56a0a06c4fed9133bda9a442c65e596befec0fcc804",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "1affa12e9fc011ea015b24b5d1325962315d168939afd3538f38380945168b9c",
         "classification": "ALTERED",
@@ -697,7 +733,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:11.475343+00:00",
+      "timestamp_utc": "2026-10-20T06:02:47.985180+00:00",
       "fixture_id": "F03_A",
       "feature_family": "lists",
       "mutation_operator": "mutated first /L role",
@@ -716,6 +752,8 @@
       "normalized_evidence_sha256_before": "7cae0afcbc4f9797044a7a973dbe15d3f28b769eed01ca9e4d2464594ce44b20",
       "normalized_evidence_sha256_after": "bc2adfaa9dbe60f0601a2cac1acfda8b500216e43531be56306859dd5ed46372",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "ce496e8d2bc61600964ec32b9ac577defe6d41851ffc4343a3a407089a7cee9b",
         "classification": "VERIFIED_PRESERVED",
@@ -744,7 +782,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:11.653395+00:00",
+      "timestamp_utc": "2026-10-20T06:02:48.329333+00:00",
       "fixture_id": "F03_B",
       "feature_family": "lists",
       "mutation_operator": "mutated first /L role",
@@ -763,6 +801,8 @@
       "normalized_evidence_sha256_before": "181a8a2002dfe92fc92dc1feb1d9c9546a6faa11e1825034401535ef8946e40d",
       "normalized_evidence_sha256_after": "cbc0669918741a9ffd23c78605982318004f2f4537a874f44677e1dd2d4e12ec",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "a177cc2df393112467853b904de5442b3159fb09e95244586eaac8349d0e1b53",
         "classification": "VERIFIED_PRESERVED",
@@ -791,7 +831,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:11.848026+00:00",
+      "timestamp_utc": "2026-10-20T06:02:48.873250+00:00",
       "fixture_id": "F03_C",
       "feature_family": "lists",
       "mutation_operator": "mutated first /L role",
@@ -810,6 +850,8 @@
       "normalized_evidence_sha256_before": "1e6484b90b1555e915207de1130899cb4b6512e7a96e643b52c32c079a91b4f7",
       "normalized_evidence_sha256_after": "195f2e966004547b72facb9da8011873bdd567a6b93480d6a4e0901fa7ab924d",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "c24aea687df198fc0b82d890a22ecdcb195b31ca2e2f5540f78587cc4293a2ac",
         "classification": "VERIFIED_PRESERVED",
@@ -838,7 +880,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:12.083698+00:00",
+      "timestamp_utc": "2026-10-20T06:02:49.776956+00:00",
       "fixture_id": "F03_D",
       "feature_family": "lists",
       "mutation_operator": "mutated first /L role",
@@ -857,6 +899,8 @@
       "normalized_evidence_sha256_before": "080ea844ab7d8a181b07f0b5ac6e02cbdea17b5962f4ae088b240f3c3402bf86",
       "normalized_evidence_sha256_after": "d7aa140754be51a54e520e6e4cbab0fe7ccba533f49e66a49b5d86214fdb9062",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "e650d6b6af5a4f5c461d2ccba51b27e81e1947167784338a41a0d66895691798",
         "classification": "OBSERVED_PARTIAL",
@@ -885,7 +929,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:12.299025+00:00",
+      "timestamp_utc": "2026-10-20T06:02:50.657442+00:00",
       "fixture_id": "F03_E",
       "feature_family": "lists",
       "mutation_operator": "mutated first /L role",
@@ -904,6 +948,8 @@
       "normalized_evidence_sha256_before": "584b65db9c6d83f9f08e8f94ec1a10e41aafc4fd74236525346291d451f91728",
       "normalized_evidence_sha256_after": "49da33b7a2abee5bfcf1821d13a717a677ab5d5e7597a6fa07e88a594f3fe4b0",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "2942b40b273cf0c073c05579284afcc812730c6b23a95e51530226ed001a47d0",
         "classification": "OBSERVED_PARTIAL",
@@ -932,7 +978,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:12.486273+00:00",
+      "timestamp_utc": "2026-10-20T06:02:51.894438+00:00",
       "fixture_id": "F04_A",
       "feature_family": "basic_tables",
       "mutation_operator": "mutated first /TH role",
@@ -951,6 +997,8 @@
       "normalized_evidence_sha256_before": "833b758bc241c266775ff2903f9a409caa520b0de6e386234b77240d035b5fe4",
       "normalized_evidence_sha256_after": "0f76ab4075088e95f230ee51a28c19b0bd0013f51f38ad703b1f9a55fb7e49d7",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "d03823ff8d7f6c19f72ec2c4d66b372e96cb9979b0f7606a6fe360768d26d5c3",
         "classification": "VERIFIED_PRESERVED",
@@ -979,7 +1027,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:12.749527+00:00",
+      "timestamp_utc": "2026-10-20T06:02:52.914604+00:00",
       "fixture_id": "F04_B",
       "feature_family": "basic_tables",
       "mutation_operator": "mutated first /TH role",
@@ -998,6 +1046,8 @@
       "normalized_evidence_sha256_before": "253a59c66cb5bbfadd973c76920923eae70c980955d87c983471ddc1f2bbe1a7",
       "normalized_evidence_sha256_after": "f1f2f3192542832ecec78560d56a361e0274b38b14968745ea4df7faa9475ced",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "66d666d77ed38681d46173fc728a878cb46004a29a6d8e8d418dfad4f40ec9da",
         "classification": "VERIFIED_PRESERVED",
@@ -1026,7 +1076,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:12.979767+00:00",
+      "timestamp_utc": "2026-10-20T06:02:53.714880+00:00",
       "fixture_id": "F04_C",
       "feature_family": "basic_tables",
       "mutation_operator": "mutated first /TH role",
@@ -1045,6 +1095,8 @@
       "normalized_evidence_sha256_before": "1064dddfa7f0ea912cf9aea9996c9d5e6a057cac3f5f31e086a47eee262f8408",
       "normalized_evidence_sha256_after": "b7ffba68648bc10fcd67e6cca86381b3a69196167f3e7ecd0ecadf04882c2a99",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "8ed6a154395dde5fb5b97cbdd18376f6833f6d2e8b6f3010252db1081071d82f",
         "classification": "VERIFIED_PRESERVED",
@@ -1073,7 +1125,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:13.267261+00:00",
+      "timestamp_utc": "2026-10-20T06:02:54.991606+00:00",
       "fixture_id": "F04_D",
       "feature_family": "basic_tables",
       "mutation_operator": "mutated first /TH role",
@@ -1092,6 +1144,8 @@
       "normalized_evidence_sha256_before": "ca05775a4762e3cc9315d579750ddc7cf8794df8b242947c97600d4ed7d75dbb",
       "normalized_evidence_sha256_after": "e869776cc36bec93bd99209fbfb0d986ecc81a182a44fe170d83341d4fb49979",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "534c9a4eae4c6b236e5dd13e82c4d54856d74a16bcd9b4d0fe6d7e89d140e524",
         "classification": "VERIFIED_PRESERVED",
@@ -1120,7 +1174,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:13.512239+00:00",
+      "timestamp_utc": "2026-10-20T06:02:55.641747+00:00",
       "fixture_id": "F04_E",
       "feature_family": "basic_tables",
       "mutation_operator": "mutated first /TH role",
@@ -1139,6 +1193,8 @@
       "normalized_evidence_sha256_before": "63ec22f7875ed9c4f11585b2c9f9ba0ba271802facdbf2bc2d75d502ba60650a",
       "normalized_evidence_sha256_after": "1feb1b1f34cfa4d1312d2761bc8f7cb20650bed40f84bd00603f7b008e47013c",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "f5805ba9f76626d19564a740fd74f84c4c8f80983d542c651aa762c107efdd8f",
         "classification": "VERIFIED_PRESERVED",
@@ -1167,7 +1223,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:13.694965+00:00",
+      "timestamp_utc": "2026-10-20T06:02:56.080304+00:00",
       "fixture_id": "F05_A",
       "feature_family": "document_language",
       "mutation_operator": "removed catalog /Lang",
@@ -1186,6 +1242,8 @@
       "normalized_evidence_sha256_before": "01f7aeb8f22ac006f7a0488681e9bcbfeaf4b7be3fb9bcb8ca83c33548bcfe64",
       "normalized_evidence_sha256_after": "68ad00dd6efa38a543542b7c9e83aa504ba29ea21a8dbdb2faa66a26dd10bc19",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "9d81a082546e0938b89d25c9786ac4791f91f04a3e4e0f404eb00e732d896be7",
         "classification": "VERIFIED_PRESERVED",
@@ -1214,7 +1272,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:13.888097+00:00",
+      "timestamp_utc": "2026-10-20T06:02:56.506557+00:00",
       "fixture_id": "F05_B",
       "feature_family": "document_language",
       "mutation_operator": "removed catalog /Lang",
@@ -1233,6 +1291,8 @@
       "normalized_evidence_sha256_before": "d70f574c0b4840afb6daa4e549adf46b713b8ba14f1f4a53ba69c303300f4728",
       "normalized_evidence_sha256_after": "dc4197cb0129553216275ef99370620488b8b017259293a8ca955e177cfd8302",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "8a0f6e88f664959b844fdc6cf94a0e3ac8ac8e77ca42a7b7865009fc23ac7a05",
         "classification": "VERIFIED_PRESERVED",
@@ -1261,7 +1321,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:14.063400+00:00",
+      "timestamp_utc": "2026-10-20T06:02:56.856311+00:00",
       "fixture_id": "F05_C",
       "feature_family": "document_language",
       "mutation_operator": "removed catalog /Lang",
@@ -1280,6 +1340,8 @@
       "normalized_evidence_sha256_before": "b5794205683db2b35378c08792138ed385799dabadd8c713c99769346ab3fe53",
       "normalized_evidence_sha256_after": "da5a74f3546c09904ea3aa5c9d911745f57edae8016f27d4820bdd90e5d52785",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "bf1d906f8c4a0e7849ae0d79e782eeed86e72ee04cb03042cc5b4e4c80609448",
         "classification": "VERIFIED_PRESERVED",
@@ -1308,7 +1370,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:14.244997+00:00",
+      "timestamp_utc": "2026-10-20T06:02:57.205398+00:00",
       "fixture_id": "F05_D",
       "feature_family": "document_language",
       "mutation_operator": "removed catalog /Lang",
@@ -1327,6 +1389,8 @@
       "normalized_evidence_sha256_before": "b4b2a9db52df3890184a7ff648a601fbc2b2060303be0744514055071f07e3e3",
       "normalized_evidence_sha256_after": "b3f734df09065901777808d57c9c73205275645d951b3b3c62b04d4dd85a685b",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "37ac49986868c62bff1049baf3fc4aebdeff623474eca40c708ec3b8824fc4cd",
         "classification": "VERIFIED_PRESERVED",
@@ -1355,7 +1419,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:14.440495+00:00",
+      "timestamp_utc": "2026-10-20T06:02:57.752788+00:00",
       "fixture_id": "F05_E",
       "feature_family": "document_language",
       "mutation_operator": "removed catalog /Lang",
@@ -1374,6 +1438,8 @@
       "normalized_evidence_sha256_before": "9ddf507a929af52da433ce1a42776ab47234f05d94c27e7fa1bc2b405c632711",
       "normalized_evidence_sha256_after": "4dc31d7d8c1eacf7de1bfe2e41887af2f9c951ef5512db4f31b7ac06ed827327",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "e4caac4f9397b2b40e66a323f46f6b43d5c83f56723bb459c0ebd0670cdc0ff7",
         "classification": "VERIFIED_PRESERVED",
@@ -1402,7 +1468,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:14.624288+00:00",
+      "timestamp_utc": "2026-10-20T06:02:58.151718+00:00",
       "fixture_id": "F06_A",
       "feature_family": "inline_language",
       "mutation_operator": "removed first inline StructElem /Lang",
@@ -1421,6 +1487,8 @@
       "normalized_evidence_sha256_before": "d60c2e4217873349bf9b32036f833e798eb62b57017c3f156fe06fd857c19a4e",
       "normalized_evidence_sha256_after": "bf517ac5d32bd0b508737322085eab1189afde608123fe5f73e10d18a4b553a1",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "1ed315b6eef25cfdb828b7ce4166f27ac0f1b7fe2565c200e77b35533bfd0646",
         "classification": "VERIFIED_PRESERVED",
@@ -1449,7 +1517,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:14.820415+00:00",
+      "timestamp_utc": "2026-10-20T06:02:58.547035+00:00",
       "fixture_id": "F06_B",
       "feature_family": "inline_language",
       "mutation_operator": "removed first inline StructElem /Lang",
@@ -1468,6 +1536,8 @@
       "normalized_evidence_sha256_before": "4d37e7c46e67f6e64425aa745efa701b25d5b28baa1fcb0d045f12e4b0a70533",
       "normalized_evidence_sha256_after": "ca2ee13830d9c122269331fbd7b7c37316a597f58ff19e9b5311bcd76d0606ea",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "a2887c2f226a92a2d56cad9be8664306d963c2a762f63adf1077812a339fae46",
         "classification": "VERIFIED_PRESERVED",
@@ -1496,7 +1566,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:15.057158+00:00",
+      "timestamp_utc": "2026-10-20T06:02:59.137904+00:00",
       "fixture_id": "F06_C",
       "feature_family": "inline_language",
       "mutation_operator": "removed first inline StructElem /Lang",
@@ -1515,6 +1585,8 @@
       "normalized_evidence_sha256_before": "2c1f5564ce4dbb4e7357736533d91e8745d32e7480128c9d22c2eda2227a6068",
       "normalized_evidence_sha256_after": "f06b4ba6c57e9b56e683bfbbdedb2e8ccf83f6e3c8c41c449a4242206ec979e9",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "ab6cd8c4c3c63d791ee1e073ee7a788dd34d8736d2bde327196a10a128b2ced8",
         "classification": "VERIFIED_PRESERVED",
@@ -1543,7 +1615,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:15.255122+00:00",
+      "timestamp_utc": "2026-10-20T06:02:59.701546+00:00",
       "fixture_id": "F06_D",
       "feature_family": "inline_language",
       "mutation_operator": "removed first inline StructElem /Lang",
@@ -1562,6 +1634,8 @@
       "normalized_evidence_sha256_before": "905e141752198416593bbc0576539a93ebc5cc8030e804ad49b05402920d0e41",
       "normalized_evidence_sha256_after": "881955118ea4791e765dcd2c335fbc91949b5f1f23ae789663f4db4736375f54",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "870b281d891f96a6bff504d8dde95be168737f6cc8192991fe9ee0db78e5467c",
         "classification": "VERIFIED_PRESERVED",
@@ -1590,7 +1664,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:15.461712+00:00",
+      "timestamp_utc": "2026-10-20T06:03:00.048589+00:00",
       "fixture_id": "F06_E",
       "feature_family": "inline_language",
       "mutation_operator": "removed first inline StructElem /Lang",
@@ -1609,6 +1683,8 @@
       "normalized_evidence_sha256_before": "558d03099f8b0c0291468f5910aff9a2031b81415ca97c8f4240ab09fe91bdc9",
       "normalized_evidence_sha256_after": "bcc0949a2f97ad2ace7ca62881005dce949e9a55dc56a319d24283934fda735f",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "91064fe22a63eb0680ded52a5a75676b52ca28ec683250b895167e00bea6cd3b",
         "classification": "ALTERED",
@@ -1637,7 +1713,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:15.567676+00:00",
+      "timestamp_utc": "2026-10-20T06:03:00.285304+00:00",
       "fixture_id": "F07_A",
       "feature_family": "decorative_images",
       "mutation_operator": "Artifact role absent",
@@ -1656,6 +1732,8 @@
       "normalized_evidence_sha256_before": "4ea0a4fc234c601ab711db28e675c10a67098c6a3601e68666b9cd72def2c42c",
       "normalized_evidence_sha256_after": null,
       "extracted_evidence_changed": false,
+      "evidence_drift_alert": false,
+      "evidence_level_detection": false,
       "contracted_semantics_before": {
         "signature_sha256": "2deab0a9f15bdfe83fdbb8e6c6e56d7da0dcc2c4a8161834c641e4acd3a541fb",
         "classification": "OBSERVED_PARTIAL",
@@ -1684,7 +1762,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:15.702174+00:00",
+      "timestamp_utc": "2026-10-20T06:03:00.598198+00:00",
       "fixture_id": "F07_B",
       "feature_family": "decorative_images",
       "mutation_operator": "Artifact role absent",
@@ -1703,6 +1781,8 @@
       "normalized_evidence_sha256_before": "deaa934535492cc9dacf81245eb7b4a2431fb34fd4abef5166e9401d8f9b03a5",
       "normalized_evidence_sha256_after": null,
       "extracted_evidence_changed": false,
+      "evidence_drift_alert": false,
+      "evidence_level_detection": false,
       "contracted_semantics_before": {
         "signature_sha256": "ed18662bef2528848ab3a450204f75b87018e7288511637461764b2de6398cb4",
         "classification": "ALTERED",
@@ -1731,7 +1811,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:15.805535+00:00",
+      "timestamp_utc": "2026-10-20T06:03:00.819593+00:00",
       "fixture_id": "F07_C",
       "feature_family": "decorative_images",
       "mutation_operator": "Artifact role absent",
@@ -1750,6 +1830,8 @@
       "normalized_evidence_sha256_before": "1354f54a67d71923a30269ce6bcaf46b62a1c50ef6ef134a8835cb917def0cfc",
       "normalized_evidence_sha256_after": null,
       "extracted_evidence_changed": false,
+      "evidence_drift_alert": false,
+      "evidence_level_detection": false,
       "contracted_semantics_before": {
         "signature_sha256": "c38eee33042fffedac54a62e5e0cb50d429dfbc0976d2e66c624b522f7ed6414",
         "classification": "OBSERVED_PARTIAL",
@@ -1778,7 +1860,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:15.929468+00:00",
+      "timestamp_utc": "2026-10-20T06:03:01.085770+00:00",
       "fixture_id": "F07_D",
       "feature_family": "decorative_images",
       "mutation_operator": "Artifact role absent",
@@ -1797,6 +1879,8 @@
       "normalized_evidence_sha256_before": "29d5c9abef56066ee59d41c61852466051e25d2ae739eb14685a5efe893274a2",
       "normalized_evidence_sha256_after": null,
       "extracted_evidence_changed": false,
+      "evidence_drift_alert": false,
+      "evidence_level_detection": false,
       "contracted_semantics_before": {
         "signature_sha256": "309d1f4055b740f99a23f78162e0cf198385222d9d7ccc1021d9b0e8a6ed290d",
         "classification": "OBSERVED_PARTIAL",
@@ -1825,7 +1909,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:16.047337+00:00",
+      "timestamp_utc": "2026-10-20T06:03:01.444711+00:00",
       "fixture_id": "F07_E",
       "feature_family": "decorative_images",
       "mutation_operator": "Artifact role absent",
@@ -1844,6 +1928,8 @@
       "normalized_evidence_sha256_before": "136c9f1e7b7d3c889bdf309ac1ede5488f83a4aa8d1cf4abb4705bb8fd20f052",
       "normalized_evidence_sha256_after": null,
       "extracted_evidence_changed": false,
+      "evidence_drift_alert": false,
+      "evidence_level_detection": false,
       "contracted_semantics_before": {
         "signature_sha256": "309b499b456462737f82599c406da7a0f7a77172d72f8d55fe5bb9674c7ea265",
         "classification": "OBSERVED_PARTIAL",
@@ -1872,7 +1958,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:16.222955+00:00",
+      "timestamp_utc": "2026-10-20T06:03:01.765210+00:00",
       "fixture_id": "F08_A",
       "feature_family": "hyperlinks",
       "mutation_operator": "removed first Link /URI",
@@ -1891,6 +1977,8 @@
       "normalized_evidence_sha256_before": "7b535ac474e347556e7b92174c496bc14cc7500f042808ddce57ceedf9cee4e8",
       "normalized_evidence_sha256_after": "341863c76dcb3a29d3de3fa8ac55d81b3e3a1cab7878b913bcd7e2d06107d364",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "22a6333dff984d620a2d0fe459196fa606448fff45ee8c80f6aec13639737189",
         "classification": "OBSERVED_PARTIAL",
@@ -1919,7 +2007,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:16.441967+00:00",
+      "timestamp_utc": "2026-10-20T06:03:02.182845+00:00",
       "fixture_id": "F08_B",
       "feature_family": "hyperlinks",
       "mutation_operator": "removed first Link /URI",
@@ -1938,6 +2026,8 @@
       "normalized_evidence_sha256_before": "7a90c8a2f6ecf63eb752c7c2f3808965e206589817a7083a01c93519c11af8f7",
       "normalized_evidence_sha256_after": "e53d9c38a8afd0e8747633c65f29aa578b907f1ee7363d71f496c5b90b4830ee",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "8f82aa8ea5253f06f72bcc34b6613381736764f443eeef193ef1b2313a26c2fc",
         "classification": "OBSERVED_PARTIAL",
@@ -1966,7 +2056,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:16.659623+00:00",
+      "timestamp_utc": "2026-10-20T06:03:02.591331+00:00",
       "fixture_id": "F08_C",
       "feature_family": "hyperlinks",
       "mutation_operator": "removed first Link /URI",
@@ -1985,6 +2075,8 @@
       "normalized_evidence_sha256_before": "bf595dd1011138389e08a66a3d89f9441b433f4cd7f2e4c62d45f0e7ba850467",
       "normalized_evidence_sha256_after": "43d31615c9f050be88fd4e45a38dc8d4e59bce2f2b1befd7074a3be86742da52",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "e35218991f5ac549d95a60fb70078fcf264b72dd500c38120e8e29655104a9a1",
         "classification": "ALTERED",
@@ -2013,7 +2105,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:16.848896+00:00",
+      "timestamp_utc": "2026-10-20T06:03:03.028250+00:00",
       "fixture_id": "F08_D",
       "feature_family": "hyperlinks",
       "mutation_operator": "removed first Link /URI",
@@ -2032,6 +2124,8 @@
       "normalized_evidence_sha256_before": "be947982e6e8c9ba6e699c2fae06832cfdf54d340f46c585c86d351b9c4cad89",
       "normalized_evidence_sha256_after": "fcdb7489792996b74633933572d64b5f9779eeace1522d5d5f5b3f5af2f20d39",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "dc19a60549fac9de87a9114bb45d0b63c2c45bb9f51df5a73789210f56bd617e",
         "classification": "ALTERED",
@@ -2060,7 +2154,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:16.986572+00:00",
+      "timestamp_utc": "2026-10-20T06:03:03.400212+00:00",
       "fixture_id": "F08_E",
       "feature_family": "hyperlinks",
       "mutation_operator": "URI absent",
@@ -2079,6 +2173,8 @@
       "normalized_evidence_sha256_before": "4b1c0649eca8c832403bcf30121a773a4bc72cd460a042483b0dd2a9a3f7e08d",
       "normalized_evidence_sha256_after": null,
       "extracted_evidence_changed": false,
+      "evidence_drift_alert": false,
+      "evidence_level_detection": false,
       "contracted_semantics_before": {
         "signature_sha256": "42c74f1f90352bfa051d7b62c1078676d203cd60adce74373d301c90012552a2",
         "classification": "CONFIRMED_LOST",
@@ -2107,7 +2203,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:17.156486+00:00",
+      "timestamp_utc": "2026-10-20T06:03:03.752381+00:00",
       "fixture_id": "F09_A",
       "feature_family": "document_metadata",
       "mutation_operator": "changed document title",
@@ -2126,6 +2222,8 @@
       "normalized_evidence_sha256_before": "8720419c18807785aed209043f10e1a86e0407869f72b176f532b2039c6f6a4d",
       "normalized_evidence_sha256_after": "cd4068b2f3ce57862505cca8215a97f460cb37d77ec59d37cc73d1845d47b7ff",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "304009903d2d01295d463e1948adab3322bac269e1b81fb334d6a3e2b1006af7",
         "classification": "VERIFIED_PRESERVED",
@@ -2154,7 +2252,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:17.337626+00:00",
+      "timestamp_utc": "2026-10-20T06:03:04.101242+00:00",
       "fixture_id": "F09_B",
       "feature_family": "document_metadata",
       "mutation_operator": "changed document title",
@@ -2173,6 +2271,8 @@
       "normalized_evidence_sha256_before": "1a6a0031cf6965022d6968224a0afe81c855e28e3ecfa7bc48733fca8c098e20",
       "normalized_evidence_sha256_after": "fba51a7059104c20c51233be1f18ea76898337de96d04f00cffb190db19169fe",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "11dc83d6ef02ca5778a24840f4be957aedeb3d7b86db65a51623ca7633f24e2d",
         "classification": "VERIFIED_PRESERVED",
@@ -2201,7 +2301,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:17.546697+00:00",
+      "timestamp_utc": "2026-10-20T06:03:04.538928+00:00",
       "fixture_id": "F09_C",
       "feature_family": "document_metadata",
       "mutation_operator": "changed document title",
@@ -2220,6 +2320,8 @@
       "normalized_evidence_sha256_before": "2a167e1660b7be0080fce146f59958d3c6c7c77581bf5cc20e60acc91b1a4e88",
       "normalized_evidence_sha256_after": "77853f8ef46eef88a4d91e173bbcba93e4f3dc1c64d3cf0eb747382790693cad",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "fd0597c848cc08e90b89fe7224a5d23257c29296de34cbb49adb43344cc21223",
         "classification": "VERIFIED_PRESERVED",
@@ -2248,7 +2350,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:17.739133+00:00",
+      "timestamp_utc": "2026-10-20T06:03:05.109493+00:00",
       "fixture_id": "F09_D",
       "feature_family": "document_metadata",
       "mutation_operator": "changed document title",
@@ -2267,6 +2369,8 @@
       "normalized_evidence_sha256_before": "11e6c7bca3d3c2e84d5dbe24d14373a8b2d43e0b2d5d6f5e6c6ec4e2eb783d5d",
       "normalized_evidence_sha256_after": "d86475fa3d6423d983f942142b83e4b933daba3b1753554abbdad9f91fea722e",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "02d02d145efeeea5395358b0022a067e333459832a1a8123c721d91f16064997",
         "classification": "VERIFIED_PRESERVED",
@@ -2295,7 +2399,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:17.905374+00:00",
+      "timestamp_utc": "2026-10-20T06:03:05.437419+00:00",
       "fixture_id": "F09_E",
       "feature_family": "document_metadata",
       "mutation_operator": "changed document title",
@@ -2314,6 +2418,8 @@
       "normalized_evidence_sha256_before": "6ba0fd042a20979d060dad8f8fca9f267b08062a7bf8c05319ec630f53290d38",
       "normalized_evidence_sha256_after": "14acf8c57f80c6a61322125579f2c25a823defe7406ac8c7ebd26cafbd724438",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "a55a791018eef40a1f17ff735849a447e4315f635473c3436e6a8209870c1c1f",
         "classification": "VERIFIED_PRESERVED",
@@ -2342,7 +2448,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:18.171657+00:00",
+      "timestamp_utc": "2026-10-20T06:03:05.941700+00:00",
       "fixture_id": "F10_A",
       "feature_family": "complex_tables",
       "mutation_operator": "mutated first /TH role",
@@ -2361,6 +2467,8 @@
       "normalized_evidence_sha256_before": "11649c89f482942d1b3521b4cf1d73320f35345b8a5d37d37df30fce5dd784b7",
       "normalized_evidence_sha256_after": "fa418a64799b87b1af7259373cde8b8ce26bd3b60c58a0d9928a7792fc14a260",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "bc26f74e277f4f6590d2099f7368ff57b900ff6bdcbc15986b8b12e05ea6e065",
         "classification": "OBSERVED_PARTIAL",
@@ -2389,7 +2497,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:18.451765+00:00",
+      "timestamp_utc": "2026-10-20T06:03:06.464422+00:00",
       "fixture_id": "F10_B",
       "feature_family": "complex_tables",
       "mutation_operator": "mutated first /TH role",
@@ -2408,6 +2516,8 @@
       "normalized_evidence_sha256_before": "13e120bdaee1a0eabcb7df4aeddd5c0c69c4663bd7bec8e83742d78fb34f081f",
       "normalized_evidence_sha256_after": "578a2d91c9a92de0275eb9217f5a2cf071180602c310f23fad17f7cb2b4b9032",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "74e4483a3113c6cb830e7033bfcfd933b6fdef7e7aab54ae14844f2ca3f421bb",
         "classification": "OBSERVED_PARTIAL",
@@ -2436,7 +2546,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:18.749554+00:00",
+      "timestamp_utc": "2026-10-20T06:03:07.081516+00:00",
       "fixture_id": "F10_C",
       "feature_family": "complex_tables",
       "mutation_operator": "mutated first /TH role",
@@ -2455,6 +2565,8 @@
       "normalized_evidence_sha256_before": "f098589cdd3cbba236f7317fe8979035693ed90f68c122090b94d2aa9f75ded9",
       "normalized_evidence_sha256_after": "e22451680e088d741f1dee1491af348aae65d0648b3779da990d0c98c2c81369",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "d0749f6ae4e4f21b6086ee41b89f6c14245206a5f18fb4d680c9c7196cce638e",
         "classification": "VERIFIED_PRESERVED",
@@ -2483,7 +2595,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:19.104024+00:00",
+      "timestamp_utc": "2026-10-20T06:03:07.810084+00:00",
       "fixture_id": "F10_D",
       "feature_family": "complex_tables",
       "mutation_operator": "mutated first /TH role",
@@ -2502,6 +2614,8 @@
       "normalized_evidence_sha256_before": "4c4e1d75c9c944739a67c339b77aac2f5640b70f6a68fc4ea725e2177045044e",
       "normalized_evidence_sha256_after": "ec7a5f88ef40f46b99b983c398e3a2c4a8b8ba35a123ceebf8f18642d5b1f6c5",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "bb3515e2cf37f9aec3e00f5beea91cb77ac3185c460c784a8557a62416aabd02",
         "classification": "VERIFIED_PRESERVED",
@@ -2530,7 +2644,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:19.411832+00:00",
+      "timestamp_utc": "2026-10-20T06:03:08.529993+00:00",
       "fixture_id": "F10_E",
       "feature_family": "complex_tables",
       "mutation_operator": "mutated first /TH role",
@@ -2549,6 +2663,8 @@
       "normalized_evidence_sha256_before": "218b6ac909812f20b353989b0049580d5ce1a1876bf6edfe2023a59888710e5b",
       "normalized_evidence_sha256_after": "a6f55c8f89b669d8ec1b1dd209672893f7ce605a0f94586114d479790da37ae3",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "dd979f50326b297f01df7626c0e4a18098d35173388ab8b8a103ff7c7b52af98",
         "classification": "OBSERVED_PARTIAL",
@@ -2577,7 +2693,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:19.634718+00:00",
+      "timestamp_utc": "2026-10-20T06:03:09.011855+00:00",
       "fixture_id": "F11_A",
       "feature_family": "footnotes",
       "mutation_operator": "mutated first /Note role",
@@ -2596,6 +2712,8 @@
       "normalized_evidence_sha256_before": "aa129cd01d6d981790296537dfa9adb53970fa74092a7e4e63e4f75e469f65ef",
       "normalized_evidence_sha256_after": "8729bfd5320bfb3ac336ae79ca327410647501c24d9a3dda285fb1b2a96dcbc4",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "cba1697ea5cc3e322c8fcd432889e13f246549abe0f897ea8d8b6f1d21b5a89b",
         "classification": "MEASUREMENT_ERROR",
@@ -2624,7 +2742,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:19.836491+00:00",
+      "timestamp_utc": "2026-10-20T06:03:09.422436+00:00",
       "fixture_id": "F11_B",
       "feature_family": "footnotes",
       "mutation_operator": "mutated first /Note role",
@@ -2643,6 +2761,8 @@
       "normalized_evidence_sha256_before": "5a44ecdee8b054dcdc4b3984d73c250baf44793b7b44d039782d4a4bb1df1610",
       "normalized_evidence_sha256_after": "45ce26eb393e886ad25505e7007fbfaf866b3bfb784a0dbe57fd6da3918614fe",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "a63993ac0c7cf5cc02b45474ee9d51fabad1427b49c58f5d352327f7e6dca171",
         "classification": "MEASUREMENT_ERROR",
@@ -2671,7 +2791,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:20.037620+00:00",
+      "timestamp_utc": "2026-10-20T06:03:09.790323+00:00",
       "fixture_id": "F11_C",
       "feature_family": "footnotes",
       "mutation_operator": "mutated first /Note role",
@@ -2690,6 +2810,8 @@
       "normalized_evidence_sha256_before": "dd436579db14e05944e991d6b92c6a49a588dd24b05c2cd9d236f1005c53bce5",
       "normalized_evidence_sha256_after": "e434f72b379cfdfa38b0cde984ac079330aa988a0b902059644c5d911fd8fc1e",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "a25de12e32ddd586b0f1cb3f4677ba7b5ee73a2cee9debc9a4962dd52c25a224",
         "classification": "MEASUREMENT_ERROR",
@@ -2718,7 +2840,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:20.288709+00:00",
+      "timestamp_utc": "2026-10-20T06:03:10.400637+00:00",
       "fixture_id": "F11_D",
       "feature_family": "footnotes",
       "mutation_operator": "mutated first /Note role",
@@ -2737,6 +2859,8 @@
       "normalized_evidence_sha256_before": "198d52c7ecacb498b4d69169c26bf21c2bd6144ee35995dfb3debc08c7d8ef84",
       "normalized_evidence_sha256_after": "66e936d008b376b3b9d37e57f0bc890ec8416cde72ccd6ce10224e2c28527270",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "f8b4800683519dd5d817d9056649fb3deed56f6c1b42d665f4c0d791470e7b2b",
         "classification": "MEASUREMENT_ERROR",
@@ -2765,7 +2889,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:20.546594+00:00",
+      "timestamp_utc": "2026-10-20T06:03:10.808318+00:00",
       "fixture_id": "F11_E",
       "feature_family": "footnotes",
       "mutation_operator": "mutated first /Note role",
@@ -2784,6 +2908,8 @@
       "normalized_evidence_sha256_before": "57a0f5e9a69bc44502e9f96b840e87f433f539996ef7be8d988042055a1e1b38",
       "normalized_evidence_sha256_after": "94cb36cb3c47b8d03a73ff99c81a9acc75b9fce5c4cbe9229f5a9c0baeb619a2",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "19be135c0d30db3f266820bc25f5947134469d6db0dba0caf62cc5f1fc569c42",
         "classification": "MEASUREMENT_ERROR",
@@ -2812,7 +2938,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:20.736970+00:00",
+      "timestamp_utc": "2026-10-20T06:03:11.168462+00:00",
       "fixture_id": "F12_A",
       "feature_family": "equations",
       "mutation_operator": "mutated first /Formula role",
@@ -2831,6 +2957,8 @@
       "normalized_evidence_sha256_before": "35cf2020754e9d69771637e50655a5c029fbfc0c86eb0cd3d48dcbb0adc542ad",
       "normalized_evidence_sha256_after": "e4fa824e1d0851dae476bbce63ceff238de2b50e323d5d5d818cc7f16e189aa2",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "f5055a712a1fbc7f18f0287444948c699f284ff3bc6dc90d1c0541953e9ab892",
         "classification": "VERIFIED_PRESERVED",
@@ -2859,7 +2987,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:20.950414+00:00",
+      "timestamp_utc": "2026-10-20T06:03:11.557957+00:00",
       "fixture_id": "F12_B",
       "feature_family": "equations",
       "mutation_operator": "mutated first /Formula role",
@@ -2878,6 +3006,8 @@
       "normalized_evidence_sha256_before": "acf8257ff7457601bd784670915473fa36222969292b3b82c97853ab68427506",
       "normalized_evidence_sha256_after": "6117512fe164f640fcda124eaac0e4149a753ea63fd337e509844693b6bea7a2",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "62290720b33e476ed5ac93541f391e4c3d9087c3425479451c023365999c2bf7",
         "classification": "VERIFIED_PRESERVED",
@@ -2906,7 +3036,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:21.153235+00:00",
+      "timestamp_utc": "2026-10-20T06:03:11.952962+00:00",
       "fixture_id": "F12_C",
       "feature_family": "equations",
       "mutation_operator": "mutated first /Formula role",
@@ -2925,6 +3055,8 @@
       "normalized_evidence_sha256_before": "ae2733f80ed41cd2685bfc6f5b62078afce4ed4b4238cf67a5a98cd80c2aceb3",
       "normalized_evidence_sha256_after": "27bd025bdca5abd5bb929e791ad8228487f2b5982244c4846ebc60a15033fc75",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "837cee112e7385dacb2ce82fb40b78a2e5ff2f572d4260724923201bce72ff27",
         "classification": "VERIFIED_PRESERVED",
@@ -2953,7 +3085,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:21.361850+00:00",
+      "timestamp_utc": "2026-10-20T06:03:12.278522+00:00",
       "fixture_id": "F12_D",
       "feature_family": "equations",
       "mutation_operator": "mutated first /Formula role",
@@ -2972,6 +3104,8 @@
       "normalized_evidence_sha256_before": "b6ae9e565b028c91a72c4eeae4e01cff3f4068db0452702b59bda6d0a4d64381",
       "normalized_evidence_sha256_after": "0906b59a690061b06d0b78ee3936d27cd1992f24aadbdabaa66f2dc06170b3dd",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "7c72a4e22c7793f1f263e0a39e24bd72a9c38b5f7b97410da11e8737539b9689",
         "classification": "VERIFIED_PRESERVED",
@@ -3000,7 +3134,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:21.612029+00:00",
+      "timestamp_utc": "2026-10-20T06:03:12.685029+00:00",
       "fixture_id": "F12_E",
       "feature_family": "equations",
       "mutation_operator": "mutated first /Formula role",
@@ -3019,6 +3153,8 @@
       "normalized_evidence_sha256_before": "d2e2c620133cb8c4a4f446e298f259398f0fd30aca98347d915ba43358f2aee9",
       "normalized_evidence_sha256_after": "59c4d525b6e8bf43542be18c9acd071b0936076bbbf3c89592343c822522524c",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "82621db90245f4c4a01aa1ce3f913793efd99b4ac6c11fe82dc883540c63e675",
         "classification": "VERIFIED_PRESERVED",
@@ -3047,7 +3183,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:21.836378+00:00",
+      "timestamp_utc": "2026-10-20T06:03:13.086864+00:00",
       "fixture_id": "F13_A",
       "feature_family": "captions",
       "mutation_operator": "mutated first /Caption role",
@@ -3066,6 +3202,8 @@
       "normalized_evidence_sha256_before": "75dbe613877c7f088c081ac2a63a36bb510483fc00903d173f32a7bc317ea5e1",
       "normalized_evidence_sha256_after": "a20987f190d2c225304b33d9e00f865cb4b21c463230f2e710d111532a1e3184",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "acfb25530eed4e4412c80c635a6fbd78260646a1593985308c203deb919e3fd5",
         "classification": "VERIFIED_PRESERVED",
@@ -3094,7 +3232,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:22.124630+00:00",
+      "timestamp_utc": "2026-10-20T06:03:13.551356+00:00",
       "fixture_id": "F13_B",
       "feature_family": "captions",
       "mutation_operator": "mutated first /Caption role",
@@ -3113,6 +3251,8 @@
       "normalized_evidence_sha256_before": "0728a61f22463e866be902158a92ae441e34867d24f5e7581335e157e9d29c8e",
       "normalized_evidence_sha256_after": "6c74198d62e2afd500cc56649252c23523719c6371aa1a8aadc10b676ae3012e",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "ec11a3a8a0db4b113e123283e8b0eef6a3ab2d647ec689635fa943a02c4d0bd8",
         "classification": "VERIFIED_PRESERVED",
@@ -3141,7 +3281,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:22.354772+00:00",
+      "timestamp_utc": "2026-10-20T06:03:13.973929+00:00",
       "fixture_id": "F13_C",
       "feature_family": "captions",
       "mutation_operator": "mutated first /Caption role",
@@ -3160,6 +3300,8 @@
       "normalized_evidence_sha256_before": "7665b01eeb9e94157bc7a62959e32b74f942ad3b09b09b92f4ff1c8ab8743294",
       "normalized_evidence_sha256_after": "009c018fb794783f1ed0ae4d7ca75c9daf3f367baeaf196e8cc001c06868460f",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "c8ab53f7208c0492fc6cdb3c05d9ea682b331b05f31676f120e07009cd146ebf",
         "classification": "UNRESOLVED_EQUIVALENCE",
@@ -3188,7 +3330,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:22.535501+00:00",
+      "timestamp_utc": "2026-10-20T06:03:14.348616+00:00",
       "fixture_id": "F13_D",
       "feature_family": "captions",
       "mutation_operator": "mutated first /Caption role",
@@ -3207,6 +3349,8 @@
       "normalized_evidence_sha256_before": "5b2a3b6f3e090ecfd51fa4969ac5b798603769b192ddc2397f1d9ccfe24978dd",
       "normalized_evidence_sha256_after": "f71281cdb8c0ecb1ff69bf9f54418bf293737b31827622d2511045a613b7c074",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "c6fe2ae151540ef56c7cab3b39176d0d8a23bf064eaa21a133364130368ea78e",
         "classification": "VERIFIED_PRESERVED",
@@ -3235,7 +3379,7 @@
     },
     {
       "protocol": "V6 destination mutation sensitivity",
-      "timestamp_utc": "2026-10-20T00:20:22.765378+00:00",
+      "timestamp_utc": "2026-10-20T06:03:14.843375+00:00",
       "fixture_id": "F13_E",
       "feature_family": "captions",
       "mutation_operator": "mutated first /Caption role",
@@ -3254,6 +3398,8 @@
       "normalized_evidence_sha256_before": "10358e0c63a80ff026f43d98bb2acbf4e87136022fcccf274deabefc554c4cb7",
       "normalized_evidence_sha256_after": "4a3ff0e4b862dcf28fc881664b5a572d2ed0d38ce2fc8f76523ff199fa9e7e72",
       "extracted_evidence_changed": true,
+      "evidence_drift_alert": true,
+      "evidence_level_detection": true,
       "contracted_semantics_before": {
         "signature_sha256": "d3d5c3badf089198355a3f5c3fb2b9943c3b73a5d943b5b50a6d69b102d8f986",
         "classification": "VERIFIED_PRESERVED",

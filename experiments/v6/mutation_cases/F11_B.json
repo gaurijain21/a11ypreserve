@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:19.836491+00:00",
+  "timestamp_utc": "2026-10-20T06:03:09.422436+00:00",
   "fixture_id": "F11_B",
   "feature_family": "footnotes",
   "mutation_operator": "mutated first /Note role",
@@ -44,7 +44,7 @@
         "text": "",
         "evidence": {
           "pdf_role": "Note",
-          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id12', '/P': IndirectObject(11, 0, 1984525993808), '/Pg': IndirectObject(1, 0, 1984525993808), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(13, 0, 1984525993808), IndirectObject(15, 0, 1984525993808)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id12', '/P': IndirectObject(11, 0, 1536145103376), '/Pg': IndirectObject(1, 0, 1536145103376), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(13, 0, 1536145103376), IndirectObject(15, 0, 1536145103376)]}"
         }
       },
       {
@@ -52,7 +52,7 @@
         "text": "",
         "evidence": {
           "pdf_role": "Note",
-          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id16', '/P': IndirectObject(11, 0, 1984525993808), '/Pg': IndirectObject(1, 0, 1984525993808), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(17, 0, 1984525993808), IndirectObject(19, 0, 1984525993808)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id16', '/P': IndirectObject(11, 0, 1536145103376), '/Pg': IndirectObject(1, 0, 1536145103376), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(17, 0, 1536145103376), IndirectObject(19, 0, 1536145103376)]}"
         }
       }
     ],
@@ -62,7 +62,7 @@
         "text": "",
         "evidence": {
           "pdf_role": "Note",
-          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id12', '/P': IndirectObject(11, 0, 1984525993808), '/Pg': IndirectObject(1, 0, 1984525993808), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(13, 0, 1984525993808), IndirectObject(15, 0, 1984525993808)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id12', '/P': IndirectObject(11, 0, 1536145103376), '/Pg': IndirectObject(1, 0, 1536145103376), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(13, 0, 1536145103376), IndirectObject(15, 0, 1536145103376)]}"
         }
       },
       {
@@ -70,7 +70,7 @@
         "text": "",
         "evidence": {
           "pdf_role": "Note",
-          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id16', '/P': IndirectObject(11, 0, 1984525993808), '/Pg': IndirectObject(1, 0, 1984525993808), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(17, 0, 1984525993808), IndirectObject(19, 0, 1984525993808)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id16', '/P': IndirectObject(11, 0, 1536145103376), '/Pg': IndirectObject(1, 0, 1536145103376), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(17, 0, 1536145103376), IndirectObject(19, 0, 1536145103376)]}"
         }
       }
     ],
@@ -120,7 +120,7 @@
         "text": "",
         "evidence": {
           "pdf_role": "Note",
-          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id16', '/P': IndirectObject(28, 0, 1984525922768), '/Pg': IndirectObject(13, 0, 1984525922768), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(34, 0, 1984525922768), IndirectObject(36, 0, 1984525922768)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id16', '/P': IndirectObject(28, 0, 1536143623056), '/Pg': IndirectObject(13, 0, 1536143623056), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(34, 0, 1536143623056), IndirectObject(36, 0, 1536143623056)]}"
         }
       }
     ],
@@ -130,7 +130,7 @@
         "text": "",
         "evidence": {
           "pdf_role": "Note",
-          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id16', '/P': IndirectObject(28, 0, 1984525922768), '/Pg': IndirectObject(13, 0, 1984525922768), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(34, 0, 1984525922768), IndirectObject(36, 0, 1984525922768)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id16', '/P': IndirectObject(28, 0, 1536143623056), '/Pg': IndirectObject(13, 0, 1536143623056), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(34, 0, 1536143623056), IndirectObject(36, 0, 1536143623056)]}"
         }
       }
     ],
@@ -155,6 +155,8 @@
   "normalized_evidence_sha256_before": "5a44ecdee8b054dcdc4b3984d73c250baf44793b7b44d039782d4a4bb1df1610",
   "normalized_evidence_sha256_after": "45ce26eb393e886ad25505e7007fbfaf866b3bfb784a0dbe57fd6da3918614fe",
   "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
   "contracted_semantics_before": {
     "signature_sha256": "a63993ac0c7cf5cc02b45474ee9d51fabad1427b49c58f5d352327f7e6dca171",
     "classification": "MEASUREMENT_ERROR",

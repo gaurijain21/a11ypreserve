@@ -1,6 +1,6 @@
 {
   "protocol": "V6 independently rerun unmutated baseline control",
-  "timestamp_utc": "2026-10-20T00:20:05.769346+00:00",
+  "timestamp_utc": "2026-10-20T06:02:38.753827+00:00",
   "fixture_id": "F12_D",
   "feature_family": "equations",
   "role": "holdout",
@@ -119,7 +119,7 @@
           "representation": "PDF /Formula",
           "evidence": {
             "pdf_role": "Formula",
-            "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1464647412048), '/Pg': IndirectObject(1, 0, 1464647412048), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.662, '/Height': 0.267, '/BBox': [289.45, 654.9, 322.55, 668.25]}, '/K': [1]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 2512918659536), '/Pg': IndirectObject(1, 0, 2512918659536), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.662, '/Height': 0.267, '/BBox': [289.45, 654.9, 322.55, 668.25]}, '/K': [1]}"
           }
         }
       ],
@@ -200,7 +200,7 @@
           "representation": "PDF /Formula",
           "evidence": {
             "pdf_role": "Formula",
-            "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1464647412048), '/Pg': IndirectObject(1, 0, 1464647412048), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.662, '/Height': 0.267, '/BBox': [289.45, 654.9, 322.55, 668.25]}, '/K': [1]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 2512918659536), '/Pg': IndirectObject(1, 0, 2512918659536), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.662, '/Height': 0.267, '/BBox': [289.45, 654.9, 322.55, 668.25]}, '/K': [1]}"
           }
         }
       ],
@@ -210,7 +210,7 @@
           "representation": "PDF /Formula",
           "evidence": {
             "pdf_role": "Formula",
-            "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1464647412048), '/Pg': IndirectObject(1, 0, 1464647412048), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.662, '/Height': 0.267, '/BBox': [289.45, 654.9, 322.55, 668.25]}, '/K': [1]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 2512918659536), '/Pg': IndirectObject(1, 0, 2512918659536), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.662, '/Height': 0.267, '/BBox': [289.45, 654.9, 322.55, 668.25]}, '/K': [1]}"
           }
         }
       ],

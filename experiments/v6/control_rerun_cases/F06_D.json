@@ -1,6 +1,6 @@
 {
   "protocol": "V6 independently rerun unmutated baseline control",
-  "timestamp_utc": "2026-10-20T00:20:01.386014+00:00",
+  "timestamp_utc": "2026-10-20T06:02:31.578520+00:00",
   "fixture_id": "F06_D",
   "feature_family": "inline_language",
   "role": "holdout",
@@ -125,7 +125,7 @@
           "language": "fr-FR",
           "evidence": {
             "pdf_role": "Span",
-            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1464646072464), '/Pg': IndirectObject(1, 0, 1464646072464), '/Lang': 'fr-FR', '/K': [2]}",
+            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2512918145616), '/Pg': IndirectObject(1, 0, 2512918145616), '/Lang': 'fr-FR', '/K': [2]}",
             "source": "StructElem/Lang"
           }
         },
@@ -134,7 +134,7 @@
           "language": "es-ES",
           "evidence": {
             "pdf_role": "Span",
-            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1464646072464), '/Pg': IndirectObject(1, 0, 1464646072464), '/Lang': 'es-ES', '/K': [3]}",
+            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2512918145616), '/Pg': IndirectObject(1, 0, 2512918145616), '/Lang': 'es-ES', '/K': [3]}",
             "source": "StructElem/Lang"
           }
         },
@@ -143,7 +143,7 @@
           "language": "it-IT",
           "evidence": {
             "pdf_role": "Span",
-            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1464646072464), '/Pg': IndirectObject(1, 0, 1464646072464), '/Lang': 'it-IT', '/K': [4]}",
+            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2512918145616), '/Pg': IndirectObject(1, 0, 2512918145616), '/Lang': 'it-IT', '/K': [4]}",
             "source": "StructElem/Lang"
           }
         }
@@ -247,7 +247,7 @@
           "language": "fr-FR",
           "evidence": {
             "pdf_role": "Span",
-            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1464646072464), '/Pg': IndirectObject(1, 0, 1464646072464), '/Lang': 'fr-FR', '/K': [2]}",
+            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2512918145616), '/Pg': IndirectObject(1, 0, 2512918145616), '/Lang': 'fr-FR', '/K': [2]}",
             "source": "StructElem/Lang"
           }
         },
@@ -256,7 +256,7 @@
           "language": "es-ES",
           "evidence": {
             "pdf_role": "Span",
-            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1464646072464), '/Pg': IndirectObject(1, 0, 1464646072464), '/Lang': 'es-ES', '/K': [3]}",
+            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2512918145616), '/Pg': IndirectObject(1, 0, 2512918145616), '/Lang': 'es-ES', '/K': [3]}",
             "source": "StructElem/Lang"
           }
         },
@@ -265,7 +265,7 @@
           "language": "it-IT",
           "evidence": {
             "pdf_role": "Span",
-            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1464646072464), '/Pg': IndirectObject(1, 0, 1464646072464), '/Lang': 'it-IT', '/K': [4]}",
+            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2512918145616), '/Pg': IndirectObject(1, 0, 2512918145616), '/Lang': 'it-IT', '/K': [4]}",
             "source": "StructElem/Lang"
           }
         }
@@ -276,7 +276,7 @@
           "language": "fr-FR",
           "evidence": {
             "pdf_role": "Span",
-            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1464646072464), '/Pg': IndirectObject(1, 0, 1464646072464), '/Lang': 'fr-FR', '/K': [2]}",
+            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2512918145616), '/Pg': IndirectObject(1, 0, 2512918145616), '/Lang': 'fr-FR', '/K': [2]}",
             "source": "StructElem/Lang"
           }
         },
@@ -285,7 +285,7 @@
           "language": "es-ES",
           "evidence": {
             "pdf_role": "Span",
-            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1464646072464), '/Pg': IndirectObject(1, 0, 1464646072464), '/Lang': 'es-ES', '/K': [3]}",
+            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2512918145616), '/Pg': IndirectObject(1, 0, 2512918145616), '/Lang': 'es-ES', '/K': [3]}",
             "source": "StructElem/Lang"
           }
         },
@@ -294,7 +294,7 @@
           "language": "it-IT",
           "evidence": {
             "pdf_role": "Span",
-            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1464646072464), '/Pg': IndirectObject(1, 0, 1464646072464), '/Lang': 'it-IT', '/K': [4]}",
+            "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2512918145616), '/Pg': IndirectObject(1, 0, 2512918145616), '/Lang': 'it-IT', '/K': [4]}",
             "source": "StructElem/Lang"
           }
         }

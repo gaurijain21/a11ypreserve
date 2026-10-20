@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:20.037620+00:00",
+  "timestamp_utc": "2026-10-20T06:03:09.790323+00:00",
   "fixture_id": "F11_C",
   "feature_family": "footnotes",
   "mutation_operator": "mutated first /Note role",
@@ -35,7 +35,7 @@
         "text": "",
         "evidence": {
           "pdf_role": "Note",
-          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id10', '/P': IndirectObject(9, 0, 1984524374160), '/Pg': IndirectObject(1, 0, 1984524374160), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(11, 0, 1984524374160), IndirectObject(13, 0, 1984524374160)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id10', '/P': IndirectObject(9, 0, 1536165021904), '/Pg': IndirectObject(1, 0, 1536165021904), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(11, 0, 1536165021904), IndirectObject(13, 0, 1536165021904)]}"
         }
       }
     ],
@@ -45,7 +45,7 @@
         "text": "",
         "evidence": {
           "pdf_role": "Note",
-          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id10', '/P': IndirectObject(9, 0, 1984524374160), '/Pg': IndirectObject(1, 0, 1984524374160), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(11, 0, 1984524374160), IndirectObject(13, 0, 1984524374160)]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id10', '/P': IndirectObject(9, 0, 1536165021904), '/Pg': IndirectObject(1, 0, 1536165021904), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(11, 0, 1536165021904), IndirectObject(13, 0, 1536165021904)]}"
         }
       }
     ],
@@ -103,6 +103,8 @@
   "normalized_evidence_sha256_before": "dd436579db14e05944e991d6b92c6a49a588dd24b05c2cd9d236f1005c53bce5",
   "normalized_evidence_sha256_after": "e434f72b379cfdfa38b0cde984ac079330aa988a0b902059644c5d911fd8fc1e",
   "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
   "contracted_semantics_before": {
     "signature_sha256": "a25de12e32ddd586b0f1cb3f4677ba7b5ee73a2cee9debc9a4962dd52c25a224",
     "classification": "MEASUREMENT_ERROR",

@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:15.567676+00:00",
+  "timestamp_utc": "2026-10-20T06:03:00.285304+00:00",
   "fixture_id": "F07_A",
   "feature_family": "decorative_images",
   "mutation_operator": "Artifact role absent",
@@ -38,7 +38,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1984524411856), '/Pg': IndirectObject(1, 0, 1984524411856), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1536146219664), '/Pg': IndirectObject(1, 0, 1536146219664), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       }
     ],
@@ -49,7 +49,7 @@
         "decorative": false,
         "evidence": {
           "pdf_role": "Figure",
-          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1984524411856), '/Pg': IndirectObject(1, 0, 1984524411856), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1536146219664), '/Pg': IndirectObject(1, 0, 1536146219664), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
         }
       }
     ],
@@ -75,6 +75,8 @@
   "normalized_evidence_sha256_before": "4ea0a4fc234c601ab711db28e675c10a67098c6a3601e68666b9cd72def2c42c",
   "normalized_evidence_sha256_after": null,
   "extracted_evidence_changed": false,
+  "evidence_drift_alert": false,
+  "evidence_level_detection": false,
   "contracted_semantics_before": {
     "signature_sha256": "2deab0a9f15bdfe83fdbb8e6c6e56d7da0dcc2c4a8161834c641e4acd3a541fb",
     "classification": "OBSERVED_PARTIAL",

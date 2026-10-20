@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:21.836378+00:00",
+  "timestamp_utc": "2026-10-20T06:03:13.086864+00:00",
   "fixture_id": "F13_A",
   "feature_family": "captions",
   "mutation_operator": "mutated first /Caption role",
@@ -123,6 +123,8 @@
   "normalized_evidence_sha256_before": "75dbe613877c7f088c081ac2a63a36bb510483fc00903d173f32a7bc317ea5e1",
   "normalized_evidence_sha256_after": "a20987f190d2c225304b33d9e00f865cb4b21c463230f2e710d111532a1e3184",
   "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
   "contracted_semantics_before": {
     "signature_sha256": "acfb25530eed4e4412c80c635a6fbd78260646a1593985308c203deb919e3fd5",
     "classification": "VERIFIED_PRESERVED",

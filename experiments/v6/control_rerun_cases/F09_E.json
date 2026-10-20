@@ -1,6 +1,6 @@
 {
   "protocol": "V6 independently rerun unmutated baseline control",
-  "timestamp_utc": "2026-10-20T00:20:03.498181+00:00",
+  "timestamp_utc": "2026-10-20T06:02:35.160488+00:00",
   "fixture_id": "F09_E",
   "feature_family": "document_metadata",
   "role": "holdout",

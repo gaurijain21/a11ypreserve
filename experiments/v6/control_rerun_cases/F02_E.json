@@ -1,6 +1,6 @@
 {
   "protocol": "V6 independently rerun unmutated baseline control",
-  "timestamp_utc": "2026-10-20T00:19:58.598830+00:00",
+  "timestamp_utc": "2026-10-20T06:02:27.247355+00:00",
   "fixture_id": "F02_E",
   "feature_family": "alt_text",
   "role": "holdout",
@@ -152,7 +152,7 @@
           "decorative": false,
           "evidence": {
             "pdf_role": "Figure",
-            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 1464641922896), '/Pg': IndirectObject(1, 0, 1464641922896), '/Alt': 'Alt image 1 - First distinct image.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 2512889583696), '/Pg': IndirectObject(1, 0, 2512889583696), '/Alt': 'Alt image 1 - First distinct image.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
           }
         },
         {
@@ -161,7 +161,7 @@
           "decorative": false,
           "evidence": {
             "pdf_role": "Figure",
-            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 1464641922896), '/Pg': IndirectObject(1, 0, 1464641922896), '/Alt': 'Alt image 2 - Second distinct image with separate values.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 415.55, 360, 523.55]}, '/K': [3]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 2512889583696), '/Pg': IndirectObject(1, 0, 2512889583696), '/Alt': 'Alt image 2 - Second distinct image with separate values.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 415.55, 360, 523.55]}, '/K': [3]}"
           }
         }
       ],
@@ -172,7 +172,7 @@
           "decorative": false,
           "evidence": {
             "pdf_role": "Figure",
-            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 1464641922896), '/Pg': IndirectObject(1, 0, 1464641922896), '/Alt': 'Alt image 1 - First distinct image.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 2512889583696), '/Pg': IndirectObject(1, 0, 2512889583696), '/Alt': 'Alt image 1 - First distinct image.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
           }
         },
         {
@@ -181,7 +181,7 @@
           "decorative": false,
           "evidence": {
             "pdf_role": "Figure",
-            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 1464641922896), '/Pg': IndirectObject(1, 0, 1464641922896), '/Alt': 'Alt image 2 - Second distinct image with separate values.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 415.55, 360, 523.55]}, '/K': [3]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 2512889583696), '/Pg': IndirectObject(1, 0, 2512889583696), '/Alt': 'Alt image 2 - Second distinct image with separate values.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 415.55, 360, 523.55]}, '/K': [3]}"
           }
         }
       ],
@@ -278,7 +278,7 @@
           "decorative": false,
           "evidence": {
             "pdf_role": "Figure",
-            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 1464641922896), '/Pg': IndirectObject(1, 0, 1464641922896), '/Alt': 'Alt image 1 - First distinct image.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 2512889583696), '/Pg': IndirectObject(1, 0, 2512889583696), '/Alt': 'Alt image 1 - First distinct image.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
           }
         },
         {
@@ -287,7 +287,7 @@
           "decorative": false,
           "evidence": {
             "pdf_role": "Figure",
-            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 1464641922896), '/Pg': IndirectObject(1, 0, 1464641922896), '/Alt': 'Alt image 2 - Second distinct image with separate values.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 415.55, 360, 523.55]}, '/K': [3]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 2512889583696), '/Pg': IndirectObject(1, 0, 2512889583696), '/Alt': 'Alt image 2 - Second distinct image with separate values.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 415.55, 360, 523.55]}, '/K': [3]}"
           }
         }
       ],
@@ -298,7 +298,7 @@
           "decorative": false,
           "evidence": {
             "pdf_role": "Figure",
-            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 1464641922896), '/Pg': IndirectObject(1, 0, 1464641922896), '/Alt': 'Alt image 1 - First distinct image.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 2512889583696), '/Pg': IndirectObject(1, 0, 2512889583696), '/Alt': 'Alt image 1 - First distinct image.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
           }
         },
         {
@@ -307,7 +307,7 @@
           "decorative": false,
           "evidence": {
             "pdf_role": "Figure",
-            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 1464641922896), '/Pg': IndirectObject(1, 0, 1464641922896), '/Alt': 'Alt image 2 - Second distinct image with separate values.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 415.55, 360, 523.55]}, '/K': [3]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(10, 0, 2512889583696), '/Pg': IndirectObject(1, 0, 2512889583696), '/Alt': 'Alt image 2 - Second distinct image with separate values.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 415.55, 360, 523.55]}, '/K': [3]}"
           }
         }
       ],

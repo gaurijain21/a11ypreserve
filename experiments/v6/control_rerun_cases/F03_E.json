@@ -1,6 +1,6 @@
 {
   "protocol": "V6 independently rerun unmutated baseline control",
-  "timestamp_utc": "2026-10-20T00:19:59.312795+00:00",
+  "timestamp_utc": "2026-10-20T06:02:28.300852+00:00",
   "fixture_id": "F03_E",
   "feature_family": "lists",
   "role": "holdout",
@@ -137,7 +137,7 @@
           "list_type": "ordered",
           "evidence": {
             "pdf_role": "L",
-            "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/A': {'/O': '/List', '/ListNumbering': '/Decimal'}, '/K': [IndirectObject(7, 0, 1464644535632), IndirectObject(11, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/A': {'/O': '/List', '/ListNumbering': '/Decimal'}, '/K': [IndirectObject(7, 0, 2512917596624), IndirectObject(11, 0, 2512917596624)]}"
           }
         },
         {
@@ -148,7 +148,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LI",
-            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(8, 0, 1464644535632), IndirectObject(9, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(8, 0, 2512917596624), IndirectObject(9, 0, 2512917596624)]}"
           }
         },
         {
@@ -159,7 +159,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "Lbl",
-            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(7, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [1]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(7, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [1]}"
           }
         },
         {
@@ -170,7 +170,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LBody",
-            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(7, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(10, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(7, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(10, 0, 2512917596624)]}"
           }
         },
         {
@@ -181,7 +181,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LI",
-            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(12, 0, 1464644535632), IndirectObject(13, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(12, 0, 2512917596624), IndirectObject(13, 0, 2512917596624)]}"
           }
         },
         {
@@ -192,7 +192,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "Lbl",
-            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(11, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [3]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(11, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [3]}"
           }
         },
         {
@@ -203,7 +203,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LBody",
-            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(11, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(14, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(11, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(14, 0, 2512917596624)]}"
           }
         },
         {
@@ -214,7 +214,7 @@
           "list_type": "unordered",
           "evidence": {
             "pdf_role": "L",
-            "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/A': {'/O': '/List', '/ListNumbering': '/Disc'}, '/K': [IndirectObject(16, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/A': {'/O': '/List', '/ListNumbering': '/Disc'}, '/K': [IndirectObject(16, 0, 2512917596624)]}"
           }
         },
         {
@@ -225,7 +225,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LI",
-            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(15, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(17, 0, 1464644535632), IndirectObject(18, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(15, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(17, 0, 2512917596624), IndirectObject(18, 0, 2512917596624)]}"
           }
         },
         {
@@ -236,7 +236,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "Lbl",
-            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(16, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [5]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(16, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [5]}"
           }
         },
         {
@@ -247,7 +247,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LBody",
-            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(16, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(19, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(16, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(19, 0, 2512917596624)]}"
           }
         }
       ],
@@ -366,7 +366,7 @@
           "list_type": "ordered",
           "evidence": {
             "pdf_role": "L",
-            "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/A': {'/O': '/List', '/ListNumbering': '/Decimal'}, '/K': [IndirectObject(7, 0, 1464644535632), IndirectObject(11, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/A': {'/O': '/List', '/ListNumbering': '/Decimal'}, '/K': [IndirectObject(7, 0, 2512917596624), IndirectObject(11, 0, 2512917596624)]}"
           }
         },
         {
@@ -377,7 +377,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LI",
-            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(8, 0, 1464644535632), IndirectObject(9, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(8, 0, 2512917596624), IndirectObject(9, 0, 2512917596624)]}"
           }
         },
         {
@@ -388,7 +388,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "Lbl",
-            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(7, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [1]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(7, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [1]}"
           }
         },
         {
@@ -399,7 +399,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LBody",
-            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(7, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(10, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(7, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(10, 0, 2512917596624)]}"
           }
         },
         {
@@ -410,7 +410,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LI",
-            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(12, 0, 1464644535632), IndirectObject(13, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(12, 0, 2512917596624), IndirectObject(13, 0, 2512917596624)]}"
           }
         },
         {
@@ -421,7 +421,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "Lbl",
-            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(11, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [3]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(11, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [3]}"
           }
         },
         {
@@ -432,7 +432,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LBody",
-            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(11, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(14, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(11, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(14, 0, 2512917596624)]}"
           }
         },
         {
@@ -443,7 +443,7 @@
           "list_type": "unordered",
           "evidence": {
             "pdf_role": "L",
-            "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/A': {'/O': '/List', '/ListNumbering': '/Disc'}, '/K': [IndirectObject(16, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/A': {'/O': '/List', '/ListNumbering': '/Disc'}, '/K': [IndirectObject(16, 0, 2512917596624)]}"
           }
         },
         {
@@ -454,7 +454,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LI",
-            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(15, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(17, 0, 1464644535632), IndirectObject(18, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(15, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(17, 0, 2512917596624), IndirectObject(18, 0, 2512917596624)]}"
           }
         },
         {
@@ -465,7 +465,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "Lbl",
-            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(16, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [5]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(16, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [5]}"
           }
         },
         {
@@ -476,7 +476,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LBody",
-            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(16, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(19, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(16, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(19, 0, 2512917596624)]}"
           }
         }
       ],
@@ -489,7 +489,7 @@
           "list_type": "ordered",
           "evidence": {
             "pdf_role": "L",
-            "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/A': {'/O': '/List', '/ListNumbering': '/Decimal'}, '/K': [IndirectObject(7, 0, 1464644535632), IndirectObject(11, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/A': {'/O': '/List', '/ListNumbering': '/Decimal'}, '/K': [IndirectObject(7, 0, 2512917596624), IndirectObject(11, 0, 2512917596624)]}"
           }
         },
         {
@@ -500,7 +500,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LI",
-            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(8, 0, 1464644535632), IndirectObject(9, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(8, 0, 2512917596624), IndirectObject(9, 0, 2512917596624)]}"
           }
         },
         {
@@ -511,7 +511,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "Lbl",
-            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(7, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [1]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(7, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [1]}"
           }
         },
         {
@@ -522,7 +522,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LBody",
-            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(7, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(10, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(7, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(10, 0, 2512917596624)]}"
           }
         },
         {
@@ -533,7 +533,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LI",
-            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(12, 0, 1464644535632), IndirectObject(13, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(12, 0, 2512917596624), IndirectObject(13, 0, 2512917596624)]}"
           }
         },
         {
@@ -544,7 +544,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "Lbl",
-            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(11, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [3]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(11, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [3]}"
           }
         },
         {
@@ -555,7 +555,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LBody",
-            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(11, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(14, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(11, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(14, 0, 2512917596624)]}"
           }
         },
         {
@@ -566,7 +566,7 @@
           "list_type": "unordered",
           "evidence": {
             "pdf_role": "L",
-            "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/A': {'/O': '/List', '/ListNumbering': '/Disc'}, '/K': [IndirectObject(16, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/A': {'/O': '/List', '/ListNumbering': '/Disc'}, '/K': [IndirectObject(16, 0, 2512917596624)]}"
           }
         },
         {
@@ -577,7 +577,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LI",
-            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(15, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(17, 0, 1464644535632), IndirectObject(18, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(15, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(17, 0, 2512917596624), IndirectObject(18, 0, 2512917596624)]}"
           }
         },
         {
@@ -588,7 +588,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "Lbl",
-            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(16, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [5]}"
+            "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(16, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [5]}"
           }
         },
         {
@@ -599,7 +599,7 @@
           "list_type": null,
           "evidence": {
             "pdf_role": "LBody",
-            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(16, 0, 1464644535632), '/Pg': IndirectObject(1, 0, 1464644535632), '/K': [IndirectObject(19, 0, 1464644535632)]}"
+            "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(16, 0, 2512917596624), '/Pg': IndirectObject(1, 0, 2512917596624), '/K': [IndirectObject(19, 0, 2512917596624)]}"
           }
         }
       ],

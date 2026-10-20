@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:21.361850+00:00",
+  "timestamp_utc": "2026-10-20T06:03:12.278522+00:00",
   "fixture_id": "F12_D",
   "feature_family": "equations",
   "mutation_operator": "mutated first /Formula role",
@@ -40,7 +40,7 @@
         "representation": "PDF /Formula",
         "evidence": {
           "pdf_role": "Formula",
-          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1984526547792), '/Pg': IndirectObject(1, 0, 1984526547792), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.662, '/Height': 0.267, '/BBox': [289.45, 654.9, 322.55, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1536145290576), '/Pg': IndirectObject(1, 0, 1536145290576), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.662, '/Height': 0.267, '/BBox': [289.45, 654.9, 322.55, 668.25]}, '/K': [1]}"
         }
       }
     ],
@@ -50,7 +50,7 @@
         "representation": "PDF /Formula",
         "evidence": {
           "pdf_role": "Formula",
-          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1984526547792), '/Pg': IndirectObject(1, 0, 1984526547792), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.662, '/Height': 0.267, '/BBox': [289.45, 654.9, 322.55, 668.25]}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1536145290576), '/Pg': IndirectObject(1, 0, 1536145290576), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.662, '/Height': 0.267, '/BBox': [289.45, 654.9, 322.55, 668.25]}, '/K': [1]}"
         }
       }
     ],
@@ -113,6 +113,8 @@
   "normalized_evidence_sha256_before": "b6ae9e565b028c91a72c4eeae4e01cff3f4068db0452702b59bda6d0a4d64381",
   "normalized_evidence_sha256_after": "0906b59a690061b06d0b78ee3936d27cd1992f24aadbdabaa66f2dc06170b3dd",
   "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
   "contracted_semantics_before": {
     "signature_sha256": "7c72a4e22c7793f1f263e0a39e24bd72a9c38b5f7b97410da11e8737539b9689",
     "classification": "VERIFIED_PRESERVED",

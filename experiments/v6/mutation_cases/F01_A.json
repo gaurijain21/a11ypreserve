@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:09.370550+00:00",
+  "timestamp_utc": "2026-10-20T06:02:44.688270+00:00",
   "fixture_id": "F01_A",
   "feature_family": "headings",
   "mutation_operator": "mutated first /H1 role",
@@ -44,7 +44,7 @@
         "level": 1,
         "evidence": {
           "pdf_role": "H1",
-          "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(4, 0, 1984524407504), '/Pg': IndirectObject(1, 0, 1984524407504), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.48}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(4, 0, 1536146766672), '/Pg': IndirectObject(1, 0, 1536146766672), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.48}, '/K': [1]}"
         }
       },
       {
@@ -52,7 +52,7 @@
         "level": 2,
         "evidence": {
           "pdf_role": "H2",
-          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 1984524407504), '/Pg': IndirectObject(1, 0, 1984524407504), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.251}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 1536146766672), '/Pg': IndirectObject(1, 0, 1536146766672), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.251}, '/K': [2]}"
         }
       }
     ],
@@ -62,7 +62,7 @@
         "level": 1,
         "evidence": {
           "pdf_role": "H1",
-          "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(4, 0, 1984524407504), '/Pg': IndirectObject(1, 0, 1984524407504), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.48}, '/K': [1]}"
+          "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(4, 0, 1536146766672), '/Pg': IndirectObject(1, 0, 1536146766672), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.48}, '/K': [1]}"
         }
       },
       {
@@ -70,7 +70,7 @@
         "level": 2,
         "evidence": {
           "pdf_role": "H2",
-          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 1984524407504), '/Pg': IndirectObject(1, 0, 1984524407504), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.251}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 1536146766672), '/Pg': IndirectObject(1, 0, 1536146766672), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.251}, '/K': [2]}"
         }
       }
     ],
@@ -134,7 +134,7 @@
         "level": 2,
         "evidence": {
           "pdf_role": "H2",
-          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(25, 0, 1984525959952), '/Pg': IndirectObject(17, 0, 1984525959952), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.251}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(25, 0, 1536144132112), '/Pg': IndirectObject(17, 0, 1536144132112), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.251}, '/K': [2]}"
         }
       }
     ],
@@ -144,7 +144,7 @@
         "level": 2,
         "evidence": {
           "pdf_role": "H2",
-          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(25, 0, 1984525959952), '/Pg': IndirectObject(17, 0, 1984525959952), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.251}, '/K': [2]}"
+          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(25, 0, 1536144132112), '/Pg': IndirectObject(17, 0, 1536144132112), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.251}, '/K': [2]}"
         }
       }
     ],
@@ -181,6 +181,8 @@
   "normalized_evidence_sha256_before": "ced56c6a7cb10e3ebfc5afefed6a754ccc9c31bd41fe2c3176bf450cf11cf4f7",
   "normalized_evidence_sha256_after": "7fc53591b6a3779f9c50743568319484eb7718dc0451d72201358955976c5fd5",
   "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
   "contracted_semantics_before": {
     "signature_sha256": "6a88015778f98ae611ed66ecc313b16b0506ebc1b55080fb5cf390ffb8a8b0e2",
     "classification": "VERIFIED_PRESERVED",

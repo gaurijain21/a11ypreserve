@@ -1,6 +1,6 @@
 {
   "protocol": "V6 destination mutation sensitivity",
-  "timestamp_utc": "2026-10-20T00:20:17.156486+00:00",
+  "timestamp_utc": "2026-10-20T06:03:03.752381+00:00",
   "fixture_id": "F09_A",
   "feature_family": "document_metadata",
   "mutation_operator": "changed document title",
@@ -65,6 +65,8 @@
   "normalized_evidence_sha256_before": "8720419c18807785aed209043f10e1a86e0407869f72b176f532b2039c6f6a4d",
   "normalized_evidence_sha256_after": "cd4068b2f3ce57862505cca8215a97f460cb37d77ec59d37cc73d1845d47b7ff",
   "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
   "contracted_semantics_before": {
     "signature_sha256": "304009903d2d01295d463e1948adab3322bac269e1b81fb334d6a3e2b1006af7",
     "classification": "VERIFIED_PRESERVED",
