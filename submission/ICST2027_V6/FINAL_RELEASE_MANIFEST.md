@@ -12,8 +12,8 @@ upload.
 |---|---|---|
 | Canonical manuscript | `submission/ICST2027_V6/main.pdf` | `99880229FD6230D49890299AA77B02DA9B9C4E4ADC2E64B79CEE2A4C864BE321` |
 | Manuscript format | canonical PDF | 10 pages; US letter; IEEE two-column |
-| Anonymous upload candidate | `submission/ICST2027_V6/ICST2027_V6_anonymous_upload.zip` | `83973E28638F49696F065F7826DC3A3403686EA8481FA07BA0AAC13B8640866C` |
-| Archive payload | nested `replication_package.zip` | `0EA244E1BDB6266CB016A831870B64024CBCA16609C232C631007829E8059244` |
+| Anonymous upload candidate | `submission/ICST2027_V6/ICST2027_V6_anonymous_upload.zip` | `F2CDAC843FEDF9AC23EB788C84A4647D9955147216B604F61CD5E5F61650B9E5` |
+| Archive payload | nested `replication_package.zip` | `EFF9552667FB4719A838E745E03D1767650867CA91A416347A2846E243E7F8EF` |
 | Archive file count | nested replication package | 1,725 files |
 
 ## Technical validation
@@ -41,7 +41,7 @@ jobname build `v8_final.pdf`; the updated build provenance is recorded
 in `experiments/v6/V6_PDF_BUILD_PROVENANCE.json`.
 
 Scientific implementation and package commits: `c7dbe3430cab9dafc757bce01cd0a865d1d0ac21`,
-`9b0d980`, `506c2a3`, and the local release commit recorded below.
+`9b0d980`, `506c2a3`, and local release commit `ed42484`.
 The refreshed bundle was generated from the validated source state using
 disposable external staging; its outer ZIP and nested package hashes above were
 independently verified.
