@@ -41,6 +41,7 @@ jobname build `v7_adversarial.pdf`; the updated build provenance is recorded
 in `experiments/v6/V6_PDF_BUILD_PROVENANCE.json`.
 
 Scientific implementation and package commit: `c7dbe3430cab9dafc757bce01cd0a865d1d0ac21`.
+Final manifest follow-up commit: `5b86a47` (this document's prior recorded state).
 The refreshed bundle was generated from the validated source state using
 disposable external staging; its outer ZIP and nested package hashes above were
 independently verified.
@@ -55,7 +56,7 @@ conference submission receipt.
 - Author identity, authorship order, conflicts, originality, licensing, rights,
   AI-disclosure approval, and HotCRP metadata: **REQUIRES AUTHOR CONFIRMATION**.
 - Submission/upload: **NOT PERFORMED**.
-- Push to remote: **PENDING authorized GitHub update**.
+- Push to remote: **PASS: pushed to `origin/main` through `5b86a47`**.
 
 ## Known limitations
 
