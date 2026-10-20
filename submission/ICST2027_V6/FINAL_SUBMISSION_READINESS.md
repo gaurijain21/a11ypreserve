@@ -3,8 +3,9 @@
 ## Verdict
 
 **READY FOR AUTHOR SIGN-OFF.** The current technical candidate remains
-**GO WITH LIMITATIONS** scientifically. It is not approved for HotCRP upload,
-and no upload or remote push was performed.
+**GO WITH LIMITATIONS** scientifically. It is not approved for HotCRP upload.
+The verified release commits were pushed to the configured GitHub origin; no
+conference upload or submission was performed.
 
 ## Completed technical work
 
