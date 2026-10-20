@@ -12,8 +12,8 @@ upload.
 |---|---|---|
 | Canonical manuscript | `submission/ICST2027_V6/main.pdf` | `020F15E7A2612DBABD4CB6322A7BB80DEEA7F02C27984A92057A26DB069322B0` |
 | Manuscript format | canonical PDF | 10 pages; US letter; IEEE two-column |
-| Anonymous upload candidate | `submission/ICST2027_V6/ICST2027_V6_anonymous_upload.zip` | `30B4D18525AC230F9A0BA0CE09E7CB2304448A7F7F91CB4DB5A8A26BE33180E6` |
-| Archive payload | nested `replication_package.zip` | `076161B9123459AE76DE9602BFD91AB627FBCF9B7967878183D3B847D9E7479A` |
+| Anonymous upload candidate | `submission/ICST2027_V6/ICST2027_V6_anonymous_upload.zip` | `17F8FF04277F8F75863A594E697DA93FA15FDC6536CB6A5252F78869E1267BC6` |
+| Archive payload | nested `replication_package.zip` | `931E4F9BC75DCD64B71F6FC421ABC84EEE76FA6705E10925907C974918F500C0` |
 | Archive file count | nested replication package | 1,542 files |
 
 ## Technical validation
@@ -40,13 +40,13 @@ The canonical PDF is byte- and text-identical to the verified alternate-
 jobname build `v7_adversarial.pdf`; the updated build provenance is recorded
 in `experiments/v6/V6_PDF_BUILD_PROVENANCE.json`.
 
-Scientific implementation and package commits: pending final local release
-commit; this manifest will be updated with the exact commit after validation.
+Scientific implementation and package commit: `c7dbe3430cab9dafc757bce01cd0a865d1d0ac21`.
 The refreshed bundle was generated from the validated source state using
 disposable external staging; its outer ZIP and nested package hashes above were
 independently verified.
-No new release commit or push has been made for this additive audit at the time
-of this manifest update. This is not a conference submission receipt.
+The final manifest is a small follow-up to the release commit and records the
+exact hashes produced from that committed source state. This is not a
+conference submission receipt.
 
 ## Scientific and compliance status
 
@@ -55,7 +55,7 @@ of this manifest update. This is not a conference submission receipt.
 - Author identity, authorship order, conflicts, originality, licensing, rights,
   AI-disclosure approval, and HotCRP metadata: **REQUIRES AUTHOR CONFIRMATION**.
 - Submission/upload: **NOT PERFORMED**.
-- Push to remote: **PENDING final local release commit and authorized GitHub update**.
+- Push to remote: **PENDING authorized GitHub update**.
 
 ## Known limitations
 
