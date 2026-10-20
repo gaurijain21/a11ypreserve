@@ -41,8 +41,7 @@ jobname build `v6_objection_audit.pdf`; the updated build provenance is recorded
 in `experiments/v6/V6_PDF_BUILD_PROVENANCE.json`.
 
 Scientific implementation commit: `9ac26de73270dd05be636478d9f0e60ab4525165`.
-Final bundle/provenance commit: pending the local follow-up that records the
-clean-commit archive refresh.
+Final bundle/provenance commit: `d65f06b` (clean-commit archive refresh).
 The refreshed bundle was generated from the validated source state using
 disposable external staging; its outer ZIP and nested package hashes above were
 independently verified.
