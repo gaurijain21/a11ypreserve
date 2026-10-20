@@ -41,7 +41,8 @@ jobname build `v8_final.pdf`; the updated build provenance is recorded
 in `experiments/v6/V6_PDF_BUILD_PROVENANCE.json`.
 
 Scientific implementation and package commits: `c7dbe3430cab9dafc757bce01cd0a865d1d0ac21`,
-`9b0d980`, `506c2a3`, and local release commit `ed42484`.
+`9b0d980`, `506c2a3`, local release commit `ed42484`, and final manifest
+follow-up `da0af19`.
 The refreshed bundle was generated from the validated source state using
 disposable external staging; its outer ZIP and nested package hashes above were
 independently verified.
