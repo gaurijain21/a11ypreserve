@@ -31,6 +31,7 @@ upload.
 | Anonymity audit | PASS pending human archive/HotCRP inspection | `FINAL_ANONYMITY_AUDIT.md` |
 | PDF visual QA | PASS | nine rendered pages under `.pdf-qa/release-final/` |
 | Fresh source compilation | PASS under elevated MiKTeX access | `v6_final_audit.log`; 9 pages and no unresolved citation/reference diagnostics after BibTeX and three pdfTeX passes |
+| Post-commit clean-checkout rearchive | BLOCKED by temporary disk exhaustion; committed archive restored and independently verified | C: had 5.4 MB free during the failed optional refresh; current archive is the committed 1,130-file candidate |
 | Repository safety and diff checks | PASS at audit time | `scripts/audit_repository_safety.py`; `git diff --check` |
 
 ## Provenance and commit
