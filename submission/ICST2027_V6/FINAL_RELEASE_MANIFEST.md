@@ -12,8 +12,8 @@ upload.
 |---|---|---|
 | Canonical manuscript | `submission/ICST2027_V6/main.pdf` | `020F15E7A2612DBABD4CB6322A7BB80DEEA7F02C27984A92057A26DB069322B0` |
 | Manuscript format | canonical PDF | 10 pages; US letter; IEEE two-column |
-| Anonymous upload candidate | `submission/ICST2027_V6/ICST2027_V6_anonymous_upload.zip` | `17F8FF04277F8F75863A594E697DA93FA15FDC6536CB6A5252F78869E1267BC6` |
-| Archive payload | nested `replication_package.zip` | `931E4F9BC75DCD64B71F6FC421ABC84EEE76FA6705E10925907C974918F500C0` |
+| Anonymous upload candidate | `submission/ICST2027_V6/ICST2027_V6_anonymous_upload.zip` | `BEB6B6DF8B0870878B153111FB13F44C376EA6776A20004C5806FA3236082275` |
+| Archive payload | nested `replication_package.zip` | `B0635424F4759344F9E67423C506481760E5293326D60F48BD032DD446D5E75B` |
 | Archive file count | nested replication package | 1,542 files |
 
 ## Technical validation
@@ -40,8 +40,8 @@ The canonical PDF is byte- and text-identical to the verified alternate-
 jobname build `v7_adversarial.pdf`; the updated build provenance is recorded
 in `experiments/v6/V6_PDF_BUILD_PROVENANCE.json`.
 
-Scientific implementation and package commit: `c7dbe3430cab9dafc757bce01cd0a865d1d0ac21`.
-Final manifest follow-up commit: `5b86a47` (this document's prior recorded state).
+Scientific implementation and package commits: `c7dbe3430cab9dafc757bce01cd0a865d1d0ac21`,
+`9b0d980`, and `506c2a3`. Final manifest follow-ups are recorded in Git history.
 The refreshed bundle was generated from the validated source state using
 disposable external staging; its outer ZIP and nested package hashes above were
 independently verified.
