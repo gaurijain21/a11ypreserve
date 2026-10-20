@@ -45,8 +45,9 @@ Final bundle/provenance commit: `dd7cf70` (refreshed archive commit).
 The refreshed bundle was generated from the validated source state using
 disposable external staging; its outer ZIP and nested package hashes above were
 independently verified.
-No remote push has been authorized or performed, and this is not a submission
-receipt.
+The verified release commits were pushed to the configured GitHub origin
+`https://github.com/gaurijain21/a11ypreserve.git` on the `main` branch. This is
+not a conference submission receipt.
 
 ## Scientific and compliance status
 
@@ -55,7 +56,7 @@ receipt.
 - Author identity, authorship order, conflicts, originality, licensing, rights,
   AI-disclosure approval, and HotCRP metadata: **REQUIRES AUTHOR CONFIRMATION**.
 - Submission/upload: **NOT PERFORMED**.
-- Push to remote: **PENDING EXPLICIT GITHUB UPDATE**.
+- Push to remote: **PASS: pushed to origin/main at `9015cac`**.
 
 ## Known limitations
 
