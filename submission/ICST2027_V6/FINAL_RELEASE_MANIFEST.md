@@ -57,7 +57,7 @@ conference submission receipt.
 - Author identity, authorship order, conflicts, originality, licensing, rights,
   AI-disclosure approval, and HotCRP metadata: **REQUIRES AUTHOR CONFIRMATION**.
 - Submission/upload: **NOT PERFORMED**.
-- Push to remote: **NOT PERFORMED in this release cycle**.
+- Push to remote: **PASS: pushed to `origin/main` through `f1fb601`**; no conference upload or submission.
 
 ## Known limitations
 
