@@ -12,8 +12,8 @@ upload.
 |---|---|---|
 | Canonical manuscript | `submission/ICST2027_V6/main.pdf` | `D929515580CA814C9B0D9A4BE1906EAE58108651A4982BE3CE6011C456EF5617` |
 | Manuscript format | canonical PDF | 9 pages; US letter; IEEE two-column |
-| Anonymous upload candidate | `submission/ICST2027_V6/ICST2027_V6_anonymous_upload.zip` | `E3ECCA857D1B56B4099D86E4EDD8C05108D7DC1580B84C83AC3BA8C5CD5A2C7D` |
-| Archive payload | nested `replication_package.zip` | `7F798A13EBFF42E32AA0C370264704A94FADE4B2407CB0F9D6DA14CCF604A00C` |
+| Anonymous upload candidate | `submission/ICST2027_V6/ICST2027_V6_anonymous_upload.zip` | `4BF159200B60989CE1759805AD105703039A7B75CC6C664B448BCE46A88FCA92` |
+| Archive payload | nested `replication_package.zip` | `6AD66D7F84569C545E01D5733D9A8967726F0A961D054E7AE19D2D6418399221` |
 | Archive file count | nested replication package | 1,136 files |
 
 ## Technical validation
@@ -40,8 +40,9 @@ The canonical PDF is byte- and text-identical to the verified alternate-
 jobname build `v6_objection_audit.pdf`; the updated build provenance is recorded
 in `experiments/v6/V6_PDF_BUILD_PROVENANCE.json`.
 
-Scientific implementation commit: `9ac26de73270dd05be636478d9f0e60ab4525165`.
-Final bundle/provenance commit: `d65f06b` (clean-commit archive refresh).
+Scientific implementation commit: `9b8834e5fc710ea2ba1713dd1566e39ff7df3059`.
+Final bundle/provenance commit: pending the local follow-up that records the
+clean-commit archive refresh.
 The refreshed bundle was generated from the validated source state using
 disposable external staging; its outer ZIP and nested package hashes above were
 independently verified.
