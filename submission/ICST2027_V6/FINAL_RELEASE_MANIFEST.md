@@ -40,6 +40,7 @@ jobname build recorded in `experiments/v6/V6_PDF_BUILD_PROVENANCE.json`.
 
 Scientific implementation commit: `629996f8ea76175c0b067a01e029d8ec87bd1e89`.
 Final package/provenance commit: `04c408a8548c9fa90c0cdd3a8d671709642b4628`.
+Final artifact/checksum commit: `c6d59b5`.
 The post-commit bundle was generated from the final package/provenance commit;
 the checksum update in this manifest is a documentation/artifact follow-up.
 No remote push has been authorized or performed, and this is not a submission
