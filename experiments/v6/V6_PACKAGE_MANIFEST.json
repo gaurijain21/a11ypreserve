@@ -28,8 +28,8 @@
     },
     {
       "path": "scripts/record_v6_build_provenance.py",
-      "size_bytes": 8055,
-      "sha256": "fa6ceec43b6a0cff231202517d30ce6d771f6b13bd4d1bc7d41afe5264cc8e0e"
+      "size_bytes": 8415,
+      "sha256": "b9e7e1e5824ebf556160b3b866a50cebb3a8f8f0dd1a6901eebf24ad7c2b8fa4"
     },
     {
       "path": "scripts/audit_v6_manuscript_consistency.py",
