@@ -1,0 +1,291 @@
+{
+  "fixture_id": "F04_C",
+  "feature_family": "basic_tables",
+  "source_path": "experiments/v4/fixtures/F04_C.docx",
+  "source_sha256": "d07ba7d1c3c9bb9ddb32d4e3f3c3a2500554efc6265f33e8feb6474a8b0e84fb",
+  "baseline_pdf_sha256": "43d05b7777dbd443c10d23b824e1bc321ddd3e6df8969687fbeab8752640d05e",
+  "mutated_pdf_sha256": "46ac7f3dd31a416ac2121d1d9be8ef95a06e0d4e6064a07c7513854b8d56887c",
+  "mutation_applied": true,
+  "operator": "mutated first /TH role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "source-grounded //TH contract role count decreased",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 basic table 3",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Table": 1,
+      "/TR": 4,
+      "/TH": 2,
+      "/Standard": 8,
+      "/TD": 6
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Table",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TR",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TH",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TH",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TR",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TD",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TD",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TR",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TD",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TD",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TR",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TD",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TD",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 basic table 3",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Table": 1,
+      "/TR": 4,
+      "/TD": 7,
+      "/Standard": 8,
+      "/TH": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Table",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TR",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TD",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TH",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TR",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TD",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TD",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TR",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TD",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TD",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TR",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TD",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/TD",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "detector_classification_changed": true,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "CLASSIFICATION_DETECTED"
+}

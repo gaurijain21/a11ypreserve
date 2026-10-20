@@ -1,0 +1,279 @@
+{
+  "protocol": "V8 fixture coverage audit",
+  "timestamp_utc": "2026-10-20T18:09:08.873390+00:00",
+  "families": {
+    "alt_text": {
+      "variants": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "fixture_count": 5,
+      "mutation_attempts": 5,
+      "applied": 5,
+      "valid_applied": 5,
+      "classification_detections": 5,
+      "evidence_alerts": 5,
+      "outcome_statuses": {
+        "CLASSIFICATION_DETECTED": 5
+      }
+    },
+    "basic_tables": {
+      "variants": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "fixture_count": 5,
+      "mutation_attempts": 5,
+      "applied": 5,
+      "valid_applied": 5,
+      "classification_detections": 5,
+      "evidence_alerts": 5,
+      "outcome_statuses": {
+        "CLASSIFICATION_DETECTED": 5
+      }
+    },
+    "captions": {
+      "variants": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "fixture_count": 5,
+      "mutation_attempts": 5,
+      "applied": 5,
+      "valid_applied": 5,
+      "classification_detections": 2,
+      "evidence_alerts": 5,
+      "outcome_statuses": {
+        "CLASSIFICATION_DETECTED": 2,
+        "UNCHANGED_CLASSIFICATION": 3
+      }
+    },
+    "complex_tables": {
+      "variants": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "fixture_count": 5,
+      "mutation_attempts": 5,
+      "applied": 5,
+      "valid_applied": 5,
+      "classification_detections": 2,
+      "evidence_alerts": 5,
+      "outcome_statuses": {
+        "SEMANTICALLY_MEANINGFUL_SURVIVAL": 3,
+        "CLASSIFICATION_DETECTED": 2
+      }
+    },
+    "decorative_images": {
+      "variants": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "fixture_count": 5,
+      "mutation_attempts": 5,
+      "applied": 0,
+      "valid_applied": 0,
+      "classification_detections": 0,
+      "evidence_alerts": 0,
+      "outcome_statuses": {
+        "UNSUPPORTED": 5
+      }
+    },
+    "document_language": {
+      "variants": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "fixture_count": 5,
+      "mutation_attempts": 5,
+      "applied": 5,
+      "valid_applied": 5,
+      "classification_detections": 5,
+      "evidence_alerts": 5,
+      "outcome_statuses": {
+        "CLASSIFICATION_DETECTED": 5
+      }
+    },
+    "document_metadata": {
+      "variants": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "fixture_count": 5,
+      "mutation_attempts": 5,
+      "applied": 5,
+      "valid_applied": 5,
+      "classification_detections": 5,
+      "evidence_alerts": 5,
+      "outcome_statuses": {
+        "CLASSIFICATION_DETECTED": 5
+      }
+    },
+    "equations": {
+      "variants": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "fixture_count": 5,
+      "mutation_attempts": 5,
+      "applied": 5,
+      "valid_applied": 5,
+      "classification_detections": 4,
+      "evidence_alerts": 5,
+      "outcome_statuses": {
+        "CLASSIFICATION_DETECTED": 4,
+        "SEMANTICALLY_MEANINGFUL_SURVIVAL": 1
+      }
+    },
+    "footnotes": {
+      "variants": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "fixture_count": 5,
+      "mutation_attempts": 5,
+      "applied": 5,
+      "valid_applied": 5,
+      "classification_detections": 3,
+      "evidence_alerts": 5,
+      "outcome_statuses": {
+        "CLASSIFICATION_DETECTED": 3,
+        "SEMANTICALLY_MEANINGFUL_SURVIVAL": 2
+      }
+    },
+    "headings": {
+      "variants": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "fixture_count": 5,
+      "mutation_attempts": 5,
+      "applied": 5,
+      "valid_applied": 5,
+      "classification_detections": 5,
+      "evidence_alerts": 5,
+      "outcome_statuses": {
+        "CLASSIFICATION_DETECTED": 5
+      }
+    },
+    "hyperlinks": {
+      "variants": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "fixture_count": 5,
+      "mutation_attempts": 5,
+      "applied": 4,
+      "valid_applied": 4,
+      "classification_detections": 2,
+      "evidence_alerts": 4,
+      "outcome_statuses": {
+        "CLASSIFICATION_DETECTED": 2,
+        "SEMANTICALLY_MEANINGFUL_SURVIVAL": 2,
+        "UNSUPPORTED": 1
+      }
+    },
+    "inline_language": {
+      "variants": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "fixture_count": 5,
+      "mutation_attempts": 5,
+      "applied": 5,
+      "valid_applied": 5,
+      "classification_detections": 5,
+      "evidence_alerts": 5,
+      "outcome_statuses": {
+        "CLASSIFICATION_DETECTED": 5
+      }
+    },
+    "lists": {
+      "variants": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "fixture_count": 5,
+      "mutation_attempts": 5,
+      "applied": 5,
+      "valid_applied": 5,
+      "classification_detections": 3,
+      "evidence_alerts": 5,
+      "outcome_statuses": {
+        "CLASSIFICATION_DETECTED": 3,
+        "SEMANTICALLY_MEANINGFUL_SURVIVAL": 2
+      }
+    }
+  },
+  "family_count": 13,
+  "atomic_fixture_count": 65,
+  "primary_observations": 130,
+  "primary_family_pipeline_counts": {
+    "alt_text::Google Docs": 5,
+    "alt_text::LibreOffice": 5,
+    "basic_tables::Google Docs": 5,
+    "basic_tables::LibreOffice": 5,
+    "captions::Google Docs": 5,
+    "captions::LibreOffice": 5,
+    "complex_tables::Google Docs": 5,
+    "complex_tables::LibreOffice": 5,
+    "decorative_images::Google Docs": 5,
+    "decorative_images::LibreOffice": 5,
+    "document_language::Google Docs": 5,
+    "document_language::LibreOffice": 5,
+    "document_metadata::Google Docs": 5,
+    "document_metadata::LibreOffice": 5,
+    "equations::Google Docs": 5,
+    "equations::LibreOffice": 5,
+    "footnotes::Google Docs": 5,
+    "footnotes::LibreOffice": 5,
+    "headings::Google Docs": 5,
+    "headings::LibreOffice": 5,
+    "hyperlinks::Google Docs": 5,
+    "hyperlinks::LibreOffice": 5,
+    "inline_language::Google Docs": 5,
+    "inline_language::LibreOffice": 5,
+    "lists::Google Docs": 5,
+    "lists::LibreOffice": 5
+  },
+  "interpretation": "The five variants are correlated within each family and are not independent draws. This is a design-coverage audit, not a population-representativeness claim."
+}

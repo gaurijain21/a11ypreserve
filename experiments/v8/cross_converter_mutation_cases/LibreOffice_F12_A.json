@@ -1,0 +1,17 @@
+{
+  "pipeline": "LibreOffice",
+  "fixture_id": "F12_A",
+  "feature_family": "equations",
+  "source_path": "experiments/v4/fixtures/F12_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F12_A__LIBREOFFICE.pdf",
+  "source_sha256": "9659ca62c193cd4dafe67daa48d4846970a254ed95ea244c7b097dc0365db819",
+  "baseline_pdf_sha256": "2381974bae6a10ab45cdde1bbff5ca1a41d575f58251fd1781956b2e01a3b34c",
+  "mutated_pdf_sha256": "6cc722123bea48952a08d332ced1bc826103609445d85df1389dbfeccd95b7d7",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "operator": "changed first /Formula role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "comparator_classification_changed": true,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

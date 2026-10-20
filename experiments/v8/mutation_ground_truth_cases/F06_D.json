@@ -1,0 +1,122 @@
+{
+  "fixture_id": "F06_D",
+  "feature_family": "inline_language",
+  "source_path": "experiments/v4/fixtures/F06_D.docx",
+  "source_sha256": "1fcc333be3c6142fd16c2ceaa62fc2be4c4b57d2f16f36939e87b008f10095c6",
+  "baseline_pdf_sha256": "15f660be771be5570a8bfbcbd37243bfbb52e1d4a77a96cfce696707b442a438",
+  "mutated_pdf_sha256": "fb46f59cf3a2aa362d5d3d501266f478ce6f967c9bdfd2ead5b2a31980a773ea",
+  "mutation_applied": true,
+  "operator": "removed first inline StructElem /Lang",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "a source-declared language span lost a structural /Lang value",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 inline language 4",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 1,
+      "/Span": 3
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Span",
+        "alt": null,
+        "lang": "fr-FR"
+      },
+      {
+        "role": "/Span",
+        "alt": null,
+        "lang": "es-ES"
+      },
+      {
+        "role": "/Span",
+        "alt": null,
+        "lang": "it-IT"
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [
+      "fr-FR",
+      "es-ES",
+      "it-IT"
+    ],
+    "artifacts": 0,
+    "links": []
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 inline language 4",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 1,
+      "/Span": 3
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Span",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Span",
+        "alt": null,
+        "lang": "es-ES"
+      },
+      {
+        "role": "/Span",
+        "alt": null,
+        "lang": "it-IT"
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [
+      "es-ES",
+      "it-IT"
+    ],
+    "artifacts": 0,
+    "links": []
+  },
+  "detector_classification_changed": true,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "CLASSIFICATION_DETECTED"
+}

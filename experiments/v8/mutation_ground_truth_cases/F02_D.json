@@ -1,0 +1,107 @@
+{
+  "fixture_id": "F02_D",
+  "feature_family": "alt_text",
+  "source_path": "experiments/v4/fixtures/F02_D.docx",
+  "source_sha256": "79b212c7afdd5ba5ff27e9d9bb22d05c5c8aec0c04554501c6788e943a078ab8",
+  "baseline_pdf_sha256": "90eaae309310f39079160fff20f30aaab722d2ca5f3ff52bf83efe301052ef97",
+  "mutated_pdf_sha256": "27d509a546e4de38fcf602d9408043ed08f12e44d317bd82b8675494b54b94e2",
+  "mutation_applied": true,
+  "operator": "removed first Figure /Alt",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "a source-declared figure lost non-empty alternative text",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 alt text 4",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 2,
+      "/Figure": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": "Alt image 1 - Descripción de la imagen: café, niño y acción.",
+        "lang": null
+      }
+    ],
+    "figure_alts": [
+      "Alt image 1 - Descripción de la imagen: café, niño y acción."
+    ],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 alt text 4",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 2,
+      "/Figure": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "detector_classification_changed": true,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "CLASSIFICATION_DETECTED"
+}

@@ -1,0 +1,17 @@
+{
+  "pipeline": "LibreOffice",
+  "fixture_id": "F02_A",
+  "feature_family": "alt_text",
+  "source_path": "experiments/v4/fixtures/F02_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F02_A__LIBREOFFICE.pdf",
+  "source_sha256": "ae64b91085158916d5a5be11987cb3fbfabc0501c57acdbbf23fffcd769fde80",
+  "baseline_pdf_sha256": "8f14168d37a484a79ecfa2c7d6a7d69a76e0fdfad5237caa3ff1bb8b5a04c4f1",
+  "mutated_pdf_sha256": "d03dd6b2655e1eb0bc7b79896a0bf2ce75d04bd36b2ffcc01998e23bbdced829",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "operator": "removed first Figure /Alt",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "comparator_classification_changed": true,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

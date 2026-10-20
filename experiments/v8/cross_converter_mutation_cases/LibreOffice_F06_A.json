@@ -1,0 +1,17 @@
+{
+  "pipeline": "LibreOffice",
+  "fixture_id": "F06_A",
+  "feature_family": "inline_language",
+  "source_path": "experiments/v4/fixtures/F06_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F06_A__LIBREOFFICE.pdf",
+  "source_sha256": "f3aab26f438ef5e524606d05411c36527e5f59860c5d045b417324e7597598ca",
+  "baseline_pdf_sha256": "d40e1b5cd25704cb293a50a94431d64e5f7433af2c8d662fafbaeb29235be1c3",
+  "mutated_pdf_sha256": "4f2288e6031427c23030cff4033654f04e7c5ed8f84a2c7a04c01949252364ba",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "operator": "removed first structural /Lang",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "comparator_classification_changed": true,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

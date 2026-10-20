@@ -1,0 +1,17 @@
+{
+  "pipeline": "Microsoft Word desktop",
+  "fixture_id": "F13_A",
+  "feature_family": "captions",
+  "source_path": "experiments/v4/fixtures/F13_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/word/outputs/atomic/F13_A__WORD_DESKTOP.pdf",
+  "source_sha256": "226d2d57d81be5a4e1f43a09c3d6db81541d91574851554e52d5f38290059541",
+  "baseline_pdf_sha256": "99d0ce4b5bdef1a6a69d3174ddada4cf00d7f97ea69f7de0a7e682e5c3514486",
+  "mutated_pdf_sha256": "0ac2296e0cbb4ea3a5aafabbd31204e5df69fe73ce9804e644fd38a7e927bf53",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "operator": "changed first /Caption role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "comparator_classification_changed": true,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

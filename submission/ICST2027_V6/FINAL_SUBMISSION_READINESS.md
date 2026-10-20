@@ -4,8 +4,8 @@
 
 **READY FOR AUTHOR SIGN-OFF.** The current technical candidate remains
 **GO WITH LIMITATIONS** scientifically. It is not approved for HotCRP upload.
-The verified release commits were pushed to the configured GitHub origin; no
-conference upload or submission was performed.
+No conference upload or submission was performed; the local release commit is
+the only release action authorized here.
 
 ## Completed technical work
 
@@ -14,8 +14,10 @@ conference upload or submission was performed.
 - Rechecked V5 historical reproduction without changing frozen evidence.
 - Verified all 65 genuine V6 control reruns.
 - Verified 65 mutation attempts, 59 valid applied mutants, 46 coarse detections,
-  10 meaningful survivors, and 6 unsupported attempts; the additive evidence-
-  drift layer flags 59/59 valid mutants without rewriting the coarse result.
+  10 historical meaningful survivors, and 6 unsupported attempts; an
+  independent raw-object audit established 59/59 direct contract faults and
+  13 coarse-classification survivors. The additive evidence-drift layer flags
+  59/59 valid mutants without rewriting the coarse result.
 - Verified executable baselines and ablations over 130 primary cases and 59
   known valid faults.
 - Verified accounting, manuscript consistency, regression, package integrity,
@@ -46,6 +48,6 @@ conference upload or submission was performed.
 This release does not claim a universal converter ranking, population estimate,
 PDF/UA conformance, natural-document generalization, causal localization
 inside Google Docs, human usability, external expert validation, or temporal
-Google repeatability. The 10 meaningful mutation survivors and the historical
-repeatability `NOT_RUN` record remain visible; the evidence-drift alert is an
-additional diagnostic, not a claim that the coarse comparator is complete.
+Google repeatability. The historical 10 meaningful survivors and the broader
+13 direct contract-fault survivors remain visible; the evidence-drift alert is
+an additional diagnostic, not a claim that the coarse comparator is complete.

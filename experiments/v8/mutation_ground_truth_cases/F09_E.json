@@ -1,0 +1,83 @@
+{
+  "fixture_id": "F09_E",
+  "feature_family": "document_metadata",
+  "source_path": "experiments/v4/fixtures/F09_E.docx",
+  "source_sha256": "4a803fdc4a90db567c3bcae817a4ceeeb481b476836f8dca46e7178141400080",
+  "baseline_pdf_sha256": "f645e97b0096d15b326ff47fe3899ac22169d8b860067ceac5bec626f0edb4b1",
+  "mutated_pdf_sha256": "d6f2aa80b907698109807fab2f001ceba35f2dfc73b52cafe1e73c73e355c81e",
+  "mutation_applied": true,
+  "operator": "changed document title",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "the source-declared document title changed in the PDF Info dictionary",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "Filename-distinct metadata title",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V6 MUTATED TITLE",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "detector_classification_changed": true,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "CLASSIFICATION_DETECTED"
+}

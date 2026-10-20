@@ -1,0 +1,216 @@
+{
+  "fixture_id": "F03_C",
+  "feature_family": "lists",
+  "source_path": "experiments/v4/fixtures/F03_C.docx",
+  "source_sha256": "bba720b1248fb140d3ba1edeb0c7b78bffaa17c577843eeb9a26822f7981c48e",
+  "baseline_pdf_sha256": "24e11419276fb84e738af62d183f42a532a81ffdd57052f7f9ce591639716359",
+  "mutated_pdf_sha256": "c481efaa609503e9a944585d484e21792432ba4d956f1d480816d737f4067341",
+  "mutation_applied": true,
+  "operator": "mutated first /L role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "source-grounded //L contract role count decreased",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 lists 3",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/L": 2,
+      "/LI": 3,
+      "/Lbl": 3,
+      "/LBody": 3,
+      "/Standard": 3
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/L",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/LI",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Lbl",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/LBody",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/L",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/LI",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Lbl",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/LBody",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/LI",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Lbl",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/LBody",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 lists 3",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/LI": 3,
+      "/Lbl": 3,
+      "/LBody": 3,
+      "/Standard": 3,
+      "/L": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/LI",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Lbl",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/LBody",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/L",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/LI",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Lbl",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/LBody",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/LI",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Lbl",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/LBody",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "detector_classification_changed": true,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "CLASSIFICATION_DETECTED"
+}

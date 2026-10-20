@@ -1,0 +1,83 @@
+{
+  "fixture_id": "F09_A",
+  "feature_family": "document_metadata",
+  "source_path": "experiments/v4/fixtures/F09_A.docx",
+  "source_sha256": "8c70f8e8086421acf6d1cfa5395a345201cdc6c9a2f2982d6445bc35c4862426",
+  "baseline_pdf_sha256": "0dbd3085728295f9fc47bb0304104d31b46109bf3b770860d5d643b0c18f6564",
+  "mutated_pdf_sha256": "cd52fd68f9473a25a1be039f1dabb9f6aca6735faa77dc5e5b6f85e741aaa9c7",
+  "mutation_applied": true,
+  "operator": "changed document title",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "the source-declared document title changed in the PDF Info dictionary",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "Accessible policy guide",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V6 MUTATED TITLE",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "detector_classification_changed": true,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "CLASSIFICATION_DETECTED"
+}

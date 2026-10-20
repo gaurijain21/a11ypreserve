@@ -23,6 +23,8 @@ V6_EVIDENCE = ROOT / "experiments" / "v6"
 V6_REPORTS = ROOT / "reports" / "v6"
 V7_EVIDENCE = ROOT / "experiments" / "v7"
 V7_REPORTS = ROOT / "reports" / "v7"
+V8_EVIDENCE = ROOT / "experiments" / "v8"
+V8_REPORTS = ROOT / "reports" / "v8"
 EXTERNAL_STAGING = os.environ.get("A11YPRESERVE_V6_UPLOAD_ROOT")
 UPLOAD = Path(EXTERNAL_STAGING).resolve() if EXTERNAL_STAGING else SUB / "upload_v6"
 PACKAGE = UPLOAD / "replication_package"
@@ -107,6 +109,10 @@ def main() -> None:
     copy_tree(V6_REPORTS, "evidence/v6/reports")
     copy_tree(V7_EVIDENCE, "evidence/v7/experiments")
     copy_tree(V7_REPORTS, "evidence/v7/reports")
+    if V8_EVIDENCE.is_dir():
+        copy_tree(V8_EVIDENCE, "evidence/v8/experiments")
+    if V8_REPORTS.is_dir():
+        copy_tree(V8_REPORTS, "evidence/v8/reports")
     final_release_reports = [
         "FINAL_SCIENTIFIC_AUDIT.md",
         "FINAL_REFERENCE_AUDIT.md",
@@ -134,6 +140,11 @@ def main() -> None:
         ROOT / "scripts" / "v7_competitive_baseline.py",
         ROOT / "scripts" / "v7_cross_parser_audit.py",
         ROOT / "scripts" / "v7_complex_table_diagnostic.py",
+        ROOT / "scripts" / "v8_mutation_ground_truth_audit.py",
+        ROOT / "scripts" / "v8_cross_converter_mutation.py",
+        ROOT / "scripts" / "v8_benign_transformations.py",
+        ROOT / "scripts" / "v8_fixture_coverage_audit.py",
+        ROOT / "scripts" / "reproduce_v8.py",
         ROOT / "tests" / "test_v6_scientific_hardening.py",
         ROOT / "requirements-v6.txt",
         ROOT / ".github" / "workflows" / "v6.yml",
@@ -165,7 +176,8 @@ this anonymous package pending human release decisions.
 """)
     write_text("REPRODUCTION_NOTES.md", """# Reproduction notes
 
-Run `python reproduction/reproduce_v6.py` from the original repository layout.
+Run `python reproduction/reproduce_v6.py` for the historical V4/V5/V6 checks,
+then run `python reproduction/reproduce_v8.py` for the additive audit.
 The scientific script genuinely reruns controls, mutations, and baselines; it
 does not trust pre-existing aggregate JSON as the experimental computation.
 
@@ -173,12 +185,14 @@ The included PDF was built from the listed manuscript inputs using MiKTeX
 pdfTeX and BibTeX. Source/PDF hashes and page count are recorded in
 `evidence/v6/experiments/V6_PDF_BUILD_PROVENANCE.json`.
 
-The additive adversarial checks are under `evidence/v7/experiments` and
-`evidence/v7/reports`. They include an independently implemented raw
-OOXML/PDF audit, conservative semantic-equivalence rewrites, one-per-family
-association attacks, a source-aware competitive baseline, and a cross-parser
-diagnostic. They do not constitute human adjudication, a natural-document
-external corpus, standards conformance, or a new primary denominator.
+The additive adversarial checks are under `evidence/v7/experiments`,
+`evidence/v7/reports`, `evidence/v8/experiments`, and `evidence/v8/reports`.
+They include an independently implemented raw OOXML/PDF audit, conservative
+semantic-equivalence rewrites, one-per-family association attacks, a
+source-aware competitive baseline, cross-parser diagnostics, and a bounded
+cross-converter mutation audit. They do not constitute human adjudication, a
+natural-document external corpus, standards conformance, or a new primary
+denominator.
 
 External converter/cloud reruns require the named local or authenticated
 environments. No credentials or private browser state are included.

@@ -1,0 +1,83 @@
+{
+  "fixture_id": "F09_B",
+  "feature_family": "document_metadata",
+  "source_path": "experiments/v4/fixtures/F09_B.docx",
+  "source_sha256": "47a60db117324d2d711891a9614b724aeb29a8aa64675d99cb26e4317df10d33",
+  "baseline_pdf_sha256": "3f1ad384117292925e879372b4fd67510dc118bacfd87756dd2e994816f8821e",
+  "mutated_pdf_sha256": "5613b757c59138dff2f0e0f299387eee1b4c2cf672e6697ec70755782510ad43",
+  "mutation_applied": true,
+  "operator": "changed document title",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "the source-declared document title changed in the PDF Info dictionary",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "Résumé — été 2026",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V6 MUTATED TITLE",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "detector_classification_changed": true,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "CLASSIFICATION_DETECTED"
+}

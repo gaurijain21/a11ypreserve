@@ -1,0 +1,17 @@
+{
+  "pipeline": "Google Docs",
+  "fixture_id": "F12_A",
+  "feature_family": "equations",
+  "source_path": "experiments/v4/fixtures/F12_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/google/outputs/atomic/F12_A__GOOGLE_DOCS.pdf",
+  "source_sha256": "9659ca62c193cd4dafe67daa48d4846970a254ed95ea244c7b097dc0365db819",
+  "baseline_pdf_sha256": "14294751d068324037adca530e1b896f0beb9d414b105156bd8f45a86a4dadca",
+  "mutated_pdf_sha256": null,
+  "mutation_applied": false,
+  "valid_pdf": false,
+  "operator": "no /Formula target",
+  "reference_tier": null,
+  "independently_established_fault": false,
+  "comparator_classification_changed": null,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

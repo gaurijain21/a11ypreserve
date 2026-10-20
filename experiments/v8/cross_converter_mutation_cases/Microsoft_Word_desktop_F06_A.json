@@ -1,0 +1,17 @@
+{
+  "pipeline": "Microsoft Word desktop",
+  "fixture_id": "F06_A",
+  "feature_family": "inline_language",
+  "source_path": "experiments/v4/fixtures/F06_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/word/outputs/atomic/F06_A__WORD_DESKTOP.pdf",
+  "source_sha256": "f3aab26f438ef5e524606d05411c36527e5f59860c5d045b417324e7597598ca",
+  "baseline_pdf_sha256": "0a3ee01792229bab1c1bedd18be9d5964c9ba6abe2e365fb285605ab14b136a9",
+  "mutated_pdf_sha256": "1cedda9f8de1a6f035e308273097aa4495364183471a8b7cef66a0dcb9e87271",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "operator": "removed first structural /Lang",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "comparator_classification_changed": true,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

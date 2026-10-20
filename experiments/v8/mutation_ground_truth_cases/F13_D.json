@@ -1,0 +1,105 @@
+{
+  "fixture_id": "F13_D",
+  "feature_family": "captions",
+  "source_path": "experiments/v4/fixtures/F13_D.docx",
+  "source_sha256": "78d7b0c85ea8d6307d842f76afcaf4b36f845033ab7b43e3ff405e919b4b3d64",
+  "baseline_pdf_sha256": "e035e8d5b7e6a9c347438dbb5fd6870fe87de58a98bec0b746599c47040aafc0",
+  "mutated_pdf_sha256": "8ef8de986f9c3f54ea369aff5d8b91cc4014f378424fcc06e0d43795381ebe3c",
+  "mutation_applied": true,
+  "operator": "mutated first /Caption role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "source-grounded //Caption contract role count decreased",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 captions 4",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 1,
+      "/Figure": 1,
+      "/Caption": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": "Figure 1 - Description for figure 1.",
+        "lang": null
+      },
+      {
+        "role": "/Caption",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [
+      "Figure 1 - Description for figure 1."
+    ],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 captions 4",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 1,
+      "/Figure": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": "Figure 1 - Description for figure 1.",
+        "lang": null
+      }
+    ],
+    "figure_alts": [
+      "Figure 1 - Description for figure 1."
+    ],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "detector_classification_changed": true,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "CLASSIFICATION_DETECTED"
+}

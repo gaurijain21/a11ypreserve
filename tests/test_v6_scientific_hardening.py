@@ -55,12 +55,35 @@ def test_v6_objection_mitigation_preserves_survivors_and_adds_evidence_alerts() 
     assert all(packet["labels_in_packet"] is False for packet in mitigation["adjudication_packet_index"])
 
 
+def test_v8_ground_truth_is_additive_and_non_circular() -> None:
+    source = (ROOT / "scripts" / "v8_mutation_ground_truth_audit.py").read_text(encoding="utf-8")
+    assert "from common import" not in source
+    assert "V6_MUTATION_SENSITIVITY.json" in source
+    audit = json.loads((ROOT / "experiments" / "v8" / "V8_MUTATION_GROUND_TRUTH.json").read_text(encoding="utf-8"))
+    assert audit["attempted"] == 65
+    assert audit["application_success"] == 59
+    assert audit["independently_established_semantic_faults"] == 59
+    assert audit["scorable_faults_detected_by_frozen_comparator"] == 46
+    assert audit["genuine_surviving_faults"] == 13
+    assert audit["human_adjudication_performed"] is False
+
+
+def test_v8_benign_controls_have_no_projection_alerts() -> None:
+    audit = json.loads((ROOT / "experiments" / "v8" / "V8_BENIGN_TRANSFORMATIONS.json").read_text(encoding="utf-8"))
+    assert audit["controls"] == 26
+    assert audit["projection_alerts"] == 0
+    assert audit["classification_regressions"] == 0
+    assert audit["extraction_errors"] == 0
+
+
 def main() -> None:
     tests = [
         test_control_disagreement_is_not_derived_from_expected_label,
         test_v5_mutation_source_has_no_tautological_control_assignment,
         test_v6_reports_have_complete_denominators,
         test_v6_objection_mitigation_preserves_survivors_and_adds_evidence_alerts,
+        test_v8_ground_truth_is_additive_and_non_circular,
+        test_v8_benign_controls_have_no_projection_alerts,
     ]
     for test in tests:
         test()

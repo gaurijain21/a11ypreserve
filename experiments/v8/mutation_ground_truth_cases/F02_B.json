@@ -1,0 +1,107 @@
+{
+  "fixture_id": "F02_B",
+  "feature_family": "alt_text",
+  "source_path": "experiments/v4/fixtures/F02_B.docx",
+  "source_sha256": "b8fed253e1ada97a12a4e16e62fd1d07cb4233e7654e4345dc42d76814dcc408",
+  "baseline_pdf_sha256": "efada2c7f834371088f1813fe81703cde539133b50e90bfc3e07f07257f5b1ef",
+  "mutated_pdf_sha256": "f9832e4d8b62dc45a73db72594e8562758bd4ebaab2cbec547bf7cffa9f5c77a",
+  "mutation_applied": true,
+  "operator": "removed first Figure /Alt",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "a source-declared figure lost non-empty alternative text",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 alt text 2",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 2,
+      "/Figure": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": "Alt image 1 - A long description of a line chart showing enrollment increasing each academic year from 2021 through 2026.",
+        "lang": null
+      }
+    ],
+    "figure_alts": [
+      "Alt image 1 - A long description of a line chart showing enrollment increasing each academic year from 2021 through 2026."
+    ],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 alt text 2",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 2,
+      "/Figure": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "detector_classification_changed": true,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "CLASSIFICATION_DETECTED"
+}

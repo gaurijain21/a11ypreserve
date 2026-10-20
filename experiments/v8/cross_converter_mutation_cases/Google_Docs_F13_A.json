@@ -1,0 +1,17 @@
+{
+  "pipeline": "Google Docs",
+  "fixture_id": "F13_A",
+  "feature_family": "captions",
+  "source_path": "experiments/v4/fixtures/F13_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/google/outputs/atomic/F13_A__GOOGLE_DOCS.pdf",
+  "source_sha256": "226d2d57d81be5a4e1f43a09c3d6db81541d91574851554e52d5f38290059541",
+  "baseline_pdf_sha256": "22f9dc234101d8f5524d8a5c911a4b2d0a5ada8e552d666cadc448b88ff847a3",
+  "mutated_pdf_sha256": null,
+  "mutation_applied": false,
+  "valid_pdf": false,
+  "operator": "no /Caption target",
+  "reference_tier": null,
+  "independently_established_fault": false,
+  "comparator_classification_changed": null,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

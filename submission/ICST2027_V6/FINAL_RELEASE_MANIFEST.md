@@ -10,11 +10,11 @@ upload.
 
 | Artifact | Path | SHA-256 / property |
 |---|---|---|
-| Canonical manuscript | `submission/ICST2027_V6/main.pdf` | `020F15E7A2612DBABD4CB6322A7BB80DEEA7F02C27984A92057A26DB069322B0` |
+| Canonical manuscript | `submission/ICST2027_V6/main.pdf` | `99880229FD6230D49890299AA77B02DA9B9C4E4ADC2E64B79CEE2A4C864BE321` |
 | Manuscript format | canonical PDF | 10 pages; US letter; IEEE two-column |
-| Anonymous upload candidate | `submission/ICST2027_V6/ICST2027_V6_anonymous_upload.zip` | `BEB6B6DF8B0870878B153111FB13F44C376EA6776A20004C5806FA3236082275` |
-| Archive payload | nested `replication_package.zip` | `B0635424F4759344F9E67423C506481760E5293326D60F48BD032DD446D5E75B` |
-| Archive file count | nested replication package | 1,542 files |
+| Anonymous upload candidate | `submission/ICST2027_V6/ICST2027_V6_anonymous_upload.zip` | `83973E28638F49696F065F7826DC3A3403686EA8481FA07BA0AAC13B8640866C` |
+| Archive payload | nested `replication_package.zip` | `0EA244E1BDB6266CB016A831870B64024CBCA16609C232C631007829E8059244` |
+| Archive file count | nested replication package | 1,725 files |
 
 ## Technical validation
 
@@ -24,24 +24,24 @@ upload.
 | Scientific accounting | PASS | `python scripts/verify_v6_scientific_accounting.py` |
 | Manuscript consistency | PASS | `python scripts/audit_v6_manuscript_consistency.py` |
 | Genuine controls | PASS: 65/65; 0 disagreements; 0 extraction failures; 0 evidence differences | `experiments/v6/V6_CONTROL_RERUN.json` and case traces |
-| Mutation audit | PASS: 65 attempts; 59 valid; 46 coarse detections; 59 evidence-drift alerts; 10 meaningful survivors; 6 unsupported | `experiments/v6/V6_MUTATION_SENSITIVITY.json`; `experiments/v6/V6_OBJECTION_MITIGATIONS.json` |
+| Mutation audit | PASS: historical 65 attempts; 59 valid; 46 coarse detections; 59 evidence-drift alerts; 10 historical meaningful survivors; 6 unsupported. Independent raw-object audit: 59/59 direct contract faults, 13 coarse-classification survivors. | `experiments/v6/`; `experiments/v8/V8_MUTATION_GROUND_TRUTH.json`; `reports/v8/MUTATION_GROUND_TRUTH_AUDIT.md` |
 | Baselines/ablations | PASS: executable; no independent primary labels claimed | `experiments/v6/V6_BASELINE_ABLATION.json` |
 | Regression tests | PASS | `python tests/test_v6_scientific_hardening.py` |
-| Package manifest and bundle verifier | PASS: 1,542 packaged files, including additive adversarial evidence and fresh rerun traces | `V6_PACKAGE_MANIFEST.json`; `V6_UPLOAD_BUNDLE_CHECK.json`; `experiments/v7/`; `reports/v7/` |
+| Package manifest and bundle verifier | PASS: 1,725 packaged files, including additive adversarial evidence, V8 ground-truth traces, and fresh rerun traces | `V6_PACKAGE_MANIFEST.json`; `V6_UPLOAD_BUNDLE_CHECK.json`; `experiments/v7/`; `experiments/v8/`; `reports/v8/` |
 | Anonymity audit | PASS pending human archive/HotCRP inspection | `FINAL_ANONYMITY_AUDIT.md` |
-| PDF visual QA | PASS | ten rendered pages under `.pdf-qa/v7-adversarial/` |
-| Fresh source compilation | PASS under elevated MiKTeX access | `v7_adversarial.log`; 10 pages and no unresolved citation/reference diagnostics after BibTeX and three pdfTeX passes |
+| PDF visual QA | PASS | all ten rendered pages under `.pdf-qa-v8/` |
+| Fresh source compilation | PASS under elevated MiKTeX access | `v8_final.log`; 10 pages and no unresolved citation/reference diagnostics after BibTeX and sequential pdfTeX passes |
 | Anonymous archive refresh | PASS | `python scripts/verify_v6_upload_bundle.py`; refreshed with disposable external staging because the local staging directory is a reparse point |
 | Repository safety and diff checks | PASS at audit time | `scripts/audit_repository_safety.py`; `git diff --check` |
 
 ## Provenance and commit
 
 The canonical PDF is byte- and text-identical to the verified alternate-
-jobname build `v7_adversarial.pdf`; the updated build provenance is recorded
+jobname build `v8_final.pdf`; the updated build provenance is recorded
 in `experiments/v6/V6_PDF_BUILD_PROVENANCE.json`.
 
 Scientific implementation and package commits: `c7dbe3430cab9dafc757bce01cd0a865d1d0ac21`,
-`9b0d980`, and `506c2a3`. Final manifest follow-ups are recorded in Git history.
+`9b0d980`, `506c2a3`, and the local release commit recorded below.
 The refreshed bundle was generated from the validated source state using
 disposable external staging; its outer ZIP and nested package hashes above were
 independently verified.
@@ -56,7 +56,7 @@ conference submission receipt.
 - Author identity, authorship order, conflicts, originality, licensing, rights,
   AI-disclosure approval, and HotCRP metadata: **REQUIRES AUTHOR CONFIRMATION**.
 - Submission/upload: **NOT PERFORMED**.
-- Push to remote: **PASS: pushed to `origin/main` through `743b877`**.
+- Push to remote: **NOT PERFORMED in this release cycle**.
 
 ## Known limitations
 
@@ -65,9 +65,11 @@ not a natural independent corpus; Word is supplementary; Google is an
 end-to-end cloud import/export condition; no stage-level causal localization,
 PDF/UA conformance, rights-cleared natural corpus, external expert
 adjudication, human usability study, or authenticated time-separated Google
-repeatability experiment is claimed. Ten meaningful destination mutants remain
-coarse-classification survivors, while the additive evidence-drift alert flags
-all 59 valid applied mutants. The additive association diagnostic detected
-11/12 valid scorable one-per-family attacks; the complex-table attack remained
-already `OBSERVED_PARTIAL`, while a separate role-delta diagnostic surfaced 5/5
-valid cases. The blinded adjudication packet is pending human review.
+repeatability experiment is claimed. The historical ten meaningful destination
+mutants remain coarse-classification survivors under the frozen definition; the
+stronger bounded raw-object audit identifies 13 direct contract faults not
+coarse-detected. The additive evidence-drift alert flags all 59 valid applied
+mutants. The additive association diagnostic detected 11/12 valid scorable
+one-per-family attacks; the complex-table attack remained already
+`OBSERVED_PARTIAL`, while a separate role-delta diagnostic surfaced 5/5 valid
+cases. The blinded adjudication packet is pending human review.

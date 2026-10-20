@@ -1,0 +1,99 @@
+{
+  "fixture_id": "F05_D",
+  "feature_family": "document_language",
+  "source_path": "experiments/v4/fixtures/F05_D.docx",
+  "source_sha256": "fbd0f32c5469e9ffe08095dc848636d43ed72ac16155975499c9eb781e06ed3b",
+  "baseline_pdf_sha256": "c978856010ecf799dcd77d4a709251496d5411a691eb7a2e7df329f97063fbbf",
+  "mutated_pdf_sha256": "9fd33d19a06c3dd5d9cc613c22b77db9ab7605a83ebd786a7e99a0d4ced3318a",
+  "mutation_applied": true,
+  "operator": "removed catalog /Lang",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "catalog /Lang removed from a source with a declared document language",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 language fr-FR",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 1,
+      "/Span": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Span",
+        "alt": null,
+        "lang": "fr-FR"
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [
+      "fr-FR"
+    ],
+    "artifacts": 0,
+    "links": []
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": null,
+    "title": "V4 language fr-FR",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 1,
+      "/Span": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Span",
+        "alt": null,
+        "lang": "fr-FR"
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [
+      "fr-FR"
+    ],
+    "artifacts": 0,
+    "links": []
+  },
+  "detector_classification_changed": true,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "CLASSIFICATION_DETECTED"
+}

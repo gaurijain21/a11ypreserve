@@ -1,0 +1,119 @@
+{
+  "fixture_id": "F08_B",
+  "feature_family": "hyperlinks",
+  "source_path": "experiments/v4/fixtures/F08_B.docx",
+  "source_sha256": "68364097903620b8af9ebbaf5ec1426cd270f6dd3d1f071f5a230e59acf35cba",
+  "baseline_pdf_sha256": "9bb2809ccfd2c9da28283b53c751b5041783ac41432d4b1d354f0859a139a017",
+  "mutated_pdf_sha256": "64deee76e5a2f218cb8cb0ce65975080809f11ced06f5c933923b70666c5c83f",
+  "mutation_applied": true,
+  "operator": "removed first Link /URI",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "a source-declared link lost its URI action",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 hyperlinks 2",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/URI": 1,
+      "/Standard": 1,
+      "/Link": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/URI",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": [
+      {
+        "page": 1,
+        "uri": "https://example.org/raw",
+        "has_action": true
+      }
+    ]
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 hyperlinks 2",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/URI": 1,
+      "/Standard": 1,
+      "/Link": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/URI",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": [
+      {
+        "page": 1,
+        "uri": null,
+        "has_action": true
+      }
+    ]
+  },
+  "detector_classification_changed": true,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "CLASSIFICATION_DETECTED"
+}

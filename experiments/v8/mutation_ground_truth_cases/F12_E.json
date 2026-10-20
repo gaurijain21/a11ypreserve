@@ -1,0 +1,110 @@
+{
+  "fixture_id": "F12_E",
+  "feature_family": "equations",
+  "source_path": "experiments/v4/fixtures/F12_E.docx",
+  "source_sha256": "58799267553269c18406d2602d4dc30a4dd968ebe5b8204df621623358e54ec8",
+  "baseline_pdf_sha256": "fc20676bd6f3c1d5e1ba06de040df258bca3f1ff7ae4aed76ce2991bd149ddb0",
+  "mutated_pdf_sha256": "713e5c9d57d7b1a026d29b15d5e2379fd2aed881f54e31773e4d37085a7b7bcb",
+  "mutation_applied": true,
+  "operator": "mutated first /Formula role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "source-grounded //Formula contract role count decreased",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 equations 5",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 2,
+      "/Formula": 2
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Formula",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Formula",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 equations 5",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 2,
+      "/Formula": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Formula",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "detector_classification_changed": false,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "SEMANTICALLY_MEANINGFUL_SURVIVAL"
+}

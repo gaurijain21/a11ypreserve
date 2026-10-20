@@ -1,0 +1,19 @@
+{
+  "fixture_id": "F08_E",
+  "feature_family": "hyperlinks",
+  "source_path": "experiments/v4/fixtures/F08_E.docx",
+  "source_sha256": "a796d06b06c55a7d8c55767f4bb6d8eed7240a71a79777c624aa8773e41ca6f8",
+  "baseline_pdf_sha256": "b1f315e26fe8181ca3f1173bae72dfb2201857b386fb609594c0034e3c745a75",
+  "mutated_pdf_sha256": "62ab32a1c6c6c9b228564277b09961650582a1f299333e57a4c43466d0281747",
+  "mutation_applied": false,
+  "operator": "URI absent",
+  "reference_tier": "B",
+  "independently_established_fault": false,
+  "classification": "UNSUPPORTED",
+  "reason": "mutation operator did not find its target",
+  "baseline_raw": null,
+  "mutant_raw": null,
+  "detector_classification_changed": false,
+  "detector_evidence_alert": false,
+  "historical_outcome_status": "UNSUPPORTED"
+}

@@ -1,0 +1,17 @@
+{
+  "pipeline": "LibreOffice",
+  "fixture_id": "F11_A",
+  "feature_family": "footnotes",
+  "source_path": "experiments/v4/fixtures/F11_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F11_A__LIBREOFFICE.pdf",
+  "source_sha256": "74d2bcbe4858e016d50443b6c311aef8f7e652488b61b11f676490ea2e31fef5",
+  "baseline_pdf_sha256": "f66e58240246a1e9e086a2cd659fc9180cedda12be80bf51ccb108e9108588d2",
+  "mutated_pdf_sha256": "77f6b65783056a34bda44ff8a6c4cea017ab4634995d6d81fa748fec92b71799",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "operator": "changed first /Note role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "comparator_classification_changed": true,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

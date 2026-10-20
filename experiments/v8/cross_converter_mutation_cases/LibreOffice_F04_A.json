@@ -1,0 +1,17 @@
+{
+  "pipeline": "LibreOffice",
+  "fixture_id": "F04_A",
+  "feature_family": "basic_tables",
+  "source_path": "experiments/v4/fixtures/F04_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F04_A__LIBREOFFICE.pdf",
+  "source_sha256": "4eff9ec0fcb3da3b267f6948aac8fe0ee6f82523060c4629eb4b5f8f473a44b8",
+  "baseline_pdf_sha256": "36346a9a3503fd91feffc6d433698a58cb6a058060981ee01235a47b0146caec",
+  "mutated_pdf_sha256": "c4f6272fe303635117c03ee375daba3e13c420ba05720e35f61d3ba92962b697",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "operator": "changed first /TH role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "comparator_classification_changed": true,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

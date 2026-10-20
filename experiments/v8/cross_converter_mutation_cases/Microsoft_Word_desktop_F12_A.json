@@ -1,0 +1,17 @@
+{
+  "pipeline": "Microsoft Word desktop",
+  "fixture_id": "F12_A",
+  "feature_family": "equations",
+  "source_path": "experiments/v4/fixtures/F12_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/word/outputs/atomic/F12_A__WORD_DESKTOP.pdf",
+  "source_sha256": "9659ca62c193cd4dafe67daa48d4846970a254ed95ea244c7b097dc0365db819",
+  "baseline_pdf_sha256": "f9a2ffd3f12901f78e6d78134dbc87b382995d0410fd1491ee6da38cccb0d066",
+  "mutated_pdf_sha256": "9739153b51dbed2fef8ecc03469ec90ff2176292e39222bec4194c5633eea33a",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "operator": "changed first /Formula role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "comparator_classification_changed": true,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

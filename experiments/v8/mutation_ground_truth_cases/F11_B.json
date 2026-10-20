@@ -1,0 +1,258 @@
+{
+  "fixture_id": "F11_B",
+  "feature_family": "footnotes",
+  "source_path": "experiments/v4/fixtures/F11_B.docx",
+  "source_sha256": "86a868b8eaebc1e71a894725b293f6590700720b8f48e00c279610d65fdfb2ad",
+  "baseline_pdf_sha256": "51f7c59c2d1b86e8024d1e8a53d3e02557ed54d13b7f86682f90c6e6d024a9b8",
+  "mutated_pdf_sha256": "b769fb0689f1c0fcb465f8426ae37ee1ed60c1302174611c6017fcd9b724e4dd",
+  "mutation_applied": true,
+  "operator": "mutated first /Note role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "source-grounded //Note contract role count decreased",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 footnotes 2",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 5,
+      "/Link": 4,
+      "/Div": 1,
+      "/Note": 2,
+      "/Lbl": 2
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Div",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Note",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Lbl",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Note",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Lbl",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": [
+      {
+        "page": 1,
+        "uri": null,
+        "has_action": false
+      },
+      {
+        "page": 1,
+        "uri": null,
+        "has_action": false
+      },
+      {
+        "page": 1,
+        "uri": null,
+        "has_action": false
+      },
+      {
+        "page": 1,
+        "uri": null,
+        "has_action": false
+      }
+    ]
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 footnotes 2",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 5,
+      "/Link": 4,
+      "/Div": 1,
+      "/Lbl": 2,
+      "/Note": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Div",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Lbl",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Note",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Lbl",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": [
+      {
+        "page": 1,
+        "uri": null,
+        "has_action": false
+      },
+      {
+        "page": 1,
+        "uri": null,
+        "has_action": false
+      },
+      {
+        "page": 1,
+        "uri": null,
+        "has_action": false
+      },
+      {
+        "page": 1,
+        "uri": null,
+        "has_action": false
+      }
+    ]
+  },
+  "detector_classification_changed": false,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "SEMANTICALLY_MEANINGFUL_SURVIVAL"
+}

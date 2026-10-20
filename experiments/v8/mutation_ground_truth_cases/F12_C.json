@@ -1,0 +1,89 @@
+{
+  "fixture_id": "F12_C",
+  "feature_family": "equations",
+  "source_path": "experiments/v4/fixtures/F12_C.docx",
+  "source_sha256": "2d3b56e835048ea41b3c89b6723eb24ba2f94185c38058a8a6d252f7458bbe8c",
+  "baseline_pdf_sha256": "5967abfd0efafa5e56dcc4d63aa03b602010e8d3999e269bce95d5547935f53c",
+  "mutated_pdf_sha256": "a66f01180501150ea824b041cdbf4718e388c37d9153e6d31213a08703b8f17a",
+  "mutation_applied": true,
+  "operator": "mutated first /Formula role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "source-grounded //Formula contract role count decreased",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 equations 3",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 1,
+      "/Formula": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Formula",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 equations 3",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "detector_classification_changed": true,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "CLASSIFICATION_DETECTED"
+}

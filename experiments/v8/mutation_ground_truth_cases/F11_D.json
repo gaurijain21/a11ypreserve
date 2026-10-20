@@ -1,0 +1,177 @@
+{
+  "fixture_id": "F11_D",
+  "feature_family": "footnotes",
+  "source_path": "experiments/v4/fixtures/F11_D.docx",
+  "source_sha256": "e2140c08c44e9a8e90c2dc8914b860337080b4f52407145140a1ab99119c339f",
+  "baseline_pdf_sha256": "8a524f5a69e6ec1bb52c6891409cb14a045d8233812a5030fd832509f309cefd",
+  "mutated_pdf_sha256": "233b2ded63b48fddb5d24c52da8ea0ab753c2f18f763ef8b650ccd89b5aa17c4",
+  "mutation_applied": true,
+  "operator": "mutated first /Note role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "source-grounded //Note contract role count decreased",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 footnotes 4",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 3,
+      "/Link": 2,
+      "/Div": 1,
+      "/Note": 1,
+      "/Lbl": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Div",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Note",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Lbl",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": [
+      {
+        "page": 1,
+        "uri": null,
+        "has_action": false
+      },
+      {
+        "page": 1,
+        "uri": null,
+        "has_action": false
+      }
+    ]
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 footnotes 4",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 3,
+      "/Link": 2,
+      "/Div": 1,
+      "/Lbl": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Div",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Lbl",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": [
+      {
+        "page": 1,
+        "uri": null,
+        "has_action": false
+      },
+      {
+        "page": 1,
+        "uri": null,
+        "has_action": false
+      }
+    ]
+  },
+  "detector_classification_changed": true,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "CLASSIFICATION_DETECTED"
+}

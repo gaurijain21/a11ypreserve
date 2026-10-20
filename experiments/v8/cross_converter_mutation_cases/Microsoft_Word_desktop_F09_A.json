@@ -1,0 +1,17 @@
+{
+  "pipeline": "Microsoft Word desktop",
+  "fixture_id": "F09_A",
+  "feature_family": "document_metadata",
+  "source_path": "experiments/v4/fixtures/F09_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/word/outputs/atomic/F09_A__WORD_DESKTOP.pdf",
+  "source_sha256": "8c70f8e8086421acf6d1cfa5395a345201cdc6c9a2f2982d6445bc35c4862426",
+  "baseline_pdf_sha256": "0f12cc7dab6fa1006bb485b2562563d027c6ae6605321d078c8fe7b22cb0bbdb",
+  "mutated_pdf_sha256": "a907675144f87db2bd9e7312b2e930211c1d823f98d7c363fea3e48bfd1c3fe0",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "operator": "changed PDF Info /Title",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "comparator_classification_changed": true,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

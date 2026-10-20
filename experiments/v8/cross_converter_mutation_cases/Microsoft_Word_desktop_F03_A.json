@@ -1,0 +1,17 @@
+{
+  "pipeline": "Microsoft Word desktop",
+  "fixture_id": "F03_A",
+  "feature_family": "lists",
+  "source_path": "experiments/v4/fixtures/F03_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/word/outputs/atomic/F03_A__WORD_DESKTOP.pdf",
+  "source_sha256": "84b579cace9f44ab51623fcfd1526061ce8ce70fe8b728a728afe301d56fda7f",
+  "baseline_pdf_sha256": "466b2fc2252d7fe658eff59a24d155b805f8b780ea1a3ab68d1491f780e5219d",
+  "mutated_pdf_sha256": "aece6c68d3d5f18adc778dd91e9948b595b2cb9ece7c43b125cbf7122d5862d4",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "operator": "changed first /L role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "comparator_classification_changed": true,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

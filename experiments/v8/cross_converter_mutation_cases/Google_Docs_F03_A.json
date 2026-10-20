@@ -1,0 +1,17 @@
+{
+  "pipeline": "Google Docs",
+  "fixture_id": "F03_A",
+  "feature_family": "lists",
+  "source_path": "experiments/v4/fixtures/F03_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/google/outputs/atomic/F03_A__GOOGLE_DOCS.pdf",
+  "source_sha256": "84b579cace9f44ab51623fcfd1526061ce8ce70fe8b728a728afe301d56fda7f",
+  "baseline_pdf_sha256": "2e8f1922b3b8dab3b368d3d2ea1950d9617ca437a434a037f70af707cc3cfdf4",
+  "mutated_pdf_sha256": "4c10f66c1eafb60a846b6fd312eb0ffd46503f7a93950b98a78b155f6978c046",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "operator": "changed first /L role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "comparator_classification_changed": false,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

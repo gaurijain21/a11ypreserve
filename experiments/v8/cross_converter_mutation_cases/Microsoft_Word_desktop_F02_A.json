@@ -1,0 +1,17 @@
+{
+  "pipeline": "Microsoft Word desktop",
+  "fixture_id": "F02_A",
+  "feature_family": "alt_text",
+  "source_path": "experiments/v4/fixtures/F02_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/word/outputs/atomic/F02_A__WORD_DESKTOP.pdf",
+  "source_sha256": "ae64b91085158916d5a5be11987cb3fbfabc0501c57acdbbf23fffcd769fde80",
+  "baseline_pdf_sha256": "24e382ae4fefc12c7f57fe174f5dced94295f84625d486902f07547aa1c92a95",
+  "mutated_pdf_sha256": "0e4c143611fe04caad1b0ed99e0ad440aaaac4cb0942a2d7851cd14bc3b20426",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "operator": "removed first Figure /Alt",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "comparator_classification_changed": true,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

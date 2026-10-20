@@ -1,0 +1,19 @@
+{
+  "fixture_id": "F07_A",
+  "feature_family": "decorative_images",
+  "source_path": "experiments/v4/fixtures/F07_A.docx",
+  "source_sha256": "83abc799c2d127a47d494aeea61cc64347e4615d049712772493c776e1dc7af6",
+  "baseline_pdf_sha256": "659cc2a0ec3a4a7d8604f482fa7878d54581a02dfe4a2074f99dd04f7bb5374d",
+  "mutated_pdf_sha256": "97a0ec28a30aca44daf4f5953e8a0c0cd155c91ac07850793073bc7d39ce70e2",
+  "mutation_applied": false,
+  "operator": "Artifact role absent",
+  "reference_tier": "B",
+  "independently_established_fault": false,
+  "classification": "UNSUPPORTED",
+  "reason": "mutation operator did not find its target",
+  "baseline_raw": null,
+  "mutant_raw": null,
+  "detector_classification_changed": false,
+  "detector_evidence_alert": false,
+  "historical_outcome_status": "UNSUPPORTED"
+}

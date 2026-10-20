@@ -28,8 +28,8 @@
     },
     {
       "path": "scripts/record_v6_build_provenance.py",
-      "size_bytes": 8415,
-      "sha256": "b9e7e1e5824ebf556160b3b866a50cebb3a8f8f0dd1a6901eebf24ad7c2b8fa4"
+      "size_bytes": 8715,
+      "sha256": "d835ef848553e9d4daa9d0d1d6080a7750668f8409cd2ff9637a6f50ecb34553"
     },
     {
       "path": "scripts/audit_v6_manuscript_consistency.py",
@@ -43,8 +43,8 @@
     },
     {
       "path": "scripts/build_v6_upload_bundle.py",
-      "size_bytes": 12126,
-      "sha256": "b12c3fae105ac8555edfb62407d34f62572fda439981c7e9e7a3583a55b28f50"
+      "size_bytes": 12824,
+      "sha256": "9d69c52251a304eb597d455c497c4fa035a4b666d310ceee49716f275f3db3cb"
     },
     {
       "path": "scripts/reproduce_v6.py",
@@ -78,18 +78,18 @@
     },
     {
       "path": "tests/test_v6_scientific_hardening.py",
-      "size_bytes": 2821,
-      "sha256": "b2d9e969a0ad407eb95950b23be3285c11cdc929243776a298a40c0118052314"
+      "size_bytes": 4006,
+      "sha256": "99799324a5a23edd6e0420991d8cc818b533e7f72a3f78be71be0045f6c59c76"
     },
     {
       "path": "submission/ICST2027_V6/main.tex",
-      "size_bytes": 4552,
-      "sha256": "0265d5895fcfd6c2a5ffea926ed3298c27f54c2d7149095e2fda6802c77bc818"
+      "size_bytes": 4702,
+      "sha256": "67bb06d2f8f39d92838bc899ee09432cff3c42ac9a1568a525897b1dc96e3984"
     },
     {
       "path": "submission/ICST2027_V6/v6_hardening.tex",
-      "size_bytes": 8092,
-      "sha256": "13948781b5c52c18475f8647090d75930031d716456fb6ff345eea985452c3cb"
+      "size_bytes": 8568,
+      "sha256": "b825ae16d4d2ef4cb633f4ed3959f109258e80d5c71820951231679135b998ac"
     },
     {
       "path": "submission/ICST2027_V6/references.bib",
@@ -108,8 +108,8 @@
     },
     {
       "path": "submission/ICST2027_V6/main.pdf",
-      "size_bytes": 214838,
-      "sha256": "020f15e7a2612dbabd4cb6322a7bb80deea7f02c27984a92057a26db069322b0"
+      "size_bytes": 215234,
+      "sha256": "99880229fd6230d49890299aa77b02da9b9c4e4adc2e64b79cee2a4c864be321"
     },
     {
       "path": "submission/ICST2027_V6/sections/background.tex",

@@ -1,0 +1,170 @@
+{
+  "fixture_id": "F13_E",
+  "feature_family": "captions",
+  "source_path": "experiments/v4/fixtures/F13_E.docx",
+  "source_sha256": "7169db683a156d1690ba29640b848244940c4bd39295a845711b169ef46cedfc",
+  "baseline_pdf_sha256": "6e83816482019b38690211f9e78770c0f4ef0ed4db921085aabe068dec270310",
+  "mutated_pdf_sha256": "c4a539eaa6b8b17f857dc003be82da16e1b903d9d2f7bf078ecc35e60a853d4f",
+  "mutation_applied": true,
+  "operator": "mutated first /Caption role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "source-grounded //Caption contract role count decreased",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 captions 5",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 3,
+      "/Figure": 3,
+      "/Caption": 3
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": "Figure 1 - Description for figure 1.",
+        "lang": null
+      },
+      {
+        "role": "/Caption",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": "Figure 2 - Description for figure 2.",
+        "lang": null
+      },
+      {
+        "role": "/Caption",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": "Figure 3 - Description for figure 3.",
+        "lang": null
+      },
+      {
+        "role": "/Caption",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [
+      "Figure 1 - Description for figure 1.",
+      "Figure 2 - Description for figure 2.",
+      "Figure 3 - Description for figure 3."
+    ],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 captions 5",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 3,
+      "/Figure": 3,
+      "/Caption": 2
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": "Figure 1 - Description for figure 1.",
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": "Figure 2 - Description for figure 2.",
+        "lang": null
+      },
+      {
+        "role": "/Caption",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": "Figure 3 - Description for figure 3.",
+        "lang": null
+      },
+      {
+        "role": "/Caption",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [
+      "Figure 1 - Description for figure 1.",
+      "Figure 2 - Description for figure 2.",
+      "Figure 3 - Description for figure 3."
+    ],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "detector_classification_changed": false,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "UNCHANGED_CLASSIFICATION"
+}

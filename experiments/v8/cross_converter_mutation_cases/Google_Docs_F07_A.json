@@ -1,0 +1,17 @@
+{
+  "pipeline": "Google Docs",
+  "fixture_id": "F07_A",
+  "feature_family": "decorative_images",
+  "source_path": "experiments/v4/fixtures/F07_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/google/outputs/atomic/F07_A__GOOGLE_DOCS.pdf",
+  "source_sha256": "83abc799c2d127a47d494aeea61cc64347e4615d049712772493c776e1dc7af6",
+  "baseline_pdf_sha256": "24af93e1f49ebcf591e40bc8c9a88564f2b7de463ff143b081fe827d6e732ec4",
+  "mutated_pdf_sha256": null,
+  "mutation_applied": false,
+  "valid_pdf": false,
+  "operator": "no /Artifact target",
+  "reference_tier": null,
+  "independently_established_fault": false,
+  "comparator_classification_changed": null,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

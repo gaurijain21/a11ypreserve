@@ -14,7 +14,7 @@ document corpus study, or a converter ranking.
 
 ## Claim-to-evidence audit
 
-Locations refer to the nine-page canonical PDF
+Locations refer to the ten-page canonical PDF
 `submission/ICST2027_V6/main.pdf`; section names are authoritative when page
 pagination changes.
 

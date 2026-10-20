@@ -1,0 +1,17 @@
+{
+  "pipeline": "Google Docs",
+  "fixture_id": "F10_A",
+  "feature_family": "complex_tables",
+  "source_path": "experiments/v4/fixtures/F10_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/google/outputs/atomic/F10_A__GOOGLE_DOCS.pdf",
+  "source_sha256": "63bfec96e6ae93f83a1d9b132e10626cddb2ea73c6ef83b1acbf1b333ee52d6d",
+  "baseline_pdf_sha256": "b24a411ebf95274dafd2b71e7af4d02bed73714c2d4b831f030782a471da0019",
+  "mutated_pdf_sha256": "c6d4810bf4fd30782989cef5a35074c2f6905b93d49290fccd4fe2162c19cc25",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "operator": "changed first /TH role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "comparator_classification_changed": false,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

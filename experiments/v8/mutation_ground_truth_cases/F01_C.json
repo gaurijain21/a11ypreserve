@@ -1,0 +1,127 @@
+{
+  "fixture_id": "F01_C",
+  "feature_family": "headings",
+  "source_path": "experiments/v4/fixtures/F01_C.docx",
+  "source_sha256": "013f01dd8db9301dd49124f382f5d56530903dbab4b545c8c24d13443b1df44d",
+  "baseline_pdf_sha256": "a2dfa54daff6cc415325b53a83788130a825630817abfbb751386031d83b5b31",
+  "mutated_pdf_sha256": "726410bc24251bc2fc593f44d7764804800e8ba6743673ea798549d19ddb83de",
+  "mutation_applied": true,
+  "operator": "mutated first /H1 role",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "source-grounded //H1 contract role count decreased",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 headings 3",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/H1": 1,
+      "/H2": 3,
+      "/Standard": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/H1",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/H2",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/H2",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/H2",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 headings 3",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/P": 1,
+      "/H2": 3,
+      "/Standard": 1
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/P",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/H2",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/H2",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/H2",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "detector_classification_changed": true,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "CLASSIFICATION_DETECTED"
+}

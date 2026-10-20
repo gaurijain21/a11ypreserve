@@ -1,0 +1,17 @@
+{
+  "pipeline": "Google Docs",
+  "fixture_id": "F11_A",
+  "feature_family": "footnotes",
+  "source_path": "experiments/v4/fixtures/F11_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/google/outputs/atomic/F11_A__GOOGLE_DOCS.pdf",
+  "source_sha256": "74d2bcbe4858e016d50443b6c311aef8f7e652488b61b11f676490ea2e31fef5",
+  "baseline_pdf_sha256": "641ab19f11acfd68cecd0f5f488f5370897a2ae17552c96743a66f8b7685c3d1",
+  "mutated_pdf_sha256": null,
+  "mutation_applied": false,
+  "valid_pdf": false,
+  "operator": "no /Note target",
+  "reference_tier": null,
+  "independently_established_fault": false,
+  "comparator_classification_changed": null,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

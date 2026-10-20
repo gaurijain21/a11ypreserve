@@ -1,0 +1,149 @@
+{
+  "fixture_id": "F08_D",
+  "feature_family": "hyperlinks",
+  "source_path": "experiments/v4/fixtures/F08_D.docx",
+  "source_sha256": "8a8bd9c948fe8816c9f7207138bc6fb241821c58b4522de64e3b432d64a89374",
+  "baseline_pdf_sha256": "f51858deed4d51c825222f5b9e462b7e01c39b792a6115a4480e4a913e4f8ef4",
+  "mutated_pdf_sha256": "c7964c723cbd989c65f5efaf0bd9077b132df12047ae50c5fe8a3bc2c4565d63",
+  "mutation_applied": true,
+  "operator": "removed first Link /URI",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "a source-declared link lost its URI action",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 hyperlinks 4",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/URI": 2,
+      "/Standard": 1,
+      "/Link": 2
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/URI",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/URI",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": [
+      {
+        "page": 1,
+        "uri": "https://example.org/two",
+        "has_action": true
+      },
+      {
+        "page": 1,
+        "uri": "https://example.org/one",
+        "has_action": true
+      }
+    ]
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 hyperlinks 4",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/URI": 2,
+      "/Standard": 1,
+      "/Link": 2
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/URI",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/URI",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Link",
+        "alt": null,
+        "lang": null
+      }
+    ],
+    "figure_alts": [],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": [
+      {
+        "page": 1,
+        "uri": null,
+        "has_action": true
+      },
+      {
+        "page": 1,
+        "uri": "https://example.org/one",
+        "has_action": true
+      }
+    ]
+  },
+  "detector_classification_changed": false,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "SEMANTICALLY_MEANINGFUL_SURVIVAL"
+}

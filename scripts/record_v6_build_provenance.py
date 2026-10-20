@@ -20,6 +20,8 @@ OBJECTION_PDF = MANUSCRIPT / "v6_objection_audit.pdf"
 OBJECTION_LOG = MANUSCRIPT / "v6_objection_audit.log"
 ADVERSARIAL_PDF = MANUSCRIPT / "v7_adversarial.pdf"
 ADVERSARIAL_LOG = MANUSCRIPT / "v7_adversarial.log"
+FINAL_PDF = MANUSCRIPT / "v8_final.pdf"
+FINAL_LOG = MANUSCRIPT / "v8_final.log"
 
 
 def sha256(path: Path) -> str:
@@ -57,7 +59,11 @@ def main() -> None:
     if missing:
         raise SystemExit(f"missing V6 build input/output: {missing}")
     latest_source_mtime = max(path.stat().st_mtime for path in source_paths)
-    if ADVERSARIAL_PDF.is_file() and ADVERSARIAL_LOG.is_file() and ADVERSARIAL_PDF.stat().st_mtime >= latest_source_mtime:
+    if FINAL_PDF.is_file() and FINAL_LOG.is_file() and FINAL_PDF.stat().st_mtime >= latest_source_mtime:
+        verified_build_pdf = FINAL_PDF
+        verified_build_log = FINAL_LOG
+        build_jobname = "v8_final"
+    elif ADVERSARIAL_PDF.is_file() and ADVERSARIAL_LOG.is_file() and ADVERSARIAL_PDF.stat().st_mtime >= latest_source_mtime:
         verified_build_pdf = ADVERSARIAL_PDF
         verified_build_log = ADVERSARIAL_LOG
         build_jobname = "v7_adversarial"

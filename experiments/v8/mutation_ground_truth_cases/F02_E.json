@@ -1,0 +1,130 @@
+{
+  "fixture_id": "F02_E",
+  "feature_family": "alt_text",
+  "source_path": "experiments/v4/fixtures/F02_E.docx",
+  "source_sha256": "801332b1b4337ad122cfa78e4866af48e467736a6840bb3fa9092e74d9141bc7",
+  "baseline_pdf_sha256": "55fbb54b09954f86673d8a80fa74fb0f4c3aca273d95f55e3cb6040f69f51b88",
+  "mutated_pdf_sha256": "3a016680f5cfb5285505ebc37739aa06dc8c32d8a96fd869f47b14c0c79d764f",
+  "mutation_applied": true,
+  "operator": "removed first Figure /Alt",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "classification": "GENUINE_CONTRACTED_SEMANTIC_FAULT",
+  "reason": "a source-declared figure lost non-empty alternative text",
+  "baseline_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 alt text 5",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 3,
+      "/Figure": 2
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": "Alt image 1 - First distinct image.",
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": "Alt image 2 - Second distinct image with separate values.",
+        "lang": null
+      }
+    ],
+    "figure_alts": [
+      "Alt image 1 - First distinct image.",
+      "Alt image 2 - Second distinct image with separate values."
+    ],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "mutant_raw": {
+    "pages": 1,
+    "pypdf_reopened": true,
+    "pymupdf_reopened": true,
+    "catalog_lang": "en-US",
+    "title": "V4 alt text 5",
+    "role_counts": {
+      "/Title": 1,
+      "/Document": 1,
+      "/Standard": 3,
+      "/Figure": 2
+    },
+    "role_nodes": [
+      {
+        "role": "/Title",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Document",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Standard",
+        "alt": null,
+        "lang": null
+      },
+      {
+        "role": "/Figure",
+        "alt": "Alt image 2 - Second distinct image with separate values.",
+        "lang": null
+      }
+    ],
+    "figure_alts": [
+      "Alt image 2 - Second distinct image with separate values."
+    ],
+    "struct_langs": [],
+    "artifacts": 0,
+    "links": []
+  },
+  "detector_classification_changed": true,
+  "detector_evidence_alert": true,
+  "historical_outcome_status": "CLASSIFICATION_DETECTED"
+}

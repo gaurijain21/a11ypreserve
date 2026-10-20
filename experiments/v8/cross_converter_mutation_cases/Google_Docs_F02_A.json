@@ -1,0 +1,17 @@
+{
+  "pipeline": "Google Docs",
+  "fixture_id": "F02_A",
+  "feature_family": "alt_text",
+  "source_path": "experiments/v4/fixtures/F02_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/google/outputs/atomic/F02_A__GOOGLE_DOCS.pdf",
+  "source_sha256": "ae64b91085158916d5a5be11987cb3fbfabc0501c57acdbbf23fffcd769fde80",
+  "baseline_pdf_sha256": "dd35bd4ccb46c96b067fdc0dc1f0086a7e29d5762ec69510cf6feac5e854e731",
+  "mutated_pdf_sha256": "c0384ad637fee74d2a3ecdbbaa1f17212f63a38dd7f49ce82b930ea654f9cc94",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "operator": "removed first Figure /Alt",
+  "reference_tier": "A",
+  "independently_established_fault": true,
+  "comparator_classification_changed": true,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}

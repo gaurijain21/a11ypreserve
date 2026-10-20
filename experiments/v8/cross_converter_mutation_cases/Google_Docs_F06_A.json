@@ -1,0 +1,17 @@
+{
+  "pipeline": "Google Docs",
+  "fixture_id": "F06_A",
+  "feature_family": "inline_language",
+  "source_path": "experiments/v4/fixtures/F06_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/google/outputs/atomic/F06_A__GOOGLE_DOCS.pdf",
+  "source_sha256": "f3aab26f438ef5e524606d05411c36527e5f59860c5d045b417324e7597598ca",
+  "baseline_pdf_sha256": "b4f1c6e99036e312c825e308cf0f5ec74fde1c93ecc7b16c918c56fb3e73fe48",
+  "mutated_pdf_sha256": null,
+  "mutation_applied": false,
+  "valid_pdf": false,
+  "operator": "no structural /Lang",
+  "reference_tier": null,
+  "independently_established_fault": false,
+  "comparator_classification_changed": null,
+  "timestamp_utc": "2026-10-20T18:09:41.081473+00:00"
+}
