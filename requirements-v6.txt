@@ -1,0 +1,5 @@
+# Exact Python environment used for the V6 local evidence run.
+pymupdf==1.28.2
+pypdf==6.18.1
+python-docx==1.2.0
+lxml==6.1.3

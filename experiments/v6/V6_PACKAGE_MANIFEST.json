@@ -1,0 +1,155 @@
+{
+  "manifest_version": "V6-static-files-1",
+  "files": [
+    {
+      "path": "requirements-v6.txt",
+      "size_bytes": 124,
+      "sha256": "2e2e7fe21c48040b01d0ab8ca5d1b9182dd9fad580c51b8f375047872b241b1a"
+    },
+    {
+      "path": ".github/workflows/v6.yml",
+      "size_bytes": 1697,
+      "sha256": "8be441b495e1f75c53115a899c2661ff4252621180489bbd83f52e29bbc7e06d"
+    },
+    {
+      "path": "scripts/build_v6_reports.py",
+      "size_bytes": 28918,
+      "sha256": "1aee9a169de605927144f918d0f9e71a32d99623e9be44cdd3f3812a30471698"
+    },
+    {
+      "path": "scripts/verify_v6_scientific_accounting.py",
+      "size_bytes": 3413,
+      "sha256": "5da53c4a76a126b6069348ad419a7dc853eee43fe0cd607533b1f4ba47628385"
+    },
+    {
+      "path": "scripts/verify_v6_package_manifest.py",
+      "size_bytes": 1274,
+      "sha256": "2a3e9fc26814b6ef14cfce0925f4d1c1ae2d166820f1844bfb2e449df97aeb04"
+    },
+    {
+      "path": "scripts/record_v6_build_provenance.py",
+      "size_bytes": 7542,
+      "sha256": "15e9c6720303d5326cd281f083a27f26cbee837387d5091ec6fb64e20212919c"
+    },
+    {
+      "path": "scripts/audit_v6_manuscript_consistency.py",
+      "size_bytes": 2204,
+      "sha256": "ef375e5e719d8ab71a954602b70a1190de08c1524e8d601afe0f98c08fab48d8"
+    },
+    {
+      "path": "scripts/audit_v6_anonymity.py",
+      "size_bytes": 2202,
+      "sha256": "92d640050160bde2dc11a574111443cc18c9e07d8bcb62f048ed82fc29202874"
+    },
+    {
+      "path": "scripts/build_v6_upload_bundle.py",
+      "size_bytes": 10194,
+      "sha256": "90bd09a4e7023f146ace49866724c5266addf3e81d768583147d84bb1bcb0450"
+    },
+    {
+      "path": "scripts/reproduce_v6.py",
+      "size_bytes": 1414,
+      "sha256": "e0ed6d3efe7493062989c5f7f6f2a97891fe4f7c638ae123d73848e2cfbed5a6"
+    },
+    {
+      "path": "scripts/verify_v6_upload_bundle.py",
+      "size_bytes": 3438,
+      "sha256": "170eab89af9d1af84049a1e7490272009420502eae72209c9171e53bd2af7e0a"
+    },
+    {
+      "path": "experiments/v6/common.py",
+      "size_bytes": 6796,
+      "sha256": "0791577eea675fb14ead4c8028c4d930fa1b8810094650cc5d6e9c9d856586bb"
+    },
+    {
+      "path": "experiments/v6/control_rerun.py",
+      "size_bytes": 6873,
+      "sha256": "df45280a5391715daaa858ec330d4d3ef8b4804cab2e0e7e956b8577882438b5"
+    },
+    {
+      "path": "experiments/v6/mutation_sensitivity.py",
+      "size_bytes": 15092,
+      "sha256": "c5cd0799e2cd7a6374e465d925e5d98ab762dba3eec5034c9ca861a203dc0fb6"
+    },
+    {
+      "path": "experiments/v6/baseline_ablation.py",
+      "size_bytes": 11942,
+      "sha256": "3f8f96585a16766bb0b8ffea8a90a43077c2b38664e32a8a18a6e7a3476154d9"
+    },
+    {
+      "path": "tests/test_v6_scientific_hardening.py",
+      "size_bytes": 1914,
+      "sha256": "38be139a0da7991aa5c7de00411a11761b74151e41577f5063296a3abfae6a7f"
+    },
+    {
+      "path": "submission/ICST2027_V6/main.tex",
+      "size_bytes": 4387,
+      "sha256": "9545f94296ed36a7e6c07f81e7da1fd7ddd283f6bf8390a3545881f10d324f50"
+    },
+    {
+      "path": "submission/ICST2027_V6/v6_hardening.tex",
+      "size_bytes": 6510,
+      "sha256": "9decf37eb4311ad8d3a814fb41eab54ff1dec322e0ed9b922d3b0d69616a5b81"
+    },
+    {
+      "path": "submission/ICST2027_V6/references.bib",
+      "size_bytes": 4918,
+      "sha256": "051ed84ef639ce49d722edf6301322d3c2625f74b81120ddafb50113587b7cce"
+    },
+    {
+      "path": "submission/ICST2027_V6/IEEEtran.cls",
+      "size_bytes": 288304,
+      "sha256": "c972aca108fda004c3514d63658e02816da2e54d9a1451e870b9bd970e003f55"
+    },
+    {
+      "path": "submission/ICST2027_V6/IEEEtran.bst",
+      "size_bytes": 60157,
+      "sha256": "1236c11e0ab7a70dea556f76f132f4e1f95a6f1594341725654f674c2f9f8466"
+    },
+    {
+      "path": "submission/ICST2027_V6/main.pdf",
+      "size_bytes": 211334,
+      "sha256": "a34a6d2b67c62a7d4331560843b0279533af0b9d09d62a467cbe6885cc15bc80"
+    },
+    {
+      "path": "submission/ICST2027_V6/sections/background.tex",
+      "size_bytes": 3514,
+      "sha256": "5cc4c7eb93d7bca77d2f6d37d60e40596f78af39a969f966d04ee60b9e679464"
+    },
+    {
+      "path": "submission/ICST2027_V6/sections/conclusion.tex",
+      "size_bytes": 2137,
+      "sha256": "a4ab2e001051c38b25d4eb9f478705d30b13f297a9a3e168c2e3a251ef5e6649"
+    },
+    {
+      "path": "submission/ICST2027_V6/sections/design.tex",
+      "size_bytes": 6573,
+      "sha256": "c50334fd4230d01362b5190f0dfd7da3513ffabf21c26978b99b0206bd47f407"
+    },
+    {
+      "path": "submission/ICST2027_V6/sections/discussion.tex",
+      "size_bytes": 4512,
+      "sha256": "c9b99fb3190bdea8613c72064ddf27c2c05fb8ab694c9ee615c4da9b54411132"
+    },
+    {
+      "path": "submission/ICST2027_V6/sections/introduction.tex",
+      "size_bytes": 4492,
+      "sha256": "72d88d3b9284503a086e7e59ef01843ff58e8977d7d130d14ab6fc0cf47a6d8e"
+    },
+    {
+      "path": "submission/ICST2027_V6/sections/method.tex",
+      "size_bytes": 6471,
+      "sha256": "ba8d03147f1892b714d71f01852ddd334bd2287d54386e88675fc073f4112256"
+    },
+    {
+      "path": "submission/ICST2027_V6/sections/results.tex",
+      "size_bytes": 7859,
+      "sha256": "8de7773433fc53eb0cbba45f153457e87f61df0d82970d9d31729b72a3b84495"
+    },
+    {
+      "path": "submission/ICST2027_V6/sections/threats.tex",
+      "size_bytes": 3949,
+      "sha256": "b83e3defaa2e2bcb40364626535b08f19d0a62606604cea7c541a1829efdb286"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:16.441967+00:00",
+  "fixture_id": "F08_B",
+  "feature_family": "hyperlinks",
+  "mutation_operator": "removed first Link /URI",
+  "mutation_target": "link URI",
+  "source_path": "experiments/v4/fixtures/F08_B.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F08_B__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F08_B.pdf",
+  "baseline_pdf_sha256": "9bb2809ccfd2c9da28283b53c751b5041783ac41432d4b1d354f0859a139a017",
+  "mutated_pdf_sha256": "64deee76e5a2f218cb8cb0ce65975080809f11ced06f5c933923b70666c5c83f",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "OBSERVED_PARTIAL",
+  "mutated_classification": "ALTERED",
+  "baseline_noncanonical_status": "OBSERVED_PARTIAL",
+  "raw_semantic_evidence_before": {
+    "feature": "hyperlinks",
+    "source_value": [
+      {
+        "text": "https://example.org/raw",
+        "target": "https://example.org/raw",
+        "order": 1,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:hyperlink"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "target": "https://example.org/raw",
+        "page": 1,
+        "rect": [
+          89.993,
+          655.35,
+          209.657,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "target": "https://example.org/raw",
+        "page": 1,
+        "rect": [
+          89.993,
+          655.35,
+          209.657,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      }
+    ],
+    "fidelity_classification": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F08_B.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F08_B__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "URI and link annotation survive; visible link-name association was not independently recoverable from the PDF structure"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "hyperlinks",
+    "source_value": [
+      {
+        "text": "https://example.org/raw",
+        "target": "https://example.org/raw",
+        "order": 1,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:hyperlink"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "target": null,
+        "page": 1,
+        "rect": [
+          89.993,
+          655.35,
+          209.657,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "target": null,
+        "page": 1,
+        "rect": [
+          89.993,
+          655.35,
+          209.657,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      }
+    ],
+    "fidelity_classification": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F08_B.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F08_B.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "destination link target or count differs from source"
+  },
+  "normalized_evidence_sha256_before": "7a90c8a2f6ecf63eb752c7c2f3808965e206589817a7083a01c93519c11af8f7",
+  "normalized_evidence_sha256_after": "e53d9c38a8afd0e8747633c65f29aa578b907f1ee7363d71f496c5b90b4830ee",
+  "extracted_evidence_changed": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "8f82aa8ea5253f06f72bcc34b6613381736764f443eeef193ef1b2313a26c2fc",
+    "classification": "OBSERVED_PARTIAL",
+    "raw_fidelity": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "b126ba4af64e9571bba292f3635b4b2e19034aede13c3a01e3f26e45cbaf895f",
+    "classification": "ALTERED",
+    "raw_fidelity": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": true,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "CLASSIFICATION_DETECTED",
+  "inconclusive_or_unsupported_reason": "classification changed after a valid applied mutation",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

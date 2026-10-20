@@ -1,0 +1,133 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:14.820415+00:00",
+  "fixture_id": "F06_B",
+  "feature_family": "inline_language",
+  "mutation_operator": "removed first inline StructElem /Lang",
+  "mutation_target": "inline /Lang",
+  "source_path": "experiments/v4/fixtures/F06_B.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F06_B__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F06_B.pdf",
+  "baseline_pdf_sha256": "033b1c8ad03cd98e4e1b97ec4179506d72350e3eb67e8c43e8d6c274c8255e9a",
+  "mutated_pdf_sha256": "b7193fd3b896c28330797f81881be47b5d57fbcb7a588d44e8d799613cb3f229",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "VERIFIED_PRESERVED",
+  "mutated_classification": "OBSERVED_PARTIAL",
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "inline_language",
+    "source_value": [
+      {
+        "text": "hola mundo ",
+        "language": "es-ES",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:r/w:rPr/w:lang"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "text": "",
+        "language": "es-ES",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1984498101072), '/Pg': IndirectObject(1, 0, 1984498101072), '/Lang': 'es-ES', '/K': [2]}",
+          "source": "StructElem/Lang"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "text": "",
+        "language": "es-ES",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1984498101072), '/Pg': IndirectObject(1, 0, 1984498101072), '/Lang': 'es-ES', '/K': [2]}",
+          "source": "StructElem/Lang"
+        }
+      }
+    ],
+    "fidelity_classification": "EXACT_PRESERVATION",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F06_B.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F06_B__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "inline_language",
+    "source_value": [
+      {
+        "text": "hola mundo ",
+        "language": "es-ES",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:r/w:rPr/w:lang"
+        }
+      }
+    ],
+    "destination_value": [],
+    "destination_representation": [],
+    "fidelity_classification": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F06_B.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F06_B.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "document language may survive while inline override is absent"
+  },
+  "normalized_evidence_sha256_before": "4d37e7c46e67f6e64425aa745efa701b25d5b28baa1fcb0d045f12e4b0a70533",
+  "normalized_evidence_sha256_after": "ca2ee13830d9c122269331fbd7b7c37316a597f58ff19e9b5311bcd76d0606ea",
+  "extracted_evidence_changed": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "a2887c2f226a92a2d56cad9be8664306d963c2a762f63adf1077812a339fae46",
+    "classification": "VERIFIED_PRESERVED",
+    "raw_fidelity": "EXACT_PRESERVATION",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "c412fc81f5ee999d21210221193d8d48e6a7b722f747c1e89260d6a7cf35015c",
+    "classification": "OBSERVED_PARTIAL",
+    "raw_fidelity": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": true,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "CLASSIFICATION_DETECTED",
+  "inconclusive_or_unsupported_reason": "classification changed after a valid applied mutation",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

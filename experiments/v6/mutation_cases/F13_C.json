@@ -1,0 +1,135 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:22.354772+00:00",
+  "fixture_id": "F13_C",
+  "feature_family": "captions",
+  "mutation_operator": "mutated first /Caption role",
+  "mutation_target": "/Caption",
+  "source_path": "experiments/v4/fixtures/F13_C.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F13_C__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F13_C.pdf",
+  "baseline_pdf_sha256": "c40caa2d4201f3bba875143f950b7bc0e4a7a081d8f249a91126b132df72d4b6",
+  "mutated_pdf_sha256": "67d5d1195cb33c9ca6cd2a7c33699579b9098c10cef2ff8ed3a686bf4caa498b",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "UNRESOLVED_EQUIVALENCE",
+  "mutated_classification": "UNRESOLVED_EQUIVALENCE",
+  "baseline_noncanonical_status": "UNRESOLVED_EQUIVALENCE",
+  "raw_semantic_evidence_before": {
+    "feature": "captions",
+    "source_value": [
+      {
+        "text": "Figure A. Caption before.",
+        "style": "Caption",
+        "order": 2,
+        "figure": null,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Caption"
+        }
+      },
+      {
+        "text": "Figure B. Caption after.",
+        "style": "Caption",
+        "order": 5,
+        "figure": "figure-2",
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Caption"
+        }
+      }
+    ],
+    "destination_value": [],
+    "destination_representation": [],
+    "fidelity_classification": "LOST",
+    "destination_accessibility": "INACCESSIBLE_FEATURE",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F13_C.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F13_C__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "captions",
+    "source_value": [
+      {
+        "text": "Figure A. Caption before.",
+        "style": "Caption",
+        "order": 2,
+        "figure": null,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Caption"
+        }
+      },
+      {
+        "text": "Figure B. Caption after.",
+        "style": "Caption",
+        "order": 5,
+        "figure": "figure-2",
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Caption"
+        }
+      }
+    ],
+    "destination_value": [],
+    "destination_representation": [],
+    "fidelity_classification": "LOST",
+    "destination_accessibility": "INACCESSIBLE_FEATURE",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F13_C.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F13_C.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  "normalized_evidence_sha256_before": "7665b01eeb9e94157bc7a62959e32b74f942ad3b09b09b92f4ff1c8ab8743294",
+  "normalized_evidence_sha256_after": "009c018fb794783f1ed0ae4d7ca75c9daf3f367baeaf196e8cc001c06868460f",
+  "extracted_evidence_changed": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "c8ab53f7208c0492fc6cdb3c05d9ea682b331b05f31676f120e07009cd146ebf",
+    "classification": "UNRESOLVED_EQUIVALENCE",
+    "raw_fidelity": "LOST",
+    "destination_accessibility": "INACCESSIBLE_FEATURE"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "c8ab53f7208c0492fc6cdb3c05d9ea682b331b05f31676f120e07009cd146ebf",
+    "classification": "UNRESOLVED_EQUIVALENCE",
+    "raw_fidelity": "LOST",
+    "destination_accessibility": "INACCESSIBLE_FEATURE"
+  },
+  "contracted_semantics_changed": false,
+  "classification_changed": false,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "UNCHANGED_CLASSIFICATION",
+  "inconclusive_or_unsupported_reason": "evidence changed without a contracted-semantics or classification change",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

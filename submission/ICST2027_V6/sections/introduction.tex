@@ -1,0 +1,31 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Accessibility information is authored in document representations, not only in visible appearance. A heading carries hierarchy, an image can carry an author-written alternative, a run can identify a language change, and a table can encode header relationships. These properties are often transformed before a document reaches its readers. A tagged PDF can therefore be structurally accessible while still changing or omitting a source property that an author deliberately supplied.
+
+This distinction is recognized by accessibility guidance. ATAG 2.0 addresses preservation during restructuring and recoding transformations when equivalent output mechanisms exist \cite{atag20}. The Revised Section 508 standards and EN 301 549 likewise motivate preservation of information provided for accessibility during format conversion \cite{section508,etsi301549}. The testing problem is not simply whether the destination has tags. It is whether a known source semantic survives a representation-changing transformation, and whether the available evidence is strong enough to claim that it did.
+
+Prior work studies accessible document conversion, PDF-to-HTML reconstruction, PDF remediation, and destination accessibility evaluation. Roig and Ribera examined office-document conversion to EPUB \cite{roig2015}; SciA11y reconstructs accessible HTML from scientific papers \cite{wang2021scia11y}; iTagPDF automates PDF accessibility metadata generation and improvement \cite{mowar2026}; and recent benchmarks study PDF accessibility evaluation and conversion services \cite{kumar2025,daisy2026,docaccessible2026}. A11yPreserve is narrower. It begins with controlled DOCX documents whose target properties are verified in the source, evaluates named DOCX-to-PDF pipelines, and separates demonstrated preservation from partial evidence, changed author values, confirmed absence, and unresolved equivalence. This is a bounded contribution to testing, not a claim that accessibility-conversion research is new.
+
+We ask four questions:
+
+\begin{itemize}
+\item \textbf{RQ1:} To what extent do the two prospectively frozen primary pipelines preserve selected source accessibility semantics across the controlled V4 corpus?
+\item \textbf{RQ2:} Which feature families exhibit verified preservation, partial preservation, alteration, confirmed loss, unresolved equivalence, or measurement difficulty?
+\item \textbf{RQ3:} How do preservation outcomes differ across the two primary pipelines, and what additional feature-level observations arise in the supplementary Word arm?
+\item \textbf{RQ4:} How does the source-grounded procedure behave under calibration, holdout evaluation, repeated conversion, and realistic multi-feature documents?
+\end{itemize}
+
+The contributions are fivefold: (1) a source-contract preservation methodology for controlled DOCX accessibility properties; (2) an uncertainty-aware cross-format oracle that abstains when equivalence is not established; (3) a prospectively frozen V4 benchmark with 13 families and five variants per family; (4) a primary empirical evaluation across two real DOCX-to-PDF pipelines plus a separately frozen full-corpus supplementary Word evaluation; and (5) calibration, source-oracle mutation, holdout, repeatability, and realistic-document evidence that bounds the reliability claims.
+
+The primary unit is a fixture--pipeline case, not a document-level accessibility score. The prospectively frozen primary experiment contains 130 cases; the later Word arm adds 65 supplementary observations, for 195 archived atomic fixture--pipeline outcomes in total. The results are descriptive of the recorded conditions and do not estimate prevalence, establish user harm, or rank converters globally.
+
+\begin{figure*}[t]
+\centering
+\fbox{\begin{minipage}{0.93\textwidth}
+\centering
+\textbf{Verified DOCX + source contract} $\longrightarrow$ \textbf{source/destination extraction} $\longrightarrow$ \textbf{feature comparison} $\longrightarrow$ \textbf{classification or abstention} $\longrightarrow$ \textbf{caveat and provenance record}
+\end{minipage}}
+\caption{Evidence architecture. A11yPreserve moves from a verified source contract through extraction and feature-specific comparison to a classification or abstention, while retaining the caveat and provenance record. Destination-only accessibility status is not treated as preservation evidence.}
+\label{fig:workflow}
+\end{figure*}

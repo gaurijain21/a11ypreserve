@@ -1,0 +1,1867 @@
+{
+  "fault_reference": "operator-applied and parseable mutation; this is a known-fault oracle, not a human correctness label",
+  "faults_evaluated": 59,
+  "summary": {
+    "tag_presence": {
+      "faults_evaluated": 59,
+      "detected_faults": 0,
+      "detection_rate": 0.0
+    },
+    "visible_text_equality": {
+      "faults_evaluated": 59,
+      "detected_faults": 0,
+      "detection_rate": 0.0
+    },
+    "destination_only_evidence": {
+      "faults_evaluated": 59,
+      "detected_faults": 16,
+      "detection_rate": 0.2711864406779661
+    },
+    "without_secondary_evidence": {
+      "faults_evaluated": 59,
+      "detected_faults": 46,
+      "detection_rate": 0.7796610169491526
+    },
+    "without_abstention": {
+      "faults_evaluated": 59,
+      "detected_faults": 16,
+      "detection_rate": 0.2711864406779661
+    },
+    "full_a11ypreserve": {
+      "faults_evaluated": 59,
+      "detected_faults": 46,
+      "detection_rate": 0.7796610169491526
+    }
+  },
+  "rows": [
+    {
+      "fixture_id": "F01_A",
+      "feature_family": "headings",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F01_B",
+      "feature_family": "headings",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F01_C",
+      "feature_family": "headings",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F01_D",
+      "feature_family": "headings",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F01_E",
+      "feature_family": "headings",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F02_A",
+      "feature_family": "alt_text",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F02_B",
+      "feature_family": "alt_text",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F02_C",
+      "feature_family": "alt_text",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F02_D",
+      "feature_family": "alt_text",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F02_E",
+      "feature_family": "alt_text",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F03_A",
+      "feature_family": "lists",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F03_B",
+      "feature_family": "lists",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F03_C",
+      "feature_family": "lists",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F03_D",
+      "feature_family": "lists",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": false,
+        "without_abstention": false,
+        "full_a11ypreserve": false
+      }
+    },
+    {
+      "fixture_id": "F03_E",
+      "feature_family": "lists",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": false,
+        "without_abstention": false,
+        "full_a11ypreserve": false
+      }
+    },
+    {
+      "fixture_id": "F04_A",
+      "feature_family": "basic_tables",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F04_B",
+      "feature_family": "basic_tables",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F04_C",
+      "feature_family": "basic_tables",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F04_D",
+      "feature_family": "basic_tables",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F04_E",
+      "feature_family": "basic_tables",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F05_A",
+      "feature_family": "document_language",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "CONFIRMED_LOST",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F05_B",
+      "feature_family": "document_language",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F05_C",
+      "feature_family": "document_language",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F05_D",
+      "feature_family": "document_language",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F05_E",
+      "feature_family": "document_language",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F06_A",
+      "feature_family": "inline_language",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F06_B",
+      "feature_family": "inline_language",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F06_C",
+      "feature_family": "inline_language",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F06_D",
+      "feature_family": "inline_language",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F06_E",
+      "feature_family": "inline_language",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F08_A",
+      "feature_family": "hyperlinks",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F08_B",
+      "feature_family": "hyperlinks",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F08_C",
+      "feature_family": "hyperlinks",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": false,
+        "without_abstention": false,
+        "full_a11ypreserve": false
+      }
+    },
+    {
+      "fixture_id": "F08_D",
+      "feature_family": "hyperlinks",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": false,
+        "without_abstention": false,
+        "full_a11ypreserve": false
+      }
+    },
+    {
+      "fixture_id": "F09_A",
+      "feature_family": "document_metadata",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F09_B",
+      "feature_family": "document_metadata",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F09_C",
+      "feature_family": "document_metadata",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F09_D",
+      "feature_family": "document_metadata",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F09_E",
+      "feature_family": "document_metadata",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F10_A",
+      "feature_family": "complex_tables",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": false,
+        "without_abstention": false,
+        "full_a11ypreserve": false
+      }
+    },
+    {
+      "fixture_id": "F10_B",
+      "feature_family": "complex_tables",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": false,
+        "without_abstention": false,
+        "full_a11ypreserve": false
+      }
+    },
+    {
+      "fixture_id": "F10_C",
+      "feature_family": "complex_tables",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F10_D",
+      "feature_family": "complex_tables",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F10_E",
+      "feature_family": "complex_tables",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": false,
+        "without_abstention": false,
+        "full_a11ypreserve": false
+      }
+    },
+    {
+      "fixture_id": "F11_A",
+      "feature_family": "footnotes",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "MEASUREMENT_ERROR",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "MEASUREMENT_ERROR",
+        "full_abstention": true
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F11_B",
+      "feature_family": "footnotes",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "MEASUREMENT_ERROR",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "MEASUREMENT_ERROR",
+        "full_abstention": true
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "MEASUREMENT_ERROR",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "MEASUREMENT_ERROR",
+        "full_abstention": true
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": false,
+        "without_abstention": false,
+        "full_a11ypreserve": false
+      }
+    },
+    {
+      "fixture_id": "F11_C",
+      "feature_family": "footnotes",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "MEASUREMENT_ERROR",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "MEASUREMENT_ERROR",
+        "full_abstention": true
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F11_D",
+      "feature_family": "footnotes",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "MEASUREMENT_ERROR",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "MEASUREMENT_ERROR",
+        "full_abstention": true
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F11_E",
+      "feature_family": "footnotes",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "MEASUREMENT_ERROR",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "MEASUREMENT_ERROR",
+        "full_abstention": true
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "MEASUREMENT_ERROR",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "MEASUREMENT_ERROR",
+        "full_abstention": true
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": false,
+        "without_abstention": false,
+        "full_a11ypreserve": false
+      }
+    },
+    {
+      "fixture_id": "F12_A",
+      "feature_family": "equations",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F12_B",
+      "feature_family": "equations",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F12_C",
+      "feature_family": "equations",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F12_D",
+      "feature_family": "equations",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": true,
+        "without_secondary_evidence": true,
+        "without_abstention": true,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F12_E",
+      "feature_family": "equations",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": false,
+        "without_abstention": false,
+        "full_a11ypreserve": false
+      }
+    },
+    {
+      "fixture_id": "F13_A",
+      "feature_family": "captions",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F13_B",
+      "feature_family": "captions",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": false,
+        "without_abstention": false,
+        "full_a11ypreserve": false
+      }
+    },
+    {
+      "fixture_id": "F13_C",
+      "feature_family": "captions",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": false,
+        "without_abstention": false,
+        "full_a11ypreserve": false
+      }
+    },
+    {
+      "fixture_id": "F13_D",
+      "feature_family": "captions",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": true,
+        "without_abstention": false,
+        "full_a11ypreserve": true
+      }
+    },
+    {
+      "fixture_id": "F13_E",
+      "feature_family": "captions",
+      "known_applied_valid_fault": true,
+      "baseline": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "mutated": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "detected_by": {
+        "tag_presence": false,
+        "visible_text_equality": false,
+        "destination_only_evidence": false,
+        "without_secondary_evidence": false,
+        "without_abstention": false,
+        "full_a11ypreserve": false
+      }
+    }
+  ]
+}

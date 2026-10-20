@@ -1,0 +1,141 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:21.361850+00:00",
+  "fixture_id": "F12_D",
+  "feature_family": "equations",
+  "mutation_operator": "mutated first /Formula role",
+  "mutation_target": "/Formula",
+  "source_path": "experiments/v4/fixtures/F12_D.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F12_D__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F12_D.pdf",
+  "baseline_pdf_sha256": "34fb30d7ab8757a2313aba0e1e6a47122ee9b09c83712440d3bdcce35ea07e4c",
+  "mutated_pdf_sha256": "7938b86f1e23ce0930fa955216ab9e7b67ce84b416e7f292966cf34ae7aac005",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "VERIFIED_PRESERVED",
+  "mutated_classification": "OBSERVED_PARTIAL",
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "equation",
+    "source_value": [
+      {
+        "expression": "√x=y",
+        "representation": "OMML",
+        "tokens": [
+          "√",
+          "x",
+          "=",
+          "y"
+        ],
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "m:oMath"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "expression": "",
+        "representation": "PDF /Formula",
+        "evidence": {
+          "pdf_role": "Formula",
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1984526547792), '/Pg': IndirectObject(1, 0, 1984526547792), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.662, '/Height': 0.267, '/BBox': [289.45, 654.9, 322.55, 668.25]}, '/K': [1]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "expression": "",
+        "representation": "PDF /Formula",
+        "evidence": {
+          "pdf_role": "Formula",
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1984526547792), '/Pg': IndirectObject(1, 0, 1984526547792), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.662, '/Height': 0.267, '/BBox': [289.45, 654.9, 322.55, 668.25]}, '/K': [1]}"
+        }
+      }
+    ],
+    "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F12_D.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F12_D__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "PDF /Formula structure is present and the visible expression is retained; token-level math extraction remains limited"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "equation",
+    "source_value": [
+      {
+        "expression": "√x=y",
+        "representation": "OMML",
+        "tokens": [
+          "√",
+          "x",
+          "=",
+          "y"
+        ],
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "m:oMath"
+        }
+      }
+    ],
+    "destination_value": [],
+    "destination_representation": [],
+    "fidelity_classification": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F12_D.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F12_D.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "equation rendering is present in page text/content, but no machine-readable PDF math structure was extracted"
+  },
+  "normalized_evidence_sha256_before": "b6ae9e565b028c91a72c4eeae4e01cff3f4068db0452702b59bda6d0a4d64381",
+  "normalized_evidence_sha256_after": "0906b59a690061b06d0b78ee3936d27cd1992f24aadbdabaa66f2dc06170b3dd",
+  "extracted_evidence_changed": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "7c72a4e22c7793f1f263e0a39e24bd72a9c38b5f7b97410da11e8737539b9689",
+    "classification": "VERIFIED_PRESERVED",
+    "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "28257817c94a8c4a442aae43f70744dd791110f76b13ac6a300fa8bc4659aec3",
+    "classification": "OBSERVED_PARTIAL",
+    "raw_fidelity": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": true,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "CLASSIFICATION_DETECTED",
+  "inconclusive_or_unsupported_reason": "classification changed after a valid applied mutation",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

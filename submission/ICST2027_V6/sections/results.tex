@@ -1,0 +1,87 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Overall accounting}
+Table~\ref{tab:overall} reports the complete primary atomic accounting, with the post-freeze Word arm shown separately as supplementary. No global score or weighted ranking is computed.
+
+\begin{table}[t]
+\centering\footnotesize
+\caption{Primary atomic V4 outcomes for LibreOffice and Google Docs (P), with Microsoft Word reported separately as a supplementary condition (S). Each column contains 65 cases.}
+\label{tab:overall}
+\begin{tabular}{lrrr}
+\toprule
+Classification & LibreOffice (P) & Google Docs (P) & Word (S) \\
+\midrule
+\verified & 38 & 11 & 16 \\
+\partialresult & 11 & 32 & 26 \\
+\alteredresult & 9 & 11 & 16 \\
+\lostresult & 1 & 6 & 2 \\
+\unresolvedresult & 1 & 5 & 0 \\
+\measurementresult & 5 & 0 & 5 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The verified-preserved counts differ across these recorded conditions, while the three pipelines exhibit different mixtures of partial, altered, lost, unresolved, and measurement-error outcomes. These aggregate counts are not a product ranking: the corpus is controlled and purposive, the categories are not a weighted utility score, and Word's 65 observations are supplementary rather than directly comparable prospective treatment data.
+
+\subsection{Feature-level matrix}
+Table~\ref{tab:matrix} exposes the five variants within every family. Entries are in frozen source-manifest order and use V = verified preserved, P = observed partial, A = altered, L = confirmed lost, U = unresolved equivalence, and M = measurement error. The matrix is the central result because it preserves heterogeneity hidden by aggregate counts.
+
+\begin{table*}[t]
+\centering\scriptsize
+\caption{V4 feature-family matrix across five variants. LibreOffice and Google Docs are primary (P); Word is supplementary (S). Entries are in frozen variant order.}
+\label{tab:matrix}
+\begin{tabular}{p{0.22\textwidth}p{0.25\textwidth}p{0.25\textwidth}p{0.25\textwidth}}
+\toprule
+Feature family & LibreOffice (P) & Google Docs (P) & Word (S) \\
+\midrule
+Headings & V/V/V/V/V & P/P/P/P/P & P/P/P/P/P \\
+Alternative text & A/A/A/A/A & V/V/V/V/V & A/A/A/A/A \\
+Lists & V/V/V/P/P & P/P/P/P/P & V/P/V/P/P \\
+Basic tables & V/V/V/V/V & V/V/V/V/V & P/P/P/P/P \\
+Document language & V/V/V/V/V & A/A/A/A/A & A/A/A/A/A \\
+Inline language & V/V/V/V/A & L/L/L/L/L & A/A/A/A/A \\
+Decorative images & P/A/P/P/P & P/V/P/P/P & P/A/P/P/P \\
+Hyperlinks & P/P/A/A/L & P/P/P/P/A & P/P/P/P/L \\
+Document metadata & V/V/V/V/V & A/A/A/A/A & V/V/V/V/V \\
+Complex tables & P/P/V/V/P & P/P/P/P/P & P/P/P/P/P \\
+Footnotes & M/M/M/M/M & U/U/U/U/U & M/M/M/M/M \\
+Equations & V/V/V/V/V & P/P/P/P/P & V/V/V/V/V \\
+Captions & V/V/U/V/V & P/P/L/P/P & V/V/L/V/V \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+The matrix shows several distinct behaviors. LibreOffice preserved headings, basic tables, document language, equations, and most inline-language variants, but altered all alternative-text variants. Google Docs preserved all alternative-text variants and basic tables, but all inline-language variants were confirmed lost. Word preserved all document-metadata and equation variants, while its headings and basic-table variants were partial and its alternative-text variants were altered. Footnotes remained measurement-bound in LibreOffice and Word and unresolved in Google Docs. These labels concern the contracted machine-observable semantics, not visible-text survival alone.
+
+\subsection{Holdout, calibration, and reliability checks}
+Table~\ref{tab:checks} separates the prospective holdout and diagnostic arms from the primary matrix.
+
+\begin{table*}[t]
+\centering\footnotesize
+\caption{V4 validation and secondary-arm summary.}
+\label{tab:checks}
+\begin{tabular}{p{0.22\textwidth}p{0.24\textwidth}p{0.24\textwidth}p{0.24\textwidth}}
+\toprule
+Arm & LibreOffice (P) & Google Docs (P) & Word (S) \\
+\midrule
+26-case holdout & 14 preserved, 5 partial, 4 altered, 1 lost, 2 measurement errors & 4 preserved, 13 partial, 5 altered, 2 lost, 2 unresolved & 6 preserved, 11 partial, 6 altered, 1 lost, 2 measurement errors \\
+Calibration & 78 controls: 60 correct, 0 false positives, 5 conservative false negatives, 13 correct abstentions & Same diagnostic set & Same diagnostic set \\
+Source-oracle mutation & 39/39 deliberate source mutations detected & Same source audit & Same source audit \\
+Repeatability & 6 variants $\times$ 3 runs; classifications stable 6/6; normalized semantics stable 6/6; byte identity 0/6 & 6 variants $\times$ 3 runs; classifications stable 6/6; normalized semantics stable 6/6; byte identity 6/6 & 6 variants $\times$ 3 runs; classifications stable 6/6; normalized semantics stable 6/6; byte identity 0/6 \\
+Realistic arm & 10 project-created documents, 78 contracts, 20 PDFs total & Same primary arm & 10 supplementary PDFs; 78 contracts evaluated \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+The supplementary Word arm produced 16 verified-preserved, 26 observed-partial, 16 altered, 2 confirmed-lost, no unresolved-equivalence, and 5 measurement-error outcomes across the same 65 atomic fixtures. Because Word was evaluated after the prospectively frozen primary experiment, these 65 outcomes are reported separately rather than pooled into the 130-case primary denominator and are not directly comparable as prospective treatment data. The calibration false negatives are conservative evidence-boundary cases, not false-positive comparator behavior. In the repeatability audit, normalized semantic evidence and classifications remained stable 6/6 for all three pipelines. Google PDFs were byte-identical for all six selected variants; Word PDFs were byte-identical for none of the six. LibreOffice byte differences were attributable to metadata such as creation time; the normalized semantic record remained stable. Raw extraction identity is not claimed as a scientific stability unit because records contain route-specific paths and process-local object addresses.
+
+\subsection{Confirmed losses, alterations, and unresolved cases}
+The Google inline-language rows are confirmed lost under the contract: the source contains a non-default run-level language value, while independent destination checks find no required inline language span or equivalent marker. Visible text remains, but visible text is not the source language semantic. The Google footnote rows likewise retain visible reference and note text but lack independently recoverable machine-verifiable association structure.
+
+The nine LibreOffice altered cases include the five alternative-text variants, where the destination retains related image description content but changes the author-provided value; the Google altered cases include document language, metadata, and one hyperlink result. The five Google unresolved footnote rows and the one LibreOffice unresolved caption variant remain unresolved rather than being forced into loss or preservation. LibreOffice's five footnote measurement errors retain relevant note structure, but the evidence cannot establish the body/reference relation reliably.
+
+\subsection{Realistic documents}
+The realistic arm produced 53 preserved, 5 partial, 15 altered, and 5 measurement-error observations for LibreOffice, and 20 preserved, 33 partial, 10 altered, and 15 confirmed-lost observations for Google Docs. These 156 property--pipeline observations show that the contracts remain usable when features coexist, but they are project-created integrated evidence, not a natural external corpus and not a prevalence estimate.
+
+The supplementary Word realistic arm adds 10 genuine Word PDFs and 78 contract observations: 23 verified-preserved, 25 observed-partial, 25 altered, and 5 measurement-error outcomes. It is reported separately from the primary realistic arm.

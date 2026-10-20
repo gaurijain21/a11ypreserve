@@ -1,0 +1,37 @@
+\section{A11yPreserve Method}
+\label{sec:method}
+
+A11yPreserve treats accessibility preservation as a source-to-destination comparison problem. An exact frozen DOCX is converted by a named system under test. Source evidence establishes a contract for one accessibility property; destination extraction supplies observations; and a comparison rule assigns a classification only when the evidence supports it. This framing is narrower than asking whether a PDF is accessible in every respect.
+
+\subsection{Source contracts}
+A feature contract is a machine-readable statement of the source property, its expected representation, the evidence needed to verify the source, the destination structures that can express the property, and the comparison boundary. Contracts are feature-specific because a heading hierarchy, an image alternative, a language span, a footnote association, and a table-header relation have different source and destination representations. The contract is not a weighted accessibility score and does not assert that all feature families have equal importance.
+
+\subsection{Evidence architecture and measurement boundary}
+The evidence architecture is deliberately linear: a verified source contract is paired with source and destination extraction; a feature-specific comparator then assigns a classification or abstains; the record retains the missing-evidence caveat and provenance. The protocol measures semantic preservation of selected contracted properties. It does not measure byte-for-byte serialization identity, PDF/A or PDF/UA conformance, or human usability. Those are separate questions: serialization identity concerns output encoding, conformance requires a standards-based validator, and usability requires human task or user evaluation. A tagged PDF is therefore evidence about destination structure only, not proof of any of the latter properties.
+
+\subsection{Source verification and oracle paths}
+The source-verification chain uses the frozen source manifest, raw OOXML inspection, and a source accessibility intermediate representation where applicable. Raw checks inspect the DOCX ZIP/XML parts relevant to the contract: document paragraphs and styles, drawing descriptions and relationships, numbering, language properties, tables, metadata, footnotes, equations, captions, and links. A separately implemented raw-OOXML oracle performs fresh ZIP/XML assertions without importing fixture-generation, manifest-generation, ASIR, destination-extraction, or comparator code. It detected all 39 source-oracle mutations used in the final audit.
+
+The oracle path is a stronger cross-check against extractor-only mistakes, not external validation. It was implemented and reviewed by the same research team, and no disabled-user panel or independent external expert adjudication is claimed. The source files and manifest hashes were frozen before the final V4 conversion results.
+
+\subsection{Conversion systems under test}
+Both primary systems receive the identical frozen DOCX source and produce a tagged PDF. The LibreOffice condition used LibreOffice 26.2.6.3, Writer's \texttt{writer\_pdf\_Export}, \texttt{UseTaggedPDF=true}, \texttt{PDFUACompliance=true}, \texttt{SelectPdfVersion=1}, and an isolated profile. The Google Docs condition used an authenticated Chrome 154.0.8037.97 session, exact DOCX upload, import completion, and the visible File $\rightarrow$ Download $\rightarrow$ PDF Document (.pdf) action. Each primary conversion manifest contains 75 records: 65 atomic fixture records plus 10 project-created realistic integrated-document records. All 75 records in each manifest use the recorded UI-download route. Google output records observed the producer \texttt{Skia/PDF m156 Google Docs Renderer}; its internal service version cannot be pinned.
+
+No content editing, print-to-PDF, screenshot conversion, post-export repair, or V3 PDF relabeling was used. Microsoft Word was evaluated separately after the primary freeze. Its native desktop GUI export used the same frozen DOCX inputs and produced valid tagged PDFs; Word is reported as a supplementary third pipeline rather than as a third prospective primary condition and is not directly comparable as a prospective treatment. External COM automation still failed with 0x80070520, but that interface limitation did not change the converter under test or the GUI export route.
+
+\subsection{Destination evidence}
+Each output record retains source and output SHA-256 values, converter metadata, timestamps, output size, PDF signature, parseability, page count, tagging observation, producer, route, and error status. Destination extraction traverses structure-tree roles and relevant objects, including headings, figures and alternative text, list containers, table and header roles, document and span language, link annotations, metadata, notes, formulas, captions, and raw object markers. pypdf traversal is supplemented by PyMuPDF text/link evidence, raw serialized-object inspection, and Poppler text extraction for difficult cases. These paths reduce but do not eliminate parser uncertainty.
+
+\subsection{Evidence-aware comparison}
+The six frozen classifications are:
+
+\begin{itemize}
+\item \textbf{Verified preserved:} The destination expresses the contracted property exactly or through a verified accepted equivalent with independent evidence.
+\item \textbf{Observed partial:} Some required components survive, while another representable component is directly demonstrated to differ or be absent.
+\item \textbf{Altered:} The feature remains present but an author-relevant value changes, such as alternative-text wording, language specificity, or title metadata.
+\item \textbf{Confirmed lost:} The source property is valid and representable in PDF, but independent destination checks corroborate absence of the required representation.
+\item \textbf{Unresolved equivalence:} Relevant structure or visible content exists, but the available evidence cannot establish cross-format equivalence; absence is not treated as loss.
+\item \textbf{Measurement error:} The output is valid and relevant structure exists, but the available evidence cannot reliably resolve the contract.
+\end{itemize}
+
+Abstention is a scientific outcome: it prevents a parser limitation or representational ambiguity from becoming an unjustified pass or fail. The primary analysis uses the frozen comparator and taxonomy without post-result rule changes.

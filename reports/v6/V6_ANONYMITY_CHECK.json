@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scanned_roots": [
+    "experiments/v6",
+    "reports/v6",
+    "submission/ICST2027_V6"
+  ],
+  "findings": []
+}

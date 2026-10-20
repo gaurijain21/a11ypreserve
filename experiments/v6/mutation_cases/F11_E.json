@@ -1,0 +1,233 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:20.546594+00:00",
+  "fixture_id": "F11_E",
+  "feature_family": "footnotes",
+  "mutation_operator": "mutated first /Note role",
+  "mutation_target": "/Note",
+  "source_path": "experiments/v4/fixtures/F11_E.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F11_E__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F11_E.pdf",
+  "baseline_pdf_sha256": "cf98527fa32f94b7cce18f567115ada3ef0aac696fd9e4f84e3a09a50040a50c",
+  "mutated_pdf_sha256": "9f99709c9db49926b7d0a1aae9e5c54930b7455d1fc296e270bb2b8000dd148a",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "MEASUREMENT_ERROR",
+  "mutated_classification": "MEASUREMENT_ERROR",
+  "baseline_noncanonical_status": "MEASUREMENT_ERROR",
+  "raw_semantic_evidence_before": {
+    "feature": "footnotes",
+    "source_value": [
+      {
+        "kind": "footnote",
+        "id": 1,
+        "text": "Note in section one.",
+        "evidence": {
+          "ooxml": "word/footnotes.xml",
+          "reference": "word/document.xml/w:footnoteReference"
+        }
+      },
+      {
+        "kind": "footnote",
+        "id": 2,
+        "text": "Note in section two.",
+        "evidence": {
+          "ooxml": "word/footnotes.xml",
+          "reference": "word/document.xml/w:footnoteReference"
+        }
+      },
+      {
+        "kind": "footnote",
+        "id": 3,
+        "text": "Third note.",
+        "evidence": {
+          "ooxml": "word/footnotes.xml",
+          "reference": "word/document.xml/w:footnoteReference"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id14', '/P': IndirectObject(13, 0, 1984462190864), '/Pg': IndirectObject(1, 0, 1984462190864), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(15, 0, 1984462190864), IndirectObject(17, 0, 1984462190864)]}"
+        }
+      },
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id18', '/P': IndirectObject(13, 0, 1984462190864), '/Pg': IndirectObject(1, 0, 1984462190864), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(19, 0, 1984462190864), IndirectObject(21, 0, 1984462190864)]}"
+        }
+      },
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id22', '/P': IndirectObject(13, 0, 1984462190864), '/Pg': IndirectObject(1, 0, 1984462190864), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(23, 0, 1984462190864), IndirectObject(25, 0, 1984462190864)]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id14', '/P': IndirectObject(13, 0, 1984462190864), '/Pg': IndirectObject(1, 0, 1984462190864), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(15, 0, 1984462190864), IndirectObject(17, 0, 1984462190864)]}"
+        }
+      },
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id18', '/P': IndirectObject(13, 0, 1984462190864), '/Pg': IndirectObject(1, 0, 1984462190864), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(19, 0, 1984462190864), IndirectObject(21, 0, 1984462190864)]}"
+        }
+      },
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id22', '/P': IndirectObject(13, 0, 1984462190864), '/Pg': IndirectObject(1, 0, 1984462190864), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(23, 0, 1984462190864), IndirectObject(25, 0, 1984462190864)]}"
+        }
+      }
+    ],
+    "fidelity_classification": "MEASUREMENT_ERROR",
+    "destination_accessibility": "UNKNOWN",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F11_E.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F11_E__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "PDF /Note structure exists, but marked-content extraction did not recover note-body text for association verification"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "footnotes",
+    "source_value": [
+      {
+        "kind": "footnote",
+        "id": 1,
+        "text": "Note in section one.",
+        "evidence": {
+          "ooxml": "word/footnotes.xml",
+          "reference": "word/document.xml/w:footnoteReference"
+        }
+      },
+      {
+        "kind": "footnote",
+        "id": 2,
+        "text": "Note in section two.",
+        "evidence": {
+          "ooxml": "word/footnotes.xml",
+          "reference": "word/document.xml/w:footnoteReference"
+        }
+      },
+      {
+        "kind": "footnote",
+        "id": 3,
+        "text": "Third note.",
+        "evidence": {
+          "ooxml": "word/footnotes.xml",
+          "reference": "word/document.xml/w:footnoteReference"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id18', '/P': IndirectObject(32, 0, 1984529821456), '/Pg': IndirectObject(13, 0, 1984529821456), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(38, 0, 1984529821456), IndirectObject(40, 0, 1984529821456)]}"
+        }
+      },
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id22', '/P': IndirectObject(32, 0, 1984529821456), '/Pg': IndirectObject(13, 0, 1984529821456), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(42, 0, 1984529821456), IndirectObject(44, 0, 1984529821456)]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id18', '/P': IndirectObject(32, 0, 1984529821456), '/Pg': IndirectObject(13, 0, 1984529821456), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(38, 0, 1984529821456), IndirectObject(40, 0, 1984529821456)]}"
+        }
+      },
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id22', '/P': IndirectObject(32, 0, 1984529821456), '/Pg': IndirectObject(13, 0, 1984529821456), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(42, 0, 1984529821456), IndirectObject(44, 0, 1984529821456)]}"
+        }
+      }
+    ],
+    "fidelity_classification": "MEASUREMENT_ERROR",
+    "destination_accessibility": "UNKNOWN",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F11_E.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F11_E.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "PDF /Note structure exists, but marked-content extraction did not recover note-body text for association verification"
+  },
+  "normalized_evidence_sha256_before": "57a0f5e9a69bc44502e9f96b840e87f433f539996ef7be8d988042055a1e1b38",
+  "normalized_evidence_sha256_after": "94cb36cb3c47b8d03a73ff99c81a9acc75b9fce5c4cbe9229f5a9c0baeb619a2",
+  "extracted_evidence_changed": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "19be135c0d30db3f266820bc25f5947134469d6db0dba0caf62cc5f1fc569c42",
+    "classification": "MEASUREMENT_ERROR",
+    "raw_fidelity": "MEASUREMENT_ERROR",
+    "destination_accessibility": "UNKNOWN"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "daf60569c5241b689ed15160a53bb69bb4cd94ebaac68d64a3f78b9642b80301",
+    "classification": "MEASUREMENT_ERROR",
+    "raw_fidelity": "MEASUREMENT_ERROR",
+    "destination_accessibility": "UNKNOWN"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": false,
+  "genuinely_undetected": true,
+  "semantically_meaningful_survival": true,
+  "outcome_status": "SEMANTICALLY_MEANINGFUL_SURVIVAL",
+  "inconclusive_or_unsupported_reason": "contracted evidence changed but coarse classification did not",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

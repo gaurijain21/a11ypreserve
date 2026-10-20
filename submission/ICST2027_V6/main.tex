@@ -1,0 +1,54 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage{amsmath,amssymb}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\setlength{\tabcolsep}{1.5pt}
+
+\newcommand{\verified}{\textsc{verified preserved}}
+\newcommand{\partialresult}{\textsc{observed partial}}
+\newcommand{\alteredresult}{\textsc{altered}}
+\newcommand{\lostresult}{\textsc{confirmed lost}}
+\newcommand{\unresolvedresult}{\textsc{unresolved equivalence}}
+\newcommand{\measurementresult}{\textsc{measurement error}}
+
+\title{A11yPreserve: Source-Grounded Testing of Accessibility Preservation in DOCX-to-PDF Conversion}
+\author{Anonymous for review}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Author-supplied accessibility information in a DOCX document can be changed, removed, or represented differently during conversion even when the destination PDF is tagged. We present A11yPreserve, a source-grounded testing protocol that freezes feature contracts, verifies source OOXML, converts identical documents through named real pipelines, extracts multiple forms of PDF evidence, and compares cross-format semantics with explicit abstention. The prospectively frozen V4 primary benchmark contains 13 accessibility feature families, five controlled variants per family, 65 atomic DOCX fixtures, and 130 fixture--pipeline cases across LibreOffice and Google Docs. A V6 rerun genuinely recomputed all 65 LibreOffice baseline controls: 0/65 classifications disagreed with the frozen analysis, with 0/65 extraction failures and 0/65 normalized evidence differences. A richer destination mutation audit found 59 valid applied mutants, 46/59 coarse-classification detections, and 10 semantically meaningful survivors. Executable baselines detected 0/59 injected faults for tag presence and visible-text equality, 16/59 for destination-only evidence, and 46/59 for the full source-grounded method. Microsoft Word remains a post-freeze supplementary 65-observation arm. The findings are descriptive of the recorded conditions: the contribution is an auditable testing methodology for selected machine-verifiable semantics, not a complete accessibility assessment or universal converter ranking.
+\end{abstract}
+
+\begin{IEEEkeywords}
+document conversion, accessibility preservation, DOCX, PDF, source contracts, differential testing, testing oracles
+\end{IEEEkeywords}
+
+% V4 sections are retained as the frozen evidence base. V6 hardening is additive.
+\input{sections/introduction}
+\input{sections/background}
+\input{sections/method}
+\input{sections/design}
+\input{sections/results}
+\input{sections/discussion}
+\input{v6_hardening}
+\input{sections/threats}
+\input{sections/conclusion}
+
+\section*{Data and Software Availability}
+The anonymous submission bundle contains the manuscript sources, frozen source contracts, conversion manifests, extracted evidence, V5 historical audit records, V6 per-case traces, and reproduction scripts needed to inspect the reported calculations. V4/V5 material remains historical provenance; V6 is additive. Re-running LibreOffice requires the recorded local converter configuration; re-running Google Docs requires an authorized interactive session and is not fully offline-reproducible. No credentials, cookies, browser profiles, private account material, or natural-document corpus are distributed. The software is provided for research inspection and reproduction; final public licensing and citation metadata remain author decisions.
+
+\section*{AI Disclosure}
+OpenAI ChatGPT and OpenAI Codex assisted with drafting and restructuring portions of the manuscript, with adversarial review, and with V6 verification scripts, evidence reports, manuscript edits, and package documentation. The assistance affected the abstract, methodology/results/threats/conclusion framing, V6 audit code, and reproducibility documentation. These systems were not used as experimental ground truth, independent human validation, or autonomous decision-makers for frozen classifications or final scientific conclusions. Human verification of references, code, experimental results, and final claims remains an explicit pre-submission checklist item; this disclosure does not claim that such verification was completed by the agent.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

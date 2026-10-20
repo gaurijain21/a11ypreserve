@@ -1,0 +1,151 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:21.836378+00:00",
+  "fixture_id": "F13_A",
+  "feature_family": "captions",
+  "mutation_operator": "mutated first /Caption role",
+  "mutation_target": "/Caption",
+  "source_path": "experiments/v4/fixtures/F13_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F13_A__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F13_A.pdf",
+  "baseline_pdf_sha256": "1471d860b80831fb3b324757fd47a7948144e938cbdcc402dd87dbfb94ba92ed",
+  "mutated_pdf_sha256": "de6984149f2cfc174aecd86f2366ca62fe02c096f7c3d0f443caa67755a1c32d",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "VERIFIED_PRESERVED",
+  "mutated_classification": "OBSERVED_PARTIAL",
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "captions",
+    "source_value": [
+      {
+        "text": "Figure 1. Workflow.",
+        "style": "Caption",
+        "order": 3,
+        "figure": "figure-1",
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Caption"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "text": "Figure 1. Workflow.",
+        "association": "PDF /Caption structure plus ordered page-text evidence",
+        "evidence": {
+          "pdf_text": true,
+          "pdf_caption_role": true
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "text": "Figure 1. Workflow.",
+        "association": "PDF /Caption structure plus ordered page-text evidence",
+        "evidence": {
+          "pdf_text": true,
+          "pdf_caption_role": true
+        }
+      }
+    ],
+    "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F13_A.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F13_A__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "caption text and PDF /Caption structure are present"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "captions",
+    "source_value": [
+      {
+        "text": "Figure 1. Workflow.",
+        "style": "Caption",
+        "order": 3,
+        "figure": "figure-1",
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Caption"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "text": "Figure 1. Workflow.",
+        "association": "ordered page-text adjacency",
+        "evidence": {
+          "pdf_text": true,
+          "pdf_caption_role": false
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "text": "Figure 1. Workflow.",
+        "association": "ordered page-text adjacency",
+        "evidence": {
+          "pdf_text": true,
+          "pdf_caption_role": false
+        }
+      }
+    ],
+    "fidelity_classification": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F13_A.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F13_A.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "caption text survives but destination association is established only by ordered page-text adjacency"
+  },
+  "normalized_evidence_sha256_before": "75dbe613877c7f088c081ac2a63a36bb510483fc00903d173f32a7bc317ea5e1",
+  "normalized_evidence_sha256_after": "a20987f190d2c225304b33d9e00f865cb4b21c463230f2e710d111532a1e3184",
+  "extracted_evidence_changed": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "acfb25530eed4e4412c80c635a6fbd78260646a1593985308c203deb919e3fd5",
+    "classification": "VERIFIED_PRESERVED",
+    "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "c108acc05a40a68ca6182afc11876775697fb57040c4f562852a9a92e101bcda",
+    "classification": "OBSERVED_PARTIAL",
+    "raw_fidelity": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": true,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "CLASSIFICATION_DETECTED",
+  "inconclusive_or_unsupported_reason": "classification changed after a valid applied mutation",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

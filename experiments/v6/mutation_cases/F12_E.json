@@ -1,0 +1,205 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:21.612029+00:00",
+  "fixture_id": "F12_E",
+  "feature_family": "equations",
+  "mutation_operator": "mutated first /Formula role",
+  "mutation_target": "/Formula",
+  "source_path": "experiments/v4/fixtures/F12_E.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F12_E__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F12_E.pdf",
+  "baseline_pdf_sha256": "fc20676bd6f3c1d5e1ba06de040df258bca3f1ff7ae4aed76ce2991bd149ddb0",
+  "mutated_pdf_sha256": "713e5c9d57d7b1a026d29b15d5e2379fd2aed881f54e31773e4d37085a7b7bcb",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "VERIFIED_PRESERVED",
+  "mutated_classification": "VERIFIED_PRESERVED",
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "equation",
+    "source_value": [
+      {
+        "expression": "E=mc2",
+        "representation": "OMML",
+        "tokens": [
+          "E",
+          "=",
+          "m",
+          "c",
+          "2"
+        ],
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "m:oMath"
+        }
+      },
+      {
+        "expression": "F=ma",
+        "representation": "OMML",
+        "tokens": [
+          "F",
+          "=",
+          "m",
+          "a"
+        ],
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "m:oMath"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "expression": "",
+        "representation": "PDF /Formula",
+        "evidence": {
+          "pdf_role": "Formula",
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1984528249680), '/Pg': IndirectObject(1, 0, 1984528249680), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.868, '/Height': 0.267, '/BBox': [284.3, 654.9, 327.7, 668.25]}, '/K': [1]}"
+        }
+      },
+      {
+        "expression": "",
+        "representation": "PDF /Formula",
+        "evidence": {
+          "pdf_role": "Formula",
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(8, 0, 1984528249680), '/Pg': IndirectObject(1, 0, 1984528249680), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.733, '/Height': 0.267, '/BBox': [287.7, 629.65, 324.35, 643]}, '/K': [2]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "expression": "",
+        "representation": "PDF /Formula",
+        "evidence": {
+          "pdf_role": "Formula",
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(6, 0, 1984528249680), '/Pg': IndirectObject(1, 0, 1984528249680), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.868, '/Height': 0.267, '/BBox': [284.3, 654.9, 327.7, 668.25]}, '/K': [1]}"
+        }
+      },
+      {
+        "expression": "",
+        "representation": "PDF /Formula",
+        "evidence": {
+          "pdf_role": "Formula",
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(8, 0, 1984528249680), '/Pg': IndirectObject(1, 0, 1984528249680), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.733, '/Height': 0.267, '/BBox': [287.7, 629.65, 324.35, 643]}, '/K': [2]}"
+        }
+      }
+    ],
+    "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F12_E.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F12_E__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "PDF /Formula structure is present and the visible expression is retained; token-level math extraction remains limited"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "equation",
+    "source_value": [
+      {
+        "expression": "E=mc2",
+        "representation": "OMML",
+        "tokens": [
+          "E",
+          "=",
+          "m",
+          "c",
+          "2"
+        ],
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "m:oMath"
+        }
+      },
+      {
+        "expression": "F=ma",
+        "representation": "OMML",
+        "tokens": [
+          "F",
+          "=",
+          "m",
+          "a"
+        ],
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "m:oMath"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "expression": "",
+        "representation": "PDF /Formula",
+        "evidence": {
+          "pdf_role": "Formula",
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(25, 0, 1984528021136), '/Pg': IndirectObject(17, 0, 1984528021136), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.733, '/Height': 0.267, '/BBox': [287.7, 629.65, 324.35, 643]}, '/K': [2]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "expression": "",
+        "representation": "PDF /Formula",
+        "evidence": {
+          "pdf_role": "Formula",
+          "object": "{'/Type': '/StructElem', '/S': '/Formula', '/P': IndirectObject(25, 0, 1984528021136), '/Pg': IndirectObject(17, 0, 1984528021136), '/A': {'/O': '/Layout', '/Placement': '/Block', '/Width': 0.733, '/Height': 0.267, '/BBox': [287.7, 629.65, 324.35, 643]}, '/K': [2]}"
+        }
+      }
+    ],
+    "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F12_E.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F12_E.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "PDF /Formula structure is present and the visible expression is retained; token-level math extraction remains limited"
+  },
+  "normalized_evidence_sha256_before": "d2e2c620133cb8c4a4f446e298f259398f0fd30aca98347d915ba43358f2aee9",
+  "normalized_evidence_sha256_after": "59c4d525b6e8bf43542be18c9acd071b0936076bbbf3c89592343c822522524c",
+  "extracted_evidence_changed": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "82621db90245f4c4a01aa1ce3f913793efd99b4ac6c11fe82dc883540c63e675",
+    "classification": "VERIFIED_PRESERVED",
+    "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "63c620891b0f22cbff572d467502b434c0e34ed4967ad5fb777701d24c5272de",
+    "classification": "VERIFIED_PRESERVED",
+    "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": false,
+  "genuinely_undetected": true,
+  "semantically_meaningful_survival": true,
+  "outcome_status": "SEMANTICALLY_MEANINGFUL_SURVIVAL",
+  "inconclusive_or_unsupported_reason": "contracted evidence changed but coarse classification did not",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

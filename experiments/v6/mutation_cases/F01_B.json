@@ -1,0 +1,265 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:09.743583+00:00",
+  "fixture_id": "F01_B",
+  "feature_family": "headings",
+  "mutation_operator": "mutated first /H1 role",
+  "mutation_target": "/H1",
+  "source_path": "experiments/v4/fixtures/F01_B.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F01_B__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F01_B.pdf",
+  "baseline_pdf_sha256": "5d6e74e06d0ba9eb5e281d1de13f95c16607ee1f2bc3635bf61c821caec44124",
+  "mutated_pdf_sha256": "57038cb6651a30f2fe2578794175f7f23775148aa4526150ff1231d16186addd",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "VERIFIED_PRESERVED",
+  "mutated_classification": "OBSERVED_PARTIAL",
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "headings",
+    "source_value": [
+      {
+        "text": "Overview",
+        "level": 1,
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Heading1"
+        }
+      },
+      {
+        "text": "Context",
+        "level": 2,
+        "order": 3,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Heading2"
+        }
+      },
+      {
+        "text": "Details",
+        "level": 3,
+        "order": 4,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Heading3"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "text": "",
+        "level": 1,
+        "evidence": {
+          "pdf_role": "H1",
+          "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(4, 0, 1984524560080), '/Pg': IndirectObject(1, 0, 1984524560080), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.48}, '/K': [1]}"
+        }
+      },
+      {
+        "text": "",
+        "level": 2,
+        "evidence": {
+          "pdf_role": "H2",
+          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 1984524560080), '/Pg': IndirectObject(1, 0, 1984524560080), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.251}, '/K': [2]}"
+        }
+      },
+      {
+        "text": "",
+        "level": 3,
+        "evidence": {
+          "pdf_role": "H3",
+          "object": "{'/Type': '/StructElem', '/S': '/H3', '/P': IndirectObject(4, 0, 1984524560080), '/Pg': IndirectObject(1, 0, 1984524560080), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.247}, '/K': [3]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "text": "",
+        "level": 1,
+        "evidence": {
+          "pdf_role": "H1",
+          "object": "{'/Type': '/StructElem', '/S': '/H1', '/P': IndirectObject(4, 0, 1984524560080), '/Pg': IndirectObject(1, 0, 1984524560080), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.48}, '/K': [1]}"
+        }
+      },
+      {
+        "text": "",
+        "level": 2,
+        "evidence": {
+          "pdf_role": "H2",
+          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(4, 0, 1984524560080), '/Pg': IndirectObject(1, 0, 1984524560080), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.251}, '/K': [2]}"
+        }
+      },
+      {
+        "text": "",
+        "level": 3,
+        "evidence": {
+          "pdf_role": "H3",
+          "object": "{'/Type': '/StructElem', '/S': '/H3', '/P': IndirectObject(4, 0, 1984524560080), '/Pg': IndirectObject(1, 0, 1984524560080), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.247}, '/K': [3]}"
+        }
+      }
+    ],
+    "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F01_B.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F01_B__LIBREOFFICE.pdf"
+        }
+      },
+      {
+        "source_heading_levels": [
+          1,
+          2,
+          3
+        ],
+        "destination_heading_levels": [
+          1,
+          2,
+          3
+        ],
+        "destination_heading_roles": [
+          "H1",
+          "H2",
+          "H3"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "notes": "heading level/order preserved; PDF marked-content text was not available for every heading node"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "headings",
+    "source_value": [
+      {
+        "text": "Overview",
+        "level": 1,
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Heading1"
+        }
+      },
+      {
+        "text": "Context",
+        "level": 2,
+        "order": 3,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Heading2"
+        }
+      },
+      {
+        "text": "Details",
+        "level": 3,
+        "order": 4,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "style": "Heading3"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "text": "",
+        "level": 2,
+        "evidence": {
+          "pdf_role": "H2",
+          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(26, 0, 1984526988624), '/Pg': IndirectObject(17, 0, 1984526988624), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.251}, '/K': [2]}"
+        }
+      },
+      {
+        "text": "",
+        "level": 3,
+        "evidence": {
+          "pdf_role": "H3",
+          "object": "{'/Type': '/StructElem', '/S': '/H3', '/P': IndirectObject(26, 0, 1984526988624), '/Pg': IndirectObject(17, 0, 1984526988624), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.247}, '/K': [3]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "text": "",
+        "level": 2,
+        "evidence": {
+          "pdf_role": "H2",
+          "object": "{'/Type': '/StructElem', '/S': '/H2', '/P': IndirectObject(26, 0, 1984526988624), '/Pg': IndirectObject(17, 0, 1984526988624), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.251}, '/K': [2]}"
+        }
+      },
+      {
+        "text": "",
+        "level": 3,
+        "evidence": {
+          "pdf_role": "H3",
+          "object": "{'/Type': '/StructElem', '/S': '/H3', '/P': IndirectObject(26, 0, 1984526988624), '/Pg': IndirectObject(17, 0, 1984526988624), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.247}, '/K': [3]}"
+        }
+      }
+    ],
+    "fidelity_classification": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F01_B.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F01_B.pdf"
+        }
+      },
+      {
+        "source_heading_levels": [
+          1,
+          2,
+          3
+        ],
+        "destination_heading_levels": [
+          2,
+          3
+        ],
+        "destination_heading_roles": [
+          "H2",
+          "H3"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "notes": "PDF contains heading structure but the level/order sequence differs from source"
+  },
+  "normalized_evidence_sha256_before": "1d9c8a7f38afc4eac9413120aca0ae924a1225e98d3f67eae2820372b0c4370c",
+  "normalized_evidence_sha256_after": "da74e17a31cd6d141ef007ebc0096db4530d7a1fea03952de440ce004ce65040",
+  "extracted_evidence_changed": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "ec294d77c40e6cdfd30003039dea452b1027beff23b522a48b46e3d71bec33b0",
+    "classification": "VERIFIED_PRESERVED",
+    "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "411b3ea97122103728ddd48d0fcbdb1a6f6140a75252529ac17ece72ead2e85e",
+    "classification": "OBSERVED_PARTIAL",
+    "raw_fidelity": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": true,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "CLASSIFICATION_DETECTED",
+  "inconclusive_or_unsupported_reason": "classification changed after a valid applied mutation",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

@@ -1,0 +1,1391 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:19.411832+00:00",
+  "fixture_id": "F10_E",
+  "feature_family": "complex_tables",
+  "mutation_operator": "mutated first /TH role",
+  "mutation_target": "/TH",
+  "source_path": "experiments/v4/fixtures/F10_E.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F10_E__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F10_E.pdf",
+  "baseline_pdf_sha256": "2a2f1464df1429c457a36957e77f6dd67188622bb616c654beae575f5f550e90",
+  "mutated_pdf_sha256": "e9bc54f0d3b419aaa9b7fbafd9fdf742671a646f97fe64f3986fb32edee05791",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "OBSERVED_PARTIAL",
+  "mutated_classification": "OBSERVED_PARTIAL",
+  "baseline_noncanonical_status": "OBSERVED_PARTIAL",
+  "raw_semantic_evidence_before": {
+    "feature": "complex_table",
+    "source_value": {
+      "identifier": "table-1",
+      "dimensions": {
+        "rows": 5,
+        "columns": 4
+      },
+      "cells": [
+        [
+          "mixed group A",
+          "mixed row span",
+          "mixed 1.4"
+        ],
+        [
+          "mixed 2.1",
+          "mixed 2.2",
+          "",
+          "mixed 2.4"
+        ],
+        [
+          "mixed 3.1",
+          "mixed 3.2",
+          "mixed 3.3",
+          "mixed 3.4"
+        ],
+        [
+          "mixed 4.1",
+          "mixed 4.2",
+          "mixed 4.3",
+          "mixed 4.4"
+        ],
+        [
+          "mixed 5.1",
+          "mixed 5.2",
+          "mixed 5.3",
+          "mixed 5.4"
+        ]
+      ],
+      "headers": [
+        "mixed 2.1",
+        "mixed 2.2",
+        "",
+        "mixed 2.4"
+      ],
+      "header_row": 1,
+      "header_rows": [
+        0,
+        1
+      ],
+      "grid_spans": [
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "tblHeaderRows": [
+          0,
+          1
+        ],
+        "gridSpan": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "destination_value": [
+      {
+        "identifier": "table-1",
+        "dimensions": {},
+        "cells": [],
+        "headers": [],
+        "header_row": null,
+        "evidence": {
+          "pdf_role": "Table",
+          "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(4, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.3, '/SpaceAfter': 0.01, '/StartIndent': -0.108, '/EndIndent': 0.108, '/Width': 8.64, '/Height': 1.65, '/BBox': [90, 600.75, 522, 683.25]}, '/K': [IndirectObject(7, 0, 1984546881232), IndirectObject(14, 0, 1984546881232), IndirectObject(21, 0, 1984546881232), IndirectObject(30, 0, 1984546881232), IndirectObject(39, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-2",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": "2",
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 4.32, '/Height': 0.268}, {'/O': '/Table', '/ColSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(9, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-3",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": "2",
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.536}, {'/O': '/Table', '/RowSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(11, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-4",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(13, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-5",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(16, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-6",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(18, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-7",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(20, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-8",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(23, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-9",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(25, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-10",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(27, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-11",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(29, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-12",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(32, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-13",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(34, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-14",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(36, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-15",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(38, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-16",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(41, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-17",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(43, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-18",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(45, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-19",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(47, 0, 1984546881232)]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "identifier": "table-1",
+        "dimensions": {},
+        "cells": [],
+        "headers": [],
+        "header_row": null,
+        "evidence": {
+          "pdf_role": "Table",
+          "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(4, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.3, '/SpaceAfter': 0.01, '/StartIndent': -0.108, '/EndIndent': 0.108, '/Width': 8.64, '/Height': 1.65, '/BBox': [90, 600.75, 522, 683.25]}, '/K': [IndirectObject(7, 0, 1984546881232), IndirectObject(14, 0, 1984546881232), IndirectObject(21, 0, 1984546881232), IndirectObject(30, 0, 1984546881232), IndirectObject(39, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-2",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": "2",
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 4.32, '/Height': 0.268}, {'/O': '/Table', '/ColSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(9, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-3",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": "2",
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.536}, {'/O': '/Table', '/RowSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(11, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-4",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(7, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(13, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-5",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(16, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-6",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(18, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-7",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(14, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(20, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-8",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(23, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-9",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(25, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-10",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(27, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-11",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(21, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(29, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-12",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(32, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-13",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(34, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-14",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(36, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-15",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(30, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(38, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-16",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(41, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-17",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(43, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-18",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(45, 0, 1984546881232)]}"
+        }
+      },
+      {
+        "identifier": "cell-19",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(39, 0, 1984546881232), '/Pg': IndirectObject(1, 0, 1984546881232), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(47, 0, 1984546881232)]}"
+        }
+      }
+    ],
+    "fidelity_classification": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F10_E.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F10_E__LIBREOFFICE.pdf"
+        }
+      },
+      {
+        "source_header_rows": [
+          0,
+          1
+        ],
+        "source_grid_spans": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "destination_header_count": 6,
+        "destination_scope_count": 6,
+        "destination_colspan_count": 1
+      }
+    ],
+    "confidence": "high",
+    "notes": "PDF table and header roles survive, but complete multi-level header associations are not established"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "complex_table",
+    "source_value": {
+      "identifier": "table-1",
+      "dimensions": {
+        "rows": 5,
+        "columns": 4
+      },
+      "cells": [
+        [
+          "mixed group A",
+          "mixed row span",
+          "mixed 1.4"
+        ],
+        [
+          "mixed 2.1",
+          "mixed 2.2",
+          "",
+          "mixed 2.4"
+        ],
+        [
+          "mixed 3.1",
+          "mixed 3.2",
+          "mixed 3.3",
+          "mixed 3.4"
+        ],
+        [
+          "mixed 4.1",
+          "mixed 4.2",
+          "mixed 4.3",
+          "mixed 4.4"
+        ],
+        [
+          "mixed 5.1",
+          "mixed 5.2",
+          "mixed 5.3",
+          "mixed 5.4"
+        ]
+      ],
+      "headers": [
+        "mixed 2.1",
+        "mixed 2.2",
+        "",
+        "mixed 2.4"
+      ],
+      "header_row": 1,
+      "header_rows": [
+        0,
+        1
+      ],
+      "grid_spans": [
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "evidence": {
+        "ooxml": "word/document.xml",
+        "tblHeaderRows": [
+          0,
+          1
+        ],
+        "gridSpan": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "destination_value": [
+      {
+        "identifier": "table-1",
+        "dimensions": {},
+        "cells": [],
+        "headers": [],
+        "header_row": null,
+        "evidence": {
+          "pdf_role": "Table",
+          "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(18, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.3, '/SpaceAfter': 0.01, '/StartIndent': -0.108, '/EndIndent': 0.108, '/Width': 8.64, '/Height': 1.65, '/BBox': [90, 600.75, 522, 683.25]}, '/K': [IndirectObject(20, 0, 1984528584976), IndirectObject(27, 0, 1984528584976), IndirectObject(34, 0, 1984528584976), IndirectObject(43, 0, 1984528584976), IndirectObject(52, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-2",
+        "role": "TD",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": "2",
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(20, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 4.32, '/Height': 0.268}, {'/O': '/Table', '/ColSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(22, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-3",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": "2",
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(20, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.536}, {'/O': '/Table', '/RowSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(24, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-4",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(20, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(26, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-5",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(29, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-6",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(31, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-7",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(33, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-8",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(36, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-9",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(38, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-10",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(40, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-11",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(42, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-12",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(45, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-13",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(47, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-14",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(49, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-15",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(51, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-16",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(54, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-17",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(56, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-18",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(58, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-19",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(60, 0, 1984528584976)]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "identifier": "table-1",
+        "dimensions": {},
+        "cells": [],
+        "headers": [],
+        "header_row": null,
+        "evidence": {
+          "pdf_role": "Table",
+          "object": "{'/Type': '/StructElem', '/S': '/Table', '/P': IndirectObject(18, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Block', '/SpaceBefore': 0.3, '/SpaceAfter': 0.01, '/StartIndent': -0.108, '/EndIndent': 0.108, '/Width': 8.64, '/Height': 1.65, '/BBox': [90, 600.75, 522, 683.25]}, '/K': [IndirectObject(20, 0, 1984528584976), IndirectObject(27, 0, 1984528584976), IndirectObject(34, 0, 1984528584976), IndirectObject(43, 0, 1984528584976), IndirectObject(52, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-2",
+        "role": "TD",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": "2",
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(20, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 4.32, '/Height': 0.268}, {'/O': '/Table', '/ColSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(22, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-3",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": "2",
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(20, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.536}, {'/O': '/Table', '/RowSpan': 2, '/Scope': '/Column'}], '/K': [IndirectObject(24, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-4",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(20, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(26, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-5",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(29, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-6",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(31, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-7",
+        "role": "TH",
+        "text": "",
+        "scope": "/Column",
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TH",
+          "object": "{'/Type': '/StructElem', '/S': '/TH', '/P': IndirectObject(27, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': [{'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, {'/O': '/Table', '/Scope': '/Column'}], '/K': [IndirectObject(33, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-8",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(36, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-9",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(38, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-10",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(40, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-11",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(34, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(42, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-12",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(45, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-13",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(47, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-14",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(49, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-15",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(43, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(51, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-16",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(54, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-17",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(56, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-18",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(58, 0, 1984528584976)]}"
+        }
+      },
+      {
+        "identifier": "cell-19",
+        "role": "TD",
+        "text": "",
+        "scope": null,
+        "headers": null,
+        "col_span": null,
+        "row_span": null,
+        "evidence": {
+          "pdf_role": "TD",
+          "object": "{'/Type': '/StructElem', '/S': '/TD', '/P': IndirectObject(52, 0, 1984528584976), '/Pg': IndirectObject(13, 0, 1984528584976), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 0.268}, '/K': [IndirectObject(60, 0, 1984528584976)]}"
+        }
+      }
+    ],
+    "fidelity_classification": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F10_E.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F10_E.pdf"
+        }
+      },
+      {
+        "source_header_rows": [
+          0,
+          1
+        ],
+        "source_grid_spans": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "destination_header_count": 5,
+        "destination_scope_count": 6,
+        "destination_colspan_count": 1
+      }
+    ],
+    "confidence": "high",
+    "notes": "PDF table and header roles survive, but complete multi-level header associations are not established"
+  },
+  "normalized_evidence_sha256_before": "218b6ac909812f20b353989b0049580d5ce1a1876bf6edfe2023a59888710e5b",
+  "normalized_evidence_sha256_after": "a6f55c8f89b669d8ec1b1dd209672893f7ce605a0f94586114d479790da37ae3",
+  "extracted_evidence_changed": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "dd979f50326b297f01df7626c0e4a18098d35173388ab8b8a103ff7c7b52af98",
+    "classification": "OBSERVED_PARTIAL",
+    "raw_fidelity": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "231624ff5144cf665ba797392b3357bd0b41acc2efb129de7d6fed3f271a75ed",
+    "classification": "OBSERVED_PARTIAL",
+    "raw_fidelity": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": false,
+  "genuinely_undetected": true,
+  "semantically_meaningful_survival": true,
+  "outcome_status": "SEMANTICALLY_MEANINGFUL_SURVIVAL",
+  "inconclusive_or_unsupported_reason": "contracted evidence changed but coarse classification did not",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

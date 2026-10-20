@@ -1,0 +1,103 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:15.702174+00:00",
+  "fixture_id": "F07_B",
+  "feature_family": "decorative_images",
+  "mutation_operator": "Artifact role absent",
+  "mutation_target": "decorative image role",
+  "source_path": "experiments/v4/fixtures/F07_B.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F07_B__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F07_B.pdf",
+  "baseline_pdf_sha256": "4b573f6709cc6eb35288c698a012ee6787da366b83464ea955486abd432c6b63",
+  "mutated_pdf_sha256": "c7eb0cb2849c10b2eca084149062c8f556af2910f3f06c77c2434012bc24c488",
+  "mutation_applied": false,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "ALTERED",
+  "mutated_classification": null,
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "decorative_image",
+    "source_value": [
+      {
+        "identifier": "figure-1",
+        "alt": "Meaningful chart.",
+        "title": "Figure 1",
+        "decorative": false,
+        "order": 1,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "docPr": "1"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "identifier": "figure-1",
+        "alt": "Figure 1 - Meaningful chart.",
+        "decorative": false,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1984525307792), '/Pg': IndirectObject(1, 0, 1984525307792), '/Alt': 'Figure 1 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "identifier": "figure-1",
+        "alt": "Figure 1 - Meaningful chart.",
+        "decorative": false,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1984525307792), '/Pg': IndirectObject(1, 0, 1984525307792), '/Alt': 'Figure 1 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+        }
+      }
+    ],
+    "fidelity_classification": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F07_B.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F07_B__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "destination retains meaningful alternative text with changed wording"
+  },
+  "raw_semantic_evidence_after": null,
+  "normalized_evidence_sha256_before": "deaa934535492cc9dacf81245eb7b4a2431fb34fd4abef5166e9401d8f9b03a5",
+  "normalized_evidence_sha256_after": null,
+  "extracted_evidence_changed": false,
+  "contracted_semantics_before": {
+    "signature_sha256": "ed18662bef2528848ab3a450204f75b87018e7288511637461764b2de6398cb4",
+    "classification": "ALTERED",
+    "raw_fidelity": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": null,
+    "classification": null,
+    "raw_fidelity": null,
+    "destination_accessibility": null
+  },
+  "contracted_semantics_changed": false,
+  "classification_changed": false,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "UNSUPPORTED",
+  "inconclusive_or_unsupported_reason": "Artifact role absent",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

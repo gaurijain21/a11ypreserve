@@ -1,0 +1,157 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:10.714320+00:00",
+  "fixture_id": "F02_B",
+  "feature_family": "alt_text",
+  "mutation_operator": "removed first Figure /Alt",
+  "mutation_target": "figure alt text",
+  "source_path": "experiments/v4/fixtures/F02_B.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F02_B__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F02_B.pdf",
+  "baseline_pdf_sha256": "efada2c7f834371088f1813fe81703cde539133b50e90bfc3e07f07257f5b1ef",
+  "mutated_pdf_sha256": "f9832e4d8b62dc45a73db72594e8562758bd4ebaab2cbec547bf7cffa9f5c77a",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "ALTERED",
+  "mutated_classification": "OBSERVED_PARTIAL",
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "image_alt_text",
+    "source_value": [
+      {
+        "identifier": "figure-1",
+        "alt": "A long description of a line chart showing enrollment increasing each academic year from 2021 through 2026.",
+        "title": "Alt image 1",
+        "decorative": false,
+        "order": 1,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "docPr": "1"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "identifier": "figure-1",
+        "alt": "Alt image 1 - A long description of a line chart showing enrollment increasing each academic year from 2021 through 2026.",
+        "decorative": false,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 1984513812176), '/Pg': IndirectObject(1, 0, 1984513812176), '/Alt': 'Alt image 1 - A long description of a line chart showing enrollment increasing each academic year from 2021 through 2026.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "identifier": "figure-1",
+        "alt": "Alt image 1 - A long description of a line chart showing enrollment increasing each academic year from 2021 through 2026.",
+        "decorative": false,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 1984513812176), '/Pg': IndirectObject(1, 0, 1984513812176), '/Alt': 'Alt image 1 - A long description of a line chart showing enrollment increasing each academic year from 2021 through 2026.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+        }
+      }
+    ],
+    "fidelity_classification": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F02_B.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F02_B__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "destination retains non-decorative figures with different alternative text"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "image_alt_text",
+    "source_value": [
+      {
+        "identifier": "figure-1",
+        "alt": "A long description of a line chart showing enrollment increasing each academic year from 2021 through 2026.",
+        "title": "Alt image 1",
+        "decorative": false,
+        "order": 1,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "docPr": "1"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "identifier": "figure-1",
+        "alt": "",
+        "decorative": true,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(22, 0, 1984525926160), '/Pg': IndirectObject(15, 0, 1984525926160), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "identifier": "figure-1",
+        "alt": "",
+        "decorative": true,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(22, 0, 1984525926160), '/Pg': IndirectObject(15, 0, 1984525926160), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+        }
+      }
+    ],
+    "fidelity_classification": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F02_B.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F02_B.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "figure count or decorative/alternative-text state differs"
+  },
+  "normalized_evidence_sha256_before": "e471767aad91be1a84c394550ce064f63a6771ab2d0c76283e1eb16c280d6df6",
+  "normalized_evidence_sha256_after": "b8bf43dfe7219645d06faba1ff04aeaeee9696edbf6a30423d86e8f1c9bf2816",
+  "extracted_evidence_changed": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "19eedf634b1c80001cf96635657c00cc44459cdc0c8bff4b7d062bdbef00ea90",
+    "classification": "ALTERED",
+    "raw_fidelity": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "67375771eecffd9402c59c40da6e2c3dc7a7e389fbcf40e4b7722d4630f8ee37",
+    "classification": "OBSERVED_PARTIAL",
+    "raw_fidelity": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": true,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "CLASSIFICATION_DETECTED",
+  "inconclusive_or_unsupported_reason": "classification changed after a valid applied mutation",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

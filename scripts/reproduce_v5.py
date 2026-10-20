@@ -17,18 +17,23 @@ def run(label: str, command: list[str]) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--refresh-artifacts", action="store_true", help="rerun destination mutations and rebuild the anonymous V5 bundle")
+    parser.add_argument(
+        "--refresh-artifacts",
+        action="store_true",
+        help="deprecated: V5 artifacts are frozen; use scripts/reproduce_v6.py for fresh reruns",
+    )
     args = parser.parse_args()
     py = sys.executable
     if args.refresh_artifacts:
-        run("destination mutation testing", [py, "experiments/v5/destination_mutation_testing.py"])
+        raise SystemExit(
+            "V5 historical artifacts are immutable. Run scripts/reproduce_v6.py "
+            "for fresh control, mutation, and baseline computations."
+        )
     run("repository safety and secret audit", [py, "scripts/audit_repository_safety.py"])
     run("holdout accounting", [py, "scripts/audit_v5_holdout_accounting.py"])
     run("calibration audit", [py, "scripts/audit_v5_calibration.py"])
     run("V5 consistency audit", [py, "scripts/audit_v5_final_consistency.py"])
     run("V5 regression tests", [py, "tests/test_v5_hardening.py"])
-    if args.refresh_artifacts:
-        run("anonymous bundle build", [py, "build_v5_upload_bundle.py"])
     run("bundle verification", [py, "scripts/verify_v5_bundle.py"])
     print("V5 reproduction/check: PASS")
 

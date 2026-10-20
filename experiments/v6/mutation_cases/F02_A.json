@@ -1,0 +1,157 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:10.534928+00:00",
+  "fixture_id": "F02_A",
+  "feature_family": "alt_text",
+  "mutation_operator": "removed first Figure /Alt",
+  "mutation_target": "figure alt text",
+  "source_path": "experiments/v4/fixtures/F02_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F02_A__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F02_A.pdf",
+  "baseline_pdf_sha256": "8f14168d37a484a79ecfa2c7d6a7d69a76e0fdfad5237caa3ff1bb8b5a04c4f1",
+  "mutated_pdf_sha256": "d03dd6b2655e1eb0bc7b79896a0bf2ce75d04bd36b2ffcc01998e23bbdced829",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "ALTERED",
+  "mutated_classification": "OBSERVED_PARTIAL",
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "image_alt_text",
+    "source_value": [
+      {
+        "identifier": "figure-1",
+        "alt": "Short chart.",
+        "title": "Alt image 1",
+        "decorative": false,
+        "order": 1,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "docPr": "1"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "identifier": "figure-1",
+        "alt": "Alt image 1 - Short chart.",
+        "decorative": false,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 1984498101072), '/Pg': IndirectObject(1, 0, 1984498101072), '/Alt': 'Alt image 1 - Short chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "identifier": "figure-1",
+        "alt": "Alt image 1 - Short chart.",
+        "decorative": false,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(7, 0, 1984498101072), '/Pg': IndirectObject(1, 0, 1984498101072), '/Alt': 'Alt image 1 - Short chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+        }
+      }
+    ],
+    "fidelity_classification": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F02_A.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F02_A__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "destination retains non-decorative figures with different alternative text"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "image_alt_text",
+    "source_value": [
+      {
+        "identifier": "figure-1",
+        "alt": "Short chart.",
+        "title": "Alt image 1",
+        "decorative": false,
+        "order": 1,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "docPr": "1"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "identifier": "figure-1",
+        "alt": "",
+        "decorative": true,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(22, 0, 1984530002384), '/Pg': IndirectObject(15, 0, 1984530002384), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "identifier": "figure-1",
+        "alt": "",
+        "decorative": true,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(22, 0, 1984530002384), '/Pg': IndirectObject(15, 0, 1984530002384), '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 535.45, 360, 643.45]}, '/K': [2]}"
+        }
+      }
+    ],
+    "fidelity_classification": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F02_A.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F02_A.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "figure count or decorative/alternative-text state differs"
+  },
+  "normalized_evidence_sha256_before": "dffd929b4bd45f36a7c234a9dc64ea5002c0dcb80883d5237ce80efae8ed52f7",
+  "normalized_evidence_sha256_after": "f151dc49bf9cf3ee7cc45da0af5a4f4bd70c2588b07577b5cd4540359814cd39",
+  "extracted_evidence_changed": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "74f3a4917afbdacb8f03d9573f1a943fcdd22430bfcf63e89cf293a9c8feeffa",
+    "classification": "ALTERED",
+    "raw_fidelity": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "27fd516db5fc94c45d694431612b83071df27c46aafa82446cd94268cfab4933",
+    "classification": "OBSERVED_PARTIAL",
+    "raw_fidelity": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": true,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "CLASSIFICATION_DETECTED",
+  "inconclusive_or_unsupported_reason": "classification changed after a valid applied mutation",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

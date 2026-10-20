@@ -1,0 +1,55 @@
+\section{V4 Experimental Design}
+\label{sec:design}
+
+\subsection{Feature families and variants}
+The V4 benchmark selects 13 accessibility feature families that are both conversion-relevant and machine-observable across DOCX and tagged PDF. Table~\ref{tab:families} states the contract focus. Five controlled variants were created for every family to expose feature depth rather than inflate an arbitrary feature count. The variant patterns are retained in the source manifest and the final result matrix.
+
+\begin{table*}[t]
+\centering\scriptsize
+\caption{Frozen V4 feature families and contract focus.}
+\label{tab:families}
+\begin{tabular}{p{0.16\textwidth}p{0.31\textwidth}p{0.45\textwidth}}
+\toprule
+Family & Source property & Contract focus \\
+\midrule
+Headings & Hierarchical paragraph semantics & Levels and sequence, not visual size \\
+Alternative text & Author-written image description & Exact description associated with the image \\
+Lists & Ordered/unordered list structure & Type, nesting, and list-item relationships \\
+Basic tables & Table and header structure & Table, row, cell, and header roles \\
+Document language & Primary document language & Document-level language value \\
+Inline language & Run-level language override & Non-default language span inside an otherwise default-language document \\
+Decorative images & Decorative-state semantics & Meaningful versus explicitly decorative image state \\
+Hyperlinks & Link semantics & Link existence, visible name, and URI relation \\
+Document metadata & Title and metadata identity & Visible title and document metadata values \\
+Complex tables & Multi-level table semantics & Spans, scopes, and header associations \\
+Footnotes & Note association & Reference-to-note relation and note body \\
+Equations & Native mathematical structure & Formula representation beyond visible glyphs \\
+Captions & Figure/caption relation & Caption text and association with the figure \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+The reading-order family was considered but excluded from the primary 13-family denominator because a defensible automated source-to-PDF oracle was not established. This is a measurement-boundary decision, not a claim that reading order is unimportant.
+
+\subsection{Corpus and experimental units}
+The 65 atomic DOCX fixtures are controlled and purposive. Each fixture isolates the target property while retaining enough surrounding document structure to exercise a real conversion. The primary unit is one fixture under one converter, yielding 65 $\times$ 2 = 130 cases. The corpus is not a random sample and does not support prevalence or inferential statistics.
+
+\subsection{Supplementary Microsoft Word arm}
+LibreOffice and Google Docs were the two pipelines in the prospectively frozen primary experiment. After that experiment was complete, Microsoft Word desktop's native GUI PDF export was recovered and its route was frozen before Word accessibility analysis. The supplementary condition used the same 65 frozen DOCX fixtures, source contracts, destination extraction, frozen comparator, and classification taxonomy. Word exported genuine tagged PDFs through \textit{File} $\rightarrow$ \textit{Export} $\rightarrow$ \textit{Create PDF/XPS}; no source editing, print-to-PDF route, or post-processing was used. Word was not retroactively added to the prospectively frozen two-pipeline denominator: it contributes 65 supplementary observations, while the complete archive contains 195 atomic fixture--pipeline outcomes.
+
+The Word GUI route was used because COM activation remained unavailable under the recorded Windows session (0x80070520). This is an automation-interface limitation, not a substitution of a different converter. The Word protocol records the route, settings, input hashes, output provenance, and retry policy separately from the primary V4 protocol.
+
+\subsection{Prospective freeze and holdout}
+The V4 protocol, source contracts, fixture manifest, comparator taxonomy, decision rules, and holdout membership were frozen before final converter outputs were analyzed. The V4 freeze is preserved at commit \texttt{41a7d3f8b84e98acbdafe14070f2ebe7ea6a59e1}; the final hardening baseline records the pre-result hashes. V3 remains historical provenance and was not overwritten or used as a substitute for V4 outputs.
+
+The 26-case holdout was pre-specified and kept separate from calibration and primary decision-rule development. It is a within-family/within-variant holdout: variants D and E are held out for every family, yielding one held-out case for each of the 13 families per primary pipeline. It is not a fully independent natural corpus, because all holdout documents are project-created members of the same controlled family and variant design. Holdout outcomes are reported separately rather than pooled with the 78 non-holdout atomic cases.
+
+\subsection{Calibration and mutation testing}
+The 78 calibration controls cover positive, negative, alternate-representation, and abstention situations. They yielded 60 correct decisions, zero false positives, five conservative false negatives, 13 correct abstentions, and zero unsupported confident classifications. The false negatives involve evidence boundaries for decorative-image alternatives, hyperlink name relations, and complex-table associations; expected labels were not changed after the converter results.
+
+The source-oracle mutation audit applied 39 source mutations and detected all 39. This tests sensitivity to deliberate source perturbations; it is not an external validity or general mutation score for the whole benchmark.
+
+\subsection{Realistic and repeatability arms}
+The primary realistic arm contains 10 project-created realistic/integrated multi-feature documents, 78 source property contracts per pipeline, and 20 LibreOffice/Google PDFs. The supplementary Word route produced 10 additional realistic PDFs and the same 78 contracts were evaluated with the frozen procedure. These documents are not external real-world evidence and are not merged with the 130-case primary atomic denominator.
+
+The repeatability arm is separate from the holdout. Six difficult-feature variants were converted three times per pipeline from identical source documents. LibreOffice and Google Docs each therefore have 18 repeated conversions; Word adds 18 supplementary conversions. The repeated classification and normalized semantic evidence are the stable units: Word was stable 6/6 on both, although its PDFs were byte-identical for 0/6 selected variants.

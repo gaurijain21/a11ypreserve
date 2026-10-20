@@ -1,0 +1,411 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:11.653395+00:00",
+  "fixture_id": "F03_B",
+  "feature_family": "lists",
+  "mutation_operator": "mutated first /L role",
+  "mutation_target": "/L",
+  "source_path": "experiments/v4/fixtures/F03_B.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F03_B__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F03_B.pdf",
+  "baseline_pdf_sha256": "d0152a2f3eedf37a51c22775ec750925cba91e9755573c184b143ec1ea9cd79d",
+  "mutated_pdf_sha256": "4be38478cc2c883a09380fcff01f1f5edbea7c69c0dcbebfa0e4cdb51cc22d28",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "VERIFIED_PRESERVED",
+  "mutated_classification": "UNRESOLVED_EQUIVALENCE",
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "lists",
+    "source_value": [
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "One",
+        "parent": null,
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "10",
+          "ilvl": 0,
+          "numFmt": "decimal"
+        }
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Two",
+        "parent": null,
+        "order": 3,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "10",
+          "ilvl": 0,
+          "numFmt": "decimal"
+        }
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Three",
+        "parent": null,
+        "order": 4,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "10",
+          "ilvl": 0,
+          "numFmt": "decimal"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "type": "L",
+        "depth": 0,
+        "text": "",
+        "list_numbering": "/Decimal",
+        "list_type": "ordered",
+        "evidence": {
+          "pdf_role": "L",
+          "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/A': {'/O': '/List', '/ListNumbering': '/Decimal'}, '/K': [IndirectObject(7, 0, 1984501978128), IndirectObject(11, 0, 1984501978128), IndirectObject(15, 0, 1984501978128)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [IndirectObject(8, 0, 1984501978128), IndirectObject(9, 0, 1984501978128)]}"
+        }
+      },
+      {
+        "type": "Lbl",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "Lbl",
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(7, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [1]}"
+        }
+      },
+      {
+        "type": "LBody",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LBody",
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(7, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [IndirectObject(10, 0, 1984501978128)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [IndirectObject(12, 0, 1984501978128), IndirectObject(13, 0, 1984501978128)]}"
+        }
+      },
+      {
+        "type": "Lbl",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "Lbl",
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(11, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [3]}"
+        }
+      },
+      {
+        "type": "LBody",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LBody",
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(11, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [IndirectObject(14, 0, 1984501978128)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [IndirectObject(16, 0, 1984501978128), IndirectObject(17, 0, 1984501978128)]}"
+        }
+      },
+      {
+        "type": "Lbl",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "Lbl",
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(15, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [5]}"
+        }
+      },
+      {
+        "type": "LBody",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LBody",
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(15, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [IndirectObject(18, 0, 1984501978128)]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "type": "L",
+        "depth": 0,
+        "text": "",
+        "list_numbering": "/Decimal",
+        "list_type": "ordered",
+        "evidence": {
+          "pdf_role": "L",
+          "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/A': {'/O': '/List', '/ListNumbering': '/Decimal'}, '/K': [IndirectObject(7, 0, 1984501978128), IndirectObject(11, 0, 1984501978128), IndirectObject(15, 0, 1984501978128)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [IndirectObject(8, 0, 1984501978128), IndirectObject(9, 0, 1984501978128)]}"
+        }
+      },
+      {
+        "type": "Lbl",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "Lbl",
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(7, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [1]}"
+        }
+      },
+      {
+        "type": "LBody",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LBody",
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(7, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [IndirectObject(10, 0, 1984501978128)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [IndirectObject(12, 0, 1984501978128), IndirectObject(13, 0, 1984501978128)]}"
+        }
+      },
+      {
+        "type": "Lbl",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "Lbl",
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(11, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [3]}"
+        }
+      },
+      {
+        "type": "LBody",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LBody",
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(11, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [IndirectObject(14, 0, 1984501978128)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [IndirectObject(16, 0, 1984501978128), IndirectObject(17, 0, 1984501978128)]}"
+        }
+      },
+      {
+        "type": "Lbl",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "Lbl",
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(15, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [5]}"
+        }
+      },
+      {
+        "type": "LBody",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LBody",
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(15, 0, 1984501978128), '/Pg': IndirectObject(1, 0, 1984501978128), '/K': [IndirectObject(18, 0, 1984501978128)]}"
+        }
+      }
+    ],
+    "fidelity_classification": "SEMANTICALLY_EQUIVALENT",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F03_B.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F03_B__LIBREOFFICE.pdf"
+        }
+      },
+      {
+        "source_items": 3,
+        "destination_items": 3,
+        "source_blocks": 1,
+        "destination_blocks": 1,
+        "source_nested_items": 0,
+        "destination_nested_blocks": 0
+      }
+    ],
+    "confidence": "high",
+    "notes": "PDF /L, /LI, nesting, and /ListNumbering match the source contract"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "lists",
+    "source_value": [
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "One",
+        "parent": null,
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "10",
+          "ilvl": 0,
+          "numFmt": "decimal"
+        }
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Two",
+        "parent": null,
+        "order": 3,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "10",
+          "ilvl": 0,
+          "numFmt": "decimal"
+        }
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Three",
+        "parent": null,
+        "order": 4,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "10",
+          "ilvl": 0,
+          "numFmt": "decimal"
+        }
+      }
+    ],
+    "destination_value": [],
+    "destination_representation": [],
+    "fidelity_classification": "LOST",
+    "destination_accessibility": "INACCESSIBLE_FEATURE",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F03_B.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F03_B.pdf"
+        }
+      },
+      {
+        "source_items": 3,
+        "destination_items": 0,
+        "source_blocks": 1,
+        "destination_blocks": 0,
+        "source_nested_items": 0,
+        "destination_nested_blocks": 0
+      }
+    ],
+    "confidence": "high",
+    "notes": "no PDF list-item structure was extracted"
+  },
+  "normalized_evidence_sha256_before": "181a8a2002dfe92fc92dc1feb1d9c9546a6faa11e1825034401535ef8946e40d",
+  "normalized_evidence_sha256_after": "cbc0669918741a9ffd23c78605982318004f2f4537a874f44677e1dd2d4e12ec",
+  "extracted_evidence_changed": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "a177cc2df393112467853b904de5442b3159fb09e95244586eaac8349d0e1b53",
+    "classification": "VERIFIED_PRESERVED",
+    "raw_fidelity": "SEMANTICALLY_EQUIVALENT",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "2f0613f007e384a06f17cb6df4e3ad8565f746df0ef9db079785463bd91f108d",
+    "classification": "UNRESOLVED_EQUIVALENCE",
+    "raw_fidelity": "LOST",
+    "destination_accessibility": "INACCESSIBLE_FEATURE"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": true,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "CLASSIFICATION_DETECTED",
+  "inconclusive_or_unsupported_reason": "classification changed after a valid applied mutation",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

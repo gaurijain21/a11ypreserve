@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": {
+    "control_denominator_and_result": true,
+    "mutation_attempts_and_valid": true,
+    "mutation_detection_and_survival": true,
+    "baseline_denominator": true,
+    "baseline_fault_counts": true,
+    "frozen_denominators": true,
+    "scope_boundary": true,
+    "anonymous_manuscript": true
+  }
+}

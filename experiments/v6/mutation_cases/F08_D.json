@@ -1,0 +1,239 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:16.848896+00:00",
+  "fixture_id": "F08_D",
+  "feature_family": "hyperlinks",
+  "mutation_operator": "removed first Link /URI",
+  "mutation_target": "link URI",
+  "source_path": "experiments/v4/fixtures/F08_D.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F08_D__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F08_D.pdf",
+  "baseline_pdf_sha256": "f51858deed4d51c825222f5b9e462b7e01c39b792a6115a4480e4a913e4f8ef4",
+  "mutated_pdf_sha256": "c7964c723cbd989c65f5efaf0bd9077b132df12047ae50c5fe8a3bc2c4565d63",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "ALTERED",
+  "mutated_classification": "ALTERED",
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "hyperlinks",
+    "source_value": [
+      {
+        "text": "Same label",
+        "target": "https://example.org/one",
+        "order": 1,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:hyperlink"
+        }
+      },
+      {
+        "text": "Same label",
+        "target": "https://example.org/two",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:hyperlink"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "target": "https://example.org/two",
+        "page": 1,
+        "rect": [
+          162.893,
+          655.35,
+          213.407,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      },
+      {
+        "target": "https://example.org/one",
+        "page": 1,
+        "rect": [
+          89.993,
+          655.35,
+          140.507,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "target": "https://example.org/two",
+        "page": 1,
+        "rect": [
+          162.893,
+          655.35,
+          213.407,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      },
+      {
+        "target": "https://example.org/one",
+        "page": 1,
+        "rect": [
+          89.993,
+          655.35,
+          140.507,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      }
+    ],
+    "fidelity_classification": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F08_D.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F08_D__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "destination link target or count differs from source"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "hyperlinks",
+    "source_value": [
+      {
+        "text": "Same label",
+        "target": "https://example.org/one",
+        "order": 1,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:hyperlink"
+        }
+      },
+      {
+        "text": "Same label",
+        "target": "https://example.org/two",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:hyperlink"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "target": null,
+        "page": 1,
+        "rect": [
+          162.893,
+          655.35,
+          213.407,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      },
+      {
+        "target": "https://example.org/one",
+        "page": 1,
+        "rect": [
+          89.993,
+          655.35,
+          140.507,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "target": null,
+        "page": 1,
+        "rect": [
+          162.893,
+          655.35,
+          213.407,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      },
+      {
+        "target": "https://example.org/one",
+        "page": 1,
+        "rect": [
+          89.993,
+          655.35,
+          140.507,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      }
+    ],
+    "fidelity_classification": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F08_D.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F08_D.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "destination link target or count differs from source"
+  },
+  "normalized_evidence_sha256_before": "be947982e6e8c9ba6e699c2fae06832cfdf54d340f46c585c86d351b9c4cad89",
+  "normalized_evidence_sha256_after": "fcdb7489792996b74633933572d64b5f9779eeace1522d5d5f5b3f5af2f20d39",
+  "extracted_evidence_changed": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "dc19a60549fac9de87a9114bb45d0b63c2c45bb9f51df5a73789210f56bd617e",
+    "classification": "ALTERED",
+    "raw_fidelity": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "c762c3fe7276aa315d64be8e7dcffb82c10634a2959dfdfd5ba606fd92ac26e5",
+    "classification": "ALTERED",
+    "raw_fidelity": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": false,
+  "genuinely_undetected": true,
+  "semantically_meaningful_survival": true,
+  "outcome_status": "SEMANTICALLY_MEANINGFUL_SURVIVAL",
+  "inconclusive_or_unsupported_reason": "contracted evidence changed but coarse classification did not",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

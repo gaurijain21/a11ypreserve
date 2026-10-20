@@ -1,0 +1,36 @@
+name: V6 scientific verification
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  v6-scientific-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install exact V6 Python dependencies
+        run: python -m pip install -r requirements-v6.txt
+      - name: Run genuine V6 control rerun
+        run: python experiments/v6/control_rerun.py
+      - name: Run genuine V6 mutation sensitivity
+        run: python experiments/v6/mutation_sensitivity.py
+      - name: Run executable V6 baselines and ablations
+        run: python experiments/v6/baseline_ablation.py
+      - name: Verify scientific accounting and stale artifacts
+        run: python scripts/verify_v6_scientific_accounting.py
+      - name: Verify manuscript claim consistency
+        run: python scripts/audit_v6_manuscript_consistency.py
+      - name: Verify anonymous release contents
+        run: python scripts/audit_v6_anonymity.py
+      - name: Run V6 regression tests
+        run: python tests/test_v6_scientific_hardening.py
+      - name: Verify static V6 package hashes and sizes
+        run: python scripts/verify_v6_package_manifest.py
+      - name: Run repository safety audit
+        run: python scripts/audit_repository_safety.py
+      - name: Run source-level V6 regression checks
+        run: python -c "import ast, pathlib; p=pathlib.Path('experiments/v5/destination_mutation_testing.py').read_text(); t=ast.parse(p); assert all('control_classification = baseline_classification' not in ast.unparse(n) and 'false_positive = False' not in ast.unparse(n) for n in ast.walk(t) if isinstance(n, ast.Assign))"

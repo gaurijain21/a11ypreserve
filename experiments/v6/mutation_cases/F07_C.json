@@ -1,0 +1,132 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:15.805535+00:00",
+  "fixture_id": "F07_C",
+  "feature_family": "decorative_images",
+  "mutation_operator": "Artifact role absent",
+  "mutation_target": "decorative image role",
+  "source_path": "experiments/v4/fixtures/F07_C.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F07_C__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F07_C.pdf",
+  "baseline_pdf_sha256": "ca040124327d2176feb0347d126fa18a43ffd022dc07d2439dadb7ab712a396a",
+  "mutated_pdf_sha256": "f7cddeb3d0bd766af1763780774de2dd1a2bde57bd16612f45fafd755e8db6e1",
+  "mutation_applied": false,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "OBSERVED_PARTIAL",
+  "mutated_classification": null,
+  "baseline_noncanonical_status": "OBSERVED_PARTIAL",
+  "raw_semantic_evidence_before": {
+    "feature": "decorative_image",
+    "source_value": [
+      {
+        "identifier": "figure-1",
+        "alt": "",
+        "title": "Figure 1",
+        "decorative": true,
+        "order": 1,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "docPr": "1"
+        }
+      },
+      {
+        "identifier": "figure-2",
+        "alt": "Meaningful chart.",
+        "title": "Figure 2",
+        "decorative": false,
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "docPr": "2"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "identifier": "figure-1",
+        "alt": "Figure 1",
+        "decorative": false,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1984529262416), '/Pg': IndirectObject(1, 0, 1984529262416), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+        }
+      },
+      {
+        "identifier": "figure-2",
+        "alt": "Figure 2 - Meaningful chart.",
+        "decorative": false,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(9, 0, 1984529262416), '/Pg': IndirectObject(1, 0, 1984529262416), '/Alt': 'Figure 2 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 440.35, 360, 548.35]}, '/K': [2]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "identifier": "figure-1",
+        "alt": "Figure 1",
+        "decorative": false,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1984529262416), '/Pg': IndirectObject(1, 0, 1984529262416), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+        }
+      },
+      {
+        "identifier": "figure-2",
+        "alt": "Figure 2 - Meaningful chart.",
+        "decorative": false,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(9, 0, 1984529262416), '/Pg': IndirectObject(1, 0, 1984529262416), '/Alt': 'Figure 2 - Meaningful chart.', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 440.35, 360, 548.35]}, '/K': [2]}"
+        }
+      }
+    ],
+    "fidelity_classification": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F07_C.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F07_C__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "destination uses Figure elements with empty alternative text; no explicit PDF Artifact/decorative representation was established"
+  },
+  "raw_semantic_evidence_after": null,
+  "normalized_evidence_sha256_before": "1354f54a67d71923a30269ce6bcaf46b62a1c50ef6ef134a8835cb917def0cfc",
+  "normalized_evidence_sha256_after": null,
+  "extracted_evidence_changed": false,
+  "contracted_semantics_before": {
+    "signature_sha256": "c38eee33042fffedac54a62e5e0cb50d429dfbc0976d2e66c624b522f7ed6414",
+    "classification": "OBSERVED_PARTIAL",
+    "raw_fidelity": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": null,
+    "classification": null,
+    "raw_fidelity": null,
+    "destination_accessibility": null
+  },
+  "contracted_semantics_changed": false,
+  "classification_changed": false,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "UNSUPPORTED",
+  "inconclusive_or_unsupported_reason": "Artifact role absent",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

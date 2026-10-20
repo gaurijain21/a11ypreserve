@@ -1,0 +1,103 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:15.567676+00:00",
+  "fixture_id": "F07_A",
+  "feature_family": "decorative_images",
+  "mutation_operator": "Artifact role absent",
+  "mutation_target": "decorative image role",
+  "source_path": "experiments/v4/fixtures/F07_A.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F07_A__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F07_A.pdf",
+  "baseline_pdf_sha256": "659cc2a0ec3a4a7d8604f482fa7878d54581a02dfe4a2074f99dd04f7bb5374d",
+  "mutated_pdf_sha256": "97a0ec28a30aca44daf4f5953e8a0c0cd155c91ac07850793073bc7d39ce70e2",
+  "mutation_applied": false,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "OBSERVED_PARTIAL",
+  "mutated_classification": null,
+  "baseline_noncanonical_status": "OBSERVED_PARTIAL",
+  "raw_semantic_evidence_before": {
+    "feature": "decorative_image",
+    "source_value": [
+      {
+        "identifier": "figure-1",
+        "alt": "",
+        "title": "Figure 1",
+        "decorative": true,
+        "order": 1,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "docPr": "1"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "identifier": "figure-1",
+        "alt": "Figure 1",
+        "decorative": false,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1984524411856), '/Pg': IndirectObject(1, 0, 1984524411856), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "identifier": "figure-1",
+        "alt": "Figure 1",
+        "decorative": false,
+        "evidence": {
+          "pdf_role": "Figure",
+          "object": "{'/Type': '/StructElem', '/S': '/Figure', '/P': IndirectObject(6, 0, 1984524411856), '/Pg': IndirectObject(1, 0, 1984524411856), '/Alt': 'Figure 1', '/A': {'/O': '/Layout', '/Placement': '/Inline', '/Width': 2.16, '/Height': 2.16, '/BBox': [252, 560.25, 360, 668.25]}, '/K': [1]}"
+        }
+      }
+    ],
+    "fidelity_classification": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F07_A.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F07_A__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "destination uses Figure elements with empty alternative text; no explicit PDF Artifact/decorative representation was established"
+  },
+  "raw_semantic_evidence_after": null,
+  "normalized_evidence_sha256_before": "4ea0a4fc234c601ab711db28e675c10a67098c6a3601e68666b9cd72def2c42c",
+  "normalized_evidence_sha256_after": null,
+  "extracted_evidence_changed": false,
+  "contracted_semantics_before": {
+    "signature_sha256": "2deab0a9f15bdfe83fdbb8e6c6e56d7da0dcc2c4a8161834c641e4acd3a541fb",
+    "classification": "OBSERVED_PARTIAL",
+    "raw_fidelity": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": null,
+    "classification": null,
+    "raw_fidelity": null,
+    "destination_accessibility": null
+  },
+  "contracted_semantics_changed": false,
+  "classification_changed": false,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "UNSUPPORTED",
+  "inconclusive_or_unsupported_reason": "Artifact role absent",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

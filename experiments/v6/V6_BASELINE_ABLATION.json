@@ -1,0 +1,4228 @@
+{
+  "protocol": "V6 executable baseline and ablation comparison",
+  "status": "COMPLETE",
+  "started_at_utc": "2026-10-20T00:20:24.833977+00:00",
+  "completed_at_utc": "2026-10-20T00:20:52.333418+00:00",
+  "primary_cases": 130,
+  "reference_label_protocol": {
+    "primary": "No independent adjudicated labels were available. Primary agreement/error rates are therefore not claimed; rows retain observed outputs and abstentions.",
+    "mutation_faults": "Applied-and-parseable destination mutations are known injected faults. Detection rates are supported fault-sensitivity measures for this operator set.",
+    "no_abstention_policy": "PRESERVED when the destination-only role/evidence predicate is present, otherwise LOST; this forced binary policy is reported as a sensitivity analysis, not ground truth."
+  },
+  "baseline_definitions": {
+    "tag_presence": "destination tagged flag or StructTreeRoot marker; no source contract value",
+    "visible_text_equality": "normalized source text is found in extracted destination text; no semantic structure or association check",
+    "destination_only_evidence": "feature-specific destination role/marker presence without source expectation",
+    "without_secondary_evidence": "frozen comparator with independent PyMuPDF/object-marker secondary evidence suppressed",
+    "without_abstention": "forced binary role-presence policy with unresolved/measurement outcomes removed",
+    "full_a11ypreserve": "source-grounded frozen comparator, multi-evidence classification, and explicit abstention"
+  },
+  "primary_summary": {
+    "google": {
+      "cases": 65,
+      "classification_counts": {
+        "OBSERVED_PARTIAL": 32,
+        "VERIFIED_PRESERVED": 11,
+        "ALTERED": 11,
+        "CONFIRMED_LOST": 6,
+        "UNRESOLVED_EQUIVALENCE": 5
+      },
+      "abstentions_full": 5,
+      "methods": {
+        "tag_presence": {
+          "distinct_decisions": {
+            "TAGGED": 65
+          },
+          "unsupported_or_abstention": 0
+        },
+        "visible_text_equality": {
+          "distinct_decisions": {
+            "EQUAL": 64,
+            "DIFFERENT": 1
+          },
+          "unsupported_or_abstention": 0
+        },
+        "destination_only_evidence": {
+          "distinct_decisions": {
+            "PRESENT": 49,
+            "ABSENT": 16
+          },
+          "unsupported_or_abstention": 0
+        },
+        "without_secondary_evidence": {
+          "distinct_decisions": {
+            "OBSERVED_PARTIAL": 32,
+            "VERIFIED_PRESERVED": 11,
+            "ALTERED": 11,
+            "CONFIRMED_LOST": 11
+          },
+          "unsupported_or_abstention": 0
+        },
+        "without_abstention": {
+          "distinct_decisions": {
+            "PRESERVED": 49,
+            "LOST": 16
+          },
+          "unsupported_or_abstention": 0
+        },
+        "full_a11ypreserve": {
+          "distinct_decisions": {
+            "OBSERVED_PARTIAL": 32,
+            "VERIFIED_PRESERVED": 11,
+            "ALTERED": 11,
+            "CONFIRMED_LOST": 6,
+            "UNRESOLVED_EQUIVALENCE": 5
+          },
+          "unsupported_or_abstention": 5
+        }
+      }
+    },
+    "libreoffice": {
+      "cases": 65,
+      "classification_counts": {
+        "VERIFIED_PRESERVED": 38,
+        "ALTERED": 9,
+        "OBSERVED_PARTIAL": 11,
+        "CONFIRMED_LOST": 1,
+        "MEASUREMENT_ERROR": 5,
+        "UNRESOLVED_EQUIVALENCE": 1
+      },
+      "abstentions_full": 6,
+      "methods": {
+        "tag_presence": {
+          "distinct_decisions": {
+            "TAGGED": 65
+          },
+          "unsupported_or_abstention": 0
+        },
+        "visible_text_equality": {
+          "distinct_decisions": {
+            "EQUAL": 65
+          },
+          "unsupported_or_abstention": 0
+        },
+        "destination_only_evidence": {
+          "distinct_decisions": {
+            "PRESENT": 64,
+            "ABSENT": 1
+          },
+          "unsupported_or_abstention": 0
+        },
+        "without_secondary_evidence": {
+          "distinct_decisions": {
+            "VERIFIED_PRESERVED": 38,
+            "ALTERED": 9,
+            "OBSERVED_PARTIAL": 11,
+            "CONFIRMED_LOST": 2,
+            "MEASUREMENT_ERROR": 5
+          },
+          "unsupported_or_abstention": 5
+        },
+        "without_abstention": {
+          "distinct_decisions": {
+            "PRESERVED": 64,
+            "LOST": 1
+          },
+          "unsupported_or_abstention": 0
+        },
+        "full_a11ypreserve": {
+          "distinct_decisions": {
+            "VERIFIED_PRESERVED": 38,
+            "ALTERED": 9,
+            "OBSERVED_PARTIAL": 11,
+            "CONFIRMED_LOST": 1,
+            "MEASUREMENT_ERROR": 5,
+            "UNRESOLVED_EQUIVALENCE": 1
+          },
+          "unsupported_or_abstention": 6
+        }
+      }
+    }
+  },
+  "mutation_fault_sensitivity": {
+    "fault_reference": "operator-applied and parseable mutation; this is a known-fault oracle, not a human correctness label",
+    "faults_evaluated": 59,
+    "summary": {
+      "tag_presence": {
+        "faults_evaluated": 59,
+        "detected_faults": 0,
+        "detection_rate": 0.0
+      },
+      "visible_text_equality": {
+        "faults_evaluated": 59,
+        "detected_faults": 0,
+        "detection_rate": 0.0
+      },
+      "destination_only_evidence": {
+        "faults_evaluated": 59,
+        "detected_faults": 16,
+        "detection_rate": 0.2711864406779661
+      },
+      "without_secondary_evidence": {
+        "faults_evaluated": 59,
+        "detected_faults": 46,
+        "detection_rate": 0.7796610169491526
+      },
+      "without_abstention": {
+        "faults_evaluated": 59,
+        "detected_faults": 16,
+        "detection_rate": 0.2711864406779661
+      },
+      "full_a11ypreserve": {
+        "faults_evaluated": 59,
+        "detected_faults": 46,
+        "detection_rate": 0.7796610169491526
+      }
+    },
+    "rows": [
+      {
+        "fixture_id": "F01_A",
+        "feature_family": "headings",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F01_B",
+        "feature_family": "headings",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F01_C",
+        "feature_family": "headings",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F01_D",
+        "feature_family": "headings",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F01_E",
+        "feature_family": "headings",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F02_A",
+        "feature_family": "alt_text",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F02_B",
+        "feature_family": "alt_text",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F02_C",
+        "feature_family": "alt_text",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F02_D",
+        "feature_family": "alt_text",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F02_E",
+        "feature_family": "alt_text",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F03_A",
+        "feature_family": "lists",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "CONFIRMED_LOST",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+          "full_abstention": true
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F03_B",
+        "feature_family": "lists",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "CONFIRMED_LOST",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+          "full_abstention": true
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F03_C",
+        "feature_family": "lists",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "CONFIRMED_LOST",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+          "full_abstention": true
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F03_D",
+        "feature_family": "lists",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": false,
+          "without_abstention": false,
+          "full_a11ypreserve": false
+        }
+      },
+      {
+        "fixture_id": "F03_E",
+        "feature_family": "lists",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": false,
+          "without_abstention": false,
+          "full_a11ypreserve": false
+        }
+      },
+      {
+        "fixture_id": "F04_A",
+        "feature_family": "basic_tables",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F04_B",
+        "feature_family": "basic_tables",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F04_C",
+        "feature_family": "basic_tables",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F04_D",
+        "feature_family": "basic_tables",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F04_E",
+        "feature_family": "basic_tables",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F05_A",
+        "feature_family": "document_language",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "CONFIRMED_LOST",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "CONFIRMED_LOST",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F05_B",
+        "feature_family": "document_language",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "CONFIRMED_LOST",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+          "full_abstention": true
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F05_C",
+        "feature_family": "document_language",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "CONFIRMED_LOST",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+          "full_abstention": true
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F05_D",
+        "feature_family": "document_language",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "CONFIRMED_LOST",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+          "full_abstention": true
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F05_E",
+        "feature_family": "document_language",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "CONFIRMED_LOST",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+          "full_abstention": true
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F06_A",
+        "feature_family": "inline_language",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F06_B",
+        "feature_family": "inline_language",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F06_C",
+        "feature_family": "inline_language",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F06_D",
+        "feature_family": "inline_language",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F06_E",
+        "feature_family": "inline_language",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F08_A",
+        "feature_family": "hyperlinks",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F08_B",
+        "feature_family": "hyperlinks",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F08_C",
+        "feature_family": "hyperlinks",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": false,
+          "without_abstention": false,
+          "full_a11ypreserve": false
+        }
+      },
+      {
+        "fixture_id": "F08_D",
+        "feature_family": "hyperlinks",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": false,
+          "without_abstention": false,
+          "full_a11ypreserve": false
+        }
+      },
+      {
+        "fixture_id": "F09_A",
+        "feature_family": "document_metadata",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F09_B",
+        "feature_family": "document_metadata",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F09_C",
+        "feature_family": "document_metadata",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F09_D",
+        "feature_family": "document_metadata",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F09_E",
+        "feature_family": "document_metadata",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "ALTERED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "ALTERED",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F10_A",
+        "feature_family": "complex_tables",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": false,
+          "without_abstention": false,
+          "full_a11ypreserve": false
+        }
+      },
+      {
+        "fixture_id": "F10_B",
+        "feature_family": "complex_tables",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": false,
+          "without_abstention": false,
+          "full_a11ypreserve": false
+        }
+      },
+      {
+        "fixture_id": "F10_C",
+        "feature_family": "complex_tables",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F10_D",
+        "feature_family": "complex_tables",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F10_E",
+        "feature_family": "complex_tables",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": false,
+          "without_abstention": false,
+          "full_a11ypreserve": false
+        }
+      },
+      {
+        "fixture_id": "F11_A",
+        "feature_family": "footnotes",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "MEASUREMENT_ERROR",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "MEASUREMENT_ERROR",
+          "full_abstention": true
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "CONFIRMED_LOST",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+          "full_abstention": true
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F11_B",
+        "feature_family": "footnotes",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "MEASUREMENT_ERROR",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "MEASUREMENT_ERROR",
+          "full_abstention": true
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "MEASUREMENT_ERROR",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "MEASUREMENT_ERROR",
+          "full_abstention": true
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": false,
+          "without_abstention": false,
+          "full_a11ypreserve": false
+        }
+      },
+      {
+        "fixture_id": "F11_C",
+        "feature_family": "footnotes",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "MEASUREMENT_ERROR",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "MEASUREMENT_ERROR",
+          "full_abstention": true
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "CONFIRMED_LOST",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+          "full_abstention": true
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F11_D",
+        "feature_family": "footnotes",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "MEASUREMENT_ERROR",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "MEASUREMENT_ERROR",
+          "full_abstention": true
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "CONFIRMED_LOST",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+          "full_abstention": true
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F11_E",
+        "feature_family": "footnotes",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "MEASUREMENT_ERROR",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "MEASUREMENT_ERROR",
+          "full_abstention": true
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "MEASUREMENT_ERROR",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "MEASUREMENT_ERROR",
+          "full_abstention": true
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": false,
+          "without_abstention": false,
+          "full_a11ypreserve": false
+        }
+      },
+      {
+        "fixture_id": "F12_A",
+        "feature_family": "equations",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F12_B",
+        "feature_family": "equations",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F12_C",
+        "feature_family": "equations",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F12_D",
+        "feature_family": "equations",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "ABSENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "LOST",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": true,
+          "without_secondary_evidence": true,
+          "without_abstention": true,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F12_E",
+        "feature_family": "equations",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": false,
+          "without_abstention": false,
+          "full_a11ypreserve": false
+        }
+      },
+      {
+        "fixture_id": "F13_A",
+        "feature_family": "captions",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F13_B",
+        "feature_family": "captions",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": false,
+          "without_abstention": false,
+          "full_a11ypreserve": false
+        }
+      },
+      {
+        "fixture_id": "F13_C",
+        "feature_family": "captions",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "CONFIRMED_LOST",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+          "full_abstention": true
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "CONFIRMED_LOST",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+          "full_abstention": true
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": false,
+          "without_abstention": false,
+          "full_a11ypreserve": false
+        }
+      },
+      {
+        "fixture_id": "F13_D",
+        "feature_family": "captions",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "OBSERVED_PARTIAL",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "OBSERVED_PARTIAL",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": true,
+          "without_abstention": false,
+          "full_a11ypreserve": true
+        }
+      },
+      {
+        "fixture_id": "F13_E",
+        "feature_family": "captions",
+        "known_applied_valid_fault": true,
+        "baseline": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "mutated": {
+          "tag_presence": "TAGGED",
+          "visible_text_equality": "EQUAL",
+          "destination_only_evidence": "PRESENT",
+          "without_secondary_evidence": "VERIFIED_PRESERVED",
+          "without_abstention": "PRESERVED",
+          "full_a11ypreserve": "VERIFIED_PRESERVED",
+          "full_abstention": false
+        },
+        "detected_by": {
+          "tag_presence": false,
+          "visible_text_equality": false,
+          "destination_only_evidence": false,
+          "without_secondary_evidence": false,
+          "without_abstention": false,
+          "full_a11ypreserve": false
+        }
+      }
+    ]
+  },
+  "rows": [
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F01_A",
+      "feature_family": "headings",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F01_A__LIBREOFFICE.pdf",
+      "output_sha256": "0c388c8e25174fde4139e95a479bdc0bfdfd43967eca3b89c497b75e2419627f",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F01_B",
+      "feature_family": "headings",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F01_B__LIBREOFFICE.pdf",
+      "output_sha256": "5d6e74e06d0ba9eb5e281d1de13f95c16607ee1f2bc3635bf61c821caec44124",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F01_C",
+      "feature_family": "headings",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F01_C__LIBREOFFICE.pdf",
+      "output_sha256": "a2dfa54daff6cc415325b53a83788130a825630817abfbb751386031d83b5b31",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F01_D",
+      "feature_family": "headings",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F01_D__LIBREOFFICE.pdf",
+      "output_sha256": "dec8805ec285db89c1c739f1d8cfa6abd8b53b6b78da9ed9527a35e5bcc87af5",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F01_E",
+      "feature_family": "headings",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F01_E__LIBREOFFICE.pdf",
+      "output_sha256": "49db42dfaffb0246a14685f70fce94faeff10e1dda19fbc3b950dba1cd07aef9",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F02_A",
+      "feature_family": "alt_text",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F02_A__LIBREOFFICE.pdf",
+      "output_sha256": "8f14168d37a484a79ecfa2c7d6a7d69a76e0fdfad5237caa3ff1bb8b5a04c4f1",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F02_B",
+      "feature_family": "alt_text",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F02_B__LIBREOFFICE.pdf",
+      "output_sha256": "efada2c7f834371088f1813fe81703cde539133b50e90bfc3e07f07257f5b1ef",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F02_C",
+      "feature_family": "alt_text",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F02_C__LIBREOFFICE.pdf",
+      "output_sha256": "d5bc930732ebe9305d0d4143556839a3fe75f8a22deb90eadb07ad3fef52199d",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F02_D",
+      "feature_family": "alt_text",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F02_D__LIBREOFFICE.pdf",
+      "output_sha256": "90eaae309310f39079160fff20f30aaab722d2ca5f3ff52bf83efe301052ef97",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F02_E",
+      "feature_family": "alt_text",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F02_E__LIBREOFFICE.pdf",
+      "output_sha256": "55fbb54b09954f86673d8a80fa74fb0f4c3aca273d95f55e3cb6040f69f51b88",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F03_A",
+      "feature_family": "lists",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F03_A__LIBREOFFICE.pdf",
+      "output_sha256": "71c506e178257884b0da9ba140802c06bf848558d804eac17bf7619623aa4ecd",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F03_B",
+      "feature_family": "lists",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F03_B__LIBREOFFICE.pdf",
+      "output_sha256": "d0152a2f3eedf37a51c22775ec750925cba91e9755573c184b143ec1ea9cd79d",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F03_C",
+      "feature_family": "lists",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F03_C__LIBREOFFICE.pdf",
+      "output_sha256": "24e11419276fb84e738af62d183f42a532a81ffdd57052f7f9ce591639716359",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F03_D",
+      "feature_family": "lists",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F03_D__LIBREOFFICE.pdf",
+      "output_sha256": "2adb92c551a16ce062e929e5cfe726ddbff59d5e588da3111d16b0afb75d4be0",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F03_E",
+      "feature_family": "lists",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F03_E__LIBREOFFICE.pdf",
+      "output_sha256": "4c4e3f99eb0131ad4033162c0b8a0dfab020df286f56d452e153a8af932361e6",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F04_A",
+      "feature_family": "basic_tables",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F04_A__LIBREOFFICE.pdf",
+      "output_sha256": "36346a9a3503fd91feffc6d433698a58cb6a058060981ee01235a47b0146caec",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F04_B",
+      "feature_family": "basic_tables",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F04_B__LIBREOFFICE.pdf",
+      "output_sha256": "9117725e0a42293d2ba090525885622937d384975ff10498df976e05cad163d0",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F04_C",
+      "feature_family": "basic_tables",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F04_C__LIBREOFFICE.pdf",
+      "output_sha256": "43d05b7777dbd443c10d23b824e1bc321ddd3e6df8969687fbeab8752640d05e",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F04_D",
+      "feature_family": "basic_tables",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F04_D__LIBREOFFICE.pdf",
+      "output_sha256": "37e156954455a6b1b0aeb1cfda336af5de594c06284d208d9f4a5d7450628dca",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F04_E",
+      "feature_family": "basic_tables",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F04_E__LIBREOFFICE.pdf",
+      "output_sha256": "55f851f1b030818d35a714b0312173662795c53c01fae997548b5f0adb17234c",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F05_A",
+      "feature_family": "document_language",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F05_A__LIBREOFFICE.pdf",
+      "output_sha256": "51ad2999d2b7d0e5333c06a86dff13a5ac63acd68d3258b5cce57d73a4ca8af6",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F05_B",
+      "feature_family": "document_language",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F05_B__LIBREOFFICE.pdf",
+      "output_sha256": "afc1861926fb9d9856b6032f75ca5101262ea04b83d87a962ac5a3d8d0ec2eea",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F05_C",
+      "feature_family": "document_language",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F05_C__LIBREOFFICE.pdf",
+      "output_sha256": "e451534f0eba735ce8e02d44908f731e64c419a4fddfa9a1c44b27e45e4ef3ee",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F05_D",
+      "feature_family": "document_language",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F05_D__LIBREOFFICE.pdf",
+      "output_sha256": "c978856010ecf799dcd77d4a709251496d5411a691eb7a2e7df329f97063fbbf",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F05_E",
+      "feature_family": "document_language",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F05_E__LIBREOFFICE.pdf",
+      "output_sha256": "a011265e0ab0d1fb265616f93bb0cf217e927f82c31efaba40add13e8c4d8c9c",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F06_A",
+      "feature_family": "inline_language",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F06_A__LIBREOFFICE.pdf",
+      "output_sha256": "d40e1b5cd25704cb293a50a94431d64e5f7433af2c8d662fafbaeb29235be1c3",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F06_B",
+      "feature_family": "inline_language",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F06_B__LIBREOFFICE.pdf",
+      "output_sha256": "033b1c8ad03cd98e4e1b97ec4179506d72350e3eb67e8c43e8d6c274c8255e9a",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F06_C",
+      "feature_family": "inline_language",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F06_C__LIBREOFFICE.pdf",
+      "output_sha256": "34bc68ee9ca85c6c5a4897592b8c3d2a01d756f564f4231bb242e61983deaa70",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F06_D",
+      "feature_family": "inline_language",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F06_D__LIBREOFFICE.pdf",
+      "output_sha256": "15f660be771be5570a8bfbcbd37243bfbb52e1d4a77a96cfce696707b442a438",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F06_E",
+      "feature_family": "inline_language",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F06_E__LIBREOFFICE.pdf",
+      "output_sha256": "b8bbbafa3581179479be9f63ee201a17bc8f971e40a08e43e1692036465dfdfa",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F07_A",
+      "feature_family": "decorative_images",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F07_A__LIBREOFFICE.pdf",
+      "output_sha256": "659cc2a0ec3a4a7d8604f482fa7878d54581a02dfe4a2074f99dd04f7bb5374d",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F07_B",
+      "feature_family": "decorative_images",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F07_B__LIBREOFFICE.pdf",
+      "output_sha256": "4b573f6709cc6eb35288c698a012ee6787da366b83464ea955486abd432c6b63",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F07_C",
+      "feature_family": "decorative_images",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F07_C__LIBREOFFICE.pdf",
+      "output_sha256": "ca040124327d2176feb0347d126fa18a43ffd022dc07d2439dadb7ab712a396a",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F07_D",
+      "feature_family": "decorative_images",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F07_D__LIBREOFFICE.pdf",
+      "output_sha256": "5bc3ab4a6a9683188a54da0eb1324da7e9cca0e2fff1927e8b27f4b382fb8c6c",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F07_E",
+      "feature_family": "decorative_images",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F07_E__LIBREOFFICE.pdf",
+      "output_sha256": "69a1ba14a606eb179fee33a8397ef4e8192bfa7552c124c57d175e9f1c3b6ada",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F08_A",
+      "feature_family": "hyperlinks",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F08_A__LIBREOFFICE.pdf",
+      "output_sha256": "2007f97f759e03ee6c1591e3146c79145a18eb475f9a3ce3093cbcaa63abbabb",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F08_B",
+      "feature_family": "hyperlinks",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F08_B__LIBREOFFICE.pdf",
+      "output_sha256": "9bb2809ccfd2c9da28283b53c751b5041783ac41432d4b1d354f0859a139a017",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F08_C",
+      "feature_family": "hyperlinks",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F08_C__LIBREOFFICE.pdf",
+      "output_sha256": "4796d1a41b1e48c84623ac744f520b6a149234939b62823a6bb9f381fafd2c25",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F08_D",
+      "feature_family": "hyperlinks",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F08_D__LIBREOFFICE.pdf",
+      "output_sha256": "f51858deed4d51c825222f5b9e462b7e01c39b792a6115a4480e4a913e4f8ef4",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F08_E",
+      "feature_family": "hyperlinks",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F08_E__LIBREOFFICE.pdf",
+      "output_sha256": "b1f315e26fe8181ca3f1173bae72dfb2201857b386fb609594c0034e3c745a75",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "CONFIRMED_LOST",
+        "full_abstention": false
+      },
+      "raw_fidelity": "LOST"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F09_A",
+      "feature_family": "document_metadata",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F09_A__LIBREOFFICE.pdf",
+      "output_sha256": "0dbd3085728295f9fc47bb0304104d31b46109bf3b770860d5d643b0c18f6564",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F09_B",
+      "feature_family": "document_metadata",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F09_B__LIBREOFFICE.pdf",
+      "output_sha256": "3f1ad384117292925e879372b4fd67510dc118bacfd87756dd2e994816f8821e",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F09_C",
+      "feature_family": "document_metadata",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F09_C__LIBREOFFICE.pdf",
+      "output_sha256": "53b1f3973eda7b225bca1cea7dfc3fe0c65a42e013b383a9103070c7c6776365",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F09_D",
+      "feature_family": "document_metadata",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F09_D__LIBREOFFICE.pdf",
+      "output_sha256": "3a8cc5319622aedf1d5bbf0df8c784dab4be5be5e21a32c4ecaf111a7f6e19d7",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F09_E",
+      "feature_family": "document_metadata",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F09_E__LIBREOFFICE.pdf",
+      "output_sha256": "f645e97b0096d15b326ff47fe3899ac22169d8b860067ceac5bec626f0edb4b1",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F10_A",
+      "feature_family": "complex_tables",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F10_A__LIBREOFFICE.pdf",
+      "output_sha256": "cd50d1946caef6eb26cf2028b037aa3d73a1e438d2fc49146f96a8b81fb6714f",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F10_B",
+      "feature_family": "complex_tables",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F10_B__LIBREOFFICE.pdf",
+      "output_sha256": "798b2afca69003b1d236715e78fc38a033b3d31abeec53914d2805eff3a94e5c",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F10_C",
+      "feature_family": "complex_tables",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F10_C__LIBREOFFICE.pdf",
+      "output_sha256": "747f5dfde0407d607c750b6cc3d280f920199a28560357cd921362b9c1d81580",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F10_D",
+      "feature_family": "complex_tables",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F10_D__LIBREOFFICE.pdf",
+      "output_sha256": "c49507b7dd53f80a79f19b4b8a51d9c0d60a1e133175b06cbebb0f7832956691",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F10_E",
+      "feature_family": "complex_tables",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F10_E__LIBREOFFICE.pdf",
+      "output_sha256": "2a2f1464df1429c457a36957e77f6dd67188622bb616c654beae575f5f550e90",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F11_A",
+      "feature_family": "footnotes",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F11_A__LIBREOFFICE.pdf",
+      "output_sha256": "f66e58240246a1e9e086a2cd659fc9180cedda12be80bf51ccb108e9108588d2",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "MEASUREMENT_ERROR",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "MEASUREMENT_ERROR",
+        "full_abstention": true
+      },
+      "raw_fidelity": "MEASUREMENT_ERROR"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F11_B",
+      "feature_family": "footnotes",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F11_B__LIBREOFFICE.pdf",
+      "output_sha256": "51f7c59c2d1b86e8024d1e8a53d3e02557ed54d13b7f86682f90c6e6d024a9b8",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "MEASUREMENT_ERROR",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "MEASUREMENT_ERROR",
+        "full_abstention": true
+      },
+      "raw_fidelity": "MEASUREMENT_ERROR"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F11_C",
+      "feature_family": "footnotes",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F11_C__LIBREOFFICE.pdf",
+      "output_sha256": "5edcc1f88bcb259e15a6618512761d662c0da5ad16c0a8f12210f46afc7e47d0",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "MEASUREMENT_ERROR",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "MEASUREMENT_ERROR",
+        "full_abstention": true
+      },
+      "raw_fidelity": "MEASUREMENT_ERROR"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F11_D",
+      "feature_family": "footnotes",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F11_D__LIBREOFFICE.pdf",
+      "output_sha256": "8a524f5a69e6ec1bb52c6891409cb14a045d8233812a5030fd832509f309cefd",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "MEASUREMENT_ERROR",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "MEASUREMENT_ERROR",
+        "full_abstention": true
+      },
+      "raw_fidelity": "MEASUREMENT_ERROR"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F11_E",
+      "feature_family": "footnotes",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F11_E__LIBREOFFICE.pdf",
+      "output_sha256": "cf98527fa32f94b7cce18f567115ada3ef0aac696fd9e4f84e3a09a50040a50c",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "MEASUREMENT_ERROR",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "MEASUREMENT_ERROR",
+        "full_abstention": true
+      },
+      "raw_fidelity": "MEASUREMENT_ERROR"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F12_A",
+      "feature_family": "equations",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F12_A__LIBREOFFICE.pdf",
+      "output_sha256": "2381974bae6a10ab45cdde1bbff5ca1a41d575f58251fd1781956b2e01a3b34c",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F12_B",
+      "feature_family": "equations",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F12_B__LIBREOFFICE.pdf",
+      "output_sha256": "5b7bd98dc86584041b5a4bb212c0caf387c3d2ed06809fee460186ac581eadab",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F12_C",
+      "feature_family": "equations",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F12_C__LIBREOFFICE.pdf",
+      "output_sha256": "5967abfd0efafa5e56dcc4d63aa03b602010e8d3999e269bce95d5547935f53c",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F12_D",
+      "feature_family": "equations",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F12_D__LIBREOFFICE.pdf",
+      "output_sha256": "34fb30d7ab8757a2313aba0e1e6a47122ee9b09c83712440d3bdcce35ea07e4c",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F12_E",
+      "feature_family": "equations",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F12_E__LIBREOFFICE.pdf",
+      "output_sha256": "fc20676bd6f3c1d5e1ba06de040df258bca3f1ff7ae4aed76ce2991bd149ddb0",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F13_A",
+      "feature_family": "captions",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F13_A__LIBREOFFICE.pdf",
+      "output_sha256": "1471d860b80831fb3b324757fd47a7948144e938cbdcc402dd87dbfb94ba92ed",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F13_B",
+      "feature_family": "captions",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F13_B__LIBREOFFICE.pdf",
+      "output_sha256": "5fe4f7f3685300da7f0df4b8593012a12fda9e085ebe0d1a5f0bbfdfb109640a",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F13_C",
+      "feature_family": "captions",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F13_C__LIBREOFFICE.pdf",
+      "output_sha256": "c40caa2d4201f3bba875143f950b7bc0e4a7a081d8f249a91126b132df72d4b6",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "raw_fidelity": "LOST"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F13_D",
+      "feature_family": "captions",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F13_D__LIBREOFFICE.pdf",
+      "output_sha256": "e035e8d5b7e6a9c347438dbb5fd6870fe87de58a98bec0b746599c47040aafc0",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "libreoffice",
+      "fixture_id": "F13_E",
+      "feature_family": "captions",
+      "output_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F13_E__LIBREOFFICE.pdf",
+      "output_sha256": "6e83816482019b38690211f9e78770c0f4ef0ed4db921085aabe068dec270310",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F01_A",
+      "feature_family": "headings",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F01_A__GOOGLE_DOCS.pdf",
+      "output_sha256": "ae07577a1a7aefd84614cc3f58895216d12886af04514cbcf539810a66c0ca82",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F01_B",
+      "feature_family": "headings",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F01_B__GOOGLE_DOCS.pdf",
+      "output_sha256": "83ed6be7a4c30bfe254e7781d86f8e4626d734e737d05531b598dc5f6da76c18",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F01_C",
+      "feature_family": "headings",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F01_C__GOOGLE_DOCS.pdf",
+      "output_sha256": "d67d63997562d61b0df9000965efb126c59e28cba98264caf4fa7751d5858f2c",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F01_D",
+      "feature_family": "headings",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F01_D__GOOGLE_DOCS.pdf",
+      "output_sha256": "f396ccdd96a9b13e4f88892278e18e889bada9f597c15d982bcc8d5377c28c1a",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F01_E",
+      "feature_family": "headings",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F01_E__GOOGLE_DOCS.pdf",
+      "output_sha256": "ebd14110563051be3e9ddd2d03ac3ddc6087b097831558cfda5e1ceeb2fcfbab",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F02_A",
+      "feature_family": "alt_text",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F02_A__GOOGLE_DOCS.pdf",
+      "output_sha256": "dd35bd4ccb46c96b067fdc0dc1f0086a7e29d5762ec69510cf6feac5e854e731",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F02_B",
+      "feature_family": "alt_text",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F02_B__GOOGLE_DOCS.pdf",
+      "output_sha256": "f68a99356feba7cf2b18c6d0f86dcf61cecbc15e04594a2aa82edf4161e0b3fc",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F02_C",
+      "feature_family": "alt_text",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F02_C__GOOGLE_DOCS.pdf",
+      "output_sha256": "ab46a66752f4efb87b246b95d3debfda084178222db47b00671c60c05c8dfb22",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F02_D",
+      "feature_family": "alt_text",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F02_D__GOOGLE_DOCS.pdf",
+      "output_sha256": "a7709512c7f2a1a70228fe496bc2a26c2369aa3fe98cdc0023969db0553614a2",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F02_E",
+      "feature_family": "alt_text",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F02_E__GOOGLE_DOCS.pdf",
+      "output_sha256": "132fb2725cd30544e08b98f5be69f070300cdff761918aceaa3de65d33f16a91",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F03_A",
+      "feature_family": "lists",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F03_A__GOOGLE_DOCS.pdf",
+      "output_sha256": "2e8f1922b3b8dab3b368d3d2ea1950d9617ca437a434a037f70af707cc3cfdf4",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F03_B",
+      "feature_family": "lists",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F03_B__GOOGLE_DOCS.pdf",
+      "output_sha256": "e5ea4da6f7b5d4ae87569160675d480159f1cbb4b5e06d85da09f5ac44b646e6",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F03_C",
+      "feature_family": "lists",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F03_C__GOOGLE_DOCS.pdf",
+      "output_sha256": "14c26b39aa4cd214342d49bff81b0d04824f9e8238b17c0d6bd4437d111f1171",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F03_D",
+      "feature_family": "lists",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F03_D__GOOGLE_DOCS.pdf",
+      "output_sha256": "0e7e11fb932b0d9ffd25a67194bdb7d84be98a8826a1c83d7acdffca79826e09",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F03_E",
+      "feature_family": "lists",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F03_E__GOOGLE_DOCS.pdf",
+      "output_sha256": "222a210c9f5608b448257bf66a39ea6025d5d9a9a6a09511cce10c1d2d52e933",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F04_A",
+      "feature_family": "basic_tables",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F04_A__GOOGLE_DOCS.pdf",
+      "output_sha256": "170f777101ad43377034b316f12e37e122d1ab92cb7f09fff98a1a62bd47e664",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F04_B",
+      "feature_family": "basic_tables",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F04_B__GOOGLE_DOCS.pdf",
+      "output_sha256": "2fcd77c7e4eb9bb85c1f496c38983d005224280c084d86cc2d79b041944f4b49",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F04_C",
+      "feature_family": "basic_tables",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F04_C__GOOGLE_DOCS.pdf",
+      "output_sha256": "430f0ebfc4d90cf63316c6292dcf8ced1cefd546fe5750b1ed096e99adfe8366",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F04_D",
+      "feature_family": "basic_tables",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F04_D__GOOGLE_DOCS.pdf",
+      "output_sha256": "c1811889c19ab31b3c62d2119a6ebffccaf559d0cf521efbf32e1ad46dd8365e",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F04_E",
+      "feature_family": "basic_tables",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F04_E__GOOGLE_DOCS.pdf",
+      "output_sha256": "e1fcec2f7237214bb1a2fdc5c4a002d23620569aa24b466d0f8c29d5dbaba077",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "SEMANTICALLY_EQUIVALENT"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F05_A",
+      "feature_family": "document_language",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F05_A__GOOGLE_DOCS.pdf",
+      "output_sha256": "ea3b32c2463e22f2ffbf91069793127545719f78d8f5b40ebc30f340d7712d8c",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F05_B",
+      "feature_family": "document_language",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F05_B__GOOGLE_DOCS.pdf",
+      "output_sha256": "a1312c08e45d79ccb18d3c902c08fdf8a79c1f6f57cf8c90ac2bfcc745fe1b8c",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F05_C",
+      "feature_family": "document_language",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F05_C__GOOGLE_DOCS.pdf",
+      "output_sha256": "73a223c467de1d8313aed6724be8937ac85ee83b69f3b72d2b8bdbf8e2562ffd",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F05_D",
+      "feature_family": "document_language",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F05_D__GOOGLE_DOCS.pdf",
+      "output_sha256": "78360017fb67c3dc9c548078b6b451b2c41742b425ad914bc15abfa37780de8b",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F05_E",
+      "feature_family": "document_language",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F05_E__GOOGLE_DOCS.pdf",
+      "output_sha256": "9c058a615c846dee4827a80acf42fa85fe0dafaa35e7601a3be8071743322151",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F06_A",
+      "feature_family": "inline_language",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F06_A__GOOGLE_DOCS.pdf",
+      "output_sha256": "b4f1c6e99036e312c825e308cf0f5ec74fde1c93ecc7b16c918c56fb3e73fe48",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "CONFIRMED_LOST",
+        "full_abstention": false
+      },
+      "raw_fidelity": "LOST"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F06_B",
+      "feature_family": "inline_language",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F06_B__GOOGLE_DOCS.pdf",
+      "output_sha256": "75769f89b91380fc212a3a45e0d41983b1d5e67c37dc3e9b95300df83c07f456",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "CONFIRMED_LOST",
+        "full_abstention": false
+      },
+      "raw_fidelity": "LOST"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F06_C",
+      "feature_family": "inline_language",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F06_C__GOOGLE_DOCS.pdf",
+      "output_sha256": "f55819d5ae267b54b8d5493025cb4aff67f0ab36efaf86d740529f143de393be",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "CONFIRMED_LOST",
+        "full_abstention": false
+      },
+      "raw_fidelity": "LOST"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F06_D",
+      "feature_family": "inline_language",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F06_D__GOOGLE_DOCS.pdf",
+      "output_sha256": "8779503ebd2406458c20c72ebad877cb058a9c9f02254c4dc81df8fb3d342950",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "CONFIRMED_LOST",
+        "full_abstention": false
+      },
+      "raw_fidelity": "LOST"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F06_E",
+      "feature_family": "inline_language",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F06_E__GOOGLE_DOCS.pdf",
+      "output_sha256": "730ab3a1cccae15b27fc1daec1db26d06ee6894bb2470a7768d2349d38062b13",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "DIFFERENT",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "CONFIRMED_LOST",
+        "full_abstention": false
+      },
+      "raw_fidelity": "LOST"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F07_A",
+      "feature_family": "decorative_images",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F07_A__GOOGLE_DOCS.pdf",
+      "output_sha256": "24af93e1f49ebcf591e40bc8c9a88564f2b7de463ff143b081fe827d6e732ec4",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F07_B",
+      "feature_family": "decorative_images",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F07_B__GOOGLE_DOCS.pdf",
+      "output_sha256": "65a5089926f60591652c74ea9df5b6995f80ce37ae747e8e4d0218c1d09c0ad9",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "VERIFIED_PRESERVED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "VERIFIED_PRESERVED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "EXACT_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F07_C",
+      "feature_family": "decorative_images",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F07_C__GOOGLE_DOCS.pdf",
+      "output_sha256": "5023504d4e37039a45d7347210d1d9fa20e1e7ee1d1b4a6956219c06d4a432fb",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F07_D",
+      "feature_family": "decorative_images",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F07_D__GOOGLE_DOCS.pdf",
+      "output_sha256": "9bfcba58d386faf8af2693559200e66b6eeb2a07b99792168fb972bf567a4b9d",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F07_E",
+      "feature_family": "decorative_images",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F07_E__GOOGLE_DOCS.pdf",
+      "output_sha256": "811b09443368caf4c49a569aa0bc4162e820e360cea5c7d136c8a1a716d8f440",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F08_A",
+      "feature_family": "hyperlinks",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F08_A__GOOGLE_DOCS.pdf",
+      "output_sha256": "f0a7477131c5ecb50a8e00b7973bbdf71ca58c5a5a4963236a8f2e281c1389ea",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F08_B",
+      "feature_family": "hyperlinks",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F08_B__GOOGLE_DOCS.pdf",
+      "output_sha256": "b2d986ae359f336ea834af1a93307ea242990b7e573f50a65709ac45b9563f85",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F08_C",
+      "feature_family": "hyperlinks",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F08_C__GOOGLE_DOCS.pdf",
+      "output_sha256": "d5918e58c296829a22f33119cb76f114854e04fbf7b318463911e7243375ff5d",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F08_D",
+      "feature_family": "hyperlinks",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F08_D__GOOGLE_DOCS.pdf",
+      "output_sha256": "b18f70e2a6759ea9d93173f42aa0766c0d037e77d1ef09f326823e0bb52d5803",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F08_E",
+      "feature_family": "hyperlinks",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F08_E__GOOGLE_DOCS.pdf",
+      "output_sha256": "f33ccddcc51b817208771a5520fa935b2fc2feffd7c9d0557f07e8303bf810ff",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F09_A",
+      "feature_family": "document_metadata",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F09_A__GOOGLE_DOCS.pdf",
+      "output_sha256": "7526edd86baf35077549842dbfb90313df5d5c3817cacf49c7520745038e7874",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F09_B",
+      "feature_family": "document_metadata",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F09_B__GOOGLE_DOCS.pdf",
+      "output_sha256": "5944e484d93cce805d75c2c733898ccfb48a158b582b1b9c6675ec1ef20a3cb6",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F09_C",
+      "feature_family": "document_metadata",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F09_C__GOOGLE_DOCS.pdf",
+      "output_sha256": "c68028e113b0ba244e2b2256e68b8c3467b8f3b6259dbd28720ee331df6a9cdd",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F09_D",
+      "feature_family": "document_metadata",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F09_D__GOOGLE_DOCS.pdf",
+      "output_sha256": "8f626145ccaa2c719ffc0bbd1ed789e152d9becab26c7001e506d540b3991fe7",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F09_E",
+      "feature_family": "document_metadata",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F09_E__GOOGLE_DOCS.pdf",
+      "output_sha256": "ed5d9ba550258ba0157c634577a3fc46b7bf2c18f866a5bb71cd352ab85e2a46",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "ALTERED",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "ALTERED",
+        "full_abstention": false
+      },
+      "raw_fidelity": "MUTATED"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F10_A",
+      "feature_family": "complex_tables",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F10_A__GOOGLE_DOCS.pdf",
+      "output_sha256": "b24a411ebf95274dafd2b71e7af4d02bed73714c2d4b831f030782a471da0019",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F10_B",
+      "feature_family": "complex_tables",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F10_B__GOOGLE_DOCS.pdf",
+      "output_sha256": "52e49cfc800b04642fc3409ead38cf7cf4ccbc9f288a6af5fce299720180fd16",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F10_C",
+      "feature_family": "complex_tables",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F10_C__GOOGLE_DOCS.pdf",
+      "output_sha256": "095d723ff62f7d138d762142edf7a0c48a736c7815da08b748988aed902c7fb6",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F10_D",
+      "feature_family": "complex_tables",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F10_D__GOOGLE_DOCS.pdf",
+      "output_sha256": "cd5f0927eced45133ada00617b446aebc3c851b90d49d7d2142382e9f347623d",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F10_E",
+      "feature_family": "complex_tables",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F10_E__GOOGLE_DOCS.pdf",
+      "output_sha256": "0d5f11cd79cfeeb7af465be2cb6e29c1d771fe18ffa110b6425083d7fa8bfd18",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F11_A",
+      "feature_family": "footnotes",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F11_A__GOOGLE_DOCS.pdf",
+      "output_sha256": "641ab19f11acfd68cecd0f5f488f5370897a2ae17552c96743a66f8b7685c3d1",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "raw_fidelity": "LOST"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F11_B",
+      "feature_family": "footnotes",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F11_B__GOOGLE_DOCS.pdf",
+      "output_sha256": "6ee8f34d70b46549134c2e94d6183cb17231e6ae568fc725f1b549848c360db8",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "raw_fidelity": "LOST"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F11_C",
+      "feature_family": "footnotes",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F11_C__GOOGLE_DOCS.pdf",
+      "output_sha256": "5a2ace87915119402acd994c65b9d09a0a89a61787ef0573fab8fafa436c779b",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "raw_fidelity": "LOST"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F11_D",
+      "feature_family": "footnotes",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F11_D__GOOGLE_DOCS.pdf",
+      "output_sha256": "5dccac92fb40e73bef2049d89e86af5a7785f9a846dabe9daee99a907909659a",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "raw_fidelity": "LOST"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F11_E",
+      "feature_family": "footnotes",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F11_E__GOOGLE_DOCS.pdf",
+      "output_sha256": "93caf34e1a5d2c0e7cb2ab7debc0b4feef657e8f558afb245c73058cbdcc79ee",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "UNRESOLVED_EQUIVALENCE",
+        "full_abstention": true
+      },
+      "raw_fidelity": "LOST"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F12_A",
+      "feature_family": "equations",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F12_A__GOOGLE_DOCS.pdf",
+      "output_sha256": "14294751d068324037adca530e1b896f0beb9d414b105156bd8f45a86a4dadca",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F12_B",
+      "feature_family": "equations",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F12_B__GOOGLE_DOCS.pdf",
+      "output_sha256": "c9cc2f1c1a9dbe3ce2b8d5373d25127e14df7dede56b79cbd842b0e0d7ef88b1",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F12_C",
+      "feature_family": "equations",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F12_C__GOOGLE_DOCS.pdf",
+      "output_sha256": "0db581a4f309992422f417994462330928688e55e9ba8272af0fd124ba09bfea",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F12_D",
+      "feature_family": "equations",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F12_D__GOOGLE_DOCS.pdf",
+      "output_sha256": "24b6aa70c3684281037838975ab25bbc6d0feb8ce5b583310cf97c5c0bb69a2c",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F12_E",
+      "feature_family": "equations",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F12_E__GOOGLE_DOCS.pdf",
+      "output_sha256": "ef0afe5f0d6c64840ec53a1908deb296bed90b69b6ce523320d9d76337eb0056",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F13_A",
+      "feature_family": "captions",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F13_A__GOOGLE_DOCS.pdf",
+      "output_sha256": "22f9dc234101d8f5524d8a5c911a4b2d0a5ada8e552d666cadc448b88ff847a3",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F13_B",
+      "feature_family": "captions",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F13_B__GOOGLE_DOCS.pdf",
+      "output_sha256": "130d9e45eedb06920810ddad8ff7761fb2d55e42a19deafd8da561c3e60ee80d",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F13_C",
+      "feature_family": "captions",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F13_C__GOOGLE_DOCS.pdf",
+      "output_sha256": "4b48310eefd3e73a024ab1e52c1ff70a8fae1cd2be0ce5c7b5ff6c093869dd67",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "ABSENT",
+        "without_secondary_evidence": "CONFIRMED_LOST",
+        "without_abstention": "LOST",
+        "full_a11ypreserve": "CONFIRMED_LOST",
+        "full_abstention": false
+      },
+      "raw_fidelity": "LOST"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F13_D",
+      "feature_family": "captions",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F13_D__GOOGLE_DOCS.pdf",
+      "output_sha256": "47e015f2f3e8fad04d420a5645eab9499562c9ea3f764f3aa96485a07429746e",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    },
+    {
+      "pipeline": "google",
+      "fixture_id": "F13_E",
+      "feature_family": "captions",
+      "output_path": "experiments/v4/conversions/google/outputs/atomic/F13_E__GOOGLE_DOCS.pdf",
+      "output_sha256": "e15407ed9c5b83369b15fe6f58883b18c9844d90a5ba6307e0f1d47d864419e6",
+      "observations": {
+        "tag_presence": "TAGGED",
+        "visible_text_equality": "EQUAL",
+        "destination_only_evidence": "PRESENT",
+        "without_secondary_evidence": "OBSERVED_PARTIAL",
+        "without_abstention": "PRESERVED",
+        "full_a11ypreserve": "OBSERVED_PARTIAL",
+        "full_abstention": false
+      },
+      "raw_fidelity": "PARTIAL_PRESERVATION"
+    }
+  ],
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

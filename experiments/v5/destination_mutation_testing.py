@@ -140,7 +140,30 @@ def main() -> None:
         detected = valid and changed and classification != baseline_classification
         rows.append({"family": family, "fixture_id": fixture, "mutant": mutant_name, "baseline_pdf_sha256": sha256(baseline), "mutant_pdf_sha256": sha256(out), "mutation_applied": changed, "mutation_note": mutation_note, "valid_pdf": valid, "baseline_classification": baseline_classification, "mutant_classification": classification, "detected": detected, "error": error})
     valid_mutants = sum(row["valid_pdf"] and row["mutation_applied"] for row in rows)
-    controls = [{"family": row["family"], "fixture_id": row["fixture_id"], "baseline_classification": row["baseline_classification"], "control_classification": row["baseline_classification"], "false_positive": False} for row in rows]
+    controls = []
+    for entry in source_manifest["records"]:
+        fixture = entry["variant_id"]
+        family = entry["feature_family"]
+        baseline_path = ROOT / "experiments" / "v4" / "conversions" / "libreoffice" / "outputs" / "atomic" / f"{fixture}__LIBREOFFICE.pdf"
+        expected = next(row["baseline_classification"] for row in rows if row["fixture_id"] == fixture)
+        control_error = None
+        try:
+            control_source = docx_extract(ROOT / entry["fixture"])
+            control_destination = pdf_extract(baseline_path)
+            control_secondary = secondary(baseline_path)
+            control_raw = compare_feature_v4(control_source, control_destination, FAMILY_CONFIG[family][0])
+            control_classification, _ = final_classification(control_raw, FAMILY_CONFIG[family][0], control_destination, control_secondary)
+        except Exception as exc:
+            control_classification = "MEASUREMENT_ERROR"
+            control_error = repr(exc)
+        controls.append({
+            "family": family,
+            "fixture_id": fixture,
+            "baseline_classification": expected,
+            "control_classification": control_classification,
+            "false_positive": control_classification != expected,
+            "error": control_error,
+        })
     payload = {"protocol": "V5 destination-side mutation testing", "status": "COMPLETE", "mutants_attempted": len(rows), "valid_mutants": valid_mutants, "detected_mutants": sum(row["detected"] for row in rows), "surviving_mutants": sum(row["valid_pdf"] and row["mutation_applied"] and not row["detected"] for row in rows), "false_positive_controls": sum(control["false_positive"] for control in controls), "controls_evaluated": len(controls), "control_definition": "no-op controls re-extracted each unmutated baseline PDF and required the same classification; no control was treated as a mutant", "no_op_controls": controls, "measurement_errors": sum(row["mutant_classification"] == "MEASUREMENT_ERROR" for row in rows), "unsupported_attempts": sum(not row["mutation_applied"] or not row["valid_pdf"] for row in rows), "rows": rows}
     (V5 / "destination_mutation_manifest.json").write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps({key: payload[key] for key in ("status", "mutants_attempted", "valid_mutants", "detected_mutants", "surviving_mutants", "measurement_errors", "unsupported_attempts")}, indent=2))

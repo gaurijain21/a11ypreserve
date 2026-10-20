@@ -1,0 +1,151 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T00:20:15.461712+00:00",
+  "fixture_id": "F06_E",
+  "feature_family": "inline_language",
+  "mutation_operator": "removed first inline StructElem /Lang",
+  "mutation_target": "inline /Lang",
+  "source_path": "experiments/v4/fixtures/F06_E.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F06_E__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F06_E.pdf",
+  "baseline_pdf_sha256": "b8bbbafa3581179479be9f63ee201a17bc8f971e40a08e43e1692036465dfdfa",
+  "mutated_pdf_sha256": "0878f7f4e4a02ea265084252630ec7408044597e595b4a5484d3347b82c7b436",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "ALTERED",
+  "mutated_classification": "OBSERVED_PARTIAL",
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "inline_language",
+    "source_value": [
+      {
+        "text": "English ",
+        "language": "en-GB",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:r/w:rPr/w:lang"
+        }
+      },
+      {
+        "text": "日本語 ",
+        "language": "ja-JP",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:r/w:rPr/w:lang"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "text": "",
+        "language": "en-GB",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1984497923664), '/Pg': IndirectObject(1, 0, 1984497923664), '/Lang': 'en-GB', '/K': [2]}",
+          "source": "StructElem/Lang"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "text": "",
+        "language": "en-GB",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 1984497923664), '/Pg': IndirectObject(1, 0, 1984497923664), '/Lang': 'en-GB', '/K': [2]}",
+          "source": "StructElem/Lang"
+        }
+      }
+    ],
+    "fidelity_classification": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F06_E.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F06_E__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "inline_language",
+    "source_value": [
+      {
+        "text": "English ",
+        "language": "en-GB",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:r/w:rPr/w:lang"
+        }
+      },
+      {
+        "text": "日本語 ",
+        "language": "ja-JP",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:r/w:rPr/w:lang"
+        }
+      }
+    ],
+    "destination_value": [],
+    "destination_representation": [],
+    "fidelity_classification": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F06_E.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F06_E.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "document language may survive while inline override is absent"
+  },
+  "normalized_evidence_sha256_before": "558d03099f8b0c0291468f5910aff9a2031b81415ca97c8f4240ab09fe91bdc9",
+  "normalized_evidence_sha256_after": "bcc0949a2f97ad2ace7ca62881005dce949e9a55dc56a319d24283934fda735f",
+  "extracted_evidence_changed": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "91064fe22a63eb0680ded52a5a75676b52ca28ec683250b895167e00bea6cd3b",
+    "classification": "ALTERED",
+    "raw_fidelity": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "e7811c2c1961c6cefabed807b48c33b9d40861e88f3f8abd7a2103f3fb27387e",
+    "classification": "OBSERVED_PARTIAL",
+    "raw_fidelity": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": true,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "CLASSIFICATION_DETECTED",
+  "inconclusive_or_unsupported_reason": "classification changed after a valid applied mutation",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

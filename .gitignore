@@ -29,7 +29,11 @@ tmp/
 paper/rendered*/
 submission/**/rendered*/
 submission/**/upload_v5/
+submission/**/upload_v6/
 submission/**/upload/
+submission/**/.pdf-qa/
+submission/ICST2027_V6/v6_final_audit.*
+submission/ICST2027_V6/main_pre_*.pdf
 
 # Local conversion/runtime material
 pilot2/7zip_runtime/
