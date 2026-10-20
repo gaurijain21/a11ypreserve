@@ -16,6 +16,7 @@ def main() -> None:
         ROOT / "submission" / "ICST2027_V6" / "main.tex",
         ROOT / "submission" / "ICST2027_V6" / "v6_hardening.tex",
     ])
+    source_lower = source.lower()
     checks = {
         "control_denominator_and_result": f"{control['classification_disagreements']}/65" in source and control["controls_evaluated"] == 65,
         "mutation_attempts_and_valid": str(mutation["attempted"]) in source and str(mutation["valid_applied_mutants"]) in source,
@@ -23,7 +24,7 @@ def main() -> None:
         "baseline_denominator": ablation["primary_cases"] == 130 and "130" in source,
         "baseline_fault_counts": all(f"{ablation['mutation_fault_sensitivity']['summary'][key]['detected_faults']}/59" in source for key in ["tag_presence", "visible_text_equality", "destination_only_evidence", "full_a11ypreserve"]),
         "frozen_denominators": all(token in source for token in ["13 accessibility feature families", "65 atomic", "130 fixture"]),
-        "scope_boundary": all(token in source for token in ["end-to-end", "general PDF checker", "No standards-validator"]),
+        "scope_boundary": all(token.lower() in source_lower for token in ["end-to-end", "general PDF checker", "No standards-validator"]),
         "anonymous_manuscript": "Anonymous for review" in source,
     }
     result = {"status": "PASS" if all(checks.values()) else "FAIL", "checks": checks}

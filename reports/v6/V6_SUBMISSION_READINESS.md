@@ -17,7 +17,7 @@ The official ICST 2027 Research Papers page was checked on 2026-10-18: <https://
 
 ## Scientific readiness
 
-The reproducible V6 chain passes with 65/65 fresh controls, 59 valid applied mutants, 46/59 classification detections, 10 semantically meaningful survivors, 130 primary baseline cases, 26 holdout fixtures (52 observations), 78 non-holdout observations, and the unchanged 65-observation Word supplement. V4/V5 denominators and historical artifacts remain preserved. See `V6_MASTER_AUDIT.md` and `V6_REPRODUCIBILITY_REPORT.md`.
+The reproducible V6 chain passes with 65/65 fresh controls, 59 valid applied mutants, 46/59 classification detections, 59/59 additive evidence-drift alerts, 10 semantically meaningful survivors, 130 primary baseline cases, 26 holdout fixtures (52 observations), 78 non-holdout observations, and the unchanged 65-observation Word supplement. V4/V5 denominators and historical artifacts remain preserved. See `V6_MASTER_AUDIT.md`, `V6_OBJECTION_MITIGATIONS.md`, and `V6_REPRODUCIBILITY_REPORT.md`.
 
 ## Remaining human decisions before HotCRP upload
 

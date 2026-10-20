@@ -1,0 +1,240 @@
+{
+  "protocol": "reports/v6/V6_BLINDED_ADJUDICATION_PROTOCOL.md",
+  "status": "PENDING_HUMAN_REVIEW",
+  "packets": [
+    {
+      "packet_id": "P-08B79355E068",
+      "pipeline": "LibreOffice",
+      "source_case": "F02_A",
+      "pdf_sha256": "8f14168d37a484a79ecfa2c7d6a7d69a76e0fdfad5237caa3ff1bb8b5a04c4f1",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-55B027934E4C",
+      "pipeline": "LibreOffice",
+      "source_case": "F04_A",
+      "pdf_sha256": "36346a9a3503fd91feffc6d433698a58cb6a058060981ee01235a47b0146caec",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-6B4ACC051BDB",
+      "pipeline": "LibreOffice",
+      "source_case": "F13_A",
+      "pdf_sha256": "1471d860b80831fb3b324757fd47a7948144e938cbdcc402dd87dbfb94ba92ed",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-9BD3E1007D63",
+      "pipeline": "LibreOffice",
+      "source_case": "F10_A",
+      "pdf_sha256": "cd50d1946caef6eb26cf2028b037aa3d73a1e438d2fc49146f96a8b81fb6714f",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-C3CCA4E398A9",
+      "pipeline": "LibreOffice",
+      "source_case": "F07_A",
+      "pdf_sha256": "659cc2a0ec3a4a7d8604f482fa7878d54581a02dfe4a2074f99dd04f7bb5374d",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-73E49538F0DE",
+      "pipeline": "LibreOffice",
+      "source_case": "F05_A",
+      "pdf_sha256": "51ad2999d2b7d0e5333c06a86dff13a5ac63acd68d3258b5cce57d73a4ca8af6",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-477618EA3E8B",
+      "pipeline": "LibreOffice",
+      "source_case": "F09_A",
+      "pdf_sha256": "0dbd3085728295f9fc47bb0304104d31b46109bf3b770860d5d643b0c18f6564",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-43D025E5BF33",
+      "pipeline": "LibreOffice",
+      "source_case": "F12_A",
+      "pdf_sha256": "2381974bae6a10ab45cdde1bbff5ca1a41d575f58251fd1781956b2e01a3b34c",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-4B00DAF7FCE6",
+      "pipeline": "LibreOffice",
+      "source_case": "F11_A",
+      "pdf_sha256": "f66e58240246a1e9e086a2cd659fc9180cedda12be80bf51ccb108e9108588d2",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-7D8A1347019E",
+      "pipeline": "LibreOffice",
+      "source_case": "F01_A",
+      "pdf_sha256": "0c388c8e25174fde4139e95a479bdc0bfdfd43967eca3b89c497b75e2419627f",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-A9C7EEFF79D5",
+      "pipeline": "LibreOffice",
+      "source_case": "F08_A",
+      "pdf_sha256": "2007f97f759e03ee6c1591e3146c79145a18eb475f9a3ce3093cbcaa63abbabb",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-E64AC0D70806",
+      "pipeline": "LibreOffice",
+      "source_case": "F06_A",
+      "pdf_sha256": "d40e1b5cd25704cb293a50a94431d64e5f7433af2c8d662fafbaeb29235be1c3",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-4485C502CF79",
+      "pipeline": "LibreOffice",
+      "source_case": "F03_A",
+      "pdf_sha256": "71c506e178257884b0da9ba140802c06bf848558d804eac17bf7619623aa4ecd",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-4BCDE84BF19B",
+      "pipeline": "Google Docs",
+      "source_case": "F02_A",
+      "pdf_sha256": "dd35bd4ccb46c96b067fdc0dc1f0086a7e29d5762ec69510cf6feac5e854e731",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-D161439F5A9C",
+      "pipeline": "Google Docs",
+      "source_case": "F04_A",
+      "pdf_sha256": "170f777101ad43377034b316f12e37e122d1ab92cb7f09fff98a1a62bd47e664",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-009EF15DF64E",
+      "pipeline": "Google Docs",
+      "source_case": "F13_A",
+      "pdf_sha256": "22f9dc234101d8f5524d8a5c911a4b2d0a5ada8e552d666cadc448b88ff847a3",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-5CEFD7CB9B36",
+      "pipeline": "Google Docs",
+      "source_case": "F10_A",
+      "pdf_sha256": "b24a411ebf95274dafd2b71e7af4d02bed73714c2d4b831f030782a471da0019",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-7BF4721B1B55",
+      "pipeline": "Google Docs",
+      "source_case": "F07_A",
+      "pdf_sha256": "24af93e1f49ebcf591e40bc8c9a88564f2b7de463ff143b081fe827d6e732ec4",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-A0607419D8F1",
+      "pipeline": "Google Docs",
+      "source_case": "F05_A",
+      "pdf_sha256": "ea3b32c2463e22f2ffbf91069793127545719f78d8f5b40ebc30f340d7712d8c",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-2D8EDF851995",
+      "pipeline": "Google Docs",
+      "source_case": "F09_A",
+      "pdf_sha256": "7526edd86baf35077549842dbfb90313df5d5c3817cacf49c7520745038e7874",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-7DC37785103B",
+      "pipeline": "Google Docs",
+      "source_case": "F12_A",
+      "pdf_sha256": "14294751d068324037adca530e1b896f0beb9d414b105156bd8f45a86a4dadca",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-7A6089C8DA5B",
+      "pipeline": "Google Docs",
+      "source_case": "F11_A",
+      "pdf_sha256": "641ab19f11acfd68cecd0f5f488f5370897a2ae17552c96743a66f8b7685c3d1",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-78F230445091",
+      "pipeline": "Google Docs",
+      "source_case": "F01_A",
+      "pdf_sha256": "ae07577a1a7aefd84614cc3f58895216d12886af04514cbcf539810a66c0ca82",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-090BA15B28E1",
+      "pipeline": "Google Docs",
+      "source_case": "F08_A",
+      "pdf_sha256": "f0a7477131c5ecb50a8e00b7973bbdf71ca58c5a5a4963236a8f2e281c1389ea",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-8008FF704514",
+      "pipeline": "Google Docs",
+      "source_case": "F06_A",
+      "pdf_sha256": "b4f1c6e99036e312c825e308cf0f5ec74fde1c93ecc7b16c918c56fb3e73fe48",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "packet_id": "P-7A13E0B3D358",
+      "pipeline": "Google Docs",
+      "source_case": "F03_A",
+      "pdf_sha256": "2e8f1922b3b8dab3b368d3d2ea1950d9617ca437a434a037f70af707cc3cfdf4",
+      "source_evidence_path": "experiments/v5/independent_oracle_validation.json",
+      "labels_in_packet": false,
+      "adjudication_status": "PENDING_HUMAN_REVIEW"
+    }
+  ]
+}

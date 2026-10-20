@@ -33,6 +33,7 @@ submission/**/upload_v6/
 submission/**/upload/
 submission/**/.pdf-qa/
 submission/ICST2027_V6/v6_final_audit.*
+submission/ICST2027_V6/v6_objection_audit.*
 submission/ICST2027_V6/main_pre_*.pdf
 
 # Local conversion/runtime material

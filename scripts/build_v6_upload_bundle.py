@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -20,7 +21,8 @@ SUB = ROOT / "submission" / "ICST2027_V6"
 V5_PACKAGE = ROOT / "submission" / "ICST2027_V5" / "upload_v5" / "replication_package"
 V6_EVIDENCE = ROOT / "experiments" / "v6"
 V6_REPORTS = ROOT / "reports" / "v6"
-UPLOAD = SUB / "upload_v6"
+EXTERNAL_STAGING = os.environ.get("A11YPRESERVE_V6_UPLOAD_ROOT")
+UPLOAD = Path(EXTERNAL_STAGING).resolve() if EXTERNAL_STAGING else SUB / "upload_v6"
 PACKAGE = UPLOAD / "replication_package"
 BUNDLE_ZIP = SUB / "ICST2027_V6_anonymous_upload.zip"
 PAPER_SOURCE = SUB / "v6_rebuild.pdf" if (SUB / "v6_rebuild.pdf").is_file() else SUB / "main.pdf"
@@ -86,7 +88,7 @@ def main() -> None:
     if not PAPER_SOURCE.is_file():
         raise SystemExit("missing compiled V6 PDF")
     if UPLOAD.exists():
-        if UPLOAD.resolve().parent != SUB.resolve():
+        if not EXTERNAL_STAGING and UPLOAD.resolve().parent != SUB.resolve():
             raise SystemExit(f"refusing to clear unexpected path: {UPLOAD}")
         shutil.rmtree(UPLOAD)
     if BUNDLE_ZIP.exists():
@@ -119,6 +121,7 @@ def main() -> None:
         ROOT / "scripts" / "verify_v6_package_manifest.py",
         ROOT / "scripts" / "verify_v6_scientific_accounting.py",
         ROOT / "scripts" / "audit_v6_manuscript_consistency.py",
+        ROOT / "scripts" / "audit_v6_objection_mitigations.py",
         ROOT / "scripts" / "audit_v6_anonymity.py",
         ROOT / "scripts" / "record_v6_build_provenance.py",
         ROOT / "tests" / "test_v6_scientific_hardening.py",

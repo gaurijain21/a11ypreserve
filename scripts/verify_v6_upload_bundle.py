@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 import zipfile
 from pathlib import Path
@@ -10,7 +11,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SUB = ROOT / "submission" / "ICST2027_V6"
 BUNDLE = SUB / "ICST2027_V6_anonymous_upload.zip"
-PACKAGE_ZIP = SUB / "upload_v6" / "replication_package.zip"
+STAGING_ROOT = Path(os.environ["A11YPRESERVE_V6_UPLOAD_ROOT"]).resolve() if os.environ.get("A11YPRESERVE_V6_UPLOAD_ROOT") else SUB / "upload_v6"
+PACKAGE_ZIP = STAGING_ROOT / "replication_package.zip"
 FORBIDDEN = [
     re.compile(r"[A-Za-z]:[\\/]Users[\\/]", re.IGNORECASE),
     re.compile(r"OneDrive", re.IGNORECASE),
@@ -26,11 +28,11 @@ def sha256(path: Path) -> str:
 
 def main() -> None:
     failures = []
-    manifest_path = SUB / "upload_v6" / "BUNDLE_MANIFEST.json"
+    manifest_path = STAGING_ROOT / "BUNDLE_MANIFEST.json"
     if not BUNDLE.is_file() or not PACKAGE_ZIP.is_file() or not manifest_path.is_file():
         raise SystemExit("V6 upload bundle is incomplete")
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    if sha256(SUB / "upload_v6" / "paper.pdf") != manifest["paper"]["sha256"]:
+    if sha256(STAGING_ROOT / "paper.pdf") != manifest["paper"]["sha256"]:
         failures.append("paper hash mismatch")
     if sha256(PACKAGE_ZIP) != manifest["replication_package"]["sha256"]:
         failures.append("replication package hash mismatch")

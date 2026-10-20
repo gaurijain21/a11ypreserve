@@ -13,13 +13,16 @@ and no upload or remote push was performed.
 - Rechecked V5 historical reproduction without changing frozen evidence.
 - Verified all 65 genuine V6 control reruns.
 - Verified 65 mutation attempts, 59 valid applied mutants, 46 coarse detections,
-  10 meaningful survivors, and 6 unsupported attempts.
+  10 meaningful survivors, and 6 unsupported attempts; the additive evidence-
+  drift layer flags 59/59 valid mutants without rewriting the coarse result.
 - Verified executable baselines and ablations over 130 primary cases and 59
   known valid faults.
 - Verified accounting, manuscript consistency, regression, package integrity,
   archive integrity, anonymity, and repository-safety checks.
 - Recorded the official ICST 2027 Research Papers requirements in
   `ICST2027_COMPLIANCE_AUDIT.md`.
+- Prepared a blinded 26-case adjudication packet index and rubric; no human
+  adjudication result is claimed.
 
 ## Exact remaining author actions
 
@@ -43,4 +46,5 @@ This release does not claim a universal converter ranking, population estimate,
 PDF/UA conformance, natural-document generalization, causal localization
 inside Google Docs, human usability, external expert validation, or temporal
 Google repeatability. The 10 meaningful mutation survivors and the historical
-repeatability `NOT_RUN` record remain visible.
+repeatability `NOT_RUN` record remain visible; the evidence-drift alert is an
+additional diagnostic, not a claim that the coarse comparator is complete.

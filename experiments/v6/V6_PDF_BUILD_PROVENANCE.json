@@ -1,35 +1,35 @@
 {
   "status": "PASS",
-  "recorded_at_utc": "2026-10-20T00:21:09.948640+00:00",
+  "recorded_at_utc": "2026-10-20T05:48:15.002448+00:00",
   "build_commands": [
-    "pdflatex -jobname=v6_rebuild2 -interaction=nonstopmode -halt-on-error main.tex",
-    "bibtex v6_rebuild2",
-    "pdflatex -jobname=v6_rebuild2 -interaction=nonstopmode -halt-on-error main.tex",
-    "pdflatex -jobname=v6_rebuild2 -interaction=nonstopmode -halt-on-error main.tex"
+    "pdflatex -jobname=v6_objection_audit -interaction=nonstopmode -halt-on-error main.tex",
+    "bibtex v6_objection_audit",
+    "pdflatex -jobname=v6_objection_audit -interaction=nonstopmode -halt-on-error main.tex",
+    "pdflatex -jobname=v6_objection_audit -interaction=nonstopmode -halt-on-error main.tex"
   ],
   "build_environment": {
     "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
     "platform": "Windows-10-10.0.26200-SP0",
-    "pdflatex_version": "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.3)  19 OCT 2026 16:52",
+    "pdflatex_version": "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.3)  19 OCT 2026 22:40",
     "bibtex_version": "This is BibTeX, Version 0.99e",
-    "git_head": "2d95554f6507a4a373697e1c3bd2a3038444ea5d",
-    "working_tree_entries_at_record_time": 20
+    "git_head": "76a1a12e48e1e54fee57f140dff39c44cf161be8",
+    "working_tree_entries_at_record_time": 24
   },
   "source_inputs": [
     {
       "path": "submission/ICST2027_V6/main.tex",
-      "size_bytes": 4387,
-      "sha256": "9545f94296ed36a7e6c07f81e7da1fd7ddd283f6bf8390a3545881f10d324f50"
+      "size_bytes": 4449,
+      "sha256": "f7b87a948d91e668354d962c710cc15971672021b0f640901d49fe3efe4c56a1"
     },
     {
       "path": "submission/ICST2027_V6/v6_hardening.tex",
-      "size_bytes": 6510,
-      "sha256": "9decf37eb4311ad8d3a814fb41eab54ff1dec322e0ed9b922d3b0d69616a5b81"
+      "size_bytes": 6986,
+      "sha256": "d871319f9efe15e2a50bda899fad8018de5c1d0f699851557b0e440fc001ed97"
     },
     {
       "path": "submission/ICST2027_V6/references.bib",
-      "size_bytes": 4918,
-      "sha256": "051ed84ef639ce49d722edf6301322d3c2625f74b81120ddafb50113587b7cce"
+      "size_bytes": 4916,
+      "sha256": "9488014e65be5a5c27e246f4d60bd902009b170af32420856af6db6c8e9d88a8"
     },
     {
       "path": "submission/ICST2027_V6/IEEEtran.cls",
@@ -84,13 +84,13 @@
   ],
   "pdf_output": {
     "path": "submission/ICST2027_V6/main.pdf",
-    "size_bytes": 211334,
-    "sha256": "a34a6d2b67c62a7d4331560843b0279533af0b9d09d62a467cbe6885cc15bc80",
+    "size_bytes": 212191,
+    "sha256": "d929515580ca814c9b0d9a4be1906eae58108651a4982be3ce6011c456ef5617",
     "page_count": 9
   },
   "source_build_verification": {
-    "verified_build_path": "submission/ICST2027_V6/main.pdf",
-    "verified_build_sha256": "a34a6d2b67c62a7d4331560843b0279533af0b9d09d62a467cbe6885cc15bc80",
+    "verified_build_path": "submission/ICST2027_V6/v6_objection_audit.pdf",
+    "verified_build_sha256": "d929515580ca814c9b0d9a4be1906eae58108651a4982be3ce6011c456ef5617",
     "verified_build_page_count": 9,
     "release_pdf_byte_identical_to_verified_build": true,
     "release_pdf_text_identical_to_verified_build": true,
@@ -98,9 +98,9 @@
   },
   "log_diagnostics": {
     "log_present_at_record_time": true,
-    "verified_log_path": "submission/ICST2027_V6/v6_rebuild2.log",
+    "verified_log_path": "submission/ICST2027_V6/v6_objection_audit.log",
     "unresolved_reference_or_citation_lines": 0,
-    "build_output_marker": "Output written on v6_rebuild2.pdf (9 pages",
+    "build_output_marker": "Output written on v6_objection_audit.pdf (9 pages",
     "remaining_layout_warnings": "underfull boxes only; visually inspected page by page"
   }
 }

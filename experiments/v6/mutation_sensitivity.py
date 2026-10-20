@@ -151,6 +151,10 @@ def main() -> None:
         }
         contracted_changed = contracted_before != contracted_after if baseline_result and mutant_result else False
         classification_changed = bool(baseline_result and mutant_result and baseline_result["classification"] != mutant_result["classification"])
+        # Additive V6 diagnostic: a valid applied mutant that changes normalized
+        # extracted evidence must be surfaced even when the six-way label stays
+        # unchanged. This does not rewrite the frozen classification outcome.
+        evidence_drift_alert = bool(valid and changed and evidence_changed)
         semantically_meaningful_survival = bool(valid and changed and evidence_changed and not classification_changed and contracted_changed)
         if not changed:
             outcome_status = "UNSUPPORTED"
@@ -196,6 +200,8 @@ def main() -> None:
             "normalized_evidence_sha256_before": baseline_evidence_hash,
             "normalized_evidence_sha256_after": mutant_evidence_hash,
             "extracted_evidence_changed": evidence_changed,
+            "evidence_drift_alert": evidence_drift_alert,
+            "evidence_level_detection": evidence_drift_alert,
             "contracted_semantics_before": contracted_before,
             "contracted_semantics_after": contracted_after,
             "contracted_semantics_changed": contracted_changed,
@@ -217,6 +223,7 @@ def main() -> None:
             "applied": sum(row["mutation_applied"] for row in family_rows),
             "valid": sum(row["valid_pdf"] and row["mutation_applied"] for row in family_rows),
             "classification_detected": sum(row["outcome_status"] == "CLASSIFICATION_DETECTED" for row in family_rows),
+            "evidence_drift_alerts": sum(row["evidence_drift_alert"] for row in family_rows),
             "semantically_meaningful_survival": sum(row["semantically_meaningful_survival"] for row in family_rows),
             "unsupported": sum(row["outcome_status"] == "UNSUPPORTED" for row in family_rows),
             "inconclusive": sum(row["outcome_status"] in {"INVALID_MUTANT", "INCONCLUSIVE"} for row in family_rows),
@@ -233,6 +240,8 @@ def main() -> None:
         "attempted": len(rows),
         "valid_applied_mutants": sum(row["valid_pdf"] and row["mutation_applied"] for row in rows),
         "classification_level_detections": sum(row["outcome_status"] == "CLASSIFICATION_DETECTED" for row in rows),
+        "evidence_level_detections": sum(row["evidence_drift_alert"] for row in rows),
+        "evidence_drift_alerts": sum(row["evidence_drift_alert"] for row in rows),
         "semantically_meaningful_survivals": sum(row["semantically_meaningful_survival"] for row in rows),
         "unsupported_attempts": sum(row["outcome_status"] == "UNSUPPORTED" for row in rows),
         "invalid_mutants": sum(row["outcome_status"] == "INVALID_MUTANT" for row in rows),
@@ -246,6 +255,7 @@ def main() -> None:
             "application_success": "mutation_applied",
             "validity": "valid_pdf",
             "evidence_detection": "extracted_evidence_changed",
+            "evidence_drift_alert": "valid applied mutation with changed normalized extracted evidence",
             "contract_detection": "contracted_semantics_changed",
             "classification_detection": "classification_changed",
             "meaningful_survival": "valid applied mutation with changed normalized evidence and contracted semantics but unchanged classification",

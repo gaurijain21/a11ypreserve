@@ -16,6 +16,8 @@ REBUILD_PDF = MANUSCRIPT / "v6_rebuild.pdf"
 REBUILD_LOG = MANUSCRIPT / "v6_rebuild.log"
 REBUILD2_PDF = MANUSCRIPT / "v6_rebuild2.pdf"
 REBUILD2_LOG = MANUSCRIPT / "v6_rebuild2.log"
+OBJECTION_PDF = MANUSCRIPT / "v6_objection_audit.pdf"
+OBJECTION_LOG = MANUSCRIPT / "v6_objection_audit.log"
 
 
 def sha256(path: Path) -> str:
@@ -53,7 +55,11 @@ def main() -> None:
     if missing:
         raise SystemExit(f"missing V6 build input/output: {missing}")
     latest_source_mtime = max(path.stat().st_mtime for path in source_paths)
-    if REBUILD2_PDF.is_file() and REBUILD2_LOG.is_file() and REBUILD2_PDF.stat().st_mtime >= latest_source_mtime:
+    if OBJECTION_PDF.is_file() and OBJECTION_LOG.is_file() and OBJECTION_PDF.stat().st_mtime >= latest_source_mtime:
+        verified_build_pdf = OBJECTION_PDF
+        verified_build_log = OBJECTION_LOG
+        build_jobname = "v6_objection_audit"
+    elif REBUILD2_PDF.is_file() and REBUILD2_LOG.is_file() and REBUILD2_PDF.stat().st_mtime >= latest_source_mtime:
         verified_build_pdf = REBUILD2_PDF
         verified_build_log = REBUILD2_LOG
         build_jobname = "v6_rebuild2"

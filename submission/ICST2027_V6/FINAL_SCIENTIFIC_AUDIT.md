@@ -28,6 +28,7 @@ pagination changes.
 | Control rerun disagreed in 0/65 cases | Abstract; V6 hardening; Results | `experiments/v6/V6_CONTROL_RERUN.json` | PASS: 65 evaluated, 0 disagreements, 0 extraction failures, 0 evidence differences | Descriptive rerun result |
 | Destination mutation audit has 65 attempts, 59 valid mutants, 46 coarse detections | Abstract; V6 hardening; Results | `experiments/v6/V6_MUTATION_SENSITIVITY.json`; `experiments/v6/mutation_cases/` | PASS: accounting verifier recomputes the categories | Fault-model sensitivity, not complete fault coverage |
 | Ten meaningful survivors remain | Abstract; V6 hardening; Mutation report | Same mutation JSON and per-case traces | PASS: semantic evidence and contract signature changed without coarse-classification change | Survivors are comparator blind spots and are not relabeled as detections |
+| Every valid evidence-changing mutant is surfaced by the additive alert layer | V6 hardening; objection mitigation report | `experiments/v6/V6_OBJECTION_MITIGATIONS.json`; `reports/v6/V6_OBJECTION_MITIGATIONS.md` | PASS: 59/59 valid mutants raise an evidence-drift alert | This is a diagnostic alert, not a replacement for the frozen six-way detection metric |
 | Six attempts are unsupported | V6 hardening; Mutation report | Mutation JSON and unsupported per-case records | PASS: five decorative-image attempts lacked `/Artifact`; one hyperlink lacked a URI action | Unsupported is separated from invalid, inconclusive, and surviving |
 | Tag presence and visible-text equality detect 0/59 known faults | Abstract; V6 ablation Table V | `experiments/v6/V6_BASELINE_ABLATION.json`; baseline case records | PASS: known-fault denominator is 59 | Known injected faults are the reference, not human ground truth |
 | Destination-only evidence detects 16/59; full method detects 46/59 | Abstract; V6 ablation Table V | Same ablation JSON and case records | PASS | Detection is operator-set sensitivity, not accuracy or prevalence |
@@ -52,7 +53,7 @@ python tests/test_v6_scientific_hardening.py           PASS
 
 The machine-derived headline results are 65/65 genuine controls with 0/65
 classification disagreements, 59/59 valid applied destination mutants with
-46/59 coarse detections and 10 meaningful survivors, and 0/59, 0/59, 16/59,
+46/59 coarse detections, 59/59 evidence-drift alerts, and 10 meaningful survivors, and 0/59, 0/59, 16/59,
 and 46/59 detections for tag presence, visible-text equality, destination-only
 evidence, and full A11yPreserve respectively. The primary denominator remains
 130; the Word supplement remains 65; the holdout remains 52 observations.
@@ -63,7 +64,10 @@ The historical diagnostic cross-check reported eight agreements and 18
 disagreements over 26 cases. Both implementations were developed or reviewed
 by the same research team. The disagreements are retained in
 `reports/v6/V6_INDEPENDENT_VALIDATION.md`; this audit does not call that
-external validation and does not relabel disagreements as ground truth.
+external validation and does not relabel disagreements as ground truth. A
+blinded 26-case packet index and rubric are prepared in
+`reports/v6/V6_BLINDED_ADJUDICATION_PROTOCOL.md`, but no human adjudication has
+been executed.
 
 ## Frozen-artifact integrity
 

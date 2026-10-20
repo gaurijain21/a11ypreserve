@@ -39,11 +39,28 @@ def test_v6_reports_have_complete_denominators() -> None:
     assert mutation["attempted"] == 65
 
 
+def test_v6_objection_mitigation_preserves_survivors_and_adds_evidence_alerts() -> None:
+    path = ROOT / "experiments" / "v6" / "V6_OBJECTION_MITIGATIONS.json"
+    if not path.exists():
+        return
+    mitigation = json.loads(path.read_text(encoding="utf-8"))
+    ground_truth = mitigation["ground_truth_boundary"]
+    survivor = mitigation["survivor_mitigation"]
+    assert ground_truth["primary_adjudicated_ground_truth"] is False
+    assert ground_truth["human_adjudication"] == "NOT_EXECUTED"
+    assert survivor["valid_applied_mutants"] == 59
+    assert survivor["coarse_classification_detections"] == 46
+    assert survivor["evidence_drift_alerts"] == 59
+    assert survivor["meaningful_survivors"] == 10
+    assert all(packet["labels_in_packet"] is False for packet in mitigation["adjudication_packet_index"])
+
+
 def main() -> None:
     tests = [
         test_control_disagreement_is_not_derived_from_expected_label,
         test_v5_mutation_source_has_no_tautological_control_assignment,
         test_v6_reports_have_complete_denominators,
+        test_v6_objection_mitigation_preserves_survivors_and_adds_evidence_alerts,
     ]
     for test in tests:
         test()
