@@ -43,8 +43,8 @@
     },
     {
       "path": "scripts/build_v6_upload_bundle.py",
-      "size_bytes": 10194,
-      "sha256": "90bd09a4e7023f146ace49866724c5266addf3e81d768583147d84bb1bcb0450"
+      "size_bytes": 10596,
+      "sha256": "745f831f99d6f91bece0070fbc60bad25ae25d4ef19c5e5690928b0969cc918d"
     },
     {
       "path": "scripts/reproduce_v6.py",
@@ -93,8 +93,8 @@
     },
     {
       "path": "submission/ICST2027_V6/references.bib",
-      "size_bytes": 4918,
-      "sha256": "051ed84ef639ce49d722edf6301322d3c2625f74b81120ddafb50113587b7cce"
+      "size_bytes": 4916,
+      "sha256": "9488014e65be5a5c27e246f4d60bd902009b170af32420856af6db6c8e9d88a8"
     },
     {
       "path": "submission/ICST2027_V6/IEEEtran.cls",
