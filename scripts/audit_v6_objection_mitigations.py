@@ -60,6 +60,7 @@ def main() -> None:
     independent = load_json(independent_path)
     source_manifest = load_json(ROOT / "experiments" / "v4" / "source_manifest.json")
     holdout_manifest = load_json(ROOT / "experiments" / "v4" / "HOLDOUT_MANIFEST.json")
+    realistic_manifest = load_json(ROOT / "experiments" / "v4" / "realistic" / "REALISTIC_SOURCE_VALIDATION.json")
     external_report_path = ROOT / "reports" / "EXTERNAL_VALIDITY_ARM.md"
     external_report = external_report_path.read_text(encoding="utf-8")
     natural_corpus = "no natural real-world corpus was added" in external_report.lower()
@@ -107,9 +108,12 @@ def main() -> None:
             "holdout_cases_per_pipeline": 26,
             "holdout_is_independent_natural_corpus": False,
             "natural_document_corpus_available": not natural_corpus,
-            "integrated_project_created_documents": 3,
-            "integrated_property_pipeline_observations": integrated_observations,
-            "integrated_arm_role": "secondary applicability sanity arm; excluded from primary denominator and prevalence claims",
+            "primary_project_created_realistic_documents": realistic_manifest["documents"],
+            "primary_project_created_contracts_per_pipeline": realistic_manifest["property_observations"],
+            "primary_project_created_property_pipeline_observations": realistic_manifest["property_observations"] * 2,
+            "secondary_integrated_sanity_documents": 3,
+            "secondary_integrated_sanity_property_pipeline_observations": integrated_observations,
+            "integrated_arm_role": "project-created applicability arms; excluded from the atomic primary denominator and prevalence claims",
             "mitigation": "Family-level mutation results, paired pipeline counts, and an explicitly labeled integrated arm are reported without population generalization.",
         },
         "survivor_mitigation": {
@@ -166,7 +170,7 @@ def main() -> None:
         "",
         f"- The primary design remains **{len(source_manifest['records'])} atomic fixtures × 2 pipelines = 130 cases**.",
         f"- The holdout remains **{holdout_manifest['holdout_count']} fixtures per pipeline**, a within-design holdout rather than an independent natural corpus.",
-        f"- The secondary integrated arm contains **3 project-created documents and {integrated_observations} property–pipeline observations**; it is not a natural-document sample and is excluded from prevalence claims.",
+        f"- The existing project-created realistic arm contains **{realistic_manifest['documents']} documents, {realistic_manifest['property_observations']} contracts per pipeline, and {realistic_manifest['property_observations'] * 2} property–pipeline observations**; a separate 3-document/{integrated_observations}-observation sanity arm is also retained. Neither is a natural-document sample or a prevalence estimate.",
         "- Mitigation: family-level sensitivity, paired pipeline counts, and the integrated applicability arm are reported as descriptive coverage evidence only. No converter ranking or population estimate is asserted.",
         "",
         "## 3. Ten survivors",

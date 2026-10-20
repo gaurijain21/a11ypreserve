@@ -1,6 +1,6 @@
 {
   "protocol": "V6 additive objection mitigation audit",
-  "generated_at_utc": "2026-10-20T05:39:34.839949+00:00",
+  "generated_at_utc": "2026-10-20T05:56:35.915816+00:00",
   "historical_artifacts_unchanged": true,
   "ground_truth_boundary": {
     "primary_cases": 130,
@@ -25,9 +25,12 @@
     "holdout_cases_per_pipeline": 26,
     "holdout_is_independent_natural_corpus": false,
     "natural_document_corpus_available": false,
-    "integrated_project_created_documents": 3,
-    "integrated_property_pipeline_observations": 42,
-    "integrated_arm_role": "secondary applicability sanity arm; excluded from primary denominator and prevalence claims",
+    "primary_project_created_realistic_documents": 10,
+    "primary_project_created_contracts_per_pipeline": 78,
+    "primary_project_created_property_pipeline_observations": 156,
+    "secondary_integrated_sanity_documents": 3,
+    "secondary_integrated_sanity_property_pipeline_observations": 42,
+    "integrated_arm_role": "project-created applicability arms; excluded from the atomic primary denominator and prevalence claims",
     "mitigation": "Family-level mutation results, paired pipeline counts, and an explicitly labeled integrated arm are reported without population generalization."
   },
   "survivor_mitigation": {

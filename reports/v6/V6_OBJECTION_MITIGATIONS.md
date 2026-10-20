@@ -13,7 +13,7 @@ This is an additive V6 diagnostic and release-hardening artifact. It does not re
 
 - The primary design remains **65 atomic fixtures × 2 pipelines = 130 cases**.
 - The holdout remains **26 fixtures per pipeline**, a within-design holdout rather than an independent natural corpus.
-- The secondary integrated arm contains **3 project-created documents and 42 property–pipeline observations**; it is not a natural-document sample and is excluded from prevalence claims.
+- The existing project-created realistic arm contains **10 documents, 78 contracts per pipeline, and 156 property–pipeline observations**; a separate 3-document/42-observation sanity arm is also retained. Neither is a natural-document sample or a prevalence estimate.
 - Mitigation: family-level sensitivity, paired pipeline counts, and the integrated applicability arm are reported as descriptive coverage evidence only. No converter ranking or population estimate is asserted.
 
 ## 3. Ten survivors
@@ -29,4 +29,4 @@ This is an additive V6 diagnostic and release-hardening artifact. It does not re
 - Not executed: independent human adjudication, rights-cleared natural corpus study, and assistive-technology usability study.
 - Result: the objections are narrowed and made actionable, but not falsely claimed to be eliminated.
 
-Machine evidence: `experiments/v6/V6_OBJECTION_MITIGATIONS.json` (generated 2026-10-20T05:39:34.839949+00:00).
+Machine evidence: `experiments/v6/V6_OBJECTION_MITIGATIONS.json` (generated 2026-10-20T05:56:35.915816+00:00).
