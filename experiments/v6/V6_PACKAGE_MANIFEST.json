@@ -18,8 +18,8 @@
     },
     {
       "path": "scripts/verify_v6_scientific_accounting.py",
-      "size_bytes": 3413,
-      "sha256": "5da53c4a76a126b6069348ad419a7dc853eee43fe0cd607533b1f4ba47628385"
+      "size_bytes": 4085,
+      "sha256": "cadf3868553119ccc2d72be6a86c79dee9af5896e09be4f7fe2679b8a3037336"
     },
     {
       "path": "scripts/verify_v6_package_manifest.py",

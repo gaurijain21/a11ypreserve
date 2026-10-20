@@ -4,6 +4,7 @@ from __future__ import annotations
 import ast
 import hashlib
 import json
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -16,6 +17,11 @@ def load(name: str):
 
 def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def recorded_time(path: Path, field: str) -> datetime:
+    value = json.loads(path.read_text(encoding="utf-8"))[field]
+    return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
 def main() -> None:
@@ -58,8 +64,17 @@ def main() -> None:
         (V6 / "V6_MUTATION_SENSITIVITY.json", V6 / "mutation_cases"),
     ]
     for aggregate, directory in generated_pairs:
-        case_times = [path.stat().st_mtime for path in directory.glob("*.json")]
-        checks[f"fresh_{aggregate.name}"] = bool(case_times) and aggregate.stat().st_mtime >= max(case_times)
+        case_paths = sorted(directory.glob("*.json"))
+        aggregate_field = "completed_at_utc"
+        case_times = [recorded_time(path, "timestamp_utc") for path in case_paths]
+        # Filesystem mtimes are not provenance: Git restores and cloud-sync
+        # tools can rewrite them while preserving the recorded experiment
+        # chronology. Compare the serialized UTC timestamps instead.
+        checks[f"fresh_{aggregate.name}"] = (
+            bool(case_times)
+            and aggregate_field in json.loads(aggregate.read_text(encoding="utf-8"))
+            and recorded_time(aggregate, aggregate_field) >= max(case_times)
+        )
     result = {"status": "PASS" if all(checks.values()) else "FAIL", "checks": checks}
     (ROOT / "reports" / "v6" / "V6_SCIENTIFIC_ACCOUNTING.json").write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"status": result["status"], "failed": [name for name, value in checks.items() if not value]}, indent=2))

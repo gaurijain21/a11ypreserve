@@ -28,7 +28,9 @@ def patterns() -> list[tuple[str, re.Pattern[str]]]:
     return [
         ("windows absolute path", re.compile(r"(?i)" + drive)),
         ("UNC path", re.compile(r"(?i)(?<![A-Za-z0-9>])" + re.escape(chr(92) * 2) + r"[A-Za-z0-9._-]+" + re.escape(chr(92)))),
-        ("unix user path", re.compile(r"(?i)" + slash + users + slash + r"|" + slash + home + slash)),
+        # Do not treat public URLs such as `https://example.org/home/...` as
+        # local Unix paths; require the slash not to be part of a host/path.
+        ("unix user path", re.compile(r"(?i)(?<![A-Za-z0-9:])" + slash + users + slash + r"|(?<![A-Za-z0-9:])" + slash + home + slash)),
         ("private cloud path", re.compile(r"(?i)d[.]docs[.]live[.]net")),
         ("private key", re.compile(r"-----BEGIN(?: [A-Z]+)? PRIVATE KEY-----")),
         ("GitHub token", re.compile(r"(?:ghp_|github_pat_)[A-Za-z0-9_]+")),
