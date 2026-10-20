@@ -1,0 +1,39 @@
+{
+  "fixture_id": "F02_A",
+  "family": "alt_text",
+  "pipeline": "Google Docs",
+  "source_sha256": "ae64b91085158916d5a5be11987cb3fbfabc0501c57acdbbf23fffcd769fde80",
+  "pdf_sha256": "dd35bd4ccb46c96b067fdc0dc1f0086a7e29d5762ec69510cf6feac5e854e731",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "Short chart.",
+        "decorative": false
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "8bee08f82ece3b79f396a5151a1081964e567d8c306cce388b0a6d30d4f6b531",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 1,
+      "/H1": 1,
+      "/P": 2,
+      "/Span": 1
+    },
+    "alt_values": [
+      "Short chart."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "F02_A"
+  },
+  "independent_observation": "OBSERVED_FIGURE_ALT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

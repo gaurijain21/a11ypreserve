@@ -1,6 +1,6 @@
 # A11yPreserve V6 final release manifest
 
-Release preparation date: 2026-10-19
+Release preparation date: 2026-10-20
 
 This manifest describes a local ICST 2027 submission candidate. It is not a
 submission receipt, author approval, license decision, or authorization to
@@ -10,11 +10,11 @@ upload.
 
 | Artifact | Path | SHA-256 / property |
 |---|---|---|
-| Canonical manuscript | `submission/ICST2027_V6/main.pdf` | `2FD2D4C738D1B5C175B02EAC7A589F664DBFDD73528A7E5A7147F666D89D26A3` |
-| Manuscript format | canonical PDF | 9 pages; US letter; IEEE two-column |
-| Anonymous upload candidate | `submission/ICST2027_V6/ICST2027_V6_anonymous_upload.zip` | `37C537CBA6BBF4D4AAA3B6ECF6DABF761CC3EA189CDD703845866F96077B1F34` |
-| Archive payload | nested `replication_package.zip` | `1B2B12669F36F37952711229F3F95DE62CDBB7ED98E20509557CC520B1FB331A` |
-| Archive file count | nested replication package | 1,136 files |
+| Canonical manuscript | `submission/ICST2027_V6/main.pdf` | `020F15E7A2612DBABD4CB6322A7BB80DEEA7F02C27984A92057A26DB069322B0` |
+| Manuscript format | canonical PDF | 10 pages; US letter; IEEE two-column |
+| Anonymous upload candidate | `submission/ICST2027_V6/ICST2027_V6_anonymous_upload.zip` | `30B4D18525AC230F9A0BA0CE09E7CB2304448A7F7F91CB4DB5A8A26BE33180E6` |
+| Archive payload | nested `replication_package.zip` | `076161B9123459AE76DE9602BFD91AB627FBCF9B7967878183D3B847D9E7479A` |
+| Archive file count | nested replication package | 1,542 files |
 
 ## Technical validation
 
@@ -27,27 +27,26 @@ upload.
 | Mutation audit | PASS: 65 attempts; 59 valid; 46 coarse detections; 59 evidence-drift alerts; 10 meaningful survivors; 6 unsupported | `experiments/v6/V6_MUTATION_SENSITIVITY.json`; `experiments/v6/V6_OBJECTION_MITIGATIONS.json` |
 | Baselines/ablations | PASS: executable; no independent primary labels claimed | `experiments/v6/V6_BASELINE_ABLATION.json` |
 | Regression tests | PASS | `python tests/test_v6_scientific_hardening.py` |
-| Package manifest and bundle verifier | PASS: 1,136 packaged files | `V6_PACKAGE_MANIFEST.json`; `V6_UPLOAD_BUNDLE_CHECK.json` |
+| Package manifest and bundle verifier | PASS: 1,542 packaged files, including additive adversarial evidence and fresh rerun traces | `V6_PACKAGE_MANIFEST.json`; `V6_UPLOAD_BUNDLE_CHECK.json`; `experiments/v7/`; `reports/v7/` |
 | Anonymity audit | PASS pending human archive/HotCRP inspection | `FINAL_ANONYMITY_AUDIT.md` |
-| PDF visual QA | PASS | nine rendered pages under `.pdf-qa/direct-language/` |
-| Fresh source compilation | PASS under elevated MiKTeX access | `v6_direct_language.log`; 9 pages and no unresolved citation/reference diagnostics after BibTeX and three pdfTeX passes |
+| PDF visual QA | PASS | ten rendered pages under `.pdf-qa/v7-adversarial/` |
+| Fresh source compilation | PASS under elevated MiKTeX access | `v7_adversarial.log`; 10 pages and no unresolved citation/reference diagnostics after BibTeX and three pdfTeX passes |
 | Anonymous archive refresh | PASS | `python scripts/verify_v6_upload_bundle.py`; refreshed with disposable external staging because the local staging directory is a reparse point |
 | Repository safety and diff checks | PASS at audit time | `scripts/audit_repository_safety.py`; `git diff --check` |
 
 ## Provenance and commit
 
 The canonical PDF is byte- and text-identical to the verified alternate-
-jobname build `v6_direct_language.pdf`; the updated build provenance is recorded
+jobname build `v7_adversarial.pdf`; the updated build provenance is recorded
 in `experiments/v6/V6_PDF_BUILD_PROVENANCE.json`.
 
-Scientific implementation commit: `0cd03b2ea1bc6ecb716469fd4de9f9d3cb6c0ad5`.
-Final bundle/provenance commit: `dd7cf70` (refreshed archive commit).
+Scientific implementation and package commits: pending final local release
+commit; this manifest will be updated with the exact commit after validation.
 The refreshed bundle was generated from the validated source state using
 disposable external staging; its outer ZIP and nested package hashes above were
 independently verified.
-The verified release commits were pushed to the configured GitHub origin
-`https://github.com/gaurijain21/a11ypreserve.git` on the `main` branch. This is
-not a conference submission receipt.
+No new release commit or push has been made for this additive audit at the time
+of this manifest update. This is not a conference submission receipt.
 
 ## Scientific and compliance status
 
@@ -56,7 +55,7 @@ not a conference submission receipt.
 - Author identity, authorship order, conflicts, originality, licensing, rights,
   AI-disclosure approval, and HotCRP metadata: **REQUIRES AUTHOR CONFIRMATION**.
 - Submission/upload: **NOT PERFORMED**.
-- Push to remote: **PASS: pushed to origin/main at `9015cac`**.
+- Push to remote: **PENDING final local release commit and authorized GitHub update**.
 
 ## Known limitations
 
@@ -67,5 +66,7 @@ PDF/UA conformance, rights-cleared natural corpus, external expert
 adjudication, human usability study, or authenticated time-separated Google
 repeatability experiment is claimed. Ten meaningful destination mutants remain
 coarse-classification survivors, while the additive evidence-drift alert flags
-all 59 valid applied mutants. The blinded adjudication packet is pending human
-review.
+all 59 valid applied mutants. The additive association diagnostic detected
+11/12 valid scorable one-per-family attacks; the complex-table attack remained
+already `OBSERVED_PARTIAL`, while a separate role-delta diagnostic surfaced 5/5
+valid cases. The blinded adjudication packet is pending human review.

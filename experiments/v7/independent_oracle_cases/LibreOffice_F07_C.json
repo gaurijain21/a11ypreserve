@@ -1,0 +1,43 @@
+{
+  "fixture_id": "F07_C",
+  "family": "decorative_images",
+  "pipeline": "LibreOffice",
+  "source_sha256": "fea0fbc9cef1ef8b99bbcd979d19bbe67ff6b737fe604682234430dc437d3508",
+  "pdf_sha256": "ca040124327d2176feb0347d126fa18a43ffd022dc07d2439dadb7ab712a396a",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "",
+        "decorative": true
+      },
+      {
+        "alt": "Meaningful chart.",
+        "decorative": false
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "de221903101b12ca05b7bb8ec53b742f462da154b746bf47af6f2ed7c82ca2c0",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 2,
+      "/Standard": 2,
+      "/Title": 1
+    },
+    "alt_values": [
+      "Figure 1",
+      "Figure 2 - Meaningful chart."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 decorative state 3"
+  },
+  "independent_observation": "NO_OBSERVED_ARTIFACT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

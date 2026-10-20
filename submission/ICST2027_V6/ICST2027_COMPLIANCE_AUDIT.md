@@ -10,7 +10,7 @@ author declarations still require a human check.
 | Track | ICST 2027 Research Papers | PASS: manuscript is prepared for this track | Author selects the track in HotCRP |
 | Scope | Research track accepts novel research, empirical, case-study and replication work; accessibility testing is listed among topics | PASS: topic fit is plausible and bounded | Author confirms final positioning |
 | Format | Two-column IEEE conference publication format, letter template, conference option | PASS: current PDF is IEEE two-column, US letter | Recheck HotCRP-generated metadata |
-| Page limit | No more than 10 pages including text, figures, tables and appendices; up to 2 additional reference-only pages | PASS: current PDF is 9 pages and needs no extra reference pages | No action unless manuscript changes |
+| Page limit | No more than 10 pages including text, figures, tables and appendices; up to 2 additional reference-only pages | PASS: current PDF is 10 pages and has no additional reference-only pages | Author should recheck the official call and HotCRP metadata before upload |
 | Review anonymity | Double-blind; omit names; prior work in third person; artifacts and replication packages must also be anonymized | PASS by automated checks, pending author inspection | Inspect exact ZIP and HotCRP fields before upload |
 | Replication material | Submission is expected to include or point to an anonymized package with software, data and instructions | PASS with stated environment limits | Author confirms package choice and upload fields |
 | Submission platform | HotCRP at <https://icst2027.hotcrp.com/> | NOT PERFORMED by design | Author must upload only after approval and explicit authorization |
@@ -24,7 +24,7 @@ author declarations still require a human check.
 
 ## Current manuscript checks
 
-- `submission/ICST2027_V6/main.pdf`: 9 pages, 612 x 792 points, IEEE two-column
+- `submission/ICST2027_V6/main.pdf`: 10 pages, 612 x 792 points, IEEE two-column
   layout.
 - The current source uses `Anonymous for review` and contains no author list,
   affiliation, acknowledgments, or private repository URL.

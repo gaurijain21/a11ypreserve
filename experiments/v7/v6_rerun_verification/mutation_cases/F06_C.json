@@ -1,0 +1,135 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T06:34:39.916289+00:00",
+  "fixture_id": "F06_C",
+  "feature_family": "inline_language",
+  "mutation_operator": "removed first inline StructElem /Lang",
+  "mutation_target": "inline /Lang",
+  "source_path": "experiments/v4/fixtures/F06_C.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F06_C__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F06_C.pdf",
+  "baseline_pdf_sha256": "34bc68ee9ca85c6c5a4897592b8c3d2a01d756f564f4231bb242e61983deaa70",
+  "mutated_pdf_sha256": "e891ba599cb31c61b8f7ee80649b20b3b827995e2c9813f7bd8b4e8c49bbe6a0",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "VERIFIED_PRESERVED",
+  "mutated_classification": "OBSERVED_PARTIAL",
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "inline_language",
+    "source_value": [
+      {
+        "text": "Guten Tag, wie geht es Ihnen? ",
+        "language": "de-DE",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:r/w:rPr/w:lang"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "text": "",
+        "language": "de-DE",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2603413514256), '/Pg': IndirectObject(1, 0, 2603413514256), '/Lang': 'de-DE', '/K': [2]}",
+          "source": "StructElem/Lang"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "text": "",
+        "language": "de-DE",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2603413514256), '/Pg': IndirectObject(1, 0, 2603413514256), '/Lang': 'de-DE', '/K': [2]}",
+          "source": "StructElem/Lang"
+        }
+      }
+    ],
+    "fidelity_classification": "EXACT_PRESERVATION",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F06_C.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F06_C__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "inline_language",
+    "source_value": [
+      {
+        "text": "Guten Tag, wie geht es Ihnen? ",
+        "language": "de-DE",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:r/w:rPr/w:lang"
+        }
+      }
+    ],
+    "destination_value": [],
+    "destination_representation": [],
+    "fidelity_classification": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F06_C.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F06_C.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "document language may survive while inline override is absent"
+  },
+  "normalized_evidence_sha256_before": "2c1f5564ce4dbb4e7357736533d91e8745d32e7480128c9d22c2eda2227a6068",
+  "normalized_evidence_sha256_after": "f06b4ba6c57e9b56e683bfbbdedb2e8ccf83f6e3c8c41c449a4242206ec979e9",
+  "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "ab6cd8c4c3c63d791ee1e073ee7a788dd34d8736d2bde327196a10a128b2ced8",
+    "classification": "VERIFIED_PRESERVED",
+    "raw_fidelity": "EXACT_PRESERVATION",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "19249d59ef496141ce75597627a0b5c6554553708c676985e253af9c6b7e212f",
+    "classification": "OBSERVED_PARTIAL",
+    "raw_fidelity": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": true,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "CLASSIFICATION_DETECTED",
+  "inconclusive_or_unsupported_reason": "classification changed after a valid applied mutation",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

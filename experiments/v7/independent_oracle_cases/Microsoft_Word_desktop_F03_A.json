@@ -1,0 +1,35 @@
+{
+  "fixture_id": "F03_A",
+  "family": "lists",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "84b579cace9f44ab51623fcfd1526061ce8ce70fe8b728a728afe301d56fda7f",
+  "pdf_sha256": "466b2fc2252d7fe658eff59a24d155b805f8b780ea1a3ab68d1491f780e5219d",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "paragraph_count": 3,
+    "family": "lists"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "ad04dbcca12823bdf986bf819f6c987e868e2a43b159690cb846f4060fac6ad7",
+    "role_counts": {
+      "/Document": 1,
+      "/L": 1,
+      "/LBody": 2,
+      "/LI": 2,
+      "/Lbl": 2,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 lists 1"
+  },
+  "independent_observation": "OBSERVED_LIST_STRUCTURE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "fixture_id": "F13_A",
+  "family": "captions",
+  "pipeline": "LibreOffice",
+  "transformation": "rewrite PDF with metadata-only Producer change",
+  "baseline_pdf_sha256": "1471d860b80831fb3b324757fd47a7948144e938cbdcc402dd87dbfb94ba92ed",
+  "transformed_pdf_sha256": "7fcff9f7909cc1cb9f0b093c23d500775ebedc942fdae6431f19a7f8c3215663",
+  "valid_pdf": true,
+  "contract_projection_unchanged": true,
+  "benign_control_status": "VALID_BENIGN_CONTROL",
+  "before": {
+    "pages": 1,
+    "text_sha256": "86efb67083ec7cd2a1466101f8ef92b6078f8ae701d0402f025209117aae936a",
+    "role_counts": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 1,
+      "/Standard": 1,
+      "/Title": 1
+    },
+    "alt_values": [
+      "Figure 1 - Description for figure 1."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 captions 1"
+  },
+  "after": {
+    "pages": 1,
+    "text_sha256": "86efb67083ec7cd2a1466101f8ef92b6078f8ae701d0402f025209117aae936a",
+    "role_counts": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 1,
+      "/Standard": 1,
+      "/Title": 1
+    },
+    "alt_values": [
+      "Figure 1 - Description for figure 1."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 captions 1"
+  },
+  "timestamp_utc": "2026-10-20T06:32:32.000689+00:00"
+}

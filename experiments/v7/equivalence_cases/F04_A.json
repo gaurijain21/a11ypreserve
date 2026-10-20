@@ -1,0 +1,52 @@
+{
+  "fixture_id": "F04_A",
+  "family": "basic_tables",
+  "pipeline": "LibreOffice",
+  "transformation": "rewrite PDF with metadata-only Producer change",
+  "baseline_pdf_sha256": "36346a9a3503fd91feffc6d433698a58cb6a058060981ee01235a47b0146caec",
+  "transformed_pdf_sha256": "5841fbc3d10b3197a1210f636c1998030f9d0866a34816be6483b54ce0522aaa",
+  "valid_pdf": true,
+  "contract_projection_unchanged": true,
+  "benign_control_status": "VALID_BENIGN_CONTROL",
+  "before": {
+    "pages": 1,
+    "text_sha256": "3c394fcfde2ef605a336262903e98ba70846ca3fcf5d5fb352e7451ab4e24396",
+    "role_counts": {
+      "/Document": 1,
+      "/Standard": 4,
+      "/TD": 2,
+      "/TH": 2,
+      "/TR": 2,
+      "/Table": 1,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 basic table 1"
+  },
+  "after": {
+    "pages": 1,
+    "text_sha256": "3c394fcfde2ef605a336262903e98ba70846ca3fcf5d5fb352e7451ab4e24396",
+    "role_counts": {
+      "/Document": 1,
+      "/Standard": 4,
+      "/TD": 2,
+      "/TH": 2,
+      "/TR": 2,
+      "/Table": 1,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 basic table 1"
+  },
+  "timestamp_utc": "2026-10-20T06:32:32.000689+00:00"
+}

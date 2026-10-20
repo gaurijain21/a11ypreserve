@@ -1,0 +1,46 @@
+{
+  "fixture_id": "F12_A",
+  "family": "equations",
+  "pipeline": "LibreOffice",
+  "transformation": "rewrite PDF with metadata-only Producer change",
+  "baseline_pdf_sha256": "2381974bae6a10ab45cdde1bbff5ca1a41d575f58251fd1781956b2e01a3b34c",
+  "transformed_pdf_sha256": "04f2bb49d1f466a4e2d3f2c9e5a567a371730a2bbbe8f3d7177e6884bbcf5a5a",
+  "valid_pdf": true,
+  "contract_projection_unchanged": true,
+  "benign_control_status": "VALID_BENIGN_CONTROL",
+  "before": {
+    "pages": 1,
+    "text_sha256": "2e3c9f07cb3a0ba8e43de5a3a7102e08e62bd1205e1d3e7c6bb0daddaaa8865b",
+    "role_counts": {
+      "/Document": 1,
+      "/Formula": 1,
+      "/Standard": 1,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 equations 1"
+  },
+  "after": {
+    "pages": 1,
+    "text_sha256": "2e3c9f07cb3a0ba8e43de5a3a7102e08e62bd1205e1d3e7c6bb0daddaaa8865b",
+    "role_counts": {
+      "/Document": 1,
+      "/Formula": 1,
+      "/Standard": 1,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 equations 1"
+  },
+  "timestamp_utc": "2026-10-20T06:32:32.000689+00:00"
+}

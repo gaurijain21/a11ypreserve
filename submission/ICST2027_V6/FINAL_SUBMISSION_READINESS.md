@@ -8,7 +8,7 @@ and no upload or remote push was performed.
 
 ## Completed technical work
 
-- Rebuilt and visually inspected the current 9-page IEEE US-letter manuscript.
+- Rebuilt and visually inspected the current 10-page IEEE US-letter manuscript.
 - Verified the PDF/source provenance and current SHA-256.
 - Rechecked V5 historical reproduction without changing frozen evidence.
 - Verified all 65 genuine V6 control reruns.

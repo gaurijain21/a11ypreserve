@@ -1,0 +1,83 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T06:34:43.059541+00:00",
+  "fixture_id": "F08_E",
+  "feature_family": "hyperlinks",
+  "mutation_operator": "URI absent",
+  "mutation_target": "link URI",
+  "source_path": "experiments/v4/fixtures/F08_E.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F08_E__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F08_E.pdf",
+  "baseline_pdf_sha256": "b1f315e26fe8181ca3f1173bae72dfb2201857b386fb609594c0034e3c745a75",
+  "mutated_pdf_sha256": "62ab32a1c6c6c9b228564277b09961650582a1f299333e57a4c43466d0281747",
+  "mutation_applied": false,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "CONFIRMED_LOST",
+  "mutated_classification": null,
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "hyperlinks",
+    "source_value": [
+      {
+        "text": "Internal section",
+        "target": "#section-2",
+        "order": 1,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:hyperlink"
+        }
+      }
+    ],
+    "destination_value": [],
+    "destination_representation": [],
+    "fidelity_classification": "LOST",
+    "destination_accessibility": "INACCESSIBLE_FEATURE",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F08_E.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F08_E__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "no PDF link annotation/structure was extracted"
+  },
+  "raw_semantic_evidence_after": null,
+  "normalized_evidence_sha256_before": "4b1c0649eca8c832403bcf30121a773a4bc72cd460a042483b0dd2a9a3f7e08d",
+  "normalized_evidence_sha256_after": null,
+  "extracted_evidence_changed": false,
+  "evidence_drift_alert": false,
+  "evidence_level_detection": false,
+  "contracted_semantics_before": {
+    "signature_sha256": "42c74f1f90352bfa051d7b62c1078676d203cd60adce74373d301c90012552a2",
+    "classification": "CONFIRMED_LOST",
+    "raw_fidelity": "LOST",
+    "destination_accessibility": "INACCESSIBLE_FEATURE"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": null,
+    "classification": null,
+    "raw_fidelity": null,
+    "destination_accessibility": null
+  },
+  "contracted_semantics_changed": false,
+  "classification_changed": false,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "UNSUPPORTED",
+  "inconclusive_or_unsupported_reason": "URI absent",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

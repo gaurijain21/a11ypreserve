@@ -1,0 +1,35 @@
+{
+  "fixture_id": "F04_C",
+  "family": "basic_tables",
+  "pipeline": "LibreOffice",
+  "source_sha256": "d07ba7d1c3c9bb9ddb32d4e3f3c3a2500554efc6265f33e8feb6474a8b0e84fb",
+  "pdf_sha256": "43d05b7777dbd443c10d23b824e1bc321ddd3e6df8969687fbeab8752640d05e",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "paragraph_count": 9,
+    "family": "basic_tables"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "4206ff6caa4ccb6932f1b974150414a15e3b7859acbabbbe0558e6f821352961",
+    "role_counts": {
+      "/Document": 1,
+      "/Standard": 8,
+      "/TD": 6,
+      "/TH": 2,
+      "/TR": 4,
+      "/Table": 1,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 basic table 3"
+  },
+  "independent_observation": "OBSERVED_TABLE_STRUCTURE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

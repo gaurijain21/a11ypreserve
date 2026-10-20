@@ -1,0 +1,43 @@
+{
+  "fixture_id": "F11_B",
+  "family": "footnotes",
+  "pipeline": "LibreOffice",
+  "source_sha256": "86a868b8eaebc1e71a894725b293f6590700720b8f48e00c279610d65fdfb2ad",
+  "pdf_sha256": "51f7c59c2d1b86e8024d1e8a53d3e02557ed54d13b7f86682f90c6e6d024a9b8",
+  "frozen_classification": "MEASUREMENT_ERROR",
+  "source_contract_projection": {
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " First note."
+      },
+      {
+        "id": "2",
+        "text": " Second note."
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "4ce7adb2a77b23f901e074d23eafef00a8f18adc0e74b1d3d928343278fe6067",
+    "role_counts": {
+      "/Div": 1,
+      "/Document": 1,
+      "/Lbl": 2,
+      "/Link": 4,
+      "/Note": 2,
+      "/Standard": 5,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 footnotes 2"
+  },
+  "independent_observation": "OBSERVED_NOTE_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

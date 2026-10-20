@@ -1,0 +1,35 @@
+{
+  "fixture_id": "F09_E",
+  "family": "document_metadata",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "4a803fdc4a90db567c3bcae817a4ceeeb481b476836f8dca46e7178141400080",
+  "pdf_sha256": "7eed380f09e3b68145e4f9102d701058001c52787e4baba2284a2d885a438128",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "metadata": {
+      "title": "Filename-distinct metadata title",
+      "subject": "Subject 5: source metadata",
+      "keywords": null
+    }
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "eaf375dc2591e1a85e96fc48310bc7c76c1f3a990473bfe5ac15f187609ce12a",
+    "role_counts": {
+      "/Document": 1,
+      "/P": 1,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "Filename-distinct metadata title"
+  },
+  "independent_observation": "OBSERVED_TITLE_METADATA",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "protocol": "V7 complex-table role-delta diagnostic",
+  "cases": 5,
+  "role_delta_alerts": 5,
+  "interpretation": "This additive diagnostic exposes a role-count change without retroactively changing the frozen six-way classification. It is evidence of a coarse-category blind spot, not a repaired V4 result.",
+  "rows": [
+    {
+      "fixture_id": "F10_A",
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "mutated_classification": "OBSERVED_PARTIAL",
+      "baseline_th_count": 3,
+      "mutated_th_count": 2,
+      "role_delta_alert": true
+    },
+    {
+      "fixture_id": "F10_B",
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "mutated_classification": "OBSERVED_PARTIAL",
+      "baseline_th_count": 4,
+      "mutated_th_count": 3,
+      "role_delta_alert": true
+    },
+    {
+      "fixture_id": "F10_C",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutated_classification": "OBSERVED_PARTIAL",
+      "baseline_th_count": 7,
+      "mutated_th_count": 6,
+      "role_delta_alert": true
+    },
+    {
+      "fixture_id": "F10_D",
+      "baseline_classification": "VERIFIED_PRESERVED",
+      "mutated_classification": "OBSERVED_PARTIAL",
+      "baseline_th_count": 7,
+      "mutated_th_count": 6,
+      "role_delta_alert": true
+    },
+    {
+      "fixture_id": "F10_E",
+      "baseline_classification": "OBSERVED_PARTIAL",
+      "mutated_classification": "OBSERVED_PARTIAL",
+      "baseline_th_count": 6,
+      "mutated_th_count": 5,
+      "role_delta_alert": true
+    }
+  ]
+}

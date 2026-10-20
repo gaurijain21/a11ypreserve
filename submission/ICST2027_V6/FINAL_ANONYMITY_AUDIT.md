@@ -11,7 +11,7 @@ it is not an author attestation.
 |---|---|---|
 | Visible author identity in manuscript | PASS | `main.tex` uses `Anonymous for review`; no author block or acknowledgments |
 | PDF metadata identity | PASS | Current PDF metadata was checked by the V6 anonymity audit; no author/institution/private path is used as a release identifier |
-| PDF page/layout scan | PASS | All nine pages rendered under `submission/ICST2027_V6/.pdf-qa/release-final/` and inspected |
+| PDF page/layout scan | PASS | All ten pages rendered under `submission/ICST2027_V6/.pdf-qa/v7-adversarial/` and inspected |
 | Outer ZIP integrity | PASS | `scripts/verify_v6_upload_bundle.py`; current bundle SHA is recorded in the release manifest |
 | Nested replication ZIP integrity | PASS | Bundle verifier checks nested package and hashes |
 | Package identity scan | PASS with narrow detector exception | No identity-bearing root metadata is included; detector source contains literal patterns used to test for leaks |

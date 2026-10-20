@@ -1,0 +1,39 @@
+{
+  "fixture_id": "F11_B",
+  "family": "footnotes",
+  "pipeline": "Google Docs",
+  "source_sha256": "86a868b8eaebc1e71a894725b293f6590700720b8f48e00c279610d65fdfb2ad",
+  "pdf_sha256": "6ee8f34d70b46549134c2e94d6183cb17231e6ae568fc725f1b549848c360db8",
+  "frozen_classification": "UNRESOLVED_EQUIVALENCE",
+  "source_contract_projection": {
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " First note."
+      },
+      {
+        "id": "2",
+        "text": " Second note."
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "c572569f4759c852ccb8b22e9b1cc54858793ad16971507c693efe919cbe1ee5",
+    "role_counts": {
+      "/Document": 1,
+      "/H1": 1,
+      "/P": 3
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "F11_B"
+  },
+  "independent_observation": "NO_OBSERVED_NOTE_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

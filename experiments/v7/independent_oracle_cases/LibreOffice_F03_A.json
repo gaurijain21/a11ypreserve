@@ -1,0 +1,35 @@
+{
+  "fixture_id": "F03_A",
+  "family": "lists",
+  "pipeline": "LibreOffice",
+  "source_sha256": "84b579cace9f44ab51623fcfd1526061ce8ce70fe8b728a728afe301d56fda7f",
+  "pdf_sha256": "71c506e178257884b0da9ba140802c06bf848558d804eac17bf7619623aa4ecd",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "paragraph_count": 3,
+    "family": "lists"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "388736f1d57c59d1b8767d2fd22b3009f10434aa6c80bdb02a30ae801416ddf4",
+    "role_counts": {
+      "/Document": 1,
+      "/L": 1,
+      "/LBody": 2,
+      "/LI": 2,
+      "/Lbl": 2,
+      "/Standard": 2,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 lists 1"
+  },
+  "independent_observation": "OBSERVED_LIST_STRUCTURE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

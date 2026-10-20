@@ -1,0 +1,36 @@
+{
+  "fixture_id": "F13_B",
+  "family": "captions",
+  "pipeline": "Google Docs",
+  "source_sha256": "3ba26ff718b4a544594ed1ac2da627c7ee685dd32859d8ceeb10923a0c7f6f1a",
+  "pdf_sha256": "130d9e45eedb06920810ddad8ff7761fb2d55e42a19deafd8da561c3e60ee80d",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "paragraph_count": 5,
+    "family": "captions"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "5287d297d44e6d572b02556d16ddd350ebe70a1348db0d96aef0c37a6f3561d4",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 2,
+      "/H1": 1,
+      "/P": 4,
+      "/Span": 2
+    },
+    "alt_values": [
+      "Description for figure 1.",
+      "Description for figure 2."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "F13_B"
+  },
+  "independent_observation": "NO_OBSERVED_CAPTION_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

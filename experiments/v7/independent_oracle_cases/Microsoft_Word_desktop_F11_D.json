@@ -1,0 +1,39 @@
+{
+  "fixture_id": "F11_D",
+  "family": "footnotes",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "e2140c08c44e9a8e90c2dc8914b860337080b4f52407145140a1ab99119c339f",
+  "pdf_sha256": "866f68ec6bd8726f01c4551d1a5964490484add4f010c8ae30c63169d336b946",
+  "frozen_classification": "MEASUREMENT_ERROR",
+  "source_contract_projection": {
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " A longer footnote body containing enough text to test relocation and extraction."
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "755399bd098b3ec4e10a4fbbac698c0a4c9fa2d1dabc343f63e6f1a4d71dc5b9",
+    "role_counts": {
+      "/Document": 1,
+      "/Footnote": 1,
+      "/Link": 1,
+      "/P": 3,
+      "/Span": 1,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 footnotes 4"
+  },
+  "independent_observation": "NO_OBSERVED_NOTE_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

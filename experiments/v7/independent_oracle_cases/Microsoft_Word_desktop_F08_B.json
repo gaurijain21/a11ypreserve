@@ -1,0 +1,42 @@
+{
+  "fixture_id": "F08_B",
+  "family": "hyperlinks",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "68364097903620b8af9ebbaf5ec1426cd270f6dd3d1f071f5a230e59acf35cba",
+  "pdf_sha256": "01f0764b1c9439165db38094cb4dc5fb7f448e942322312efa8970347bef3b29",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "hyperlinks": [
+      {
+        "text": "https://example.org/raw",
+        "target": "https://example.org/raw",
+        "order": 1
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "6a8af1fe1887dbc1eb8917e613047d5b03253c7f9236a7caed3667320e698a77",
+    "role_counts": {
+      "/Document": 1,
+      "/Link": 1,
+      "/P": 1,
+      "/Span": 1,
+      "/Title": 1,
+      "/Transparency": 1,
+      "/URI": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 1,
+    "annotation_uris": [
+      "https://example.org/raw"
+    ],
+    "catalog_lang": "en",
+    "metadata_title": "V4 hyperlinks 2"
+  },
+  "independent_observation": "OBSERVED_URI_ACTION",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "fixture_id": "F04_E",
+  "family": "basic_tables",
+  "pipeline": "Google Docs",
+  "source_sha256": "c4d179636beb2f2940134c9b067bcde5b2b1a6ff17abecba44fe097979a7fa03",
+  "pdf_sha256": "e1fcec2f7237214bb1a2fdc5c4a002d23620569aa24b466d0f8c29d5dbaba077",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "paragraph_count": 7,
+    "family": "basic_tables"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "06628f5e19240b4e0dd708ac4006025bebd85c6195ddd23f20a529df91fd2a9f",
+    "role_counts": {
+      "/Document": 1,
+      "/H1": 1,
+      "/P": 7,
+      "/TD": 4,
+      "/TH": 2,
+      "/TR": 3,
+      "/Table": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "F04_E"
+  },
+  "independent_observation": "OBSERVED_TABLE_STRUCTURE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

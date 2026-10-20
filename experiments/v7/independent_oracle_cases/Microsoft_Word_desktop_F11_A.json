@@ -1,0 +1,39 @@
+{
+  "fixture_id": "F11_A",
+  "family": "footnotes",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "74d2bcbe4858e016d50443b6c311aef8f7e652488b61b11f676490ea2e31fef5",
+  "pdf_sha256": "610e61493d4f1116d8913c33056c0dec4d3331f33e7332caae399d63901a9997",
+  "frozen_classification": "MEASUREMENT_ERROR",
+  "source_contract_projection": {
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " One note body."
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "b409a51eac328d42e29340062bd3d7df1dde61e93a520e4ab5333002035734bf",
+    "role_counts": {
+      "/Document": 1,
+      "/Footnote": 1,
+      "/Link": 1,
+      "/P": 3,
+      "/Span": 1,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 footnotes 1"
+  },
+  "independent_observation": "NO_OBSERVED_NOTE_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

@@ -1,0 +1,47 @@
+{
+  "fixture_id": "F08_D",
+  "family": "hyperlinks",
+  "pipeline": "Google Docs",
+  "source_sha256": "8a8bd9c948fe8816c9f7207138bc6fb241821c58b4522de64e3b432d64a89374",
+  "pdf_sha256": "b18f70e2a6759ea9d93173f42aa0766c0d037e77d1ef09f326823e0bb52d5803",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "hyperlinks": [
+      {
+        "text": "Same label",
+        "target": "https://example.org/one",
+        "order": 1
+      },
+      {
+        "text": "Same label",
+        "target": "https://example.org/two",
+        "order": 2
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "9a2df6dec97bbbaf2d250bd119fb9ce371f253b154cb40de4ccbb6b1b177633e",
+    "role_counts": {
+      "/Document": 1,
+      "/H1": 1,
+      "/Link": 2,
+      "/P": 1,
+      "/Span": 4,
+      "/URI": 2
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 2,
+    "annotation_uris": [
+      "https://example.org/one",
+      "https://example.org/two"
+    ],
+    "catalog_lang": "en",
+    "metadata_title": "F08_D"
+  },
+  "independent_observation": "OBSERVED_URI_ACTION",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

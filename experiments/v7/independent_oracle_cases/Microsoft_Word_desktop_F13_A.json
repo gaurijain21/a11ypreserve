@@ -1,0 +1,36 @@
+{
+  "fixture_id": "F13_A",
+  "family": "captions",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "226d2d57d81be5a4e1f43a09c3d6db81541d91574851554e52d5f38290059541",
+  "pdf_sha256": "99d0ce4b5bdef1a6a69d3174ddada4cf00d7f97ea69f7de0a7e682e5c3514486",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "paragraph_count": 3,
+    "family": "captions"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "e890bc0b7344141c845bab34e75a2a2187fda8f09ab5421e809e28334d3b060e",
+    "role_counts": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 1,
+      "/P": 1,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [
+      "Figure 1\n\nDescription for figure 1."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 captions 1"
+  },
+  "independent_observation": "OBSERVED_CAPTION_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

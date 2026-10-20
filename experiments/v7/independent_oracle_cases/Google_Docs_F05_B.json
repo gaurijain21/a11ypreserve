@@ -1,0 +1,31 @@
+{
+  "fixture_id": "F05_B",
+  "family": "document_language",
+  "pipeline": "Google Docs",
+  "source_sha256": "57a905acacd76d043ac4a4b5d519741dea7044ebe6904ed8b8df1172a8a1fb9f",
+  "pdf_sha256": "a1312c08e45d79ccb18d3c902c08fdf8a79c1f6f57cf8c90ac2bfcc745fe1b8c",
+  "frozen_classification": "ALTERED",
+  "source_contract_projection": {
+    "paragraph_count": 2,
+    "family": "document_language"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "04a26b0f8ce6157049e5878163ebfc977050c020d220d390fbec0201cf3804be",
+    "role_counts": {
+      "/Document": 1,
+      "/H1": 1,
+      "/P": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en_GB",
+    "metadata_title": "F05_B"
+  },
+  "independent_observation": "OBSERVED_LANGUAGE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "protocol": "V7 independently implemented raw PDF/OOXML evidence audit",
+  "implementation": "stdlib ZIP/XML + pypdf 6.18.1 + PyMuPDF 1.28.2; no frozen destination extractor or comparator imports",
+  "cases": 195,
+  "primary_cases": 130,
+  "supplementary_word_cases": 65,
+  "extraction_errors": 0,
+  "errors": [],
+  "observation_counts": {
+    "OBSERVED_STRUCTURE": 15,
+    "OBSERVED_FIGURE_ALT": 15,
+    "OBSERVED_LIST_STRUCTURE": 15,
+    "OBSERVED_TABLE_STRUCTURE": 30,
+    "OBSERVED_LANGUAGE": 15,
+    "OBSERVED_LANGUAGE_EVIDENCE": 10,
+    "NO_OBSERVED_ARTIFACT": 15,
+    "OBSERVED_URI_ACTION": 12,
+    "NO_OBSERVED_URI_ACTION": 3,
+    "OBSERVED_TITLE_METADATA": 15,
+    "OBSERVED_NOTE_ROLE": 5,
+    "OBSERVED_FORMULA_ROLE": 10,
+    "OBSERVED_CAPTION_ROLE": 10,
+    "NO_OBSERVED_LANGUAGE_EVIDENCE": 5,
+    "NO_OBSERVED_NOTE_ROLE": 10,
+    "NO_OBSERVED_FORMULA_ROLE": 5,
+    "NO_OBSERVED_CAPTION_ROLE": 5
+  },
+  "status": "COMPLETE",
+  "not_human_adjudication": true,
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

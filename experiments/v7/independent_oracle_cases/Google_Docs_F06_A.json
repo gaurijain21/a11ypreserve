@@ -1,0 +1,31 @@
+{
+  "fixture_id": "F06_A",
+  "family": "inline_language",
+  "pipeline": "Google Docs",
+  "source_sha256": "f3aab26f438ef5e524606d05411c36527e5f59860c5d045b417324e7597598ca",
+  "pdf_sha256": "b4f1c6e99036e312c825e308cf0f5ec74fde1c93ecc7b16c918c56fb3e73fe48",
+  "frozen_classification": "CONFIRMED_LOST",
+  "source_contract_projection": {
+    "paragraph_count": 2,
+    "family": "inline_language"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "bf49657d65cdc4163a2cbc3911656ab82d32a7056a841f7a199af2f39ecde792",
+    "role_counts": {
+      "/Document": 1,
+      "/H1": 1,
+      "/P": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "F06_A"
+  },
+  "independent_observation": "NO_OBSERVED_LANGUAGE_EVIDENCE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

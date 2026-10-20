@@ -1,0 +1,39 @@
+{
+  "fixture_id": "F02_C",
+  "family": "alt_text",
+  "pipeline": "Google Docs",
+  "source_sha256": "7e4a11e6e81cb706783e876ea2f208b3469b8b4cb2ba769fbc0b930de6d1f2a9",
+  "pdf_sha256": "ab46a66752f4efb87b246b95d3debfda084178222db47b00671c60c05c8dfb22",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "Punctuation: review — results (2026)!",
+        "decorative": false
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "a5501dffc1d5f8b4875382124952a0975e4c3383490aee9903fd1b6e332466ee",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 1,
+      "/H1": 1,
+      "/P": 2,
+      "/Span": 1
+    },
+    "alt_values": [
+      "Punctuation: review — results (2026)!"
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "F02_C"
+  },
+  "independent_observation": "OBSERVED_FIGURE_ALT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

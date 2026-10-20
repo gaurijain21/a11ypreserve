@@ -1,0 +1,43 @@
+{
+  "fixture_id": "F02_E",
+  "family": "alt_text",
+  "pipeline": "LibreOffice",
+  "source_sha256": "801332b1b4337ad122cfa78e4866af48e467736a6840bb3fa9092e74d9141bc7",
+  "pdf_sha256": "55fbb54b09954f86673d8a80fa74fb0f4c3aca273d95f55e3cb6040f69f51b88",
+  "frozen_classification": "ALTERED",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "First distinct image.",
+        "decorative": false
+      },
+      {
+        "alt": "Second distinct image with separate values.",
+        "decorative": false
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "c82379438a66e115d3c27a4e067b5b9e5d59d1873f97a7de82c5fb81a7fd2c1a",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 2,
+      "/Standard": 3,
+      "/Title": 1
+    },
+    "alt_values": [
+      "Alt image 1 - First distinct image.",
+      "Alt image 2 - Second distinct image with separate values."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 alt text 5"
+  },
+  "independent_observation": "OBSERVED_FIGURE_ALT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

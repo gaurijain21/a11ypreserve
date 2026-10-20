@@ -1,0 +1,39 @@
+{
+  "fixture_id": "F11_C",
+  "family": "footnotes",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "82c4ca81755a16ea49a6fcd55a6737ce501fca72661e6c6312c231e26c2a8a3c",
+  "pdf_sha256": "092ab3ca441abc434538115f9d95bbbbb2f0104e6d3df992b2e61032e4efc451",
+  "frozen_classification": "MEASUREMENT_ERROR",
+  "source_contract_projection": {
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " Repeated reference note."
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "fe09e5b8331aecdccb1ddb4e66954a3de0068073651a0e6e45daf4adda9a3e7e",
+    "role_counts": {
+      "/Document": 1,
+      "/Footnote": 1,
+      "/Link": 1,
+      "/P": 3,
+      "/Span": 1,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 footnotes 3"
+  },
+  "independent_observation": "NO_OBSERVED_NOTE_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

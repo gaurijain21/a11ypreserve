@@ -1,0 +1,35 @@
+{
+  "fixture_id": "F09_D",
+  "family": "document_metadata",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "f8b1ee09bc9f737383426e861d0e7f056a972a07660a46f129252614f86ac3aa",
+  "pdf_sha256": "3099be113b8c3a7528ef8dcf41cb84b6261ff46d72136e360603b5be17a1c622",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "metadata": {
+      "title": "A long document title for preservation review",
+      "subject": "Subject 4: source metadata",
+      "keywords": null
+    }
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "6020311422e995ecf49f23254e0c64533a385fbf57e7113c28de893c49735543",
+    "role_counts": {
+      "/Document": 1,
+      "/P": 1,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "A long document title for preservation review"
+  },
+  "independent_observation": "OBSERVED_TITLE_METADATA",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

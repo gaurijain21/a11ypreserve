@@ -1,0 +1,44 @@
+{
+  "fixture_id": "F02_E",
+  "family": "alt_text",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "801332b1b4337ad122cfa78e4866af48e467736a6840bb3fa9092e74d9141bc7",
+  "pdf_sha256": "c6c5b4e5d175a3b9326c6f6804d0f6d72b055fe5c6dc9c45ae4b1ab272e3ffd8",
+  "frozen_classification": "ALTERED",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "First distinct image.",
+        "decorative": false
+      },
+      {
+        "alt": "Second distinct image with separate values.",
+        "decorative": false
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "7a3bd10bbd853f86cd4008ab9f343d6646d65c26019a9400cacb354aef5d0b71",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 2,
+      "/P": 3,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [
+      "Alt image 1\n\nFirst distinct image.",
+      "Alt image 2\n\nSecond distinct image with separate values."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 alt text 5"
+  },
+  "independent_observation": "OBSERVED_FIGURE_ALT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

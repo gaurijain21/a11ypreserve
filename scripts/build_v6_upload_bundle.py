@@ -21,6 +21,8 @@ SUB = ROOT / "submission" / "ICST2027_V6"
 V5_PACKAGE = ROOT / "submission" / "ICST2027_V5" / "upload_v5" / "replication_package"
 V6_EVIDENCE = ROOT / "experiments" / "v6"
 V6_REPORTS = ROOT / "reports" / "v6"
+V7_EVIDENCE = ROOT / "experiments" / "v7"
+V7_REPORTS = ROOT / "reports" / "v7"
 EXTERNAL_STAGING = os.environ.get("A11YPRESERVE_V6_UPLOAD_ROOT")
 UPLOAD = Path(EXTERNAL_STAGING).resolve() if EXTERNAL_STAGING else SUB / "upload_v6"
 PACKAGE = UPLOAD / "replication_package"
@@ -103,6 +105,8 @@ def main() -> None:
     copy_tree(SUB / "sections", "manuscript/sections")
     copy_tree(V6_EVIDENCE, "evidence/v6/experiments")
     copy_tree(V6_REPORTS, "evidence/v6/reports")
+    copy_tree(V7_EVIDENCE, "evidence/v7/experiments")
+    copy_tree(V7_REPORTS, "evidence/v7/reports")
     final_release_reports = [
         "FINAL_SCIENTIFIC_AUDIT.md",
         "FINAL_REFERENCE_AUDIT.md",
@@ -124,34 +128,42 @@ def main() -> None:
         ROOT / "scripts" / "audit_v6_objection_mitigations.py",
         ROOT / "scripts" / "audit_v6_anonymity.py",
         ROOT / "scripts" / "record_v6_build_provenance.py",
+        ROOT / "scripts" / "v7_independent_oracle_audit.py",
+        ROOT / "scripts" / "v7_semantic_equivalence_audit.py",
+        ROOT / "scripts" / "v7_association_attack_audit.py",
+        ROOT / "scripts" / "v7_competitive_baseline.py",
+        ROOT / "scripts" / "v7_cross_parser_audit.py",
+        ROOT / "scripts" / "v7_complex_table_diagnostic.py",
         ROOT / "tests" / "test_v6_scientific_hardening.py",
         ROOT / "requirements-v6.txt",
         ROOT / ".github" / "workflows" / "v6.yml",
     ]:
         copy_file(source, f"reproduction/{source.name}")
 
-    write_text("README.md", """# Anonymous A11yPreserve V6 replication package
+    write_text("README.md", """# Anonymous A11yPreserve replication package
 
 This package accompanies the anonymous ICST 2027 Research Papers submission.
-It preserves the sanitized historical V5 evidence and adds the V6 scientific
+It preserves the sanitized historical V5 evidence and adds the scientific
 hardening layer: genuine no-op control reruns, destination mutation traces,
-executable baselines and ablations, manuscript provenance, package checks, and
-anonymity checks.
+executable baselines and ablations, independently implemented parser
+cross-checks, semantic-equivalence controls, association attacks, manuscript
+provenance, package checks, and anonymity checks. The latter evidence is an
+additive diagnostic layer and does not rewrite frozen historical results.
 
 The frozen primary denominator remains 130 fixture--pipeline cases: 65 atomic
 DOCX fixtures across LibreOffice and Google Docs. Microsoft Word remains a
-separate post-freeze supplementary arm with 65 observations. V6 does not claim
+separate post-freeze supplementary arm with 65 observations. The study does not claim
 PDF/UA conformance, human usability, natural-document generalization, temporal
 Google repeatability, or external expert adjudication.
 
 The manuscript source is under `manuscript/`; the anonymous PDF is `../paper.pdf`.
-Run the V6 checks from a repository checkout with the original project layout.
+Run the documented checks from a repository checkout with the original project layout.
 Google Docs reproduction requires an authorized interactive session. Credentials,
 cookies, browser profiles, account identifiers, and private paths are not
 distributed. Root author/citation/license metadata is intentionally omitted from
 this anonymous package pending human release decisions.
 """)
-    write_text("REPRODUCTION_NOTES.md", """# V6 reproduction notes
+    write_text("REPRODUCTION_NOTES.md", """# Reproduction notes
 
 Run `python reproduction/reproduce_v6.py` from the original repository layout.
 The scientific script genuinely reruns controls, mutations, and baselines; it
@@ -160,6 +172,13 @@ does not trust pre-existing aggregate JSON as the experimental computation.
 The included PDF was built from the listed manuscript inputs using MiKTeX
 pdfTeX and BibTeX. Source/PDF hashes and page count are recorded in
 `evidence/v6/experiments/V6_PDF_BUILD_PROVENANCE.json`.
+
+The additive adversarial checks are under `evidence/v7/experiments` and
+`evidence/v7/reports`. They include an independently implemented raw
+OOXML/PDF audit, conservative semantic-equivalence rewrites, one-per-family
+association attacks, a source-aware competitive baseline, and a cross-parser
+diagnostic. They do not constitute human adjudication, a natural-document
+external corpus, standards conformance, or a new primary denominator.
 
 External converter/cloud reruns require the named local or authenticated
 environments. No credentials or private browser state are included.
@@ -184,11 +203,13 @@ institutions, repository URLs, private paths, and account identifiers.
             if path.is_file():
                 archive.write(path, str(Path("replication_package") / path.relative_to(PACKAGE)))
     upload_readme = UPLOAD / "UPLOAD_README.md"
-    upload_readme.write_text("""# Anonymous ICST 2027 V6 upload bundle
+    from pypdf import PdfReader
+    page_count = len(PdfReader(str(UPLOAD / "paper.pdf")).pages)
+    upload_readme.write_text(f"""# Anonymous ICST 2027 upload bundle
 
-- `paper.pdf`: anonymous 9-page IEEE conference-format manuscript.
-- `replication_package.zip`: sanitized V5 historical evidence plus V6 evidence,
-  source, scripts, and reproduction instructions.
+- `paper.pdf`: anonymous {page_count}-page IEEE conference-format manuscript.
+- `replication_package.zip`: sanitized V5 historical evidence plus the current
+  evidence, source, scripts, and reproduction instructions.
 
 Human authors must complete HotCRP authorship/COI, originality, simultaneous-
 submission, licensing, and artifact-access decisions before upload.
@@ -205,7 +226,7 @@ submission, licensing, and artifact-access decisions before upload.
         if not any(prefix in line for prefix in generated_prefixes)
     )
     bundle_manifest = {
-        "paper": {"path": "paper.pdf", "source": str(PAPER_SOURCE.relative_to(ROOT)).replace("\\", "/"), "sha256": sha256(UPLOAD / "paper.pdf"), "size_bytes": (UPLOAD / "paper.pdf").stat().st_size, "pages": 9},
+        "paper": {"path": "paper.pdf", "source": str(PAPER_SOURCE.relative_to(ROOT)).replace("\\", "/"), "sha256": sha256(UPLOAD / "paper.pdf"), "size_bytes": (UPLOAD / "paper.pdf").stat().st_size, "pages": page_count},
         "replication_package": {"path": "replication_package.zip", "sha256": sha256(package_zip), "size_bytes": package_zip.stat().st_size, "files": len(manifest)},
         "generated_from_commit": generated_from,
         "working_tree_dirty": bool(working_tree_status.strip()),

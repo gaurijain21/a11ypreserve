@@ -1,0 +1,38 @@
+{
+  "fixture_id": "F02_C",
+  "family": "alt_text",
+  "pipeline": "LibreOffice",
+  "source_sha256": "7e4a11e6e81cb706783e876ea2f208b3469b8b4cb2ba769fbc0b930de6d1f2a9",
+  "pdf_sha256": "d5bc930732ebe9305d0d4143556839a3fe75f8a22deb90eadb07ad3fef52199d",
+  "frozen_classification": "ALTERED",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "Punctuation: review — results (2026)!",
+        "decorative": false
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "5cf71b6eb785ad2e871d299a13aba8001d10b2839c8c5421660d8d994e3817e5",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 1,
+      "/Standard": 2,
+      "/Title": 1
+    },
+    "alt_values": [
+      "Alt image 1 - Punctuation: review — results (2026)!"
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 alt text 3"
+  },
+  "independent_observation": "OBSERVED_FIGURE_ALT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

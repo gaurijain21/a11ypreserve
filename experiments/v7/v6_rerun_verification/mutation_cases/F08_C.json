@@ -1,0 +1,241 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T06:34:42.521137+00:00",
+  "fixture_id": "F08_C",
+  "feature_family": "hyperlinks",
+  "mutation_operator": "removed first Link /URI",
+  "mutation_target": "link URI",
+  "source_path": "experiments/v4/fixtures/F08_C.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F08_C__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F08_C.pdf",
+  "baseline_pdf_sha256": "4796d1a41b1e48c84623ac744f520b6a149234939b62823a6bb9f381fafd2c25",
+  "mutated_pdf_sha256": "5b010a1ed13ec6500f45277ee5c58ff148d5b475781a46ffd539588f6e026e95",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "ALTERED",
+  "mutated_classification": "ALTERED",
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "hyperlinks",
+    "source_value": [
+      {
+        "text": "Guidance",
+        "target": "https://example.org/guidance",
+        "order": 1,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:hyperlink"
+        }
+      },
+      {
+        "text": "Reference",
+        "target": "https://example.org/reference",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:hyperlink"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "target": "https://example.org/reference",
+        "page": 1,
+        "rect": [
+          156.093,
+          655.35,
+          203.307,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      },
+      {
+        "target": "https://example.org/guidance",
+        "page": 1,
+        "rect": [
+          89.993,
+          655.35,
+          133.707,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "target": "https://example.org/reference",
+        "page": 1,
+        "rect": [
+          156.093,
+          655.35,
+          203.307,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      },
+      {
+        "target": "https://example.org/guidance",
+        "page": 1,
+        "rect": [
+          89.993,
+          655.35,
+          133.707,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      }
+    ],
+    "fidelity_classification": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F08_C.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F08_C__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "destination link target or count differs from source"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "hyperlinks",
+    "source_value": [
+      {
+        "text": "Guidance",
+        "target": "https://example.org/guidance",
+        "order": 1,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:hyperlink"
+        }
+      },
+      {
+        "text": "Reference",
+        "target": "https://example.org/reference",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:hyperlink"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "target": null,
+        "page": 1,
+        "rect": [
+          156.093,
+          655.35,
+          203.307,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      },
+      {
+        "target": "https://example.org/guidance",
+        "page": 1,
+        "rect": [
+          89.993,
+          655.35,
+          133.707,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "target": null,
+        "page": 1,
+        "rect": [
+          156.093,
+          655.35,
+          203.307,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      },
+      {
+        "target": "https://example.org/guidance",
+        "page": 1,
+        "rect": [
+          89.993,
+          655.35,
+          133.707,
+          668.25
+        ],
+        "evidence": {
+          "pdf": "/Annots/Link"
+        }
+      }
+    ],
+    "fidelity_classification": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F08_C.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F08_C.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "destination link target or count differs from source"
+  },
+  "normalized_evidence_sha256_before": "bf595dd1011138389e08a66a3d89f9441b433f4cd7f2e4c62d45f0e7ba850467",
+  "normalized_evidence_sha256_after": "43d31615c9f050be88fd4e45a38dc8d4e59bce2f2b1befd7074a3be86742da52",
+  "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "e35218991f5ac549d95a60fb70078fcf264b72dd500c38120e8e29655104a9a1",
+    "classification": "ALTERED",
+    "raw_fidelity": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "6d6d28d820d97aa82f6a60cae12769aa9d7d5af840ad50f23d9b4347a423324b",
+    "classification": "ALTERED",
+    "raw_fidelity": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": false,
+  "genuinely_undetected": true,
+  "semantically_meaningful_survival": true,
+  "outcome_status": "SEMANTICALLY_MEANINGFUL_SURVIVAL",
+  "inconclusive_or_unsupported_reason": "contracted evidence changed but coarse classification did not",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

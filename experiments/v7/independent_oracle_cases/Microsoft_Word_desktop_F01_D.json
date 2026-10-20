@@ -1,0 +1,51 @@
+{
+  "fixture_id": "F01_D",
+  "family": "headings",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "9156c9ef9e0fdaa04b93b225fb231623048a9a033c938e862c8e742b82a7e334",
+  "pdf_sha256": "17c43497602af4cf62e95ef4779d448985161bf5a8f6b6464b5ee95f0e2b9627",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "headings": [
+      {
+        "level": 1,
+        "text": "Overview"
+      },
+      {
+        "level": 2,
+        "text": "Context"
+      },
+      {
+        "level": 2,
+        "text": "Body"
+      },
+      {
+        "level": 3,
+        "text": "Detail"
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "dc37946f55746effebb7082460eb3259596eb481f5db9bb18595285826fb46c9",
+    "role_counts": {
+      "/Document": 1,
+      "/H1": 1,
+      "/H2": 2,
+      "/H3": 1,
+      "/P": 1,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 headings 4"
+  },
+  "independent_observation": "OBSERVED_STRUCTURE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

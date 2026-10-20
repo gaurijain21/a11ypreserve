@@ -1,0 +1,32 @@
+{
+  "fixture_id": "F03_B",
+  "family": "lists",
+  "pipeline": "Google Docs",
+  "source_sha256": "c2451d7139ff66fb4f747b957915cc17ab6a7d7fd34a94d1ae75bc62f1b3acdb",
+  "pdf_sha256": "e5ea4da6f7b5d4ae87569160675d480159f1cbb4b5e06d85da09f5ac44b646e6",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "paragraph_count": 4,
+    "family": "lists"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "9ff1ce187369a7ab55ec6660394849a7f0515cc9b20bea4484deca0153b253a6",
+    "role_counts": {
+      "/Document": 1,
+      "/H1": 1,
+      "/L": 1,
+      "/LI": 3
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "F03_B"
+  },
+  "independent_observation": "OBSERVED_LIST_STRUCTURE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "fixture_id": "F07_A",
+  "family": "decorative_images",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "83abc799c2d127a47d494aeea61cc64347e4615d049712772493c776e1dc7af6",
+  "pdf_sha256": "02d4363ad2f584fce3ee2cd3872f0b04e3f11707c43cc30cb61f89ed37f4650b",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "",
+        "decorative": true
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "40f55db512e34114c54eb7b2fcbca7a9797125c908daf37421a1ce855929d4a2",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 1,
+      "/P": 1,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [
+      "Figure 1"
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 decorative state 1"
+  },
+  "independent_observation": "NO_OBSERVED_ARTIFACT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

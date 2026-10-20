@@ -1,0 +1,536 @@
+{
+  "method": "source-aware structural baseline",
+  "definition": "Fresh OOXML contract projection paired with raw PDF role, metadata, URI, and text evidence; no frozen comparator import.",
+  "known_faults_evaluated": 59,
+  "faults_detected": 25,
+  "family_detection": {
+    "alt_text": {
+      "evaluated": 5,
+      "detected": 0
+    },
+    "basic_tables": {
+      "evaluated": 5,
+      "detected": 0
+    },
+    "captions": {
+      "evaluated": 5,
+      "detected": 2
+    },
+    "complex_tables": {
+      "evaluated": 5,
+      "detected": 0
+    },
+    "document_language": {
+      "evaluated": 5,
+      "detected": 1
+    },
+    "document_metadata": {
+      "evaluated": 5,
+      "detected": 5
+    },
+    "equations": {
+      "evaluated": 5,
+      "detected": 4
+    },
+    "footnotes": {
+      "evaluated": 5,
+      "detected": 3
+    },
+    "headings": {
+      "evaluated": 5,
+      "detected": 0
+    },
+    "hyperlinks": {
+      "evaluated": 4,
+      "detected": 4
+    },
+    "inline_language": {
+      "evaluated": 5,
+      "detected": 4
+    },
+    "lists": {
+      "evaluated": 5,
+      "detected": 2
+    }
+  },
+  "decision_counts": {
+    "SUPPORTED->SUPPORTED": 29,
+    "UNSUPPORTED->UNSUPPORTED": 5,
+    "SUPPORTED->UNSUPPORTED": 25
+  },
+  "rows": [
+    {
+      "fixture_id": "F01_A",
+      "family": "headings",
+      "operator": "mutated first /H1 role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F01_B",
+      "family": "headings",
+      "operator": "mutated first /H1 role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F01_C",
+      "family": "headings",
+      "operator": "mutated first /H1 role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F01_D",
+      "family": "headings",
+      "operator": "mutated first /H1 role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F01_E",
+      "family": "headings",
+      "operator": "mutated first /H1 role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F02_A",
+      "family": "alt_text",
+      "operator": "removed first Figure /Alt",
+      "baseline_status": "UNSUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F02_B",
+      "family": "alt_text",
+      "operator": "removed first Figure /Alt",
+      "baseline_status": "UNSUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F02_C",
+      "family": "alt_text",
+      "operator": "removed first Figure /Alt",
+      "baseline_status": "UNSUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F02_D",
+      "family": "alt_text",
+      "operator": "removed first Figure /Alt",
+      "baseline_status": "UNSUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F02_E",
+      "family": "alt_text",
+      "operator": "removed first Figure /Alt",
+      "baseline_status": "UNSUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F03_A",
+      "family": "lists",
+      "operator": "mutated first /L role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F03_B",
+      "family": "lists",
+      "operator": "mutated first /L role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F03_C",
+      "family": "lists",
+      "operator": "mutated first /L role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F03_D",
+      "family": "lists",
+      "operator": "mutated first /L role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F03_E",
+      "family": "lists",
+      "operator": "mutated first /L role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F04_A",
+      "family": "basic_tables",
+      "operator": "mutated first /TH role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F04_B",
+      "family": "basic_tables",
+      "operator": "mutated first /TH role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F04_C",
+      "family": "basic_tables",
+      "operator": "mutated first /TH role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F04_D",
+      "family": "basic_tables",
+      "operator": "mutated first /TH role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F04_E",
+      "family": "basic_tables",
+      "operator": "mutated first /TH role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F05_A",
+      "family": "document_language",
+      "operator": "removed catalog /Lang",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F05_B",
+      "family": "document_language",
+      "operator": "removed catalog /Lang",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F05_C",
+      "family": "document_language",
+      "operator": "removed catalog /Lang",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F05_D",
+      "family": "document_language",
+      "operator": "removed catalog /Lang",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F05_E",
+      "family": "document_language",
+      "operator": "removed catalog /Lang",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F06_A",
+      "family": "inline_language",
+      "operator": "removed first inline StructElem /Lang",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F06_B",
+      "family": "inline_language",
+      "operator": "removed first inline StructElem /Lang",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F06_C",
+      "family": "inline_language",
+      "operator": "removed first inline StructElem /Lang",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F06_D",
+      "family": "inline_language",
+      "operator": "removed first inline StructElem /Lang",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F06_E",
+      "family": "inline_language",
+      "operator": "removed first inline StructElem /Lang",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F08_A",
+      "family": "hyperlinks",
+      "operator": "removed first Link /URI",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F08_B",
+      "family": "hyperlinks",
+      "operator": "removed first Link /URI",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F08_C",
+      "family": "hyperlinks",
+      "operator": "removed first Link /URI",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F08_D",
+      "family": "hyperlinks",
+      "operator": "removed first Link /URI",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F09_A",
+      "family": "document_metadata",
+      "operator": "changed document title",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F09_B",
+      "family": "document_metadata",
+      "operator": "changed document title",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F09_C",
+      "family": "document_metadata",
+      "operator": "changed document title",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F09_D",
+      "family": "document_metadata",
+      "operator": "changed document title",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F09_E",
+      "family": "document_metadata",
+      "operator": "changed document title",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F10_A",
+      "family": "complex_tables",
+      "operator": "mutated first /TH role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F10_B",
+      "family": "complex_tables",
+      "operator": "mutated first /TH role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F10_C",
+      "family": "complex_tables",
+      "operator": "mutated first /TH role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F10_D",
+      "family": "complex_tables",
+      "operator": "mutated first /TH role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F10_E",
+      "family": "complex_tables",
+      "operator": "mutated first /TH role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F11_A",
+      "family": "footnotes",
+      "operator": "mutated first /Note role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F11_B",
+      "family": "footnotes",
+      "operator": "mutated first /Note role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F11_C",
+      "family": "footnotes",
+      "operator": "mutated first /Note role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F11_D",
+      "family": "footnotes",
+      "operator": "mutated first /Note role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F11_E",
+      "family": "footnotes",
+      "operator": "mutated first /Note role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F12_A",
+      "family": "equations",
+      "operator": "mutated first /Formula role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F12_B",
+      "family": "equations",
+      "operator": "mutated first /Formula role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F12_C",
+      "family": "equations",
+      "operator": "mutated first /Formula role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F12_D",
+      "family": "equations",
+      "operator": "mutated first /Formula role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F12_E",
+      "family": "equations",
+      "operator": "mutated first /Formula role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F13_A",
+      "family": "captions",
+      "operator": "mutated first /Caption role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F13_B",
+      "family": "captions",
+      "operator": "mutated first /Caption role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F13_C",
+      "family": "captions",
+      "operator": "mutated first /Caption role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    },
+    {
+      "fixture_id": "F13_D",
+      "family": "captions",
+      "operator": "mutated first /Caption role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "UNSUPPORTED",
+      "fault_detected": true
+    },
+    {
+      "fixture_id": "F13_E",
+      "family": "captions",
+      "operator": "mutated first /Caption role",
+      "baseline_status": "SUPPORTED",
+      "mutant_status": "SUPPORTED",
+      "fault_detected": false
+    }
+  ],
+  "interpretation": "This is a competent but deliberately bounded source-aware baseline. It is not independent ground truth and does not claim full semantic equivalence."
+}

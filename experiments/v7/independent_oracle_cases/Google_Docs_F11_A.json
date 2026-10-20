@@ -1,0 +1,35 @@
+{
+  "fixture_id": "F11_A",
+  "family": "footnotes",
+  "pipeline": "Google Docs",
+  "source_sha256": "74d2bcbe4858e016d50443b6c311aef8f7e652488b61b11f676490ea2e31fef5",
+  "pdf_sha256": "641ab19f11acfd68cecd0f5f488f5370897a2ae17552c96743a66f8b7685c3d1",
+  "frozen_classification": "UNRESOLVED_EQUIVALENCE",
+  "source_contract_projection": {
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " One note body."
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "9cff8a8a2214d404060eca9b98bbd31b7fb1324052b79d1e22ced4d03a8d08ca",
+    "role_counts": {
+      "/Document": 1,
+      "/H1": 1,
+      "/P": 2
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "F11_A"
+  },
+  "independent_observation": "NO_OBSERVED_NOTE_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

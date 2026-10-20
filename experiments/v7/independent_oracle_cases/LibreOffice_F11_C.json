@@ -1,0 +1,39 @@
+{
+  "fixture_id": "F11_C",
+  "family": "footnotes",
+  "pipeline": "LibreOffice",
+  "source_sha256": "82c4ca81755a16ea49a6fcd55a6737ce501fca72661e6c6312c231e26c2a8a3c",
+  "pdf_sha256": "5edcc1f88bcb259e15a6618512761d662c0da5ad16c0a8f12210f46afc7e47d0",
+  "frozen_classification": "MEASUREMENT_ERROR",
+  "source_contract_projection": {
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " Repeated reference note."
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "8144076f47426cc705d0e2a183509412c5d505babed91974d682acb4a7c1a598",
+    "role_counts": {
+      "/Div": 1,
+      "/Document": 1,
+      "/Lbl": 1,
+      "/Link": 2,
+      "/Note": 1,
+      "/Standard": 3,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 footnotes 3"
+  },
+  "independent_observation": "OBSERVED_NOTE_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

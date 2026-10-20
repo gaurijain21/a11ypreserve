@@ -1,0 +1,43 @@
+{
+  "fixture_id": "F11_B",
+  "family": "footnotes",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "86a868b8eaebc1e71a894725b293f6590700720b8f48e00c279610d65fdfb2ad",
+  "pdf_sha256": "0b916f9a0d8c4f7428f5a9f7ec311d297dd5c519482700c55dc97f264773f094",
+  "frozen_classification": "MEASUREMENT_ERROR",
+  "source_contract_projection": {
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " First note."
+      },
+      {
+        "id": "2",
+        "text": " Second note."
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "110081ff995d1674c14cfbf9c7549217757d45f2d2de34e17a82b7b982623c41",
+    "role_counts": {
+      "/Document": 1,
+      "/Footnote": 2,
+      "/Link": 2,
+      "/P": 5,
+      "/Span": 2,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 footnotes 2"
+  },
+  "independent_observation": "NO_OBSERVED_NOTE_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

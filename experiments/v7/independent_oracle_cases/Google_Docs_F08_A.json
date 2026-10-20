@@ -1,0 +1,41 @@
+{
+  "fixture_id": "F08_A",
+  "family": "hyperlinks",
+  "pipeline": "Google Docs",
+  "source_sha256": "bd0b60024852b25d95a09d0486234bf58abe00051faed8723ffea6a91548042b",
+  "pdf_sha256": "f0a7477131c5ecb50a8e00b7973bbdf71ca58c5a5a4963236a8f2e281c1389ea",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "hyperlinks": [
+      {
+        "text": "Read the guidance",
+        "target": "https://example.org/guidance",
+        "order": 1
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "5d25bb246cdbcdf145a4bb02e661c4851176e3f270a42954fec80d3eb8e199ea",
+    "role_counts": {
+      "/Document": 1,
+      "/H1": 1,
+      "/Link": 1,
+      "/P": 1,
+      "/Span": 2,
+      "/URI": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 1,
+    "annotation_uris": [
+      "https://example.org/guidance"
+    ],
+    "catalog_lang": "en",
+    "metadata_title": "F08_A"
+  },
+  "independent_observation": "OBSERVED_URI_ACTION",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "fixture_id": "F12_A",
+  "family": "equations",
+  "operator": "changed first /Formula semantic association",
+  "baseline_pdf_sha256": "2381974bae6a10ab45cdde1bbff5ca1a41d575f58251fd1781956b2e01a3b34c",
+  "mutated_pdf_sha256": "6cc722123bea48952a08d332ced1bc826103609445d85df1389dbfeccd95b7d7",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "baseline_classification": "VERIFIED_PRESERVED",
+  "mutated_classification": "OBSERVED_PARTIAL",
+  "classification_changed": true,
+  "attack_scorable": true,
+  "comparator_result": "DETECTED",
+  "timestamp_utc": "2026-10-20T06:32:37.047296+00:00",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

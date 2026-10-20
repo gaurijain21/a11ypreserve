@@ -1,0 +1,41 @@
+{
+  "fixture_id": "F08_B",
+  "family": "hyperlinks",
+  "pipeline": "Google Docs",
+  "source_sha256": "68364097903620b8af9ebbaf5ec1426cd270f6dd3d1f071f5a230e59acf35cba",
+  "pdf_sha256": "b2d986ae359f336ea834af1a93307ea242990b7e573f50a65709ac45b9563f85",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "hyperlinks": [
+      {
+        "text": "https://example.org/raw",
+        "target": "https://example.org/raw",
+        "order": 1
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "6a8af1fe1887dbc1eb8917e613047d5b03253c7f9236a7caed3667320e698a77",
+    "role_counts": {
+      "/Document": 1,
+      "/H1": 1,
+      "/Link": 1,
+      "/P": 1,
+      "/Span": 2,
+      "/URI": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 1,
+    "annotation_uris": [
+      "https://example.org/raw"
+    ],
+    "catalog_lang": "en",
+    "metadata_title": "F08_B"
+  },
+  "independent_observation": "OBSERVED_URI_ACTION",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

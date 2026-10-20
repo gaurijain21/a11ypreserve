@@ -1,0 +1,34 @@
+{
+  "fixture_id": "F09_E",
+  "family": "document_metadata",
+  "pipeline": "LibreOffice",
+  "source_sha256": "4a803fdc4a90db567c3bcae817a4ceeeb481b476836f8dca46e7178141400080",
+  "pdf_sha256": "f645e97b0096d15b326ff47fe3899ac22169d8b860067ceac5bec626f0edb4b1",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "metadata": {
+      "title": "Filename-distinct metadata title",
+      "subject": "Subject 5: source metadata",
+      "keywords": null
+    }
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "28963668e9e1fed5129247bcd04e3fafb6155db9b2247194a269040b3b46ec9c",
+    "role_counts": {
+      "/Document": 1,
+      "/Standard": 1,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "Filename-distinct metadata title"
+  },
+  "independent_observation": "OBSERVED_TITLE_METADATA",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

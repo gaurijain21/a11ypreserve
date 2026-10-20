@@ -1,0 +1,48 @@
+{
+  "fixture_id": "F07_E",
+  "family": "decorative_images",
+  "pipeline": "LibreOffice",
+  "source_sha256": "1a0a65e7f46379d4829c84737f31325fe342efd06f7a6b1ebb98fd40a2f57a2f",
+  "pdf_sha256": "69a1ba14a606eb179fee33a8397ef4e8192bfa7552c124c57d175e9f1c3b6ada",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "",
+        "decorative": true
+      },
+      {
+        "alt": "",
+        "decorative": true
+      },
+      {
+        "alt": "Decorative texture.",
+        "decorative": false
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "1c200d08ba0c742584b27af2ff2ec509512dc1dd6555e88ac0dd4229c466905b",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 3,
+      "/Standard": 3,
+      "/Title": 1
+    },
+    "alt_values": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3 - Decorative texture."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 decorative state 5"
+  },
+  "independent_observation": "NO_OBSERVED_ARTIFACT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

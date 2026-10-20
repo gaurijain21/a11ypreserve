@@ -1,0 +1,40 @@
+{
+  "fixture_id": "F08_B",
+  "family": "hyperlinks",
+  "pipeline": "LibreOffice",
+  "source_sha256": "68364097903620b8af9ebbaf5ec1426cd270f6dd3d1f071f5a230e59acf35cba",
+  "pdf_sha256": "9bb2809ccfd2c9da28283b53c751b5041783ac41432d4b1d354f0859a139a017",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "hyperlinks": [
+      {
+        "text": "https://example.org/raw",
+        "target": "https://example.org/raw",
+        "order": 1
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "b4d89e3d48e51c2117eebdbeb2d683ae74d3667c106937ae2a8d6ac251dc577d",
+    "role_counts": {
+      "/Document": 1,
+      "/Link": 1,
+      "/Standard": 1,
+      "/Title": 1,
+      "/URI": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 1,
+    "annotation_uris": [
+      "https://example.org/raw"
+    ],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 hyperlinks 2"
+  },
+  "independent_observation": "OBSERVED_URI_ACTION",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

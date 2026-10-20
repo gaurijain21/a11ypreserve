@@ -1,0 +1,37 @@
+{
+  "fixture_id": "F12_E",
+  "family": "equations",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "58799267553269c18406d2602d4dc30a4dd968ebe5b8204df621623358e54ec8",
+  "pdf_sha256": "81854077ff688c22db474e0bd33470a34063ffcb0967c1faa5826d00b6a3ebb0",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "paragraph_count": 3,
+    "family": "equations"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "8b6f70dc0ef0f96e8ee5239a566116f598665230dc56fa87d4a2cfef490cab6e",
+    "role_counts": {
+      "/Document": 1,
+      "/Formula": 3,
+      "/Span": 1,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [
+      "cap E equals m c 2",
+      "cap F equals m a. ",
+      "cap F equals m a. "
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 equations 5"
+  },
+  "independent_observation": "OBSERVED_FORMULA_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

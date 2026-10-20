@@ -1,0 +1,34 @@
+{
+  "fixture_id": "F06_C",
+  "family": "inline_language",
+  "pipeline": "LibreOffice",
+  "source_sha256": "87b9fdee1b5e79c60f42378b39d0d916df788b90a04c756917c59e67c9b2b18d",
+  "pdf_sha256": "34bc68ee9ca85c6c5a4897592b8c3d2a01d756f564f4231bb242e61983deaa70",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "paragraph_count": 2,
+    "family": "inline_language"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "01bd497893386197268737cc057e524e7c61132ed54c0fcedbfb15a85ddba469",
+    "role_counts": {
+      "/Document": 1,
+      "/Span": 1,
+      "/Standard": 1,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [
+      "de-DE"
+    ],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 inline language 3"
+  },
+  "independent_observation": "OBSERVED_LANGUAGE_EVIDENCE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

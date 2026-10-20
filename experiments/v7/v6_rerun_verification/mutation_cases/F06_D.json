@@ -1,0 +1,245 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T06:34:40.222718+00:00",
+  "fixture_id": "F06_D",
+  "feature_family": "inline_language",
+  "mutation_operator": "removed first inline StructElem /Lang",
+  "mutation_target": "inline /Lang",
+  "source_path": "experiments/v4/fixtures/F06_D.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F06_D__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F06_D.pdf",
+  "baseline_pdf_sha256": "15f660be771be5570a8bfbcbd37243bfbb52e1d4a77a96cfce696707b442a438",
+  "mutated_pdf_sha256": "fb46f59cf3a2aa362d5d3d501266f478ce6f967c9bdfd2ead5b2a31980a773ea",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "VERIFIED_PRESERVED",
+  "mutated_classification": "ALTERED",
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "inline_language",
+    "source_value": [
+      {
+        "text": "bonjour ",
+        "language": "fr-FR",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:r/w:rPr/w:lang"
+        }
+      },
+      {
+        "text": "hola ",
+        "language": "es-ES",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:r/w:rPr/w:lang"
+        }
+      },
+      {
+        "text": "ciao ",
+        "language": "it-IT",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:r/w:rPr/w:lang"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "text": "",
+        "language": "fr-FR",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2603409505488), '/Pg': IndirectObject(1, 0, 2603409505488), '/Lang': 'fr-FR', '/K': [2]}",
+          "source": "StructElem/Lang"
+        }
+      },
+      {
+        "text": "",
+        "language": "es-ES",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2603409505488), '/Pg': IndirectObject(1, 0, 2603409505488), '/Lang': 'es-ES', '/K': [3]}",
+          "source": "StructElem/Lang"
+        }
+      },
+      {
+        "text": "",
+        "language": "it-IT",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2603409505488), '/Pg': IndirectObject(1, 0, 2603409505488), '/Lang': 'it-IT', '/K': [4]}",
+          "source": "StructElem/Lang"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "text": "",
+        "language": "fr-FR",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2603409505488), '/Pg': IndirectObject(1, 0, 2603409505488), '/Lang': 'fr-FR', '/K': [2]}",
+          "source": "StructElem/Lang"
+        }
+      },
+      {
+        "text": "",
+        "language": "es-ES",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2603409505488), '/Pg': IndirectObject(1, 0, 2603409505488), '/Lang': 'es-ES', '/K': [3]}",
+          "source": "StructElem/Lang"
+        }
+      },
+      {
+        "text": "",
+        "language": "it-IT",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(6, 0, 2603409505488), '/Pg': IndirectObject(1, 0, 2603409505488), '/Lang': 'it-IT', '/K': [4]}",
+          "source": "StructElem/Lang"
+        }
+      }
+    ],
+    "fidelity_classification": "EXACT_PRESERVATION",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F06_D.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F06_D__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "inline_language",
+    "source_value": [
+      {
+        "text": "bonjour ",
+        "language": "fr-FR",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:r/w:rPr/w:lang"
+        }
+      },
+      {
+        "text": "hola ",
+        "language": "es-ES",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:r/w:rPr/w:lang"
+        }
+      },
+      {
+        "text": "ciao ",
+        "language": "it-IT",
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "element": "w:r/w:rPr/w:lang"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "text": "",
+        "language": "es-ES",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(19, 0, 2603386546896), '/Pg': IndirectObject(13, 0, 2603386546896), '/Lang': 'es-ES', '/K': [3]}",
+          "source": "StructElem/Lang"
+        }
+      },
+      {
+        "text": "",
+        "language": "it-IT",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(19, 0, 2603386546896), '/Pg': IndirectObject(13, 0, 2603386546896), '/Lang': 'it-IT', '/K': [4]}",
+          "source": "StructElem/Lang"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "text": "",
+        "language": "es-ES",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(19, 0, 2603386546896), '/Pg': IndirectObject(13, 0, 2603386546896), '/Lang': 'es-ES', '/K': [3]}",
+          "source": "StructElem/Lang"
+        }
+      },
+      {
+        "text": "",
+        "language": "it-IT",
+        "evidence": {
+          "pdf_role": "Span",
+          "object": "{'/Type': '/StructElem', '/S': '/Span', '/P': IndirectObject(19, 0, 2603386546896), '/Pg': IndirectObject(13, 0, 2603386546896), '/Lang': 'it-IT', '/K': [4]}",
+          "source": "StructElem/Lang"
+        }
+      }
+    ],
+    "fidelity_classification": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F06_D.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F06_D.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  "normalized_evidence_sha256_before": "905e141752198416593bbc0576539a93ebc5cc8030e804ad49b05402920d0e41",
+  "normalized_evidence_sha256_after": "881955118ea4791e765dcd2c335fbc91949b5f1f23ae789663f4db4736375f54",
+  "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "870b281d891f96a6bff504d8dde95be168737f6cc8192991fe9ee0db78e5467c",
+    "classification": "VERIFIED_PRESERVED",
+    "raw_fidelity": "EXACT_PRESERVATION",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "240fb3a0c0252bfef1628bd442f4c094df755ad3dfcf02dbc76f8ceb6a8bf772",
+    "classification": "ALTERED",
+    "raw_fidelity": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": true,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "CLASSIFICATION_DETECTED",
+  "inconclusive_or_unsupported_reason": "classification changed after a valid applied mutation",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

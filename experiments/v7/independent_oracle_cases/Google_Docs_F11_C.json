@@ -1,0 +1,35 @@
+{
+  "fixture_id": "F11_C",
+  "family": "footnotes",
+  "pipeline": "Google Docs",
+  "source_sha256": "82c4ca81755a16ea49a6fcd55a6737ce501fca72661e6c6312c231e26c2a8a3c",
+  "pdf_sha256": "5a2ace87915119402acd994c65b9d09a0a89a61787ef0573fab8fafa436c779b",
+  "frozen_classification": "UNRESOLVED_EQUIVALENCE",
+  "source_contract_projection": {
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " Repeated reference note."
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "95792fd6f0eb0ead458b291d7f6affc4179f1672b7d1d06dfc567c7de7193dbd",
+    "role_counts": {
+      "/Document": 1,
+      "/H1": 1,
+      "/P": 2
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "F11_C"
+  },
+  "independent_observation": "NO_OBSERVED_NOTE_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

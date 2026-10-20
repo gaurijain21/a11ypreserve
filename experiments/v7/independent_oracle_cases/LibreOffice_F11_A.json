@@ -1,0 +1,39 @@
+{
+  "fixture_id": "F11_A",
+  "family": "footnotes",
+  "pipeline": "LibreOffice",
+  "source_sha256": "74d2bcbe4858e016d50443b6c311aef8f7e652488b61b11f676490ea2e31fef5",
+  "pdf_sha256": "f66e58240246a1e9e086a2cd659fc9180cedda12be80bf51ccb108e9108588d2",
+  "frozen_classification": "MEASUREMENT_ERROR",
+  "source_contract_projection": {
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " One note body."
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "85ba2bebac6ad18d7b62b004af6d99c1e5d4dd1f53a16702e091c67b6b16ec4c",
+    "role_counts": {
+      "/Div": 1,
+      "/Document": 1,
+      "/Lbl": 1,
+      "/Link": 2,
+      "/Note": 1,
+      "/Standard": 3,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 footnotes 1"
+  },
+  "independent_observation": "OBSERVED_NOTE_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "fixture_id": "F09_B",
+  "family": "document_metadata",
+  "pipeline": "LibreOffice",
+  "source_sha256": "47a60db117324d2d711891a9614b724aeb29a8aa64675d99cb26e4317df10d33",
+  "pdf_sha256": "3f1ad384117292925e879372b4fd67510dc118bacfd87756dd2e994816f8821e",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "metadata": {
+      "title": "Résumé — été 2026",
+      "subject": "Subject 2: source metadata",
+      "keywords": null
+    }
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "fa4ed84b03ac8701db6a758c90bcef5a36cb3771f898f5e15336acef50fc5094",
+    "role_counts": {
+      "/Document": 1,
+      "/Standard": 1,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "Résumé — été 2026"
+  },
+  "independent_observation": "OBSERVED_TITLE_METADATA",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

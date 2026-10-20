@@ -1,0 +1,35 @@
+{
+  "fixture_id": "F10_B",
+  "family": "complex_tables",
+  "pipeline": "LibreOffice",
+  "source_sha256": "5649b706d7d62fc49b282878ff02efb7d334655a1bc70492d3f557ece13c1018",
+  "pdf_sha256": "798b2afca69003b1d236715e78fc38a033b3d31abeec53914d2805eff3a94e5c",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "paragraph_count": 17,
+    "family": "complex_tables"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "b3cfaa676a6ea7af6be739c0dea36c287952bb20ef123d9a1457332f99652176",
+    "role_counts": {
+      "/Document": 1,
+      "/Standard": 15,
+      "/TD": 11,
+      "/TH": 4,
+      "/TR": 4,
+      "/Table": 1,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 complex table 2"
+  },
+  "independent_observation": "OBSERVED_TABLE_STRUCTURE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

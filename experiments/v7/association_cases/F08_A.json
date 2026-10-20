@@ -1,0 +1,22 @@
+{
+  "fixture_id": "F08_A",
+  "family": "hyperlinks",
+  "operator": "changed first hyperlink target while preserving link annotation",
+  "baseline_pdf_sha256": "2007f97f759e03ee6c1591e3146c79145a18eb475f9a3ce3093cbcaa63abbabb",
+  "mutated_pdf_sha256": "e30770c6c1eac31dea260dde947b1ea8a1b411b3fcc8b63f400d08ad46b5a5d4",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "baseline_classification": "OBSERVED_PARTIAL",
+  "mutated_classification": "ALTERED",
+  "classification_changed": true,
+  "attack_scorable": true,
+  "comparator_result": "DETECTED",
+  "timestamp_utc": "2026-10-20T06:32:37.047296+00:00",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

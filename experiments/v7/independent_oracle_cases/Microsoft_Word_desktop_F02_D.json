@@ -1,0 +1,39 @@
+{
+  "fixture_id": "F02_D",
+  "family": "alt_text",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "79b212c7afdd5ba5ff27e9d9bb22d05c5c8aec0c04554501c6788e943a078ab8",
+  "pdf_sha256": "2ee7645501a1e7c1eac2cb6c2b7f4ffbffcea11dbba97ac7fe98ffcc71bb066e",
+  "frozen_classification": "ALTERED",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "Descripción de la imagen: café, niño y acción.",
+        "decorative": false
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "f50c0e02c23fc51948025449fca3bfa5deaf01c44b847e8eba0c019329ecbb04",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 1,
+      "/P": 2,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [
+      "Alt image 1\n\nDescripción de la imagen: café, niño y acción."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 alt text 4"
+  },
+  "independent_observation": "OBSERVED_FIGURE_ALT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

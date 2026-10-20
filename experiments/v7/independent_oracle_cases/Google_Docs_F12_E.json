@@ -1,0 +1,35 @@
+{
+  "fixture_id": "F12_E",
+  "family": "equations",
+  "pipeline": "Google Docs",
+  "source_sha256": "58799267553269c18406d2602d4dc30a4dd968ebe5b8204df621623358e54ec8",
+  "pdf_sha256": "ef0afe5f0d6c64840ec53a1908deb296bed90b69b6ce523320d9d76337eb0056",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "paragraph_count": 3,
+    "family": "equations"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "332027864a9122b15b9836cf96e733db99546df24dbc6057a00017c30aa105fb",
+    "role_counts": {
+      "/Document": 1,
+      "/H1": 1,
+      "/P": 2,
+      "/Span": 4
+    },
+    "alt_values": [
+      "[Equation start, E=mc2, Equation end]",
+      "[Equation start, F=ma, Equation end]"
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "F12_E"
+  },
+  "independent_observation": "NO_OBSERVED_FORMULA_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

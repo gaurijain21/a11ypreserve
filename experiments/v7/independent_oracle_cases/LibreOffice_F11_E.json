@@ -1,0 +1,47 @@
+{
+  "fixture_id": "F11_E",
+  "family": "footnotes",
+  "pipeline": "LibreOffice",
+  "source_sha256": "0aa72b2625d32ba0a86cfb0c2fa5666b0824840e1d62461314b2b7e6e72492f8",
+  "pdf_sha256": "cf98527fa32f94b7cce18f567115ada3ef0aac696fd9e4f84e3a09a50040a50c",
+  "frozen_classification": "MEASUREMENT_ERROR",
+  "source_contract_projection": {
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " Note in section one."
+      },
+      {
+        "id": "2",
+        "text": " Note in section two."
+      },
+      {
+        "id": "3",
+        "text": " Third note."
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "a408431ca1080467072cc001a66ac8817a0220498e3ad9a432ad239fa7f32adf",
+    "role_counts": {
+      "/Div": 1,
+      "/Document": 1,
+      "/Lbl": 3,
+      "/Link": 6,
+      "/Note": 3,
+      "/Standard": 7,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 footnotes 5"
+  },
+  "independent_observation": "OBSERVED_NOTE_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "fixture_id": "F09_B",
+  "family": "document_metadata",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "47a60db117324d2d711891a9614b724aeb29a8aa64675d99cb26e4317df10d33",
+  "pdf_sha256": "84b40bd71195970d7818da6ec488002665f4d3d7e92cba6b48c6be6aac4e50ba",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "metadata": {
+      "title": "Résumé — été 2026",
+      "subject": "Subject 2: source metadata",
+      "keywords": null
+    }
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "4d38ce621bdb635c37a2f38512495de3fb4619eb7b62c69bfe794112b3793b30",
+    "role_counts": {
+      "/Document": 1,
+      "/P": 1,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "Résumé — été 2026"
+  },
+  "independent_observation": "OBSERVED_TITLE_METADATA",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

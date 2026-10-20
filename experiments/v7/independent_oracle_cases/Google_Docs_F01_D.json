@@ -1,0 +1,49 @@
+{
+  "fixture_id": "F01_D",
+  "family": "headings",
+  "pipeline": "Google Docs",
+  "source_sha256": "9156c9ef9e0fdaa04b93b225fb231623048a9a033c938e862c8e742b82a7e334",
+  "pdf_sha256": "f396ccdd96a9b13e4f88892278e18e889bada9f597c15d982bcc8d5377c28c1a",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "headings": [
+      {
+        "level": 1,
+        "text": "Overview"
+      },
+      {
+        "level": 2,
+        "text": "Context"
+      },
+      {
+        "level": 2,
+        "text": "Body"
+      },
+      {
+        "level": 3,
+        "text": "Detail"
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "dc37946f55746effebb7082460eb3259596eb481f5db9bb18595285826fb46c9",
+    "role_counts": {
+      "/Document": 1,
+      "/H1": 2,
+      "/H2": 2,
+      "/H3": 1,
+      "/P": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "F01_D"
+  },
+  "independent_observation": "OBSERVED_STRUCTURE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

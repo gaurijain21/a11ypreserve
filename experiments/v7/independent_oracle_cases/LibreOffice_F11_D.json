@@ -1,0 +1,39 @@
+{
+  "fixture_id": "F11_D",
+  "family": "footnotes",
+  "pipeline": "LibreOffice",
+  "source_sha256": "e2140c08c44e9a8e90c2dc8914b860337080b4f52407145140a1ab99119c339f",
+  "pdf_sha256": "8a524f5a69e6ec1bb52c6891409cb14a045d8233812a5030fd832509f309cefd",
+  "frozen_classification": "MEASUREMENT_ERROR",
+  "source_contract_projection": {
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " A longer footnote body containing enough text to test relocation and extraction."
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "55df62ba6824efd840b2d21356eeb5f99f8f8e65a6c7996601c3303bbfc7b498",
+    "role_counts": {
+      "/Div": 1,
+      "/Document": 1,
+      "/Lbl": 1,
+      "/Link": 2,
+      "/Note": 1,
+      "/Standard": 3,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 footnotes 4"
+  },
+  "independent_observation": "OBSERVED_NOTE_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

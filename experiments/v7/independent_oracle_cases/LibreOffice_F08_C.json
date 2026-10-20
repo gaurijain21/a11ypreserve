@@ -1,0 +1,46 @@
+{
+  "fixture_id": "F08_C",
+  "family": "hyperlinks",
+  "pipeline": "LibreOffice",
+  "source_sha256": "7d21589968da35ec1fbd8baea8e6868bc17154ed5ccd44d97a1a6ba563d520ae",
+  "pdf_sha256": "4796d1a41b1e48c84623ac744f520b6a149234939b62823a6bb9f381fafd2c25",
+  "frozen_classification": "ALTERED",
+  "source_contract_projection": {
+    "hyperlinks": [
+      {
+        "text": "Guidance",
+        "target": "https://example.org/guidance",
+        "order": 1
+      },
+      {
+        "text": "Reference",
+        "target": "https://example.org/reference",
+        "order": 2
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "80ea34d80309386874fb4fbb9c9cdc76ca3b4d94e853c4a9a9f15ff154e40311",
+    "role_counts": {
+      "/Document": 1,
+      "/Link": 2,
+      "/Standard": 1,
+      "/Title": 1,
+      "/URI": 2
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 2,
+    "annotation_uris": [
+      "https://example.org/reference",
+      "https://example.org/guidance"
+    ],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 hyperlinks 3"
+  },
+  "independent_observation": "OBSERVED_URI_ACTION",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

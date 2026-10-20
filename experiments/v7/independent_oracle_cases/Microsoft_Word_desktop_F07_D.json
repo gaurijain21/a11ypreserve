@@ -1,0 +1,49 @@
+{
+  "fixture_id": "F07_D",
+  "family": "decorative_images",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "4b885710928688dcfbb60527fd00e465dac0561f2c5b2d0e5b3e80ec44866011",
+  "pdf_sha256": "7ebf00f41962da7a8d462aed9361c44a63a2a65930fb69beb76813a3e4f470d1",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "Meaningful first.",
+        "decorative": false
+      },
+      {
+        "alt": "",
+        "decorative": true
+      },
+      {
+        "alt": "Meaningful last.",
+        "decorative": false
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "dc1993fd2b87097806639df8f5e2624a0d4c2e97b1af5a824c006bf871fa8832",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 3,
+      "/P": 3,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [
+      "Figure 1\n\nMeaningful first.",
+      "Figure 2",
+      "Figure 3\n\nMeaningful last."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 decorative state 4"
+  },
+  "independent_observation": "NO_OBSERVED_ARTIFACT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

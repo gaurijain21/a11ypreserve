@@ -1,0 +1,95 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T06:34:43.618423+00:00",
+  "fixture_id": "F09_B",
+  "feature_family": "document_metadata",
+  "mutation_operator": "changed document title",
+  "mutation_target": "document title",
+  "source_path": "experiments/v4/fixtures/F09_B.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F09_B__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F09_B.pdf",
+  "baseline_pdf_sha256": "3f1ad384117292925e879372b4fd67510dc118bacfd87756dd2e994816f8821e",
+  "mutated_pdf_sha256": "5613b757c59138dff2f0e0f299387eee1b4c2cf672e6697ec70755782510ad43",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "VERIFIED_PRESERVED",
+  "mutated_classification": "ALTERED",
+  "baseline_noncanonical_status": null,
+  "raw_semantic_evidence_before": {
+    "feature": "document_title",
+    "source_value": "Résumé — été 2026",
+    "destination_value": "Résumé — été 2026",
+    "destination_representation": "Résumé — été 2026",
+    "fidelity_classification": "EXACT_PRESERVATION",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F09_B.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F09_B__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "document_title",
+    "source_value": "Résumé — été 2026",
+    "destination_value": "V6 MUTATED TITLE",
+    "destination_representation": "V6 MUTATED TITLE",
+    "fidelity_classification": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F09_B.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F09_B.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  "normalized_evidence_sha256_before": "1a6a0031cf6965022d6968224a0afe81c855e28e3ecfa7bc48733fca8c098e20",
+  "normalized_evidence_sha256_after": "fba51a7059104c20c51233be1f18ea76898337de96d04f00cffb190db19169fe",
+  "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "11dc83d6ef02ca5778a24840f4be957aedeb3d7b86db65a51623ca7633f24e2d",
+    "classification": "VERIFIED_PRESERVED",
+    "raw_fidelity": "EXACT_PRESERVATION",
+    "destination_accessibility": "ACCESSIBLE_EQUIVALENT"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "6b0fda9a91f68a545d54e4a73173adf73d607e2fd69f5bac6216d9cc2f2a5e82",
+    "classification": "ALTERED",
+    "raw_fidelity": "MUTATED",
+    "destination_accessibility": "ACCESSIBLE_BUT_ALTERED"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": true,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "CLASSIFICATION_DETECTED",
+  "inconclusive_or_unsupported_reason": "classification changed after a valid applied mutation",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

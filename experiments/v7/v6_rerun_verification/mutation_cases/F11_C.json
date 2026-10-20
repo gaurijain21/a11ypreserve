@@ -1,0 +1,133 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T06:34:48.034800+00:00",
+  "fixture_id": "F11_C",
+  "feature_family": "footnotes",
+  "mutation_operator": "mutated first /Note role",
+  "mutation_target": "/Note",
+  "source_path": "experiments/v4/fixtures/F11_C.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F11_C__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F11_C.pdf",
+  "baseline_pdf_sha256": "5edcc1f88bcb259e15a6618512761d662c0da5ad16c0a8f12210f46afc7e47d0",
+  "mutated_pdf_sha256": "fc699d58dbe29144fc837825a10fb79b89f809e9dafbb195269b2e41705fb96a",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "MEASUREMENT_ERROR",
+  "mutated_classification": "UNRESOLVED_EQUIVALENCE",
+  "baseline_noncanonical_status": "MEASUREMENT_ERROR",
+  "raw_semantic_evidence_before": {
+    "feature": "footnotes",
+    "source_value": [
+      {
+        "kind": "footnote",
+        "id": 1,
+        "text": "Repeated reference note.",
+        "evidence": {
+          "ooxml": "word/footnotes.xml",
+          "reference": "word/document.xml/w:footnoteReference"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id10', '/P': IndirectObject(9, 0, 2603415828368), '/Pg': IndirectObject(1, 0, 2603415828368), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(11, 0, 2603415828368), IndirectObject(13, 0, 2603415828368)]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id10', '/P': IndirectObject(9, 0, 2603415828368), '/Pg': IndirectObject(1, 0, 2603415828368), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(11, 0, 2603415828368), IndirectObject(13, 0, 2603415828368)]}"
+        }
+      }
+    ],
+    "fidelity_classification": "MEASUREMENT_ERROR",
+    "destination_accessibility": "UNKNOWN",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F11_C.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F11_C__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "PDF /Note structure exists, but marked-content extraction did not recover note-body text for association verification"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "footnotes",
+    "source_value": [
+      {
+        "kind": "footnote",
+        "id": 1,
+        "text": "Repeated reference note.",
+        "evidence": {
+          "ooxml": "word/footnotes.xml",
+          "reference": "word/document.xml/w:footnoteReference"
+        }
+      }
+    ],
+    "destination_value": [],
+    "destination_representation": [],
+    "fidelity_classification": "LOST",
+    "destination_accessibility": "INACCESSIBLE_FEATURE",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F11_C.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F11_C.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  "normalized_evidence_sha256_before": "dd436579db14e05944e991d6b92c6a49a588dd24b05c2cd9d236f1005c53bce5",
+  "normalized_evidence_sha256_after": "e434f72b379cfdfa38b0cde984ac079330aa988a0b902059644c5d911fd8fc1e",
+  "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "a25de12e32ddd586b0f1cb3f4677ba7b5ee73a2cee9debc9a4962dd52c25a224",
+    "classification": "MEASUREMENT_ERROR",
+    "raw_fidelity": "MEASUREMENT_ERROR",
+    "destination_accessibility": "UNKNOWN"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "c7aa8f6590dea14c2d98a7a670f8057831036dcd05337c46b1e2b61856eb7043",
+    "classification": "UNRESOLVED_EQUIVALENCE",
+    "raw_fidelity": "LOST",
+    "destination_accessibility": "INACCESSIBLE_FEATURE"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": true,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "CLASSIFICATION_DETECTED",
+  "inconclusive_or_unsupported_reason": "classification changed after a valid applied mutation",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "fixture_id": "F04_A",
+  "family": "basic_tables",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "4eff9ec0fcb3da3b267f6948aac8fe0ee6f82523060c4629eb4b5f8f473a44b8",
+  "pdf_sha256": "90d0ad3c998904f857a46df0bebd0ec9ccd098217f3e2f34fcde315e403569c4",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "paragraph_count": 5,
+    "family": "basic_tables"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "38dea3293bcf8863838c2390edf90f690c4c4c5c934ae1c0f8afc504cedcbe72",
+    "role_counts": {
+      "/Document": 1,
+      "/P": 5,
+      "/TBody": 1,
+      "/TD": 1,
+      "/TH": 3,
+      "/THead": 1,
+      "/TR": 2,
+      "/Table": 1,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 basic table 1"
+  },
+  "independent_observation": "OBSERVED_TABLE_STRUCTURE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

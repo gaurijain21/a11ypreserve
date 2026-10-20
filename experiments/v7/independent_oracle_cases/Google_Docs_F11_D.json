@@ -1,0 +1,35 @@
+{
+  "fixture_id": "F11_D",
+  "family": "footnotes",
+  "pipeline": "Google Docs",
+  "source_sha256": "e2140c08c44e9a8e90c2dc8914b860337080b4f52407145140a1ab99119c339f",
+  "pdf_sha256": "5dccac92fb40e73bef2049d89e86af5a7785f9a846dabe9daee99a907909659a",
+  "frozen_classification": "UNRESOLVED_EQUIVALENCE",
+  "source_contract_projection": {
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " A longer footnote body containing enough text to test relocation and extraction."
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "ff229e0c187459aaad7cff51c5e503599f831574affe1d998a0c1baf31caa00a",
+    "role_counts": {
+      "/Document": 1,
+      "/H1": 1,
+      "/P": 2
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "F11_D"
+  },
+  "independent_observation": "NO_OBSERVED_NOTE_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

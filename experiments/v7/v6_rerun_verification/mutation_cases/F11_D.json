@@ -1,0 +1,133 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T06:34:48.390214+00:00",
+  "fixture_id": "F11_D",
+  "feature_family": "footnotes",
+  "mutation_operator": "mutated first /Note role",
+  "mutation_target": "/Note",
+  "source_path": "experiments/v4/fixtures/F11_D.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F11_D__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F11_D.pdf",
+  "baseline_pdf_sha256": "8a524f5a69e6ec1bb52c6891409cb14a045d8233812a5030fd832509f309cefd",
+  "mutated_pdf_sha256": "233b2ded63b48fddb5d24c52da8ea0ab753c2f18f763ef8b650ccd89b5aa17c4",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "MEASUREMENT_ERROR",
+  "mutated_classification": "UNRESOLVED_EQUIVALENCE",
+  "baseline_noncanonical_status": "MEASUREMENT_ERROR",
+  "raw_semantic_evidence_before": {
+    "feature": "footnotes",
+    "source_value": [
+      {
+        "kind": "footnote",
+        "id": 1,
+        "text": "A longer footnote body containing enough text to test relocation and extraction.",
+        "evidence": {
+          "ooxml": "word/footnotes.xml",
+          "reference": "word/document.xml/w:footnoteReference"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id10', '/P': IndirectObject(9, 0, 2603412963280), '/Pg': IndirectObject(1, 0, 2603412963280), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(11, 0, 2603412963280), IndirectObject(13, 0, 2603412963280)]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id10', '/P': IndirectObject(9, 0, 2603412963280), '/Pg': IndirectObject(1, 0, 2603412963280), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(11, 0, 2603412963280), IndirectObject(13, 0, 2603412963280)]}"
+        }
+      }
+    ],
+    "fidelity_classification": "MEASUREMENT_ERROR",
+    "destination_accessibility": "UNKNOWN",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F11_D.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F11_D__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "PDF /Note structure exists, but marked-content extraction did not recover note-body text for association verification"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "footnotes",
+    "source_value": [
+      {
+        "kind": "footnote",
+        "id": 1,
+        "text": "A longer footnote body containing enough text to test relocation and extraction.",
+        "evidence": {
+          "ooxml": "word/footnotes.xml",
+          "reference": "word/document.xml/w:footnoteReference"
+        }
+      }
+    ],
+    "destination_value": [],
+    "destination_representation": [],
+    "fidelity_classification": "LOST",
+    "destination_accessibility": "INACCESSIBLE_FEATURE",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F11_D.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F11_D.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  "normalized_evidence_sha256_before": "198d52c7ecacb498b4d69169c26bf21c2bd6144ee35995dfb3debc08c7d8ef84",
+  "normalized_evidence_sha256_after": "66e936d008b376b3b9d37e57f0bc890ec8416cde72ccd6ce10224e2c28527270",
+  "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "f8b4800683519dd5d817d9056649fb3deed56f6c1b42d665f4c0d791470e7b2b",
+    "classification": "MEASUREMENT_ERROR",
+    "raw_fidelity": "MEASUREMENT_ERROR",
+    "destination_accessibility": "UNKNOWN"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "414de429708ec83cbc831e37cd64e914a63ffb8161038cc541287896653a04e7",
+    "classification": "UNRESOLVED_EQUIVALENCE",
+    "raw_fidelity": "LOST",
+    "destination_accessibility": "INACCESSIBLE_FEATURE"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": true,
+  "genuinely_undetected": false,
+  "semantically_meaningful_survival": false,
+  "outcome_status": "CLASSIFICATION_DETECTED",
+  "inconclusive_or_unsupported_reason": "classification changed after a valid applied mutation",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

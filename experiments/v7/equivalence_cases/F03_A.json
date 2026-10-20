@@ -1,0 +1,52 @@
+{
+  "fixture_id": "F03_A",
+  "family": "lists",
+  "pipeline": "LibreOffice",
+  "transformation": "rewrite PDF with metadata-only Producer change",
+  "baseline_pdf_sha256": "71c506e178257884b0da9ba140802c06bf848558d804eac17bf7619623aa4ecd",
+  "transformed_pdf_sha256": "7fbd3e744278b833a3562dcf04dc70edc9a0bfa4314df7a3c2544f4d28388025",
+  "valid_pdf": true,
+  "contract_projection_unchanged": true,
+  "benign_control_status": "VALID_BENIGN_CONTROL",
+  "before": {
+    "pages": 1,
+    "text_sha256": "388736f1d57c59d1b8767d2fd22b3009f10434aa6c80bdb02a30ae801416ddf4",
+    "role_counts": {
+      "/Document": 1,
+      "/L": 1,
+      "/LBody": 2,
+      "/LI": 2,
+      "/Lbl": 2,
+      "/Standard": 2,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 lists 1"
+  },
+  "after": {
+    "pages": 1,
+    "text_sha256": "388736f1d57c59d1b8767d2fd22b3009f10434aa6c80bdb02a30ae801416ddf4",
+    "role_counts": {
+      "/Document": 1,
+      "/L": 1,
+      "/LBody": 2,
+      "/LI": 2,
+      "/Lbl": 2,
+      "/Standard": 2,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 lists 1"
+  },
+  "timestamp_utc": "2026-10-20T06:32:32.000689+00:00"
+}

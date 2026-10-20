@@ -1,0 +1,38 @@
+{
+  "fixture_id": "F02_B",
+  "family": "alt_text",
+  "pipeline": "LibreOffice",
+  "source_sha256": "b8fed253e1ada97a12a4e16e62fd1d07cb4233e7654e4345dc42d76814dcc408",
+  "pdf_sha256": "efada2c7f834371088f1813fe81703cde539133b50e90bfc3e07f07257f5b1ef",
+  "frozen_classification": "ALTERED",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "A long description of a line chart showing enrollment increasing each academic year from 2021 through 2026.",
+        "decorative": false
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "2d2b9459f641625859c9e9a9c0d73ace84b658b644172959750e84e72267a70c",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 1,
+      "/Standard": 2,
+      "/Title": 1
+    },
+    "alt_values": [
+      "Alt image 1 - A long description of a line chart showing enrollment increasing each academic year from 2021 through 2026."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 alt text 2"
+  },
+  "independent_observation": "OBSERVED_FIGURE_ALT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

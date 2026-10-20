@@ -1,0 +1,39 @@
+{
+  "fixture_id": "F02_A",
+  "family": "alt_text",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "ae64b91085158916d5a5be11987cb3fbfabc0501c57acdbbf23fffcd769fde80",
+  "pdf_sha256": "24e382ae4fefc12c7f57fe174f5dced94295f84625d486902f07547aa1c92a95",
+  "frozen_classification": "ALTERED",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "Short chart.",
+        "decorative": false
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "8bee08f82ece3b79f396a5151a1081964e567d8c306cce388b0a6d30d4f6b531",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 1,
+      "/P": 2,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [
+      "Alt image 1\n\nShort chart."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 alt text 1"
+  },
+  "independent_observation": "OBSERVED_FIGURE_ALT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

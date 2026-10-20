@@ -1,0 +1,36 @@
+{
+  "fixture_id": "F13_C",
+  "family": "captions",
+  "pipeline": "LibreOffice",
+  "source_sha256": "56cfa7817ee38dd53e96d50b9c401185f5824a983f33cee09fc9a14bb8e6afef",
+  "pdf_sha256": "c40caa2d4201f3bba875143f950b7bc0e4a7a081d8f249a91126b132df72d4b6",
+  "frozen_classification": "UNRESOLVED_EQUIVALENCE",
+  "source_contract_projection": {
+    "paragraph_count": 5,
+    "family": "captions"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "27e53907765fd5445811d51a8c8b3f608a019eccc3c495e18a9520da2615474a",
+    "role_counts": {
+      "/Caption": 2,
+      "/Document": 1,
+      "/Figure": 2,
+      "/Standard": 2,
+      "/Title": 1
+    },
+    "alt_values": [
+      "Figure 1 - Description for figure 1.",
+      "Figure 2 - Description for figure 2."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 captions 3"
+  },
+  "independent_observation": "OBSERVED_CAPTION_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

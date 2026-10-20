@@ -1,0 +1,50 @@
+{
+  "fixture_id": "F07_A",
+  "family": "decorative_images",
+  "pipeline": "LibreOffice",
+  "transformation": "rewrite PDF with metadata-only Producer change",
+  "baseline_pdf_sha256": "659cc2a0ec3a4a7d8604f482fa7878d54581a02dfe4a2074f99dd04f7bb5374d",
+  "transformed_pdf_sha256": "2e521e4534620189d45db17e2502ff271c676d0c36ef50f0269e149befcf80d0",
+  "valid_pdf": true,
+  "contract_projection_unchanged": true,
+  "benign_control_status": "VALID_BENIGN_CONTROL",
+  "before": {
+    "pages": 1,
+    "text_sha256": "a27367e79458399b1cda52019a910e97a2ecf7bf5875b895490d2ce843cb9822",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 1,
+      "/Standard": 1,
+      "/Title": 1
+    },
+    "alt_values": [
+      "Figure 1"
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 decorative state 1"
+  },
+  "after": {
+    "pages": 1,
+    "text_sha256": "a27367e79458399b1cda52019a910e97a2ecf7bf5875b895490d2ce843cb9822",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 1,
+      "/Standard": 1,
+      "/Title": 1
+    },
+    "alt_values": [
+      "Figure 1"
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 decorative state 1"
+  },
+  "timestamp_utc": "2026-10-20T06:32:32.000689+00:00"
+}

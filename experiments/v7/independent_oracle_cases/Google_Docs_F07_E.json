@@ -1,0 +1,47 @@
+{
+  "fixture_id": "F07_E",
+  "family": "decorative_images",
+  "pipeline": "Google Docs",
+  "source_sha256": "1a0a65e7f46379d4829c84737f31325fe342efd06f7a6b1ebb98fd40a2f57a2f",
+  "pdf_sha256": "811b09443368caf4c49a569aa0bc4162e820e360cea5c7d136c8a1a716d8f440",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "",
+        "decorative": true
+      },
+      {
+        "alt": "",
+        "decorative": true
+      },
+      {
+        "alt": "Decorative texture.",
+        "decorative": false
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "d1e5bcc666adbe0c25e882afbcf8c6a477d47d8991d1436dc7f07a07f5830da6",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 3,
+      "/H1": 1,
+      "/P": 3,
+      "/Span": 3
+    },
+    "alt_values": [
+      "Decorative texture."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "F07_E"
+  },
+  "independent_observation": "NO_OBSERVED_ARTIFACT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

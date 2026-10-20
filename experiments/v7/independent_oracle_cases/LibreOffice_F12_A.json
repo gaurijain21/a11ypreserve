@@ -1,0 +1,32 @@
+{
+  "fixture_id": "F12_A",
+  "family": "equations",
+  "pipeline": "LibreOffice",
+  "source_sha256": "9659ca62c193cd4dafe67daa48d4846970a254ed95ea244c7b097dc0365db819",
+  "pdf_sha256": "2381974bae6a10ab45cdde1bbff5ca1a41d575f58251fd1781956b2e01a3b34c",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "paragraph_count": 2,
+    "family": "equations"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "2e3c9f07cb3a0ba8e43de5a3a7102e08e62bd1205e1d3e7c6bb0daddaaa8865b",
+    "role_counts": {
+      "/Document": 1,
+      "/Formula": 1,
+      "/Standard": 1,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 equations 1"
+  },
+  "independent_observation": "OBSERVED_FORMULA_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

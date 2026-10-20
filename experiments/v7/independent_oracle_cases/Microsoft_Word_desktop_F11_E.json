@@ -1,0 +1,47 @@
+{
+  "fixture_id": "F11_E",
+  "family": "footnotes",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "0aa72b2625d32ba0a86cfb0c2fa5666b0824840e1d62461314b2b7e6e72492f8",
+  "pdf_sha256": "3b48b9cfb83759b81f0f7d9677a47e7e04f488f8d20c2832c87e1bd576f0a102",
+  "frozen_classification": "MEASUREMENT_ERROR",
+  "source_contract_projection": {
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " Note in section one."
+      },
+      {
+        "id": "2",
+        "text": " Note in section two."
+      },
+      {
+        "id": "3",
+        "text": " Third note."
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "030dc6d43a27c281fe7e5dfa6c0d65cb0e2f61b4c2854ab59c7823d3d129c48a",
+    "role_counts": {
+      "/Document": 1,
+      "/Footnote": 3,
+      "/Link": 3,
+      "/P": 7,
+      "/Span": 3,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 footnotes 5"
+  },
+  "independent_observation": "NO_OBSERVED_NOTE_ROLE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

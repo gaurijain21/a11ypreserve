@@ -1,0 +1,22 @@
+{
+  "fixture_id": "F06_A",
+  "family": "inline_language",
+  "operator": "removed first inline language association",
+  "baseline_pdf_sha256": "d40e1b5cd25704cb293a50a94431d64e5f7433af2c8d662fafbaeb29235be1c3",
+  "mutated_pdf_sha256": "4f2288e6031427c23030cff4033654f04e7c5ed8f84a2c7a04c01949252364ba",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "baseline_classification": "VERIFIED_PRESERVED",
+  "mutated_classification": "OBSERVED_PARTIAL",
+  "classification_changed": true,
+  "attack_scorable": true,
+  "comparator_result": "DETECTED",
+  "timestamp_utc": "2026-10-20T06:32:37.047296+00:00",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

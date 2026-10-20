@@ -1,0 +1,48 @@
+{
+  "fixture_id": "F07_D",
+  "family": "decorative_images",
+  "pipeline": "LibreOffice",
+  "source_sha256": "4b885710928688dcfbb60527fd00e465dac0561f2c5b2d0e5b3e80ec44866011",
+  "pdf_sha256": "5bc3ab4a6a9683188a54da0eb1324da7e9cca0e2fff1927e8b27f4b382fb8c6c",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "Meaningful first.",
+        "decorative": false
+      },
+      {
+        "alt": "",
+        "decorative": true
+      },
+      {
+        "alt": "Meaningful last.",
+        "decorative": false
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "da47a5f45cbc9fb564be416be004ae555ce9773557c95306dc8deae6fcfb96be",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 3,
+      "/Standard": 3,
+      "/Title": 1
+    },
+    "alt_values": [
+      "Figure 1 - Meaningful first.",
+      "Figure 2",
+      "Figure 3 - Meaningful last."
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 decorative state 4"
+  },
+  "independent_observation": "NO_OBSERVED_ARTIFACT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

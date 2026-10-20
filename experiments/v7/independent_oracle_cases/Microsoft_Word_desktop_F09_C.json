@@ -1,0 +1,35 @@
+{
+  "fixture_id": "F09_C",
+  "family": "document_metadata",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "1c7d18a49d4eacc601a7fbfd268f1cf8df3e3c81f47cf6b64370dc36c41b50f8",
+  "pdf_sha256": "790395d2f2f8010eb51dc724820d903d1fa013a4c97a17699dac7e7d6fae6d15",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "metadata": {
+      "title": "Title: Findings (draft)",
+      "subject": "Subject 3: source metadata",
+      "keywords": null
+    }
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "a6bcfc18d8ce40eb84bb9a9f605d75990ebdbbd5dbd2b38f203904e5d79300fc",
+    "role_counts": {
+      "/Document": 1,
+      "/P": 1,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "Title: Findings (draft)"
+  },
+  "independent_observation": "OBSERVED_TITLE_METADATA",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

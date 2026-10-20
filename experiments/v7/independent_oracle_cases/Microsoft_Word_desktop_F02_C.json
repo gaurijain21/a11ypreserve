@@ -1,0 +1,39 @@
+{
+  "fixture_id": "F02_C",
+  "family": "alt_text",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "7e4a11e6e81cb706783e876ea2f208b3469b8b4cb2ba769fbc0b930de6d1f2a9",
+  "pdf_sha256": "6598c891cc3e8810f3f0784352773ad26be478ad30f8540a31a8c5855a28cdb0",
+  "frozen_classification": "ALTERED",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "Punctuation: review — results (2026)!",
+        "decorative": false
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "a5501dffc1d5f8b4875382124952a0975e4c3383490aee9903fd1b6e332466ee",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 1,
+      "/P": 2,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [
+      "Alt image 1\n\nPunctuation: review — results (2026)!"
+    ],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 alt text 3"
+  },
+  "independent_observation": "OBSERVED_FIGURE_ALT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

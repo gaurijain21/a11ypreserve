@@ -1,0 +1,38 @@
+{
+  "fixture_id": "F10_C",
+  "family": "complex_tables",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "643854a9927a22070314eeb12f494eae8fa6b314a70a56222f12cea81892a2c2",
+  "pdf_sha256": "d27e6d8e03f5f3496e49fc9d16c36877ac5c22f405d32d27aa538e77b3c550d0",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "paragraph_count": 16,
+    "family": "complex_tables"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "2dd45af9c270b38f55f34de2a50b900d3433b9f404276b33557d19cc3052f19e",
+    "role_counts": {
+      "/Document": 1,
+      "/P": 16,
+      "/TBody": 1,
+      "/TD": 6,
+      "/TH": 9,
+      "/THead": 1,
+      "/TR": 4,
+      "/Table": 1,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 complex table 3"
+  },
+  "independent_observation": "OBSERVED_TABLE_STRUCTURE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "fixture_id": "F09_D",
+  "family": "document_metadata",
+  "pipeline": "LibreOffice",
+  "source_sha256": "f8b1ee09bc9f737383426e861d0e7f056a972a07660a46f129252614f86ac3aa",
+  "pdf_sha256": "3a8cc5319622aedf1d5bbf0df8c784dab4be5be5e21a32c4ecaf111a7f6e19d7",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "metadata": {
+      "title": "A long document title for preservation review",
+      "subject": "Subject 4: source metadata",
+      "keywords": null
+    }
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "9b2d60858181db95f495b26693e053eff09cc985da038edf26d5b63025538f0b",
+    "role_counts": {
+      "/Document": 1,
+      "/Standard": 1,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "A long document title for preservation review"
+  },
+  "independent_observation": "OBSERVED_TITLE_METADATA",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

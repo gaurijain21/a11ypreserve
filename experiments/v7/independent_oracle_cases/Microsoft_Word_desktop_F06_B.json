@@ -1,0 +1,35 @@
+{
+  "fixture_id": "F06_B",
+  "family": "inline_language",
+  "pipeline": "Microsoft Word desktop",
+  "source_sha256": "6f28fce117d6b79d94e44c75fb623e72b79bad63d685243165411ee19d858813",
+  "pdf_sha256": "0e2e381cb48a98b0872c72360f378c4ead8118beb0107edd72f45dce330c7ce1",
+  "frozen_classification": "ALTERED",
+  "source_contract_projection": {
+    "paragraph_count": 2,
+    "family": "inline_language"
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "0f3d308226e32eb37ec39ee2e496dc12dfa91c9c088210b91e67bb669491631b",
+    "role_counts": {
+      "/Document": 1,
+      "/P": 1,
+      "/Span": 1,
+      "/Title": 1,
+      "/Transparency": 1
+    },
+    "alt_values": [],
+    "lang_values": [
+      "es"
+    ],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "V4 inline language 2"
+  },
+  "independent_observation": "OBSERVED_LANGUAGE_EVIDENCE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

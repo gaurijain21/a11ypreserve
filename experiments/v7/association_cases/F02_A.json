@@ -1,0 +1,22 @@
+{
+  "fixture_id": "F02_A",
+  "family": "alt_text",
+  "operator": "removed first figure alternative-text association",
+  "baseline_pdf_sha256": "8f14168d37a484a79ecfa2c7d6a7d69a76e0fdfad5237caa3ff1bb8b5a04c4f1",
+  "mutated_pdf_sha256": "d03dd6b2655e1eb0bc7b79896a0bf2ce75d04bd36b2ffcc01998e23bbdced829",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "baseline_classification": "ALTERED",
+  "mutated_classification": "OBSERVED_PARTIAL",
+  "classification_changed": true,
+  "attack_scorable": true,
+  "comparator_result": "DETECTED",
+  "timestamp_utc": "2026-10-20T06:32:37.047296+00:00",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

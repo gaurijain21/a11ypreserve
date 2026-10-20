@@ -1,0 +1,22 @@
+{
+  "fixture_id": "F11_A",
+  "family": "footnotes",
+  "operator": "changed first /Note semantic association",
+  "baseline_pdf_sha256": "f66e58240246a1e9e086a2cd659fc9180cedda12be80bf51ccb108e9108588d2",
+  "mutated_pdf_sha256": "77f6b65783056a34bda44ff8a6c4cea017ab4634995d6d81fa748fec92b71799",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "baseline_classification": "MEASUREMENT_ERROR",
+  "mutated_classification": "UNRESOLVED_EQUIVALENCE",
+  "classification_changed": true,
+  "attack_scorable": true,
+  "comparator_result": "DETECTED",
+  "timestamp_utc": "2026-10-20T06:32:37.047296+00:00",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

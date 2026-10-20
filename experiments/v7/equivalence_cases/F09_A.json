@@ -1,0 +1,44 @@
+{
+  "fixture_id": "F09_A",
+  "family": "document_metadata",
+  "pipeline": "LibreOffice",
+  "transformation": "rewrite PDF with metadata-only Producer change",
+  "baseline_pdf_sha256": "0dbd3085728295f9fc47bb0304104d31b46109bf3b770860d5d643b0c18f6564",
+  "transformed_pdf_sha256": "b08149942462238a853c68d7feff0c586fc8997aaec6a2bbe00b9ceb8358d4d3",
+  "valid_pdf": true,
+  "contract_projection_unchanged": true,
+  "benign_control_status": "VALID_BENIGN_CONTROL",
+  "before": {
+    "pages": 1,
+    "text_sha256": "36f383e4ffc47aa5bc2779aa413ff9d65e27c660f36fe939cd3b1b3c453e7b57",
+    "role_counts": {
+      "/Document": 1,
+      "/Standard": 1,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "Accessible policy guide"
+  },
+  "after": {
+    "pages": 1,
+    "text_sha256": "36f383e4ffc47aa5bc2779aa413ff9d65e27c660f36fe939cd3b1b3c453e7b57",
+    "role_counts": {
+      "/Document": 1,
+      "/Standard": 1,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "Accessible policy guide"
+  },
+  "timestamp_utc": "2026-10-20T06:32:32.000689+00:00"
+}

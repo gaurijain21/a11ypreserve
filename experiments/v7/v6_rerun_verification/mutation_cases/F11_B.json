@@ -1,0 +1,185 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T06:34:47.729903+00:00",
+  "fixture_id": "F11_B",
+  "feature_family": "footnotes",
+  "mutation_operator": "mutated first /Note role",
+  "mutation_target": "/Note",
+  "source_path": "experiments/v4/fixtures/F11_B.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F11_B__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F11_B.pdf",
+  "baseline_pdf_sha256": "51f7c59c2d1b86e8024d1e8a53d3e02557ed54d13b7f86682f90c6e6d024a9b8",
+  "mutated_pdf_sha256": "b769fb0689f1c0fcb465f8426ae37ee1ed60c1302174611c6017fcd9b724e4dd",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "MEASUREMENT_ERROR",
+  "mutated_classification": "MEASUREMENT_ERROR",
+  "baseline_noncanonical_status": "MEASUREMENT_ERROR",
+  "raw_semantic_evidence_before": {
+    "feature": "footnotes",
+    "source_value": [
+      {
+        "kind": "footnote",
+        "id": 1,
+        "text": "First note.",
+        "evidence": {
+          "ooxml": "word/footnotes.xml",
+          "reference": "word/document.xml/w:footnoteReference"
+        }
+      },
+      {
+        "kind": "footnote",
+        "id": 2,
+        "text": "Second note.",
+        "evidence": {
+          "ooxml": "word/footnotes.xml",
+          "reference": "word/document.xml/w:footnoteReference"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id12', '/P': IndirectObject(11, 0, 2603414461392), '/Pg': IndirectObject(1, 0, 2603414461392), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(13, 0, 2603414461392), IndirectObject(15, 0, 2603414461392)]}"
+        }
+      },
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id16', '/P': IndirectObject(11, 0, 2603414461392), '/Pg': IndirectObject(1, 0, 2603414461392), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(17, 0, 2603414461392), IndirectObject(19, 0, 2603414461392)]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id12', '/P': IndirectObject(11, 0, 2603414461392), '/Pg': IndirectObject(1, 0, 2603414461392), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(13, 0, 2603414461392), IndirectObject(15, 0, 2603414461392)]}"
+        }
+      },
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id16', '/P': IndirectObject(11, 0, 2603414461392), '/Pg': IndirectObject(1, 0, 2603414461392), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(17, 0, 2603414461392), IndirectObject(19, 0, 2603414461392)]}"
+        }
+      }
+    ],
+    "fidelity_classification": "MEASUREMENT_ERROR",
+    "destination_accessibility": "UNKNOWN",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F11_B.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F11_B__LIBREOFFICE.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "PDF /Note structure exists, but marked-content extraction did not recover note-body text for association verification"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "footnotes",
+    "source_value": [
+      {
+        "kind": "footnote",
+        "id": 1,
+        "text": "First note.",
+        "evidence": {
+          "ooxml": "word/footnotes.xml",
+          "reference": "word/document.xml/w:footnoteReference"
+        }
+      },
+      {
+        "kind": "footnote",
+        "id": 2,
+        "text": "Second note.",
+        "evidence": {
+          "ooxml": "word/footnotes.xml",
+          "reference": "word/document.xml/w:footnoteReference"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id16', '/P': IndirectObject(28, 0, 2603410760144), '/Pg': IndirectObject(13, 0, 2603410760144), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(34, 0, 2603410760144), IndirectObject(36, 0, 2603410760144)]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "kind": "footnote",
+        "text": "",
+        "evidence": {
+          "pdf_role": "Note",
+          "object": "{'/Type': '/StructElem', '/S': '/Note', '/ID': 'id16', '/P': IndirectObject(28, 0, 2603410760144), '/Pg': IndirectObject(13, 0, 2603410760144), '/A': {'/O': '/Layout', '/Placement': '/Block'}, '/K': [IndirectObject(34, 0, 2603410760144), IndirectObject(36, 0, 2603410760144)]}"
+        }
+      }
+    ],
+    "fidelity_classification": "MEASUREMENT_ERROR",
+    "destination_accessibility": "UNKNOWN",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F11_B.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F11_B.pdf"
+        }
+      }
+    ],
+    "confidence": "high",
+    "notes": "PDF /Note structure exists, but marked-content extraction did not recover note-body text for association verification"
+  },
+  "normalized_evidence_sha256_before": "5a44ecdee8b054dcdc4b3984d73c250baf44793b7b44d039782d4a4bb1df1610",
+  "normalized_evidence_sha256_after": "45ce26eb393e886ad25505e7007fbfaf866b3bfb784a0dbe57fd6da3918614fe",
+  "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "a63993ac0c7cf5cc02b45474ee9d51fabad1427b49c58f5d352327f7e6dca171",
+    "classification": "MEASUREMENT_ERROR",
+    "raw_fidelity": "MEASUREMENT_ERROR",
+    "destination_accessibility": "UNKNOWN"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "12d92e79e3eacbbaec54c470c26a37932f354f38ac2c115301b0fd4796798ddf",
+    "classification": "MEASUREMENT_ERROR",
+    "raw_fidelity": "MEASUREMENT_ERROR",
+    "destination_accessibility": "UNKNOWN"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": false,
+  "genuinely_undetected": true,
+  "semantically_meaningful_survival": true,
+  "outcome_status": "SEMANTICALLY_MEANINGFUL_SURVIVAL",
+  "inconclusive_or_unsupported_reason": "contracted evidence changed but coarse classification did not",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

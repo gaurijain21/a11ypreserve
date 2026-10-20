@@ -1,0 +1,22 @@
+{
+  "fixture_id": "F07_A",
+  "family": "decorative_images",
+  "operator": "no Artifact representation",
+  "baseline_pdf_sha256": "659cc2a0ec3a4a7d8604f482fa7878d54581a02dfe4a2074f99dd04f7bb5374d",
+  "mutated_pdf_sha256": "97a0ec28a30aca44daf4f5953e8a0c0cd155c91ac07850793073bc7d39ce70e2",
+  "mutation_applied": false,
+  "valid_pdf": true,
+  "baseline_classification": null,
+  "mutated_classification": null,
+  "classification_changed": false,
+  "attack_scorable": false,
+  "comparator_result": "NOT_DETECTED_OR_UNSCORED",
+  "timestamp_utc": "2026-10-20T06:32:37.047296+00:00",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

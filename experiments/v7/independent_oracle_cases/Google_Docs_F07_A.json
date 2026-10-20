@@ -1,0 +1,37 @@
+{
+  "fixture_id": "F07_A",
+  "family": "decorative_images",
+  "pipeline": "Google Docs",
+  "source_sha256": "83abc799c2d127a47d494aeea61cc64347e4615d049712772493c776e1dc7af6",
+  "pdf_sha256": "24af93e1f49ebcf591e40bc8c9a88564f2b7de463ff143b081fe827d6e732ec4",
+  "frozen_classification": "OBSERVED_PARTIAL",
+  "source_contract_projection": {
+    "figures": [
+      {
+        "alt": "",
+        "decorative": true
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "40f55db512e34114c54eb7b2fcbca7a9797125c908daf37421a1ce855929d4a2",
+    "role_counts": {
+      "/Document": 1,
+      "/Figure": 1,
+      "/H1": 1,
+      "/P": 1,
+      "/Span": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en",
+    "metadata_title": "F07_A"
+  },
+  "independent_observation": "NO_OBSERVED_ARTIFACT",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

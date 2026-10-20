@@ -1,0 +1,51 @@
+{
+  "fixture_id": "F01_E",
+  "family": "headings",
+  "pipeline": "LibreOffice",
+  "source_sha256": "3b8f49fafcbc5165a03634c9dff00ece978c822e4189703a12da8b8c22b69487",
+  "pdf_sha256": "49db42dfaffb0246a14685f70fce94faeff10e1dda19fbc3b950dba1cd07aef9",
+  "frozen_classification": "VERIFIED_PRESERVED",
+  "source_contract_projection": {
+    "headings": [
+      {
+        "level": 1,
+        "text": "Part"
+      },
+      {
+        "level": 2,
+        "text": "Section"
+      },
+      {
+        "level": 3,
+        "text": "Subsection"
+      },
+      {
+        "level": 4,
+        "text": "Subdetail"
+      }
+    ]
+  },
+  "destination_projection": {
+    "pages": 1,
+    "text_sha256": "e5a4e6f4bf076b729bd2786b5bc6d04243c64d35963c2c39ffc881e26de118fd",
+    "role_counts": {
+      "/Document": 1,
+      "/H1": 1,
+      "/H2": 1,
+      "/H3": 1,
+      "/H4": 1,
+      "/Standard": 1,
+      "/Title": 1
+    },
+    "alt_values": [],
+    "lang_values": [],
+    "actual_text_values": [],
+    "annotation_uri_count": 0,
+    "annotation_uris": [],
+    "catalog_lang": "en-US",
+    "metadata_title": "V4 headings 5"
+  },
+  "independent_observation": "OBSERVED_STRUCTURE",
+  "status": "COMPLETE",
+  "timestamp_utc": "2026-10-20T06:32:19.441869+00:00"
+}

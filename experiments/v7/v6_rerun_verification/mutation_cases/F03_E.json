@@ -1,0 +1,525 @@
+{
+  "protocol": "V6 destination mutation sensitivity",
+  "timestamp_utc": "2026-10-20T06:34:35.545852+00:00",
+  "fixture_id": "F03_E",
+  "feature_family": "lists",
+  "mutation_operator": "mutated first /L role",
+  "mutation_target": "/L",
+  "source_path": "experiments/v4/fixtures/F03_E.docx",
+  "baseline_pdf_path": "experiments/v4/conversions/libreoffice/outputs/atomic/F03_E__LIBREOFFICE.pdf",
+  "mutated_pdf_path": "experiments/v6/destination_mutants/F03_E.pdf",
+  "baseline_pdf_sha256": "4c4e3f99eb0131ad4033162c0b8a0dfab020df286f56d452e153a8af932361e6",
+  "mutated_pdf_sha256": "4fb44560e3a5778f83339b3c31085cb890f344074f9777e6b58888fe17c2e22a",
+  "mutation_applied": true,
+  "valid_pdf": true,
+  "error": null,
+  "baseline_classification": "OBSERVED_PARTIAL",
+  "mutated_classification": "OBSERVED_PARTIAL",
+  "baseline_noncanonical_status": "OBSERVED_PARTIAL",
+  "raw_semantic_evidence_before": {
+    "feature": "lists",
+    "source_value": [
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Restart one",
+        "parent": null,
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "10",
+          "ilvl": 0,
+          "numFmt": "decimal"
+        }
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Restart two",
+        "parent": null,
+        "order": 3,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "10",
+          "ilvl": 0,
+          "numFmt": "decimal"
+        }
+      },
+      {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Nested note",
+        "parent": null,
+        "order": 4,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "11",
+          "ilvl": 1,
+          "numFmt": "bullet"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "type": "L",
+        "depth": 0,
+        "text": "",
+        "list_numbering": "/Decimal",
+        "list_type": "ordered",
+        "evidence": {
+          "pdf_role": "L",
+          "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/A': {'/O': '/List', '/ListNumbering': '/Decimal'}, '/K': [IndirectObject(7, 0, 2603414400656), IndirectObject(11, 0, 2603414400656)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [IndirectObject(8, 0, 2603414400656), IndirectObject(9, 0, 2603414400656)]}"
+        }
+      },
+      {
+        "type": "Lbl",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "Lbl",
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(7, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [1]}"
+        }
+      },
+      {
+        "type": "LBody",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LBody",
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(7, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [IndirectObject(10, 0, 2603414400656)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [IndirectObject(12, 0, 2603414400656), IndirectObject(13, 0, 2603414400656)]}"
+        }
+      },
+      {
+        "type": "Lbl",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "Lbl",
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(11, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [3]}"
+        }
+      },
+      {
+        "type": "LBody",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LBody",
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(11, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [IndirectObject(14, 0, 2603414400656)]}"
+        }
+      },
+      {
+        "type": "L",
+        "depth": 0,
+        "text": "",
+        "list_numbering": "/Disc",
+        "list_type": "unordered",
+        "evidence": {
+          "pdf_role": "L",
+          "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/A': {'/O': '/List', '/ListNumbering': '/Disc'}, '/K': [IndirectObject(16, 0, 2603414400656)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(15, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [IndirectObject(17, 0, 2603414400656), IndirectObject(18, 0, 2603414400656)]}"
+        }
+      },
+      {
+        "type": "Lbl",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "Lbl",
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(16, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [5]}"
+        }
+      },
+      {
+        "type": "LBody",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LBody",
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(16, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [IndirectObject(19, 0, 2603414400656)]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "type": "L",
+        "depth": 0,
+        "text": "",
+        "list_numbering": "/Decimal",
+        "list_type": "ordered",
+        "evidence": {
+          "pdf_role": "L",
+          "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/A': {'/O': '/List', '/ListNumbering': '/Decimal'}, '/K': [IndirectObject(7, 0, 2603414400656), IndirectObject(11, 0, 2603414400656)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [IndirectObject(8, 0, 2603414400656), IndirectObject(9, 0, 2603414400656)]}"
+        }
+      },
+      {
+        "type": "Lbl",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "Lbl",
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(7, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [1]}"
+        }
+      },
+      {
+        "type": "LBody",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LBody",
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(7, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [IndirectObject(10, 0, 2603414400656)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(6, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [IndirectObject(12, 0, 2603414400656), IndirectObject(13, 0, 2603414400656)]}"
+        }
+      },
+      {
+        "type": "Lbl",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "Lbl",
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(11, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [3]}"
+        }
+      },
+      {
+        "type": "LBody",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LBody",
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(11, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [IndirectObject(14, 0, 2603414400656)]}"
+        }
+      },
+      {
+        "type": "L",
+        "depth": 0,
+        "text": "",
+        "list_numbering": "/Disc",
+        "list_type": "unordered",
+        "evidence": {
+          "pdf_role": "L",
+          "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(4, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/A': {'/O': '/List', '/ListNumbering': '/Disc'}, '/K': [IndirectObject(16, 0, 2603414400656)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(15, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [IndirectObject(17, 0, 2603414400656), IndirectObject(18, 0, 2603414400656)]}"
+        }
+      },
+      {
+        "type": "Lbl",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "Lbl",
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(16, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [5]}"
+        }
+      },
+      {
+        "type": "LBody",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LBody",
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(16, 0, 2603414400656), '/Pg': IndirectObject(1, 0, 2603414400656), '/K': [IndirectObject(19, 0, 2603414400656)]}"
+        }
+      }
+    ],
+    "fidelity_classification": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F03_E.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/conversions/libreoffice/outputs/atomic/F03_E__LIBREOFFICE.pdf"
+        }
+      },
+      {
+        "source_items": 3,
+        "destination_items": 3,
+        "source_blocks": 2,
+        "destination_blocks": 2,
+        "source_nested_items": 1,
+        "destination_nested_blocks": 0
+      }
+    ],
+    "confidence": "high",
+    "notes": "some list structure survives but item count or nesting differs"
+  },
+  "raw_semantic_evidence_after": {
+    "feature": "lists",
+    "source_value": [
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Restart one",
+        "parent": null,
+        "order": 2,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "10",
+          "ilvl": 0,
+          "numFmt": "decimal"
+        }
+      },
+      {
+        "type": "ordered",
+        "depth": 0,
+        "text": "Restart two",
+        "parent": null,
+        "order": 3,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "10",
+          "ilvl": 0,
+          "numFmt": "decimal"
+        }
+      },
+      {
+        "type": "unordered",
+        "depth": 1,
+        "text": "Nested note",
+        "parent": null,
+        "order": 4,
+        "evidence": {
+          "ooxml": "word/document.xml",
+          "numId": "11",
+          "ilvl": 1,
+          "numFmt": "bullet"
+        }
+      }
+    ],
+    "destination_value": [
+      {
+        "type": "L",
+        "depth": 0,
+        "text": "",
+        "list_numbering": "/Disc",
+        "list_type": "unordered",
+        "evidence": {
+          "pdf_role": "L",
+          "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(18, 0, 2603416579536), '/Pg': IndirectObject(13, 0, 2603416579536), '/A': {'/O': '/List', '/ListNumbering': '/Disc'}, '/K': [IndirectObject(29, 0, 2603416579536)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(28, 0, 2603416579536), '/Pg': IndirectObject(13, 0, 2603416579536), '/K': [IndirectObject(30, 0, 2603416579536), IndirectObject(31, 0, 2603416579536)]}"
+        }
+      },
+      {
+        "type": "Lbl",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "Lbl",
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(29, 0, 2603416579536), '/Pg': IndirectObject(13, 0, 2603416579536), '/K': [5]}"
+        }
+      },
+      {
+        "type": "LBody",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LBody",
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(29, 0, 2603416579536), '/Pg': IndirectObject(13, 0, 2603416579536), '/K': [IndirectObject(32, 0, 2603416579536)]}"
+        }
+      }
+    ],
+    "destination_representation": [
+      {
+        "type": "L",
+        "depth": 0,
+        "text": "",
+        "list_numbering": "/Disc",
+        "list_type": "unordered",
+        "evidence": {
+          "pdf_role": "L",
+          "object": "{'/Type': '/StructElem', '/S': '/L', '/P': IndirectObject(18, 0, 2603416579536), '/Pg': IndirectObject(13, 0, 2603416579536), '/A': {'/O': '/List', '/ListNumbering': '/Disc'}, '/K': [IndirectObject(29, 0, 2603416579536)]}"
+        }
+      },
+      {
+        "type": "LI",
+        "depth": 1,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LI",
+          "object": "{'/Type': '/StructElem', '/S': '/LI', '/P': IndirectObject(28, 0, 2603416579536), '/Pg': IndirectObject(13, 0, 2603416579536), '/K': [IndirectObject(30, 0, 2603416579536), IndirectObject(31, 0, 2603416579536)]}"
+        }
+      },
+      {
+        "type": "Lbl",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "Lbl",
+          "object": "{'/Type': '/StructElem', '/S': '/Lbl', '/P': IndirectObject(29, 0, 2603416579536), '/Pg': IndirectObject(13, 0, 2603416579536), '/K': [5]}"
+        }
+      },
+      {
+        "type": "LBody",
+        "depth": 2,
+        "text": "",
+        "list_numbering": null,
+        "list_type": null,
+        "evidence": {
+          "pdf_role": "LBody",
+          "object": "{'/Type': '/StructElem', '/S': '/LBody', '/P': IndirectObject(29, 0, 2603416579536), '/Pg': IndirectObject(13, 0, 2603416579536), '/K': [IndirectObject(32, 0, 2603416579536)]}"
+        }
+      }
+    ],
+    "fidelity_classification": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY",
+    "evidence": [
+      {
+        "source": {
+          "method": "deterministic OOXML inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v4/fixtures/F03_E.docx",
+          "independent_raw_package": true
+        },
+        "destination": {
+          "method": "pypdf object-model, structure-tree, annotation, and marked-content inspection",
+          "source": "<REPOSITORY_ROOT>/experiments/v6/destination_mutants/F03_E.pdf"
+        }
+      },
+      {
+        "source_items": 3,
+        "destination_items": 1,
+        "source_blocks": 2,
+        "destination_blocks": 1,
+        "source_nested_items": 1,
+        "destination_nested_blocks": 0
+      }
+    ],
+    "confidence": "high",
+    "notes": "some list structure survives but item count or nesting differs"
+  },
+  "normalized_evidence_sha256_before": "584b65db9c6d83f9f08e8f94ec1a10e41aafc4fd74236525346291d451f91728",
+  "normalized_evidence_sha256_after": "49da33b7a2abee5bfcf1821d13a717a677ab5d5e7597a6fa07e88a594f3fe4b0",
+  "extracted_evidence_changed": true,
+  "evidence_drift_alert": true,
+  "evidence_level_detection": true,
+  "contracted_semantics_before": {
+    "signature_sha256": "2942b40b273cf0c073c05579284afcc812730c6b23a95e51530226ed001a47d0",
+    "classification": "OBSERVED_PARTIAL",
+    "raw_fidelity": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY"
+  },
+  "contracted_semantics_after": {
+    "signature_sha256": "6ce86a718a568ed3a17bd55fb511a575b8ad80c8d1c741a0d36a63af5f54bd43",
+    "classification": "OBSERVED_PARTIAL",
+    "raw_fidelity": "PARTIAL_PRESERVATION",
+    "destination_accessibility": "DEGRADED_ACCESSIBILITY"
+  },
+  "contracted_semantics_changed": true,
+  "classification_changed": false,
+  "genuinely_undetected": true,
+  "semantically_meaningful_survival": true,
+  "outcome_status": "SEMANTICALLY_MEANINGFUL_SURVIVAL",
+  "inconclusive_or_unsupported_reason": "contracted evidence changed but coarse classification did not",
+  "tool_versions": {
+    "python": "3.11.9",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pypdf": "6.18.1",
+    "pymupdf": "1.28.2"
+  }
+}

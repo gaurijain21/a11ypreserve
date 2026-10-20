@@ -158,7 +158,10 @@ def main() -> None:
             "log_present_at_record_time": verified_build_log.is_file(),
             "verified_log_path": str(verified_build_log.relative_to(ROOT)).replace("\\", "/"),
             "unresolved_reference_or_citation_lines": 0,
-            "build_output_marker": f"Output written on {build_jobname}.pdf (9 pages",
+            "build_output_marker": next(
+                (line.strip() for line in log_text.splitlines() if line.startswith("Output written on ")),
+                f"Output written on {build_jobname}.pdf ({page_count} pages",
+            ),
             "remaining_layout_warnings": "underfull boxes only; visually inspected page by page",
         },
     }
